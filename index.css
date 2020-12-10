@@ -1,0 +1,570 @@
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1.1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;   
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+
+/*  END RESET */
+
+
+
+
+
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
+
+/* Styling body og pagewrap */
+body {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+    background-repeat: no-repeat;
+}
+
+
+/* STYLING MOBILE FIRST */
+/* GLOBAL MENU */
+
+/* Burgermenu ikonet START*/
+.navbar-toggler .burgermenu-line {
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: #fff;
+    border-radius: 3px;
+} /* Dette er for at lave nye linjer som kan laves helt hvide */
+
+.navbar-toggler .burgermenu-line:nth-child(2),
+.navbar-toggler .burgermenu-line:nth-child(3){
+    margin-top: 8px;
+} /* Dette er for at lave afstand mellem de tre linjer uden at den øverste linje laver afstand til toppen af siden */
+
+.navbar-toggler .burgermenu-line:nth-child(3) {
+    height: 3.2px;
+} /* den sidste linje for lidt mere højde fordi den så ud til at blive cuttede af på toppen */
+
+.navbar button {
+    border: none;
+} /* Dette er for at den grå border omkring burgermenuen ikke er der */
+
+.navbar button {
+      border: none;
+      outline: none;
+    } /* Dette er for at fjerne den border/outline som kommer frem når man trykker på burger menuen */
+/* Burgermenu ikonet END*/
+
+
+/* Links focus effect START */
+#nav-link-uxui:focus {
+    background-color: orange;
+} /* til design thinking linket */
+
+#nav-link-ux1:focus,
+#nav-link-ux2:focus,
+#nav-link-ux3:focus {
+    background-color: dodgerblue;
+} /* til kodning, kommunikation og usability link */
+
+#nav-link-ui1:focus {
+    background-color: purple;
+} /* til design link */
+
+#nav-link-ui2:focus {
+    background-color: green;
+} /* til videoproduktion link */
+
+#nav-link-ui3:focus {
+    background-color: crimson;
+} /* til fotografering link */
+
+#nav-link-projekter:focus,
+#nav-link-omsiden:focus {
+    background-color: white;
+    color: black;
+} /* til projekter og om siden link */
+
+/* Links focus effect END */
+
+
+/* menu liste */
+.navbar-collapse {
+    margin-top: 5px;
+}
+
+/* display på mobil og tablet */
+.globalmenu-desktop {
+    display: none;
+}
+
+/* STYLING FORSIDE MENU */
+.forsidemenu {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2.5em;
+}
+
+#forsideimg {
+    max-width: 100%;
+    height: auto;
+    margin-top: -10%;
+    margin-left: 0.5em;
+    padding-right: 1em;
+}
+
+#uxoguiboks {
+    background-color: crimson;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    animation: mymove 1s;
+}
+
+#uxboks {
+    background-color: crimson;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    animation: mymove 1s;
+}
+
+#uiboks {
+   background-color: crimson;
+    max-width: 100%;
+    text-align: center;
+    color: white; 
+    animation: mymove 1s;
+}
+
+#uxoguiboks h3 {
+    font-weight: 800;
+}
+
+#uxboks h3 {
+    font-weight: 800;
+}
+
+#uiboks h3 {
+    font-weight: 800;
+}
+
+
+
+#uxuimenu {
+    text-align: center;
+
+}
+
+#uxmenu {
+    text-align: center;
+    
+}
+
+#uimenu {
+    text-align: center;
+}
+
+#designthinkingforside {
+    color: white;
+    font-weight: 600;
+}
+
+#kodningforside {
+    color: white;
+    font-weight: 600;
+}
+
+#kommunikationforside {
+    color: white;
+    font-weight: 600;
+}
+
+#usabilityforside {
+    color: white;
+    font-weight: 600;
+}
+
+#designforside {
+    color: white;
+    font-weight: 600;
+}
+
+#videoforside {
+    color: white;
+    font-weight: 600;
+}
+
+#fotoforside {
+    color: white;
+    font-weight: 600;
+}
+
+/* animation af ux/ui, ux og ui boksene */
+@keyframes mymove {
+  0%   { width: 0%;}
+  100% {  width: 100%;}
+}
+
+/* Hover effects til links på forside menu */
+#designthinkingforside:focus {
+    color: orange;
+}
+
+#uxmenu a:focus {
+    color: dodgerblue;
+}
+
+#designforside:focus {
+    color: purple;
+}
+
+#videoforside:focus {
+    color: green;
+}
+
+#fotoforside:focus {
+    color: crimson;
+}
+/* STYLING FORSIDEMENU END */
+
+/* STYLING VALUEPROPERSITION */
+.valuepropersition {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-top: 2em;
+}
+
+#overskrift {
+    font-size: 30px;
+}
+
+#underoverskrift {
+    font-size: 18px;
+}
+/* STYLING VALUEPROPERSITION END */
+
+
+/* GRIDS */
+/* HELE SIDEN MOBIL */
+.globalmenu {
+    grid-area: mobilmenu;
+}
+
+.forsidemenu {
+    grid-area: forsidemenu;
+}
+
+.valuepropersition {
+    grid-area: valuepropersition;
+}
+
+#mitgrid {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "mobilmenu"
+        "valuepropersition"
+        "forsidemenu";
+}
+
+/* FORSIDE MENU MOBIL*/
+#forsideimg {
+    grid-area: brain;
+}
+
+#uxuimenu {
+    grid-area: uxuimenu;
+}
+
+#uxmenu {
+    grid-area: uxmenu;
+}
+
+#uimenu {
+    grid-area: uimenu;
+}
+
+
+.forsidemenu {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+        "brain uxuimenu"
+        "brain uxmenu"
+        "brain uimenu";
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* FORSIDE MENU GRID */
+    .forsidemenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "uxuimenu uxuimenu uxuimenu"
+        "uxmenu brain uimenu"
+    }
+
+    #uxuimenu {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    
+    /* STYLING FORSIDE MENU */
+    
+    #forsideimg {
+        margin-top: 1em;
+    }
+    
+    #uxmenu {
+        margin-top: 4em;
+    }
+    
+    #uimenu {
+        margin-top: 4em;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* GLOBAL MENU DESKTOP */
+    /* display */
+    .globalmenu {
+        display: none;
+    }
+    
+    .globalmenu-desktop {
+        display: block;
+    }
+    
+    .mega-menu {
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    
+    /* STYLING */
+    .globalmenu-desktop .navbar-brand {
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+    .globalmenu-desktop {
+        width: 100%;
+        height: 75px;
+        padding: 10px 0;
+    }
+    
+    .menu-links-desktop {
+        list-style: none;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        padding-right: 2em;
+    }
+    
+    .nav-links-desktop {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        cursor: pointer;
+        color: white;
+        transition: all 0.4s ease;
+    }
+    
+    
+    .nav-links-desktop:last-child {
+        margin-right: 0;
+    }
+    
+        /* mega menuen */
+    .mega-menu {
+        position: absolute;
+        width: 100%;
+        display: inline-block;
+        margin-top: 30px;
+        transition: all 0.4s ease;
+        background-color: black;
+        padding: 20px 0;
+        left: 0;
+    }
+    
+    .inner-mega-titel {
+        color: white;
+    }
+    
+    .inner-mega-menu {
+        display: inline-block;
+        margin-right: 10%;
+    }
+    
+    .inner-mega-links {
+        color: white;
+        display: block;
+    }
+    
+    .inner-mega-menu:last-child{
+        margin-right: 0%;
+    }
+    
+    
+    /* HOVER */
+    .nav-links-desktop:hover {
+        color: dodgerblue;
+    }
+    
+    .inner-mega-links:hover {
+        color: dodgerblue;
+        text-decoration: none;
+    }
+    
+    .nav-links-desktop:hover .mega-menu {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    /* DEKSTOP MENU GRIDS */
+    .menu-links-desktop {
+        grid-area: globalmenu-desktop;
+    }
+    
+    .globalmenu-desktop .navbar-brand {
+        grid-area: logo;
+    }
+    
+    
+    .globalmenu-desktop {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-areas: 
+            "logo globalmenu-desktop";
+    }
+    
+    /* GRID FOR MENU LISTE PLACERING */
+    .menuliste1 {
+        grid-area: menuliste1;
+    }
+    
+    .menuliste2 {
+        grid-area: menuliste2;
+    }
+    
+    .menuliste3 {
+        grid-area: menuliste3;
+    }
+    
+    .menuliste4 {
+        grid-area: menuliste4;
+    }
+    
+    .menuliste5 {
+        grid-area: menuliste5;
+    }
+    
+    .menuliste6 {
+        grid-area: menuliste6;
+    }
+    
+    .menuliste7 {
+        grid-area: menuliste7;
+    }
+    
+    .menuliste8 {
+        grid-area: menuliste8;
+    }
+    
+    .menuliste9 {
+        grid-area: menuliste9;
+    }
+    
+    
+    .menu-links-desktop {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-areas: 
+            "menuliste1 menuliste2 menuliste3 menuliste4 menuliste5 menuliste6 menuliste7 menuliste8 menuliste9";
+    }
+    
+    
+    
+    
+    /* FORSIDE MENU GRID */
+    .forsidemenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "uxuimenu uxuimenu uxuimenu"
+        "uxmenu brain uimenu"
+    }
+
+    #uxuimenu {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    
+
+    
+    
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+
+    
+    
+}
+
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+
+
+
+
+
+
+
+
+
+
+
