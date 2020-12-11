@@ -29,8 +29,11 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /*  END RESET */
 
+/* STYLING GENERELT FOR ALLE SIDER */
 
 
+
+/* STYLING GENERELT FOR ALLE SIDER */
 
 
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
@@ -39,6 +42,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 body {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 
@@ -186,37 +190,44 @@ body {
 
 #designthinkingforside {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 #kodningforside {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 #kommunikationforside {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 #usabilityforside {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 #designforside {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 #videoforside {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 #fotoforside {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* animation af ux/ui, ux og ui boksene */
@@ -227,23 +238,38 @@ body {
 
 /* Hover effects til links på forside menu */
 #designthinkingforside:focus {
-    color: orange;
+    background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #uxmenu a:focus {
-    color: dodgerblue;
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #designforside:focus {
-    color: purple;
+    background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 #videoforside:focus {
-    color: green;
+    background: linear-gradient(90deg, #FA5B50, #E00F00 40%) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #fotoforside:focus {
-    color: crimson;
+    background: linear-gradient(90deg, #ED980C, #F75F0C 50%) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* STYLING FORSIDEMENU END */
 
@@ -258,10 +284,17 @@ body {
 
 #overskrift {
     font-size: 30px;
+    font-family: quimby-gubernatorial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 12px;
 }
 
 #underoverskrift {
     font-size: 18px;
+    font-style: normal;
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 /* STYLING VALUEPROPERSITION END */
 
@@ -321,14 +354,199 @@ body {
 }
 
 
+/* GRID DESKTOP (MEN HER TIL MOBIL OG TABLET FORDI ELLERS VIRKER DE ANDRE GRIDS IKKE OPTIMALT) */
+#grid-desktop {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "valuepropersition"
+        "forsidemenu";
+}
+
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+
+
+
+
+/* MOBILE eller mindre */
+@media only screen and (max-width: 600px) {
+
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/
+    body {
+        height: 750px;
+    }
+    /* forside menu */
+    .forsidemenu {
+        margin-top: 50px;
+    }
+    
+    /* forside menu lister UI, UX og UX/UI */
+    #uxoguiboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uxboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uiboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uxuimenu {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #uxmenu {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #uimenu {
+        font-size: 18px;
+    }
+    
+    #uxoguiboks h3 {
+        font-size: 20px;
+    }
+
+    #uxboks h3 {
+        font-size: 20px;
+    }
+
+    #uiboks h3 {
+        font-size: 20px;
+    }
+    
+    #uimenu li:nth-child(2),
+    #uimenu li:nth-child(3),
+    #uimenu li:nth-child(4){
+        margin-bottom: 3px;
+    }
+    
+    #uxmenu li:nth-child(2),
+    #uxmenu li:nth-child(3),
+    #uxmenu li:nth-child(4){
+        margin-bottom: 3px;
+    }   
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/
+    body {
+        height: 750px;
+    }
     
+    /* Valuepropersition */
+    #overskrift {
+        font-size: 45px;
+    }
+    
+    #underoverskrift {
+        font-size: 23px;
+    }
+    
+    /* forside menu */
+    .forsidemenu {
+        margin-top: 65px;
+    }
+    
+    #forsideimg {
+        max-width: 85%;
+        padding-right: 0;
+        margin-left: 30px;
+    }
+    
+    /* forside menu lister UI, UX og UX/UI */
+    #uxoguiboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uxboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uiboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uxuimenu {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #uxmenu {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #uimenu {
+        font-size: 18px;
+    }
+    
+    #uxoguiboks h3 {
+        font-size: 20px;
+    }
+
+    #uxboks h3 {
+        font-size: 20px;
+    }
+
+    #uiboks h3 {
+        font-size: 20px;
+    }
+    
+    #uimenu li:nth-child(2),
+    #uimenu li:nth-child(3),
+    #uimenu li:nth-child(4){
+        margin-bottom: 3px;
+    }
+    
+    #uxmenu li:nth-child(2),
+    #uxmenu li:nth-child(3),
+    #uxmenu li:nth-child(4){
+        margin-bottom: 3px;
+    }   
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
     
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
+    body {
+        height: 750px;
+    }
+    
     /* FORSIDE MENU GRID */
     .forsidemenu {
     display: grid;
@@ -346,21 +564,113 @@ body {
     /* STYLING FORSIDE MENU */
     
     #forsideimg {
-        margin-top: 1em;
+        max-width: 110%;
+        margin-top: 0.5em;
+        margin-left: -5%;
     }
     
+    #uxoguiboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uxboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uiboks {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    #uxuimenu {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
     #uxmenu {
+        font-size: 21px;
+        margin-bottom: 10px;
         margin-top: 4em;
+        max-width: 90%;
+    }
+
+    #uimenu {
+        font-size: 21px;
+        margin-top: 4em;
+        max-width: 90%;
+        position: relative;
+        left: 10%;
     }
     
-    #uimenu {
-        margin-top: 4em;
+    #uxoguiboks h3 {
+        font-size: 25px;
     }
+
+    #uxboks h3 {
+        font-size: 25px;
+    }
+
+    #uiboks h3 {
+        font-size: 25px;
+    }
+    
+    #uimenu li:nth-child(2),
+    #uimenu li:nth-child(3),
+    #uimenu li:nth-child(4){
+        margin-bottom: 7px;
+    }
+    
+    #uxmenu li:nth-child(2),
+    #uxmenu li:nth-child(3),
+    #uxmenu li:nth-child(4){
+        margin-bottom: 7px;
+    }
+    
+    #designthinkingforside {
+        font-weight: 800;
+    }
+
+    #kodningforside {
+        font-weight: 800;
+    }
+
+    #kommunikationforside {
+        font-weight: 800;
+    }
+
+    #usabilityforside {
+        font-weight: 800;
+    }
+
+    #designforside {
+        font-weight: 800;
+    }
+
+    #videoforside {
+        font-weight: 800;
+    }
+
+    #fotoforside {
+        font-weight: 800;
+    }
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+
     
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
+    body {
+        height: 750px;
+    }
+    
     /* GLOBAL MENU DESKTOP */
     /* display */
     .globalmenu {
@@ -378,13 +688,11 @@ body {
     
 
     /* STYLING */
-    .globalmenu-desktop .navbar-brand {
-        margin-right: 6%;
-    }
+    
     
     .globalmenu-desktop .navbar-nav {
-        
         font-size: 15px;
+        font-weight: 500;
     }
     
     .globalmenu-desktop #menulisteflyt-omsiden {
@@ -474,15 +782,13 @@ body {
         color: black;
     }
     
-    
-    
     /* FORSIDE MENU GRID */
     .forsidemenu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "uxuimenu uxuimenu uxuimenu"
-        "uxmenu brain uimenu"
+        "uxmenu brain uimenu";
     }
 
     #uxuimenu {
@@ -490,7 +796,108 @@ body {
         grid-column-end: 2;
     }
     
+    /* Forside menu styling */
+    .forsidemenu {
+        margin-top: 2em;
+    }
+    
+    #forsideimg {
+        max-width: 95%;
+        margin-left: 2.5%;
+    }
+    
+    /* value propersition styling */
+    .valuepropersition {
+        margin-top: 2em;
+        }
+    
+    #overskrift {
+        font-size: 40px;
+    }
+    
+    #underoverskrift {
+        font-size: 20px
+    }
+    
+    /* Hover effects til menuerne */
+    #designthinkingforside {
+        background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #designthinkingforside:hover {
+        background-size:100% 100%;
+    }
 
+    #uxmenu a {
+        background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #uxmenu a:hover {
+        background-size:100% 100%;
+    }
+
+    #designforside {
+        background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #designforside:hover {
+        background-size:100% 100%;
+    }
+
+    #videoforside {
+        background: linear-gradient(90deg, #FA5B50, #E00F00 40%) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #videoforside:hover {
+        background-size:100% 100%;
+    }
+
+    #fotoforside {
+        background: linear-gradient(90deg, #ED980C, #F75F0C 50%) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #fotoforside:hover {
+        background-size:100% 100%;
+    }
+    
+    
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+
+    @media only screen and (min-width: 1020px) {
+        .globalmenu-desktop .navbar-brand {
+        margin-right: 5%;
+    }
+    }
     
     
     
@@ -498,6 +905,21 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/
+    body {
+        height: 800px;
+    }
+    
+    /* GRID DESKTOP */
+    #grid-desktop {
+    margin-top: 8em;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-areas: 
+        "valuepropersition forsidemenu";
+    }
+    
     /* GLOBAL MENU DESKTOP */
     /* styling */
     .globalmenu-desktop .navbar-brand {
@@ -508,6 +930,10 @@ body {
     .globalmenu-desktop .navbar-nav {
         font-size: 16px;
         margin-left: 15%;
+        margin-right: 0;
+        padding-right: 0;
+        right: 0;
+        left: 0;
     }
     
     .globalmenu-desktop #menulisteflyt-omsiden {
@@ -518,10 +944,42 @@ body {
         margin-left: 0em;
     }
     
+    /* VALUE PROPERSITION STYLING */
+    .valuepropersition {
+        margin-top: -6em;
+        width: 100%;
+        margin-left: 1em;
+        
+    }
+    
+    #overskrift {
+        font-size: 50px;
+        
+    }
+    
+    #underoverskrift {
+        font-size: 20px;
+    }
+    
+    /* Forside menu styling */
+    .forsidemenu {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #forsideimg {
+        max-width:100%;
+        margin: 0;
+    }
+    
+    
+    
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+
     
 }
 
-/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+
 
 
 
