@@ -39,10 +39,15 @@ blockquote:before, blockquote:after, q:before, q:after {
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
 
 /* Styling body og pagewrap */
+html, body {
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
-    width: 100%;
 }
 
 
@@ -80,31 +85,42 @@ body {
 
 /* Links focus effect START */
 #nav-link-uxui:focus {
-    background-color: orange;
+    background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat;
+    color: white;
+    font-weight: 600;
 } /* til design thinking linket */
 
 #nav-link-ux1:focus,
 #nav-link-ux2:focus,
 #nav-link-ux3:focus {
-    background-color: dodgerblue;
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    color: white;
+    font-weight: 600;
 } /* til kodning, kommunikation og usability link */
 
 #nav-link-ui1:focus {
-    background-color: purple;
+    background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
+    color: white;
+    font-weight: 600;
 } /* til design link */
 
 #nav-link-ui2:focus {
-    background-color: green;
+    background: linear-gradient(90deg, #FA5B50, #E00F00 40%) no-repeat;
+    color: white;
+    font-weight: 600;
 } /* til videoproduktion link */
 
 #nav-link-ui3:focus {
-    background-color: crimson;
+    background: linear-gradient(90deg, #ED980C, #F75F0C 50%) no-repeat;
+    color: white;
+    font-weight: 600;
 } /* til fotografering link */
 
 #nav-link-projekter:focus,
 #nav-link-omsiden:focus {
     background-color: white;
     color: black;
+    font-weight: 600;
 } /* til projekter og om siden link */
 
 /* Links focus effect END */
@@ -372,9 +388,6 @@ body {
 @media only screen and (max-width: 600px) {
 
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/
-    body {
-        height: 750px;
-    }
     /* forside menu */
     .forsidemenu {
         margin-top: 50px;
@@ -543,9 +556,6 @@ body {
 @media only screen and (min-width: 768px) {
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
-    body {
-        height: 750px;
-    }
     
     /* FORSIDE MENU GRID */
     .forsidemenu {
@@ -667,9 +677,6 @@ body {
 @media only screen and (min-width: 992px) {
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
-    body {
-        height: 750px;
-    }
     
     /* GLOBAL MENU DESKTOP */
     /* display */
@@ -907,9 +914,6 @@ body {
 @media only screen and (min-width: 1200px) {
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/
-    body {
-        height: 800px;
-    }
     
     /* GRID DESKTOP */
     #grid-desktop {
@@ -946,7 +950,7 @@ body {
     
     /* VALUE PROPERSITION STYLING */
     .valuepropersition {
-        margin-top: -6em;
+        margin-top: -4em;
         width: 100%;
         margin-left: 1em;
         
