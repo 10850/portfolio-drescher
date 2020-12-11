@@ -40,12 +40,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /* Styling body og pagewrap */
 html, body {
-    max-width: 100%;
     height: 100%;
-    overflow: hidden;
-}
-
-body {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
 }
@@ -298,6 +293,10 @@ body {
     margin-top: 2em;
 }
 
+#desktop-tekst {
+    display: none;
+}
+
 #overskrift {
     font-size: 30px;
     font-family: quimby-gubernatorial, sans-serif;
@@ -512,41 +511,41 @@ body {
     }
 
     #uxuimenu {
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 17px;
+        margin-bottom: 20px;
     }
 
     #uxmenu {
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 17px;
+        margin-bottom: 20px;
     }
 
     #uimenu {
-        font-size: 18px;
+        font-size: 17px;
     }
     
     #uxoguiboks h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     #uxboks h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     #uiboks h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
     
     #uimenu li:nth-child(2),
     #uimenu li:nth-child(3),
     #uimenu li:nth-child(4){
-        margin-bottom: 3px;
+        margin-bottom: 9px;
     }
     
     #uxmenu li:nth-child(2),
     #uxmenu li:nth-child(3),
     #uxmenu li:nth-child(4){
-        margin-bottom: 3px;
+        margin-bottom: 9px;
     }   
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
     
@@ -559,6 +558,7 @@ body {
     
     /* FORSIDE MENU GRID */
     .forsidemenu {
+    margin-top: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
@@ -598,19 +598,19 @@ body {
     }
 
     #uxuimenu {
-        font-size: 21px;
+        font-size: 23px;
         margin-bottom: 10px;
     }
 
     #uxmenu {
-        font-size: 21px;
+        font-size: 23px;
         margin-bottom: 10px;
         margin-top: 4em;
         max-width: 90%;
     }
 
     #uimenu {
-        font-size: 21px;
+        font-size: 23px;
         margin-top: 4em;
         max-width: 90%;
         position: relative;
@@ -632,13 +632,13 @@ body {
     #uimenu li:nth-child(2),
     #uimenu li:nth-child(3),
     #uimenu li:nth-child(4){
-        margin-bottom: 7px;
+        margin-bottom: 10px;
     }
     
     #uxmenu li:nth-child(2),
     #uxmenu li:nth-child(3),
     #uxmenu li:nth-child(4){
-        margin-bottom: 7px;
+        margin-bottom: 10px;
     }
     
     #designthinkingforside {
@@ -668,6 +668,10 @@ body {
     #fotoforside {
         font-weight: 800;
     }
+    
+    .valuepropersition {
+        margin-top: 2em;
+    }
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
 
     
@@ -695,8 +699,6 @@ body {
     
 
     /* STYLING */
-    
-    
     .globalmenu-desktop .navbar-nav {
         font-size: 15px;
         font-weight: 500;
@@ -815,15 +817,15 @@ body {
     
     /* value propersition styling */
     .valuepropersition {
-        margin-top: 2em;
+        margin-top: 1.5em;
         }
     
     #overskrift {
-        font-size: 40px;
+        font-size: 44px;
     }
     
     #underoverskrift {
-        font-size: 20px
+        font-size: 22px
     }
     
     /* Hover effects til menuerne */
@@ -917,9 +919,10 @@ body {
     
     /* GRID DESKTOP */
     #grid-desktop {
-    margin-top: 8em;
+    margin-top: 8%;
+    column-gap: 1em;
     display: grid;
-    grid-template-columns: 1fr 2.5fr;
+    grid-template-columns: 1.2fr 2fr;
     grid-template-areas: 
         "valuepropersition forsidemenu";
     }
@@ -950,30 +953,55 @@ body {
     
     /* VALUE PROPERSITION STYLING */
     .valuepropersition {
-        margin-top: -4em;
+        margin-top: 5%;
         width: 100%;
-        margin-left: 1em;
+        margin-left: 2em;
+        text-align: left;
         
     }
     
+    #desktop-tekst {
+        display: block;
+        font-size: 16px;
+        font-style: normal;
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        margin-bottom: 0.5em;
+        margin-left: 0.5em;
+    }
+    
     #overskrift {
-        font-size: 50px;
+        font-size: 40px;
         
     }
     
     #underoverskrift {
-        font-size: 20px;
+        font-size: 16px;
+        margin-top: 0.5em;
     }
     
     /* Forside menu styling */
     .forsidemenu {
-        width: 100%;
+        width: 95%;
         margin: 0;
     }
     
     #forsideimg {
         max-width:100%;
         margin: 0;
+    }
+    
+    #uxuimenu a{
+        font-size: 125%;
+    }
+    
+    #uxmenu a{
+        font-size: 125%;
+    }
+    
+    #uimenu a{
+        font-size: 125%;
     }
     
     
