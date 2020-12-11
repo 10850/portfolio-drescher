@@ -819,7 +819,76 @@ body {
         font-size: 20px
     }
     
-    /* GRID TIL HELE SIDEN */
+    /* Hover effects til menuerne */
+    #designthinkingforside {
+        background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #designthinkingforside:hover {
+        background-size:100% 100%;
+    }
+
+    #uxmenu a {
+        background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #uxmenu a:hover {
+        background-size:100% 100%;
+    }
+
+    #designforside {
+        background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #designforside:hover {
+        background-size:100% 100%;
+    }
+
+    #videoforside {
+        background: linear-gradient(90deg, #FA5B50, #E00F00 40%) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #videoforside:hover {
+        background-size:100% 100%;
+    }
+
+    #fotoforside {
+        background: linear-gradient(90deg, #ED980C, #F75F0C 50%) no-repeat, #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size:0% 100%;
+        font-size:30px;
+        transition: 0.75s;
+    }
+    
+    #fotoforside:hover {
+        background-size:100% 100%;
+    }
     
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
@@ -844,7 +913,7 @@ body {
     
     /* GRID DESKTOP */
     #grid-desktop {
-    margin-top: 10em;
+    margin-top: 8em;
     display: grid;
     grid-template-columns: 1fr 2.5fr;
     grid-template-areas: 
@@ -902,6 +971,8 @@ body {
         max-width:100%;
         margin: 0;
     }
+    
+    
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
 
