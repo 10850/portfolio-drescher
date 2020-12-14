@@ -78,6 +78,10 @@ html, body {
 
 /* Burgermenu ikonet END*/
 
+.navbar-brand img {
+    max-width: 50px;
+}
+
 
 /* Links focus effect START */
 #nav-link-uxui:focus {
@@ -122,8 +126,8 @@ html, body {
 .globalmenu .navbar-collapse {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
-    height: 1000px;
-    overflow: hidden;
+    height: 600px;
+    overflow-y: hidden;
 }
 
 .globalmenu .navbar-collapse {
@@ -800,21 +804,23 @@ html, body {
     
 
     /* STYLING */
+    .globalmenu-desktop .navbar-brand {
+        margin-right: 0%;
+        margin-top: 0;
+    }
+    
+    .navbar-brand img {
+    max-width: 60px;
+    }
+    
     .globalmenu-desktop .navbar-nav {
         font-size: 15px;
         font-weight: 500;
-    }
-    
-    .globalmenu-desktop .navbar-brand {
-        margin-top: -1em;
-    }
-    
-    #menulisteflyt-projekter {
-        margin-left: -2em;
+        margin-left: 2em;
     }
     
     #menulisteflyt-omsiden {
-        margin-left: -2em;
+        margin-left: -4.5em;
     }
     
     /* MENULISTE BACKGROUND COLOR og FONT COLOR */
@@ -842,11 +848,7 @@ html, body {
         background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
         background-repeat: no-repeat;
     }
-    #background-video{
-        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    #background-foto{
+    #background-videoogfoto{
         background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
         background-repeat: no-repeat;
     }
@@ -878,20 +880,17 @@ html, body {
 
     .globalmenu-desktop .mega-dropdown-desktop {
         display: inline-block;
+        margin-top: -2.5em;
     }
 
 
     /* HOVER */
-    .globalmenu-desktop .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-    
-    .dropdown-menu-mega .dropdown:hover .dropdown-menu {
-        display: block;
-        margin-top: -0.45em;
-    }
-    
     .globalmenu-desktop .dropdown a:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .globalmenu-desktop .nav-link:hover {
         background-color: white;
         color: black;
     }
@@ -1012,13 +1011,18 @@ html, body {
 
 @media only screen and (min-width: 1020px) {
         .globalmenu-desktop .navbar-brand {
-        margin-right: 5%;
+        margin-right: 0%;
     }
-        
-        
-        
     
+    #menulisteflyt-omsiden {
+        margin-left: -6.5em;
     }
+    
+    .globalmenu-desktop .navbar-nav {
+        margin-left: 14%;
+    }
+      
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1040,14 +1044,17 @@ html, body {
     /* styling */
     .globalmenu-desktop .navbar-brand {
         margin-right: 0%;
-        margin-top: -1em;
+        margin-top: 0;
+    }
+    
+    .navbar-brand img {
+    max-width: 60px;
     }
     
     
     .globalmenu-desktop .navbar-nav {
         font-size: 16px;
-        margin-left: 15%;
-        margin-right: 0;
+        margin-left: 12.5em;
         padding-right: 0;
         right: 0;
         left: 0;
