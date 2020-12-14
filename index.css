@@ -805,12 +805,8 @@ html, body {
         font-weight: 500;
     }
     
-    .globalmenu-desktop #menulisteflyt-omsiden {
-        margin-left: -6.5em;
-    }
-    
-    .globalmenu-desktop #menulisteflyt-projekter {
-        margin-left: -2em;
+    .globalmenu-desktop .navbar-brand {
+        margin-top: -1em;
     }
     
     /* MENULISTE BACKGROUND COLOR og FONT COLOR */
@@ -912,8 +908,8 @@ html, body {
     }
     
     #forsideimg {
-        max-width: 95%;
-        margin-left: 2.5%;
+        max-width: 80%;
+        margin-left: 8%;
     }
     
     /* value propersition styling */
@@ -1007,6 +1003,8 @@ html, body {
         .globalmenu-desktop .navbar-brand {
         margin-right: 5%;
     }
+        
+    
     }
     
     
@@ -1035,6 +1033,7 @@ html, body {
         margin-top: -1em;
     }
     
+    
     .globalmenu-desktop .navbar-nav {
         font-size: 16px;
         margin-left: 15%;
@@ -1042,14 +1041,6 @@ html, body {
         padding-right: 0;
         right: 0;
         left: 0;
-    }
-    
-    .globalmenu-desktop #menulisteflyt-omsiden {
-        margin-left: 0em;
-    }
-    
-    .globalmenu-desktop #menulisteflyt-projekter {
-        margin-left: 0em;
     }
     
     /* VALUE PROPERSITION STYLING */
@@ -1094,15 +1085,15 @@ html, body {
     }
     
     #uxuimenu a{
-        font-size: 125%;
+        font-size: 122%;
     }
     
     #uxmenu a{
-        font-size: 125%;
+        font-size: 122%;
     }
     
     #uimenu a{
-        font-size: 125%;
+        font-size: 122%;
     }
     
     
