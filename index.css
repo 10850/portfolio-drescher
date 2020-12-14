@@ -809,6 +809,14 @@ html, body {
         margin-top: -1em;
     }
     
+    #menulisteflyt-projekter {
+        margin-left: -2em;
+    }
+    
+    #menulisteflyt-omsiden {
+        margin-left: -2em;
+    }
+    
     /* MENULISTE BACKGROUND COLOR og FONT COLOR */
     .globalmenu-desktop .navbar a {
         color: white;
@@ -998,18 +1006,20 @@ html, body {
     
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+   
+}
 
-    @media only screen and (min-width: 1020px) {
+
+@media only screen and (min-width: 1020px) {
         .globalmenu-desktop .navbar-brand {
         margin-right: 5%;
     }
         
+        
+        
     
     }
-    
-    
-    
-}
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
