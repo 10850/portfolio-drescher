@@ -1009,20 +1009,7 @@ html, body {
 }
 
 
-@media only screen and (min-width: 1020px) {
-        .globalmenu-desktop .navbar-brand {
-        margin-right: 0%;
-    }
-    
-    #menulisteflyt-omsiden {
-        margin-left: -6.5em;
-    }
-    
-    .globalmenu-desktop .navbar-nav {
-        margin-left: 14%;
-    }
-      
-}
+
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
