@@ -40,7 +40,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /* Styling body og pagewrap */
 html, body {
-    height: 100%;
+    min-height: 100%;
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
 }
@@ -75,6 +75,7 @@ html, body {
       border: none;
       outline: none;
     } /* Dette er for at fjerne den border/outline som kommer frem når man trykker på burger menuen */
+
 /* Burgermenu ikonet END*/
 
 
@@ -85,19 +86,6 @@ html, body {
     font-weight: 600;
 } /* til design thinking linket */
 
-#nav-link-ux1:focus,
-#nav-link-ux2:focus,
-#nav-link-ux3:focus {
-    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
-    color: white;
-    font-weight: 600;
-} /* til kodning, kommunikation og usability link */
-
-#nav-link-ui1:focus {
-    background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
-    color: white;
-    font-weight: 600;
-} /* til design link */
 
 #nav-link-ui2:focus {
     background: linear-gradient(90deg, #FA5B50, #E00F00 40%) no-repeat;
@@ -111,20 +99,133 @@ html, body {
     font-weight: 600;
 } /* til fotografering link */
 
-#nav-link-projekter:focus,
-#nav-link-omsiden:focus {
+#nav-link-projekter:focus {
     background-color: white;
     color: black;
     font-weight: 600;
-} /* til projekter og om siden link */
+}
 
 /* Links focus effect END */
 
 
 /* menu liste */
+.navbar-collapse .nav-item {
+    margin-bottom: 1.5em;
+}
+
 .navbar-collapse {
     margin-top: 5px;
+    z-index: 99;
 }
+
+
+.globalmenu .navbar-collapse {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+    background-repeat: no-repeat;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.globalmenu .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+.globalmenu .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.2s ease;
+        transition: left 0.2s ease;
+        left: -100%;
+    }
+
+.globalmenu .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.2s ease-in;
+        transition: left 0.2s ease-in;
+    }
+
+/* drop downs Mobile */
+.globalmenu .dropdown-menu {
+    border: none;
+    background: transparent;
+}
+
+.globalmenu .dropdown-menu a {
+    color: white;
+}
+
+.globalmenu #navbarDropdown {
+    color: white;
+}
+
+/* focus effect */
+#design-dropdown a:active {
+    background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
+    font-weight: 600;
+}
+
+#design-dropdown a:focus {
+    background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
+    font-weight: 600;
+}
+
+#design-dropdown a:hover {
+    background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
+    font-weight: 600;
+}
+
+#usability-dropdown a:focus {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+#usability-dropdown a:active {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+#usability-dropdown a:hover {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+#kommunikation-dropdown a:focus {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+#kommunikation-dropdown a:active {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+#kommunikation-dropdown a:hover {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+#kodning-dropdown a:focus {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+#kodning-dropdown a:active {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+#kodning-dropdown a:hover {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    font-weight: 600;
+}
+
+
+
 
 /* display på mobil og tablet */
 .globalmenu-desktop {
@@ -931,8 +1032,8 @@ html, body {
     /* styling */
     .globalmenu-desktop .navbar-brand {
         margin-right: 0%;
+        margin-top: -1em;
     }
-    
     
     .globalmenu-desktop .navbar-nav {
         font-size: 16px;
