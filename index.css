@@ -807,65 +807,40 @@ html, body {
     .globalmenu-desktop .navbar-brand {
         margin-right: 0%;
         margin-top: 0;
+        float: left;
     }
     
     .navbar-brand img {
-    max-width: 60px;
+        max-width: 60px;
     }
     
     .globalmenu-desktop .navbar-nav {
         font-size: 15px;
         font-weight: 500;
-        margin-left: 2em;
+        margin-bottom: -2em;
     }
     
     #menulisteflyt-omsiden {
-        margin-left: -4.5em;
+        margin-left: -5.5em;
+    }
+    
+    .dropdown-menu {
+        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     }
     
     /* MENULISTE BACKGROUND COLOR og FONT COLOR */
     .globalmenu-desktop .navbar a {
         color: white;
     }
-    
-     #background-designthinking{
-         background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    #background-kodning{
-        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    #background-kommunikation{
-        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    #background-usability{
-        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    #background-design{
-        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    #background-videoogfoto{
-        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    #menulisteflyt-projekter{
-        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    #menulisteflyt-omsiden {
-        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-        background-repeat: no-repeat;
-    }
-    
 
     /* mega dropdown menu */ 
     .dropdown-menu-mega .dropdown-menu {
         border: none;
         outline: none;
+        background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+        margin-top: -0.8em;
+        text-align: center;
+        word-spacing: 8em;
     }
     
     .dropdown-menu-mega .dropdown { 
@@ -875,12 +850,11 @@ html, body {
 
     .dropdown-menu-mega .dropdown-menu { 
         width: 100%;
-        height: auto;
+        height: 150px;
     }
 
     .globalmenu-desktop .mega-dropdown-desktop {
         display: inline-block;
-        margin-top: -2.5em;
     }
 
 
@@ -1029,11 +1003,6 @@ html, body {
     
     /* GLOBAL MENU DESKTOP */
     /* styling */
-    .globalmenu-desktop .navbar-brand {
-        margin-right: 0%;
-        margin-top: 0;
-    }
-    
     .navbar-brand img {
     max-width: 60px;
     }
@@ -1041,10 +1010,6 @@ html, body {
     
     .globalmenu-desktop .navbar-nav {
         font-size: 16px;
-        margin-left: 12.5em;
-        padding-right: 0;
-        right: 0;
-        left: 0;
     }
     
     /* VALUE PROPERSITION STYLING */
@@ -1099,7 +1064,6 @@ html, body {
     #uimenu a{
         font-size: 122%;
     }
-    
     
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
