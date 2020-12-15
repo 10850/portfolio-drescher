@@ -860,8 +860,7 @@ html, body {
         outline: none;
         background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
         margin-top: -0.8em;
-        text-align: center;
-        word-spacing: 8em;
+
     }
     
     .dropdown-menu-mega .dropdown { 
@@ -871,11 +870,25 @@ html, body {
 
     .dropdown-menu-mega .dropdown-menu { 
         width: 100%;
-        height: 150px;
+        height: 300px;
     }
 
     .globalmenu-desktop .mega-dropdown-desktop {
         display: inline-block;
+        vertical-align: top;
+        margin-left: 3em;
+    }
+    
+    .globalmenu-desktop .mega-dropdown-desktop h3 {
+        color: white;
+        text-align: center;
+        background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    }
+    
+    .globalmenu-desktop #background-design h3 {
+        color: white;
+        text-align: center;
+        background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
     }
 
 

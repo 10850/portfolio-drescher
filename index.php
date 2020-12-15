@@ -22,7 +22,7 @@
             <header>
                 <nav class="globalmenu">
                     <nav class="navbar navbar-expand-lg navbar-dark">
-                      <a class="navbar-brand" href="#"><img src="closure-logo-white.png"></a>
+                      <a class="navbar-brand" href="index.php"><img src="closure-logo-white.png"></a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <label class="burgermenu-line"></label>
                           <label class="burgermenu-line" class="line-margintop"></label>
@@ -147,7 +147,7 @@
                 <!-- DESKTOP  GLOBAL MENU -->
                     <nav class="globalmenu-desktop">
                         <nav class="navbar navbar-expand-lg navbar-custom">
-                          <a class="navbar-brand" href="#"><img src="closure-logo-white.png"></a>
+                          <a class="navbar-brand" href="index.php"><img src="closure-logo-white.png"></a>
                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
@@ -161,43 +161,38 @@
                                         <div class="dropdown-menu" id="background-kodning" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Attributter</a></li>
+                                            <li><a class="dropdown-item" href="#">Kodeskikke</a></li>
+                                            <li><a class="dropdown-item" href="#">Semantiske tags</a></li>
+                                            <li><a class="dropdown-item" href="#">SEO</a></li>
+                                            <li><a class="dropdown-item" href="#">Metadata</a></li>
+                                            <li><a class="dropdown-item" href="#">Adressering</a></li>
+                                            <li><a class="dropdown-item" href="#">Video og Billeder</a></li>
+                                            <li><a class="dropdown-item" href="#">Formularer, felttyper og formatering</a></li>
                                           </ul> 
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Serverer</h3></li>
+                                            <li><a class="dropdown-item" href="#">Serverer</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>CSS</h3></li>
+                                            <li><a class="dropdown-item" href="#">Boxmodellen</a></li>
+                                            <li><a class="dropdown-item" href="#">Selectors</a></li>
+                                            <li><a class="dropdown-item" href="#">Properties</a></li>
+                                            <li><a class="dropdown-item" href="#">Positionering</a></li>
+                                            <li><a class="dropdown-item" href="#">CSS Grid</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Versionsstyring</h3></li>
+                                            <li><a class="dropdown-item" href="#">Boxmodellen</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>PHP</h3></li>
+                                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                                          </ul>
+                                          <ul class="mega-dropdown-desktop">
+                                            <li class="mega-menu-list-title"><h3>Bootstrap</h3></li>
+                                            <li><a class="dropdown-item" href="#">Bootstrap</a></li>
                                           </ul>
                                         </div>
                                     </li> <!-- mega dropdown -->
@@ -209,44 +204,37 @@
                                     </a>
                                         <div class="dropdown-menu" id="background-kommunikation" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Hvad er Kommunikation?</h3></li>
+                                            <li><a class="dropdown-item" href="#">Hvad er kommunikation?</a></li>
                                           </ul> 
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Paradigmer</h3></li>
+                                            <li><a class="dropdown-item" href="#">Humanistiske</a></li>
+                                            <li><a class="dropdown-item" href="#">Samfundsvidenskablige</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Empiri</h3></li>
+                                            <li><a class="dropdown-item" href="#">Kvalitativ</a></li>
+                                            <li><a class="dropdown-item" href="#">Kvantitativ</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Præsentationsteknik</h3></li>
+                                            <li><a class="dropdown-item" href="#">Den Gode Præsentation</a></li>
+                                            <li><a class="dropdown-item" href="#">Death by Powerpoint</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Informationsarkitektur</h3></li>
+                                            <li><a class="dropdown-item" href="#">LATCH</a></li>
+                                            <li><a class="dropdown-item" href="#">Webstruktur</a></li>
+                                            <li><a class="dropdown-item" href="#">Navigeringsdesign</a></li>
+                                          </ul>
+                                          <ul class="mega-dropdown-desktop">
+                                            <li class="mega-menu-list-title"><h3>Ophavsret og Licensering</h3></li>
+                                            <li><a class="dropdown-item" href="#">Ophavsret og Licensering</a></li>
+                                          </ul>
+                                          <ul class="mega-dropdown-desktop">
+                                            <li class="mega-menu-list-title"><h3>Business Model Canvas</h3></li>
+                                            <li><a class="dropdown-item" href="#">BMC</a></li>
                                           </ul>
                                         </div>
                                     </li> <!-- mega dropdown -->
@@ -259,6 +247,9 @@
                                       <a class="dropdown-item" href="#">Action</a>
                                       <a class="dropdown-item" href="#">Another action</a>
                                       <a class="dropdown-item" href="#">Something else here</a>
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
                                     </div>
                                   </li> <!-- standard dropdown class="dropdown-standard" -->
                                 <div class="dropdown-menu-mega">
@@ -268,44 +259,38 @@
                                     </a>
                                         <div class="dropdown-menu" id="background-design" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Illustrator</h3></li>
+                                            <li><a class="dropdown-item" href="#">Artboards</a></li>
+                                            <li><a class="dropdown-item" href="#">Blend tool</a></li>
+                                            <li><a class="dropdown-item" href="#">Captain America</a></li>
+                                            <li><a class="dropdown-item" href="#">Direct Selection Tool</a></li>
+                                            <li><a class="dropdown-item" href="#">Shape Builder Tool</a></li>
                                           </ul> 
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Photoshop</h3></li>
+                                            <li><a class="dropdown-item" href="#">Smokey the Bear</a></li>
+                                            <li><a class="dropdown-item" href="#">Smooth</a></li>
+                                            <li><a class="dropdown-item" href="#">Content Aware Fill</a></li>
+                                            <li><a class="dropdown-item" href="#">Spot Healing Tool</a></li>
+                                            <li><a class="dropdown-item" href="#">Smart Object</a></li>
+                                            <li><a class="dropdown-item" href="#">Out of Frame</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Farver</h3></li>
+                                            <li><a class="dropdown-item" href="#">Farver</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Typografi</h3></li>
+                                            <li><a class="dropdown-item" href="#">Typografi</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li class="mega-menu-list-title"><h3>Gestaltlovene</h3></li>
+                                            <li><a class="dropdown-item" href="#">Gestaltlovene</a></li>
+                                          </ul>
+                                          <ul class="mega-dropdown-desktop">
+                                            <li class="mega-menu-list-title"><h3>Wireframing</h3></li>
+                                            <li><a class="dropdown-item" href="#">Lo-Fi</a></li>
+                                            <li><a class="dropdown-item" href="#">Hi-Fi</a></li>
                                           </ul>
                                         </div>
                                     </li> <!-- mega dropdown -->
@@ -327,9 +312,8 @@
                                   Om siden
                                 </a>
                                 <div class="dropdown-menu" id="menulisteflyt-omsiden" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
+                                  <a class="dropdown-item" href="#">Refleksion</a>
+                                  <a class="dropdown-item" href="#">Kilder</a>
                                 </div>
                               </li> <!-- standard dropdown class="dropdown-standard" -->
                             </ul>
