@@ -167,7 +167,7 @@ html, body {
     color: white;
 }
 
-/* focus effect */
+/* focus effect dropdowns */
 #design-dropdown a:active {
     background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
     font-weight: 600;
@@ -228,6 +228,27 @@ html, body {
     font-weight: 600;
 }
 
+#omsiden-dropdown  {
+    color: white;
+}
+
+#omsiden-dropdown a:focus {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+#omsiden-dropdown a:active {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+#omsiden-dropdown a:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
 
 
 
