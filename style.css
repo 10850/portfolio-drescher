@@ -1355,6 +1355,10 @@ html, body {
         grid-area: billed-prototype;
     }
     
+    .designthinking-php #billed-implement {
+        grid-area: billed-implement;
+    }
+    
 /* GRIDS TIL SEKTIONER */
     .designthinking-php .empathize {
         display: grid;
@@ -1405,10 +1409,17 @@ html, body {
 /* GRID DESKTOP DESIGN THINKING */
 .designthinking-php #mitgrid-designthinking {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
     grid-template-areas: 
-        
+        "overskrift overskrift overskrift"
+        "hvaddesignthinking hvaddesignthinking hvaddesignthinking"
+        "empathize empathize empathize"
+        "define define define"
+        "ideate ideate ideate"
+        "prototype prototype prototype"
+        "implementering implementering implementering"
+        "refleksion refleksion refleksion";
 }
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */ 
     

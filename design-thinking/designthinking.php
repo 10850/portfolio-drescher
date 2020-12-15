@@ -115,6 +115,9 @@
 
                         <img src="implement-fase-ikon.png" class="fase-ikoner" id="implement-ikon">
                     </div> <!-- denne div er til at for at titel og ikon sidder sammen i grid for desktop -->
+                    
+                    <img class="designthinking-img" src="implementering.png" id="billed-implement">
+                    
                     <p class="tekst-designthinking" id="tekst-implement">
                         Efter at have gået gennem alle faserne kommer man til at lave det endelige produkt, som typisk for os er et website, på HTML og CSS. Man gå ud fra sin Hi-Fi-prototype på XD som var lavede så kodningen ville blive så nem så muligt, fordi det simplethen er nemmere at kode noget når man bare skal kopier det der står lige foran en i stedet for at skulle finde ud af det on the fly.
                     </p>
