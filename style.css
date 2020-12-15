@@ -126,8 +126,8 @@ html, body {
 .globalmenu .navbar-collapse {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
-    height: 600px;
-    overflow-y: hidden;
+    min-height: 100%;
+    
 }
 
 .globalmenu .navbar-collapse {

@@ -73,6 +73,7 @@
                                   <a class="dropdown-item" href="kommunikation/licensering/licens.php">Ophavsret og Licensering</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="kommunikation/bmc/bmc.php">BMC</a>
+                                    <div class="dropdown-divider"></div>
                                 </div>
                             </li>
 
@@ -94,6 +95,7 @@
                                   <a class="dropdown-item" href="usability/brugertest/brugertest.php">Brugertest</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="usability/tilg%25C3%25A6ngelighedstest/tilgangelighed.php">Tilgængelighedstest</a>
+                                    <div class="dropdown-divider"></div>
                                 </div>
                             </li>
 
@@ -137,6 +139,7 @@
                                     <a class="dropdown-item" href="om-siden/refleksion/refleksion.php">Refleksion</a>
                                         <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Kilder</a>
+                                        <div class="dropdown-divider"></div>
                                 </div>
                             </li>
                         </ul>
