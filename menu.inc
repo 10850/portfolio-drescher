@@ -11,24 +11,24 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                           <li class="nav-item active">
-                            <a class="nav-link" id="nav-link-uxui" href="design-thinking/designthinking.php">Design Thinking </a>
+                            <a class="nav-link" id="nav-link-uxui" href="designthinking.php">Design Thinking </a>
                           </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   Kodning
                                 </a>
                                 <div class="dropdown-menu" id="kodning-dropdown" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="kodning/html/attributter/attributter.php">HTML</a>
+                                  <a class="dropdown-item" href="attributter.php">HTML</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kodning/serverer/server.php">Serverer</a>
+                                  <a class="dropdown-item" href="server.php">Serverer</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kodning/css/boxmodellen/boxmodellen.php">CSS</a>
+                                  <a class="dropdown-item" href="boxmodellen.php">CSS</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kodning/versionsstyring/versionsstyring.php">Versionsstyring</a>
+                                  <a class="dropdown-item" href="versionsstyring.php">Versionsstyring</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kodning/php/php.php">PHP</a>
+                                  <a class="dropdown-item" href="php.php">PHP</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kodning/bootstrap/">Bootstrap</a>
+                                  <a class="dropdown-item" href="bootstrap.php">Bootstrap</a>
                                     <div class="dropdown-divider"></div>
                                 </div>
                             </li>
@@ -38,19 +38,19 @@
                                   Kommunikation
                                 </a>
                                 <div class="dropdown-menu" id="kommunikation-dropdown" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="kommunikation/hvad-er-kommunikation/hvad-er-kommunikation.php">Hvad er kommunikation?</a>
+                                  <a class="dropdown-item" href="hvad-er-kommunikation.php">Hvad er kommunikation?</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kommunikation/paradigmer/humanistisk/humanistisk.php">Paradigmer</a>
+                                  <a class="dropdown-item" href="humanistisk.php">Paradigmer</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kommunikation/empiri/kvalitativ/kvalitativ.php">Empiri</a>
+                                  <a class="dropdown-item" href="kvalitativ.php">Empiri</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kommunikation/presentationsteknik/opskrift/opskrifttilgodtale.php">Præsentationsteknik</a>
+                                  <a class="dropdown-item" href="opskrifttilgodtale.php">Præsentationsteknik</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kommunikation/informationsarkitektur/Latch/lacth.php">Informationsarkitektur</a>
+                                  <a class="dropdown-item" href="lacth.php">Informationsarkitektur</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kommunikation/licensering/licens.php">Ophavsret og Licensering</a>
+                                  <a class="dropdown-item" href="licens.php">Ophavsret og Licensering</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="kommunikation/bmc/bmc.php">BMC</a>
+                                  <a class="dropdown-item" href="bmc.php">BMC</a>
                                     <div class="dropdown-divider"></div>
                                 </div>
                             </li>
@@ -60,19 +60,19 @@
                                   Usability
                                 </a>
                                 <div class="dropdown-menu" id="usability-dropdown" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="usability/hvaderusability/hvad-er-usability.php">Hvad er Usability?</a>
+                                  <a class="dropdown-item" href="hvad-er-usability.php">Hvad er Usability?</a>
                                     <div class="dropdown-divider"></div>  
-                                  <a class="dropdown-item" href="usability/gangstertest/gangstertest.php">Gangstertest</a>
+                                  <a class="dropdown-item" href="gangstertest.php">Gangstertest</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="usability/sp%25C3%25B8rgeskema/sporgeskema.php">Spørgeskema</a>
+                                  <a class="dropdown-item" href="sporgeskema.php">Spørgeskema</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="usability/ekspertvudering/ekspertvudering.php">Ekspertvudering</a>
+                                  <a class="dropdown-item" href="ekspertvudering.php">Ekspertvudering</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="usability/kortsortering/kortsortering.php">Kortsortering</a>
+                                  <a class="dropdown-item" href="kortsortering.php">Kortsortering</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="usability/brugertest/brugertest.php">Brugertest</a>
+                                  <a class="dropdown-item" href="brugertest.php">Brugertest</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="usability/tilg%25C3%25A6ngelighedstest/tilgangelighed.php">Tilgængelighedstest</a>
+                                  <a class="dropdown-item" href="tilgangelighed.php">Tilgængelighedstest</a>
                                     <div class="dropdown-divider"></div>
                                 </div>
                             </li>
@@ -82,31 +82,31 @@
                                   Design
                                 </a>
                                 <div class="dropdown-menu" id="design-dropdown" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="design/photoshop/smokeythebear/smokeythebear.php">Photoshop</a>
+                                  <a class="dropdown-item" href="smokeythebear.php">Photoshop</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="design/illustrator/artboards/artboards.php">Illustrator</a>
+                                  <a class="dropdown-item" href="artboards.php">Illustrator</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="design/farver/farver.php">Farver</a>
+                                  <a class="dropdown-item" href="farver.php">Farver</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="design/typografi/typografi.php">Typografi</a>
+                                  <a class="dropdown-item" href="typografi.php">Typografi</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="design/gestaltlovene/gestaltlove.php">Gestaltlovene</a>
+                                  <a class="dropdown-item" href=gestaltlove.php>Gestaltlovene</a>
                                   <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="design/wireframing/lo-fi/lofi.php">Wireframing</a>
+                                  <a class="dropdown-item" href="lofi.php">Wireframing</a>
                                     <div class="dropdown-divider"></div>
                                 </div>
                             </li>
 
                             <li class="nav-item active">
-                                <a class="nav-link" id="nav-link-ui2" href="video/videoproduktion.php">Videoproduktion </a>
+                                <a class="nav-link" id="nav-link-ui2" href="videoproduktion.php">Videoproduktion </a>
                             </li>
                             
                             <li class="nav-item active">
-                                <a class="nav-link" id="nav-link-ui3" href="foto/fotografering.php">Fotografering </a>
+                                <a class="nav-link" id="nav-link-ui3" href="fotografering.php">Fotografering </a>
                             </li>
                             
                             <li class="nav-item active">
-                                <a class="nav-link" id="nav-link-projekter" href="projekter/projekter.php"> Projekter</a>
+                                <a class="nav-link" id="nav-link-projekter" href="projekter.php"> Projekter</a>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -114,9 +114,9 @@
                                     Om siden
                                 </a>
                                 <div class="dropdown-menu" id="omsiden-dropdown" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="om-siden/refleksion/refleksion.php">Refleksion</a>
+                                    <a class="dropdown-item" href="refleksion.php">Refleksion</a>
                                         <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Kilder</a>
+                                    <a class="dropdown-item" href="kilder.php">Kilder</a>
                                         <div class="dropdown-divider"></div>
                                 </div>
                             </li>
@@ -132,7 +132,7 @@
                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" id="nav-link-uxui-desktop" href="design-thinking/designthinking.php">Design Thinking </a>
+                                    <a class="nav-link" id="nav-link-uxui-desktop" href="designthinking.php">Design Thinking </a>
                                 </li>
                               <div class="dropdown-menu-mega">
                                   <li class="nav-item dropdown">
@@ -142,38 +142,38 @@
                                         <div class="dropdown-menu" id="background-kodning" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="kodning/html/attributter/attributter.php">Attributter</a></li>
-                                            <li><a class="dropdown-item" href="kodning/html/kodeskikke/kodeskikke.php">Kodeskikke</a></li>
-                                            <li><a class="dropdown-item" href="kodning/html/semantisketags/semantisketags.php">Semantiske tags</a></li>
-                                            <li><a class="dropdown-item" href="kodning/html/seo/seo.php">SEO</a></li>
-                                            <li><a class="dropdown-item" href="kodning/html/metadata/metadata.php">Metadata</a></li>
-                                            <li><a class="dropdown-item" href="kodning/html/adressering/adressering.php">Adressering</a></li>
-                                            <li><a class="dropdown-item" href="kodning/html/videoogbilleder/videoogbilleder.php">Video og Billeder</a></li>
-                                            <li><a class="dropdown-item" href="kodning/html/formularer/formularer.php">Formularer, felttyper og formatering</a></li>
+                                            <li><a class="dropdown-item" href="attributter.php">Attributter</a></li>
+                                            <li><a class="dropdown-item" href="kodeskikke.php">Kodeskikke</a></li>
+                                            <li><a class="dropdown-item" href="semantisketags.php">Semantiske tags</a></li>
+                                            <li><a class="dropdown-item" href="seo.php">SEO</a></li>
+                                            <li><a class="dropdown-item" href="metadata.php">Metadata</a></li>
+                                            <li><a class="dropdown-item" href="adressering.php">Adressering</a></li>
+                                            <li><a class="dropdown-item" href="videoogbilleder.php">Video og Billeder</a></li>
+                                            <li><a class="dropdown-item" href="formularer.php">Formularer, felttyper og formatering</a></li>
                                           </ul> 
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Serverer</h3></li>
-                                            <li><a class="dropdown-item" href="kodning/serverer/server.php">Serverer</a></li>
+                                            <li><a class="dropdown-item" href="server.php">Serverer</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>CSS</h3></li>
-                                            <li><a class="dropdown-item" href="kodning/css/boxmodellen/boxmodellen.php">Boxmodellen</a></li>
-                                            <li><a class="dropdown-item" href="kodning/css/selectors/selectors.php">Selectors</a></li>
-                                            <li><a class="dropdown-item" href="kodning/css/properties/properties.php">Properties</a></li>
-                                            <li><a class="dropdown-item" href="kodning/css/positionering/position.php">Positionering</a></li>
-                                            <li><a class="dropdown-item" href="kodning/css/grid/cssgrid.php">CSS Grid</a></li>
+                                            <li><a class="dropdown-item" href="boxmodellen.php">Boxmodellen</a></li>
+                                            <li><a class="dropdown-item" href="selectors.php">Selectors</a></li>
+                                            <li><a class="dropdown-item" href="properties.php">Properties</a></li>
+                                            <li><a class="dropdown-item" href="position.php">Positionering</a></li>
+                                            <li><a class="dropdown-item" href="cssgrid.php">CSS Grid</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Versionsstyring</h3></li>
-                                            <li><a class="dropdown-item" href="kodning/versionsstyring/versionsstyring.php">Versionsstyring</a></li>
+                                            <li><a class="dropdown-item" href="versionsstyring.php">Versionsstyring</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>PHP</h3></li>
-                                            <li><a class="dropdown-item" href="kodning/php/php.php">PHP</a></li>
+                                            <li><a class="dropdown-item" href="php.php">PHP</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Bootstrap</h3></li>
-                                            <li><a class="dropdown-item" href="kodning/bootstrap/bootstrap.php">Bootstrap</a></li>
+                                            <li><a class="dropdown-item" href="bootstrap.php">Bootstrap</a></li>
                                           </ul>
                                         </div>
                                     </li> <!-- mega dropdown -->
@@ -186,36 +186,36 @@
                                         <div class="dropdown-menu" id="background-kommunikation" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Hvad er Kommunikation?</h3></li>
-                                            <li><a class="dropdown-item" href="kommunikation/hvad-er-kommunikation/hvad-er-kommunikation.php">Hvad er kommunikation?</a></li>
+                                            <li><a class="dropdown-item" href="hvad-er-kommunikation.php">Hvad er kommunikation?</a></li>
                                           </ul> 
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Paradigmer</h3></li>
-                                            <li><a class="dropdown-item" href="kommunikation/paradigmer/humanistisk/humanistisk.php">Humanistiske</a></li>
-                                            <li><a class="dropdown-item" href="kommunikation/paradigmer/samfundsvidenskablig/samfundsvidenskabelig.php">Samfundsvidenskablige</a></li>
+                                            <li><a class="dropdown-item" href="humanistisk.php">Humanistiske</a></li>
+                                            <li><a class="dropdown-item" href="samfundsvidenskabelig.php">Samfundsvidenskablige</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Empiri</h3></li>
-                                            <li><a class="dropdown-item" href="kommunikation/empiri/kvalitativ/kvalitativ.php">Kvalitativ</a></li>
-                                            <li><a class="dropdown-item" href="kommunikation/empiri/kvantitativ/kvantitativ.php">Kvantitativ</a></li>
+                                            <li><a class="dropdown-item" href="kvalitativ.php">Kvalitativ</a></li>
+                                            <li><a class="dropdown-item" href="kvantitativ.php">Kvantitativ</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Præsentationsteknik</h3></li>
-                                            <li><a class="dropdown-item" href="kommunikation/presentationsteknik/opskrift/opskrifttilgodtale.php">Den Gode Præsentation</a></li>
-                                            <li><a class="dropdown-item" href="kommunikation/presentationsteknik/powerpoint/deathbypowerpoint.php">Death by Powerpoint</a></li>
+                                            <li><a class="dropdown-item" href="opskrifttilgodtale.php">Den Gode Præsentation</a></li>
+                                            <li><a class="dropdown-item" href="deathbypowerpoint.php">Death by Powerpoint</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Informationsarkitektur</h3></li>
-                                            <li><a class="dropdown-item" href="kommunikation/informationsarkitektur/Latch/lacth.php">LATCH</a></li>
-                                            <li><a class="dropdown-item" href="kommunikation/informationsarkitektur/webstruktur/webstruktur.php">Webstruktur</a></li>
-                                            <li><a class="dropdown-item" href="kommunikation/informationsarkitektur/navigeringsdesign/navigering.php">Navigeringsdesign</a></li>
+                                            <li><a class="dropdown-item" href="lacth.php">LATCH</a></li>
+                                            <li><a class="dropdown-item" href="webstruktur.php">Webstruktur</a></li>
+                                            <li><a class="dropdown-item" href="navigering.php">Navigeringsdesign</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Ophavsret og Licensering</h3></li>
-                                            <li><a class="dropdown-item" href="kommunikation/licensering/licens.php">Ophavsret og Licensering</a></li>
+                                            <li><a class="dropdown-item" href="licens.php">Ophavsret og Licensering</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Business Model Canvas</h3></li>
-                                            <li><a class="dropdown-item" href="kommunikation/bmc/bmc.php">BMC</a></li>
+                                            <li><a class="dropdown-item" href="bmc.php">BMC</a></li>
                                           </ul>
                                         </div>
                                     </li> <!-- mega dropdown -->
@@ -225,13 +225,13 @@
                                       Usability
                                     </a>
                                     <div class="dropdown-menu" id="background-usability" aria-labelledby="navbarDropdown">
-                                          <a class="dropdown-item" href="usability/hvaderusability/hvad-er-usability.php">Hvad er Usability?</a>
-                                          <a class="dropdown-item" href="usability/gangstertest/gangstertest.php">Gangstertest</a>
-                                          <a class="dropdown-item" href="usability/sp%25C3%25B8rgeskema/sporgeskema.php">Spørgeskema</a>
-                                          <a class="dropdown-item" href="usability/ekspertvudering/ekspertvudering.php">Ekspertvudering</a>
-                                          <a class="dropdown-item" href="usability/kortsortering/kortsortering.php">Kortsortering</a>
-                                          <a class="dropdown-item" href="usability/brugertest/brugertest.php">Brugertest</a>
-                                          <a class="dropdown-item" href="usability/tilg%25C3%25A6ngelighedstest/tilgangelighed.php">Tilgængelighedstest</a>
+                                          <a class="dropdown-item" href="hvad-er-usability.php">Hvad er Usability?</a>
+                                          <a class="dropdown-item" href="gangstertest.php">Gangstertest</a>
+                                          <a class="dropdown-item" href="sporgeskema.php">Spørgeskema</a>
+                                          <a class="dropdown-item" href="ekspertvudering.php">Ekspertvudering</a>
+                                          <a class="dropdown-item" href="kortsortering.php">Kortsortering</a>
+                                          <a class="dropdown-item" href="brugertest.php">Brugertest</a>
+                                          <a class="dropdown-item" href="tilgangelighed.php">Tilgængelighedstest</a>
                                     </div>
                                   </li> <!-- standard dropdown class="dropdown-standard" -->
                                 <div class="dropdown-menu-mega">
@@ -242,37 +242,37 @@
                                         <div class="dropdown-menu" id="background-design" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Illustrator</h3></li>
-                                            <li><a class="dropdown-item" href="design/illustrator/artboards/artboards.php">Artboards</a></li>
-                                            <li><a class="dropdown-item" href="design/illustrator/blendtool/blendtool.php">Blend tool</a></li>
-                                            <li><a class="dropdown-item" href="design/illustrator/captainamerica/captainamerica.php">Captain America</a></li>
-                                            <li><a class="dropdown-item" href="design/illustrator/directselectiontool/directselection.php">Direct Selection Tool</a></li>
-                                            <li><a class="dropdown-item" href="design/illustrator/shapebuildertool/shapebuildertool.php">Shape Builder Tool</a></li>
+                                            <li><a class="dropdown-item" href="artboards.php">Artboards</a></li>
+                                            <li><a class="dropdown-item" href="blendtool.php">Blend tool</a></li>
+                                            <li><a class="dropdown-item" href="captainamerica.php">Captain America</a></li>
+                                            <li><a class="dropdown-item" href="directselection.php">Direct Selection Tool</a></li>
+                                            <li><a class="dropdown-item" href="shapebuildertool.php">Shape Builder Tool</a></li>
                                           </ul> 
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Photoshop</h3></li>
-                                            <li><a class="dropdown-item" href="design/photoshop/smokeythebear/smokeythebear.php">Smokey the Bear</a></li>
-                                            <li><a class="dropdown-item" href="design/photoshop/smooth/smooth.php">Smooth</a></li>
-                                            <li><a class="dropdown-item" href="design/photoshop/contentawarefill/contentawarefill.php">Content Aware Fill</a></li>
-                                            <li><a class="dropdown-item" href="design/photoshop/spothealingtool/spothealingtool.php">Spot Healing Tool</a></li>
-                                            <li><a class="dropdown-item" href="design/photoshop/smartobject/smartobject.php">Smart Object</a></li>
-                                            <li><a class="dropdown-item" href="design/photoshop/outofframe/outofframe.php">Out of Frame</a></li>
+                                            <li><a class="dropdown-item" href="smokeythebear.php">Smokey the Bear</a></li>
+                                            <li><a class="dropdown-item" href="smooth.php">Smooth</a></li>
+                                            <li><a class="dropdown-item" href="contentawarefill.php">Content Aware Fill</a></li>
+                                            <li><a class="dropdown-item" href="spothealingtool.php">Spot Healing Tool</a></li>
+                                            <li><a class="dropdown-item" href="smartobject.php">Smart Object</a></li>
+                                            <li><a class="dropdown-item" href="outofframe.php">Out of Frame</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Farver</h3></li>
-                                            <li><a class="dropdown-item" href="design/farver/farver.php">Farver</a></li>
+                                            <li><a class="dropdown-item" href="farver.php">Farver</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Typografi</h3></li>
-                                            <li><a class="dropdown-item" href="design/typografi/typografi.php">Typografi</a></li>
+                                            <li><a class="dropdown-item" href="typografi.php">Typografi</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Gestaltlovene</h3></li>
-                                            <li><a class="dropdown-item" href="design/gestaltlovene/gestaltlove.php">Gestaltlovene</a></li>
+                                            <li><a class="dropdown-item" href="gestaltlove.php">Gestaltlovene</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Wireframing</h3></li>
-                                            <li><a class="dropdown-item" href="design/wireframing/lo-fi/lofi.php">Lo-Fi</a></li>
-                                            <li><a class="dropdown-item" href="design/wireframing/lo-fi/hifi.php">Hi-Fi</a></li>
+                                            <li><a class="dropdown-item" href="lofi.php">Lo-Fi</a></li>
+                                            <li><a class="dropdown-item" href="hifi.php">Hi-Fi</a></li>
                                           </ul>
                                         </div>
                                     </li> <!-- mega dropdown -->
@@ -282,20 +282,20 @@
                                       Video og Foto
                                     </a>
                                     <div class="dropdown-menu" id="background-videoogfoto" aria-labelledby="navbarDropdown">
-                                      <a class="dropdown-item" id="video-link-dektop" href="video/videoproduktion.php">Videoproduktion</a>
-                                      <a class="dropdown-item" id="fotografering-link-desktop" href="foto/fotografering.php">Fotografering</a>
+                                      <a class="dropdown-item" id="video-link-dektop" href="videoproduktion.php">Videoproduktion</a>
+                                      <a class="dropdown-item" id="fotografering-link-desktop" href="fotografering.php">Fotografering</a>
                                     </div>
                                 </li> <!-- standard dropdown class="dropdown-standard" -->
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="projekter/projekter.php">Projekter </a>
+                                    <a class="nav-link" href="projekter.php">Projekter </a>
                                 </li>
                               <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   Om siden
                                 </a>
                                 <div class="dropdown-menu" id="menulisteflyt-omsiden" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="om-siden/refleksion/refleksion.php">Refleksion</a>
-                                  <a class="dropdown-item" href="om-siden/kilder/kilder.php">Kilder</a>
+                                  <a class="dropdown-item" href="refleksion.php">Refleksion</a>
+                                  <a class="dropdown-item" href="kilder.php">Kilder</a>
                                 </div>
                               </li> <!-- standard dropdown class="dropdown-standard" -->
                             </ul>
