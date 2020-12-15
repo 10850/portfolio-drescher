@@ -505,15 +505,39 @@ html, body {
 }
 
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+
+
+
+
+
+
+
+
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+/* Styling */
+.designthinking-php header,
+.designthinking-php footer {
+    height: 70px;
+    background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat;
+}
+
 .designthinking-php {
     background-color: white;
+}
+
+.designthinking-php .designthinking-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    text-align: center;
 }
 
 .designthinking-php .titel-designthinking {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 34px;
+    font-size: 26px;
 }
 
 .designthinking-php .tekst-designthinking {
@@ -521,7 +545,9 @@ html, body {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    margin-top: 7px;
 }
+
 
 .designthinking-php .hvaderdesignthinking,
 .designthinking-php .empathize,
@@ -534,14 +560,73 @@ html, body {
     height: auto;
 }
 
+.designthinking-php .designthinking-img {
+    max-width: 90%;
+    height: auto;
+    position: relative;
+    left: 5%;
+}
 
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
-/* Styling */
+.designthinking-php .fase-ikoner {
+    display: none;
+}
 
+.designthinking-php #designthinking-faser,
+.designthinking-php #hackathon-medal{
+    max-width: 100%;
+    left: 0;
+}
 
+.designthinking-php #mitgrid-designthinking {
+    margin: 0.8em;
+}
 
+/* GRID MOBIL DESIGN THINKING */
+.designthinking-php .designthinking-overskrift {
+    grid-area: overskrift;
+}
 
+.designthinking-php #designthinking-faser {
+    grid-area: faserne;
+}
 
+.designthinking-php .hvaderdesignthinking {
+    grid-area: hvaddesignthinking;
+}
+.designthinking-php .empathize {
+    grid-area: empathize;
+}
+.designthinking-php .define {
+    grid-area: define;
+}
+.designthinking-php .ideate {
+    grid-area: ideate;
+}
+.designthinking-php .prototype {
+    grid-area: prototype;
+}
+.designthinking-php .implementering {
+    grid-area: implementering;
+}
+.designthinking-php .refleksion-designthinking {
+    grid-area: refleksion;
+}
+
+.designthinking-php #mitgrid-designthinking {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    grid-template-areas: 
+        "overskrift"
+        "faserne"
+        "hvaddesignthinking"
+        "empathize"
+        "define"
+        "ideate"
+        "prototype"
+        "implementering"
+        "refleksion";
+}
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
 
 
@@ -724,6 +809,7 @@ html, body {
     }   
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
     
+        
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -849,6 +935,66 @@ html, body {
     }
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
 
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */    .designthinking-php {
+    background-color: white;
+}
+
+.designthinking-php .designthinking-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 47px;
+    text-align: center;
+}
+
+.designthinking-php .titel-designthinking {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 29px;
+}
+
+.designthinking-php .tekst-designthinking {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+
+.designthinking-php .hvaderdesignthinking,
+.designthinking-php .empathize,
+.designthinking-php .define,
+.designthinking-php .ideate,
+.designthinking-php .prototype,
+.designthinking-php .implementering,
+.designthinking-php .refleksion-designthinking {
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php .designthinking-img {
+    max-width: 90%;
+    height: auto;
+    position: relative;
+    left: 5%;
+}
+
+.designthinking-php #designthinking-faser,
+.designthinking-php #hackathon-medal{
+    max-width: 100%;
+    left: 0;
+}
+
+.designthinking-php #mitgrid-designthinking {
+    margin: 0.8em;
+} 
+
+
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */ 
     
 }
 
@@ -1061,7 +1207,218 @@ html, body {
     
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
-   
+
+    
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */    .designthinking-php {
+    background-color: white;
+}
+
+.designthinking-php .designthinking-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    text-align: center;
+}
+
+.designthinking-php .titel-designthinking {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.designthinking-php .tekst-designthinking {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+
+.designthinking-php .hvaderdesignthinking,
+.designthinking-php .empathize,
+.designthinking-php .define,
+.designthinking-php .ideate,
+.designthinking-php .prototype,
+.designthinking-php .implementering,
+.designthinking-php .refleksion-designthinking {
+    max-width: 80%;
+    height: auto;
+}
+
+.designthinking-php .designthinking-img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+}
+
+.designthinking-php #designthinking-faser,
+.designthinking-php #hackathon-medal{
+    max-width: 50%;
+    left: 0;
+}
+
+.designthinking-php #mitgrid-designthinking {
+    margin: 0.8em;
+}  
+    
+/* ikoner */
+.designthinking-php .fase-ikoner {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+    
+.designthinking-php #designthinking-faser {
+    display: none;
+}
+    
+    .designthinking-php #empathize-ikon {
+        grid-area: empathizeikon;
+    }
+    
+    .designthinking-php #define-ikon {
+        grid-area: defineikon;
+    }
+    
+    .designthinking-php #ideate-ikon {
+        grid-area: ideateikon;
+    }
+    
+    .designthinking-php #prototype-ikon {
+        grid-area: prototypeikon;
+    }
+    
+    .designthinking-php #implement-ikon {
+        grid-area: implementikon;
+    }
+
+    
+/* GRID AREAS TIL SEKTIONERNES ELEMENTER */
+    .designthinking-php #titel-empathize {
+        grid-area: titel-empathize;
+    }
+    
+    .designthinking-php #titel-define {
+        grid-area: titel-define;
+    }
+    
+    .designthinking-php #titel-ideate {
+        grid-area: titel-ideate;
+    }
+    
+    .designthinking-php #titel-prototype {
+        grid-area: titel-prototype;
+    }
+    
+    .designthinking-php #titel-implement {
+        grid-area: titel-implement;
+    }
+    
+    .designthinking-php #tekst-empathize {
+        grid-area: tekst-empathize;
+    }
+    
+    .designthinking-php #tekst-define {
+        grid-area: tekst-define;
+    }
+    
+    .designthinking-php #tekst-ideate {
+        grid-area: tekst-ideate;
+    }
+    
+    .designthinking-php #tekst-prototype {
+        grid-area: tekst-prototype;
+    }
+    
+    .designthinking-php #tekst-implement {
+        grid-area: tekst-implement;
+    }
+    
+    .designthinking-php #billed-empathize {
+        grid-area: billed-empathize;
+    }
+    
+    .designthinking-php #billed-define {
+        grid-area: billed-define;
+    }
+    
+    .designthinking-php #billed-ideate {
+        grid-area: billed-ideate;
+    }
+    
+    .designthinking-php #billed-prototype {
+        grid-area: billed-prototype;
+    }
+    
+/* GRIDS TIL SEKTIONER */
+    .designthinking-php .empathize {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "titel-empathize tekst-empathize billed-empathize"
+            "empathizeikon tekst-empathize billed-empathize"
+    } 
+    
+    .designthinking-php .define {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "titel-define tekst-define billed-define"
+            "defineikon tekst-define billed-define"
+    } 
+    
+    .designthinking-php .ideate {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "titel-ideate tekst-ideate billed-ideate"
+            "ideateikon tekst-ideate billed-ideate"
+    } 
+    
+    .designthinking-php .prototype {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "titel-prototype tekst-prototype billed-prototype"
+            "prototypeikon tekst-prototype billed-prototype"
+    } 
+    
+    .designthinking-php .implementering {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "titel-implement tekst-implement billed-implement"
+            "implementikon tekst-implement billed-implement"
+    } 
+    
+    
+/* GRID DESKTOP DESIGN THINKING */
+.designthinking-php #mitgrid-designthinking {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    grid-template-areas: 
+        
+}
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */ 
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 
