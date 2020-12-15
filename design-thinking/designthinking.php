@@ -7,6 +7,9 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Google font slab Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
