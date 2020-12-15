@@ -34,13 +34,13 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 
 /* STYLING GENERELT FOR ALLE SIDER */
-
-
-/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
-
-/* Styling body og pagewrap */
 html, body {
     min-height: 100%;
+}
+
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
+/* Styling */
+.index-php {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
 }
@@ -505,6 +505,55 @@ html, body {
 }
 
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+.designthinking-php {
+    background-color: white;
+}
+
+.designthinking-php .titel-designthinking {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+}
+
+.designthinking-php .tekst-designthinking {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.designthinking-php .hvaderdesignthinking,
+.designthinking-php .empathize,
+.designthinking-php .define,
+.designthinking-php .ideate,
+.designthinking-php .prototype,
+.designthinking-php .implementering,
+.designthinking-php .refleksion-designthinking {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+/* Styling */
+
+
+
+
+
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
