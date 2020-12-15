@@ -836,9 +836,7 @@ html, body {
     }
     
     .globalmenu-desktop .navbar-nav {
-        font-size: 15px;
-        font-weight: 500;
-        margin-bottom: -2em;
+        margin-bottom: -1.5em;
     }
     
     #menulisteflyt-omsiden {
@@ -852,6 +850,8 @@ html, body {
     /* MENULISTE BACKGROUND COLOR og FONT COLOR */
     .globalmenu-desktop .navbar a {
         color: white;
+        font-size: 16px;
+        font-weight: 500;
     }
 
     /* mega dropdown menu */ 
@@ -870,13 +870,14 @@ html, body {
 
     .dropdown-menu-mega .dropdown-menu { 
         width: 100%;
-        height: 300px;
+        height: auto;
     }
 
     .globalmenu-desktop .mega-dropdown-desktop {
         display: inline-block;
         vertical-align: top;
-        margin-left: 3em;
+        margin-bottom: 1em;
+        margin-left: 2em;
     }
     
     .globalmenu-desktop .mega-dropdown-desktop h3 {
@@ -886,8 +887,6 @@ html, body {
     }
     
     .globalmenu-desktop #background-design h3 {
-        color: white;
-        text-align: center;
         background: linear-gradient(90deg, #BD67FF, #9200F0) no-repeat;
     }
 
@@ -1042,8 +1041,23 @@ html, body {
     }
     
     
-    .globalmenu-desktop .navbar-nav {
-        font-size: 16px;
+    .globalmenu-desktop .navbar a {
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .globalmenu-desktop .navbar h3 {
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .globalmenu-desktop .mega-dropdown-desktop {
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 1em;
+        margin-left: 3em;
     }
     
     /* VALUE PROPERSITION STYLING */
@@ -1057,7 +1071,7 @@ html, body {
     
     #desktop-tekst {
         display: block;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         font-family: montserrat, sans-serif;
         font-weight: 300;
@@ -1067,13 +1081,13 @@ html, body {
     }
     
     #overskrift {
-        font-size: 40px;
+        font-size: 50px;
         
     }
     
     #underoverskrift {
         font-size: 16px;
-        margin-top: 0.5em;
+        margin-top: -0.5em;
     }
     
     /* Forside menu styling */
