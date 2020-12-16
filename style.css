@@ -541,63 +541,314 @@ html, body {
     font-weight: 400;
 }
 
-.designthinking-php {
-    
+/* FONTS */
+.designthinking-php #designthinking-titel {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.designthinking-php {
-    
+.designthinking-php .designthinking-section-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
 }
 
-.designthinking-php {
-    
+.designthinking-php .designthinking-section-underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
 }
 
-.designthinking-php {
-    
+.designthinking-php .designthinking-bodytext {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 }
 
-.designthinking-php {
-    
-}
-
-.designthinking-php {
-    
-}
-
-.designthinking-php {
-    
-}
-
-.designthinking-php {
-    
-}
-
-.designthinking-php {
-    
-}
-
-.designthinking-php {
-    
-}
-
-.designthinking-php {
-    
-}
-
-.designthinking-php {
+.designthinking-php .brainstorm-list-item {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 20px;
     
 }
 
 
+.designthinking-php .brainstorm-list-item:nth-child(1),
+.designthinking-php .brainstorm-list-item:nth-child(2) {
+        padding-bottom: 20px;
+        
+}
+
+.designthinking-php #ideate-liste {
+    margin-top: 20px;
+}
+
+.designthinking-php #kildeliste-dt h2 {
+    text-decoration: underline;
+}
+
+.designthinking-php #kildeliste-list-dt li {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.designthinking-php #kildeliste-list-dt li {
+    padding-bottom: 25px;
+}
+
+.designthinking-php #implement-wireframe h4,
+.designthinking-php #implement-slut h4 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
+/* Image sizes og display*/
+.designthinking-php #empathizeikon-desktop,
+.designthinking-php #defineikon-desktop,
+.designthinking-php #ideateikon-desktop,
+.designthinking-php #prototypeikon-desktop,
+.designthinking-php #implementikon-desktop {
+    display: none;
+}
+
+.designthinking-php .dt-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Grid areas */
+.designthinking-php #designthinking-titel {
+    grid-area: titel;
+}
+
+.designthinking-php #dt-faser-mobil {
+    grid-area: dtfaser;
+}
+
+.designthinking-php #hvad-er-designthinking {
+    grid-area: hvaderdt;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #empathize {
+    grid-area: empathize;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #define {
+    grid-area: define;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #ideate {
+    grid-area: ideate;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #prototype {
+    grid-area: prototype;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #implement {
+    grid-area: implement;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #min-udvikling-dt {
+    grid-area: minudvikling;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #kildeliste-dt {
+    grid-area: kildeliste;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #hackathon-medal {
+    grid-area: hackathonmedal;
+}
+
+.designthinking-php #mitgrid-designthinking {
+    margin: 0.75em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "dtfaser"
+        "hvaderdt"
+        "empathize"
+        "define"
+        "ideate"
+        "prototype"
+        "implement"
+        "hackathonmedal"
+        "minudvikling"
+        "kildeliste";
+}
+
+/* Grid for prototype og implement */
+.designthinking-php #prototype-intro {
+    grid-area: prototype-intro;
+}
+
+.designthinking-php #prototype-optimering {
+     grid-area: prototype-omptimering;
+}
+
+.designthinking-php #prototype-lofi {
+     grid-area: prototype-lofi;
+}
+
+.designthinking-php #prototype-hifi {
+     grid-area: prototype-hifi;
+}
+
+.designthinking-php #prototype-lofi-v-hifi {
+     grid-area: prototype-lofivhifi;
+}
+
+.designthinking-php #prototype {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "prototype-intro prototype-intro"
+        "prototype-omptimering prototype-omptimering"
+        "prototype-lofi prototype-hifi"
+        "prototype-lofivhifi prototype-lofivhifi";
+}
+
+/* implement grid */
+
+.designthinking-php #implement-intro {
+    grid-area: implement-intro;
+}
+
+.designthinking-php #prototype-hifi2 {
+    grid-area: implement-hifi2;
+}
+
+.designthinking-php #implement-praksis {
+    grid-area: implement-slut;
+}
+
+.designthinking-php #implement-undtagelse {
+    grid-area: implement-undtagelse;
+}
+
+.designthinking-php #implement-hackathon {
+    grid-area: implement-hackathon;
+}
+
+.designthinking-php #implement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "implement-intro implement-intro"
+        "implement-hifi2 implement-slut"
+        "implement-undtagelse implement-undtagelse"
+        "implement-hackathon implement-hackathon"
+}
+
+/* margin mellem sections */
+.designthinking-php #hvad-er-designthinking {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #empathize {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #define {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #ideate {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #prototype {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #implement {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #min-udvikling-dt {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #kildeliste-dt {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
 
+/* sections i sections margin */
+.designthinking-php #hvad-er-designthinking p{
+    margin-top: 0.75em;
+}
 
+.designthinking-php #empathize p {
+    margin-top: 0.75em;
+}
 
+.designthinking-php #define p{
+    margin-top: 0.75em;
+}
 
+.designthinking-php #ideate p{
+    margin-top: 0.75em;
+}
 
+.designthinking-php #prototype p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #implement p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #min-udvikling-dt p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php .dt-img {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
 
 
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
@@ -914,11 +1165,350 @@ html, body {
     
     
     
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */   
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+/* Styling */
+/* FONTS */
+.designthinking-php #designthinking-titel {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 57px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.designthinking-php .designthinking-section-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.designthinking-php .designthinking-section-underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 29px;
+}
+
+.designthinking-php .designthinking-bodytext {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.designthinking-php .brainstorm-list-item {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.designthinking-php .brainstorm-list-item:nth-child(1),
+.designthinking-php .brainstorm-list-item:nth-child(2) {
+        padding-bottom: 20px;
+        
+    }
+    
+.designthinking-php #ideate-liste {
+    margin-top: 20px;
+    
+}
+
+
+.designthinking-php #kildeliste-dt h2 {
+    text-decoration: underline;
+}
+
+.designthinking-php #kildeliste-list-dt li {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.designthinking-php #kildeliste-list-dt li {
+    padding-bottom: 25px;
+}
+
+.designthinking-php #implement-wireframe h4,
+.designthinking-php #implement-slut h4 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* Image sizes og display*/
+.designthinking-php #empathizeikon-desktop,
+.designthinking-php #defineikon-desktop,
+.designthinking-php #ideateikon-desktop,
+.designthinking-php #prototypeikon-desktop,
+.designthinking-php #implementikon-desktop {
+    display: none;
+}
+
+.designthinking-php .dt-img {
+    max-width: 50%;
+    height: auto; 
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+.designthinking-php #dt-faser-mobil {
+    max-width: 90%;
+    height: auto; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/* Grid areas */
+.designthinking-php #designthinking-titel {
+    grid-area: titel;
+}
+
+.designthinking-php #dt-faser-mobil {
+    grid-area: dtfaser;
+}
+
+.designthinking-php #hvad-er-designthinking {
+    grid-area: hvaderdt;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #empathize {
+    grid-area: empathize;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #define {
+    grid-area: define;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #ideate {
+    grid-area: ideate;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #prototype {
+    grid-area: prototype;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #implement {
+    grid-area: implement;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #min-udvikling-dt {
+    grid-area: minudvikling;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #kildeliste-dt {
+    grid-area: kildeliste;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #hackathon-medal {
+    grid-area: hackathonmedal;
+}
+
+.designthinking-php #mitgrid-designthinking {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "dtfaser"
+        "hvaderdt"
+        "empathize"
+        "define"
+        "ideate"
+        "prototype"
+        "implement"
+        "hackathonmedal"
+        "minudvikling"
+        "kildeliste";
+}
+
+/* Grid for prototype og implement */
+.designthinking-php #prototype-intro {
+    grid-area: prototype-intro;
+}
+
+.designthinking-php #prototype-optimering {
+     grid-area: prototype-omptimering;
+}
+
+.designthinking-php #prototype-lofi {
+     grid-area: prototype-lofi;
+}
+
+.designthinking-php #prototype-hifi {
+     grid-area: prototype-hifi;
+}
+
+.designthinking-php #prototype-lofi-v-hifi {
+     grid-area: prototype-lofivhifi;
+}
+
+.designthinking-php #prototype {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "prototype-intro prototype-intro"
+        "prototype-omptimering prototype-omptimering"
+        "prototype-lofi prototype-hifi"
+        "prototype-lofivhifi prototype-lofivhifi";
+}
+
+/* implement grid */
+
+.designthinking-php #implement-intro {
+    grid-area: implement-intro;
+}
+
+.designthinking-php #prototype-hifi2 {
+    grid-area: implement-hifi2;
+}
+
+.designthinking-php #implement-praksis {
+    grid-area: implement-slut;
+}
+
+.designthinking-php #implement-undtagelse {
+    grid-area: implement-undtagelse;
+}
+
+.designthinking-php #implement-hackathon {
+    grid-area: implement-hackathon;
+}
+
+.designthinking-php #implement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "implement-intro implement-intro"
+        "implement-hifi2 implement-slut"
+        "implement-undtagelse implement-undtagelse"
+        "implement-hackathon implement-hackathon"
+}
+
+/* margin mellem sections */
+.designthinking-php #hvad-er-designthinking {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #empathize {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #define {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #ideate {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #prototype {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #implement {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #min-udvikling-dt {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #kildeliste-dt {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+/* sections i sections margin */
+.designthinking-php #hvad-er-designthinking p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #empathize p {
+    margin-top: 0.75em;
+}
+
+.designthinking-php #define p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #ideate p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #prototype p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #implement p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #min-udvikling-dt p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php .dt-img {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
 
 
     
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */ 
+    
+.designthinking-php #empathize-interview {
+    margin-left: 25%;
+}
+    
+.designthinking-php #define-onepage {
+     margin-left: 25%;  
+}
+    
+.designthinking-php #ideate-prakis  {
+      margin-left: 25%;  
+}
+
+.designthinking-php #implement-praksis {
+       margin-left: 25%;
+}
+    
+.designthinking-php #prototype-hifi2 {
+        margin-left: 25%;
+}
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
 }
 
@@ -1134,23 +1724,463 @@ html, body {
 
     
     
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */   
-    
-/* ikoner */
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+/* Styling */
+.designthinking-php {
+    background-color: #FCFCFC;
+    max-width: 100%;
+}
 
-    
-/* GRID AREAS TIL SEKTIONERNES ELEMENTER */
+.designthinking-php header {
+    background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat;
+}
 
-    
-/* GRIDS TIL SEKTIONER */
+.designthinking-php footer {
+    background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat;
+    color: white;
+}
 
-    
-    
-/* GRID DESKTOP DESIGN THINKING */
-    
-    
+.designthinking-php footer p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
 
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */ 
+.designthinking-php footer ul {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+/* FONTS */
+.designthinking-php #designthinking-titel {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.designthinking-php .designthinking-section-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+}
+
+.designthinking-php .designthinking-section-underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.designthinking-php .designthinking-bodytext {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.designthinking-php .brainstorm-list-item {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 20px;
+    
+}
+
+
+.designthinking-php .brainstorm-list-item:nth-child(1),
+.designthinking-php .brainstorm-list-item:nth-child(2) {
+        padding-bottom: 20px;
+        
+}
+
+.designthinking-php #ideate-liste {
+    margin-top: 20px;
+}
+
+.designthinking-php #kildeliste-dt h2 {
+    text-decoration: underline;
+}
+
+.designthinking-php #kildeliste-list-dt li {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.designthinking-php #kildeliste-list-dt li {
+    padding-bottom: 25px;
+}
+
+.designthinking-php #implement-wireframe h4,
+.designthinking-php #implement-slut h4 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Image sizes og display*/
+.designthinking-php #empathizeikon-desktop,
+.designthinking-php #defineikon-desktop,
+.designthinking-php #ideateikon-desktop,
+.designthinking-php #prototypeikon-desktop,
+.designthinking-php #implementikon-desktop {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+    
+.designthinking-php #dt-faser-mobil {
+        display: none;
+}
+
+.designthinking-php .dt-img {
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Grid areas */
+.designthinking-php #designthinking-titel {
+    grid-area: titel;
+}
+
+.designthinking-php #dt-faser-mobil {
+    grid-area: dtfaser;
+}
+
+.designthinking-php #hvad-er-designthinking {
+    grid-area: hvaderdt;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #empathize {
+    grid-area: empathize;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #define {
+    grid-area: define;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #ideate {
+    grid-area: ideate;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #prototype {
+    grid-area: prototype;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #implement {
+    grid-area: implement;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #min-udvikling-dt {
+    grid-area: minudvikling;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #kildeliste-dt {
+    grid-area: kildeliste;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #hackathon-medal {
+    grid-area: hackathonmedal;
+}
+
+.designthinking-php #mitgrid-designthinking {
+    margin: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "dtfaser"
+        "hvaderdt"
+        "empathize"
+        "define"
+        "ideate"
+        "prototype"
+        "implement"
+        "hackathonmedal"
+        "minudvikling"
+        "kildeliste";
+}
+
+/* Grid for alle sectioner */
+/* grid ares til ikoner */
+.designthinking-php #empathizeikon-desktop {
+        grid-area: empathizeikon;
+    }
+    
+.designthinking-php #defineikon-desktop {
+        grid-area: defineikon;
+    }
+    
+.designthinking-php #ideateikon-desktop {
+        grid-area: ideateikon;
+    }
+    
+.designthinking-php #prototypeikon-desktop {
+        grid-area: prototypeikon;
+    }
+    
+.designthinking-php #implementikon-desktop {
+        grid-area: implementikon;
+    }
+
+/* Empathize */
+.designthinking-php #empathize-intro {
+    grid-area: empathize-intro;
+}
+
+.designthinking-php #empathize-interview {
+     grid-area: empathize-interview;
+}
+
+.designthinking-php #empathize-praksis {
+     grid-area: empathize-praksis;
+}
+
+.designthinking-php #empathize {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+        "empathizeikon empathize-intro empathize-interview"
+        "empathizeikon empathize-praksis empathize-interview"
+}
+  
+/* Define */
+.designthinking-php #define-intro {
+    grid-area: define-intro;
+}
+
+.designthinking-php #define-onepage {
+     grid-area: define-onepage;
+}
+
+.designthinking-php #define-praksis {
+     grid-area: define-praksis;
+}
+
+.designthinking-php #define {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+        "defineikon define-intro define-onepage"
+        "defineikon define-praksis define-onepage";
+}
+
+/* Ideate */
+.designthinking-php #ideate-intro {
+    grid-area: ideate-intro;
+}
+
+.designthinking-php #ideate-ideer {
+     grid-area: ideate-ideer;
+}
+
+.designthinking-php #ideate-prakis {
+     grid-area: ideate-prakis;
+}
+
+.designthinking-php #ideate-brainstorm {
+     grid-area: ideate-brainstorm;
+}
+
+.designthinking-php #ideate {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+        "ideateikon ideate-intro ideate-prakis"
+        "ideateikon ideate-ideer ideate-prakis"
+        "ideateikon ideate-brainstorm ideate-prakis"
+}
+    
+/* prototype */
+.designthinking-php #prototype-intro {
+    grid-area: prototype-intro;
+}
+
+.designthinking-php #prototype-optimering {
+     grid-area: prototype-omptimering;
+}
+
+.designthinking-php #prototype-lofi {
+     grid-area: prototype-lofi;
+}
+
+.designthinking-php #prototype-hifi {
+     grid-area: prototype-hifi;
+}
+
+.designthinking-php #prototype-lofi-v-hifi {
+     grid-area: prototype-lofivhifi;
+}
+
+.designthinking-php #prototype {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-areas: 
+        "prototypeikon prototype-intro prototype-lofi prototype-hifi"
+        "prototypeikon prototype-omptimering prototype-lofi prototype-hifi"
+        "prototypeikon prototype-lofivhifi prototype-lofi prototype-hifi";
+
+}
+
+/* implement grid */
+
+.designthinking-php #implement-intro {
+    grid-area: implement-intro;
+}
+
+.designthinking-php #prototype-hifi2 {
+    grid-area: implement-hifi2;
+}
+
+.designthinking-php #implement-praksis {
+    grid-area: implement-slut;
+}
+
+.designthinking-php #implement-undtagelse {
+    grid-area: implement-undtagelse;
+}
+
+.designthinking-php #implement-hackathon {
+    grid-area: implement-hackathon;
+}
+
+.designthinking-php #implement {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-areas: 
+        "implementikon implement-intro implement-hifi2 implement-slut"
+        "implementikon implement-undtagelse implement-hackathon implement-hackathon";
+}
+
+/* margin mellem sections */
+.designthinking-php #hvad-er-designthinking {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #empathize {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #define {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #ideate {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #prototype {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #implement {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #min-udvikling-dt {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.designthinking-php #kildeliste-dt {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+/* sections i sections margin */
+.designthinking-php #hvad-er-designthinking p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #empathize p {
+    margin-top: 0.75em;
+}
+
+.designthinking-php #define p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #ideate p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #prototype p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #implement p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php #min-udvikling-dt p{
+    margin-top: 0.75em;
+}
+
+.designthinking-php .dt-img {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+    
+.designthinking-php #empathize-interview {
+    margin-left: 0;
+}
+    
+.designthinking-php #define-onepage {
+     margin-left: 0;  
+}
+    
+.designthinking-php #ideate-prakis  {
+      margin-left: 0;  
+}
+
+.designthinking-php #implement-praksis {
+       margin-left: 0;
+}
+    
+.designthinking-php #prototype-hifi2 {
+        margin-left: 0;
+}
+
+
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
     
     

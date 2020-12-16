@@ -141,9 +141,10 @@
                         </ul>
                     </section> <!-- brainstorming -->
                 </section> <!-- ideate -->
-                <section id="protype">
+                
+                <section id="prototype">
                     
-                    <img src="design-thinking/prototype-fase-ikon.png" alt="Prototype ikon" id="Prototypeikon-desktop" class="dt-img"> <!-- design thinking ikon billed til desktop -->
+                    <img src="design-thinking/prototype-fase-ikon.png" alt="Prototype ikon" id="prototypeikon-desktop" class="dt-img"> <!-- design thinking ikon billed til desktop -->
                     
                     <section id="prototype-intro">
                         <h2 class="designthinking-section-overskrift">
@@ -193,9 +194,14 @@
                         </p>
                     </section> <!-- implement intro -->
                     
-                    <img src="design-thinking/onepage-protype-hefi.png" alt="Billed af Hi-Fi prototype fra One Page projektet" id="prototype-hifi2" class="dt-img"> <!-- Hifi prototype -->
-                    
-                    <img src="design-thinking/Implement-onepage.jpg" alt="Billed af det endelige resultat af One Page projektet. Soft Bites." id="implement-praksis" class="dt-img"> <!-- endelige resultat af one pag-->
+                    <div id="implement-wireframe">
+                        <h4>Adobe XD</h4>
+                        <img src="design-thinking/onepage-protype-hefi.png" alt="Billed af Hi-Fi prototype fra One Page projektet" id="prototype-hifi2" class="dt-img"> <!-- Hifi prototype -->
+                    </div>
+                    <div id="implement-slut">
+                        <h4>Implementering</h4>
+                        <img src="design-thinking/Implement-onepage.jpg" alt="Billed af det endelige resultat af One Page projektet. Soft Bites." id="implement-praksis" class="dt-img"> <!-- endelige resultat af one pag-->
+                    </div>
                     
                     <section id="implement-undtagelse">
                         <h3 class="designthinking-section-underoverskrift">
