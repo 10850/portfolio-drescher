@@ -92,7 +92,7 @@
                         </p>
                     </section> <!-- define intro -->
                     
-                    <img src="design-thinking/defineonepage.jpg" alt="Billed af define fasen fra one page projektet" id="define-onepage" class="dt-img"> <!-- billed af define i praksis -->
+                    <img src="design-thinking/hackathon-define.jpg" alt="Billed af define fasen fra one page projektet" id="define-onepage" class="dt-img"> <!-- billed af define i praksis -->
                     
                     <section id="define-praksis">
                         <h3 class="designthinking-section-underoverskrift">
@@ -212,9 +212,11 @@
                         </p>
                     </section><!-- undtagelser for implement -->
                     
-                    <img src="design-thinking/hackathon-prototype.jpg" alt="Billed af prototypen fra Hackathon. Corona Kit." id="implement-hackathon" class="dt-img">
-                    
                 </section> <!-- implement -->
+                
+                
+                
+                <img src="design-thinking/hackathon-prototype.jpg" alt="Billed af prototypen fra Hackathon. Corona Kit." id="implement-hackathon" class="dt-img">
                 
                 <section id="min-udvikling-dt">
                     <section id="min-udvikling-dt-intro">

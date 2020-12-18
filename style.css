@@ -706,6 +706,7 @@ html, body {
         "ideate"
         "prototype"
         "implement"
+        "implement-hackathon"
         "hackathonmedal"
         "minudvikling"
         "kildeliste";
@@ -770,8 +771,7 @@ html, body {
     grid-template-areas: 
         "implement-intro implement-intro"
         "implement-hifi2 implement-slut"
-        "implement-undtagelse implement-undtagelse"
-        "implement-hackathon implement-hackathon"
+        "implement-undtagelse implement-undtagelse";
 }
 
 /* margin mellem sections */
@@ -1331,20 +1331,6 @@ html, body {
 
 .designthinking-php #mitgrid-designthinking {
     margin: 2em;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "titel"
-        "dtfaser"
-        "hvaderdt"
-        "empathize"
-        "define"
-        "ideate"
-        "prototype"
-        "implement"
-        "hackathonmedal"
-        "minudvikling"
-        "kildeliste";
 }
 
 /* Grid for prototype og implement */
@@ -1912,24 +1898,25 @@ html, body {
 
 .designthinking-php #hackathon-medal {
     grid-area: hackathonmedal;
+    max-width: 50%;
 }
 
 .designthinking-php #mitgrid-designthinking {
     margin: 3em;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "titel"
-        "dtfaser"
-        "hvaderdt"
-        "empathize"
-        "define"
-        "ideate"
-        "prototype"
-        "implement"
-        "hackathonmedal"
-        "minudvikling"
-        "kildeliste";
+        "titel titel"
+        "dtfaser dtfaser"
+        "hvaderdt hvaderdt"
+        "empathize empathize"
+        "define define"
+        "ideate ideate"
+        "prototype prototype"
+        "implement implement"
+        "implement-hackathon hackathonmedal"
+        "minudvikling minudvikling"
+        "kildeliste kildeliste";
 }
 
 /* Grid for alle sectioner */
@@ -2045,7 +2032,7 @@ html, body {
 
 .designthinking-php #prototype {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
     grid-template-areas: 
         "prototypeikon prototype-intro prototype-lofi prototype-hifi"
         "prototypeikon prototype-omptimering prototype-lofi prototype-hifi"
@@ -2069,18 +2056,20 @@ html, body {
 
 .designthinking-php #implement-undtagelse {
     grid-area: implement-undtagelse;
+    margin-top: -14em;
 }
 
 .designthinking-php #implement-hackathon {
     grid-area: implement-hackathon;
+    max-width: 50%;
 }
 
 .designthinking-php #implement {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
     grid-template-areas: 
         "implementikon implement-intro implement-hifi2 implement-slut"
-        "implementikon implement-undtagelse implement-hackathon implement-hackathon";
+        "implementikon implement-undtagelse implement-hifi2 implement-slut";
 }
 
 /* margin mellem sections */
