@@ -513,6 +513,8 @@ html, body {
 
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
 /* Styling */
+
+
 .designthinking-php {
     background-color: #FCFCFC;
     max-width: 100%;
@@ -617,6 +619,16 @@ html, body {
     padding-bottom: 10px;
 }
 
+.designthinking-php #min-udvikling-dt section:nth-child(2),
+    
+.designthinking-php #min-udvikling-dt section:nth-child(3) {
+        margin-top: 25px;
+}
+
+.designthinking-php #holdkritikken {
+    margin-top: 10px;
+}
+
 
 /* Image sizes og display*/
 .designthinking-php #empathizeikon-desktop,
@@ -677,6 +689,18 @@ html, body {
     height: auto;
 }
 
+.designthinking-php #implement-wireframe {
+    grid-area: implement-wireframe;
+    max-width: 100%;
+    height: auto;
+}
+
+.designthinking-php #implement-slut {
+    grid-area: implement-slut;
+    max-width: 100%;
+    height: auto;
+}
+
 .designthinking-php #min-udvikling-dt {
     grid-area: minudvikling;
     max-width: 100%;
@@ -696,21 +720,23 @@ html, body {
 .designthinking-php #mitgrid-designthinking {
     margin: 0.75em;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "titel"
-        "dtfaser"
-        "hvaderdt"
-        "empathize"
-        "define"
-        "ideate"
-        "prototype"
-        "implement"
-        "implement-hackathon"
-        "hackathonmedal"
-        "minudvikling"
-        "kildeliste";
+        "titel titel"
+        "dtfaser dtfaser"
+        "hvaderdt hvaderdt"
+        "empathize empathize"
+        "define define"
+        "ideate ideate"
+        "prototype prototype"
+        "implement implement"
+        "implement-wireframe implement-slut"
+        "implement-hackathon implement-hackathon"
+        "hackathonmedal hackathonmedal"
+        "minudvikling minudvikling"
+        "kildeliste kildeliste";
 }
+
 
 /* Grid for prototype og implement */
 .designthinking-php #prototype-intro {
@@ -935,10 +961,10 @@ html, body {
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
     
     
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */   
     
     
-    
-    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */    
     
     
     
@@ -1779,8 +1805,10 @@ html, body {
     margin-left: 20px;
     
 }
+    
 
 
+    
 .designthinking-php .brainstorm-list-item:nth-child(1),
 .designthinking-php .brainstorm-list-item:nth-child(2) {
         padding-bottom: 20px;
@@ -1898,26 +1926,39 @@ html, body {
 
 .designthinking-php #hackathon-medal {
     grid-area: hackathonmedal;
-    max-width: 50%;
+    width: 100%;
 }
 
 .designthinking-php #mitgrid-designthinking {
     margin: 3em;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas: 
-        "titel titel"
-        "dtfaser dtfaser"
-        "hvaderdt hvaderdt"
-        "empathize empathize"
-        "define define"
-        "ideate ideate"
-        "prototype prototype"
-        "implement implement"
-        "implement-hackathon hackathonmedal"
-        "minudvikling minudvikling"
-        "kildeliste kildeliste";
+        "titel titel titel"
+        "dtfaser dtfaser dtfaser"
+        "hvaderdt hvaderdt hvaderdt"
+        "empathize empathize empathize"
+        "define define define"
+        "ideate ideate ideate"
+        "prototype prototype prototype"
+        "implement implement implement"
+        "hackathonmedal minudvikling implement-hackathon"
+        "kildeliste kildeliste kildeliste";
 }
+
+.designthinking-php #hvad-er-designthinking {
+    grid-column-start: 2;
+        grid-column-end: 2;
+}
+    
+    .designthinking-php #kildeliste-dt {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    
+    .designthinking-php #implement-hackathon {
+        width: 100%;
+    }
 
 /* Grid for alle sectioner */
 /* grid ares til ikoner */
@@ -2054,11 +2095,11 @@ html, body {
     grid-area: implement-slut;
 }
 
+
 .designthinking-php #implement-undtagelse {
     grid-area: implement-undtagelse;
-    margin-top: -14em;
-}
-
+} 
+    
 .designthinking-php #implement-hackathon {
     grid-area: implement-hackathon;
     max-width: 50%;
@@ -2281,6 +2322,12 @@ html, body {
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
 
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+
+    
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
     
 }
 
