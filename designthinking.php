@@ -25,13 +25,19 @@
         <header>
             <?php include 'menu.inc' ?>
         </header>
+        
+        <h1>Design Thinking</h1> <!-- Titel -->
+        
+        <img class="dt-img" id="hackathon-medal-desktop" src="design-thinking/hackathon-medal-mobil.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje desktop -->
+        
+            <img class="dt-img" id="hackathon-medal-faser" src="design-thinking/hackathon-medal-faser.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje desktop -->
+        
+        
             <div id="mitgrid-designthinking">
-                <h1>Design Thinking</h1> <!-- Titel -->
-                
                 <img class="dt-img" id="faserne-mobil" src="design-thinking/designthinking-faser.png" alt="billed af faserne i design thinking"> <!-- faserne til mobil -->
                 
                 <section class="hvaderdt">                    
-                    <h2 class="overkskrifter-dt">Hvad er Design Thinking?</h2>
+                    <h2 class="overskrifter-dt">Hvad er Design Thinking?</h2>
                     
                     <p class="bodytext-dt">
                         Design Thinking er en tilgang til hvordan man skal tænke og bære sig ad med at løse et problem (Innovation, 2020). 
@@ -46,11 +52,14 @@
                     </p>
                 </section> <!-- Hvad er Design Thinking? -->
                 
-                <img class="dt-img" id="empathize-ikon-desktop" src="design-thinking/empathize-fase-ikon.png" alt="empathize ikon"> <!-- empathize ikon desktop -->
+                
                 
                 <section class="empathize">
-                    <section>
-                        <h2 class="overkskrifter-dt">Empathize</h2>
+                    
+                    <img class="dt-img" id="empathize-ikon-desktop" src="design-thinking/empathize-fase-ikon.png" alt="empathize ikon"> <!-- empathize ikon desktop -->
+                    
+                    <section id="empathize-def">
+                        <h2 class="overskrifter-dt">Empathize</h2>
                     
                         <p class="bodytext-dt">
                             Empathize er den første fase, og er her man skal gøre sig nysgerrig for menneskers behov, adfærd og kontekst (Innovation, 2020). Man kan researche på nettet, læse i bøger eller artikler eller gå ud og interviewe selve målgruppen for et mere menneskeligt indblik på tingene (ibid). 
@@ -59,7 +68,7 @@
 
                     <img class="dt-img" id="empathize-praksis" src="design-thinking/interview-empathize.jpg" alt="empathize Interviews fra Design Thinking ugen."> <!-- empathize i praksis -->
                     
-                    <section>
+                    <section id="empathize-studie">
                         <h3 class="underoverskrift-dt">Empathize på studiet</h3>
                         
                         <p class="bodytext-dt">
@@ -72,11 +81,14 @@
                     </section>
                 </section> <!-- Empathize -->
                 
-                <img class="dt-img" id="define-ikon-desktop" src="design-thinking/define-fase-ikon.png" alt="define ikon"> <!-- define ikon desktop -->
+                
                 
                 <section class="define">
-                    <section>
-                        <h2 class="overkskrifter-dt">Define</h2>
+                    
+                    <img class="dt-img" id="define-ikon-desktop" src="design-thinking/define-fase-ikon.png" alt="define ikon"> <!-- define ikon desktop -->
+                    
+                    <section id="define-def">
+                        <h2 class="overskrifter-dt">Define</h2>
                     
                         <p class="bodytext-dt">
                             Define bygger videre på alt den information man har fået gennem empathize fasen, ved at gøre den store mængde af information til noget mere konkret, ved konvergent tænkning (Innovation, 2020).  
@@ -89,7 +101,7 @@
                     
                     <img class="dt-img" id="define-praksis" src="design-thinking/hackathon-define.jpg" alt="Define fase fra Hackathon 2020"> <!-- define i praksis -->
                     
-                    <section>
+                    <section id="define-studie">
                         <h3 class="underoverskrift-dt">Den første problemformulering er ikke nødvendigvis den endelige</h3>
                         
                         <p class="bodytext-dt">
@@ -98,18 +110,21 @@
                     </section>
                 </section> <!-- define -->
                 
-                <img class="dt-img" id="ideate-ikon-desktop" src="design-thinking/ideate-fase-ikon.png" alt="ideate ikon"> <!-- ideate logo -->
+                
                 
                 <section class="ideate">
-                    <section>
-                        <h2 class="overkskrifter-dt">Ideate</h2>
+                    
+                    <img class="dt-img" id="ideate-ikon-desktop" src="design-thinking/ideate-fase-ikon.png" alt="ideate ikon"> <!-- ideate logo -->
+                    
+                    <section id="ideate-def">
+                        <h2 class="overskrifter-dt">Ideate</h2>
                         
                         <p class="bodytext-dt">
                             Ideate er der hvor det ”sjove” begynder, og man endelige får lov til at åbne op for alle de ideer man har haft gennem empathize og define fasen (Innovation, 2020). I denne fase tager man problemformuleringen fra define fasen og man udforsker alle de potentielle ideer til en løsning ved divergent tænkning (ibid).
                         </p>
                     </section>
                     
-                    <section>
+                    <section id="ideate-ideer">
                         <h3 class="underoverskrift-dt">Der findes ikke gode eller dårlige ideer</h3>
                         
                         <p class="bodytext-dt">
@@ -119,33 +134,36 @@
                     
                     <img class="dt-img" id="ideate-praksis" src="design-thinking/hackathon-ideate.jpg" alt="Ideate fase fra Hackathon 2020"> <!-- Ideate i praksis -->
                     
-                    <section>
+                    <section id="ideate-brainstorm">
                         <h3 class="underoverskrift-dt"></h3>
                         
                         <p class="bodytext-dt">
                             Måden jeg har arbejdet med ideate har været ved brainstorming og negativ brainstorming, hvor jeg og de andre i gruppen går gennem iterative processer af brainstorming:
                         </p>
                         
-                        <ul>
-                            <li>1 rundte hvor vi sidder for os selv og skriver ideer på labels og derefter sætter alt på bordet. Det er for at få alle de logiske ideer ud (Mumaw, 2020). </li>
-                            <li>1 rundte hvor vi kigger på alle de skrevende ideer og får nye og måske innovative ideer som er mere ude af boksen (ibid). </li>
-                            <li>1 og sidste rundte hvor vi diskuterer alle ideer på bordet og gøre det til noget konkret vi kan tage videre til prototypefasen. Her ville vi mange gange få nye ideer og blande forskellige ideer sammen (ibid). For eksempel med Hackathon hvor plakaten var en ide, sloganet var en anden ide og corona kit var en helt tredje ide.</li>
-                        </ul>
+                        <ol id="brainstorm-steps">
+                            <li>Første rundte hvor vi sidder for os selv og skriver ideer på labels og derefter sætter alt på bordet. Det er for at få alle de logiske ideer ud (Mumaw, 2020). </li>
+                            <li>Anden rundte hvor vi kigger på alle de skrevende ideer og får nye og måske innovative ideer som er mere ude af boksen (ibid). </li>
+                            <li>Sidste rundte hvor vi diskuterer alle ideer på bordet og gøre det til noget konkret vi kan tage videre til prototypefasen. Her ville vi mange gange få nye ideer og blande forskellige ideer sammen (ibid). For eksempel med Hackathon hvor plakaten var en ide, sloganet var en anden ide og corona kit var en helt tredje ide.</li>
+                        </ol>
                     </section>
                 </section> <!-- Ideate -->
                 
-                <img class="dt-img" id="prototype-ikon-desktop" src="design-thinking/prototype-fase-ikon.png" alt="prototype ikon"> <!-- prototype ikon desktop -->
+                
                 
                 <section class="prototype">
-                    <section>
-                        <h2 class="overkskrifter-dt">Prototype + Test</h2>
+                    
+                    <img class="dt-img" id="prototype-ikon-desktop" src="design-thinking/prototype-fase-ikon.png" alt="prototype ikon"> <!-- prototype ikon desktop -->
+                    
+                    <section id="prototype-def">
+                        <h2 class="overskrifter-dt">Prototype + Test</h2>
                         
                         <p class="bodytext-dt">
                             Prototype fasen begynder man på udviklingen af sin ide (Innovation, 2020). Men man skal huske at en prototype er en fysisk repæsentation af en ide, som kan kommunikere udvalgte aspekter af ideen til relevante mennesker med henblik på feedback (Innovation, 2020). 
                         </p>
                     </section>
                     
-                    <section>
+                    <section id="prototype-optimering">
                         <h3 class="underoverskrift-dt"> Optimering</h3>
                         
                         <p class="bodytext-dt">
@@ -155,7 +173,7 @@
                     
                     <img class="dt-img" id="prototype-praksis" src="design-thinking/lofi-hifi.jpg" alt="Prototype fasen fra one page projektet"> <!-- prototype i praksis -->
                     
-                    <section>
+                    <section id="prototype-lofi-hifi">
                         <h3 class="underoverskrift-dt">Lo-Fi vs Hi-Fi Prototype</h3>
                         
                         <p class="bodytext-dt">
@@ -168,21 +186,24 @@
                     </section>
                 </section> <!-- prototype og test -->
                 
-                <img class="dt-img" id="implement-ikon-desktop" src="design-thinking/implement-fase-ikon.png" alt="implement ikon"> <!-- Implement ikon desktop -->
+                
                 
                 <section class="implement">
-                    <section>
-                        <h2 class="overkskrifter-dt">Implementering</h2>
+                    
+                    <img class="dt-img" id="implement-ikon-desktop" src="design-thinking/implement-fase-ikon.png" alt="implement ikon"> <!-- Implement ikon desktop -->
+                    
+                    <section id="implement-def">
+                        <h2 class="overskrifter-dt">Implementering</h2>
                         
                         <p class="bodytext-dt">
                             Efter at have gået gennem alle faserne kommer man til at lave det endelige produkt, som typisk for os er et website, på HTML og CSS. Jeg går ud fra sin Hi-Fi-prototype på XD som var lavede så kodningen ville blive så nem så muligt. Fordi jeg kunne føle at det var meget nemmere at kode noget når man har en visuel illustration af det man skal kode og man kan nemmere lave ændringer.
                         </p>
                     </section>
                     
-                    <img class="dt-img" id="implment-praksis" alt="implment fase fra one page projektet"> <!-- implement i praksis -->
+                    <img class="dt-img" id="implment-praksis" src="design-thinking/implement-before-after.png" alt="implment fase fra one page projektet"> <!-- implement i praksis -->
                     
-                    <section>
-                        <h3 class="underoverskrift-dt"> Undtagelser for implementeringsfasen</h3>
+                    <section id="implement-undtagelse">
+                        <h3 class="underoverskrift-dt"> Undtagelse for implementeringsfasen</h3>
                         
                         <p class="bodytext-dt">
                             Det kan også være man ikke kommer til en direkte implementeringsfase, men i stedet en præsentation, hvor man pitcher sin ide (Innovation, 2020). For eksempel skulle vi præsentere vores endelige prototype i Hackathon til Michael Eiskjær, Bestyrelsesformand for Skive Festival. 
@@ -190,22 +211,23 @@
                     </section>
                 </section> <!-- implement -->
                 
+                <img class="dt-img" id="hackathon-prototype" src="design-thinking/hackathon-prototype.jpg" alt="Hackthon prototypen"> <!-- Hackathon prototype -->
+                    
+                    <img class="dt-img" id="hackathon-medal-mobil" src="design-thinking/hackathon-medal-mobil.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje mobil -->
+                
+                
                 <section class="refleksion-dt">
                     
-                    <img class="dt-img" id="hackathon-prototype" src="design-thinking/hackathon-prototype.jpg" alt="Hackthon prototypen"> <!-- Hackathon prototype -->
-                    
-                    <img class="dt-img" id="hackathon-medal" src="design-thinking/hackathon-medal-rotate.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje -->
-                    
-                    <section>
-                        <h2 class="overkskrifter-dt">Hvad jeg har fået ud af Design Thinking?</h2>
+                    <section id="refleksion-start">
+                        <h2 class="overskrifter-dt">Hvad jeg har fået ud af Design Thinking?</h2>
                         
                         <p class="bodytext-dt">
                             Før jeg har startet på studiet, vidste jeg ikke engang Design Thinking fandtes. Da jeg gik gennem Hackthon så fandt jeg det svært at følge rækkefølgen af faserne, fordi jeg normalt arbejdede på en anden måde. 
                         </p>
                     </section>
                     
-                    <section>
-                        <h2 class="overkskrifter-dt">Mine udfordringer </h2>
+                    <section id="refleksion-mid">
+                        <h2 class="overskrifter-dt">Mine udfordringer </h2>
                         
                         <h3 class="underoverskrift-dt">Research før ideudvikling</h3>
                         
@@ -213,7 +235,7 @@
                             Jeg ville normalt både researche og få ideer på samme tid og derefter lave en problemformulering til den ide jeg fik. Så at kun researche først og derefter lave en problemformulering før du må sige et ord om en ide var meget svært. 
                         </p>
                         
-                        <h3 class="underoverskrift-dt">Hold kritikken tilbage</h3>
+                        <h3 class="underoverskrift-dt" id="kritik">Hold kritikken tilbage</h3>
                         
                         <p class="bodytext-dt">
                             Det andet jeg fandt sværest, var at lade være med at være kritisktænkende før slutningen af ideate fasen hvor man skal vælge løsningen, for det er hvad jeg har lært at gøre. 
@@ -221,7 +243,7 @@
                         
                     </section>
                     
-                    <section>
+                    <section id="refleksion-now">
                         <h3 class="underoverskrift-dt">Hvor jeg er kommet hen</h3>
                         
                         <p class="bodytext-dt">
@@ -233,14 +255,14 @@
                         </p>
                     </section>
                     
-                    <section>
+                    <section id="refleksion-end">
                         <h3 class="underoverskrift-dt">Design thinkings indflydelse på min tankegang</h3>
                         
                         <p class="bodytext-dt">
                             Design thinking har ændret den måde jeg tænker på når det kommer til at løse et problem. Ikke kun på studiet, men også i min hverdag. For eksempel med min styrketræningsplan og hvordan jeg studerer hjemmefra, hvor jeg ville:
                         </p>
                         
-                        <ul>
+                        <ul id="steps-dt-hverdag">
                             <li>Researche metoder</li>
                             <li>Definere problemet</li>
                             <li>Komme med ideer til hvordan jeg kunne studere og styrketræne</li>
@@ -255,9 +277,9 @@
                 </section> <!-- refleksion -->
                 
                 <section class="kilder-dt">
-                    <h2 class="overkskrifter-dt">Kilder</h2>
+                    <h2 class="overskrifter-dt">Kilder</h2>
                     
-                    <ul>
+                    <ul class="kilder-liste">
                         <li>
                             Innovation, 2020. Model Design Tænkning. [Online] 
                             Available at: <a href="https://innovation.sites.ku.dk/model/design-thinking/">https://innovation.sites.ku.dk/model/design-thinking/</a>
