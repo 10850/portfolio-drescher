@@ -163,10 +163,15 @@
                         </p>
                     </section> <!-- optimering -->
                     
-                    <img src="design-thinking/lofi-onepage.jpg" alt="Billed af Lo-Fi prototype fra One Page projektet" id="prototype-lofi" class="dt-img"> <!-- lofi prototype -->
                     
-                    <img src="design-thinking/onepage-protype-hefi.png" alt="Billed af Hi-Fi prototype fra One Page projektet" id="prototype-hifi" class="dt-img"> <!-- Hifi prototype -->
-                    
+                    <div class="flexbox-images-prototype">
+                        <div>
+                            <img src="design-thinking/lofi-onepage.jpg" alt="Billed af Lo-Fi prototype fra One Page projektet" id="prototype-lofi" class="dt-img"> <!-- lofi prototype -->
+                        </div>
+                        <div>
+                            <img src="design-thinking/onepage-protype-hefi.png" alt="Billed af Hi-Fi prototype fra One Page projektet" id="prototype-hifi" class="dt-img"> <!-- Hifi prototype -->
+                        </div>
+                    </div>
                     
                     <section id="prototype-lofi-v-hifi">
                         <h3 class="designthinking-section-underoverskrift">
@@ -194,15 +199,17 @@
                         </p>
                     </section> <!-- implement intro -->
                     
-                    <div id="implement-wireframe">
-                        <h4>Adobe XD</h4>
-                        <img src="design-thinking/onepage-protype-hefi.png" alt="Billed af Hi-Fi prototype fra One Page projektet" id="prototype-hifi2" class="dt-img"> <!-- Hifi prototype -->
+                    <div class="flexbox-images-implement">
+                        <div id="implement-wireframe">
+                            <h4>Adobe XD</h4>
+                            <img src="design-thinking/onepage-protype-hefi.png" alt="Billed af Hi-Fi prototype fra One Page projektet" id="prototype-hifi2" class="dt-img"> <!-- Hifi prototype -->
+                        </div>
+                        <div id="implement-slut">
+                            <h4>Implementering</h4>
+                            <img src="design-thinking/Implement-onepage.jpg" alt="Billed af det endelige resultat af One Page projektet. Soft Bites." id="implement-praksis" class="dt-img"> <!-- endelige resultat af one pag-->
+                        </div>
                     </div>
-                    <div id="implement-slut">
-                        <h4>Implementering</h4>
-                        <img src="design-thinking/Implement-onepage.jpg" alt="Billed af det endelige resultat af One Page projektet. Soft Bites." id="implement-praksis" class="dt-img"> <!-- endelige resultat af one pag-->
-                    </div>
-                    
+                        
                     <section id="implement-undtagelse">
                         <h3 class="designthinking-section-underoverskrift">
                             Undtagelser for implementeringsfasen
