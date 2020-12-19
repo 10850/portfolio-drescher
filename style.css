@@ -1450,6 +1450,7 @@ footer {
     
     .designthinking-php .empathize {
         display: grid;
+        grid-column-gap: 20px;
         grid-template-columns: 1fr 2.5fr 1.5fr;
         grid-template-areas: 
             "empathize-ikon empathize-def empathize-praksis"
@@ -1475,6 +1476,7 @@ footer {
     
     .designthinking-php .define {
         display: grid;
+        grid-column-gap: 20px;
         grid-template-columns: 1fr 2.5fr 1.5fr;
         grid-template-areas: 
             "define-ikon define-def define-praksis"
@@ -1504,6 +1506,7 @@ footer {
     
     .designthinking-php .ideate {
         display: grid;
+        grid-column-gap: 20px;
         grid-template-columns: 1fr 2.5fr 1.5fr;
         grid-template-areas: 
             "ideate-ikon ideate-def ideate-praksis"
@@ -1534,6 +1537,7 @@ footer {
     
     .designthinking-php .prototype {
         display: grid;
+        grid-column-gap: 20px;
         grid-template-columns: 1fr 2fr 2fr;
         grid-template-areas: 
             "prototype-ikon prototype-def prototype-praksis"
@@ -1562,6 +1566,7 @@ footer {
     
     .designthinking-php .implement {
         display: grid;
+        grid-column-gap: 20px;
         grid-template-columns: 1fr 2fr 2fr;
         grid-template-areas: 
             "implement-ikon implement-def implment-praksis"
@@ -1577,6 +1582,7 @@ footer {
     .designthinking-php #hackathon-medal-desktop {
         position: relative;
         bottom: 16%;
+        left: 50px;
     }
     
     .designthinking-php #hackathon-medal-faser {
@@ -1588,7 +1594,7 @@ footer {
     #hackathon-prototype {
         position: absolute;
         top: 63px;
-        right: 0;
+        right: 20px;
         width: 20%;
     }
     
@@ -1602,16 +1608,20 @@ footer {
     }
     
     .designthinking-php .refleksion-dt {
-        margin-right: 40%;
-        margin-left: 20%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 50px;
     }
     
     .designthinking-php .kilder-dt {
-        margin-right: 40%;
-        margin-left: 20%;
+        margin-right: 10%;
+        margin-left: 10%;
     }
        
-    
+    .designthinking-php .hvaderdt {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
     
     
@@ -1731,8 +1741,8 @@ footer {
     .designthinking-php #hackathon-medal-faser {
         position: relative;
         justify-content: center;
-        left: 31%;
-        top: -65%;
+        left: 33%;
+        top: -54%;
     }
     
     .designthinking-php .hvaderdt {
