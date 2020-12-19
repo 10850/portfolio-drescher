@@ -29,33 +29,24 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /*  END RESET */
 
-/* STYLING GENERELT FOR ALLE SIDER */
-
 
 
 /* STYLING GENERELT FOR ALLE SIDER */
 html, body {
     min-height: 100%;
+    max-width: 100%;
 }
-
-/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
-/* Styling */
-.index-php {
-    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
-    background-repeat: no-repeat;
-}
-
 
 /* STYLING MOBILE FIRST */
 /* GLOBAL MENU */
 
 /* Burgermenu ikonet START*/
 .navbar-toggler .burgermenu-line {
-    width: 30px;
-    height: 3px;
+    width: 35px;
+    height: 4px;
     display: block;
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 50px;
 } /* Dette er for at lave nye linjer som kan laves helt hvide */
 
 .navbar-toggler .burgermenu-line:nth-child(2),
@@ -63,9 +54,6 @@ html, body {
     margin-top: 8px;
 } /* Dette er for at lave afstand mellem de tre linjer uden at den øverste linje laver afstand til toppen af siden */
 
-.navbar-toggler .burgermenu-line:nth-child(3) {
-    height: 3.2px;
-} /* den sidste linje for lidt mere højde fordi den så ud til at blive cuttede af på toppen */
 
 .navbar button {
     border: none;
@@ -255,6 +243,18 @@ html, body {
 /* display på mobil og tablet */
 .globalmenu-desktop {
     display: none;
+}
+
+
+
+
+
+
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
+/* Styling */
+.index-php {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+    background-repeat: no-repeat;
 }
 
 /* STYLING FORSIDE MENU */
@@ -505,6 +505,191 @@ html, body {
 }
 
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+
+
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+.designthinking-php header{
+    background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat;
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+.designthinking-php {
+    
+}
+
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
+
+
+
+
+
+
+
+
+
 
 
 
