@@ -541,6 +541,7 @@ html, body {
     padding-top: 10px;
     padding-left: 10px;
     font-weight: 400;
+    list-style: none;
 }
 
 /* FONTS */
