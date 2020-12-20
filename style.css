@@ -1575,7 +1575,7 @@ footer {
         display: grid;
         grid-column-gap: 20px;
         grid-template-columns: 1fr 2fr 2fr;
-        grid-template-rows: 0.1fr 0.1fr 0.1fr;
+        grid-template-rows: 1fr 0.1fr 0.1fr;
         grid-template-areas: 
             "implement-ikon implement-def implment-praksis"
             "implement-ikon implement-undtagelse implment-praksis";
@@ -1665,6 +1665,7 @@ footer {
         display: grid;
         grid-row-gap: 50px;
         grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
         grid-template-areas: 
             "hvaderdt-full"
             "empathize-full"
@@ -1800,11 +1801,26 @@ footer {
     
     
     
+    .designthinking-php .implement {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-rows: 1fr 1.3fr 0.1fr;
+        grid-template-areas: 
+            "implement-ikon implement-def implment-praksis"
+            "implement-ikon implement-undtagelse implment-praksis";
+    }
+    
     
     
 }
 
 
+
+@media only screen and (min-width: 1920px) {
+    
+    
+}
 
 
 
