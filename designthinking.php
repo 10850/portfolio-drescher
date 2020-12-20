@@ -26,12 +26,18 @@
             <?php include 'menu.inc' ?>
         </header>
         
-        <h1>Design Thinking</h1> <!-- Titel -->
-        
-        <img class="dt-img" id="hackathon-medal-desktop" src="design-thinking/hackathon-medal-mobil.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje desktop -->
-        
-            <img class="dt-img" id="hackathon-medal-faser" src="design-thinking/hackathon-medal-faser.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje desktop -->
-        
+        <section id="banner-desktop-dt">
+            <div id="banner-center">
+                <h1>Design Thinking</h1> <!-- Titel -->
+            
+                <img class="dt-img" id="hackathon-medal-faser" src="design-thinking/hackathon-medal-faser.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje desktop -->
+            </div> <!-- til for at billedet og titel står center -->
+            
+                <img class="dt-img" id="hackathon-medal-desktop" src="design-thinking/hackathon-medal-mobil.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje desktop -->
+            
+                <img class="dt-img" id="hackathon-prototype-desktop" src="design-thinking/hackathon-prototype.jpg" alt="Hackthon prototypen"> <!-- Hackathon prototype -->
+    
+        </section> <!-- dett banner er til for at lave et grid til desktop -->
         
             <div id="mitgrid-designthinking">
                 <img class="dt-img" id="faserne-mobil" src="design-thinking/designthinking-faser.png" alt="billed af faserne i design thinking"> <!-- faserne til mobil -->
@@ -211,7 +217,7 @@
                     </section>
                 </section> <!-- implement -->
                 
-                <img class="dt-img" id="hackathon-prototype" src="design-thinking/hackathon-prototype.jpg" alt="Hackthon prototypen"> <!-- Hackathon prototype -->
+                <img class="dt-img" id="hackathon-prototype-mobil" src="design-thinking/hackathon-prototype.jpg" alt="Hackthon prototypen"> <!-- Hackathon prototype -->
                     
                     <img class="dt-img" id="hackathon-medal-mobil" src="design-thinking/hackathon-medal-mobil.png" alt="anden plads medaljen fra Hackathon 2020"> <!-- hackathon medalje mobil -->
                 

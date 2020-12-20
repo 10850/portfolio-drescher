@@ -529,7 +529,7 @@ html, body {
 
 }
 
-.designthinking-php #hackathon-prototype {
+.designthinking-php #hackathon-prototype-mobil {
     max-width: 80%;
     margin-left: 10%;
 }
@@ -540,7 +540,8 @@ html, body {
 .designthinking-php #ideate-ikon-desktop, 
 .designthinking-php #prototype-ikon-desktop, 
 .designthinking-php #implement-ikon-desktop,
-.designthinking-php #hackathon-medal {
+.designthinking-php #hackathon-medal,
+.designthinking-php #hackathon-prototype-desktop {
     display: none;
 }
 
@@ -1376,7 +1377,7 @@ footer {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 52px;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -1384,7 +1385,7 @@ footer {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .designthinking-php .underoverskrift-dt {  
@@ -1398,12 +1399,12 @@ footer {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
     
 .designthinking-php ul li,
 .designthinking-php ol li {
-       font-size: 16px; 
+       font-size: 18px; 
 }
     
 .designthinking-php .information-personlig {
@@ -1411,12 +1412,13 @@ footer {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
     
 /* IKONER */
     .designthinking-php #faserne-mobil,
-    .designthinking-php #hackathon-medal-mobil {
+    .designthinking-php #hackathon-medal-mobil,
+    .designthinking-php #hackathon-prototype-mobil {
         display: none;
     }
     
@@ -1425,7 +1427,8 @@ footer {
 .designthinking-php #ideate-ikon-desktop, 
 .designthinking-php #prototype-ikon-desktop, 
 .designthinking-php #implement-ikon-desktop,
-.designthinking-php #hackathon-medal {
+.designthinking-php #hackathon-medal,
+.designthinking-php #hackathon-prototype-desktop {
     display: block;
 }
     
@@ -1584,49 +1587,106 @@ footer {
         display: block;
     }
     
-    .designthinking-php #hackathon-medal-desktop {
-        position: relative;
-        bottom: 16%;
-        left: 50px;
-    }
     
+    /* GRID TIL TOPPEN AF SIDEN */ 
     .designthinking-php #hackathon-medal-faser {
-        position: relative;
-        left: 255px;
-        top: -60%;
+        align-self: center;
     }
     
-    #hackathon-prototype {
-        position: absolute;
-        top: 63px;
-        right: 20px;
-        width: 20%;
+    .designthinking-php #banner-center {
+        grid-area: hackathon-faser;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
     
-    .designthinking-php .hvaderdt {
-        margin-top: -425px;
+    .designthinking-php #hackathon-medal-desktop {
+        grid-area: hackathon-medal;
     }
     
-    .designthinking-php h1 {
-        margin-top: 0.6em;
+    .designthinking-php #hackathon-prototype-desktop {
+        grid-area: hackathon-prototype;
+        width: 100%;
+    }
+    
+    .designthinking-php #banner-desktop-dt {
+        margin-top: -12px;
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "hackathon-medal hackathon-faser hackathon-prototype";
+    }
+    
+    
+    
+    .designthinking-php  h1 {
+        margin-top: 1em;
         font-size: 60px;
     }
     
-    .designthinking-php .refleksion-dt {
-        margin-right: 10%;
-        margin-left: 10%;
-        margin-top: 50px;
+/* GRID FOR HELE SIDEN DESKTOP */
+    .designthinking-php .hvaderdt {
+        grid-area: hvaderdt-full;
     }
     
+    .designthinking-php .empathize {
+        grid-area: empathize-full;
+    }
+    
+    .designthinking-php .define {
+        grid-area: define-full;
+    }
+    
+    .designthinking-php .ideate {
+        grid-area: ideate-full;
+    }
+    
+    .designthinking-php .prototype {
+        grid-area: prototype-full;
+    }
+    
+    .designthinking-php .implement {
+        grid-area: implement-full;
+    }
+    
+    .designthinking-php .refleksion-dt {
+        grid-area: refleksion-full;
+    }
+    
+    
     .designthinking-php .kilder-dt {
-        margin-right: 10%;
-        margin-left: 10%;
+        grid-area: kilder-full;
     }
-       
-    .designthinking-php .hvaderdt {
-        margin-right: 10%;
-        margin-left: 10%;
+    
+    
+    .designthinking-php #mitgrid-designthinking {
+        display: grid;
+        grid-row-gap: 50px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "hvaderdt-full"
+            "empathize-full"
+            "define-full"
+            "ideate-full"
+            "prototype-full"
+            "implement-full"
+            "refleksion-full"
+            "kilder-full";
     }
+    
+    .designthinking-php .hvaderdt,
+    .designthinking-php .empathize,
+    .designthinking-php .define,
+    .designthinking-php .ideate,
+    .designthinking-php .prototype,
+    .designthinking-php .implement,
+    .designthinking-php .kilder-dt {
+        margin-top: 0em;
+    }
+    
+    
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
     
     
@@ -1738,21 +1798,6 @@ footer {
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/  
     
-  .designthinking-php #hackathon-medal-desktop {
-        position: relative;
-        bottom: 16%;
-    }
-    
-    .designthinking-php #hackathon-medal-faser {
-        position: relative;
-        justify-content: center;
-        left: 33%;
-        top: -54%;
-    }
-    
-    .designthinking-php .hvaderdt {
-        margin-top: -400px;
-    }  
     
     
     
