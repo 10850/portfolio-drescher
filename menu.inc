@@ -2,9 +2,9 @@
                     <nav class="navbar navbar-expand-lg navbar-dark">
                       <a class="navbar-brand" href="index.php"><img src="closure-logo-white.png"></a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <label class="burgermenu-line"></label>
-                          <label class="burgermenu-line" class="line-margintop"></label>
-                          <label class="burgermenu-line" class="line-margintop"></label>
+                          <span class="burgermenu-line"></span>
+                          <span class="burgermenu-line"></span>
+                          <span class="burgermenu-line"></span>
                           <!-- labels til at lave tre hvide linjer som brugermenu ikon-->
                       </button> <!-- burgermenuen -->
 
