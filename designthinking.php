@@ -7,6 +7,7 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Refleksion, Projekter, Studieprojekt, Eksamensprojekt, Empathize, Define, Ideate, Protoype, Test, Implement, Implementering">
     <meta name="author" content="Drescher Rijna">
     <title>Design Thinking</title>
+    <!-- Logo ikon oppe i fanen -->
     <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Google font slab Roboto -->
     <link rel="preconnect" href="https://fonts.gstatic.com">

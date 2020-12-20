@@ -576,7 +576,7 @@ html, body {
 }
 
 /* List style */
-.designthinking-php .information-personlig {
+.information-personlig {
     list-style: none;
     font-family: montserrat, sans-serif;
     font-weight: 400;
@@ -690,119 +690,227 @@ footer {
 }
 
 
-.designthinking-php {
-    
+
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
+
+
+
+
+
+
+/* VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP START */
+.video-php {
+    max-width: 100%;
 }
 
-.designthinking-php {
-    
+/* videoer */
+.video-php video {
+    max-width: 100%;
+    height: auto;
 }
 
-.designthinking-php {
-    
+.video-php iframe {
+    max-width: 100%;
+    min-height: 100%;
 }
 
-.designthinking-php {
-    
+
+.video-php header {
+    background: linear-gradient(180deg, #FA5B50, #E00F00 40%) no-repeat;
+    width: 100%;
 }
 
-.designthinking-php {
-    
+.video-php footer {
+    background: linear-gradient(1800deg, #FA5B50, #E00F00 40%) no-repeat;
+    width: 100%;
 }
 
-.designthinking-php {
-    
+.video-php #mitgrid-video {
+    margin: 0.8em;
 }
 
-.designthinking-php {
-    
+
+/* FONTS MOBIL */
+.video-php .video-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
 }
 
-.designthinking-php {
-    
+.video-php .video-underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
 }
 
-.designthinking-php {
-    
+.video-php .video-bodytext {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 }
 
-.designthinking-php {
-    
+.video-php blockquote {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px; 
 }
 
-.designthinking-php {
-    
+.video-php h4 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
 }
 
-.designthinking-php {
-    
+.video-php h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
 }
 
-.designthinking-php {
-    
+.video-php .storyboard-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 }
 
-.designthinking-php {
-    
+.video-php .video-kilde-liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 }
 
-.designthinking-php {
-    
+/* IMAGES */
+.video-php #video-ideate {
+    max-width: 100%;
+    height: auto;
 }
 
-.designthinking-php {
-    
+.video-php #storyboard-praksis {
+    max-width: 100%;
+    height: auto;
 }
 
-.designthinking-php {
-    
+
+/* GRID MOBIL */
+.video-php h1 {
+    grid-area: titel;
 }
 
-.designthinking-php {
-    
+.video-php .post-production {
+    grid-area: post-production;
+    max-width: 100%;
+    height: 100%;
 }
 
-.designthinking-php {
-    
+.video-php .pre-production {
+    grid-area: pre-production;
+    max-width: 100%;
+    height: auto;
 }
 
-.designthinking-php {
-    
+.video-php .production {
+    grid-area: production;
+    max-width: 100%;
+    height: auto;
 }
 
-.designthinking-php {
-    
+.video-php .scootervideo {
+    grid-area: scootervideo;
+    max-width: 100%;
+    height: auto;
 }
 
-.designthinking-php {
-    
+.video-php .premiere-rush {
+    grid-area: premiere-rush;
+    max-width: 100%;
+    height: auto;
 }
 
-.designthinking-php {
-    
+.video-php .video-kilder {
+    grid-area: video-kilder;
+    max-width: 100%;
+    height: auto;
 }
 
-.designthinking-php {
-    
+
+.video-php #mitgrid-video {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "post-production"
+        "pre-production"
+        "production"
+        "premiere-rush"
+        "scootervideo"
+        "video-kilder";
 }
 
-.designthinking-php {
-    
+.video-php .video-kilder li:nth-child(2) {
+    word-break: break-all;
 }
 
-.designthinking-php {
-    
+
+
+.video-php .post-production div {
+    margin-top: 10px;
 }
 
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
+.video-php .post-production p,
+.video-php .post-production h4 {
+    margin-top: 10px;
+}
 
 
+.video-php .pre-production p,
+.video-php .pre-production ul, 
+.video-php .pre-production ul li {
+    margin-top: 10px;
+}
 
+.video-php .pre-production h3 {
+    margin-top: 15px;
+}
 
+.video-php .video-empathize h3 {
+    margin-top: 10px;
+}
 
+.video-php .production p{
+    margin-top: 10px;
+}
 
+.video-php .premiere-rush h3,
+.video-php .premiere-rush p {
+    margin-top: 10px;
+}
 
+.video-php .scootervideo p,
+.video-php .scootervideo video,
+.video-php .scootervideo blockquote {
+    margin-top: 10px;
+}
 
+.video-php .video-kilder ul,
+.video-php .video-kilder ul li {
+    margin-top: 10px;
+}
+
+.video-php .video-kilder ul,
+.video-php .storyboard-list {
+    margin-left: 2em;
+}
+
+/* VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP END */
 
 
 
@@ -1817,10 +1925,7 @@ footer {
 
 
 
-@media only screen and (min-width: 1920px) {
-    
-    
-}
+
 
 
 
