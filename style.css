@@ -933,11 +933,175 @@ footer {
     background: linear-gradient(180deg, #ED980C, #F75F0C 50%) no-repeat;
 }
 
-/* fonts */
+.foto-php .card {
+    max-width: 100%;
+}
 
+/* fonts */
+.foto-php h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+}
+
+.foto-php .overskrift-foto {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.foto-php .body-text-foto {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.foto-php .kilder-foto ul li {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 1em;
+}
+
+.foto-php .body-text-fig {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.foto-php .underoverskrift-foto {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+}
+
+.foto-php .exposure-parameter-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 1em;
+    margin-bottom: 10px;
+}
+
+.foto-php .underoverskrift-foto-primary {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+/* LAYOUT */
+.foto-php #mitgrid-foto {
+    margin: 0.8em;
+}
+
+.foto-php .kilder-foto ul {
+    margin-left: 1em;
+}
+
+.foto-php .kilder-foto ul li a {
+    word-break: break-all;
+}
+
+.foto-php .card {
+    border: 3px solid black;
+    border-radius: 0px;
+    max-width: 320px;
+    margin: 0.5em;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+}
+
+.foto-php .card-img-top {
+    border: 3px solid black;
+}
+
+.foto-php .card {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.foto-php .underoverskrift-foto {
+    margin-top: 20px;
+}
+
+.foto-php .body-text-foto {
+    margin-top: 10px;
+}
+
+.foto-php .exposure .underoverskrift-foto-primary {
+    margin-top: 15px;
+}
+
+
+/* GRID */
+.foto-php h1 {
+    grid-area: titel;
+}
+
+
+.foto-php .exposure {
+    grid-area: exposure;
+}
+
+.foto-php .brandvidde {
+    grid-area: brandvidde;
+}
+
+.foto-php .iso {
+    grid-area: iso;
+}
+
+.foto-php .lukketid {
+    grid-area: lukketid;
+}
+
+.foto-php .blande {
+    grid-area: blande;
+}
+
+.foto-php .refleksion-foto {
+    grid-area: refleksion;
+}
+
+.foto-php .kilder-foto {
+    grid-area: kilder;
+}
+
+.foto-php #mitgrid-foto {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "exposure"
+        "iso"
+        "lukketid"
+        "blande"
+        "brandvidde"
+        "refleksion"
+        "kilder";
+}
+ 
+
+.foto-php h1 {
+    text-align: center;
+}
 
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */
-
 
 
 
@@ -1385,15 +1549,115 @@ footer {
 
 .video-php #mitgrid-video {
     margin: 1.2em;
+}   
+/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */    
+    
+  
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
+.foto-php #mitgrid-foto {
+    margin: 1.2em;
+}
+    
+/* fonts */
+.foto-php h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.foto-php .overskrift-foto {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+}
+
+.foto-php .body-text-foto {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.foto-php .kilder-foto ul li {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+.foto-php .body-text-fig {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.foto-php .underoverskrift-foto {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    text-align: left;
+}
+
+.foto-php .exposure-parameter-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+    margin-bottom: 10px;
+}
+
+.foto-php .underoverskrift-foto-primary {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    font-size: 24px;
+} 
+    
+/* FLEXBOX */
+.foto-php .exposure-triangle {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.foto-php .img-luk-iso {
+    display: flex;
+    flex-wrap: wrap;
 }
     
     
+.foto-php .lukketid-hop {
+    display: flex;
+    flex-wrap: wrap;
+}
     
-/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */    
+.foto-php .img-luk-blande {
+    display: flex;
+    flex-wrap: wrap;     
+}
+
+.foto-php .lukketid-holdt {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.foto-php .blande-dybde {
+    display: flex;
+    flex-wrap: wrap;     
+}
     
-    
-    
-    
+.foto-php .brandevidde-low-high {
+     display: flex;
+    flex-wrap: wrap;   
+}
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */     
     
     
     
@@ -2078,7 +2342,116 @@ footer {
 }    
     
     
-/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */    
+/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */   
+    
+
+
+    
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
+.foto-php #mitgrid-foto {
+    margin: 2em;
+}
+    
+/* fonts */
+.foto-php h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.foto-php .overskrift-foto {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.foto-php .body-text-foto {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.foto-php .kilder-foto ul li {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+.foto-php .body-text-fig {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.foto-php .underoverskrift-foto {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    text-align: left;
+}
+
+.foto-php .exposure-parameter-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+    margin-bottom: 10px;
+}
+
+.foto-php .underoverskrift-foto-primary {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    font-size: 26px;
+} 
+    
+/* FLEXBOX */
+.foto-php .exposure-triangle {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.foto-php .img-luk-iso {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+    
+.foto-php .lukketid-hop {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.foto-php .img-luk-blande {
+    display: flex;
+    flex-wrap: wrap;     
+}
+
+.foto-php .lukketid-holdt {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.foto-php .blande-dybde {
+    display: flex;
+    flex-wrap: wrap;     
+}
+    
+.foto-php .brandevidde-low-high {
+     display: flex;
+    flex-wrap: wrap;   
+}
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */ 
     
     
     
@@ -2252,6 +2625,158 @@ footer {
     }
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */        
+
+    
+    
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
+.foto-php #mitgrid-foto {
+    margin: 6em;
+}
+    
+/* fonts */
+.foto-php h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.foto-php .overskrift-foto {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.foto-php .body-text-foto {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.foto-php .kilder-foto ul li {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+.foto-php .body-text-fig {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.foto-php .underoverskrift-foto {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    text-align: left;
+}
+
+.foto-php .exposure-parameter-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+    margin-bottom: 10px;
+}
+
+.foto-php .underoverskrift-foto-primary {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    font-size: 26px;
+} 
+    
+/* FLEXBOX */
+.foto-php .exposure-triangle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+    
+.foto-php .img-luk-iso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+    
+    
+.foto-php .lukketid-hop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+    
+.foto-php .img-luk-blande {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.foto-php .lukketid-holdt {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.foto-php .blande-dybde {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+    
+.foto-php .brandevidde-low-high {
+     display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+    
+.foto-php .card {
+    max-width: 45%;
+}
+    
+    
+    .foto-php .background-image1{
+        background-image: url(foto/background-image-foto1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: -6em;
+        margin-left: -6em;
+        
+    }
+    
+    .foto-php .background-image2 {
+        background-image: url(foto/background-image-foto2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center 100%;
+        margin-right: -6em;
+        margin-left: -6em;
+    }
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */ 
+    
     
     
     

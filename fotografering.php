@@ -25,8 +25,9 @@
         <div id="mitgrid-foto">
             <h1>Fotografering</h1>
             
-            <section class="Exposure">
-                <section>
+            
+            <section class="exposure">
+                <section class="exposure-intro">
                     <h2 class="overskrift-foto">Exposure</h2>
 
                     <p class="body-text-foto">
@@ -34,118 +35,169 @@
                     </p>
                 </section>
                 
-                <section>
-                    <figure class="card">
-                        <img src="foto/eksponering-default.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Med standardindstillinger er billedet for mørkt
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                <div class="background-image1">
+                    <section class="exposure-triangle">
+                        <figure class="card">
+                            <img src="foto/eksponering-default.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Med standardindstillinger er billedet for mørkt
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/eksponering-iso.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    ISO sat til 800 gøre billedet lysere
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/eksponering-lukkertid.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lukketiden sat ned til 40 gøre billedet lysere
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/eksponering-bland.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Blænden sat op til 11 gøre billedet meget mørkt
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    </section>
+                </div> <!-- div til at få background image ind lige præcis hvor jeg vil det -->
                     
-                    <figure class="card">
-                        <img src="foto/eksponering-iso.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                ISO sat til 800 gøre billedet lysere
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                <section class="exposure-parameter-resultat">
+                    <h3 class="underoverskrift-foto">De tre parameters indflydelse på exposure</h3>
+                    <p class="body-text-foto">
+                        Efter at have taget disse billeder hvor jeg beholdt to parameter konstante og ændret på en, og gjorde det tre gange. Kunne jeg se at hver parameter ændret eksponering af billedet:
+                    </p>
                     
-                    <figure class="card">
-                        <img src="foto/eksponering-lukkertid.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketiden sat ned til 40 gøre billedet lysere
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                    
-                    <figure class="card">
-                        <img src="foto/eksponering-bland.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Blænden sat op til 11 gøre billedet meget mørkt
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    <ul class="exposure-parameter-list">
+                        <li>Jo større ISO'en er, desto lysere bliver billedet</li>
+                        <li>Jo mindre lukketiden er, desto lysere bliver billedet</li>
+                        <li>Jo større blænden er, desto mørkere bliver billedet </li>
+                    </ul>
                 </section>
                 
-                <section>
-                    <figure class="card">
-                        <img src="foto/eksponering-lukkertid-iso1.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 125
-                            </p>
-                            <p class="card-text">
-                                ISO på 800
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                <section class="exposure-luk-iso">
                     
-                    <figure class="card">
-                        <img src="foto/eksponering-lukkertid-iso2.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 400
-                            </p>
-                            <p class="card-text">
-                                ISO på 2000
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    <h3 class="underoverskrift-foto-primary">Lukketid i samspil med ISO</h3>
                     
-                    <figure class="card">
-                        <img src="foto/eksponering-lukkertid-iso3.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 50
-                            </p>
-                            <p class="card-text">
-                                ISO på 320
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    <div class="background-image2">
+                        <section class="img-luk-iso">
+                            <figure class="card">
+                                <img src="foto/eksponering-lukkertid-iso1.jpg" class="card-img-top" alt="...">
+                                <figcaption class="card-body">
+                                    <p class="body-text-fig">
+                                        Lukketid på 125
+                                    </p>
+                                    <p class="body-text-fig">
+                                        ISO på 800
+                                    </p>
+                                </figcaption>
+                            </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                            <figure class="card">
+                                <img src="foto/eksponering-lukkertid-iso2.jpg" class="card-img-top" alt="...">
+                                <figcaption class="card-body">
+                                    <p class="body-text-fig">
+                                        Lukketid på 400
+                                    </p>
+                                    <p class="body-text-fig">
+                                        ISO på 2000
+                                    </p>
+                                </figcaption>
+                            </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                            <figure class="card">
+                                <img src="foto/eksponering-lukkertid-iso3.jpg" class="card-img-top" alt="...">
+                                <figcaption class="card-body">
+                                    <p class="body-text-fig">
+                                        Lukketid på 50
+                                    </p>
+                                    <p class="body-text-fig">
+                                        ISO på 320
+                                    </p>
+                                </figcaption>
+                            </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                        </section>
+                    </div>
+                    
+                    <section class="resultat-luk-iso">
+                        <h3 class="underoverskrift-foto">Resultat</h3>
+                        <p class="body-text-foto">
+                            Jeg tog billeder med en forskellige ISO-værdier og lukketider og fandt fremtil, at Når man justerer lukkeren, kan man bestemme hvor længe den er åben, og dermed hvor meget lys den kan lukke ind.
+                        </p>
+
+                        <p class="body-text-foto">
+                            Derudover når man justerer ISO'en, justerer man på hvor følsomt billedet er overfor lys.
+                        </p>
+                    </section>
                 </section>
                 
-                <section>
-                    <figure class="card">
-                        <img src="foto/eksponering-blande-lukker1.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 30
-                            </p>
-                            <p class="card-text">
-                                Blænderen på 7,1
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card">
-                        <img src="foto/eksponering-blande-lukker2.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 15
-                            </p>
-                            <p class="card-text">
-                                Blænderen på 10
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                <section class="exposure-luk-blande">
                     
-                    <figure class="card">
-                        <img src="foto/eksponering-blande-lukker3.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 8
-                            </p>
-                            <p class="card-text">
-                                Blænderen på 13
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    <h3 class="underoverskrift-foto-primary">Lukketid i samspil med blænderen</h3>
+                
+                    <div class="background-image1">
+                        <section class="img-luk-blande">
+                            <figure class="card">
+                                <img src="foto/eksponering-blande-lukker1.jpg" class="card-img-top" alt="...">
+                                <figcaption class="card-body">
+                                    <p class="body-text-fig">
+                                        Lukketid på 30
+                                    </p>
+                                    <p class="body-text-fig">
+                                        Blænderen på 7,1
+                                    </p>
+                                </figcaption>
+                            </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                            <figure class="card">
+                                <img src="foto/eksponering-blande-lukker2.jpg" class="card-img-top" alt="...">
+                                <figcaption class="card-body">
+                                    <p class="body-text-fig">
+                                        Lukketid på 15
+                                    </p>
+                                    <p class="body-text-fig">
+                                        Blænderen på 10
+                                    </p>
+                                </figcaption>
+                            </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                            <figure class="card">
+                                <img src="foto/eksponering-blande-lukker3.jpg" class="card-img-top" alt="...">
+                                <figcaption class="card-body">
+                                    <p class="body-text-fig">
+                                        Lukketid på 8
+                                    </p>
+                                    <p class="body-text-fig">
+                                        Blænderen på 13
+                                    </p>
+                                </figcaption>
+                            </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                        </section>
+                    </div>
+                </section>
+                
+                <section class="resultat-luk-blande">
+                    <h3 class="underoverskrift-foto">Resultat</h3>
+                    <p class="body-text-foto">
+                        Ved at tage billeder med forskellige blænde-værdier og lukketider fandt jeg fremtil at, når man justerer blænderen, justerer man på hvor meget lys der kan lukkes ind gennem objektivet, hvilket også justerer på dybdeskarphed. 
+                    </p>
+                    <p class="body-text-foto">
+                        Derudover, når man justerer lukkeren, kan man bestemme hvor længe den er åben, og dermed hvor meget lys den kan lukke ind. 
+                    </p>
                 </section>
             </section> <!-- EXPOSURE -->
             
@@ -154,13 +206,13 @@
                     <h2 class="overskrift-foto">ISO</h2>
 
                     <p class="body-text-foto">
-                        ISO styre lys følsomheden, og jo højere ISO man har desto mere støj, fremkommer på billedet (ibid). Og jo lavere ISO desto mindre støj er der på billedet (ibid).
+                        ISO styre lys følsomheden, og jo højere ISO man har desto mere støj, fremkommer på billedet (Østergaard, 2020). Og jo lavere ISO desto mindre støj er der på billedet (ibid).
                     </p>
                 </section>
             </section> <!-- ISO -->
             
             <section class="lukketid">
-                <section>
+                <section class="lukketid-intro">
                     <h2 class="overskrift-foto">Lukketid</h2>
 
                     <p class="body-text-foto">
@@ -168,76 +220,103 @@
                     </p>
                 </section>
                 
-                <section>
-                    <figure class="card">
-                        <img src="foto/lukkertid1.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 1/30
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                    
-                    <figure class="card">
-                        <img src="foto/lukkertid3.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 1/100
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                    
-                    <figure class="card">
-                        <img src="foto/lukkertid4.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 1/250
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                    
-                    <figure class="card">
-                        <img src="foto/lukkertid2.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 1/1000
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                <div class="background-image2">
+                    <section class="lukketid-hop">
+                        <figure class="card">
+                            <img src="foto/lukkertid1.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lukketid på 1/30
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/lukkertid3.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lukketid på 1/100
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/lukkertid4.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lukketid på 1/250
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/lukkertid2.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lukketid på 1/1000
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    </section>
+                </div>
+                
+                <section class="lukketid-hop-resultat">
+                    <h3 class="underoverskrift-foto">Resultat</h3>
+                    <p class="body-text-foto">
+                        Jeg tog billeder med lukkertid på 1/30, 1/250, 1/1000, 1/125, 1/60 og 1/100. 
+                    </p>
+                    <p class="body-text-foto">
+                        Jeg fandt fremtil at man begynder at fornemme bevægelsen, hvor jeg stadig er genkendelig, ved en lukkertid på omkring 1/100.
+                    </p>
+                    <p class="body-text-foto">
+                        Jeg også ud af at billedet af mig begynder at fremstå helt skarpt og frosset, ved omkring 1/250. 
+                    </p>
                 </section>
                 
-                <section>
-                    <figure class="card">
-                        <img src="foto/lukkertid-holdt1.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 1/15
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                    
-                    <figure class="card">
-                        <img src="foto/lukkertid-holdt2.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 1/60
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                    
-                    <figure class="card">
-                        <img src="foto/lukkertid-holdt3.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lukketid på 1/500
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                </section>
+                <div class="background-image2">
+                    <section class="lukketid-holdt">
+                        <figure class="card">
+                            <img src="foto/lukkertid-holdt1.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lukketid på 1/15
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/lukkertid-holdt2.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lukketid på 1/60
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/lukkertid-holdt3.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lukketid på 1/500
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    </section>
+                </div>
+                
+                <section class="lukketid-holdt-resultat">
+                    <h3 class="underoverskrift-foto">Resultat</h3>
+                    <p class="body-text-foto">
+                        Jeg tog billeder med lukkertiden på 1/15, 1/60, 1/500. 
+                    </p>
+                    <p class="body-text-foto">
+                        Jeg kunne fornemme og efter at have taget billedet at omkring 1/60 begynder det at blive muligt at holde kameraet stille. Hvor hvis det er mindre, så er det meget mere besværeligt fordi det tager langtid for lukkeren at lukke så kameraet kan tage billedet.
+                    </p>
+                </section>    
             </section> <!-- LUKKERTID -->
             
             <section class="blande">
-                <section>
+                <section class="blande-intro">
                     <h2 class="overskrift-foto">Blænde</h2>
 
                     <p class="body-text-foto">
@@ -245,38 +324,50 @@
                     </p>
                 </section>
                 
-                <section>
-                    <figure class="card">
-                        <img src="foto/dybdeskarphed1.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lav blænde
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                <div class="background-image1">
+                    <section class="blande-dybde">
+                        <figure class="card">
+                            <img src="foto/dybdeskarphed1.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lav blænde
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/dybdeskarphed2.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Mellemstor blænde
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/dybdeskarphed3.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Høj blænde
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    </section>
+                </div>
                     
-                    <figure class="card">
-                        <img src="foto/dybdeskarphed2.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Mellemstor blænde
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                    
-                    <figure class="card">
-                        <img src="foto/dybdeskarphed3.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Høj blænde
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                <section class="blande-resultat">
+                    <h3 class="underoverskrift-foto">Resultat</h3>
+                    <p class="body-text-foto">
+                        Ved at lege lidt rundt med blænderen, fandt jeg frem til, at blænderen gøre baggrunden sløret jo mindre blændeværdien er, og omvendt. Så Jo lavere blændeværdi, desto lavere dybdeskarphed og omvendt.
+                    </p>
+                    <p class="body-text-foto">
+                        Jeg fandt også ud af, at jo højere blændeværdien er, desto længere er lukkertiden.
+                    </p>
                 </section>
             </section> <!-- BLÆNDE -->
             
             <section class="brandvidde">
-                <section>
+                <section class="brandevidde-intro">
                     <h2 class="overskrift-foto">Brændevidde</h2>
 
                      <p class="body-text-foto">
@@ -284,40 +375,65 @@
                      </p>
                 </section>
                 
-                <section>
-                    <figure class="card">
-                        <img src="foto/brandevidde4.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Lav brændevidde
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
-                    
-                    <figure class="card">
-                        <img src="foto/brandevidde3.jpg" class="card-img-top" alt="...">
-                        <figcaption class="card-body">
-                            <p class="card-text">
-                                Høj brændevidde
-                            </p>
-                        </figcaption>
-                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                <div class="background-image2">
+                    <section class="brandevidde-low-high">
+                        <figure class="card">
+                            <img src="foto/brandevidde4.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Lav brændevidde
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+
+                        <figure class="card">
+                            <img src="foto/brandevidde3.jpg" class="card-img-top" alt="...">
+                            <figcaption class="card-body">
+                                <p class="body-text-fig">
+                                    Høj brændevidde
+                                </p>
+                            </figcaption>
+                        </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    </section>
+                </div>
+                
+                <section class="lego-brandvidde-resultat">
+                    <h3 class="underoverskrift-foto">Resultat</h3>
+                    <p class="body-text-foto">
+                        Jeg legede lidt rundt med forskellige brændevidder og fandt fremtil, at når brændevidden er høj så kan man se rigtig meget af scenariet på billedet og alt var tydeligt og klart.
+                    </p>
+                    <p class="body-text-foto">
+                        Hvorimod når brændevidden er lav så kan man ikke se så meget af scenariet på billedet og man kan kun se det forreste objekt tydeligt, derefter objektet i mellemgrund mindre tydeligt, og til sidst er det helt sløret i baggrunden.
+                    </p>
+                    <p class="body-text-foto">
+                        Det som er overraskkende er, at den lave brændevidde fik det bagerste objekt til at se ud som om det var tættere på baggrunden end den egentlig var. Så brændevidden ændre på perspektivet i et billede.
+                    </p>
                 </section>
             </section> <!-- BRÆNDEVIDDE -->
             
             <section class="refleksion-foto">
-                <h2 class="overskrift-foto"></h2>
-                
+                <h2 class="overskrift-foto">Første gang med et kamera i hånden</h2>
+                <p class="body-text-foto">
+                    Før studiet have jeg aldrig arbejdet med et kamera før. Ja jeg har taget billeder med min telefon en masse, men aldrig med et kamera med lenser osv.
+                </p>
+                <p class="body-text-foto">
+                    Jeg gik fra at have ingen forstand på hvordan et kamera virker til at have en grundlæggende forståelse for hvordan de forskellige indstillingerne arbejder sammen og ændre på billedets eksponering, dybdeskarphed og perspektiv.
+                </p>
+                <p class="body-text-foto">
+                    Øvelsen hvor jeg tog billeder af lego hjalp rigtig meget med at få mig til at få den forståelse jeg har nu. især fordi jeg havde Veli som gruppekammerat som arbejder som fotograf, så han kunne forklare mig hvordan det hele virket på en meget simpel måde, som var til at forstå.
+                </p>
             </section> <!-- REFLEKSION -->
             
             <section class="kilder-foto">
                 <h2 class="overskrift-foto">Kilder</h2>
                 <ul>
-                    <li>Long, B., 2015. Linkedin Learning. [Online] 
+                    <li>
+                        Long, B., 2015. Linkedin Learning. [Online] 
                         Available at: <a href="https://www.linkedin.com/learning/introduction-to-photography/understanding-exposure?u=37312532">https://www.linkedin.com/learning/introduction-to-photography/understanding-exposure?u=37312532</a> 
                         [Senest hentet eller vist den 19 december 2020].
                     </li>
-                    <li>Long, B., 2015. Linkedin Learning. [Online] 
+                    <li>
+                        Long, B., 2015. Linkedin Learning. [Online] 
                         Available at: <a href="https://www.linkedin.com/learning/introduction-to-photography/understanding-lenses?u=37312532">https://www.linkedin.com/learning/introduction-to-photography/understanding-lenses?u=37312532</a> 
                         [Senest hentet eller vist den 19 december 2020].
                     </li>
