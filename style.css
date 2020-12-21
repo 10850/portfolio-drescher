@@ -552,6 +552,7 @@ html, body {
     font-style: normal;
     font-size: 38px;
     text-align: center;
+    margin-top: 0.7em;
 }
 
 .designthinking-php .overskrifter-dt {  
@@ -1222,7 +1223,7 @@ footer {
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
 .designthinking-php #mitgrid-designthinking {
-        margin: 2em;
+        margin: 1em;
     }
     
 .designthinking-php h1 {  
@@ -1237,34 +1238,30 @@ footer {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .designthinking-php .underoverskrift-dt {  
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .designthinking-php .bodytext-dt {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
-    
-.designthinking-php ul li,
-.designthinking-php ol li {
-       font-size: 16px; 
-}
+
     
 .designthinking-php .information-personlig {
     list-style: none;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
@@ -1315,24 +1312,34 @@ footer {
     font-size: 48px;
 }
 
-.video-php .storyboard-list {
+.video-php .storyboard-list li {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
 }
 
-.video-php .video-kilde-liste {
+.video-php .video-kilde-liste li {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
 }
-    
+  
+.designthinking-php #steps-dt-hverdag li {
+    font-size: 18px;
+}
+
+.designthinking-php #brainstorm-steps li {
+    font-size: 18px; 
+}
+
 .video-php .video-kilder {
     margin-bottom: 40px;
     margin-top: 20px;
 }
+    
+
 
 /* Videoer og billeder */
 .video-php video {
@@ -1607,7 +1614,7 @@ footer {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 36px;
+    font-size: 38px;
 }
 
 .designthinking-php .underoverskrift-dt {  
@@ -1627,6 +1634,10 @@ footer {
 .designthinking-php ul li,
 .designthinking-php ol li {
        font-size: 18px; 
+}
+    
+.designthinking-php .kilder-dt li {
+    font-size: 18px;
 }
     
 .designthinking-php .information-personlig {
