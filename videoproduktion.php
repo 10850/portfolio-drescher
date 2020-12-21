@@ -32,11 +32,13 @@
                 <h2 class="video-overskrift">Post-Production</h2>
                 <p class="video-bodytext">Jeg var med til at producere en Quick n Dirty video om lydtætte Høretelefoner. Post-Production er hvor man rediger video klips man har fået filmet i et redigeringsprogram hvor alt magien sker og man ender ud med det endelige produkt (Bogner, 2020). Vi brugte Adobe Premiere Rush.</p>
                 
-                <div id="videosection">
-                 <iframe id="headphones" width="549" height="360" src="https://www.youtube.com/embed/EZBNnUBNN8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Quick n Dirty video -->
-                
-                <h4>Men for at kunne nå hertil skal man gennem Pre-production og Production faserne (Bogner, 2020).</h4>
-                </div>
+                <div id="background-image">
+                    <div id="videosection">
+                         <iframe id="headphones" width="1280" height="720" src="https://www.youtube.com/embed/EZBNnUBNN8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Quick n Dirty video -->
+
+                        <h4>Men for at kunne nå hertil skal man gennem Pre-production og Production faserne (Bogner, 2020).</h4>
+                    </div> <!-- denne div er for at jeg kan gøre størrelse af videoen responsiv -->
+                </div> <!-- denne er til for at sætte et background image ind så den ikke bevæger sig ind i andre elementer -->
             </section> <!-- Post Production -->
             
             <section class="pre-production">
