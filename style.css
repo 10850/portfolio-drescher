@@ -791,6 +791,10 @@ footer {
     font-size: 16px;
 }
 
+.video-php .video-kilder h2 {
+    text-decoration-line: underline;
+}
+
 /* IMAGES */
 .video-php #video-ideate {
     max-width: 100%;
@@ -882,7 +886,7 @@ footer {
 }
 
 .video-php .pre-production h3 {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .video-php .video-empathize h3 {
@@ -1265,9 +1269,115 @@ footer {
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
+
+    
+/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */
+/* FONTS Tablet */
+.video-php .video-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+}
+
+.video-php .video-underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.video-php .video-bodytext {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.video-php blockquote {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px; 
+}
+
+.video-php h4 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.video-php h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.video-php .storyboard-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.video-php .video-kilde-liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+    
+.video-php .video-kilder {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+/* Videoer og billeder */
+.video-php video {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-php iframe {
+    min-width: 100%;
+    min-height: 500px;
+}
+
+
+.video-php header {
+    background: linear-gradient(180deg, #FA5B50, #E00F00 40%) no-repeat;
+    width: 100%;
+}
+
+.video-php footer {
+    background: linear-gradient(1800deg, #FA5B50, #E00F00 40%) no-repeat;
+    width: 100%;
+}
+
+.video-php #mitgrid-video {
+    margin: 1.2em;
+}
+    
+    
+    
+/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */    
+    
+    
+    
+    
+    
     
     
 }
+
+
+
+
+
+
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -1802,13 +1912,151 @@ footer {
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
     
+/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */
+/* FONTS Tablet */
+.video-php .video-overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+}
+
+.video-php .video-underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.video-php .video-bodytext {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.video-php blockquote {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px; 
+}
+
+.video-php h4 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.video-php h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.video-php .storyboard-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.video-php .video-kilde-liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
     
+.video-php .video-kilder {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+/* Videoer og billeder */
+.video-php video {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-php iframe {
+    width: 100%;
+    min-height: 500px;
+}
+
+
+.video-php header {
+    background: linear-gradient(180deg, #FA5B50, #E00F00 40%) no-repeat;
+    width: 100%;
+}
+
+.video-php footer {
+    background: linear-gradient(1800deg, #FA5B50, #E00F00 40%) no-repeat;
+    width: 100%;
+}
+
+.video-php #mitgrid-video {
+    margin: 1.5em;
+}
+    
+/* GRID DESKTOP */
+.video-php h1 {
+    grid-area: titel;
+}
+
+.video-php .post-production {
+    grid-area: post-production;
+}
+
+.video-php .pre-production {
+    grid-area: pre-production;
+}
+
+.video-php .production {
+    grid-area: production;
+}
+
+.video-php .scootervideo {
+    grid-area: scootervideo;
+}
+
+.video-php .premiere-rush {
+    grid-area: premiere-rush;
+}
+
+.video-php .video-kilder {
+    grid-area: video-kilder;
+}
+    
+
+.video-php #mitgrid-video {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-column-gap: 10px;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 0fr 0.1fr 0.1fr 0.73fr 0.1fr 0.1fr;
+    grid-template-areas: 
+        "titel titel"
+        "post-production post-production"
+        "pre-production scootervideo"
+        "pre-production premiere-rush"
+        "production premiere-rush"
+        "video-kilder video-kilder";
+}    
+    
+    
+/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */    
     
     
     
     
     
 }
+
+
+
 
 
 
@@ -1910,8 +2158,10 @@ footer {
     
     
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/  
+ 
     
     
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
     
     .designthinking-php .implement {
         display: grid;
@@ -1922,6 +2172,55 @@ footer {
             "implement-ikon implement-def implment-praksis"
             "implement-ikon implement-undtagelse implment-praksis";
     }
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */ 
+    
+    
+    
+
+    
+/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */  .video-php #mitgrid-video {
+    margin: 2em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 0fr 0.2fr 0.1fr 0.52fr 0.1fr 0.1fr;
+    grid-template-areas: 
+        "titel titel"
+        "post-production post-production"
+        "pre-production scootervideo"
+        "pre-production premiere-rush"
+        "production premiere-rush"
+        "video-kilder video-kilder";
+}
+
+    .video-php iframe {
+        height: 720px;
+        max-width: 1280px;
+    }
+    
+.video-php #videosection {
+    max-width: 80%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+    .video-php #background-image {
+        min-width: 100%;
+        height: auto;
+        margin-right: -2em;
+        margin-left: -2em;
+        overflow: hidden;
+        background-image: url(video/background-video-ikoner-final.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        
+    }
+    
+/* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */        
     
     
     
