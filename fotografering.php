@@ -179,19 +179,28 @@
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
                     <figure class="card" style="width: 18rem;">
-                        <img src="foto/lukkertid2.jpg" class="card-img-top" alt="...">
+                        <img src="foto/lukkertid3.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
-                                Lukketid på 1/125
+                                Lukketid på 1/100
                             </p>
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
                     <figure class="card" style="width: 18rem;">
-                        <img src="foto/lukkertid3.jpg" class="card-img-top" alt="...">
+                        <img src="foto/lukkertid4.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
                                 Lukketid på 1/250
+                            </p>
+                        </figcaption>
+                    </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                    
+                    <figure class="card" style="width: 18rem;">
+                        <img src="foto/lukkertid2.jpg" class="card-img-top" alt="...">
+                        <figcaption class="card-body">
+                            <p class="card-text">
+                                Lukketid på 1/1000
                             </p>
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
@@ -277,7 +286,7 @@
                 
                 <section>
                     <figure class="card" style="width: 18rem;">
-                        <img src="foto/brandevidde3.jpg" class="card-img-top" alt="...">
+                        <img src="foto/brandevidde4.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
                                 Lav brændevidde
@@ -286,7 +295,7 @@
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
                     <figure class="card" style="width: 18rem;">
-                        <img src="foto/brandevidde4.jpg" class="card-img-top" alt="...">
+                        <img src="foto/brandevidde3.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
                                 Høj brændevidde
