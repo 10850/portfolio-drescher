@@ -35,7 +35,7 @@
                 </section>
                 
                 <section>
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-default.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -44,7 +44,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-iso.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -53,7 +53,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-lukkertid.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -62,7 +62,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-bland.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -73,7 +73,7 @@
                 </section>
                 
                 <section>
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-lukkertid-iso1.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -85,7 +85,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-lukkertid-iso2.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -97,7 +97,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-lukkertid-iso3.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -111,7 +111,7 @@
                 </section>
                 
                 <section>
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-blande-lukker1.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -123,7 +123,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-blande-lukker2.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -135,7 +135,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/eksponering-blande-lukker3.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -169,7 +169,7 @@
                 </section>
                 
                 <section>
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/lukkertid1.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -178,7 +178,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/lukkertid3.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -187,7 +187,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/lukkertid4.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -196,7 +196,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/lukkertid2.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -207,7 +207,7 @@
                 </section>
                 
                 <section>
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/lukkertid-holdt1.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -216,7 +216,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/lukkertid-holdt2.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -225,7 +225,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/lukkertid-holdt3.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -246,7 +246,7 @@
                 </section>
                 
                 <section>
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/dybdeskarphed1.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -255,7 +255,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/dybdeskarphed2.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -264,7 +264,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/dybdeskarphed3.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -285,7 +285,7 @@
                 </section>
                 
                 <section>
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/brandevidde4.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
@@ -294,7 +294,7 @@
                         </figcaption>
                     </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                     
-                    <figure class="card" style="width: 18rem;">
+                    <figure class="card">
                         <img src="foto/brandevidde3.jpg" class="card-img-top" alt="...">
                         <figcaption class="card-body">
                             <p class="card-text">
