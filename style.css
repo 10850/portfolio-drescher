@@ -923,6 +923,22 @@ footer {
 
 
 
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */
+/* farver */
+.foto-php header {
+    background: linear-gradient(180deg, #ED980C, #F75F0C 50%) no-repeat;
+}
+
+.foto-php footer {
+    background: linear-gradient(180deg, #ED980C, #F75F0C 50%) no-repeat;
+}
+
+/* fonts */
+
+
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */
+
+
 
 
 
