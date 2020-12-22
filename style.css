@@ -1105,6 +1105,206 @@ footer {
 
 
 
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP START */
+.hvad-er-usability-php header,
+.hvad-er-usability-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+    max-width: 100%;
+}
+
+/* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
+h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+}
+
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.kildeliste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 1em;
+}
+
+.hvad-er-usability-php .usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.hvad-er-usability-php .usability-table td {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.hvad-er-usability-php .hvorfor-liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 1em;
+}
+
+.hvad-er-usability-php .hvorfor-liste li {
+    padding-top: 10px;
+}
+
+/* STYLING FOR TABLE */
+.hvad-er-usability-php .usability-table th,
+.hvad-er-usability-php .usability-table td {
+    border: 1px solid black;
+}
+
+.hvad-er-usability-php .usability-table th {
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.hvad-er-usability-php .usability-table td {
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+
+.hvad-er-usability-php .usability-table td p {
+    padding: 5px;
+}
+
+.hvad-er-usability-php .usability-table {
+    max-width: 100%;
+    height: auto;
+}
+
+/* GRID */
+.hvad-er-usability-php .skitse-madheltene {
+    max-width: 80%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    grid-area: madheltene-prototype;
+}
+
+.hvad-er-usability-php h1 {
+    grid-area: titel;
+    text-align: center;
+}
+
+.hvad-er-usability-php .hvad-er-usability {
+    grid-area: hvader;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .hvorfor-usability {
+    grid-area: hvorfor;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .funktionalitet {
+    grid-area: funktionalitet;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .effektivitet {
+    grid-area: effektivitet;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .tilfredshed {
+    grid-area: tilfredshed;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .undersogelsesdesign {
+    grid-area: undersogelsesdesign;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .pilottest {
+    grid-area: pilottest;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .lige-po-og-rot {
+    grid-area: lige-po-og-rot;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .skitser {
+    grid-area: skitser;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .testmetoder-table {
+    grid-area: testmetoder;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvad-er-usability-php .kilder {
+    grid-area: kilder;
+    max-width: 100%;
+    height: auto;
+}
+
+#mitgrid-hvaderusability {
+    max-width: 100%;
+    height: auto;
+    margin: 0.8em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 25px;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "hvorfor"
+        "funktionalitet"
+        "effektivitet"
+        "tilfredshed"
+        "undersogelsesdesign"
+        "testmetoder"
+        "pilottest"
+        "lige-po-og-rot"
+        "madheltene-prototype"
+        "skitser"
+        "kilder";
+}
+
+.body-text {
+    margin-top: 10px;
+}
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */
+
+
+
 
 
 
@@ -1659,6 +1859,98 @@ footer {
 }
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */     
     
+
+    
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP START */
+.hvad-er-usability-php {
+    max-width: 100%;
+}
+
+.hvad-er-usability-php .skitse-madheltene {
+    max-width: 60%;
+}
+
+    
+.hvad-er-usability-php #mitgrid-hvaderusability {
+    max-width: 100%;
+    height: auto;
+    margin: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 25px;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "hvorfor"
+        "funktionalitet"
+        "effektivitet"
+        "tilfredshed"
+        "undersogelsesdesign"
+        "testmetoder"
+        "pilottest"
+        "lige-po-og-rot"
+        "madheltene-prototype"
+        "skitser"
+        "kilder";
+}
+    
+/* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
+h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.kildeliste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+.hvad-er-usability-php .usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.hvad-er-usability-php .usability-table td {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.hvad-er-usability-php .hvorfor-liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+}
+    
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */    
+    
+    
+    
+    
     
     
 }
@@ -2206,6 +2498,8 @@ footer {
     
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
+
+    
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */
 /* FONTS Tablet */
@@ -2452,6 +2746,96 @@ footer {
     flex-wrap: wrap;   
 }
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */ 
+    
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP START */
+.hvad-er-usability-php {
+    max-width: 100%;
+}
+
+.hvad-er-usability-php .skitse-madheltene {
+    max-width: 60%;
+}
+
+    
+.hvad-er-usability-php #mitgrid-hvaderusability {
+    max-width: 100%;
+    height: auto;
+    margin: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 25px;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "hvorfor"
+        "funktionalitet"
+        "effektivitet"
+        "tilfredshed"
+        "undersogelsesdesign"
+        "testmetoder"
+        "pilottest"
+        "lige-po-og-rot"
+        "madheltene-prototype"
+        "skitser"
+        "kilder";
+}
+    
+/* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
+h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.kildeliste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+.hvad-er-usability-php .usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.hvad-er-usability-php .usability-table td {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.hvad-er-usability-php .hvorfor-liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 1em;
+}
+    
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */   
+    
+
+    
     
     
     
@@ -2776,7 +3160,115 @@ footer {
         margin-left: -6em;
     }
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */ 
+
     
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP START */
+.hvad-er-usability-php {
+    max-width: 100%;
+}
+
+.hvad-er-usability-php .skitse-madheltene {
+    max-width: 65%;
+}
+
+.hvad-er-usability-php .testmetoder-table {
+        
+}
+    
+.hvad-er-usability-php .kilder {
+      margin-right: 50%;  
+    }
+.hvad-er-usability-php .kilder li {
+      padding-top: 20px;  
+    }
+    
+.hvad-er-usability-php .usability-table th,
+.hvad-er-usability-php .usability-table td {
+    padding: 10px;   
+    padding-left: 1em;
+}
+ 
+.hvad-er-usability-php .usability-table td p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+.hvad-er-usability-php #mitgrid-hvaderusability {
+    max-width: 100%;
+    height: auto;
+    margin: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+    grid-template-areas: 
+        "titel titel"
+        "hvader hvorfor"
+        "funktionalitet hvorfor"
+        "effektivitet tilfredshed"
+        "undersogelsesdesign testmetoder"
+        "pilottest testmetoder"
+        "lige-po-og-rot testmetoder"
+        "skitser madheltene-prototype"
+        "kilder kilder";
+}
+    
+/* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
+h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    margin-bottom: 1em;
+}
+
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.hvad-er-usability-php .body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.kildeliste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 1em;
+}
+
+.hvad-er-usability-php .usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.hvad-er-usability-php .usability-table td {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.hvad-er-usability-php .hvorfor-liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 1em;
+}
+    
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */
     
     
     
