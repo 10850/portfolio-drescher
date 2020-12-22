@@ -29,114 +29,217 @@
             <section class="hvad-er-gangstertest">
                 <h2 class="overskrift">Hvad er en gangstertest?</h2>
                 <p class="body-text">
-                    Usability betyder brugbarhed, det vil sige at ordet beskriver hvor nemt og flydende det føles for personen der bruger hjemmesiden (Gregersen &#38; Wisler-Poulsen, 2017). Usability handler også om at hjemmesiden eller programmet fungerer som de ønsker det, og for de typer af mennesker de har lavet hjemmesiden til (ibid).
+                    Gangstertesten har til formål at teste navigationen af sin webside og websitets informationsarkitektur (Gregersen &#38; Wisler-Poulsen, 2017). Navigationen er det værktøj, som brugeren har til rådighed for at finde rundt på siden (ibid). Hvis navigationen er besværlig og informationsarkitekturen er forvirrende, så ødelægger de hele sitet (ibid).
+                </p>
+                
+                <p class="body-text">
+                    Som usability-eksperten Steve Krug engang sagde: ”Navigationen er ikke en funktion på websitet - det er websitet” (ibid).
                 </p>
             </section> <!-- hvad er usability -->
             
             <section class="udforelse-gangstertest">
                 
                 <h2 class="overskrift">Udførelse</h2>
-                <ul class="hvorfor-liste">
-                    <li>Fordi usability er en cornerstone for websitets succes (Gregersen 	&#38; Wisler-Poulsen, 2017).</li>
-                    <li>Hvis man er ligeglad med usability, så er man også ligeglad med og folk bruger sin website (ibid).</li>
-                    <li>Det er hvad gøre det muligt at sende sit budskab ud og faktisk få en indflydelse hos folk (som man ønsker) (ibid).</li>
-                    <li>Hvis der ikke er usability af høj kvalitet så, falder kvaliteten af sitet, og virksomheden bag vil repræsenteres med et dårligt ry hos deres kunder (ibid).</li>
-                </ul>
+                <p class="body-text">
+                    Testen kan udføres med en testperson eller den kan udføres selv (Gregersen &#38; Wisler-Poulsen, 2017). Den kan blive udført på computeren (ibid). Men kan også med fordel printes ud eller illustreres på papir (ibid). Gangstertesten er relativt simpel at udføre (ibid). Der skal udvælges en underside på websitet til at udføre testen på (ibid). Man kan vælge en typisk underside, eller surfe rundt uden at tænke og bare ende op på en tilfældig underside (ibid).
+                </p>
             </section> <!-- udførelse -->
             
             <section class="gangstertest-sporgsmal">
                 <h3 class="underoverskrift">Typiske spørgsmål</h3>
                 <p class="body-text">
-                    Det er behov for nem brugbarhed, som websitet opfylder for sine brugere, så websitet føles brugbart og ligetil for brugeren (Gregersen 	&#38; Wisler-Poulsen, 2017). Hvis brugerne ikke får sine behov opfyldt, kan det virke svært for brugeren at bruge siden og så vil de jo bare gå videre og finde side der er mere funktionelt (ibid).
+                    Derefter vil man have en række spørgsmål man vil stille til testpersonen i forhold til navigationsdesignet eller informationsarkitekturen (Gregersen &#38; Wisler-Poulsen, 2017). Standard spørgsmål man vil stille er:
                 </p>
+                <ol class="sporgsmal-list">
+                    <li>
+                        Hvilket website er du på? (ibid).
+                    </li>
+                    <li>
+                        Hvor er websitets globale menu? (ibid).
+                    </li>
+                    <li>
+                        Underside: Hvilken underside er du på? (ibid).
+                    </li>
+                    <li>
+                        Hvilke muligheder har du på denne side? (ibid).
+                    </li>
+                    <li>
+                        Hvordan er du kommer hertil? (ibid).
+                    </li>
+                    <li>
+                        Hvor kan du søge? (ibid).
+                    </li>
+                </ol>
             </section> <!-- spørgsmål -->
             
             <section class="gangster-pointsystem">
                 <h3 class="underoverskrift">Pointsystem</h3>
-                <table class="usability-table">
-                    <tr>
-                        <th>Typisk fokusområde</th>
-                        <th>Særligt egnede testmetoder</th>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            Navigation og struktur (informationsarkitektur)
-                        </td>
-                        <td>
-                            <p>Gangstertest (navigation)</p> 
-                            <p>Kortsortering (Informationsstruktur)</p> 
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            Funktionalitet (interaktionsdesign)
-                        </td>
-                        <td>
-                            <p>Spørgeskema</p>
-                            <p>Ekspertvurdering</p>
-                            <p>Burgertest</p>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            Layout og opbygning
-                        </td>
-                        <td>
-                            <p>Gangstertest</p>
-                            <p>Ekspertvurdering</p>
-                            <p>Brugertest</p>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            Tilgængelighed
-                        </td>
-                        <td>
-                            <p>Ekspertvurdering</p>
-                            <p>Brugertest</p>
-                            <p>Tilgængelighedstest</p>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            Forståelighed
-                        </td>
-                        <td>
-                            <p>Spørgeskema </p>
-                            <p>Kortsortering</p>
-                            <p>Brugertest</p>
-                        </td>
-                    </tr>
-                </table>
+                <p class="body-text">
+                    Spørgsmålene vil blive besvaret med point fra 0 til 3 point og blive sat ind i et point system der fortæller hvor godt eller dårligt navigationen er (Gregersen &#38; Wisler-Poulsen, 2017):
+                </p>
+                <ul class="pointsystem-list">
+                    <li>
+                        0 point: Denne information fremgår slet ikke af undersiden (ibid).
+                    </li>
+                    <li>
+                        1 point: Denne information fremgår kun delvis af undersiden/den er svær at finde (ibid).
+                    </li>
+                    <li>
+                        2 point: Denne information kunne fremgå tydeligere på undersiden (ibid).
+                    </li>
+                    <li>
+                        3 point: Denne information fremgår tydeligt på undersiden (ibid).
+                    </li>
+                </ul>
+                
+                <p class="body-text">
+                    Alt efter hvor sitet ligger på skalaen fra 0 til 18, altså 6 spørgsmål som højst kan få 3 point, så kan man se om det er godt eller dårligt navigation (ibid).
+                </p>
             </section> <!-- pointsystem -->
             
             <section class="dokumentation-gangster">
-                <h2 class="overskrift">Dokumentation</h2>
-                <p class="body-text">
-                    Pointen i brugertilfredshed er at give borgerne fra de gældende kommuner en stemme hvad ang. det lokale udviklingsarbejde (Gregersen &#38; Wisler-Poulsen, 2017). Et eksempel kunne bl.a. være at spørge voksne over 18, der modtager bostøtte eller bor i boligfællesskaber hvad de synes om deres tilbud (ibid).
-                </p>
+                <h3 class="underoverskrift">Dokumentation</h3>
+                <ul class="dokumentation-list">
+                    <li>
+                        Udskrift af skærmbilleder med markering af de områder, som efterspørges i testens spørgsmål (Gregersen &#38; Wisler-Poulsen, 2017). Husk at skrive web-adressen eller anden beskrivelse af hvordan siden er fundet (ibid).
+                    </li>
+                    <li>
+                        Opsummering af testens gennemførelse og resultat, med pointscore og en beskrivelse af de største mangler i designet (ibid).
+                    </li>
+                    <li>
+                        Uddybende beskrivelse med erfaringer fra testen, fundne problemer, forslag til forberedelser og løsninger, beskrivelse af test og testdeltager (ibid).
+                    </li>
+                </ul>
             </section> <!-- dokumentation -->
             
             <section class="gangstertest-rapport">
                 <h2 class="overskrift">Gangstertest på Youtube</h2>
+                
                 <p class="body-text">
-                    Undersøgelsesdesign refererer til den overordnede ramme for indsamling og analyse af data (Gregersen &#38; Wisler-Poulsen, 2017). Valget af undersøgelsesdesign siger noget om forskerens refleksioner over prioriteringen af forskellige aspekter af undersøgelsesprocessen, f.eks. kausalitet og generalisering (ibid).
+                    Jeg har lavet en gangstertest på youtube med 3 personer i en rapport om usability metoder. I denne test gik jeg ind på en tilfældig video og testede Youtube's underside for når man ser en video, hvor jeg stillede 6 spørgsmål med følgende resultater: 
                 </p>
+                
+                <img src="usability/gangstertest/gangstertest-screenshot.jpg" alt="screenshot af youtube" class="youtube-screenshot">
+                
+                <div class="background-image-usability">
+                    <table class="usability-table">
+                        <tr>
+                            <th>Spørgsmål</th>
+                            <th>Score</th>
+                            <th>Score betydning</th>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Fremgår det tydeligt hvilken webside du er på?
+                            </td>
+                            <td>
+                                3  
+                            </td>
+                            <td>
+                                Denne information fremgår tydeligt på undersiden
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Hvor kan du søge henne? 
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Denne information fremgår tydeligt på undersiden
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Fremgår det tydeligt hvor du kan abonnere henne? 
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Denne information fremgår tydeligt på undersiden
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Hvor kan du se like/dislike ratio? 
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Denne information fremgår tydeligt på undersiden
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                               Hvor kan du kommentere henne på videoen henne?  
+                            </td>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Denne information fremgår tydeligt på undersiden
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Fremgår det tydelig hvor du kan rapportere videoen henne?  
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>
+                                Denne information fremgår slet ikke på undersiden
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Total score 
+                            </td>
+                            <td>
+                                15
+                            </td>
+                            <td>
+                                Sidens navigation er tydelig og godt understøttet
+                            </td>
+                        </tr>
+                    </table>
+                </div> <!-- til for at jeg kan indsætte background-image så præcist så muligt -->
+                
+                <h3 class="underoverskrift" id="konklusion-margin">Konklusion på testen</h3>
+                
                 <p class="body-text">
-                    Undersøgelsesdesign refererer til formålet og fokusområdet/-erne som ens undersøgelse har (ibid). Her går det ind på valget af metoder og deres fokusområde. Indenfor usability er det vigtigt at man vælger flere metoder med forskellige synsvinkler for hvis man kun vælger en metode at teste med eller flere test som kun dækker et fokusområde vil ens løsning til et problem bliver alt for snævret og være baseret på et skrøbeligt fundament (ibid). Derfor er det en anbefaling at benytter sig af metodetriangulering og vælger flere forskellige metoder. Det giver nemlig det bedst mulige vurderingsgrundlag (ibid).
+                    Ud fra testens resultat gav de alle spørgsmålene gav de alle sammen 3 point til alle spørgsmålene med undtagelse af spørgsmålet: ‘’Fremgår det tydeligt hvor du kan rapportere videoen henne?’’ hvor de gav scoren en 0.  
                 </p>
+                
+                <p class="body-text">
+                    Ud fra disse resultater kan man se at youtube.com har styr på deres måde de køre deres hjemmeside på. Den er nem at navigere i og du ved altid hvor du er henne på websitet med vejledning til hvor du kan bevæge dig hen. Det eneste de ikke har gjort så tydeligt i deres web design er hvor man kan rapportere en video som er gemt ved siden er ‘’gem’’ funktionen lige over ‘’abonner’’ knappen. Dette er gjort højst sandsynlig med vilje da det er nok en mere overflødig funktion end like, del og gem funktionen er.
+                </p>
+                
+                <h3 class="underoverskrift">Min holdning til gangstertesten</h3>
+                
+                <p class="body-text">
+                    Denne øvelse gav mig god erfaring med at teste hjemmesider for deres informationarkitektur og navigationsdesign. Og det kommer til at være en testmetode jeg vil bruge igen. 
+                </p>
+
+                <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Hele rapporten for usability testmetoder kan downloades som en PDF-fil, hvis du vil se mere</a>
+
             </section> <!-- praktisk eksempel fra rapport -->
             
             <section class="kilder">
                 <h2 class="overskrift">Kilder</h2>
                 <ul class="kildeliste">
-                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Hvad er Usability?. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 14-24.</li>
-                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Undersøgelsesdesign. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 24-42.</li>
+                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Gangstertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 42-50.</li>
+                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 23. Oktober: <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
                 </ul>
             </section>
         </div>

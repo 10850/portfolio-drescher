@@ -1142,14 +1142,14 @@ h1 {
     margin-left: 1em;
 }
 
-.hvad-er-usability-php .usability-table th {
+.usability-table th {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 16px;
 }
 
-.hvad-er-usability-php .usability-table td {
+.usability-table td {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -1169,28 +1169,28 @@ h1 {
 }
 
 /* STYLING FOR TABLE */
-.hvad-er-usability-php .usability-table th,
-.hvad-er-usability-php .usability-table td {
+.usability-table th,
+.usability-table td {
     border: 1px solid black;
 }
 
-.hvad-er-usability-php .usability-table th {
+.usability-table th {
     background-color: #002E6E;
     color: white;
     vertical-align: middle;
     padding: 5px;
 }
 
-.hvad-er-usability-php .usability-table td {
+.usability-table td {
     background-color: #A6BCFF;
     vertical-align: middle;
 }
 
-.hvad-er-usability-php .usability-table td p {
+.usability-table td p {
     padding: 5px;
 }
 
-.hvad-er-usability-php .usability-table {
+.usability-table {
     max-width: 100%;
     height: auto;
 }
@@ -1302,6 +1302,138 @@ h1 {
     margin-top: 10px;
 }
 /* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */
+
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP START*/
+.gangstertest-php header, 
+.gangstertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.gangstertest-php .youtube-screenshot {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    margin: 0.8em;
+}
+
+.gangstertest-php .pointsystem-list {
+    margin-left: 2em;
+}
+
+.gangstertest-php .sporgsmal-list {
+   margin-left: 2em;
+}
+
+.gangstertest-php .pointsystem-list {
+    list-style: none;
+}
+
+.gangstertest-php .dokumentation-list li,
+.gangstertest-php .pointsystem-list li,
+.gangstertest-php .sporgsmal-list li {
+        padding-top: 10px;
+    }
+
+/* FONT */
+.gangstertest-php .dokumentation-list,
+.gangstertest-php .pointsystem-list,
+.gangstertest-php .sporgsmal-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.pdf-fil-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.gangstertest-php footer ul {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.gangstertest-php .usability-table td:nth-child(2) {
+    text-align: center;
+}
+
+.gangstertest-php .usability-table td,
+.gangstertest-php .usability-table th {
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* GRID */
+.gangstertest-php h1 {
+    grid-area: titel;
+    text-align: center;
+}
+
+.gangstertest-php .hvad-er-ganstertest {
+    grid-area: hvader;
+}
+
+.gangstertest-php .udforelse-gangstertest {
+    grid-area: udforelse;
+}
+
+.gangstertest-php .gangstertest-sporgsmal {
+    grid-area: sporgsmal;
+}
+
+.gangstertest-php .gangster-pointsystem {
+    grid-area: point;
+}
+
+.gangstertest-php .dokumentation-gangster {
+    grid-area: dokumentation;
+}
+
+.gangstertest-php .gangstertest-rapport {
+    grid-area: rapport;
+}
+
+.gangstertest-php .kilder {
+    grid-area: kilder;
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "udforelse"
+        "sporgsmal"
+        "point"
+        "dokumentation"
+        "rapport"
+        "kilder";
+}
+
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
 
 
 
@@ -1948,6 +2080,112 @@ h1 {
     
 /* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */    
     
+   
+    
+    
+ /* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP START*/
+.gangstertest-php header, 
+.gangstertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.gangstertest-php .youtube-screenshot {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    margin: 1.5em;
+}
+
+.gangstertest-php .pointsystem-list {
+    list-style: none;
+}
+
+.gangstertest-php .pointsystem-list {
+    margin-left: 2em;
+}
+
+.gangstertest-php .sporgsmal-list {
+   margin-left: 2em;
+}
+    
+#konklusion-margin {
+    margin-top: 20px;
+}
+
+
+/* FONT */
+.gangstertest-php .dokumentation-list,
+.gangstertest-php .pointsystem-list,
+.gangstertest-php .sporgsmal-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.pdf-fil-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.gangstertest-php footer ul {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.gangstertest-php .usability-table td:nth-child(2) {
+    text-align: center;
+}
+
+.gangstertest-php .usability-table td,
+.gangstertest-php .usability-table th {
+    font-size: 14px;
+    padding: 10px;
+}
+
+    
+.gangstertest-php .gangstertest-rapport p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+/* GRID */
+.gangstertest-php #mitgrid-gangstertest {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "udforelse"
+        "sporgsmal"
+        "point"
+        "dokumentation"
+        "rapport"
+        "kilder";
+}
+
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
+
+   
     
     
     
@@ -2753,7 +2991,9 @@ h1 {
 }
 
 .hvad-er-usability-php .skitse-madheltene {
-    max-width: 60%;
+    max-width: 90%;
+    margin-right: 0;
+    margin-left: 0;
 }
 
     
@@ -2762,22 +3002,21 @@ h1 {
     height: auto;
     margin: 3em;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-row-gap: 25px;
+    grid-column-gap: 15px;
     grid-template-areas: 
-        "titel"
-        "hvader"
-        "hvorfor"
-        "funktionalitet"
-        "effektivitet"
-        "tilfredshed"
-        "undersogelsesdesign"
-        "testmetoder"
-        "pilottest"
-        "lige-po-og-rot"
-        "madheltene-prototype"
-        "skitser"
-        "kilder";
+        "titel titel"
+        "hvader hvader"
+        "hvorfor hvorfor"
+        "funktionalitet funktionalitet"
+        "effektivitet effektivitet"
+        "tilfredshed tilfredshed"
+        "undersogelsesdesign testmetoder"
+        "pilottest pilottest"
+        "lige-po-og-rot madheltene-prototype"
+        "skitser madheltene-prototype"
+        "kilder kilder";
 }
     
 /* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
@@ -2834,7 +3073,133 @@ h1 {
     
 /* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */   
     
+ /* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP START*/
+.gangstertest-php header, 
+.gangstertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
 
+.gangstertest-php .youtube-screenshot {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    margin: 4em;
+}
+    
+.gangstertest-php .pointsystem-list {
+    margin-left: 2em;
+}
+
+.gangstertest-php .sporgsmal-list {
+   margin-left: 2em;
+}
+    
+.gangstertest-php .dokumentation-list {
+     margin-left: 2em;   
+}
+
+.gangstertest-php .pointsystem-list {
+    list-style: none;
+}
+    
+
+
+/* FONT */
+.gangstertest-php .dokumentation-list,
+.gangstertest-php .pointsystem-list,
+.gangstertest-php .sporgsmal-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+    
+
+.gangstertest-php .sporgsmal-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+
+.underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.pdf-fil-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.gangstertest-php footer ul {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.gangstertest-php .usability-table td:nth-child(2) {
+    text-align: center;
+}
+
+.gangstertest-php .usability-table td,
+.gangstertest-php .usability-table th {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.gangstertest-php .usability-table {
+    margin: auto;
+    margin-top: 2em;
+}
+
+    
+.gangstertest-php .gangstertest-rapport p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+/* GRID */
+.gangstertest-php #mitgrid-gangstertest {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "udforelse"
+        "sporgsmal"
+        "point"
+        "dokumentation"
+        "rapport"
+        "kilder";
+}
+
+.gangstertest-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin-left: -4em;
+    margin-right: -4em;
+    
+}
+    
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
     
     
     
@@ -3169,6 +3534,8 @@ h1 {
 
 .hvad-er-usability-php .skitse-madheltene {
     max-width: 65%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hvad-er-usability-php .testmetoder-table {
@@ -3269,6 +3636,171 @@ h1 {
 }
     
 /* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */
+    
+
+    
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP START*/
+.gangstertest-php header, 
+.gangstertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.gangstertest-php .youtube-screenshot {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    margin: 2em;
+}
+
+.gangstertest-php .pointsystem-list {
+    margin-left: 0em;
+}
+
+.gangstertest-php .sporgsmal-list {
+   margin-left: 1em;
+}
+    
+.gangstertest-php .dokumentation-list {
+        margin-left: 1em;
+}
+
+.gangstertest-php .pointsystem-list {
+    list-style: none;
+}
+
+/* FONT */
+.gangstertest-php .dokumentation-list,
+.gangstertest-php .pointsystem-list,
+.gangstertest-php .sporgsmal-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.pdf-fil-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.gangstertest-php footer ul {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.gangstertest-php .usability-table td:nth-child(2) {
+    text-align: center;
+}
+    
+.gangstertest-php .usability-table td:nth-child(2),
+ .gangstertest-php .usability-table td:nth-child(3)   {
+    font-weight: 500;
+}
+    
+.gangstertest-php .usability-table td:nth-child(1) {
+    font-weight: 700;
+}
+
+.gangstertest-php .usability-table td,
+.gangstertest-php .usability-table th {
+    font-size: 14px;
+    padding: 10px;
+}
+    
+.gangstertest-php .usability-table {
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 2em;
+    height: 600px;
+}
+    
+.underoverskrift {
+      font-size: 26px;  
+}
+    
+.gangstertest-php .kilder li {
+    padding-top: 20px;
+}
+
+/* GRID */
+.gangstertest-php h1 {
+    grid-area: titel;
+    text-align: center;
+}
+
+.gangstertest-php .hvad-er-gangstertest {
+    grid-area: hvader;
+}
+
+.gangstertest-php .udforelse-gangstertest {
+    grid-area: udforelse;
+}
+
+.gangstertest-php .gangstertest-sporgsmal {
+    grid-area: sporgsmal;
+}
+
+.gangstertest-php .gangster-pointsystem {
+    grid-area: point;
+}
+
+.gangstertest-php .dokumentation-gangster {
+    grid-area: dokumentation;
+}
+
+.gangstertest-php .gangstertest-rapport {
+    grid-area: rapport;
+}
+
+.gangstertest-php .kilder {
+    grid-area: kilder;
+    
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    display: grid;
+    margin: 8em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    grid-row-gap: 25px;
+    grid-column-gap: 2em;;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "titel titel titel"
+        "hvader hvader hvader"
+        "udforelse udforelse udforelse"
+        "sporgsmal point dokumentation"
+        "rapport rapport rapport"
+        "kilder kilder kilder";
+}
+    
+.gangstertest-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -8em;
+    margin-right: -8em;
+    
+}
+    
+
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
+    
+    
+    
+    
     
     
     
