@@ -1665,6 +1665,184 @@ h1 {
 
 
 
+/* STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER */
+
+/* Har indset nu at jeg kunne have sparet en masse tid og plads på min CSS ved at lave generelle stylings for alle sider som fonts og lister så det gøre jeg nu og arbejder videre med det her fra */
+
+/* FONTS */
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+/* LIST STYLING */
+.liste {
+    padding-top: 7px;
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin-left: 1.2em;
+}
+
+.liste li:nth-child(2),
+.liste li:nth-child(3),
+.liste li:nth-child(4),
+.liste li:nth-child(5),
+.liste li:nth-child(6),
+.liste li:nth-child(7),
+.liste li:nth-child(8),
+.liste li:nth-child(9),
+.liste li:nth-child(10),
+.liste li:nth-child(11){
+    padding-top: 20px;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+}
+
+
+/* STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER */
+
+
+
+
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
+.ekspertvudering header, 
+.ekspertvudering footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.ekspertvudering .systemstatus, 
+.ekspertvudering .forhindring {
+    padding-top: 40px;
+}
+
+.ekspertvudering .systemstatus img, 
+.ekspertvudering .forhindring img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ekspertvudering .ekspert-img {
+    max-width: 100%;
+}
+
+.ekspertvudering h1 {
+    text-align: center;
+    grid-area: titel;
+    margin-bottom: -25px;
+}
+
+.ekspertvudering .padding-link {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ekspertvudering .pdf-fil-link {
+    font-size: 12px;
+}
+
+.ekspertvudering #liste1 {
+    padding-top: 10px;
+}
+
+.usability-table {
+    max-width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.usability-table td,
+.usability-table th {
+    font-size: 12px;
+}
+
+.ekspertvudering .hvad-er-ekspert {
+    grid-area: hvader;
+}
+
+.ekspertvudering .forberedelse-ekspert {
+    grid-area: forberedelse;
+}
+
+.ekspertvudering .information-ark-ekspert {
+    grid-area: infoark;
+}
+
+.ekspertvudering .interaktionsdesign-ekspert {
+    grid-area: interact;
+}
+
+.ekspertvudering .heruistikker {
+    grid-area: heru;
+}
+
+.ekspertvudering .ekspert-rapport {
+    grid-area: rapport;
+}
+
+.ekspertvudering .dokumentation-ekspert {
+    grid-area: dokumentation;
+}
+
+.ekspertvudering .kilder {
+    grid-area: kilder;
+}
+
+.ekspertvudering #mitgrid-ekspert {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "forberedelse"
+        "infoark"
+        "interact"
+        "heru"
+        "rapport"
+        "dokumentation"
+        "kilder"
+}
+
+
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MOBILE eller mindre */
 @media only screen and (max-width: 600px) {
@@ -2516,9 +2694,83 @@ h1 {
 
 /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/
 
+/* STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER */
+
+/* Har indset nu at jeg kunne have sparet en masse tid og plads på min CSS ved at lave generelle stylings for alle sider som fonts og lister så det gøre jeg nu og arbejder videre med det her fra */
+
+/* FONTS */
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+}
+
+.underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* LIST STYLING */
+.liste {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.liste li {
+    padding-top: 20px;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+}
+
+/* STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER */    
     
-    
-    
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
+.ekspertvudering .padding-link {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ekspertvudering .pdf-fil-link {
+    font-size: 14px;
+}
+
+
+.usability-table {
+    max-width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.usability-table td,
+.usability-table th {
+    font-size: 14px;
+}
+
+
+.ekspertvudering #mitgrid-ekspert {
+    margin: 2em;
+
+}
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */    
     
     
     
@@ -3642,7 +3894,101 @@ h1 {
 
 /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/ 
 
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
+    .dokumentation-ekspert ul {
+        margin-top: -1em;
+    }
     
+    .dokumentation-ekspert h3 {
+        margin-top: 1em;
+    }
+    
+    .interaktionsdesign-ekspert ul {
+        margin-top: -1em;
+    }
+    
+    .ekspertvudering .kilder li {
+        padding-top: 10px;
+    }
+
+    
+.ekspertvudering .systemstatus, 
+.ekspertvudering .forhindring {
+    padding-top: 40px;
+}
+
+.ekspertvudering .systemstatus img, 
+.ekspertvudering .forhindring img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    
+
+.ekspertvudering .ekspert-img {
+    max-width: 100%;
+}
+
+.ekspertvudering h1 {
+    text-align: center;
+    grid-area: titel;
+    margin-bottom: -25px;
+}
+
+.ekspertvudering .padding-link {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ekspertvudering .pdf-fil-link {
+    font-size: 16px;
+}
+
+.ekspertvudering #liste1 {
+    padding-top: 10px;
+}
+
+.usability-table {
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.usability-table td,
+.usability-table th {
+    font-size: 16px;
+}
+
+.ekspertvudering #mitgrid-ekspert {
+    margin: 4em;
+    display: grid;
+    grid-row-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "forberedelse"
+        "infoark"
+        "interact"
+        "heru"
+        "rapport"
+        "dokumentation"
+        "kilder"
+}
+
+    .ekspertvudering .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -4em;
+    margin-right: -4em;
+    
+}
+
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */    
     
     
 
@@ -4356,6 +4702,162 @@ h1 {
     }
 
 /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/   
+ 
+    
+    
+/* STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER */
+
+/* Har indset nu at jeg kunne have sparet en masse tid og plads på min CSS ved at lave generelle stylings for alle sider som fonts og lister så det gøre jeg nu og arbejder videre med det her fra */
+
+/* FONTS */
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+}
+
+.underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* LIST STYLING */
+.liste {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.liste li {
+    padding-top: 20px;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+}
+
+/* STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER */   
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
+    .dokumentation-ekspert ul {
+        margin-top: -1em;
+    }
+    
+    .dokumentation-ekspert h3 {
+        margin-top: 1em;
+    }
+    
+    .interaktionsdesign-ekspert ul {
+        margin-top: -1em;
+    }
+    
+    .ekspertvudering .kilder li {
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    
+.ekspertvudering .systemstatus, 
+.ekspertvudering .forhindring {
+    padding-top: 40px;
+}
+
+.ekspertvudering .systemstatus img, 
+.ekspertvudering .forhindring img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    
+
+.ekspertvudering .ekspert-img {
+    max-width: 100%;
+}
+
+.ekspertvudering h1 {
+    text-align: center;
+    grid-area: titel;
+    margin-bottom: -25px;
+}
+
+.ekspertvudering .padding-link {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ekspertvudering .pdf-fil-link {
+    font-size: 16px;
+}
+
+.ekspertvudering #liste1 {
+    padding-top: 10px;
+}
+
+.usability-table {
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.usability-table td,
+.usability-table th {
+    font-size: 16px;
+}
+
+.ekspertvudering #mitgrid-ekspert {
+    margin: 7em;
+    display: grid;
+    grid-row-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "forberedelse"
+        "infoark"
+        "interact"
+        "heru"
+        "rapport"
+        "dokumentation"
+        "kilder"
+}
+
+    .ekspertvudering .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -7em;
+    margin-right: -7em;
+    
+}
+
+
+    .ekspertvudering h1 {
+        margin-top: -1em;
+    }    
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */ 
+    
+    
+    
+    
+    
+    
     
     
     
