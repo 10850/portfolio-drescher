@@ -1441,6 +1441,226 @@ h1 {
 
 
 
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/
+.sporgeskema-php header,
+.sporgeskema-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.sporgeskema-php .sporgeskema-corona {
+    max-width: 100%;
+    height: auto;
+}
+
+.sporgeskema-php table th,
+.sporgeskema-php table td {
+    padding: 10px;
+}
+
+.sporgeskema-php table {
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+/* LISTER */
+.sporgeskema-php .typiske-emner ul,
+.sporgeskema-php .typiske-emner-evaluate ul,
+.sporgeskema-php .design-sporgeskema ul,
+.sporgeskema-php .forberedelsen-sporgeskema ol,
+.sporgeskema-php .indledning-sporgeskema ul,
+.sporgeskema-php .opbygning-sporgskema ul,
+.sporgeskema-php .status-sporgskema ul,
+.sporgeskema-php .instruktion-sporgskema ul,
+.sporgeskema-php .beloning-sporgeskema ul,
+.sporgeskema-php .kvantitativ-dok ul,
+.sporgeskema-php .kvalitativ-dok ul,
+.sporgeskema-php .dok-sporgeskema ul {
+    margin-left: 1.2em;
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.sporgeskema-php .typiske-emner ul li,
+.sporgeskema-php .typiske-emner-evaluate ul li,
+.sporgeskema-php .design-sporgeskema ul,
+.sporgeskema-php .forberedelsen-sporgeskema ol li,
+.sporgeskema-php .indledning-sporgeskema ul li,
+.sporgeskema-php .opbygning-sporgskema ul li,
+.sporgeskema-php .status-sporgskema ul li,
+.sporgeskema-php .instruktion-sporgskema ul li,
+.sporgeskema-php .beloning-sporgeskema ul li,
+.sporgeskema-php .kvantitativ-dok ul li,
+.sporgeskema-php .kvalitativ-dok ul li,
+.sporgeskema-php .dok-sporgeskema ul li {
+    padding-top: 15px;
+}
+
+/* padding / margin */
+.sporgeskema-php .sporgeskema-praksis .overskrift:nth-child(4) {
+    padding-top: 40px;
+}
+
+.sporgeskema-php .underoverskrift {
+    padding-top: 20px;
+}
+
+.sporgeskema-php .overskrift {
+    padding-top: 30px;
+}
+
+/* GRID */
+.sporgeskema-php .hvad-er-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: hvader;
+}
+
+.sporgeskema-php .typiske-emner {
+    max-width: 100%;
+    height: auto;
+    grid-area: typiskemner;
+}
+
+.sporgeskema-php .typiske-emner-evaluate {
+    max-width: 100%;
+    height: auto;
+    grid-area: typiskemnerevaluate;
+}
+
+.sporgeskema-php .design-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: design;
+}
+
+.sporgeskema-php .forberedelsen-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: forberedelsen;
+}
+
+.sporgeskema-php .setup-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: setup;
+}
+
+.sporgeskema-php .indledning-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: indledning;
+}
+
+.sporgeskema-php .opbygning-sporgskema  {
+    max-width: 100%;
+    height: auto;
+    grid-area: opbygning;
+}
+
+.sporgeskema-php .status-sporgskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: status;
+}
+
+.sporgeskema-php .instruktion-sporgskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: instruktion;
+}
+
+.sporgeskema-php .opfolgning-sporgskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: opfolgning;
+}
+
+.sporgeskema-php .beloning-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: beloning;
+}
+
+
+.sporgeskema-php .dokumentation-sporgeskema-intro {
+    grid-area: dok-intro;
+}
+
+.sporgeskema-php .kvantitativ-dok {
+    max-width: 100%;
+    height: auto;
+    grid-area: kvantitativ-dok;
+}
+
+.sporgeskema-php .kvalitativ-dok {
+    max-width: 100%;
+    height: auto;
+    grid-area: kvalitativ-dok;
+}
+
+.sporgeskema-php .dok-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: dokumentation-sporg;
+}
+
+
+.sporgeskema-php .sporgeskema-praksis {
+    max-width: 100%;
+    height: auto;
+    grid-area: praksis;
+    margin-top: -12em;
+}
+
+
+.sporgeskema-php .kilder {
+    max-width: 100%;
+    height: auto;
+    grid-area: kilder;
+}
+
+.sporgeskema-php h1 {
+    grid-area: titel;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.sporgeskema-php #mitgrid-sporgeskema {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "typiskemner"
+        "typiskemnerevaluate"
+        "design"
+        "forberedelsen"
+        "setup"
+        "indledning"
+        "opbygning"
+        "status"
+        "instruktion"
+        "opfolgning"
+        "beloning"
+        "dok-intro"
+        "kvantitativ-dok"
+        "kvalitativ-dok"
+        "dokumentation-sporg"
+        "praksis"
+        "kilder"; 
+}
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/
+
+
+
+
 
 
 
@@ -2189,7 +2409,118 @@ h1 {
 
 /* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
 
-   
+
+    
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/
+/* LISTER */
+.sporgeskema-php .typiske-emner ul,
+.sporgeskema-php .typiske-emner-evaluate ul,
+.sporgeskema-php .design-sporgeskema ul,
+.sporgeskema-php .forberedelsen-sporgeskema ol,
+.sporgeskema-php .indledning-sporgeskema ul,
+.sporgeskema-php .opbygning-sporgskema ul,
+.sporgeskema-php .status-sporgskema ul,
+.sporgeskema-php .instruktion-sporgskema ul,
+.sporgeskema-php .beloning-sporgeskema ul,
+.sporgeskema-php .kvantitativ-dok ul,
+.sporgeskema-php .kvalitativ-dok ul,
+.sporgeskema-php .dok-sporgeskema ul {
+    margin-left: 1.2em;
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.sporgeskema-php .typiske-emner ul li,
+.sporgeskema-php .typiske-emner-evaluate ul li,
+.sporgeskema-php .design-sporgeskema ul li,
+.sporgeskema-php .forberedelsen-sporgeskema ol li,
+.sporgeskema-php .indledning-sporgeskema ul li,
+.sporgeskema-php .opbygning-sporgskema ul li,
+.sporgeskema-php .status-sporgskema ul li,
+.sporgeskema-php .instruktion-sporgskema ul li,
+.sporgeskema-php .beloning-sporgeskema ul li,
+.sporgeskema-php .kvantitativ-dok ul li,
+.sporgeskema-php .kvalitativ-dok ul li,
+.sporgeskema-php .dok-sporgeskema ul li {
+    padding-top: 15px;
+}
+
+/* padding / margin */
+.sporgeskema-php .sporgeskema-praksis .overskrift:nth-child(4) {
+    padding-top: 40px;
+}
+
+.sporgeskema-php .underoverskrift {
+    padding-top: 20px;
+}
+
+.sporgeskema-php .overskrift {
+    padding-top: 30px;
+}
+
+/* GRID */
+.sporgeskema-php .sporgeskema-praksis {
+    max-width: 100%;
+    height: auto;
+    grid-area: praksis;
+    margin-top: -12em;
+}
+
+.sporgeskema-php #mitgrid-sporgeskema {
+    margin: 3em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "typiskemner"
+        "typiskemnerevaluate"
+        "design"
+        "forberedelsen"
+        "setup"
+        "indledning"
+        "opbygning"
+        "status"
+        "instruktion"
+        "opfolgning"
+        "beloning"
+        "dok-intro"
+        "kvantitativ-dok"
+        "kvalitativ-dok"
+        "dokumentation-sporg"
+        "praksis"
+        "kilder"; 
+}
+    
+.sporgeskema-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -3em;
+    margin-right: -3em;
+    
+}
+    
+    .sporgeskema-php .background-titel {
+         background-image: url(usability/ikoner-background-usability.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -3em;
+        margin-right: -3em;
+    }
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/
+
+    
+    
+    
+    
+    
     
     
     
@@ -3204,8 +3535,117 @@ h1 {
 
 
 /* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
+
+    
+ /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/
+/* LISTER */
+.sporgeskema-php .typiske-emner ul,
+.sporgeskema-php .typiske-emner-evaluate ul,
+.sporgeskema-php .design-sporgeskema ul,
+.sporgeskema-php .forberedelsen-sporgeskema ol,
+.sporgeskema-php .indledning-sporgeskema ul,
+.sporgeskema-php .opbygning-sporgskema ul,
+.sporgeskema-php .status-sporgskema ul,
+.sporgeskema-php .instruktion-sporgskema ul,
+.sporgeskema-php .beloning-sporgeskema ul,
+.sporgeskema-php .kvantitativ-dok ul,
+.sporgeskema-php .kvalitativ-dok ul,
+.sporgeskema-php .dok-sporgeskema ul {
+    margin-left: 1.2em;
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.sporgeskema-php .typiske-emner ul li,
+.sporgeskema-php .typiske-emner-evaluate ul li,
+.sporgeskema-php .design-sporgeskema ul li,
+.sporgeskema-php .forberedelsen-sporgeskema ol li,
+.sporgeskema-php .indledning-sporgeskema ul li,
+.sporgeskema-php .opbygning-sporgskema ul li,
+.sporgeskema-php .status-sporgskema ul li,
+.sporgeskema-php .instruktion-sporgskema ul li,
+.sporgeskema-php .beloning-sporgeskema ul li,
+.sporgeskema-php .kvantitativ-dok ul li,
+.sporgeskema-php .kvalitativ-dok ul li,
+.sporgeskema-php .dok-sporgeskema ul li {
+    padding-top: 15px;
+}
+
+/* padding / margin */
+.sporgeskema-php .sporgeskema-praksis .overskrift:nth-child(4) {
+    padding-top: 40px;
+}
+
+.sporgeskema-php .underoverskrift {
+    padding-top: 20px;
+}
+
+.sporgeskema-php .overskrift {
+    padding-top: 30px;
+}
+
+/* GRID */
+.sporgeskema-php .sporgeskema-praksis {
+    max-width: 100%;
+    height: auto;
+    grid-area: praksis;
+    margin-top: -12em;
+}
+
+.sporgeskema-php #mitgrid-sporgeskema {
+    margin: 5em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "typiskemner"
+        "typiskemnerevaluate"
+        "design"
+        "forberedelsen"
+        "setup"
+        "indledning"
+        "opbygning"
+        "status"
+        "instruktion"
+        "opfolgning"
+        "beloning"
+        "dok-intro"
+        "kvantitativ-dok"
+        "kvalitativ-dok"
+        "dokumentation-sporg"
+        "praksis"
+        "kilder"; 
+}
+    
+.sporgeskema-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -5em;
+    margin-right: -5em;
+    
+}
+    
+    .sporgeskema-php .background-titel {
+         background-image: url(usability/ikoner-background-usability.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -5em;
+        margin-right: -5em;
+    }
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/ 
+
     
     
+    
+
     
     
     
@@ -3778,7 +4218,6 @@ h1 {
     margin-top: 3em;
     margin-bottom: 3em;
     grid-row-gap: 25px;
-    grid-column-gap: 2em;;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "titel titel titel"
@@ -3798,13 +4237,125 @@ h1 {
     margin-right: -8em;
     
 }
+    
+    .gangstertest-php .gangster-pointsystem {
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 
 
 
 /* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
     
     
+ /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/
+/* LISTER */
+.sporgeskema-php .typiske-emner ul,
+.sporgeskema-php .typiske-emner-evaluate ul,
+.sporgeskema-php .design-sporgeskema ul,
+.sporgeskema-php .forberedelsen-sporgeskema ol,
+.sporgeskema-php .indledning-sporgeskema ul,
+.sporgeskema-php .opbygning-sporgskema ul,
+.sporgeskema-php .status-sporgskema ul,
+.sporgeskema-php .instruktion-sporgskema ul,
+.sporgeskema-php .beloning-sporgeskema ul,
+.sporgeskema-php .kvantitativ-dok ul,
+.sporgeskema-php .kvalitativ-dok ul,
+.sporgeskema-php .dok-sporgeskema ul {
+    margin-left: 1.2em;
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.sporgeskema-php .typiske-emner ul li,
+.sporgeskema-php .typiske-emner-evaluate ul li,
+.sporgeskema-php .design-sporgeskema ul li,
+.sporgeskema-php .forberedelsen-sporgeskema ol li,
+.sporgeskema-php .indledning-sporgeskema ul li,
+.sporgeskema-php .opbygning-sporgskema ul li,
+.sporgeskema-php .status-sporgskema ul li,
+.sporgeskema-php .instruktion-sporgskema ul li,
+.sporgeskema-php .beloning-sporgeskema ul li,
+.sporgeskema-php .kvantitativ-dok ul li,
+.sporgeskema-php .kvalitativ-dok ul li,
+.sporgeskema-php .dok-sporgeskema ul li {
+    padding-top: 15px;
+}
+
+/* padding / margin */
+.sporgeskema-php .sporgeskema-praksis .overskrift:nth-child(4) {
+    padding-top: 40px;
+}
+
+.sporgeskema-php .underoverskrift {
+    padding-top: 20px;
+}
+
+.sporgeskema-php .overskrift {
+    padding-top: 30px;
+}
+
+/* GRID */
+.sporgeskema-php .sporgeskema-praksis {
+    max-width: 100%;
+    height: auto;
+    grid-area: praksis;
+    margin-top: -12em;
+}
+
+.sporgeskema-php #mitgrid-sporgeskema {
+    margin: 7em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "typiskemner"
+        "typiskemnerevaluate"
+        "design"
+        "forberedelsen"
+        "setup"
+        "indledning"
+        "opbygning"
+        "status"
+        "instruktion"
+        "opfolgning"
+        "beloning"
+        "dok-intro"
+        "kvantitativ-dok"
+        "kvalitativ-dok"
+        "dokumentation-sporg"
+        "praksis"
+        "kilder"; 
+}
     
+.sporgeskema-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -7em;
+    margin-right: -7em;
+    
+}
+    
+    .sporgeskema-php .background-titel {
+         background-image: url(usability/ikoner-background-usability.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -7em;
+        margin-right: -7em;
+    }
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/   
     
     
     

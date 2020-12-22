@@ -18,7 +18,234 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="ekspertvudering">
+        
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+        <div id="mitgrid-ekspert">
+            <h1>Ekspertvudering</h1>
+            
+            <section class="hvad-er-gangstertest">
+                <h2 class="overskrift"></h2>
+                <p class="body-text">
+                    
+                </p>
+                
+                <p class="body-text">
+                    
+                </p>
+            </section> <!-- hvad er usability -->
+            
+            <section class="udforelse-gangstertest">
+                
+                <h2 class="overskrift">Udførelse</h2>
+                <p class="body-text">
+                    
+                </p>
+            </section> <!-- udførelse -->
+            
+            <section class="gangstertest-sporgsmal">
+                <h3 class="underoverskrift">Typiske spørgsmål</h3>
+                <p class="body-text">
+                    
+                </p>
+                <ol class="sporgsmal-list">
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ol>
+            </section> <!-- spørgsmål -->
+            
+            <section class="gangster-pointsystem">
+                <h3 class="underoverskrift"></h3>
+                <p class="body-text">
+                    
+                </p>
+                <ul class="pointsystem-list">
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+                
+                <p class="body-text">
+                    
+                </p>
+            </section> <!-- pointsystem -->
+            
+            <section class="dokumentation-gangster">
+                <h3 class="underoverskrift"></h3>
+                <ul class="dokumentation-list">
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </section> <!-- dokumentation -->
+            
+            <section class="gangstertest-rapport">
+                <h2 class="overskrift"></h2>
+                
+                <p class="body-text">
+                    
+                </p>
+                
+                
+                <div class="background-image-usability">
+                    <table class="usability-table">
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
 
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                 
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                               
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                 
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                 
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </div> <!-- til for at jeg kan indsætte background-image så præcist så muligt -->
+                
+                <h3 class="underoverskrift" id="konklusion-margin"></h3>
+                
+                <p class="body-text">
+                     
+                </p>
+                
+                <p class="body-text">
+                    
+                </p>
+                
+                <h3 class="underoverskrift"></h3>
+                
+                <p class="body-text">
+                    
+                </p>
+
+                <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Hele rapporten for usability testmetoder kan downloades som en PDF-fil, hvis du vil se mere</a>
+
+            </section> <!-- praktisk eksempel fra rapport -->
+            
+            <section class="kilder">
+                <h2 class="overskrift">Kilder</h2>
+                <ul class="kildeliste">
+                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Ekspertvudering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 64-86.</li>
+                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                </ul>
+            </section>
+        
+        
+        </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

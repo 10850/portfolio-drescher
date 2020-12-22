@@ -236,7 +236,7 @@
                 <h2 class="overskrift">Kilder</h2>
                 <ul class="kildeliste">
                     <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Gangstertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 42-50.</li>
-                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 23. Oktober: <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
                 </ul>
             </section>
         </div>
