@@ -1826,11 +1826,136 @@ h1 {
         "dokumentation"
         "kilder"
 }
-
-
-
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */
 
+
+
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
+.kortsortering-php header,
+.kortsortering-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.kortsortering-php .sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.kortsortering-php h1 {
+    text-align: center;
+}
+
+/* BILLED OG TABLE STØRRELSE */
+.kortsortering-php .kort-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.kortsortering-php .usability-table {
+    max-width: 100%;
+}
+
+/* LISTER */
+.kortsortering-php .liste li {
+    padding-bottom: 10px;
+}
+
+
+/* padding */
+.kortsortering-php .aben-test-kort,
+.kortsortering-php lukket-test-kort,
+.kortsortering-php .resultater-kort,
+.kortsortering-php .valg-af-brugere,
+.kortsortering-php .valg-af-elementer,
+.kortsortering-php #konklusion-kort {
+    padding-top: 15px;
+}
+
+.kortsortering-php .kilder li {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.kortsortering-php .kilder a {
+    font-size: 14px;
+}
+
+.kortsortering-php .dok-kort ul {
+    margin-bottom: -10px;
+}
+
+.kortsortering-php .resultater-kort h4 {
+    margin-bottom: -8px;
+}
+
+.liste {
+    font-size: 14px;
+}
+
+/* GRID */
+.kortsortering-php h1 {
+    grid-area: titel;
+}
+
+.kortsortering-php .hvad-er-kortsortering {
+    grid-area: hvader;
+}
+
+.kortsortering-php .tre-overvejelser {
+    grid-area: tre-overvej;
+}
+
+.kortsortering-php .forberedelse-kort {
+    grid-area: forberedelse;
+}
+
+.kortsortering-php .udforelse-kort {
+    grid-area: udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+    grid-area: abentest;
+}
+
+.kortsortering-php .lukket-test-kort {
+    grid-area: lukkettest;
+}
+
+.kortsortering-php .rapport-kort {
+    grid-area: rapport;
+    margin-top: -40px;
+}
+
+.kortsortering-php .dok-kort {
+    grid-area: dokumentation;
+}
+
+.kortsortering-php .kilder {
+    grid-area: kilder;
+}
+
+.kortsortering-php #mitgrid-kort {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "tre-overvej"
+        "forberedelse"
+        "udforelse"
+        "abentest"
+        "lukkettest"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */
 
 
 
@@ -2771,12 +2896,147 @@ h1 {
 }
 
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */    
+
+    
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
+.kortsortering-php header,
+.kortsortering-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.kortsortering-php .sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.kortsortering-php h1 {
+    text-align: center;
+}
+
+/* BILLED OG TABLE STØRRELSE */
+.kortsortering-php .kort-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.kortsortering-php .usability-table {
+    max-width: 100%;
+}
+
+/* LISTER */
+.kortsortering-php .liste li {
+    padding-bottom: 10px;
+}
+
+
+/* padding */
+.kortsortering-php .aben-test-kort .liste,
+.kortsortering-php .lukket-test-kort .liste {
+    margin-top: -25px;
+}
+
+.kortsortering-php .testmetoder-table {
+    margin-top: 20px;
+} 
+
+.kortsortering-php .resultater-kort h3:nth-child(5) {
+        margin-top: 20px;
+        margin-bottom: -20px;
+ }
+    
+.kortsortering-php .tre-overvejelser-intro h2 {
+    margin-bottom: -20px;
+}
+
+.kortsortering-php .kilder li {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.kortsortering-php .kilder a {
+    font-size: 16px;
+}
+
+.kortsortering-php .dok-kort ul {
+    margin-bottom: -10px;
+}
+
+.kortsortering-php .resultater-kort h4 {
+    margin-bottom: -8px;
+}
+
+.liste {
+    font-size: 16px;
+}
+
+/* GRID */
+.kortsortering-php h1 {
+    grid-area: titel;
+}
+
+.kortsortering-php .hvad-er-kortsortering {
+    grid-area: hvader;
+}
+
+.kortsortering-php .tre-overvejelser {
+    grid-area: tre-overvej;
+}
+
+.kortsortering-php .forberedelse-kort {
+    grid-area: forberedelse;
+}
+
+.kortsortering-php .udforelse-kort {
+    grid-area: udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+    grid-area: abentest;
+}
+
+.kortsortering-php .lukket-test-kort {
+    grid-area: lukkettest;
+}
+
+.kortsortering-php .rapport-kort {
+    grid-area: rapport;
+    margin-top: -40px;
+}
+
+.kortsortering-php .dok-kort {
+    grid-area: dokumentation;
+}
+
+.kortsortering-php .kilder {
+    grid-area: kilder;
+}
+
+.kortsortering-php #mitgrid-kort {
+    margin: 2em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "tre-overvej"
+        "forberedelse"
+        "udforelse"
+        "abentest"
+        "lukkettest"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */    
     
     
     
     
-    
-    
+
     
 }
 
@@ -3990,6 +4250,150 @@ h1 {
 
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */    
     
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
+.kortsortering-php header,
+.kortsortering-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.kortsortering-php .sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.kortsortering-php h1 {
+    text-align: center;
+}
+
+/* BILLED OG TABLE STØRRELSE */
+.kortsortering-php .kort-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.kortsortering-php .usability-table {
+    max-width: 100%;
+}
+
+/* LISTER */
+.kortsortering-php .liste li {
+    padding-bottom: 10px;
+}
+
+
+/* padding */
+.kortsortering-php .aben-test-kort .liste,
+.kortsortering-php .lukket-test-kort .liste {
+    margin-top: -25px;
+}
+
+.kortsortering-php .testmetoder-table {
+    margin-top: 20px;
+} 
+
+.kortsortering-php .resultater-kort h3:nth-child(5) {
+        margin-top: 20px;
+        margin-bottom: -20px;
+ }
+    
+.kortsortering-php .tre-overvejelser-intro h2 {
+    margin-bottom: -20px;
+}
+
+.kortsortering-php .kilder li {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.kortsortering-php .kilder a {
+    font-size: 16px;
+}
+
+.kortsortering-php .dok-kort ul {
+    margin-bottom: -10px;
+}
+
+.kortsortering-php .resultater-kort h4 {
+    margin-bottom: -8px;
+}
+
+.liste {
+    font-size: 16px;
+}
+
+/* GRID */
+.kortsortering-php h1 {
+    grid-area: titel;
+}
+
+.kortsortering-php .hvad-er-kortsortering {
+    grid-area: hvader;
+}
+
+.kortsortering-php .tre-overvejelser {
+    grid-area: tre-overvej;
+}
+
+.kortsortering-php .forberedelse-kort {
+    grid-area: forberedelse;
+}
+
+.kortsortering-php .udforelse-kort {
+    grid-area: udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+    grid-area: abentest;
+}
+
+.kortsortering-php .lukket-test-kort {
+    grid-area: lukkettest;
+}
+
+.kortsortering-php .rapport-kort {
+    grid-area: rapport;
+    margin-top: -40px;
+}
+
+.kortsortering-php .dok-kort {
+    grid-area: dokumentation;
+}
+
+.kortsortering-php .kilder {
+    grid-area: kilder;
+}
+
+.kortsortering-php #mitgrid-kort {
+    margin: 3em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "tre-overvej"
+        "forberedelse"
+        "udforelse"
+        "abentest"
+        "lukkettest"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */   
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
     
@@ -4844,16 +5248,226 @@ h1 {
     margin-left: -7em;
     margin-right: -7em;
     
-}
+    }
 
 
     .ekspertvudering h1 {
         margin-top: -1em;
-    }    
+    }  
+    
+    .ekspertvudering {
+        color: white;
+        background: #5888FF;
+    }
 
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */ 
     
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
+.kortsortering-php header,
+.kortsortering-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.kortsortering-php .sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.kortsortering-php h1 {
+    text-align: center;
+}
+
+/* BILLED OG TABLE STØRRELSE */
+.kortsortering-php .kort-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.kortsortering-php .usability-table {
+    max-width: 100%;
+}
+
+/* LISTER */
+.kortsortering-php .liste li {
+    padding-bottom: 10px;
+}
+
+
+/* padding */
+.kortsortering-php .aben-test-kort .liste,
+.kortsortering-php .lukket-test-kort .liste {
+    margin-top: -25px;
+}
+
+.kortsortering-php .testmetoder-table {
+    margin-top: 20px;
+} 
+
+.kortsortering-php .resultater-kort h3:nth-child(5) {
+        margin-top: 20px;
+        margin-bottom: -20px;
+ }
     
+.kortsortering-php .tre-overvejelser-intro h2 {
+    margin-bottom: -20px;
+}
+
+.kortsortering-php .kilder li {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.kortsortering-php a {
+       font-size: 22px;
+        margin-top: 5px;
+} 
+
+.kortsortering-php .kilder a {
+    font-size: 18px;
+}
+
+.kortsortering-php .dok-kort ul {
+    margin-bottom: -10px;
+}
+
+.kortsortering-php .resultater-kort h4 {
+    margin-bottom: -8px;
+}
+
+.liste {
+    font-size: 18px;
+}
+
+/* GRID */
+.kortsortering-php h1 {
+    grid-area: titel;
+}
+
+.kortsortering-php .hvad-er-kortsortering {
+    grid-area: hvader;
+}
+
+.kortsortering-php .tre-overvejelser {
+    grid-area: tre-overvej;
+}
+
+.kortsortering-php .forberedelse-kort {
+    grid-area: forberedelse;
+}
+
+.kortsortering-php .udforelse-kort {
+    grid-area: udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+    grid-area: abentest;
+}
+
+.kortsortering-php .lukket-test-kort {
+    grid-area: lukkettest;
+}
+
+.kortsortering-php .rapport-kort {
+    grid-area: rapport;
+    margin-top: -40px;
+}
+
+.kortsortering-php .dok-kort {
+    grid-area: dokumentation;
+}
+
+.kortsortering-php .kilder {
+    grid-area: kilder;
+}
+
+.kortsortering-php #mitgrid-kort {
+    margin: 10em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "tre-overvej"
+        "forberedelse"
+        "udforelse"
+        "abentest"
+        "lukkettest"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+    
+/* GRID BILLEDER */
+.kortsortering-php #rundte1-img {
+        grid-area: rundte1;
+        margin-left: -9em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}   
+    
+.kortsortering-php #rundte2-img {
+        grid-area: rundte2;
+        margin-right: -9em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+    
+.kortsortering-php .image-grid {
+        display: grid;
+        grid-column-gap: 20px;;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "rundte1 rundte2";
+}
+    
+.kortsortering-php .udforelse-kort-intro {
+        grid-area: intro-udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+        grid-area: abentest-1;
+}
+
+.kortsortering-php .lukket-test-kort {
+        grid-area: lukket-test1;
+        margin-top: 10px;
+}
+
+.kortsortering-php .udforelse-kort {
+     display: grid;
+    grid-column-gap: 20px;
+     grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "intro-udforelse intro-udforelse"
+        "abentest-1 lukket-test1"
+}
+    
+/* background image */
+    .kortsortering-php .usability-table {
+        max-width: 76%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    
+.kortsortering-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -10em;
+    margin-right: -10em;
+    
+    }
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */ 
     
     
     
