@@ -1740,11 +1740,6 @@ footer {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
-.brugertest-php {
-    background: #5888FF;
-    color: black;
-}
-
 .brugertest-php h1 {
     text-align: center;
 }
@@ -1813,7 +1808,7 @@ footer {
 .brugertest-php #mitgrid-brugertest {
     margin: 0.8em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
@@ -2833,7 +2828,7 @@ usability-table {
 
 
 .brugertest-php #mitgrid-brugertest {
-    margin: 3em;    
+    margin: 3.5em;    
 }
 
 .brugertest-php .forbered-bruger section {
@@ -4057,10 +4052,6 @@ usability-table {
     grid-area: titel;
 }
 
-.brugertest-php .hvad-er-brugertest {
-
-}
-
 .brugertest-php .forbered-bruger ul,
 .brugertest-php .forbered-bruger ol   {
     padding-top: 0;
@@ -5057,16 +5048,6 @@ usability-table {
     grid-area: titel;
 }
 
-.brugertest-php .hvad-er-brugertest {
-
-}
-
-.brugertest-php .forbered-bruger ul,
-.brugertest-php .forbered-bruger ol   {
-    padding-top: 0;
-    padding-bottom: 15px;
-}
-
 
 .brugertest-php #mitgrid-brugertest {
     margin: 7em;  
@@ -5122,8 +5103,8 @@ usability-table {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: -10em;
-    margin-right: -10em;
+    margin-left: -7em;
+    margin-right: -7em;
     
     }    
 
