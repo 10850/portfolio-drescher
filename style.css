@@ -1264,70 +1264,22 @@ footer {
     margin: 0.8em;
 }
 
-.gangstertest-php .pointsystem-list {
-    margin-left: 2em;
-}
-
-.gangstertest-php .sporgsmal-list {
+.gangstertest-php #sporgsmal-list {
    margin-left: 2em;
 }
 
-.gangstertest-php .pointsystem-list {
+.gangstertest-php #pointsystem-list {
     list-style: none;
 }
 
-.gangstertest-php .dokumentation-list li,
-.gangstertest-php .pointsystem-list li,
-.gangstertest-php .sporgsmal-list li {
-        padding-top: 10px;
-    }
-
-/* FONT */
-.gangstertest-php .dokumentation-list,
-.gangstertest-php .pointsystem-list,
-.gangstertest-php .sporgsmal-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
+.underoverskrift:nth-child(5) {
+    margin-top: 20px;
 }
-
-.underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.pdf-fil-link {
-    font-family: montserrat, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.gangstertest-php footer ul {
-    font-family: montserrat, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-}
-
-
 
 /* FONTS SLUT */
 
 .gangstertest-php .usability-table td:nth-child(2) {
     text-align: center;
-}
-
-.gangstertest-php .usability-table td,
-.gangstertest-php .usability-table th {
-    font-size: 14px;
-    padding: 10px;
 }
 
 /* GRID */
@@ -2304,7 +2256,7 @@ footer {
     color: black;
 }
 
-.underoverskift {
+.underoverskrift {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -2627,52 +2579,25 @@ usability-table {
 }
 
 .gangstertest-php #mitgrid-gangstertest {
-    margin: 1.5em;
+    margin: 3.5em;
 }
-
-.gangstertest-php .pointsystem-list {
-    list-style: none;
-}
-
-.gangstertest-php .pointsystem-list {
-    margin-left: 2em;
-}
-
-.gangstertest-php .sporgsmal-list {
-   margin-left: 2em;
-}
-    
+  
 #konklusion-margin {
     margin-top: 20px;
 }
 
 
 /* FONT */
-.gangstertest-php .dokumentation-list,
-.gangstertest-php .pointsystem-list,
-.gangstertest-php .sporgsmal-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-}
-
-.underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.pdf-fil-link {
+.pdf-link {
     font-family: montserrat, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
 }
+    
+    .gangstertest-php table {
+        margin-top: 15px;
+    }
 
 .gangstertest-php footer ul {
     font-family: montserrat, sans-serif;
@@ -2683,12 +2608,6 @@ usability-table {
 
 .gangstertest-php .usability-table td:nth-child(2) {
     text-align: center;
-}
-
-.gangstertest-php .usability-table td,
-.gangstertest-php .usability-table th {
-    font-size: 14px;
-    padding: 10px;
 }
 
     
@@ -3323,7 +3242,7 @@ usability-table {
     color: black;
 }
 
-.underoverskift {
+.underoverskrift {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -3921,64 +3840,11 @@ usability-table {
 }
 
 .gangstertest-php #mitgrid-gangstertest {
-    margin: 4em;
+    margin: 3.5em;
 }
-    
-.gangstertest-php .pointsystem-list {
-    margin-left: 2em;
-}
-
-.gangstertest-php .sporgsmal-list {
-   margin-left: 2em;
-}
-    
-.gangstertest-php .dokumentation-list {
-     margin-left: 2em;   
-}
-
-.gangstertest-php .pointsystem-list {
-    list-style: none;
-}
-    
 
 
 /* FONT */
-.gangstertest-php .dokumentation-list,
-.gangstertest-php .pointsystem-list,
-.gangstertest-php .sporgsmal-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-}
-    
-
-.gangstertest-php .sporgsmal-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    padding-top: 10px;
-
-}
-
-.underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.pdf-fil-link {
-    font-family: montserrat, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-}
-
 .gangstertest-php footer ul {
     font-family: montserrat, sans-serif;
     font-weight: 400;
@@ -4028,8 +3894,8 @@ usability-table {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    margin-left: -4em;
-    margin-right: -4em;
+    margin-left: -3.5em;
+    margin-right: -3.5em;
     
 }
     
@@ -4927,20 +4793,26 @@ usability-table {
     margin-top: 10px;
 }
 
-.gangstertest-php #mitgrid-gangstertest {
-    margin: 2em;
-}
-
-.gangstertest-php .pointsystem-list {
-    margin-left: 0em;
-}
-
-.gangstertest-php .sporgsmal-list {
-   margin-left: 1em;
+.gangster-pointsystem {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+     margin-left: 5px;
 }
     
-.gangstertest-php .dokumentation-list {
-        margin-left: 1em;
+.gangstertest-php #pointsystem-list {
+    margin-left: 0em;
+        
+}
+
+.gangstertest-php #sporgsmal-list {
+   margin-left: 1.2em;
+}
+    
+.gangstertest-php #dokumentation-list {
+        margin-left: 1.2em;
 }
 
 .gangstertest-php .pointsystem-list {
@@ -5071,18 +4943,10 @@ usability-table {
     
 }
     
-    .gangstertest-php #pointsystem-liste {
-        border-right: 1px solid black;
-        border-left: 1px solid black;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-
 
 /* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
+    
+    
     
     
  /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/

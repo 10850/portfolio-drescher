@@ -49,7 +49,7 @@
                 <p class="body-text">
                     Derefter vil man have en række spørgsmål man vil stille til testpersonen i forhold til navigationsdesignet eller informationsarkitekturen (Gregersen &#38; Wisler-Poulsen, 2017). Standard spørgsmål man vil stille er:
                 </p>
-                <ol class="liste" class="sporgsmal-list">
+                <ol class="liste" id="sporgsmal-list">
                     <li>
                         Hvilket website er du på? (ibid).
                     </li>
@@ -76,7 +76,7 @@
                 <p class="body-text">
                     Spørgsmålene vil blive besvaret med point fra 0 til 3 point og blive sat ind i et point system der fortæller hvor godt eller dårligt navigationen er (Gregersen &#38; Wisler-Poulsen, 2017):
                 </p>
-                <ul class="liste" class="pointsystem-list">
+                <ul class="liste" id="pointsystem-list">
                     <li>
                         0 point: Denne information fremgår slet ikke af undersiden (ibid).
                     </li>
@@ -98,7 +98,7 @@
             
             <section class="dokumentation-gangster">
                 <h3 class="underoverskrift">Dokumentation</h3>
-                <ul class="liste" class="dokumentation-list">
+                <ul class="liste" id="dokumentation-list">
                     <li>
                         Udskrift af skærmbilleder med markering af de områder, som efterspørges i testens spørgsmål (Gregersen &#38; Wisler-Poulsen, 2017). Husk at skrive web-adressen eller anden beskrivelse af hvordan siden er fundet (ibid).
                     </li>
