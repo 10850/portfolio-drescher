@@ -1960,6 +1960,145 @@ h1 {
 
 
 
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP START */
+.brugertest-php header,
+.brugertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.brugertest-php {
+    background: #5888FF;
+    color: black;
+}
+
+.brugertest-php h1 {
+    text-align: center;
+}
+ 
+.brugertest-php .brugertest-screenshot {
+    max-width: 100%;
+}
+
+.brugertest-php .usability-table {
+    max-width: 100%;
+}
+
+.brugertest-php #table-list2 {
+    margin-top: 20px;
+}
+
+.brugertest-php .liste-table {
+    margin-left: 1.2em;
+}
+
+.brugertest-php .liste-table li {
+    padding-top: 15px;
+}
+
+.brugertest-php .liste-table li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.brugertest-php .liste-table li:last-child {
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.brugertest-php h1 {
+    grid-area: titel;
+}
+
+.brugertest-php .hvad-er-brugertest {
+    grid-area: hvader;
+}
+
+.brugertest-php .forbered-bruger {
+    grid-area: forbered;
+}
+
+.brugertest-php .udforelse-bruger {
+    grid-area: udforelse;
+}
+
+.brugertest-php .bruger-rapport {
+    grid-area: rapport;
+}
+
+.brugertest-php .refleksion-bruger {
+    grid-area: refleksion;
+}
+
+.brugertest-php .dok-bruger {
+    grid-area: dokument;
+}
+
+.brugertest-php .kilder {
+    grid-area: kilder;
+}
+
+.brugertest-php #mitgrid-brugertest {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "forbered"
+        "udforelse"
+        "rapport"
+        "refleksion"
+        "dokument"
+        "kilder";
+    
+}
+
+.brugertest-php .forbered-bruger section {
+    margin-top: 15px;
+}
+
+.brugertest-php .udforelse-bruger h3 {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport section {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport div {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.kilder li {
+    padding-bottom: 10px;
+}
+
+/* FLEXBOX */
+
+#brugertest-setups img {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+#brugertest-setups {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
+
+
+
 
 
 
@@ -3032,7 +3171,84 @@ h1 {
 }
 
 /* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */    
+
     
+    
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP START */
+
+.brugertest-php h1 {
+    text-align: center;
+}
+ 
+.brugertest-php .brugertest-screenshot {
+    max-width: 100%;
+}
+
+.brugertest-php .usability-table {
+    max-width: 100%;
+}
+
+.brugertest-php #table-list2 {
+    margin-top: 20px;
+}
+
+.brugertest-php .liste-table {
+    margin-left: 1.2em;
+}
+
+.brugertest-php .liste-table li {
+    padding-top: 15px;
+}
+
+.brugertest-php .liste-table li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.brugertest-php .liste-table li:last-child {
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.brugertest-php h1 {
+    grid-area: titel;
+}
+
+.brugertest-php .hvad-er-brugertest {
+
+}
+
+.brugertest-php .forbered-bruger ul,
+.brugertest-php .forbered-bruger ol   {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+
+.brugertest-php #mitgrid-brugertest {
+    margin: 3em;    
+}
+
+.brugertest-php .forbered-bruger section {
+    margin-top: 15px;
+}
+
+.brugertest-php .udforelse-bruger h3 {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport section {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport div {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
     
     
     
@@ -4386,18 +4602,87 @@ h1 {
 
 /* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */   
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP START */
 
+.brugertest-php h1 {
+    text-align: center;
+}
+ 
+.brugertest-php .brugertest-screenshot {
+    max-width: 100%;
+}
+
+.brugertest-php .usability-table {
+    max-width: 100%;
+}
+
+.brugertest-php #table-list2 {
+    margin-top: 20px;
+}
+
+.brugertest-php .liste-table {
+    margin-left: 1.2em;
+}
+
+.brugertest-php .liste-table li {
+    padding-top: 15px;
+}
+
+.brugertest-php .liste-table li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.brugertest-php .liste-table li:last-child {
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.brugertest-php h1 {
+    grid-area: titel;
+}
+
+.brugertest-php .hvad-er-brugertest {
+
+}
+
+.brugertest-php .forbered-bruger ul,
+.brugertest-php .forbered-bruger ol   {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+
+.brugertest-php #mitgrid-brugertest {
+    margin: 5em;    
+}
+
+.brugertest-php .forbered-bruger section {
+    margin-top: 15px;
+}
+
+.brugertest-php .udforelse-bruger h3 {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport section {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport div {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */   
     
     
+    
+    
+    
+  
     
     
 }
@@ -4509,7 +4794,6 @@ h1 {
     
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
-    
     .designthinking-php .implement {
         display: grid;
         grid-column-gap: 20px;
@@ -5469,7 +5753,107 @@ h1 {
 
 /* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */ 
     
+
     
+    
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP START */
+
+.brugertest-php #table-list2 {
+    margin-top: 20px;
+}
+
+.brugertest-php .liste-table {
+    margin-left: 1.2em;
+}
+
+.brugertest-php .liste-table li {
+    padding-top: 15px;
+}
+
+.brugertest-php .liste-table li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.brugertest-php .liste-table li:last-child {
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.brugertest-php h1 {
+    grid-area: titel;
+}
+
+.brugertest-php .hvad-er-brugertest {
+
+}
+
+.brugertest-php .forbered-bruger ul,
+.brugertest-php .forbered-bruger ol   {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+
+.brugertest-php #mitgrid-brugertest {
+    margin: 7em;  
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.brugertest-php .forbered-bruger section {
+    margin-top: 15px;
+}
+
+.brugertest-php .udforelse-bruger h3 {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport section {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport div {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+    
+    
+/* background image */
+    .brugertest-php .usability-table {
+        max-width: 76%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+.brugertest-php .brugertest-screenshot {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .brugertest-php .background-image-usability {
+        display: flex;
+    }
+    
+    .brugertest-php #link-table {
+        margin-left: 2em;
+    }
+    
+.brugertest-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -10em;
+    margin-right: -10em;
+    
+    }    
+
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
     
     
     
