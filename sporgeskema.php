@@ -38,7 +38,7 @@
                 
                 <h3 class="underoverskrift">Typiske emner i et analyserende spørgeskema:</h3>
                 
-                <ul class="liste" class="typiske-emner-list">
+                <ul class="liste" id="typiske-emner-list">
                     <li>
                         Hvilke demografiske data kendetegner brugergruppen (Gregersen &#38; Wisler-Poulsen, 2017).
                     </li>
@@ -63,7 +63,7 @@
             
             <section class="typiske-emner-evaluate">
                 <h3 class="underoverskrift">Typiske emner til evaluerende spørgeskema:</h3>
-                <ul class="liste" class="typiske-emner-list">
+                <ul class="liste" id="typiske-emner-list">
                     <li>
                         Hvad er brugerens holdning til generelle områder som sprogbrug, navigation og særlige features (Gregersen &#38; Wisler-Poulsen, 2017).
                     </li>
@@ -81,7 +81,7 @@
                 <p class="body-text">
                     For at en spørgeskemaundersøgelse er effektiv skal der tages hensyn til:
                 </p>
-                <ul class="liste" class="design-sporgeskema">
+                <ul class="liste" id="design-sporgeskema">
                     <li>
                         Hvilket format man udfører det i. Det vil være effektivt at bruge en web-seurvey via internettet) (Gregersen &#38; Wisler-Poulsen, 2017).
                     </li>
@@ -102,7 +102,7 @@
             
             <section class="forberedelsen-sporgeskema">
                 <h3 class="underoverskrift">Forberedelsen</h3>
-                <ol class="liste" class="forberedelse-list">
+                <ol class="liste" id="forberedelse-list">
                     <li>
                         Brainstorm: skriv ALLE de spørgsmål du kunne forstille der at stille til spørgeskemaet (Gregersen &#38; Wisler-Poulsen, 2017).
                     </li>
@@ -194,7 +194,7 @@
                             Et spørgeskema skal altid have en indledning som går over:
                         </p>
 
-                        <ul class="liste" class="indledning-list">
+                        <ul class="liste" id="indledning-list">
                             <li>
                                 Hvad drejer spørgeskemaet sig om? (Gregersen &#38; Wisler-Poulsen, 2017).
                             </li>
@@ -226,7 +226,7 @@
                             God opbygning af et spørgeskema har:
                         </p>
 
-                        <ul class="liste" class="opbygning-list">
+                        <ul class="liste" id="opbygning-list">
                             <li>
                                 Nemme spørgsmål som tager minimal overvejelse først. Som demografiske spørgsmål (Gregersen &#38; Wisler-Poulsen, 2017).
                             </li>
@@ -249,7 +249,7 @@
                             Det er en rigtig god ide at give deltagerne konstant opdatering på hvor langt de er med undersøgelsen via ting som (Gregersen &#38; Wisler-Poulsen, 2017):
                         </p>
 
-                        <ul class="status-list">
+                        <ul id="status-list" class="liste">
                             <li>
                                 Sidetal (ibid).
                             </li>
@@ -269,7 +269,7 @@
                             Det er vigtigt at man formulerer sig ordentligt i sine spørgsmål og præcise formulering så der ikke skabes forvirring i svarmulighederne (Gregersen &#38; Wisler-Poulsen, 2017). Sørger for at:
                         </p>
 
-                        <ul class="instruktion-list">
+                        <ul class="liste" id="instruktion-list">
                             <li>
                                 Spørgeskemaet stille spørgsmål til deltagernes erfaring i stedet for forventninger (ibid).
                             </li>
