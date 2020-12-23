@@ -7,11 +7,10 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
-    <!-- Karma fra google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Mit stylesheet -->
@@ -25,7 +24,7 @@
         
         <div id="mitgrid-hvaderusability">
             
-            <h1>Usability</h1>
+            <h1 class="titel">Usability</h1>
             
             <section class="hvad-er-usability">
                 <h2 class="overskrift">Hvad er usability?</h2>
@@ -36,7 +35,7 @@
             
             <section class="hvorfor-usability">
                 <h2 class="overskrift">Hvorfor usability?</h2>
-                <ul class="hvorfor-liste">
+                <ul class="liste">
                     <li>Fordi usability er en cornerstone for websitets succes (Gregersen 	&#38; Wisler-Poulsen, 2017).</li>
                     <li>Hvis man er ligeglad med usability, så er man også ligeglad med og folk bruger sin website (ibid).</li>
                     <li>Det er hvad gøre det muligt at sende sit budskab ud og faktisk få en indflydelse hos folk (som man ønsker) (ibid).</li>

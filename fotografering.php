@@ -7,11 +7,10 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
-    <!-- Karma fra google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Mit stylesheet -->
@@ -23,14 +22,14 @@
         </header>
         
         <div id="mitgrid-foto">
-            <h1>Fotografering</h1>
+            <h1 class="titel">Fotografering</h1>
             
             
             <section class="exposure">
                 <section class="exposure-intro">
-                    <h2 class="overskrift-foto">Exposure</h2>
+                    <h2 class="overskrift">Exposure</h2>
 
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Simpelt sagt så er exposure en måling på hvor meget lys kameraet fanger for at kunne se det objekt den tager billeder af (Long, 2015). Ligesom vores øjne der har brug for en vis mængde lys for at kunne se noget (ibid). Og hvis man justerer indstillingerne som Brændvidde, lukketid, ISO osv. Så vil billedet blive mørkere eller lysere (ibid).
                     </p>
                 </section>
@@ -76,12 +75,12 @@
                 </div> <!-- div til at få background image ind lige præcis hvor jeg vil det -->
                     
                 <section class="exposure-parameter-resultat">
-                    <h3 class="underoverskrift-foto">De tre parameters indflydelse på exposure</h3>
-                    <p class="body-text-foto">
+                    <h3 class="underoverskrift">De tre parameters indflydelse på exposure</h3>
+                    <p class="body-text">
                         Efter at have taget disse billeder hvor jeg beholdt to parameter konstante og ændret på en, og gjorde det tre gange. Kunne jeg se at hver parameter ændret eksponering af billedet:
                     </p>
                     
-                    <ul class="exposure-parameter-list">
+                    <ul class="liste">
                         <li>Jo større ISO'en er, desto lysere bliver billedet</li>
                         <li>Jo mindre lukketiden er, desto lysere bliver billedet</li>
                         <li>Jo større blænden er, desto mørkere bliver billedet </li>
@@ -90,7 +89,7 @@
                 
                 <section class="exposure-luk-iso">
                     
-                    <h3 class="underoverskrift-foto-primary">Lukketid i samspil med ISO</h3>
+                    <h3 class="underoverskrift">Lukketid i samspil med ISO</h3>
                     
                     <div class="background-image2">
                         <section class="img-luk-iso">
@@ -133,12 +132,12 @@
                     </div>
                     
                     <section class="resultat-luk-iso">
-                        <h3 class="underoverskrift-foto">Resultat</h3>
-                        <p class="body-text-foto">
+                        <h3 class="underoverskrift">Resultat</h3>
+                        <p class="body-text">
                             Jeg tog billeder med en forskellige ISO-værdier og lukketider og fandt fremtil, at Når man justerer lukkeren, kan man bestemme hvor længe den er åben, og dermed hvor meget lys den kan lukke ind.
                         </p>
 
-                        <p class="body-text-foto">
+                        <p class="body-text">
                             Derudover når man justerer ISO'en, justerer man på hvor følsomt billedet er overfor lys.
                         </p>
                     </section>
@@ -147,7 +146,7 @@
                     
                 <section class="exposure-luk-blande">
                     
-                    <h3 class="underoverskrift-foto-primary">Lukketid i samspil med blænderen</h3>
+                    <h3 class="underoverskrift">Lukketid i samspil med blænderen</h3>
                 
                     <div class="background-image1">
                         <section class="img-luk-blande">
@@ -191,11 +190,11 @@
                 </section>
                 
                 <section class="resultat-luk-blande">
-                    <h3 class="underoverskrift-foto">Resultat</h3>
-                    <p class="body-text-foto">
+                    <h3 class="underoverskrift">Resultat</h3>
+                    <p class="body-text">
                         Ved at tage billeder med forskellige blænde-værdier og lukketider fandt jeg fremtil at, når man justerer blænderen, justerer man på hvor meget lys der kan lukkes ind gennem objektivet, hvilket også justerer på dybdeskarphed. 
                     </p>
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Derudover, når man justerer lukkeren, kan man bestemme hvor længe den er åben, og dermed hvor meget lys den kan lukke ind. 
                     </p>
                 </section>
@@ -203,9 +202,9 @@
             
             <section class="iso">
                 <section>
-                    <h2 class="overskrift-foto">ISO</h2>
+                    <h2 class="overskrift">ISO</h2>
 
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         ISO styre lys følsomheden, og jo højere ISO man har desto mere støj, fremkommer på billedet (Østergaard, 2020). Og jo lavere ISO desto mindre støj er der på billedet (ibid).
                     </p>
                 </section>
@@ -213,9 +212,9 @@
             
             <section class="lukketid">
                 <section class="lukketid-intro">
-                    <h2 class="overskrift-foto">Lukketid</h2>
+                    <h2 class="overskrift">Lukketid</h2>
 
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Lukketid er den tid det tager for lukkeren at åbne for at tage billedet målt i sekunder (Østergaard, 2020). Hvis lukketiden er langsom, så vil der et langt delay fra du trykke på knappen til at tage et fotografi (ibid). Det vil også gøre billedet lysere og give det mere Bevægelsessløring og rystelser (ibid). Hvis lukketiden er hurtig, så vil der ikke være nogen delay efter du trykker knappen og billedet ville være stillestående uden rystelser eller sløring (ibid). En typisk lukketid er omkring 1/125s (ibid).
                     </p>
                 </section>
@@ -261,14 +260,14 @@
                 </div>
                 
                 <section class="lukketid-hop-resultat">
-                    <h3 class="underoverskrift-foto">Resultat</h3>
-                    <p class="body-text-foto">
+                    <h3 class="underoverskrift">Resultat</h3>
+                    <p class="body-text">
                         Jeg tog billeder med lukkertid på 1/30, 1/250, 1/1000, 1/125, 1/60 og 1/100. 
                     </p>
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Jeg fandt fremtil at man begynder at fornemme bevægelsen, hvor jeg stadig er genkendelig, ved en lukkertid på omkring 1/100.
                     </p>
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Jeg også ud af at billedet af mig begynder at fremstå helt skarpt og frosset, ved omkring 1/250. 
                     </p>
                 </section>
@@ -305,11 +304,11 @@
                 </div>
                 
                 <section class="lukketid-holdt-resultat">
-                    <h3 class="underoverskrift-foto">Resultat</h3>
-                    <p class="body-text-foto">
+                    <h3 class="underoverskrift">Resultat</h3>
+                    <p class="body-text">
                         Jeg tog billeder med lukkertiden på 1/15, 1/60, 1/500. 
                     </p>
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Jeg kunne fornemme og efter at have taget billedet at omkring 1/60 begynder det at blive muligt at holde kameraet stille. Hvor hvis det er mindre, så er det meget mere besværeligt fordi det tager langtid for lukkeren at lukke så kameraet kan tage billedet.
                     </p>
                 </section>    
@@ -317,9 +316,9 @@
             
             <section class="blande">
                 <section class="blande-intro">
-                    <h2 class="overskrift-foto">Blænde</h2>
+                    <h2 class="overskrift">Blænde</h2>
 
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Blænde er det som styrer dybdeskarpheden på billedet (Østergaard, 2020). Jo højere blændetal der er desto mere mindre, bliver blændeåbningen og billedet ville have alt i fokus, så lille dybdeskarphed (ibid). Derimod hvis blændetallet er mindre så er blændeåbningen større og billedet ville være sløret i baggrunden, så en stor dybdeskarphed (ibid).
                     </p>
                 </section>
@@ -356,11 +355,11 @@
                 </div>
                     
                 <section class="blande-resultat">
-                    <h3 class="underoverskrift-foto">Resultat</h3>
-                    <p class="body-text-foto">
+                    <h3 class="underoverskrift">Resultat</h3>
+                    <p class="body-text">
                         Ved at lege lidt rundt med blænderen, fandt jeg frem til, at blænderen gøre baggrunden sløret jo mindre blændeværdien er, og omvendt. Så Jo lavere blændeværdi, desto lavere dybdeskarphed og omvendt.
                     </p>
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Jeg fandt også ud af, at jo højere blændeværdien er, desto længere er lukkertiden.
                     </p>
                 </section>
@@ -368,9 +367,9 @@
             
             <section class="brandvidde">
                 <section class="brandevidde-intro">
-                    <h2 class="overskrift-foto">Brændevidde</h2>
+                    <h2 class="overskrift">Brændevidde</h2>
 
-                     <p class="body-text-foto">
+                     <p class="body-text">
                         Brændvidde er det som bestemmer the field of view af billedet som kameraet tager, ligesom vores field of view når vi kigger ud kan siges at være tæt på 180 grader (Long, 2015). Det gør også at kameraet kommer tættere eller længere væk fra billedets focal point altså det du tager et billede af (ibid). Det er ligesom en form for zoom hvor du ved at rotere på dit objektiv kan bestemme ved mm hvor tæt på eller langt væk perspektivet dit kamera tager billedet fra (ibid). En typisk brændvidde ligger mellem 50-80mm (ibid).
                      </p>
                 </section>
@@ -398,35 +397,35 @@
                 </div>
                 
                 <section class="lego-brandvidde-resultat">
-                    <h3 class="underoverskrift-foto">Resultat</h3>
-                    <p class="body-text-foto">
+                    <h3 class="underoverskrift">Resultat</h3>
+                    <p class="body-text">
                         Jeg legede lidt rundt med forskellige brændevidder og fandt fremtil, at når brændevidden er høj så kan man se rigtig meget af scenariet på billedet og alt var tydeligt og klart.
                     </p>
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Hvorimod når brændevidden er lav så kan man ikke se så meget af scenariet på billedet og man kan kun se det forreste objekt tydeligt, derefter objektet i mellemgrund mindre tydeligt, og til sidst er det helt sløret i baggrunden.
                     </p>
-                    <p class="body-text-foto">
+                    <p class="body-text">
                         Det som er overraskkende er, at den lave brændevidde fik det bagerste objekt til at se ud som om det var tættere på baggrunden end den egentlig var. Så brændevidden ændre på perspektivet i et billede.
                     </p>
                 </section>
             </section> <!-- BRÆNDEVIDDE -->
             
             <section class="refleksion-foto">
-                <h2 class="overskrift-foto">Første gang med et kamera i hånden</h2>
-                <p class="body-text-foto">
+                <h2 class="overskrift">Første gang med et kamera i hånden</h2>
+                <p class="body-text">
                     Før studiet have jeg aldrig arbejdet med et kamera før. Ja jeg har taget billeder med min telefon en masse, men aldrig med et kamera med lenser osv.
                 </p>
-                <p class="body-text-foto">
+                <p class="body-text">
                     Jeg gik fra at have ingen forstand på hvordan et kamera virker til at have en grundlæggende forståelse for hvordan de forskellige indstillingerne arbejder sammen og ændre på billedets eksponering, dybdeskarphed og perspektiv.
                 </p>
-                <p class="body-text-foto">
+                <p class="body-text">
                     Øvelsen hvor jeg tog billeder af lego hjalp rigtig meget med at få mig til at få den forståelse jeg har nu. især fordi jeg havde Veli som gruppekammerat som arbejder som fotograf, så han kunne forklare mig hvordan det hele virket på en meget simpel måde, som var til at forstå.
                 </p>
             </section> <!-- REFLEKSION -->
             
             <section class="kilder-foto">
-                <h2 class="overskrift-foto">Kilder</h2>
-                <ul>
+                <h2 class="overskrift">Kilder</h2>
+                <ul class="kildeliste">
                     <li>
                         Long, B., 2015. Linkedin Learning. [Online] 
                         Available at: <a href="https://www.linkedin.com/learning/introduction-to-photography/understanding-exposure?u=37312532">https://www.linkedin.com/learning/introduction-to-photography/understanding-exposure?u=37312532</a> 

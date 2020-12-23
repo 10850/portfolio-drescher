@@ -507,6 +507,129 @@ html, body {
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
 
 
+
+
+
+
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+.titel {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    color: black;
+}
+
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: black;
+}
+
+.underoverskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1.2em;
+    
+}
+    
+.liste li {
+    padding-top: 15px;
+}
+
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: dodgerblue;
+}
+
+.kildeliste {
+     margin-left: 1.2em;  
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+}
+
+.usability-table td {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+.usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+    
+}
+
+usability-table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */
+
+
+
+
+
+
+
+
+
+
+
+
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
 .designthinking-php header{
     background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat;
@@ -547,33 +670,8 @@ html, body {
 
 /* fonts */
 .designthinking-php h1 {  
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
     text-align: center;
     margin-top: 0.7em;
-}
-
-.designthinking-php .overskrifter-dt {  
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.designthinking-php .underoverskrift-dt {  
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.designthinking-php .bodytext-dt {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
 }
 
 /* List style */
@@ -582,7 +680,7 @@ html, body {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 1em;
 }
 
@@ -601,13 +699,8 @@ html, body {
 }
 
 
-.designthinking-php #steps-dt-hverdag li {
-    margin-top: 0.75em;
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
+.designthinking-php #steps-dt-hverdag {
+    margin-top: -0.75em;
 }
 
 .designthinking-php #steps-dt-hverdag li:nth-child(5) {
@@ -615,13 +708,8 @@ html, body {
 }
 
 
-.designthinking-php #brainstorm-steps li {
-    margin-top: 0.75em;
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
+.designthinking-php #brainstorm-steps {
+    margin-top: -0.75em;
 }
  
 
@@ -736,60 +824,25 @@ footer {
 
 
 /* FONTS MOBIL */
-.video-php .video-overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.video-php .video-underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.video-php .video-bodytext {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
 .video-php blockquote {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px; 
+    font-size: 14px; 
 }
 
 .video-php h4 {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 16px;
-}
-
-.video-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
-}
-
-.video-php .storyboard-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .video-php .video-kilde-liste {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .video-php .video-kilder h2 {
@@ -914,8 +967,11 @@ footer {
     margin-top: 10px;
 }
 
-.video-php .video-kilder ul,
-.video-php .storyboard-list {
+#storyboard-list {
+    margin-top: -2em;
+}
+
+.video-php .video-kilder ul {
     margin-left: 2em;
 }
 
@@ -938,35 +994,6 @@ footer {
 }
 
 /* fonts */
-.foto-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
-}
-
-.foto-php .overskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.foto-php .body-text-foto {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.foto-php .kilder-foto ul li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
-}
-
 .foto-php .body-text-fig {
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -975,39 +1002,25 @@ footer {
     font-size: 16px;
 }
 
-.foto-php .underoverskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-    text-align: left;
-}
-
-.foto-php .exposure-parameter-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
+.foto-php .liste {
+    margin-top: -1.5em;
     margin-bottom: 10px;
 }
 
-.foto-php .underoverskrift-foto-primary {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    font-size: 20px;
+.foto-php .body-text {
+    padding-top: 0;
 }
 
-
+.foto-php .underoverskrift {
+    margin-top: 25px;
+}
 /* LAYOUT */
 .foto-php #mitgrid-foto {
     margin: 0.8em;
 }
 
 .foto-php .kilder-foto ul {
-    margin-left: 1em;
+    margin-left: 1.2em;
 }
 
 .foto-php .kilder-foto ul li a {
@@ -1037,15 +1050,6 @@ footer {
 .foto-php .underoverskrift-foto {
     margin-top: 20px;
 }
-
-.foto-php .body-text-foto {
-    margin-top: 10px;
-}
-
-.foto-php .exposure .underoverskrift-foto-primary {
-    margin-top: 15px;
-}
-
 
 /* GRID */
 .foto-php h1 {
@@ -1113,86 +1117,29 @@ footer {
 }
 
 /* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
-h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
-}
-
-.overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.body-text {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
 .kildeliste {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
+    font-size: 14px;
+    margin-left: 1.2em;
 }
 
-.hvad-er-usability-php .usability-table th {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.hvad-er-usability-php .usability-table td {
-    font-family: montserrat, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.hvad-er-usability-php .hvorfor-liste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
-}
-
-.hvad-er-usability-php .hvorfor-liste li {
-    padding-top: 10px;
-}
 
 /* STYLING FOR TABLE */
-.hvad-er-usability-php .usability-table th,
-.hvad-er-usability-php .usability-table td {
+.usability-table th,
+.usability-table td {
     border: 1px solid black;
 }
 
-.hvad-er-usability-php .usability-table th {
-    background-color: #002E6E;
-    color: white;
-    vertical-align: middle;
-    padding: 5px;
-}
-
-.hvad-er-usability-php .usability-table td {
-    background-color: #A6BCFF;
-    vertical-align: middle;
-}
-
-.hvad-er-usability-php .usability-table td p {
-    padding: 5px;
-}
-
-.hvad-er-usability-php .usability-table {
+.usability-table {
     max-width: 100%;
     height: auto;
+}
+
+.hvad-er-usability-php .liste {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /* GRID */
@@ -1298,10 +1245,631 @@ h1 {
         "kilder";
 }
 
-.body-text {
+/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */
+
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP START*/
+.gangstertest-php header, 
+.gangstertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.gangstertest-php .youtube-screenshot {
+    max-width: 100%;
     margin-top: 10px;
 }
-/* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */
+
+.gangstertest-php #mitgrid-gangstertest {
+    margin: 0.8em;
+}
+
+.gangstertest-php #sporgsmal-list {
+   margin-left: 2em;
+}
+
+.gangstertest-php #pointsystem-list {
+    list-style: none;
+}
+
+.underoverskrift:nth-child(5) {
+    margin-top: 20px;
+}
+
+/* FONTS SLUT */
+
+.gangstertest-php .usability-table td:nth-child(2) {
+    text-align: center;
+}
+
+/* GRID */
+.gangstertest-php h1 {
+    grid-area: titel;
+    text-align: center;
+}
+
+.gangstertest-php .hvad-er-ganstertest {
+    grid-area: hvader;
+}
+
+.gangstertest-php .udforelse-gangstertest {
+    grid-area: udforelse;
+}
+
+.gangstertest-php .gangstertest-sporgsmal {
+    grid-area: sporgsmal;
+}
+
+.gangstertest-php .gangster-pointsystem {
+    grid-area: point;
+}
+
+.gangstertest-php .dokumentation-gangster {
+    grid-area: dokumentation;
+}
+
+.gangstertest-php .gangstertest-rapport {
+    grid-area: rapport;
+}
+
+.gangstertest-php .kilder {
+    grid-area: kilder;
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "udforelse"
+        "sporgsmal"
+        "point"
+        "dokumentation"
+        "rapport"
+        "kilder";
+}
+
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
+
+
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/
+.sporgeskema-php header,
+.sporgeskema-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.sporgeskema-php .sporgeskema-corona {
+    max-width: 100%;
+    height: auto;
+}
+
+.sporgeskema-php table {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+
+
+/* LISTER */
+.liste {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+/* padding / margin */
+.sporgeskema-php .sporgeskema-praksis .overskrift:nth-child(4) {
+    padding-top: 40px;
+}
+
+.sporgeskema-php .underoverskrift {
+    padding-top: 20px;
+}
+
+
+/* GRID */
+.sporgeskema-php .hvad-er-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: hvader;
+}
+
+.sporgeskema-php .typiske-emner {
+    max-width: 100%;
+    height: auto;
+    grid-area: typiskemner;
+}
+
+.sporgeskema-php .typiske-emner-evaluate {
+    max-width: 100%;
+    height: auto;
+    grid-area: typiskemnerevaluate;
+}
+
+.sporgeskema-php .design-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: design;
+}
+
+.sporgeskema-php .forberedelsen-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: forberedelsen;
+}
+
+.sporgeskema-php .setup-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: setup;
+}
+
+.sporgeskema-php .indledning-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: indledning;
+}
+
+.sporgeskema-php .opbygning-sporgskema  {
+    max-width: 100%;
+    height: auto;
+    grid-area: opbygning;
+}
+
+.sporgeskema-php .status-sporgskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: status;
+}
+
+.sporgeskema-php .instruktion-sporgskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: instruktion;
+}
+
+.sporgeskema-php .opfolgning-sporgskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: opfolgning;
+}
+
+.sporgeskema-php .beloning-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: beloning;
+}
+
+
+.sporgeskema-php .dokumentation-sporgeskema-intro {
+    grid-area: dok-intro;
+}
+
+.sporgeskema-php .kvantitativ-dok {
+    max-width: 100%;
+    height: auto;
+    grid-area: kvantitativ-dok;
+}
+
+.sporgeskema-php .kvalitativ-dok {
+    max-width: 100%;
+    height: auto;
+    grid-area: kvalitativ-dok;
+}
+
+.sporgeskema-php .dok-sporgeskema {
+    max-width: 100%;
+    height: auto;
+    grid-area: dokumentation-sporg;
+}
+
+
+.sporgeskema-php .sporgeskema-praksis {
+    max-width: 100%;
+    height: auto;
+    grid-area: praksis;
+    margin-top: -12em;
+   
+}
+
+
+.sporgeskema-php .kilder {
+    max-width: 100%;
+    height: auto;
+    grid-area: kilder;
+}
+
+.sporgeskema-php h1 {
+    grid-area: titel;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.sporgeskema-php #mitgrid-sporgeskema {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "typiskemner"
+        "typiskemnerevaluate"
+        "design"
+        "forberedelsen"
+        "setup"
+        "indledning"
+        "opbygning"
+        "status"
+        "instruktion"
+        "opfolgning"
+        "beloning"
+        "dok-intro"
+        "kvantitativ-dok"
+        "kvalitativ-dok"
+        "dokumentation-sporg"
+        "praksis"
+        "kilder"; 
+}
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/
+
+
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
+.ekspertvudering header, 
+.ekspertvudering footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.ekspertvudering .systemstatus, 
+.ekspertvudering .forhindring {
+    padding-top: 40px;
+}
+
+.ekspertvudering .systemstatus img, 
+.ekspertvudering .forhindring img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ekspertvudering .ekspert-img {
+    max-width: 100%;
+}
+
+.ekspertvudering .usability-table th {
+    font-size: 14px;
+}
+
+.ekspertvudering h1 {
+    text-align: center;
+    grid-area: titel;
+
+}
+
+.ekspertvudering .pdf-link-p {
+    padding-top: 5px;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+}
+
+
+.usability-table {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.ekspertvudering .hvad-er-ekspert {
+    grid-area: hvader;
+}
+
+.ekspertvudering .forberedelse-ekspert {
+    grid-area: forberedelse;
+}
+
+.ekspertvudering .information-ark-ekspert {
+    grid-area: infoark;
+}
+
+.ekspertvudering .interaktionsdesign-ekspert {
+    grid-area: interact;
+}
+
+.ekspertvudering .heruistikker {
+    grid-area: heru;
+}
+
+.ekspertvudering .ekspert-rapport {
+    grid-area: rapport;
+}
+
+.ekspertvudering .dokumentation-ekspert {
+    grid-area: dokumentation;
+}
+
+.ekspertvudering .kilder {
+    grid-area: kilder;
+}
+
+.ekspertvudering #mitgrid-ekspert {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "forberedelse"
+        "infoark"
+        "interact"
+        "heru"
+        "rapport"
+        "dokumentation"
+        "kilder"
+}
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */
+
+
+
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
+.kortsortering-php header,
+.kortsortering-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.kortsortering-php h1 {
+    text-align: center;
+}
+
+/* BILLED OG TABLE STØRRELSE */
+.kortsortering-php .kort-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.kortsortering-php .usability-table {
+    max-width: 100%;
+}
+
+/* LISTER */
+.kortsortering-php .liste li {
+    padding-bottom: 10px;
+}
+
+
+/* padding */
+.kortsortering-php .aben-test-kort,
+.kortsortering-php lukket-test-kort,
+.kortsortering-php .resultater-kort,
+.kortsortering-php .valg-af-brugere,
+.kortsortering-php .valg-af-elementer,
+.kortsortering-php #konklusion-kort {
+    padding-top: 15px;
+}
+
+ font-size: 14px;
+}
+
+.kortsortering-php .dok-kort ul {
+    margin-bottom: -10px;
+}
+
+.kortsortering-php .resultater-kort h4 {
+    margin-bottom: -8px;
+}
+
+/* GRID */
+.kortsortering-php h1 {
+    grid-area: titel;
+}
+
+.kortsortering-php .hvad-er-kortsortering {
+    grid-area: hvader;
+}
+
+.kortsortering-php .tre-overvejelser {
+    grid-area: tre-overvej;
+}
+
+.kortsortering-php .forberedelse-kort {
+    grid-area: forberedelse;
+}
+
+.kortsortering-php .udforelse-kort {
+    grid-area: udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+    grid-area: abentest;
+}
+
+.kortsortering-php .lukket-test-kort {
+    grid-area: lukkettest;
+}
+
+.kortsortering-php .rapport-kort {
+    grid-area: rapport;
+    margin-top: -40px;
+}
+
+.kortsortering-php .dok-kort {
+    grid-area: dokumentation;
+}
+
+.kortsortering-php .kilder {
+    grid-area: kilder;
+}
+
+.kortsortering-php #mitgrid-kort {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "tre-overvej"
+        "forberedelse"
+        "udforelse"
+        "abentest"
+        "lukkettest"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */
+
+
+
+
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP START */
+.brugertest-php header,
+.brugertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.brugertest-php h1 {
+    text-align: center;
+}
+ 
+.brugertest-php .brugertest-screenshot {
+    max-width: 100%;
+}
+
+.brugertest-php .usability-table {
+    max-width: 100%;
+}
+
+.brugertest-php #table-list2 {
+    margin-top: 20px;
+}
+
+.brugertest-php .liste-table {
+    margin-left: 1.2em;
+}
+
+.brugertest-php .liste-table li {
+    padding-top: 15px;
+}
+
+.brugertest-php .liste-table li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.brugertest-php .liste-table li:last-child {
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.brugertest-php h1 {
+    grid-area: titel;
+}
+
+.brugertest-php .hvad-er-brugertest {
+    grid-area: hvader;
+}
+
+.brugertest-php .forbered-bruger {
+    grid-area: forbered;
+}
+
+.brugertest-php .udforelse-bruger {
+    grid-area: udforelse;
+}
+
+.brugertest-php .bruger-rapport {
+    grid-area: rapport;
+}
+
+.brugertest-php .refleksion-bruger {
+    grid-area: refleksion;
+}
+
+.brugertest-php .dok-bruger {
+    grid-area: dokument;
+}
+
+.brugertest-php .kilder {
+    grid-area: kilder;
+}
+
+.brugertest-php #mitgrid-brugertest {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "forbered"
+        "udforelse"
+        "rapport"
+        "refleksion"
+        "dokument"
+        "kilder";
+    
+}
+
+.brugertest-php .forbered-bruger section {
+    margin-top: 15px;
+}
+
+.brugertest-php .udforelse-bruger h3 {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport section {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport div {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.kilder li {
+    padding-bottom: 10px;
+}
+
+/* FLEXBOX */
+
+#brugertest-setups img {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+#brugertest-setups {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
+
+
+
+
 
 
 
@@ -1602,51 +2170,127 @@ h1 {
     }
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
 
-
     
     
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
-.designthinking-php #mitgrid-designthinking {
-        margin: 1em;
-    }
     
-.designthinking-php h1 {  
+    
+    
+    
+    
+    
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+.titel {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 48px;
-    text-align: center;
+    color: black;
 }
 
-.designthinking-php .overskrifter-dt {  
+.overskrift {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 34px;
+    font-size: 36px;
+    color: black;
 }
 
-.designthinking-php .underoverskrift-dt {  
+.underoverskrift {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
+    font-size: 28px;
+    color: black;
 }
 
-.designthinking-php .bodytext-dt {
+.sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.body-text {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
     
-.designthinking-php .information-personlig {
-    list-style: none;
-    font-family: montserrat, sans-serif;
+.liste {
+    font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1.2em;
+    
 }
+    
+.liste li {
+    padding-top: 15px;
+}
+
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: dodgerblue;
+}
+
+.kilder {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+}
+
+.usability-table td {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+.usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+    
+}
+
+usability-table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */    
+      
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+.designthinking-php #mitgrid-designthinking {
+        margin: 3em;
+    }
+
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
@@ -1654,27 +2298,6 @@ h1 {
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */
 /* FONTS Tablet */
-.video-php .video-overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 34px;
-}
-
-.video-php .video-underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-}
-
-.video-php .video-bodytext {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
 .video-php blockquote {
     font-family: lora, serif;
     font-weight: 400;
@@ -1690,32 +2313,7 @@ h1 {
 }
 
 .video-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48px;
-}
-
-.video-php .storyboard-list li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.video-php .video-kilde-liste li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-  
-.designthinking-php #steps-dt-hverdag li {
-    font-size: 18px;
-}
-
-.designthinking-php #brainstorm-steps li {
-    font-size: 18px; 
+    text-align: center;
 }
 
 .video-php .video-kilder {
@@ -1755,39 +2353,10 @@ h1 {
   
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
-    margin: 1.2em;
+    margin: 3em;
 }
     
 /* fonts */
-.foto-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48px;
-}
-
-.foto-php .overskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 34px;
-}
-
-.foto-php .body-text-foto {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.foto-php .kilder-foto ul li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-}
-
 .foto-php .body-text-fig {
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -1796,30 +2365,60 @@ h1 {
     font-size: 18px;
 }
 
-.foto-php .underoverskrift-foto {
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */
+/* farver */
+.foto-php header {
+    background: linear-gradient(180deg, #ED980C, #F75F0C 50%) no-repeat;
+}
+
+.foto-php footer {
+    background: linear-gradient(180deg, #ED980C, #F75F0C 50%) no-repeat;
+}
+
+.foto-php .card {
+    max-width: 100%;
+}
+
+/* fonts */
+.foto-php .body-text-fig {
+    text-align: center;
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
-    text-align: left;
+    font-size: 16px;
 }
 
-.foto-php .exposure-parameter-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
+.foto-php .liste {
+    margin-top: -1.5em;
     margin-bottom: 10px;
 }
 
-.foto-php .underoverskrift-foto-primary {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    font-size: 24px;
-} 
+.foto-php .body-text {
+    padding-top: 0;
+}
+
+.foto-php .underoverskrift {
+    margin-top: 25px;
+}
+
+.foto-php .card {
+    border: 3px solid black;
+    border-radius: 0px;
+    max-width: 320px;
+    margin: 0.5em;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+}
+
+
+.foto-php .card {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
     
 /* FLEXBOX */
 .foto-php .exposure-triangle {
@@ -1895,63 +2494,368 @@ h1 {
 }
     
 /* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
-h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48px;
-}
-
-.overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 34px;
-}
-
-.body-text {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
 .kildeliste {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-}
-
-.hvad-er-usability-php .usability-table th {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.hvad-er-usability-php .usability-table td {
-    font-family: montserrat, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.hvad-er-usability-php .hvorfor-liste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
+    margin-left: 1.2em;
 }
     
 /* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */    
     
+   
+    
+    
+ /* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP START*/
+.gangstertest-php header, 
+.gangstertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.gangstertest-php .youtube-screenshot {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    margin: 3.5em;
+}
+  
+#konklusion-margin {
+    margin-top: 20px;
+}
+
+
+/* FONT */
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+    
+    .gangstertest-php table {
+        margin-top: 15px;
+    }
+
+.gangstertest-php footer ul {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.gangstertest-php .usability-table td:nth-child(2) {
+    text-align: center;
+}
+
+    
+.gangstertest-php .gangstertest-rapport p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+/* GRID */
+.gangstertest-php #mitgrid-gangstertest {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "udforelse"
+        "sporgsmal"
+        "point"
+        "dokumentation"
+        "rapport"
+        "kilder";
+}
+
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
+
+
+    
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/
+
+/* GRID */
+.sporgeskema-php .sporgeskema-praksis {
+    max-width: 100%;
+    height: auto;
+    grid-area: praksis;
+    margin-top: -12em;
+}
+
+.sporgeskema-php #mitgrid-sporgeskema {
+    margin: 3.5em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "typiskemner"
+        "typiskemnerevaluate"
+        "design"
+        "forberedelsen"
+        "setup"
+        "indledning"
+        "opbygning"
+        "status"
+        "instruktion"
+        "opfolgning"
+        "beloning"
+        "dok-intro"
+        "kvantitativ-dok"
+        "kvalitativ-dok"
+        "dokumentation-sporg"
+        "praksis"
+        "kilder"; 
+}
+    
+.sporgeskema-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -3.5em;
+    margin-right: -3.5em;
+    
+}
+    
+    .sporgeskema-php .background-titel {
+         background-image: url(usability/ikoner-background-usability.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -3.5em;
+        margin-right: -3.5em;
+    }
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/
+
+    
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
+.ekspertvudering .pdf-link-p {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.usability-table {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.usability-table td,
+.usability-table th {
+    font-size: 14px;
+}
+
+
+.ekspertvudering #mitgrid-ekspert {
+    margin: 3.5em;
+
+}
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */    
+
+    
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
+.kortsortering-php header,
+.kortsortering-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+
+
+.kortsortering-php h1 {
+    text-align: center;
+}
+
+/* BILLED OG TABLE STØRRELSE */
+.kortsortering-php .kort-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.kortsortering-php .usability-table {
+    max-width: 100%;
+}
+
+
+
+
+
+/* padding */
+.kortsortering-php .aben-test-kort .liste,
+.kortsortering-php .lukket-test-kort .liste {
+    margin-top: -5px;
+}
+
+.kortsortering-php .testmetoder-table {
+    margin-top: 20px;
+} 
+
+
+.kortsortering-php .dok-kort ul {
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.kortsortering-php .resultater-kort h4 {
+    margin-bottom: -8px;
+}
+
+.liste {
+    font-size: 16px;
+}
+
+/* GRID */
+.kortsortering-php h1 {
+    grid-area: titel;
+}
+
+.kortsortering-php .hvad-er-kortsortering {
+    grid-area: hvader;
+}
+
+.kortsortering-php .tre-overvejelser {
+    grid-area: tre-overvej;
+}
+
+.kortsortering-php .forberedelse-kort {
+    grid-area: forberedelse;
+}
+
+.kortsortering-php .udforelse-kort {
+    grid-area: udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+    grid-area: abentest;
+}
+
+.kortsortering-php .lukket-test-kort {
+    grid-area: lukkettest;
+}
+
+.kortsortering-php .rapport-kort {
+    grid-area: rapport;
+    margin-top: -40px;
+}
+
+.kortsortering-php .dok-kort {
+    grid-area: dokumentation;
+}
+
+.kortsortering-php .kilder {
+    grid-area: kilder;
+}
+
+.kortsortering-php #mitgrid-kort {
+    margin: 3.5em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "tre-overvej"
+        "forberedelse"
+        "udforelse"
+        "abentest"
+        "lukkettest"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */    
+
+    
+    
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP START */
+
+.brugertest-php h1 {
+    text-align: center;
+}
+ 
+.brugertest-php .brugertest-screenshot {
+    max-width: 100%;
+}
+
+.brugertest-php .usability-table {
+    max-width: 100%;
+}
+
+.brugertest-php #table-list2 {
+    margin-top: 20px;
+}
+
+.brugertest-php .liste-table {
+    margin-left: 1.2em;
+}
+
+.brugertest-php .liste-table li {
+    padding-top: 15px;
+}
+
+.brugertest-php .liste-table li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.brugertest-php .liste-table li:last-child {
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.brugertest-php h1 {
+    grid-area: titel;
+}
+
+.brugertest-php .hvad-er-brugertest {
+
+}
+
+.brugertest-php .forbered-bruger ul,
+.brugertest-php .forbered-bruger ol   {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+
+.brugertest-php #mitgrid-brugertest {
+    margin: 3.5em;    
+}
+
+.brugertest-php .forbered-bruger section {
+    margin-top: 15px;
+}
+
+.brugertest-php .udforelse-bruger h3 {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport section {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport div {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
     
     
     
-    
+
     
 }
 
@@ -2173,56 +3077,140 @@ h1 {
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/    
 
     
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
-.designthinking-php #mitgrid-designthinking {
-        margin: 2em;
-    }
     
-.designthinking-php h1 {  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+.titel {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 60px;
-    text-align: center;
+    font-size: 48px;
+    color: black;
 }
 
-.designthinking-php .overskrifter-dt {  
+.overskrift {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 38px;
+    font-size: 36px;
+    color: black;
 }
 
-.designthinking-php .underoverskrift-dt {  
+.underoverskrift {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
+    font-size: 28px;
+    color: black;
 }
 
-.designthinking-php .bodytext-dt {
+.sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.body-text {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-    
-.designthinking-php ul li,
-.designthinking-php ol li {
-       font-size: 18px; 
-}
-    
-.designthinking-php .kilder-dt li {
-    font-size: 18px;
-}
-    
-.designthinking-php .information-personlig {
-    list-style: none;
-    font-family: montserrat, sans-serif;
+
+.liste {
+    font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1.2em;
+    
 }
+    
+.liste li {
+    padding-top: 15px;
+}
+
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: dodgerblue;
+}
+    
+.kildeliste {
+     margin-left: 1.2em;  
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+}
+
+.usability-table td {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+.usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+    
+}
+
+usability-table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */    
+    
+    
+   
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+.designthinking-php #mitgrid-designthinking {
+        margin: 3.5em;
+    }
+
+    
+.designthinking-php .kilder-dt li {
+    font-size: 16px;
+    color: black;
+}
+
     
 /* IKONER */
     .designthinking-php #faserne-mobil,
@@ -2432,10 +3420,10 @@ h1 {
     
     .designthinking-php  h1 {
         margin-top: 1em;
-        font-size: 60px;
+        
     }
     
-/* GRID FOR HELE SIDEN DESKTOP */
+/* GRID FOR HELE S1200IDEN DESKTOP */
     .designthinking-php .hvaderdt {
         grid-area: hvaderdt-full;
     }
@@ -2496,39 +3484,19 @@ h1 {
         margin-top: 0em;
     }
     
-    
+ 
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
 
     
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */
 /* FONTS Tablet */
-.video-php .video-overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
-}
-
-.video-php .video-underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.video-php .video-bodytext {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
 
 .video-php blockquote {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px; 
+    font-size: 15px; 
 }
 
 .video-php h4 {
@@ -2538,26 +3506,8 @@ h1 {
     font-size: 18px;
 }
 
-.video-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
-}
 
-.video-php .storyboard-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
 
-.video-php .video-kilde-liste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
     
 .video-php .video-kilder {
     margin-bottom: 40px;
@@ -2587,7 +3537,7 @@ h1 {
 }
 
 .video-php #mitgrid-video {
-    margin: 1.5em;
+    margin: 2em;
 }
     
 /* GRID DESKTOP */
@@ -2625,7 +3575,7 @@ h1 {
     grid-row-gap: 25px;
     grid-column-gap: 10px;
     grid-template-columns: 3fr 3fr;
-    grid-template-rows: 0fr 0.1fr 0.1fr 0.73fr 0.1fr 0.1fr;
+    grid-template-rows: 0fr 0.1fr 0.1fr 0.86fr 0.1fr 0.1fr;
     grid-template-areas: 
         "titel titel"
         "post-production post-production"
@@ -2643,39 +3593,10 @@ h1 {
     
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
-    margin: 2em;
+    margin: 3.5em;
 }
     
 /* fonts */
-.foto-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
-}
-
-.foto-php .overskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-}
-
-.foto-php .body-text-foto {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.foto-php .kilder-foto ul li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-}
-
 .foto-php .body-text-fig {
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -2684,30 +3605,6 @@ h1 {
     font-size: 18px;
 }
 
-.foto-php .underoverskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 26px;
-    text-align: left;
-}
-
-.foto-php .exposure-parameter-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-    margin-bottom: 10px;
-}
-
-.foto-php .underoverskrift-foto-primary {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    font-size: 26px;
-} 
     
 /* FLEXBOX */
 .foto-php .exposure-triangle {
@@ -2753,92 +3650,446 @@ h1 {
 }
 
 .hvad-er-usability-php .skitse-madheltene {
-    max-width: 60%;
+    max-width: 90%;
+    margin-right: 0;
+    margin-left: 0;
 }
 
     
 .hvad-er-usability-php #mitgrid-hvaderusability {
     max-width: 100%;
     height: auto;
-    margin: 3em;
+    margin: 3.5em;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-row-gap: 25px;
+    grid-column-gap: 15px;
     grid-template-areas: 
-        "titel"
-        "hvader"
-        "hvorfor"
-        "funktionalitet"
-        "effektivitet"
-        "tilfredshed"
-        "undersogelsesdesign"
-        "testmetoder"
-        "pilottest"
-        "lige-po-og-rot"
-        "madheltene-prototype"
-        "skitser"
-        "kilder";
+        "titel titel"
+        "hvader hvader"
+        "hvorfor hvorfor"
+        "funktionalitet funktionalitet"
+        "effektivitet effektivitet"
+        "tilfredshed tilfredshed"
+        "undersogelsesdesign testmetoder"
+        "pilottest pilottest"
+        "lige-po-og-rot madheltene-prototype"
+        "skitser madheltene-prototype"
+        "kilder kilder";
 }
     
 /* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
-h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48px;
-}
-
-.overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 34px;
-}
-
-.body-text {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
 
 .kildeliste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
+    margin-left: 1.2em;
 }
 
-.hvad-er-usability-php .usability-table th {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-}
 
-.hvad-er-usability-php .usability-table td {
-    font-family: montserrat, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
 
-.hvad-er-usability-php .hvorfor-liste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
+.hvad-er-usability-php .usability-table {
+    max-width: 100%;
 }
     
 /* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */   
     
+ /* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP START*/
+.gangstertest-php header, 
+.gangstertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.gangstertest-php .youtube-screenshot {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    margin: 3.5em;
+}
+
+
+/* FONT */
+.gangstertest-php footer ul {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.gangstertest-php .usability-table td:nth-child(2) {
+    text-align: center;
+}
+
+.gangstertest-php .usability-table td,
+.gangstertest-php .usability-table th {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.gangstertest-php .usability-table {
+    margin: auto;
+    margin-top: 2em;
+}
 
     
+.gangstertest-php .gangstertest-rapport p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+/* GRID */
+.gangstertest-php #mitgrid-gangstertest {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "udforelse"
+        "sporgsmal"
+        "point"
+        "dokumentation"
+        "rapport"
+        "kilder";
+}
+
+.gangstertest-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin-left: -3.5em;
+    margin-right: -3.5em;
+    
+}
+    
+
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
+
+    
+ /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/
+
+/* GRID */
+
+.sporgeskema-php #mitgrid-sporgeskema {
+    margin: 3.5em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "typiskemner"
+        "typiskemnerevaluate"
+        "design"
+        "forberedelsen"
+        "setup"
+        "indledning"
+        "opbygning"
+        "status"
+        "instruktion"
+        "opfolgning"
+        "beloning"
+        "dok-intro"
+        "kvantitativ-dok"
+        "kvalitativ-dok"
+        "dokumentation-sporg"
+        "praksis"
+        "kilder"; 
+}
+    
+.sporgeskema-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -3.5em;
+    margin-right: -3.5em;
+    
+}
+    
+    .sporgeskema-php .background-titel {
+         background-image: url(usability/ikoner-background-usability.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -3.5em;
+        margin-right: -3.5em;
+    }
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/ 
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
+    .dokumentation-ekspert ul {
+        margin-top: -0.2em;
+    }
+    
+    .dokumentation-ekspert h3 {
+        margin-top: 1em;
+    }
+    
+    .interaktionsdesign-ekspert ul {
+        margin-top: -0.5em;
+    }
+    
+
+
+    
+.ekspertvudering .systemstatus, 
+.ekspertvudering .forhindring {
+    padding-top: 40px;
+}
+
+.ekspertvudering .systemstatus img, 
+.ekspertvudering .forhindring img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    
+
+.ekspertvudering .ekspert-img {
+    max-width: 100%;
+}
+
+.ekspertvudering h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.ekspertvudering .pdf-link-p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ekspertvudering .pdf-fil-link {
+    font-size: 16px;
+}
+
+.ekspertvudering #liste1 {
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+.usability-table {
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.usability-table td,
+.usability-table th {
+    font-size: 16px;
+}
+
+.ekspertvudering #mitgrid-ekspert {
+    margin: 3.5em;
+    display: grid;
+    grid-row-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "forberedelse"
+        "infoark"
+        "interact"
+        "heru"
+        "rapport"
+        "dokumentation"
+        "kilder"
+}
+
+    .ekspertvudering .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -3.5em;
+    margin-right: -3.5em;
+    
+}
+
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */    
+    
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
+
+.kortsortering-php h1 {
+    text-align: center;
+}
+
+/* BILLED OG TABLE STØRRELSE */
+.kortsortering-php .kort-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.kortsortering-php .usability-table {
+    max-width: 100%;
+}
+
+/* LISTER */
+.kortsortering-php .liste li {
+    padding-bottom: 10px;
+}
+
+
+/* padding */
+.kortsortering-php .aben-test-kort .liste,
+.kortsortering-php .lukket-test-kort .liste {
+    margin-top: 0px;
+}
+
+.kortsortering-php .testmetoder-table {
+    margin-top: 20px;
+} 
+    
+.kortsortering-php .tre-overvejelser-intro h2 {
+    margin-bottom: -20px;
+}
+
+/* GRID */
+.kortsortering-php h1 {
+    grid-area: titel;
+}
+
+.kortsortering-php .hvad-er-kortsortering {
+    grid-area: hvader;
+}
+
+.kortsortering-php .tre-overvejelser {
+    grid-area: tre-overvej;
+}
+
+.kortsortering-php .forberedelse-kort {
+    grid-area: forberedelse;
+}
+
+.kortsortering-php .udforelse-kort {
+    grid-area: udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+    grid-area: abentest;
+}
+
+.kortsortering-php .lukket-test-kort {
+    grid-area: lukkettest;
+}
+
+.kortsortering-php .rapport-kort {
+    grid-area: rapport;
+    margin-top: -40px;
+}
+
+.kortsortering-php .dok-kort {
+    grid-area: dokumentation;
+}
+
+.kortsortering-php .kilder {
+    grid-area: kilder;
+}
+
+.kortsortering-php #mitgrid-kort {
+    margin: 3.5em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "tre-overvej"
+        "forberedelse"
+        "udforelse"
+        "abentest"
+        "lukkettest"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */   
+    
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP START */
+
+.brugertest-php h1 {
+    text-align: center;
+}
+ 
+.brugertest-php .brugertest-screenshot {
+    max-width: 100%;
+}
+
+.brugertest-php .usability-table {
+    max-width: 100%;
+}
+
+.brugertest-php #table-list2 {
+    margin-top: 20px;
+}
+
+.brugertest-php .liste-table {
+    margin-left: 1.2em;
+}
+
+.brugertest-php .liste-table li {
+    padding-top: 15px;
+}
+
+.brugertest-php .liste-table li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.brugertest-php .liste-table li:last-child {
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.brugertest-php h1 {
+    grid-area: titel;
+}
+
+.brugertest-php .forbered-bruger ul,
+.brugertest-php .forbered-bruger ol   {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+
+.brugertest-php #mitgrid-brugertest {
+    margin: 5em;    
+}
+
+.brugertest-php .forbered-bruger section {
+    margin-top: 15px;
+}
+
+.brugertest-php .udforelse-bruger h3 {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport section {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport div {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */   
     
     
     
+    
+    
+  
     
     
 }
@@ -2949,7 +4200,129 @@ h1 {
  
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+.titel {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 58px;
+    color: black;
+}
+
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    color: black;
+}
+
+.underoverskift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    color: black;
+}
+
+.sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+.liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1.2em;
+    
+}
+    
+.liste li {
+    padding-top: 15px;
+}
+
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: dodgerblue;
+}
+    
+.kildeliste {
+     margin-left: 1.2em;  
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+}
+
+.usability-table td {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+.usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: white;
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+    
+}
+
+usability-table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */     
+    
+    
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+   .designthinking-php #mitgrid-designthinking {
+        margin: 7em;
+    }
+    
     
     .designthinking-php .implement {
         display: grid;
@@ -2972,7 +4345,7 @@ h1 {
     grid-row-gap: 25px;
     grid-column-gap: 20px;
     grid-template-columns: 3fr 3fr;
-    grid-template-rows: 0fr 0.2fr 0.1fr 0.52fr 0.1fr 0.1fr;
+    grid-template-rows: 0fr 0.2fr 0.1fr 0.76fr 0.1fr 0.1fr;
     grid-template-areas: 
         "titel titel"
         "post-production post-production"
@@ -2981,6 +4354,10 @@ h1 {
         "production premiere-rush"
         "video-kilder video-kilder";
 }
+    
+    .titel {
+        text-align: center;
+    }
 
     .video-php iframe {
         height: 720px;
@@ -3008,45 +4385,21 @@ h1 {
         
     }
     
+    #storyboard-list {
+    margin-top: 0em;
+}
+    
+    
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */        
 
     
     
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
-    margin: 6em;
+    margin: 7em;
 }
     
 /* fonts */
-.foto-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
-}
-
-.foto-php .overskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-}
-
-.foto-php .body-text-foto {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.foto-php .kilder-foto ul li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-}
-
 .foto-php .body-text-fig {
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -3055,30 +4408,6 @@ h1 {
     font-size: 18px;
 }
 
-.foto-php .underoverskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 26px;
-    text-align: left;
-}
-
-.foto-php .exposure-parameter-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-    margin-bottom: 10px;
-}
-
-.foto-php .underoverskrift-foto-primary {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    font-size: 26px;
-} 
     
 /* FLEXBOX */
 .foto-php .exposure-triangle {
@@ -3146,8 +4475,8 @@ h1 {
         background-image: url(foto/background-image-foto1.png);
         background-repeat: no-repeat;
         background-size: contain;
-        margin-right: -6em;
-        margin-left: -6em;
+        margin-right: -7em;
+        margin-left: -7em;
         
     }
     
@@ -3156,8 +4485,8 @@ h1 {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center 100%;
-        margin-right: -6em;
-        margin-left: -6em;
+        margin-right: -7em;
+        margin-left: -7em;
     }
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */ 
 
@@ -3168,7 +4497,9 @@ h1 {
 }
 
 .hvad-er-usability-php .skitse-madheltene {
-    max-width: 65%;
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hvad-er-usability-php .testmetoder-table {
@@ -3178,16 +4509,7 @@ h1 {
 .hvad-er-usability-php .kilder {
       margin-right: 50%;  
     }
-.hvad-er-usability-php .kilder li {
-      padding-top: 20px;  
-    }
-    
-.hvad-er-usability-php .usability-table th,
-.hvad-er-usability-php .usability-table td {
-    padding: 10px;   
-    padding-left: 1em;
-}
- 
+
 .hvad-er-usability-php .usability-table td p {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3196,7 +4518,7 @@ h1 {
 .hvad-er-usability-php #mitgrid-hvaderusability {
     max-width: 100%;
     height: auto;
-    margin: 10em;
+    margin: 7em;
     margin-top: 2em;
     margin-bottom: 2em;
     display: grid;
@@ -3210,65 +4532,586 @@ h1 {
         "effektivitet tilfredshed"
         "undersogelsesdesign testmetoder"
         "pilottest testmetoder"
-        "lige-po-og-rot testmetoder"
+        "lige-po-og-rot madheltene-prototype"
         "skitser madheltene-prototype"
         "kilder kilder";
 }
     
 /* FONTS (NU FOR ALLE SIDER PÅ EN GANG) */
-h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 52px;
+.hvad-er-usability-php h1 {
     margin-bottom: 1em;
 }
 
-.overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 32px;
-}
-
-.hvad-er-usability-php .body-text {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
 .kildeliste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
-}
-
-.hvad-er-usability-php .usability-table th {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.hvad-er-usability-php .usability-table td {
-    font-family: montserrat, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.hvad-er-usability-php .hvorfor-liste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
+    margin-left: 1.2em;
 }
     
 /* HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP HVAD-ER-USABILITY.PHP END */
+    
+
+    
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP START*/
+.gangstertest-php header, 
+.gangstertest-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.gangstertest-php .youtube-screenshot {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.gangster-pointsystem {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+     margin-left: 5px;
+}
+    
+.gangstertest-php #pointsystem-list {
+    margin-left: 0em;
+        
+}
+
+.gangstertest-php #sporgsmal-list {
+   margin-left: 1.2em;
+}
+    
+.gangstertest-php #dokumentation-list {
+        margin-left: 1.2em;
+}
+
+.gangstertest-php .pointsystem-list {
+    list-style: none;
+}
+
+/* FONT */
+.gangstertest-php .dokumentation-list,
+.gangstertest-php .pointsystem-list,
+.gangstertest-php .sporgsmal-list {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+    
+    
+
+.pdf-fil-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.gangstertest-php footer ul {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.gangstertest-php .usability-table td:nth-child(2) {
+    text-align: center;
+}
+    
+.gangstertest-php .usability-table td:nth-child(2),
+ .gangstertest-php .usability-table td:nth-child(3)   {
+    font-weight: 500;
+}
+    
+.gangstertest-php .usability-table td:nth-child(1) {
+    font-weight: 700;
+}
+
+.gangstertest-php .usability-table td,
+.gangstertest-php .usability-table th {
+    font-size: 14px;
+    padding: 10px;
+}
+    
+.gangstertest-php .usability-table {
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 2em;
+    height: 600px;
+}
+    
+.underoverskrift {
+      font-size: 26px;  
+}
+    
+.gangstertest-php .kilder li {
+    padding-top: 20px;
+}
+
+/* GRID */
+.gangstertest-php h1 {
+    grid-area: titel;
+    text-align: center;
+}
+
+.gangstertest-php .hvad-er-gangstertest {
+    grid-area: hvader;
+}
+
+.gangstertest-php .udforelse-gangstertest {
+    grid-area: udforelse;
+}
+
+.gangstertest-php .gangstertest-sporgsmal {
+    grid-area: sporgsmal;
+}
+
+.gangstertest-php .gangster-pointsystem {
+    grid-area: point;
+}
+
+.gangstertest-php .dokumentation-gangster {
+    grid-area: dokumentation;
+}
+
+.gangstertest-php .gangstertest-rapport {
+    grid-area: rapport;
+}
+
+.gangstertest-php .kilder {
+    grid-area: kilder;
+    
+}
+
+.gangstertest-php #mitgrid-gangstertest {
+    display: grid;
+    margin: 7em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "titel titel titel"
+        "hvader hvader hvader"
+        "udforelse udforelse udforelse"
+        "sporgsmal point dokumentation"
+        "rapport rapport rapport"
+        "kilder kilder kilder";
+}
+    
+.gangstertest-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -8em;
+    margin-right: -8em;
+    
+}
+    
+
+/* GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP GANGSTERTEST.PHP END */
+    
+    
+    
+    
+ /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP START*/
+
+
+/* GRID */
+.sporgeskema-php .sporgeskema-praksis {
+    max-width: 100%;
+    height: auto;
+    grid-area: praksis;
+    margin-top: -12em;
+}
+
+.sporgeskema-php #mitgrid-sporgeskema {
+    margin: 7em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "typiskemner"
+        "typiskemnerevaluate"
+        "design"
+        "forberedelsen"
+        "setup"
+        "indledning"
+        "opbygning"
+        "status"
+        "instruktion"
+        "opfolgning"
+        "beloning"
+        "dok-intro"
+        "kvantitativ-dok"
+        "kvalitativ-dok"
+        "dokumentation-sporg"
+        "praksis"
+        "kilder"; 
+}
+    
+.sporgeskema-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -7em;
+    margin-right: -7em;
+    
+}
+    
+    .sporgeskema-php .background-titel {
+         background-image: url(usability/ikoner-background-usability.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -7em;
+        margin-right: -7em;
+    }
+
+/* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/   
+  
+
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
+    .dokumentation-ekspert ul {
+        margin-top: -0.7em;
+    }
+    
+    .dokumentation-ekspert h3 {
+        margin-top: 1em;
+    }
+    
+    .interaktionsdesign-ekspert ul {
+        margin-top: -0.5em;
+    }
+    
+
+    
+.ekspertvudering .systemstatus, 
+.ekspertvudering .forhindring {
+    padding-top: 40px;
+}
+
+.ekspertvudering .systemstatus img, 
+.ekspertvudering .forhindring img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    
+
+.ekspertvudering .ekspert-img {
+    max-width: 100%;
+}
+
+.ekspertvudering h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.ekspertvudering .pdf-link-p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.usability-table {
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.usability-table td,
+.usability-table th {
+    font-size: 16px;
+}
+
+.ekspertvudering #mitgrid-ekspert {
+    margin: 7em;
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "forberedelse"
+        "infoark"
+        "interact"
+        "heru"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+
+    .ekspertvudering .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -7em;
+    margin-right: -7em;
+    
+    }
+
+
+    .ekspertvudering h1 {
+        margin-top: -1em;
+    }  
+/* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */ 
+    
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
+.kortsortering-php header,
+.kortsortering-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.kortsortering-php h1 {
+    text-align: center;
+}
+
+/* BILLED OG TABLE STØRRELSE */
+.kortsortering-php .kort-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.kortsortering-php .usability-table {
+    max-width: 100%;
+}
+
+.kortsortering-php .resultater-kort h4 {
+    margin-bottom: 0px;
+}
+
+
+/* GRID */
+.kortsortering-php h1 {
+    grid-area: titel;
+}
+
+.kortsortering-php .hvad-er-kortsortering {
+    grid-area: hvader;
+}
+
+.kortsortering-php .tre-overvejelser {
+    grid-area: tre-overvej;
+}
+
+.kortsortering-php .forberedelse-kort {
+    grid-area: forberedelse;
+}
+
+.kortsortering-php .udforelse-kort {
+    grid-area: udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+    grid-area: abentest;
+}
+
+.kortsortering-php .lukket-test-kort {
+    grid-area: lukkettest;
+}
+
+.kortsortering-php .rapport-kort {
+    grid-area: rapport;
+    margin-top: -40px;
+}
+
+.kortsortering-php .dok-kort {
+    grid-area: dokumentation;
+}
+
+.kortsortering-php .kilder {
+    grid-area: kilder;
+}
+
+.kortsortering-php #mitgrid-kort {
+    margin: 7em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvader"
+        "tre-overvej"
+        "forberedelse"
+        "udforelse"
+        "abentest"
+        "lukkettest"
+        "rapport"
+        "dokumentation"
+        "kilder";
+}
+    
+/* GRID BILLEDER */
+.kortsortering-php #rundte1-img {
+        grid-area: rundte1;
+        margin-left: -7em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}   
+    
+.kortsortering-php #rundte2-img {
+        grid-area: rundte2;
+        margin-right: -7em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+    
+.kortsortering-php .image-grid {
+        display: grid;
+        grid-column-gap: 20px;;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "rundte1 rundte2";
+}
+    
+.kortsortering-php .udforelse-kort-intro {
+        grid-area: intro-udforelse;
+}
+
+.kortsortering-php .aben-test-kort {
+        grid-area: abentest-1;
+}
+
+.kortsortering-php .lukket-test-kort {
+        grid-area: lukket-test1;
+        margin-top: 10px;
+}
+
+.kortsortering-php .udforelse-kort {
+     display: grid;
+    grid-column-gap: 20px;
+     grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "intro-udforelse intro-udforelse"
+        "abentest-1 lukket-test1"
+}
+    
+/* background image */
+    .kortsortering-php .usability-table {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    
+.kortsortering-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -7em;
+    margin-right: -7em;
+    
+    }
+
+/* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */ 
+    
+
+    
+    
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP START */
+
+.brugertest-php #table-list2 {
+    margin-top: 20px;
+}
+
+.brugertest-php .liste-table {
+    margin-left: 1.2em;
+}
+
+.brugertest-php .liste-table li {
+    padding-top: 15px;
+}
+
+.brugertest-php .liste-table li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.brugertest-php .liste-table li:last-child {
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.brugertest-php h1 {
+    grid-area: titel;
+}
+
+
+.brugertest-php #mitgrid-brugertest {
+    margin: 7em;  
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.brugertest-php .forbered-bruger section {
+    margin-top: 15px;
+}
+
+.brugertest-php .udforelse-bruger h3 {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport section {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport div {
+    margin-top: 15px;
+}
+
+.brugertest-php .bruger-rapport img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+    
+    
+/* background image */
+    .brugertest-php .usability-table {
+        max-width: 76%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+.brugertest-php .brugertest-screenshot {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .brugertest-php .background-image-usability {
+        display: flex;
+    }
+    
+    .brugertest-php #link-table {
+        margin-left: 2em;
+    }
+    
+.brugertest-php .background-image-usability {
+    background-image: url(usability/ikoner-background-usability.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -7em;
+    margin-right: -7em;
+    
+    }    
+
+/* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
+    
+    
+    
     
     
     
