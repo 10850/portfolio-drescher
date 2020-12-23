@@ -3228,6 +3228,11 @@ usability-table {
     margin-bottom: 15px;
     max-width: 100%;
 }
+
+/* UNDERMENU MOBIL DISPLAY */
+.undermenu-mobil {
+      display: none;  
+}
 /* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */    
     
     
