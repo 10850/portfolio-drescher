@@ -507,6 +507,128 @@ html, body {
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
 
 
+
+
+
+
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+.titel {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    color: black;
+}
+
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: black;
+}
+
+.underoverskift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1.2em;
+    
+}
+    
+.liste li {
+    padding-top: 15px;
+}
+
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: dodgerblue;
+}
+
+.kilder {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+}
+
+.usability-table td {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+.usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+    
+}
+
+usability-table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */
+
+
+
+
+
+
+
+
+
+
+
+
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
 .designthinking-php header{
     background: linear-gradient(90deg, #0083E0, #D100E0) no-repeat;
@@ -547,33 +669,8 @@ html, body {
 
 /* fonts */
 .designthinking-php h1 {  
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
     text-align: center;
     margin-top: 0.7em;
-}
-
-.designthinking-php .overskrifter-dt {  
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.designthinking-php .underoverskrift-dt {  
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.designthinking-php .bodytext-dt {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
 }
 
 /* List style */
@@ -582,7 +679,7 @@ html, body {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 1em;
 }
 
@@ -601,13 +698,8 @@ html, body {
 }
 
 
-.designthinking-php #steps-dt-hverdag li {
-    margin-top: 0.75em;
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
+.designthinking-php #steps-dt-hverdag {
+    margin-top: -0.75em;
 }
 
 .designthinking-php #steps-dt-hverdag li:nth-child(5) {
@@ -615,13 +707,8 @@ html, body {
 }
 
 
-.designthinking-php #brainstorm-steps li {
-    margin-top: 0.75em;
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
+.designthinking-php #brainstorm-steps {
+    margin-top: -0.75em;
 }
  
 
@@ -1124,21 +1211,21 @@ h1 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .body-text {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .kildeliste {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 1em;
 }
 
@@ -1146,21 +1233,21 @@ h1 {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .usability-table td {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .hvad-er-usability-php .hvorfor-liste {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 1em;
 }
 
@@ -2088,6 +2175,7 @@ h1 {
 }
 
 #brugertest-setups {
+    margin-top: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -2400,51 +2488,127 @@ h1 {
     }
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
 
-
     
     
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
-.designthinking-php #mitgrid-designthinking {
-        margin: 1em;
-    }
     
-.designthinking-php h1 {  
+    
+    
+    
+    
+    
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+.titel {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 48px;
-    text-align: center;
+    color: black;
 }
 
-.designthinking-php .overskrifter-dt {  
+.overskrift {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 34px;
+    font-size: 36px;
+    color: black;
 }
 
-.designthinking-php .underoverskrift-dt {  
+.underoverskift {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
+    font-size: 28px;
+    color: black;
 }
 
-.designthinking-php .bodytext-dt {
+.sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.body-text {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
     
-.designthinking-php .information-personlig {
-    list-style: none;
-    font-family: montserrat, sans-serif;
+.liste {
+    font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1.2em;
+    
 }
+    
+.liste li {
+    padding-top: 15px;
+}
+
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: dodgerblue;
+}
+
+.kilder {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+}
+
+.usability-table td {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+.usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+    
+}
+
+usability-table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */    
+      
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+.designthinking-php #mitgrid-designthinking {
+        margin: 3em;
+    }
+
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
@@ -2704,14 +2868,14 @@ h1 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 34px;
+    font-size: 36px;
 }
 
 .body-text {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .kildeliste {
@@ -2911,7 +3075,7 @@ h1 {
 }
 
 .sporgeskema-php #mitgrid-sporgeskema {
-    margin: 3em;
+    margin: 3.5em;
     display: grid;
     grid-row-gap: 25px;
     grid-template-columns: 1fr;
@@ -3474,56 +3638,138 @@ h1 {
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/    
 
     
-/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
-.designthinking-php #mitgrid-designthinking {
-        margin: 2em;
-    }
     
-.designthinking-php h1 {  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+.titel {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 60px;
-    text-align: center;
+    font-size: 48px;
+    color: black;
 }
 
-.designthinking-php .overskrifter-dt {  
+.overskrift {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 38px;
+    font-size: 36px;
+    color: black;
 }
 
-.designthinking-php .underoverskrift-dt {  
+.underoverskift {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
+    font-size: 28px;
+    color: black;
 }
 
-.designthinking-php .bodytext-dt {
+.sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.body-text {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-    
-.designthinking-php ul li,
-.designthinking-php ol li {
-       font-size: 18px; 
-}
-    
-.designthinking-php .kilder-dt li {
-    font-size: 18px;
-}
-    
-.designthinking-php .information-personlig {
-    list-style: none;
-    font-family: montserrat, sans-serif;
+
+.liste {
+    font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 1.2em;
+    
 }
+    
+.liste li {
+    padding-top: 15px;
+}
+
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: dodgerblue;
+}
+
+.kilder {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+}
+
+.usability-table td {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+.usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+    
+}
+
+usability-table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */    
+    
+    
+   
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+.designthinking-php #mitgrid-designthinking {
+        margin: 3.5em;
+    }
+
+    
+.designthinking-php .kilder-dt li {
+    font-size: 16px;
+    color: black;
+}
+
     
 /* IKONER */
     .designthinking-php #faserne-mobil,
@@ -3733,10 +3979,10 @@ h1 {
     
     .designthinking-php  h1 {
         margin-top: 1em;
-        font-size: 60px;
+        
     }
     
-/* GRID FOR HELE SIDEN DESKTOP */
+/* GRID FOR HELE S1200IDEN DESKTOP */
     .designthinking-php .hvaderdt {
         grid-area: hvaderdt-full;
     }
@@ -3797,7 +4043,7 @@ h1 {
         margin-top: 0em;
     }
     
-    
+ 
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
 
     
@@ -4793,7 +5039,129 @@ h1 {
  
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+.titel {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 58px;
+    color: black;
+}
+
+.overskrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    color: black;
+}
+
+.underoverskift {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    color: black;
+}
+
+.sub-skrift {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+}
+
+.body-text {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+.liste {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1.2em;
+    
+}
+    
+.liste li {
+    padding-top: 15px;
+}
+
+.pdf-link {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: dodgerblue;
+}
+
+.kilder {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+}
+
+.usability-table td {
+    font-family: lora, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    background-color: #A6BCFF;
+    vertical-align: middle;
+}
+.usability-table th {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: white;
+    background-color: #002E6E;
+    color: white;
+    vertical-align: middle;
+}
+
+.usability-table td,
+.usability-table th {
+    padding: 10px;
+    
+}
+
+usability-table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */     
+    
+    
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
+   .designthinking-php #mitgrid-designthinking {
+        margin: 7em;
+    }
+    
+    
     .designthinking-php .implement {
         display: grid;
         grid-column-gap: 20px;
@@ -5041,7 +5409,7 @@ h1 {
 .hvad-er-usability-php #mitgrid-hvaderusability {
     max-width: 100%;
     height: auto;
-    margin: 10em;
+    margin:7em;
     margin-top: 2em;
     margin-bottom: 2em;
     display: grid;
@@ -5065,7 +5433,7 @@ h1 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 52px;
+    font-size: 58px;
     margin-bottom: 1em;
 }
 
@@ -5248,7 +5616,7 @@ h1 {
 
 .gangstertest-php #mitgrid-gangstertest {
     display: grid;
-    margin: 8em;
+    margin: 7em;
     margin-top: 3em;
     margin-bottom: 3em;
     grid-row-gap: 25px;
@@ -5272,7 +5640,7 @@ h1 {
     
 }
     
-    .gangstertest-php .gangster-pointsystem {
+    .gangstertest-php #pointsystem-liste {
         border-right: 1px solid black;
         border-left: 1px solid black;
         padding-left: 20px;
@@ -5390,55 +5758,7 @@ h1 {
     }
 
 /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/   
- 
-    
-    
-/* STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER */
-
-/* Har indset nu at jeg kunne have sparet en masse tid og plads på min CSS ved at lave generelle stylings for alle sider som fonts og lister så det gøre jeg nu og arbejder videre med det her fra */
-
-/* FONTS */
-.overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
-}
-
-.underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.body-text {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-/* LIST STYLING */
-.liste {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.liste li {
-    padding-top: 20px;
-}
-
-.usability-table td,
-.usability-table th {
-    padding: 10px;
-}
-
-/* STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER STYLING GENERELT FOR ALLE SIDER */   
+  
 
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
     .dokumentation-ekspert ul {

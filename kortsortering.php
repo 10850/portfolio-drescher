@@ -7,11 +7,10 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
-    <!-- Karma fra google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Mit stylesheet -->
@@ -23,7 +22,7 @@
         </header>
             <div id="mitgrid-kort">
             
-                <h1>Kortsortering</h1>
+                <h1 class="titel">Kortsortering</h1>
 
                 <section class="hvad-er-kortsortering">
                     <h2 class="overskrift">Hvad er kortsortering?</h2>
@@ -178,7 +177,7 @@
                             </tr>
                         </table>
                         </div>
-                        <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Denne kortsortering kommer fre usability testmetoder rapporten</a>
+                        <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Denne kortsortering kommer fre usability testmetoder rapporten</a>
                     </section> <!-- opgaveskabelon -->
                     
                     <section class="resultater-kort">
@@ -228,7 +227,7 @@
                     </section>
                     
                     
-                    <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Hele rapporten med kortsorteringen kan findes i denne PDF</a>
+                    <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Hele rapporten med kortsorteringen kan findes i denne PDF</a>
                 </section> <!-- rapport -->
                 
                 
@@ -262,7 +261,7 @@
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
                         <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
                     </ul>
                 </section>
             </div>

@@ -7,11 +7,10 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
-    <!-- Karma fra google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Mit stylesheet -->
@@ -25,7 +24,7 @@
         <div id="mitgrid-sporgeskema">
             
             <div class="background-titel">
-            <h1>Spørgeskema</h1>
+            <h1 class="titel">Spørgeskema</h1>
             </div>
             
             <section class="hvad-er-sporgeskema">
@@ -39,7 +38,7 @@
                 
                 <h3 class="underoverskrift">Typiske emner i et analyserende spørgeskema:</h3>
                 
-                <ul class="typiske-emner-list">
+                <ul class="liste" class="typiske-emner-list">
                     <li>
                         Hvilke demografiske data kendetegner brugergruppen (Gregersen &#38; Wisler-Poulsen, 2017).
                     </li>
@@ -64,7 +63,7 @@
             
             <section class="typiske-emner-evaluate">
                 <h3 class="underoverskrift">Typiske emner til evaluerende spørgeskema:</h3>
-                <ul class="typiske-emner-list">
+                <ul class="liste" class="typiske-emner-list">
                     <li>
                         Hvad er brugerens holdning til generelle områder som sprogbrug, navigation og særlige features (Gregersen &#38; Wisler-Poulsen, 2017).
                     </li>
@@ -82,7 +81,7 @@
                 <p class="body-text">
                     For at en spørgeskemaundersøgelse er effektiv skal der tages hensyn til:
                 </p>
-                <ul class="design-sporgeskema">
+                <ul class="liste" class="design-sporgeskema">
                     <li>
                         Hvilket format man udfører det i. Det vil være effektivt at bruge en web-seurvey via internettet) (Gregersen &#38; Wisler-Poulsen, 2017).
                     </li>
@@ -103,7 +102,7 @@
             
             <section class="forberedelsen-sporgeskema">
                 <h3 class="underoverskrift">Forberedelsen</h3>
-                <ol class="forberedelse-list">
+                <ol class="liste" class="forberedelse-list">
                     <li>
                         Brainstorm: skriv ALLE de spørgsmål du kunne forstille der at stille til spørgeskemaet (Gregersen &#38; Wisler-Poulsen, 2017).
                     </li>
@@ -195,7 +194,7 @@
                             Et spørgeskema skal altid have en indledning som går over:
                         </p>
 
-                        <ul class="indledning-list">
+                        <ul class="liste" class="indledning-list">
                             <li>
                                 Hvad drejer spørgeskemaet sig om? (Gregersen &#38; Wisler-Poulsen, 2017).
                             </li>
@@ -227,7 +226,7 @@
                             God opbygning af et spørgeskema har:
                         </p>
 
-                        <ul class="opbygning-list">
+                        <ul class="liste" class="opbygning-list">
                             <li>
                                 Nemme spørgsmål som tager minimal overvejelse først. Som demografiske spørgsmål (Gregersen &#38; Wisler-Poulsen, 2017).
                             </li>
@@ -301,7 +300,7 @@
                             Det er en god ide er fremvise en belønning for deltagelse i undersøgelsen (Gregersen &#38; Wisler-Poulsen, 2017).
                         </p>
 
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 Det giver ekstra motivation til at deltage (ibid).
                             </li>
@@ -326,7 +325,7 @@
                     
                         <section class="kvantitativ-dok">
                             <h3 class="underoverskrift">Kvantitativ:</h3>
-                            <ul>
+                            <ul class="liste">
                                 <li>
                                     Diagrammer der fremstiller tallene (ibid). 
                                 </li>
@@ -347,7 +346,7 @@
 
                         <section class="kvalitativ-dok">
                             <h3 class="underoverskrift">Kvalitativ:</h3>
-                            <ul>
+                            <ul class="liste">
                                 <li>
                                     Dybdegående (ibid).
                                 </li>
@@ -359,7 +358,7 @@
 
                     <section class="dok-sporgeskema">
                         <h3 class="underoverskrift">Dokumentationen </h3>
-                         <ul>
+                         <ul class="liste">
                             <li>
                                 KISS: Keep it simple stupid (ibid).
                             </li>
@@ -406,7 +405,7 @@
                         Jeg fik også at se på førstehånd hvor meget man egentlig kan få ud af et enkelt spørgskema. Selv hvis det var lavet på omtrent 1 time. 
                     </p>
                     
-                    <a class="pdf-fil-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Klik her, hvis du gerne vil se resten af spørgeskemaet, og måske endda svar på det</a>
+                    <a class="pdf-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Klik her, hvis du gerne vil se resten af spørgeskemaet, og måske endda svar på det</a>
                 </section>
             
             
@@ -414,7 +413,7 @@
                 <h2 class="overskrift">Kilder</h2>
                 <ul class="kildeliste">
                     <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Spørgeskema. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 50-64.</li>
-                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 22. september: <a class="pdf-fil-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Corona på Dania Skive</a></li>
+                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 22. september: <a class="pdf-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Corona på Dania Skive</a></li>
                 </ul>
             </section>
         </div>
