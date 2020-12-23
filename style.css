@@ -248,6 +248,42 @@ html, body {
 
 
 
+/* UNDERMENU TIL MOBIL */
+.main-button {
+    text-align: center;
+}
+
+.main-button .btn {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.card-body button {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.card-body {
+    border: none;
+    outline: none;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.options-list li {
+    margin-right: 1em;
+}
+
+.card-body button {
+    margin: 8px;
+}
+
+/* UNDERMENU TIL MOBIL */
+
+
 
 
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/ 
@@ -1866,11 +1902,6 @@ footer {
     vertical-align: middle;
 }
 /* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
-
-
-
-
-
 
 
 

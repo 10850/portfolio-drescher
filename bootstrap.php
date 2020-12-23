@@ -20,6 +20,11 @@
         <header>
             <?php include 'menu.inc' ?>
         </header>
+        
+        
+        
+                
+                
             <div id="mitgrid-bootstrap">
                 <h1 class="titel">Bootstrap</h1>
                 
