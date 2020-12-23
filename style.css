@@ -528,7 +528,7 @@ html, body {
     color: black;
 }
 
-.underoverskift {
+.underoverskrift {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -538,7 +538,7 @@ html, body {
 
 .sub-skrift {
     font-family: montserrat, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 18px;
     color: black;
@@ -1628,13 +1628,6 @@ footer {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
-.kortsortering-php .sub-skrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 14px;
-}
-
 .kortsortering-php h1 {
     text-align: center;
 }
@@ -1665,13 +1658,7 @@ footer {
     padding-top: 15px;
 }
 
-.kortsortering-php .kilder li {
-    padding-top: 10px;
-    font-size: 14px;
-}
-
-.kortsortering-php .kilder a {
-    font-size: 14px;
+ font-size: 14px;
 }
 
 .kortsortering-php .dok-kort ul {
@@ -1680,10 +1667,6 @@ footer {
 
 .kortsortering-php .resultater-kort h4 {
     margin-bottom: -8px;
-}
-
-.liste {
-    font-size: 14px;
 }
 
 /* GRID */
@@ -2691,12 +2674,7 @@ usability-table {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
-.kortsortering-php .sub-skrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-}
+
 
 .kortsortering-php h1 {
     text-align: center;
@@ -2712,42 +2690,24 @@ usability-table {
     max-width: 100%;
 }
 
-/* LISTER */
-.kortsortering-php .liste li {
-    padding-bottom: 10px;
-}
+
+
 
 
 /* padding */
 .kortsortering-php .aben-test-kort .liste,
 .kortsortering-php .lukket-test-kort .liste {
-    margin-top: -25px;
+    margin-top: -5px;
 }
 
 .kortsortering-php .testmetoder-table {
     margin-top: 20px;
 } 
 
-.kortsortering-php .resultater-kort h3:nth-child(5) {
-        margin-top: 20px;
-        margin-bottom: -20px;
- }
-    
-.kortsortering-php .tre-overvejelser-intro h2 {
-    margin-bottom: -20px;
-}
-
-.kortsortering-php .kilder li {
-    padding-top: 10px;
-    font-size: 16px;
-}
-
-.kortsortering-php .kilder a {
-    font-size: 16px;
-}
 
 .kortsortering-php .dok-kort ul {
-    margin-bottom: -10px;
+    margin-bottom: 0px;
+    margin-top: 0;
 }
 
 .kortsortering-php .resultater-kort h4 {
@@ -2801,7 +2761,7 @@ usability-table {
 }
 
 .kortsortering-php #mitgrid-kort {
-    margin: 2em;
+    margin: 3.5em;
     grid-row-gap: 25px;
     display: grid;
     grid-template-columns: 1fr;
@@ -3961,17 +3921,6 @@ usability-table {
     
 
 /* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP START */
-.kortsortering-php header,
-.kortsortering-php footer {
-    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
-}
-
-.kortsortering-php .sub-skrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-}
 
 .kortsortering-php h1 {
     text-align: center;
@@ -3996,41 +3945,15 @@ usability-table {
 /* padding */
 .kortsortering-php .aben-test-kort .liste,
 .kortsortering-php .lukket-test-kort .liste {
-    margin-top: -25px;
+    margin-top: 0px;
 }
 
 .kortsortering-php .testmetoder-table {
     margin-top: 20px;
 } 
-
-.kortsortering-php .resultater-kort h3:nth-child(5) {
-        margin-top: 20px;
-        margin-bottom: -20px;
- }
     
 .kortsortering-php .tre-overvejelser-intro h2 {
     margin-bottom: -20px;
-}
-
-.kortsortering-php .kilder li {
-    padding-top: 10px;
-    font-size: 16px;
-}
-
-.kortsortering-php .kilder a {
-    font-size: 16px;
-}
-
-.kortsortering-php .dok-kort ul {
-    margin-bottom: -10px;
-}
-
-.kortsortering-php .resultater-kort h4 {
-    margin-bottom: -8px;
-}
-
-.liste {
-    font-size: 16px;
 }
 
 /* GRID */
@@ -4076,7 +3999,7 @@ usability-table {
 }
 
 .kortsortering-php #mitgrid-kort {
-    margin: 3em;
+    margin: 3.5em;
     grid-row-gap: 25px;
     display: grid;
     grid-template-columns: 1fr;
@@ -4957,13 +4880,6 @@ usability-table {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
-.kortsortering-php .sub-skrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-}
-
 .kortsortering-php h1 {
     text-align: center;
 }
@@ -4978,56 +4894,10 @@ usability-table {
     max-width: 100%;
 }
 
-/* LISTER */
-.kortsortering-php .liste li {
-    padding-bottom: 10px;
-}
-
-
-/* padding */
-.kortsortering-php .aben-test-kort .liste,
-.kortsortering-php .lukket-test-kort .liste {
-    margin-top: -25px;
-}
-
-.kortsortering-php .testmetoder-table {
-    margin-top: 20px;
-} 
-
-.kortsortering-php .resultater-kort h3:nth-child(5) {
-        margin-top: 20px;
-        margin-bottom: -20px;
- }
-    
-.kortsortering-php .tre-overvejelser-intro h2 {
-    margin-bottom: -20px;
-}
-
-.kortsortering-php .kilder li {
-    padding-top: 10px;
-    font-size: 18px;
-}
-
-.kortsortering-php a {
-       font-size: 22px;
-        margin-top: 5px;
-} 
-
-.kortsortering-php .kilder a {
-    font-size: 18px;
-}
-
-.kortsortering-php .dok-kort ul {
-    margin-bottom: -10px;
-}
-
 .kortsortering-php .resultater-kort h4 {
-    margin-bottom: -8px;
+    margin-bottom: 0px;
 }
 
-.liste {
-    font-size: 18px;
-}
 
 /* GRID */
 .kortsortering-php h1 {
@@ -5072,7 +4942,7 @@ usability-table {
 }
 
 .kortsortering-php #mitgrid-kort {
-    margin: 10em;
+    margin: 7em;
     margin-top: 3em;
     margin-bottom: 3em;
     grid-row-gap: 25px;
@@ -5094,7 +4964,7 @@ usability-table {
 /* GRID BILLEDER */
 .kortsortering-php #rundte1-img {
         grid-area: rundte1;
-        margin-left: -9em;
+        margin-left: -7em;
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -5102,7 +4972,7 @@ usability-table {
     
 .kortsortering-php #rundte2-img {
         grid-area: rundte2;
-        margin-right: -9em;
+        margin-right: -7em;
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -5140,7 +5010,7 @@ usability-table {
     
 /* background image */
     .kortsortering-php .usability-table {
-        max-width: 76%;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
     }    
@@ -5150,8 +5020,8 @@ usability-table {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: -10em;
-    margin-right: -10em;
+    margin-left: -7em;
+    margin-right: -7em;
     
     }
 
