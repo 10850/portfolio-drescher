@@ -993,35 +993,6 @@ footer {
 }
 
 /* fonts */
-.foto-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
-}
-
-.foto-php .overskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.foto-php .body-text-foto {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.foto-php .kilder-foto ul li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
-}
-
 .foto-php .body-text-fig {
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -1030,39 +1001,25 @@ footer {
     font-size: 16px;
 }
 
-.foto-php .underoverskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-    text-align: left;
-}
-
-.foto-php .exposure-parameter-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
+.foto-php .liste {
+    margin-top: -1.5em;
     margin-bottom: 10px;
 }
 
-.foto-php .underoverskrift-foto-primary {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    font-size: 20px;
+.foto-php .body-text {
+    padding-top: 0;
 }
 
-
+.foto-php .underoverskrift {
+    margin-top: 25px;
+}
 /* LAYOUT */
 .foto-php #mitgrid-foto {
     margin: 0.8em;
 }
 
 .foto-php .kilder-foto ul {
-    margin-left: 1em;
+    margin-left: 1.2em;
 }
 
 .foto-php .kilder-foto ul li a {
@@ -1092,15 +1049,6 @@ footer {
 .foto-php .underoverskrift-foto {
     margin-top: 20px;
 }
-
-.foto-php .body-text-foto {
-    margin-top: 10px;
-}
-
-.foto-php .exposure .underoverskrift-foto-primary {
-    margin-top: 15px;
-}
-
 
 /* GRID */
 .foto-php h1 {
@@ -2639,39 +2587,10 @@ usability-table {
   
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
-    margin: 1.2em;
+    margin: 3em;
 }
     
 /* fonts */
-.foto-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48px;
-}
-
-.foto-php .overskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 34px;
-}
-
-.foto-php .body-text-foto {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.foto-php .kilder-foto ul li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-}
-
 .foto-php .body-text-fig {
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -2680,30 +2599,60 @@ usability-table {
     font-size: 18px;
 }
 
-.foto-php .underoverskrift-foto {
+/* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */
+/* farver */
+.foto-php header {
+    background: linear-gradient(180deg, #ED980C, #F75F0C 50%) no-repeat;
+}
+
+.foto-php footer {
+    background: linear-gradient(180deg, #ED980C, #F75F0C 50%) no-repeat;
+}
+
+.foto-php .card {
+    max-width: 100%;
+}
+
+/* fonts */
+.foto-php .body-text-fig {
+    text-align: center;
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
-    text-align: left;
+    font-size: 16px;
 }
 
-.foto-php .exposure-parameter-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
+.foto-php .liste {
+    margin-top: -1.5em;
     margin-bottom: 10px;
 }
 
-.foto-php .underoverskrift-foto-primary {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    font-size: 24px;
-} 
+.foto-php .body-text {
+    padding-top: 0;
+}
+
+.foto-php .underoverskrift {
+    margin-top: 25px;
+}
+
+.foto-php .card {
+    border: 3px solid black;
+    border-radius: 0px;
+    max-width: 320px;
+    margin: 0.5em;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+}
+
+
+.foto-php .card {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
     
 /* FLEXBOX */
 .foto-php .exposure-triangle {
@@ -4074,39 +4023,10 @@ usability-table {
     
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
-    margin: 2em;
+    margin: 3.5em;
 }
     
 /* fonts */
-.foto-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
-}
-
-.foto-php .overskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-}
-
-.foto-php .body-text-foto {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.foto-php .kilder-foto ul li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-}
-
 .foto-php .body-text-fig {
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -4115,30 +4035,6 @@ usability-table {
     font-size: 18px;
 }
 
-.foto-php .underoverskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 26px;
-    text-align: left;
-}
-
-.foto-php .exposure-parameter-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-    margin-bottom: 10px;
-}
-
-.foto-php .underoverskrift-foto-primary {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    font-size: 26px;
-} 
     
 /* FLEXBOX */
 .foto-php .exposure-triangle {
@@ -5118,39 +5014,10 @@ usability-table {
     
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
-    margin: 6em;
+    margin: 7em;
 }
     
 /* fonts */
-.foto-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
-}
-
-.foto-php .overskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-}
-
-.foto-php .body-text-foto {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.foto-php .kilder-foto ul li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-}
-
 .foto-php .body-text-fig {
     text-align: center;
     font-family: montserrat, sans-serif;
@@ -5159,30 +5026,6 @@ usability-table {
     font-size: 18px;
 }
 
-.foto-php .underoverskrift-foto {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 26px;
-    text-align: left;
-}
-
-.foto-php .exposure-parameter-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    margin-left: 1em;
-    margin-bottom: 10px;
-}
-
-.foto-php .underoverskrift-foto-primary {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    font-size: 26px;
-} 
     
 /* FLEXBOX */
 .foto-php .exposure-triangle {
@@ -5250,8 +5093,8 @@ usability-table {
         background-image: url(foto/background-image-foto1.png);
         background-repeat: no-repeat;
         background-size: contain;
-        margin-right: -6em;
-        margin-left: -6em;
+        margin-right: -7em;
+        margin-left: -7em;
         
     }
     
@@ -5260,8 +5103,8 @@ usability-table {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center 100%;
-        margin-right: -6em;
-        margin-left: -6em;
+        margin-right: -7em;
+        margin-left: -7em;
     }
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP END */ 
 

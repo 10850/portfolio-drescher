@@ -80,7 +80,7 @@
                         Efter at have taget disse billeder hvor jeg beholdt to parameter konstante og ændret på en, og gjorde det tre gange. Kunne jeg se at hver parameter ændret eksponering af billedet:
                     </p>
                     
-                    <ul class="exposure-parameter-list">
+                    <ul class="liste">
                         <li>Jo større ISO'en er, desto lysere bliver billedet</li>
                         <li>Jo mindre lukketiden er, desto lysere bliver billedet</li>
                         <li>Jo større blænden er, desto mørkere bliver billedet </li>
@@ -89,7 +89,7 @@
                 
                 <section class="exposure-luk-iso">
                     
-                    <h3 class="underoverskrift-primary">Lukketid i samspil med ISO</h3>
+                    <h3 class="underoverskrift">Lukketid i samspil med ISO</h3>
                     
                     <div class="background-image2">
                         <section class="img-luk-iso">
@@ -146,7 +146,7 @@
                     
                 <section class="exposure-luk-blande">
                     
-                    <h3 class="underoverskrift-primary">Lukketid i samspil med blænderen</h3>
+                    <h3 class="underoverskrift">Lukketid i samspil med blænderen</h3>
                 
                     <div class="background-image1">
                         <section class="img-luk-blande">
