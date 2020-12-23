@@ -1543,36 +1543,31 @@ footer {
     max-width: 100%;
 }
 
+.ekspertvudering .usability-table th {
+    font-size: 14px;
+}
+
 .ekspertvudering h1 {
     text-align: center;
     grid-area: titel;
-    margin-bottom: -25px;
+
 }
 
-.ekspertvudering .padding-link {
-    padding-top: 20px;
+.ekspertvudering .pdf-link-p {
+    padding-top: 5px;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 14px;
-    font-weight: 500;
 }
 
-.ekspertvudering .pdf-fil-link {
-    font-size: 12px;
-}
-
-.ekspertvudering #liste1 {
-    padding-top: 10px;
-}
 
 .usability-table {
-    max-width: 96%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.usability-table td,
-.usability-table th {
-    font-size: 12px;
-}
 
 .ekspertvudering .hvad-er-ekspert {
     grid-area: hvader;
@@ -1609,7 +1604,7 @@ footer {
 .ekspertvudering #mitgrid-ekspert {
     margin: 0.8em;
     display: grid;
-    grid-row-gap: 35px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
@@ -2664,19 +2659,14 @@ usability-table {
 
     
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
-.ekspertvudering .padding-link {
+.ekspertvudering .pdf-link-p {
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
 }
 
-.ekspertvudering .pdf-fil-link {
-    font-size: 14px;
-}
-
-
 .usability-table {
-    max-width: 96%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -2688,7 +2678,7 @@ usability-table {
 
 
 .ekspertvudering #mitgrid-ekspert {
-    margin: 2em;
+    margin: 3.5em;
 
 }
 
@@ -3877,7 +3867,7 @@ usability-table {
 
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
     .dokumentation-ekspert ul {
-        margin-top: -1em;
+        margin-top: -0.2em;
     }
     
     .dokumentation-ekspert h3 {
@@ -3885,12 +3875,10 @@ usability-table {
     }
     
     .interaktionsdesign-ekspert ul {
-        margin-top: -1em;
+        margin-top: -0.5em;
     }
     
-    .ekspertvudering .kilder li {
-        padding-top: 10px;
-    }
+
 
     
 .ekspertvudering .systemstatus, 
@@ -3912,12 +3900,11 @@ usability-table {
 .ekspertvudering h1 {
     text-align: center;
     grid-area: titel;
-    margin-bottom: -25px;
 }
 
-.ekspertvudering .padding-link {
+.ekspertvudering .pdf-link-p {
     padding-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -3926,7 +3913,8 @@ usability-table {
 }
 
 .ekspertvudering #liste1 {
-    padding-top: 10px;
+    padding-top: 0px;
+    margin-top: 0;
 }
 
 .usability-table {
@@ -3942,7 +3930,7 @@ usability-table {
 }
 
 .ekspertvudering #mitgrid-ekspert {
-    margin: 4em;
+    margin: 3.5em;
     display: grid;
     grid-row-gap: 35px;
     grid-template-columns: 1fr;
@@ -3963,8 +3951,8 @@ usability-table {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: -4em;
-    margin-right: -4em;
+    margin-left: -3.5em;
+    margin-right: -3.5em;
     
 }
 
@@ -4877,7 +4865,7 @@ usability-table {
 
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP START */
     .dokumentation-ekspert ul {
-        margin-top: -1em;
+        margin-top: -0.7em;
     }
     
     .dokumentation-ekspert h3 {
@@ -4885,13 +4873,9 @@ usability-table {
     }
     
     .interaktionsdesign-ekspert ul {
-        margin-top: -1em;
+        margin-top: -0.5em;
     }
     
-    .ekspertvudering .kilder li {
-        padding-top: 15px;
-        font-size: 18px;
-    }
 
     
 .ekspertvudering .systemstatus, 
@@ -4913,21 +4897,12 @@ usability-table {
 .ekspertvudering h1 {
     text-align: center;
     grid-area: titel;
-    margin-bottom: -25px;
 }
 
-.ekspertvudering .padding-link {
+.ekspertvudering .pdf-link-p {
     padding-top: 20px;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.ekspertvudering .pdf-fil-link {
     font-size: 16px;
-}
-
-.ekspertvudering #liste1 {
-    padding-top: 10px;
+    font-weight: 500;
 }
 
 .usability-table {
@@ -4945,7 +4920,7 @@ usability-table {
 .ekspertvudering #mitgrid-ekspert {
     margin: 7em;
     display: grid;
-    grid-row-gap: 35px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
@@ -4973,12 +4948,6 @@ usability-table {
     .ekspertvudering h1 {
         margin-top: -1em;
     }  
-    
-    .ekspertvudering {
-        color: white;
-        background: #5888FF;
-    }
-
 /* EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP EKSPERTVUDERING.PHP END */ 
     
 

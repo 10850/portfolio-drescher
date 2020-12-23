@@ -265,7 +265,7 @@
                     </p>
                 </section>
                 
-                <p class="padding-link">Hvis du vil se hele rapporten, <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">så kan hele rapporten ses på en PDF-fil, hvis du vil se mere</a></p>
+                <p class="pdf-link-p">Hvis du vil se hele rapporten, <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">så kan hele rapporten ses på en PDF-fil, hvis du vil se mere</a></p>
             </section> <!-- ekspertvudering rapport -->
             
             
@@ -295,7 +295,7 @@
                     </li>
                 </ul>
                 
-                <p class="padding-link">Hvis du gerne vil se et eksempel på dokumentation for ekspertvuderingen, <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">kan du tjekke ud min usability testmetoder rapport</a></p>
+                <p class="pdf-link-p">Hvis du gerne vil se et eksempel på dokumentation for ekspertvuderingen, <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">kan du tjekke ud min usability testmetoder rapport</a></p>
             </section> <!-- dokumentation -->
             
             
