@@ -823,60 +823,25 @@ footer {
 
 
 /* FONTS MOBIL */
-.video-php .video-overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.video-php .video-underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.video-php .video-bodytext {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
 .video-php blockquote {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px; 
+    font-size: 14px; 
 }
 
 .video-php h4 {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 16px;
-}
-
-.video-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
-}
-
-.video-php .storyboard-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .video-php .video-kilde-liste {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .video-php .video-kilder h2 {
@@ -1001,8 +966,11 @@ footer {
     margin-top: 10px;
 }
 
-.video-php .video-kilder ul,
-.video-php .storyboard-list {
+#storyboard-list {
+    margin-top: -2em;
+}
+
+.video-php .video-kilder ul {
     margin-left: 2em;
 }
 
@@ -2616,27 +2584,6 @@ usability-table {
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */
 /* FONTS Tablet */
-.video-php .video-overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 34px;
-}
-
-.video-php .video-underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-}
-
-.video-php .video-bodytext {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
 .video-php blockquote {
     font-family: lora, serif;
     font-weight: 400;
@@ -2652,32 +2599,7 @@ usability-table {
 }
 
 .video-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 48px;
-}
-
-.video-php .storyboard-list li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-
-.video-php .video-kilde-liste li {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
-  
-.designthinking-php #steps-dt-hverdag li {
-    font-size: 18px;
-}
-
-.designthinking-php #brainstorm-steps li {
-    font-size: 18px; 
+    text-align: center;
 }
 
 .video-php .video-kilder {
@@ -4050,32 +3972,12 @@ usability-table {
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */
 /* FONTS Tablet */
-.video-php .video-overskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 38px;
-}
-
-.video-php .video-underoverskrift {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 26px;
-}
-
-.video-php .video-bodytext {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
 
 .video-php blockquote {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px; 
+    font-size: 15px; 
 }
 
 .video-php h4 {
@@ -4085,26 +3987,8 @@ usability-table {
     font-size: 18px;
 }
 
-.video-php h1 {
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
-}
 
-.video-php .storyboard-list {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
 
-.video-php .video-kilde-liste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
     
 .video-php .video-kilder {
     margin-bottom: 40px;
@@ -4134,7 +4018,7 @@ usability-table {
 }
 
 .video-php #mitgrid-video {
-    margin: 1.5em;
+    margin: 2em;
 }
     
 /* GRID DESKTOP */
@@ -4172,7 +4056,7 @@ usability-table {
     grid-row-gap: 25px;
     grid-column-gap: 10px;
     grid-template-columns: 3fr 3fr;
-    grid-template-rows: 0fr 0.1fr 0.1fr 0.73fr 0.1fr 0.1fr;
+    grid-template-rows: 0fr 0.1fr 0.1fr 0.86fr 0.1fr 0.1fr;
     grid-template-areas: 
         "titel titel"
         "post-production post-production"
@@ -5183,7 +5067,7 @@ usability-table {
     grid-row-gap: 25px;
     grid-column-gap: 20px;
     grid-template-columns: 3fr 3fr;
-    grid-template-rows: 0fr 0.2fr 0.1fr 0.52fr 0.1fr 0.1fr;
+    grid-template-rows: 0fr 0.2fr 0.1fr 0.76fr 0.1fr 0.1fr;
     grid-template-areas: 
         "titel titel"
         "post-production post-production"
@@ -5192,6 +5076,10 @@ usability-table {
         "production premiere-rush"
         "video-kilder video-kilder";
 }
+    
+    .titel {
+        text-align: center;
+    }
 
     .video-php iframe {
         height: 720px;
@@ -5218,6 +5106,11 @@ usability-table {
         
         
     }
+    
+    #storyboard-list {
+    margin-top: 0em;
+}
+    
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */        
 
