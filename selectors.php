@@ -71,7 +71,122 @@
                 </section>
         
                 <section id="selectors-css">
+                    <section id="selectors-css-intro">
+                        <h3 class="underoverskrift">Selectors</h3>
+                        <p class="body-text">
+                            I CSS findes der Selectors, pseudo selectors og strukturelle selectors (W3schools, 2020). Indenfor Selectors er der tre primære selectorer (ibid):
+                        </p>
+                    </section>
+                    
+                    <section id="selector-tags">
+                        <h3 class="underoverskrift">Type/Element selector:</h3>
+                        <p class="body-text">
+                            Dette er almindelige HTML tags som p, h1, body osv. (W3schools, 2020).
+                        </p>
+                    </section>
+                    
+                    <section id="selector-id">
+                        <h3 class="underoverskrift">ID selector:</h3>
+                        <p class="body-text">
+                            Bruges når det er et helt specifikt element vi vil style, dvs. man ikke kan have 2 af samme id (W3schools, 2020). 
+                        </p>
+                        <p class="body-text">
+                            Denne form for selector er mulig via en id-attribut man give sit HTML element i HTML’en (ibid). 
+                        </p>
+                        <p class="body-text">
+                            Bruges når et tag er mærket op med et id-attribut (&#60;section&#62; id=”selectors”>&#60;/section&#62;) (ibid).
+                        </p>
+                        <p class="body-text">
+                            For at bruge denne selector skal man starte med et ”#” (#selectors {…}) (ibid). 
+                        </p>
+                    </section>
+                    
+                    <section id="selector-class">
+                        <h3 class="underoverskrift">Class selector:</h3>
+                        <p class="body-text">
+                            Denne form for selector er mulig via en class-attribut man giver sit HTML element i HTML’en (W3schools, 2020).
+                        </p>
+                        <p class="body-text">
+                            Bruges når man vil ramme flere elementer på en gang og styles ens (ibid).
+                        </p>
+                        <p class="body-text">
+                            Bruges når tags er mærket med en class (&#60;section&#62; class=”selectors”>&#60;/section&#62;) (ibid).
+                        </p>
+                        <p class="body-text">
+                            For at bruge denne selector skal man starte med et ”.” (.selectors{…}) (ibid).
+                        </p>
+                    </section>
+                    
+                    <section id="selector-struktur">
+                        <h3 class="underoverskrift">Strukturelle selectors:</h3>
+                        <p class="body-text">
+                            Disse er også kaldt Combinator operators, og bruges til at vælge specifikke elementer inde i andre elementer, eksempelvis (W3schools, 2020):
+                        </p>
+                        <p class="body-text">
+                            Nav a { color: yellow; } denne regel siger at anchor tags der ligger indenfor en &#60;nav&#62; vil være gule.
+                        </p>
+                        <p class="body-text">
+                            Dvs. at for at man kan vælge en efterkommer af et andet element skal forældre elementet, som her var ”nav”, have en eller flere børn som er et anchor tag &#60;a&#62; (ibid).
+                        </p>
+                    </section>
+                </section>
                 
+                <section id="psuedo-selector">
+                    <section id="psuedo-selector-intro">
+                    
+                    </section>
+                    
+                    <section id="psuedo-selector-table">
+                        <table class="usability-table">
+                            <tr>
+                                <th>Selector</th>
+                                <th>Eksempel</th>
+                                <th>Beskrivelse</th>
+                            </tr>
+
+                            <tr>
+                                <td>:active</td>
+                                <td>a:active (W3schools, 2020).</td>
+                                <td>Vælger det aktive link (W3schools, 2020).</td>
+                            </tr>
+
+                            <tr>
+                                <td>:first-child</td>
+                                <td>p:first-child (ibid).</td>
+                                <td>Vælge det første barn element i en parent (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>:focus</td>
+                                <td>input:focus (ibid).</td>
+                                <td>Vælger det element som der er fokus på (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>:hover</td>
+                                <td>a:hover (ibid).</td>
+                                <td>Vælger det element musen er over (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>:link</td>
+                                <td>a:link (ibid).</td>
+                                <td>Vælge links der ikke er besøgte (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>:nth-child(n)</td>
+                                <td>p:nth-child(2) (ibid).</td>
+                                <td>Vælger det barn man specificerer ved nummer (ibid).</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>:visited</td>
+                                <td>a:visited (ibid).</td>
+                                <td>Vælger besøgte links (ibid).</td>
+                            </tr>
+                        </table>
+                    </section>
                 </section>
         
         

@@ -114,8 +114,111 @@
                         </table>
                     </section>
                 </section>
+                
+                <section id="shadow-css">
+                    <section id="shadow-intro">
+                        <h2 class="overskrift">Shadow</h2>
+                        <p class="body-text">
+                            Shadow er en Property som bruges til box og tekst (W3schools, 2020).
+                        </p>
+                    </section>
+                
+                    <section id="shadowbox-table">
+                        <table class="usability-table" id="box-shadow-table-change">
+                            <tr>
+                                <th>Value</th>
+                                <th>Beskrivelse</th>
+                            </tr>
+
+                            <tr>
+                                <td>none</td>
+                                <td>Betyder der ikke vises en skygge. (Standard tilstand) (W3schools, 2020).</td>
+                            </tr>
+
+                            <tr>
+                                <td>h-offset</td>
+                                <td>Skal skrives. Definere offsettet af skyggen på den horisontale plan. Positiv værdi putter skyggen til højre. Negativ værdi putter den til venstre (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>v-offset</td>
+                                <td>Skal skrives. Definere offsettet af skyggen på den vertikale plan. Positiv værdi putter skyggen under boksen. Negativ værdi putter den over boksen (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>blur</td>
+                                <td>Definer radius på skyggens blur. Jo større værdi desto mere blur (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>spread</td>
+                                <td>Definere hvor stor radius skyggens spreder sig med. Jo større værdi, desto større spread (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>color</td>
+                                <td>Definer farven på skyggen (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Inset</td>
+                                <td>Ændre skyggen fra sin standarde tilstand, som en outer shadow til at den bliver en inner shadow (ibid).</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Initial </td>
+                                <td>Sætter property’en til sin default value (ibid).</td>
+                            </tr>
+                        </table>
+                    </section>
+                    
+                    <section id="shadowtext-table">
+                        <h3 class="underoverskrift">Text-shadow</h3>
+                        <table class="usability-table" >
+                            <tr>
+                                <th>Value</th>
+                                <th>Beskrivelse</th>
+                            </tr>
+
+                            <tr>
+                                <td>h-shadow</td>
+                                <td>Denne skal skrives og definere skyggens position horisontalt (W3schools, 2020).</td>
+                            </tr>
+
+                            <tr>
+                                <td>v-shadow</td>
+                                <td>Denne skal skrives og definere skyggens position vertikalt (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Blur-radius</td>
+                                <td>Definere hvor stor radiussen for en blur er. Som standard er den på 0 (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>color</td>
+                                <td>Definere farven på skyggen (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>none</td>
+                                <td>Standard value. Betyder der er ingen skygge(ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>initial</td>
+                                <td>Sætter property’en til sin default value (ibid).</td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
+                
+                
+                
         
-        
+                <section id="border-shadow-text-prakis">
+                
+                </section>
         
         
                 <section class="kilder">

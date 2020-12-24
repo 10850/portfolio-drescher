@@ -65,7 +65,23 @@
                     </section>
                 </section>
         
-        
+                <section id="list-style-image">
+                    <h2 class="overskrift">Soft Bites List-style-image</h2>
+                    <p class="body-text">
+                        I one page projektet brugte jeg List-style-image til at lave prikkerne i en liste om til hundepoter, ved at bruge list-style-image og linket det til en billed-fil af en hundepote.
+                    </p>
+                    
+                    <figure>
+                        <h4 class="sub-skrift">List-style-image koden</h4>
+                        <img src="kodning/css/list/list-style-image-kode.jpg" id="list-style-image-kode">
+                    </figure>
+                    
+                    <figure>
+                        <h4 class="sub-skrift">List-style-image på Soft Bites</h4>
+                        <img src="kodning/css/list/list-style-image.jpg" id="list-style-image-screen">
+                        <a href="http://10850.web.eadania.dk/softbites2/index.html">Siden med listen kan ses på Soft Bites one page</a>
+                    </figure>
+                </section>
         
         
                 <section class="kilder">

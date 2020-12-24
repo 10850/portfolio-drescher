@@ -74,7 +74,98 @@
                     
                     </table>
                 </section>
-        
+                
+                <section id="radial-image">
+                    <section id="radial-image-intro">
+                        <h2 class="overskrift">Background-image + Radial gradient</h2>
+                        <p class="body-text">
+                            Ved hjælp af LinkedIn learning lærte jeg hvordan man kan kombinere linear gradient og et background-image til at laver en fed visuel illustration. <a href="http://10850.apache.eadania.dk/workshop/kombination/kombination.html">Og jeg har lavet en siden om Background property'en i CSS hvor man kan se mere om backgrounds på CSS.</a> 
+                        </p>
+                    </section>
+                    
+                    <section id="radial-image-steps">
+                        <section id="radial-image-steps1">
+                            <h4 class="sub-skrift">Step 1</h4>
+                            <p class="body-text">
+                                Vi starter denne her gang med at lave et radial gradient ved brug af RGBA sammen med Background: radial-gradient() i CSS (Rijna & Lank, 2020).
+                            </p>
+                        </section>
+
+                        <section id="radial-image-steps2">
+                            <h4 class="sub-skrift">Step 2</h4>
+                            <p class="body-text">
+                                Efterfølgende putter vi en radial gradient på og den putter vi foran vores url() value (ibid).
+                            </p>
+                        </section>
+
+                        <section id="radial-image-steps3">
+                            <h4 class="sub-skrift">Step 3</h4>
+                            <p class="body-text">
+                                Derefter skal man sørger for at billedet ikke repeater ved brug af no-repeat eftter url() valuen, uden komma. Og selv hvis det ikke er nødvendigt (fordi ens billed er stort nok), så er det en god ting at gøre, både af god skikke og for at man har tjekket den boks af (ibid).
+                            </p>
+                        </section>
+
+                        <section id="radial-image-steps4">
+                            <h4 class="sub-skrift">Step 4</h4>
+                            <p class="body-text">
+                                Så definere vi hvilken position billedet skal have ved brug af positionsvaluene og i dette eksempel bruger vi bottom right, som vi skriver efter no-repeat uden komma imellem (ibid).
+                            </p>
+                        </section>
+                        
+                        <section id="radial-image-steps5">
+                            <h4 class="sub-skrift">Step 5</h4>
+                            <p class="body-text">
+                                Til sidst definere vi størrelsen af billedet ved brug af procenttal og den skal altid lægge efter positionsvaluen med en slash imellem de to for at CSS kan registere det (ibid).
+                            </p>
+                        </section>
+                    </section>
+                </section>
+                
+                <section id="linear-image">
+                    <section id="linear-image-intro">
+                        <h2 class="overskrift">Background-image + Linear gradient</h2>
+                        <p class="body-text">
+                            Udover background-image kombineret med linear gradient, lærte jeg også ved hjælp af LinkedIn learning  hvordan man kan kombinere radial gradient og et background-image til at lave en fed visuel illustration. <a href="http://10850.apache.eadania.dk/workshop/kombination/kombination.html">Og jeg har lavet en siden om Background property'en i CSS hvor man kan se mere om backgrounds på CSS.</a> 
+                        </p>
+                    </section>
+                    
+                    <section id="linear-image-steps">
+                        <section id="linear-image-steps1">
+                            <h4 class="sub-skrift">Step 1</h4>
+                            <p class="body-text">
+                                Først skal vi sætte billedet ind ved hjælp af Background-image: url(); (Rijna & Lank, 2020).
+                            </p>
+                        </section>
+
+                        <section id="linear-image-steps2">
+                            <h4 class="sub-skrift">Step 2</h4>
+                            <p class="body-text">
+                                Efterfølgende skal man sørger for at billedet ikke repeater ved brug af Background-repeat: no-repeat; Og selv hvis det ikke er nødvendigt (fordi ens billed er stort nok), så er det en god ting at gøre, både af god skikke og for at man har tjekket den boks af (ibid).
+                            </p>
+                        </section>
+
+                        <section id="linear-image-steps3">
+                            <h4 class="sub-skrift">Step 3</h4>
+                            <p class="body-text">
+                                Så definere positionen af billedet, da positionen altid skal komme før størrelsen, og i dette eksempel putter vi den til at være bottom, ved hjælp af Background-position: Bottom; (ibid).
+                            </p>
+                        </section>
+
+                        <section id="linear-image-steps4">
+                            <h4 class="sub-skrift">Step 4</h4>
+                            <p class="body-text">
+                                Derefter kommer vi til størrelsen, man kan bruge de forskellige størrelse der er givet som cover, men her har vi tænkt at bruge procent og sætte den på 100%. Det gøres ved hjælp af Background-size: 100%; (ibid).
+                            </p>
+                        </section>
+                            
+                        <section id="linear-image-steps5">
+                            <h4 class="sub-skrift">Step 5</h4>
+                            <p class="body-text">
+                                Nu kommer vi til det sjove og putter noget farve på billedet. Her skal man tilbage op under Background-image og skriver valuesene efter url() valuen. Det er grundet af at hvis man laver en ny Background-image property for at lave sin gradient så vil den sidste background-image property i CSS'en overgør den anden. Så det skal gøres indenfor samme property (ibid).
+                            </p>
+                        </section>
+                    </section>
+                </section>
         
         
         

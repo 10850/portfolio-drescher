@@ -24,64 +24,161 @@
             
             <div id="mitgrid-animation">
                 
-                <h1 class="titel">Display og Positionering i CSS</h1>
+                <h1 class="titel">Transition og Animation</h1>
                 
-                <section id="display"> 
-                    <section id="display-intro">
-                        <h2 class="overskrift">Display</h2>
+                <section id="transition-css"> 
+                    <section id="transition-intro">
+                        <h2 class="overskrift">Transition</h2>
                         <p class="body-text">
-                            Display property’en definere hvordan et valgt element fremvises på skærmen, som standard er display sat til (W3schools, 2020):
+                            Transition property’en bruges til at definere transistion for HTML elementer (W3schools, 2020). Syntaksen for Transition property’en er:
                         </p>
                         
                         <p class="body-text">
-                           display: block;
+                           transition: property duration timing-function delay; (ibid).
+                        </p>
+                        
+                        <p class="body-text">
+                           VIGTIGT: Duration skal altid defineres for ellers er den 0 sekunder by default (ibid).
+                        </p>
+                        
+                        <p class="body-text">
+                           Under transition property’en er der forskellige values som man kan ændre på og lave bestemte regler for (ibid).
                         </p>
                     </section>
                     
-                    <section class="mt" id="display-table">
-                        <h3 class="underoverskrift">Display styles/values</h3>
+                    <section class="mt" id="transition-table">
+                        <h3 class="underoverskrift">Transition values</h3>
                         <table class="usability-table">
                             <tr>
-                                <th>Style</th>
+                                <th>Value</th>
                                 <th>Beskrivelse</th>
                             </tr>
 
                             <tr>
-                                <td>Inline</td>
-                                <td>Placere sig horisontalt efter hinanden (W3schools, 2020).</td>
+                                <td>Transition-property</td>
+                                <td>Specificere hvilken CSS property transitionen har indflydelse på (ibid).</td>
                             </tr>
 
                             <tr>
-                                <td>Block</td>
-                                <td>Placere sig efter hinanden i stakke (ibid).</td>
+                                <td>Transition-duration</td>
+                                <td>Specificere hvor lang tid transitionen skal vare (ibid).</td>
                             </tr>
 
                             <tr>
-                                <td>Grid</td>
-                                <td>Fremviser elementer som grid container (ibid).</td>
+                                <td>Transition-timing-function</td>
+                                <td>Specificere fart kurven for transitionen så om den skal ease-in, ease-out, ease-in-out osv. (ibid).</td>
                             </tr>
 
                             <tr>
-                                <td>Inline-block</td>
-                                <td>Placere sig horisontalt I en block container (ibid).</td>
-                            </tr>
-
-                            <tr>
-                                <td>Inline-flex</td>
-                                <td>Placere sig horisontalt I en flex container (ibid).</td>
-                            </tr>
-
-                            <tr>
-                                <td>None</td>
-                                <td>Fjerne et element fra skærmen (ibid).</td>
+                                <td>Transition-delay</td>
+                                <td>Specificere hvornår transitionen skal starte. Er 0s by default (ibid).</td>
                             </tr>
                         </table>
                     </section>
                 </section>
         
+                
+                <section id="animation-css"> 
+                    <section id="animation-intro">
+                        <h2 class="overskrift">Animation</h2>
+                        <p class="body-text">
+                            Animation property’en bruges til at lave animation og under denne shorthand er der flere forskellige property-values man kan style med (W3schools, 2020). Syntaksen for animation er:
+                        </p>
+                        
+                        <p class="body-text">
+                           animation: name duration timing-function delay iteration-count direction fill-mode play-state; (ibid).
+                        </p>
+                    </section>
+                    
+                    <section class="mt" id="animation-table">
+                        <h3 class="underoverskrift">Animation values</h3>
+                        <table class="usability-table">
+                            <tr>
+                                <th>Value</th>
+                                <th>Beskrivelse</th>
+                            </tr>
+
+                            <tr>
+                                <td>Animation-name</td>
+                                <td>Giver navnet til keyframen du vil forbinde til selectoren (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Animation-duration</td>
+                                <td>Specificere hvor lang tid animationen tager (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Animation-timing-function</td>
+                                <td>Specificere fart kurven på animationen (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Animation-delay</td>
+                                <td>Specificere hvornår animationen starter. Er 0 by default (ibid).</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Animation-iteration-count</td>
+                                <td>Bestemmer hvor mange gange animationen gentager sig (ibid).</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Animation-direction</td>
+                                <td>Bestemmer om animationen spiller i reverse eller alternative cyklusser (ibid).</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Animation-fill-mode</td>
+                                <td>Bestemmer hvilke values animationen beholder når animationen slutter og hvad den har når den starter (ibid).</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Animation-play-state</td>
+                                <td>Bestemmer om animationen er spiller eller er sat på pause (ibid).</td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
         
-        
-        
+                 <section id="keyframes-css"> 
+                     <section id="keyframe-intro">
+                        <h2 class="overskrift">&#64;keyframes</h2>
+                        <p class="body-text">
+                            @keyframe reglen bruges til at lave meget specificeret animation med forskellige animation breakpoints der går fra fra 0 til 100%. syntaksen er (W3schools, 2020):
+                        </p>
+                        
+                        <p class="body-text">
+                           @keyframes animationname {keyframes-selector {css-styles;}} (ibid).
+                        </p>
+                    </section>
+                     
+                    <section class="mt" id="keyframes-table">
+                        <h3 class="underoverskrift">&#64;keyframes values</h3>
+                        <table class="usability-table">
+                            <tr>
+                                <th>Value</th>
+                                <th>Beskrivelse</th>
+                            </tr>
+
+                            <tr>
+                                <td>Animationname</td>
+                                <td>Skal med. Definere navnet på animationen (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Keyframes-selector</td>
+                                <td>Skal med. Procent dele af animationens længde fra 0 til 100% (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>CSS-style</td>
+                                <td>Skal med (ibid). Bestemmer hvilke CSS style properties der bruges i animationen (ibid).</td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
+                
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">

@@ -79,7 +79,45 @@
                     </section>
                 </section>
         
-        
+                
+                <section id="position"> 
+                    <section id="position-intro">
+                        <h2 class="overskrift">Positionering</h2>
+                        <p class="body-text">
+                            Position property’en I CSS definerer positionen af et valgt element (W3schools, 2020).
+                        </p>
+                    </section>
+                    
+                    <section class="mt" id="position-table">
+                        <h3 class="underoverskrift">Positionering styles/values</h3>
+                        <table class="usability-table">
+                            <tr>
+                                <th>Style</th>
+                                <th>Beskrivelse</th>
+                            </tr>
+
+                            <tr>
+                                <td>Relative</td>
+                                <td>Positioneret relativt til sin position i page flowet (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Absolute</td>
+                                <td>Positioneret som et absolut element, der står for sig selv og er ikke med i page flowet (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Fixed</td>
+                                <td>Står i samme position heletiden (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Sticky</td>
+                                <td>Placeret iforhold til brugerens scroll position (ibid).</td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
         
         
                 <section class="kilder">

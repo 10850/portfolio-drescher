@@ -52,12 +52,127 @@
                             <li>
                                 CSS flexbox er kun til 1-dimension, altså en retning (ibid).
                             </li>
+                            <li>
+                                Man kan lave mere end et grid på samme side og man kan lave grids inde i en grid (embeddet grids) (Østergaard, 2020).
+                            </li>
                         </ul>
                     </section>
                 </section>
+                
+                <section id="to-metoder-grid">
+                    
+                    <section id="metoder-grid-intro">
+                        <h2 class="overskrift"></h2>
+                        <p class="body-text">
+                            For at starte et grid på et element skal man skrive:
+                            Selector { display: grid; }
+                        </p>
+                        
+                        <p class="body-text">
+                            Der findes to metoder til hvordan man laver grid på CSS (Østergaard, 2020).
+                        </p>
+                    </section>
+                    
+                    <section id="metode-et-grid">
+                        <h3 class="underoverskrift">Grid-template</h3>
+                        <p class="body-text">
+                            Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
+                        </p>
+                        <img src="kodning/css/grid/gridareas.png" id="gridareas-img">
+                        
+                        
+                        <p class="body-text">
+                            Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
+                        </p>
+                        <img src="kodning/css/grid/grid-css.png" id="gridtemplate-areas">
+                        <p class="body-text">
+                            Dette siger at:
+                        </p>
+                        
+                        <ul class="liste">
+                            <li>
+                                felt1 fylder hele første række 
+                            </li>
+                            <li>
+                                felt4 fylder 1fr i venstre side, på anden række
+                            </li>
+                            <li>
+                                felt3 fylder 4fr i midten af anden række
+                            </li>
+                            <li>
+                                felt5 fylder 1fr til højre i anden række
+                            </li>
+                            <li>
+                                felt2 fylder 1fr i venstre side, på tredje række
+                            </li>
+                            <li>
+                                felt6 fylder 4fr i midten, på tredje række
+                            </li>
+                            <li>
+                                felt5 fylder 1fr i højre side, på tredje række
+                            </li>
+                            <li>
+                                felt8 fylder hele sidste række
+                            </li>
+                        </ul>
+                        
+                        <img src="kodning/css/grid/css-grid-screen.jpg" id="grid-screen-img">
+                    </section>
+                    
+                    <section id="metode-to-grid">
+                        <h3 class="underoverskrift">Grid start og slut</h3>
+                        <p class="body-text">
+                            Den anden metode for at lave grids er ved at tage et element og give den en position via properties (Østergaard, 2020):
+                        </p>
+                         <table class="usability-table">
+                            <tr>
+                                <th>Value</th>
+                                <th>Beskrivelse</th>
+                            </tr>
+
+                            <tr>
+                                <td>Grid-column-start </td>
+                                <td>angiver en startlinje horisontalt (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Grid-column-end </td>
+                                <td>angiver en slutlinje horisontalt (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Grid-row-start </td>
+                                <td>angiver en startlinje vertikalt (ibid).</td>
+                            </tr>
+
+                            <tr>
+                                <td>Grid-row-end </td>
+                                <td>angiver en slutlinje vertikalt (ibid).</td>
+                            </tr>
+                        </table>
+                        
+                        <p class="body-text">
+                            Det er tungt at ændre i. Især når man arbejder med en hel side med flere elementer der skal placeres (ibid).
+                        </p>
+                    </section>
+                </section>
         
-        
-        
+                <section id="hvad-fik-jeg">
+                    <h2 class="overskrift">Min udvikling med CSS grid</h2>
+                    <p class="body-text">
+                        Jeg har aldrig hørt om CSS grid før jeg kom på studiet og troede det ville være sindsygt kompliceret at have at gøre med. Men til min overraskelse var det et meget simpelt og intuitivt system. Jeg fandt nemt at forstå på grund af de simple øvelser vi havde på dagen vi lærte om responsivt design.
+                    </p>
+                    
+                    <p class="body-text">
+                        Jeg blev bedre og bedre til at bruge CSS grid, fordi jeg øvet mig på det meget derhjemme når jeg lavede hjemmesider som K3 arbejde og det har givet mig en dybere forståelse for hvordan grid virker og hvad mulgiheder den giver til layout design.
+                    </p>
+                    
+                    <p class="body-text">
+                        Det er faktisk kommet så langt at jeg kan kigge på en wireframe og med det samme se hvordan jeg ville stille det op i css grid. Sådan en forståelse for grid troede jeg ikke jeg vil få da jeg startet, men de simple øvelser og mit K3 arbejder har hjulpet mig dertil. Der har selvfølgelig også været problemer for mig med CSS grid, men jeg har hvergang fundet en løsning som lærte mig mere om CSS grid og forbedret mine kompetencer med CSS.
+                    </p>
+                </section>
+                
+                
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
