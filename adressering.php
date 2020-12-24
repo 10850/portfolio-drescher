@@ -18,7 +18,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="adressering-php">
-
+        <header class="kodning-header">
+            <?php include 'menu.inc' ?>
+        </header>
+            
+            <div id="mitgrid-adressering">
+                <h1 class="titel">Adressering</h1>
+        
+                <section id="relativ-adressering">
+                    <h2 class="overskrift">Relativ adressering</h2>
+                    <p class="body-text">
+                        Relativ adressering er når man linker til sider som ligger lokalt i dine mapper, så du linker til andre HTML-filer eller filer (billeder og video) (W3schools, 2020). Eksempel på linking til relative sider ville være:
+                    </p>
+                    
+                    <img src="kodning/adressering/relativ-koe.jpg" alt="eksempel på relativ adressering" id="relativ-img">
+                </section> <!-- relativ -->
+                
+                <section id="absolut-adressering">
+                    <h2 class="overskrift">Absolut adressering</h2>
+                    <p class="body-text">
+                        Absolut adressering er når man linker til sider som ligger eksternt fra dit lokale drev, så du linker til andre sider/content på world wide web(www) (W3schools, 2020). Eksempel på linking til relative sider ville være:
+                    </p>
+                    
+                    <img src="kodning/adressering/absolut-kode.jpg" alt="eksempel på absolut adressering" id="absolut-img">
+                </section> <!-- absolut -->
+        
+        
+        
+        
+                <section class="kilder">
+                    <h2 class="overskrift">Kilder</h2>
+                    <ul class="kildeliste">
+                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
+                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                    </ul>
+                </section>
+            </div> <!-- MITGRID -->
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

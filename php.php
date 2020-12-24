@@ -17,10 +17,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="php-php">
-        <header>
+        <header class="kodning-header">
             <?php include 'menu.inc' ?>
         </header>
+            
+            <div id="mitgrid-php">
+                
+                <h1 class="titel">Serverside(PHP)</h1>
+                
+                <section id="hvad-er-serversider">
+                    <h2 class="overskrift">Hvad er serversider?</h2>
+                    
+                    <p class="body-text">
+                        En serverside er et program som afvikles på serveren, som danner en webside (Østergaard, 2020). Det er ikke en færdig webside, men snarere færdig lavede stumper man kan putte ind på en side (ibid). Man kan sige det er en form for component man kan tilkalde til brug på en webside (ibid).
+                    </p>
+                </section> <!-- Hvad er serversider -->
         
+        
+        
+        
+        
+        
+                <section class="kilder">
+                    <h2 class="overskrift">Kilder</h2>
+                    <ul class="kildeliste">
+                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
+                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                    </ul>
+                </section>
+            </div> <!-- MITGRID -->
         
         <?php include 'footer.inc' ?> <!-- footer -->
         

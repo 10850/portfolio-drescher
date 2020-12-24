@@ -1906,6 +1906,36 @@ footer {
 
 
 
+/* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER START */
+.kodning-header {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.attributter-php footer,
+.adressering-php footer,
+.semantisk-php footer,
+.metadata-php footer,
+.seo-php footer,
+.kodeskik-php footer,
+.videoogimg-php footer,
+.formularer-php footer,
+.selectors-php footer,
+.cssgrid-php footer,
+.properties-php footer,
+.boxmodel-php footer,
+.position-php footer,
+.bootstrap-php footer,
+.php-php footer,
+.versionsstyring-php footer,
+.server-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+
+
+
+/* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER END */
+
 
 
 

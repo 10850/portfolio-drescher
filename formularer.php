@@ -18,7 +18,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="formularer-php">
-
+        <header class="kodning-header">
+            <?php include 'menu.inc' ?>
+        </header>
+            
+            <div id="mitgrid-formularer">
+                
+                <h1 class="titel">Formularer, felttyper og formatering</h1>
+        
+                <section id="form-intro">
+                    <h2 class="overskrift">HTML form tag</h2>
+                    <p class="body-text">
+                        HTML formularer bruges til at indsamle forskellige brugerinformationer, som oftest sendes til en server, hvor de bearbejdes (Knudsen & Sørensen, 2020). Tagget 	&#60;form&#62;&#60;/form&#62; bruges til at oprette en HTML formularer og fungere som en beholder til alle elementtyperne der er til rådighed (ibid).
+                    </p>
+                </section> <!-- form tag intro -->
+        
+        
+        
+                <section class="kilder">
+                    <h2 class="overskrift">Kilder</h2>
+                    <ul class="kildeliste">
+                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
+                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                    </ul>
+                </section>
+            </div> <!-- MITGRID -->
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

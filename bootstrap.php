@@ -17,19 +17,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="bootstrap-php">
-        <header>
+        <header class="kodning-header">
             <?php include 'menu.inc' ?>
         </header>
-        
-        
-        
-                
-                
+            
             <div id="mitgrid-bootstrap">
-                <h1 class="titel">Bootstrap</h1>
                 
-
-            </div>
+                <h1 class="titel">Bootstrap</h1>
+            
+                <section id="hvad-er-bootstrap">
+                    <h2 class="overskrift">Hvad er bootstrap?</h2>
+                    
+                    <p class="body-text">
+                        Bootstrap er et framework. Hvad er et framework så? 
+                    </p>
+                    
+                    <p class="body-text">
+                        Ja, et framework er færdige standardiserede kodeelementer, som anvendes til at opbygge layout og funktionalitet på en strukturel og effektiv måde (Østergaard, 2020). Det er en form for færdig lavet blueprint, som et blueprint på en frame til en bygning (ibid).
+                    </p>
+                    
+                    <p class="body-text">
+                        Bootstrap har mange forskellige frameworks man gør brug af både med Grid-layouts, CTA-knapper, karruseller, pop-overs, navigationsbar osv. (Østergaard, 2020).  Når man gerne vil bruge disse frameworks, vil man typisk skulle copy + paste noget HTML sammen med et CSS stylesheet og noget javascript (ibid).
+                    </p>
+                </section> <!-- Hvad er Bootstrap -->
+        
+        
+        
+        
+                <section class="kilder">
+                    <h2 class="overskrift">Kilder</h2>
+                    <ul class="kildeliste">
+                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
+                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                    </ul>
+                </section>
+            </div> <!-- MITGRID -->
         
         <?php include 'footer.inc' ?> <!-- footer -->
         
