@@ -62,7 +62,7 @@
                     <section class="mt" id="bootstrap-nav-prakis">
                         <h3 class="underoverskrift">Bootstrap navigation</h3>
                         <p class="body-text">
-                            Jeg går ind på bootstrap og finder deres navbar components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en menu op på min hundeside.
+                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/navbar/">navbar</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en menu op på min hundeside.
                         </p>
                         
                         <figure id="navigation-eksempel-kode">
@@ -90,7 +90,7 @@
                     <section class="mt" id="bootstrap-dropogpop-praksis">
                         <h3 class="underoverskrift">Bootstrap dropdown og popover knapper</h3>
                         <p class="body-text">
-                            Jeg går ind på bootstrap og finder deres dropdown og popover components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en dropdown og popover knap frem på min hundeside.
+                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/dropdowns/">dropdown</a> og <a href="https://getbootstrap.com/docs/4.5/components/popovers/">popover</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en dropdown og popover knap frem på min hundeside.
                         </p>
                         
                         <figure id="dropogpop-eksempel-kode">
@@ -117,7 +117,7 @@
                     <section class="mt" id="bootstrap-karousel-praksis">
                         <h3 class="underoverskrift">Bootstrap billedkarousel</h3>
                         <p class="body-text">
-                            Jeg går ind på bootstrap og finder deres carousel components. Derefter kopier jeg det og putter det ind i HTML'en, og lægger billeder ind i sliderne. Så vil der komme en billed karousel med billederne frem på min hundeside.
+                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/carousel/">carousel</a> components. Derefter kopier jeg det og putter det ind i HTML'en, og lægger billeder ind i sliderne. Så vil der komme en billed karousel med billederne frem på min hundeside.
                         </p>
                         
                         <figure id="karousel-eksempel-kode">

@@ -94,7 +94,93 @@
                         </p>
                     </section>
                 </section> <!-- Hvad er semantiske tags -->
-        
+                
+                
+                <section id="andre-tags-semantisk">
+                    <h2 class="overskrift">Flere semantiske tags</h2>
+                    
+                    <h4 class="sub-skrift">&#60;p&#62;</h4>
+                    <p class="body-text">
+                        P tagget fortæller at det er en paragraph som er indholdet (Østergaard, 2020).
+                    </p>
+                    
+                    <h4 class="sub-skrift">&#60;header&#62;</h4>
+                    <p class="body-text">
+                        Header tagget fortæller at det et sidehoved og vil derfor by default placere i toppen af siden eller sectionen og bruges normalt til navigation, brand logoer osv. (W3schools, 2020).
+                    </p>
+                    
+                    <h4 class="sub-skrift">&#60;footer&#62;</h4>
+                    <p class="body-text">
+                        footer tagget fortæller at det en sidefod og vil derfor by default placere i bunden af siden eller sectionen (W3schools, 2020).
+                    </p>
+                    
+                    <h4 class="sub-skrift">&#60;section&#62;</h4>
+                    <p class="body-text">
+                        Section tagget fortæller at alt indholdet inden i tagget er sin egen sektion/gruppe/container på siden (Østergaard, 2020).
+                    </p>
+                    
+                    <h4 class="sub-skrift">&#60;article&#62;</h4>
+                    <p class="body-text">
+                        Article tagget fortæller at indholdet er en artikel og at det er en uafhængig gruppe af indhold (W3schools, 2020).
+                    </p>
+                    
+                    <h4 class="sub-skrift">&#60;aside&#62;</h4>
+                    <p class="body-text">
+                        Aside tagget fortæller at indholdet er en del af det omringende indhold, men er i sin egen container (W3schools, 2020). Det bruges tit til at placere noget indhold til siden for resten af indholdet på siden, som en sidebar navigation (ibid).
+                    </p>
+                    
+                    <h4 class="sub-skrift">&#60;img&#62;</h4>
+                    <p class="body-text">
+                        Img tagget fortæller at dette er et billede (Østergaard, 2020).
+                    </p>
+                    
+                    <h4 class="sub-skrift">&#60;ul&#62;, &#60;ol&#62; og &#60;li&#62;</h4>
+                    <p class="body-text">
+                        &#60;ul&#62; står for unordered list og fortæller at det er en liste uden nummerering (W3schools, 2020). 
+                    </p>
+                    
+                    <p class="body-text">
+                        &#60;ol&#62; står for ordered list og fortæller det er en liste som er organiseret med numre (ibid).  
+                    </p>
+                    
+                    <p class="body-text">
+                        &#60;li&#62; står for list item og fortæller at indholdet er et element i en given liste (ibid). 
+                    </p>
+                </section> <!-- Flere semantiske tags -->
+                
+                <img src="kodning/kodeskikke/godskikke.jpg" id="semantisk-html-struktur">
+                
+                <section id="ik-semantisk">
+                    <h2 class="overskrift">Ikke semantiske tags</h2>
+                    
+                    <p class="body-text">
+                        Ikke semantiske tags er tags som ikke fortæller noget om indholdet (Østergaard, 2020). Disse burde kun bruges til når man har noget bestemt man gerne vil formater/style på en bestemt måde (ibid). Eksempler på disse er:
+                    </p>
+                    
+                    <h4 class="sub-skrift">
+                        &#60;div&#62; står for list item og fortæller at indholdet er et element i en given liste (ibid). 
+                    </h4>
+                    
+                    <p class="body-text">
+                        Division/inddeling anvendes typisk for at inddele noget som skal formateres på en bestemt måde (Østergaard, 2020). Dog fortæller det intet om indholdet og burde derfor udskiftes med et semantisk tag hvis muligt(ibid).
+                    </p>
+                    
+                    <h4 class="sub-skrift">
+                        &#60;span&#62; står for list item og fortæller at indholdet er et element i en given liste (ibid). 
+                    </h4>
+                    
+                    <p class="body-text">
+                        Minder om &#60;div&#62; og &#60;p&#62; og bruges typisk på enkelte linjer som skal formateres på en bestemt måde (Østergaard, 2020). &#60;span&#62; medfører ikke linjeskift (ibid).
+                    </p>
+                </section>
+                
+                <section id="fordele-semantisk">
+                    <h2 class="overskrift">Fordelen ved semantiske tags</h2>
+                    <p class="body-text">
+                        Udover SEO som er den primær grund til at man skal bruge semantiske tags, da det gør det nemmere for serveren og søgemaskinerne at forstå din sides struktur (Nyrup & Andreasen, 2020). Så er fordelen også at man kan bygge en mere overskuelig struktur af koden til når andre programmører skal kigge og fortolke ens kode (ibid). Det vil for eksempel være vigtigt til når man skal arbejde sammen med andre om at bygge en webside (ibid).
+                    </p>
+                </section>
+                
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
@@ -102,6 +188,7 @@
                         <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
                     </ul>
                 </section>
+                
             </div> <!-- MITGRID -->
         
         <?php include 'footer.inc' ?> <!-- footer -->

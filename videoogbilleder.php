@@ -73,7 +73,22 @@
                         
                     </section>
                 </section>
-        
+                
+                <section id="billeder-html">
+                    <h2 class="overkskrift">Indsæt billeder i HTML</h2>
+                    <p class="body-text">
+                       Billeder bliver sat ind på siden via HTML-tagget &#60;img&#62; (W3schools, 2020). Man linker til et billede, enten internt fra din lokale mappe eller eksternt fra browseren, det gøres ved brug af src-attribut (ibid).
+                    </p>
+                    
+                    <p class="body-text">
+                        For SEO sætter man også en alternativ tekst ind til hvis billedet ikke viser sig, det gøres med alt-attributten (W3schools, 2020):
+                    </p>
+                    
+                    <img src="kodning/videoogimg/billeder-kode.jpg" id="kode-imginsert">
+                    
+                    <img src="kodning/videoogimg/billeder-screen.png">
+
+                </section>
         
         
         
