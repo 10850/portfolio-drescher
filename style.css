@@ -45,6 +45,10 @@ html, body {
 body {
     padding-top: 4.5em
 }
+
+.index-php .navbar {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
 /* STYLING MOBILE FIRST */
 /* GLOBAL MENU */
 
