@@ -17,47 +17,45 @@
     <!-- Mit stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
-    <body class="kodeskik-php">
+    <body class="media-queries-php">
         <header class="kodning-header">
             <?php include 'menu.inc' ?>
         </header>
-        
-        <?php include 'undermenu-html.inc' ?>
             
-            <div id="mitgrid-kodeskikke">
+            <div id="mitgrid-media-queries">
                 
-                <h1 class="titel">Kodeskikke</h1>
+                <h1 class="titel">&#64;media i CSS</h1>
+                
+                <section id="media-queries-css"> 
+                    <section id="media-queries-intro">
+                        <p class="body-text">
+                            &#64;media er en regel i CSS som bruges til at lave breakpoints til forskellige skærmstørrelser, som gør at alt css styling som skrives indenfor det breakpoints kun aktivere når regelen for skærmstørrelsen er opfyldt (W3schools, 2020).
+                        </p>
+                        
+                        <p class="body-text">
+                           Man kan bruge det til regler af:
+                        </p>
+                        
+                        <ul class="liste">
+                            <li>
+                                Width og height af ens viewport (ibid).
+                            </li>
+                            <li>
+                                Width og height af ens enhed (ibid).
+                            </li>
+                            <li>
+                                Orientation af ens enhed så om det er landscape eller portrait mode (ibid).
+                            </li>
+                            <li>
+                                Resolution (ibid).
+                            </li>
+                            <li>
+                                En populær måde at lave et fuldt ud responsivt webdesign (ibid).
+                            </li>
+                        </ul>
+                    </section>
+                </section>
         
-                <p class="body-text">
-                    I verden af kodning findes der god og dårlige kodeskikke (Østergaard, 2020). Det er vigtigt at når man koder at man holder fast på gode kodeskikke (ibid). Ikke kun for at andre programmør nemt kan læse, forstå og overskue din kode, men også for at man selv kan have gode overblik over sin kode når man går tilbage i sin kode for at for eksempel lave ændringer (ibid). God kodeskikke er:
-                </p>
-                
-                <ul class="liste">
-                    <li>
-                        En del af god kodeskik (Østergaard, 2020).
-                    </li>
-                    <li>
-                        Det giver dig overblik (ibid).
-                    </li>
-                    <li>
-                        Det gør din kode læselig for andre (ibid).
-                    </li>
-                    <li>
-                        Brug tabulatoren (flere mellemrum efter hinanden er FORBUDT!) (ibid).
-                    </li>
-                    <li>
-                        Editoren hjælper dig - lad den gøre det (ibid).
-                    </li>
-                    <li>
-                        Kode der ikke er indrykket, kan ikke godkendes! (ibid).
-                    </li>
-                    <li>
-                        Bemærk: Tabuleringer, ekstra mellemrum og linieskift kaldes “whitespace” og ignoreres af browseren (ibid).
-                    </li>
-                </ul>
-                
-                
-                <img src="kodning/kodeskikke/godskikke.jpg" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
         
         
         

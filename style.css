@@ -1927,7 +1927,13 @@ footer {
 .bootstrap-php footer,
 .php-php footer,
 .versionsstyring-php footer,
-.server-php footer {
+.server-php footer,
+.background-property-php footer,
+.border-shadow-php footer,
+.display-psoition-php footer,
+.list-style-php footer,
+.media-queries-php footer,
+.animation footer {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 

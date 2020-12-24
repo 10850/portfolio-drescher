@@ -24,9 +24,37 @@
             
             <div id="mitgrid-cssgrid">
                 
+                <h1 class="titel">CSS Grid</h1>
         
-        
-        
+                <section id="grid-intro">
+                    <section id="hvadergrid">
+                        <h2 class="overskrift">Hvad er Grid</h2>
+                        <p class="body-text">
+                            Grid er den nyeste og standardmåde man strukturerer layoutet på en side så man kan få et responsivt design (Østergaard, 2020). 
+                        </p>
+                    </section>
+                    
+                    <section id="hvorforgrid">
+                        <h2 class="overskrift">Hvorfor Grid</h2>
+                        <ul class="liste">
+                            <li>
+                                Der har aldrig været en god måde at placere elementer i CSS, som samtidigt virker responsivt (Østergaard, 2020).
+                            </li>
+                            <li>
+                                HTML- og andre CSS-funktioner var brugt til mere end de var lavet til (ibid). En form for hacking (ibid).
+                            </li>
+                            <li>
+                                Det er for vanskeligt at bruge funktionerne til mere end de er tænkt til (ibid).
+                            </li>
+                            <li>
+                                Float og clear som er den gamle måde at gøre det på er forældet og ses som at være ”trial and error” (ibid).
+                            </li>
+                            <li>
+                                CSS flexbox er kun til 1-dimension, altså en retning (ibid).
+                            </li>
+                        </ul>
+                    </section>
+                </section>
         
         
         

@@ -17,47 +17,64 @@
     <!-- Mit stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
-    <body class="kodeskik-php">
+    <body class="background-property-php">
         <header class="kodning-header">
             <?php include 'menu.inc' ?>
         </header>
-        
-        <?php include 'undermenu-html.inc' ?>
             
-            <div id="mitgrid-kodeskikke">
+            <div id="mitgrid-background-property">
                 
-                <h1 class="titel">Kodeskikke</h1>
+                <h1 class="titel">Background-Property</h1>
+                
+                <section id="background-intro">
+                    <p class="body-text">
+                        Background property’en giver mulighed for at man kan style på et valgt elements baggrund (Rijna & Lank, 2020). Under det findes der forskellige property-values som man kan laver rules med (ibid):
+                    </p>
+                    
+                    <table class="usability-table">
+                        <tr>
+                            <th>Value</th>
+                            <th>Beskrivelse</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>Background-color</td>
+                            <td>Definere farven på baggrunden (W3schools, 2020).</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Background-image</td>
+                            <td>Giver mulighed for at sætte et billede ind som baggrund (ibid).</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Background-origin</td>
+                            <td>Specificere positionsområdet af et background-image (ibid).</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Background-position</td>
+                            <td>Specificere hvilken position baggrundsbilledet har (ibid).</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Background-repeat</td>
+                            <td>Specificere hvordan billedet repeater på siden (ibid).</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Background: linear-gradient</td>
+                            <td>Funktion som definerer en linær gradient (W3schools, 2020).</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Background: radial-gradient</td>
+                            <td>Funktion som definerer en radial gradient (ibid).</td>
+                        </tr>
+                    
+                    </table>
+                </section>
         
-                <p class="body-text">
-                    I verden af kodning findes der god og dårlige kodeskikke (Østergaard, 2020). Det er vigtigt at når man koder at man holder fast på gode kodeskikke (ibid). Ikke kun for at andre programmør nemt kan læse, forstå og overskue din kode, men også for at man selv kan have gode overblik over sin kode når man går tilbage i sin kode for at for eksempel lave ændringer (ibid). God kodeskikke er:
-                </p>
-                
-                <ul class="liste">
-                    <li>
-                        En del af god kodeskik (Østergaard, 2020).
-                    </li>
-                    <li>
-                        Det giver dig overblik (ibid).
-                    </li>
-                    <li>
-                        Det gør din kode læselig for andre (ibid).
-                    </li>
-                    <li>
-                        Brug tabulatoren (flere mellemrum efter hinanden er FORBUDT!) (ibid).
-                    </li>
-                    <li>
-                        Editoren hjælper dig - lad den gøre det (ibid).
-                    </li>
-                    <li>
-                        Kode der ikke er indrykket, kan ikke godkendes! (ibid).
-                    </li>
-                    <li>
-                        Bemærk: Tabuleringer, ekstra mellemrum og linieskift kaldes “whitespace” og ignoreres af browseren (ibid).
-                    </li>
-                </ul>
-                
-                
-                <img src="kodning/kodeskikke/godskikke.jpg" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
         
         
         

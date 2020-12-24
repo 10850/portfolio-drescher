@@ -33,11 +33,52 @@
                     </p>
                 </section> <!-- Hvad er serversider -->
         
-        
-        
-        
-        
-        
+                <section id="php-include">
+                    <section id="prereqs-include">
+                        <h2 class="overskrift">PHP-include</h2>
+                        <h3 class="underoverskrift">Forudsætninger</h3>
+                        <p class="body-text">
+                            For at skrive PHP kode så skal man lave en .php fil så serveren ved at det er PHP den arbejder med (ibid). Man kan både skrive HTML og PHP i en PHP-fil og serveren kan skelne imellem dem (Østergaard, 2020). Det er på grund af at man i PHP skal skrive &#60;?php og ?&#62; omkring sin PHP kode, hvor man med HTML kun skrive &#60; og &#62; omkring sin kode (ibid).
+                        </p>
+                    </section>
+                    
+                    <section id="hvaderinclude">
+                        <h3 class="underoverskrift">PHP-include navigation</h3>
+                        <p class="body-text">
+                            Include er en PHP-kommando, som bruges til at tage stumper af kode og inkludere det på mange forskellige sider (W3schools, 2020). Så man har sin stumpe kode i en fil for eksempel menu.inc (ibid). sætter det ind i en string og include kommandoen vil tage den stump kode og placere den på siden. Include skrives som følgende (ibid):
+                        </p>
+                        
+                        <figure id="kode-menu.inc">
+                            <h4 class="sub-skrift">Menu.inc fil med navigations kode</h4>
+                            <img src="kodning/serverside/php-include-menu-inc.png" alt="billed af menu.inc fil med navigation i den" id="menu.inc-kode">
+                        </figure>
+                        
+                        <figure id="kode-include">
+                            <h4 class="sub-skrift">PHP-inlcude kommandoen hvor du linker til menu.inc</h4>
+                            <img src="kodning/serverside/include.jpg" alt="billed af php-include kode på brackets" id="php-include-kode">
+                        </figure>
+                        
+                        <figure id="kode-include">
+                            <h4 class="sub-skrift">Nu har alle sider en navigation ved brug af PHP-include</h4>
+                            <img src="kodning/serverside/navigation-side.jpg" alt="billed af siden med navigation" id="php-include-kode">
+                            <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php">Hvis du gerne vil besøge siden og prøve navigationen</a>
+                        </figure>
+                    </section>
+                    
+                    <section id="andremuligheder">
+                        <h3 class="underoverskrift">Andre muligheder</h3>
+                        <p class="body-text">
+                            Man kan også lave en include (once), som gør at hvis den stumpe kode der skal ind allerede er brugt en gang, så vil include ikke sætte det ind (Østergaard, 2020). Det fordi man har fortalt den, at man kun vil have det ind i siden en gang (ibid).
+                        </p>
+
+                        <p class="body-text">
+                            PHP require er en anden mulighed som er næsten identisk til PHP include, med den forskel at hvis der er en fejl eller den fil man har indsat ikke kan findes så stopper scriptet (W3schools, 2020). Hvorimod include vil forsætte med at udføre scriptet uden filen (ibid).
+                        </p>
+                        
+                        
+                    </section>
+                </section>
+
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
