@@ -82,8 +82,19 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            W3schools, 2020. PHP Include Files. [Online] 
+                            Available at: https://www.w3schools.com/php/php_includes.asp
+                            [Senest hentet eller vist den 1 December 2020].
+                        </li>
+                        <li>
+                            Østergaard, N., 2020. Serversideprogrammering med PHP. [Online] 
+                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=162759&#38;redirect=1
+                            [Senest hentet eller vist den 29 November 2020].
+                        </li>
+                        <li>
+                            Rijna, Drescher: <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php">Php-include-navigation</a>; Fra 19. oktober 2020
+                        </li>
                     </ul>
                 </section>
             </div> <!-- MITGRID -->

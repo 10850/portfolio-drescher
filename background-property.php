@@ -21,6 +21,8 @@
         <header class="kodning-header">
             <?php include 'menu.inc' ?>
         </header>
+        
+             <?php include 'undermenu-css.inc' ?>
             
             <div id="mitgrid-background-property">
                 
@@ -28,7 +30,7 @@
                 
                 <section id="background-intro">
                     <p class="body-text">
-                        Background property’en giver mulighed for at man kan style på et valgt elements baggrund (Rijna & Lank, 2020). Under det findes der forskellige property-values som man kan laver rules med (ibid):
+                        Background property’en giver mulighed for at man kan style på et valgt elements baggrund (Rijna &#38; Lank, 2020). Under det findes der forskellige property-values som man kan laver rules med (ibid):
                     </p>
                     
                     <table class="usability-table">
@@ -133,7 +135,7 @@
                         <section id="linear-image-steps1">
                             <h4 class="sub-skrift">Step 1</h4>
                             <p class="body-text">
-                                Først skal vi sætte billedet ind ved hjælp af Background-image: url(); (Rijna & Lank, 2020).
+                                Først skal vi sætte billedet ind ved hjælp af Background-image: url(); (Rijna &#38; Lank, 2020).
                             </p>
                         </section>
 
@@ -172,8 +174,21 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            Rijna, F. D. &#38; Lank, N., 2020. CSS Background (Billeder og Gradient). [Online] 
+                            Available at: http://10850.apache.eadania.dk/workshop/Index.html
+                            [Senest hentet eller vist den 25 november 2020].
+                        </li>
+                        <li>
+                            W3schools, 2020. CSS background Property. [Online] 
+                            Available at: https://www.w3schools.com/cssref/css3_pr_background.asp
+                            [Senest hentet eller vist den 10 december 2020].
+                        </li>
+                        <li>
+                            W3schools, 2020. CSS background-image Property. [Online] 
+                            Available at: https://www.w3schools.com/cssref/pr_background-image.asp
+                            [Senest hentet eller vist den 3 december 2020].
+                        </li>
                     </ul>
                 </section>
             </div> <!-- MITGRID -->

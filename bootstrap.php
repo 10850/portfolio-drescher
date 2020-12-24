@@ -179,8 +179,16 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            Bootstrap, 2020. Introduction. [Online] 
+                            Available at: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+                            [Senest hentet eller vist den 8 december 2020].
+                        </li>
+                        <li>
+                            Østergaard, N., 2020. Frameworks. [Online] 
+                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=147090&#38;redirect=1
+                            [Senest hentet eller vist den 2 december 2020].
+                        </li>
                     </ul>
                 </section>
             </div> <!-- MITGRID -->

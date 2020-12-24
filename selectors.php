@@ -22,6 +22,9 @@
             <?php include 'menu.inc' ?>
         </header>
             
+            <?php include 'undermenu-css.inc' ?>
+        
+        
             <div id="mitgrid-selectors">
                 
                 <h1 class="titel">CSS Selectors og Syntaks</h1>
@@ -193,8 +196,26 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            W3schools, 2020. CSS Pseudo-classes. [Online] 
+                            Available at: https://www.w3schools.com/css/css_pseudo_classes.asp
+                            [Senest hentet eller vist den 8 december 2020].
+                        </li>
+                        <li>
+                            W3schools, 2020. CSS Selectors. [Online] 
+                            Available at: https://www.w3schools.com/css/css_selectors.asp
+                            [Senest hentet eller vist den 9 december 2020].
+                        </li>
+                        <li>
+                            W3schools, 2020. CSS Syntax. [Online] 
+                            Available at: https://www.w3schools.com/css/css_syntax.ASP
+                            [Senest hentet eller vist den 9 december 2020].
+                        </li>
+                        <li>
+                            Østergaard, N., 2020. Intro til CSS. [Online] 
+                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=155569&#38;redirect=1
+                            [Senest hentet eller vist den 7 december 2020].
+                        </li>
                     </ul>
                 </section>
             </div> <!-- MITGRID -->

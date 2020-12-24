@@ -31,7 +31,7 @@
                 <section id="form-intro">
                     <h2 class="overskrift">HTML form tag</h2>
                     <p class="body-text">
-                        HTML formularer bruges til at indsamle forskellige brugerinformationer, som oftest sendes til en server, hvor de bearbejdes (Knudsen & Sørensen, 2020). Tagget 	&#60;form&#62;&#60;/form&#62; bruges til at oprette en HTML formularer og fungere som en beholder til alle elementtyperne der er til rådighed (ibid).
+                        HTML formularer bruges til at indsamle forskellige brugerinformationer, som oftest sendes til en server, hvor de bearbejdes (Knudsen &#38; Sørensen, 2020). Tagget 	&#60;form&#62;&#60;/form&#62; bruges til at oprette en HTML formularer og fungere som en beholder til alle elementtyperne der er til rådighed (ibid).
                     </p>
                 </section> <!-- form tag intro -->
                 
@@ -40,22 +40,22 @@
                     <h2 class="overskrift">Formular elementer</h2>
                     <h4 class="sub-skrift">&#60;form&#62;</h4>
                     <p class="body-text">
-                        Dette tag er et semantisk tag som bruges til at oprette container til HTML formularer (Knudsen & Sørensen, 2020).
+                        Dette tag er et semantisk tag som bruges til at oprette container til HTML formularer (Knudsen &#38; Sørensen, 2020).
                     </p>
                     
                     <h4 class="sub-skrift">&#60;input&#62;</h4>
                     <p class="body-text">
-                        Dette tag er et empty tag, altså et tag uden et end tag (Knudsen & Sørensen, 2020). Det er det mest brugte tag til HTML formularer, og kan bruges til mange forskellige måder afhængigt af hvad attribute du giver den (ibid).
+                        Dette tag er et empty tag, altså et tag uden et end tag (Knudsen &#38; Sørensen, 2020). Det er det mest brugte tag til HTML formularer, og kan bruges til mange forskellige måder afhængigt af hvad attribute du giver den (ibid).
                     </p>
                     
                     <h4 class="sub-skrift">Type=</h4>
                     <p class="body-text">
-                        Type specificerer hvad &#60;input&#62; tagget skal vises som (Knudsen & Sørensen, 2020):
+                        Type specificerer hvad &#60;input&#62; tagget skal vises som (Knudsen &#38; Sørensen, 2020):
                     </p>
                     
                     <h4 class="sub-skrift">Name=</h4>
                     <p class="body-text">
-                        Angiver navnet på et input tag og bruges til henvisninger (Knudsen & Sørensen, 2020).
+                        Angiver navnet på et input tag og bruges til henvisninger (Knudsen &#38; Sørensen, 2020).
                     </p>
                 </section>
                 
@@ -63,17 +63,17 @@
                     <h2 class="overskrift">Formular attributter</h2>
                     <h4 class="sub-skrift">Type</h4>
                     <p class="body-text">
-                        Indikere hvilken type input man vil anvende (ibid). Skal altid benyttes (Knudsen & Sørensen, 2020).
+                        Indikere hvilken type input man vil anvende (ibid). Skal altid benyttes (Knudsen &#38; Sørensen, 2020).
                     </p>
                     
                     <h4 class="sub-skrift">Placeholder</h4>
                     <p class="body-text">
-                        Viser et eksempel på hvad der skal skrives i feltet (Knudsen & Sørensen, 2020). Som når man skal skrive sin e-mail (ibid).
+                        Viser et eksempel på hvad der skal skrives i feltet (Knudsen &#38; Sørensen, 2020). Som når man skal skrive sin e-mail (ibid).
                     </p>
                     
                     <h4 class="sub-skrift">Required</h4>
                     <p class="body-text">
-                        Angiver at feltet skal udfyldes inden formularen kan sendes (Knudsen & Sørensen, 2020).
+                        Angiver at feltet skal udfyldes inden formularen kan sendes (Knudsen &#38; Sørensen, 2020).
                     </p>
                 </section>
                 
@@ -157,8 +157,14 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            Knudsen, V. A. &#38; Sørensen, A., 2020. Formularer, felttyper og formatering. [Online] 
+                            Available at: http://10743.apache.eadania.dk/HTML%20Forms/Index.html
+                            [Senest hentet eller vist den 7 december 2020].
+                        </li>
+                        <li>
+                            Rijna, Drescher:<a href="http://10850.apache.eadania.dk/scootershopv2/index.php">Gisito Scooters</a>; Fra 23. Oktober 2020
+                        </li>
                     </ul>
                 </section>
             </div> <!-- MITGRID -->

@@ -40,20 +40,20 @@
                     <section id="hvad-er-head" class="mt">
                         <h3 class="underoverskrift">Hvad er head?</h3>
                         <p class="body-text">
-                            Head tagget i HTML er hvor du putter alle parametrene der gælder for hele dokumentet (Nyrup & Andreasen, 2020). Det inkluderer sidens titel, sprog, tegnsæt, opsætning og stylesheets (ibid).
+                            Head tagget i HTML er hvor du putter alle parametrene der gælder for hele dokumentet (Nyrup &#38; Andreasen, 2020). Det inkluderer sidens titel, sprog, tegnsæt, opsætning og stylesheets (ibid).
                         </p>
                         <p class="body-text">
-                            Det som står i title er det som vil blive vist i den fane der hører til siden i browseren (Nyrup & Andreasen, 2020).
+                            Det som står i title er det som vil blive vist i den fane der hører til siden i browseren (Nyrup &#38; Andreasen, 2020).
                         </p>
                         <p class="body-text">
-                            Man kan med fordel sætte JavaScripts i bunden af dokumentet efter body, da det kan gøre kørslen af koden hurtigere (Nyrup & Andreasen, 2020).
+                            Man kan med fordel sætte JavaScripts i bunden af dokumentet efter body, da det kan gøre kørslen af koden hurtigere (Nyrup &#38; Andreasen, 2020).
                         </p>
                     </section>
                     
                     <section id="metaogbase" class="mt">
                         <h3 class="underoverskrift">Hvad er head?</h3>
                         <p class="body-text">
-                            Meta tagget definere alt metadata om HTML-dokumentet (Nyrup & Andreasen, 2020). 
+                            Meta tagget definere alt metadata om HTML-dokumentet (Nyrup &#38; Andreasen, 2020). 
                         </p>
                         <p class="body-text">
                             Meta tags går altid inde i head-elementet og bruges typisk til at specificere karaktersæt, sidebeskrivelse, nøgleord, dokumentforfatter og visningsindstillinger (ibid). Det er supervigtigt at inkludere alt for god SEO-rangering (ibid).
@@ -74,7 +74,7 @@
                         <h2 class="overskrift">Hvad er semantiske tags</h2>
                         
                         <p class="body-text">
-                            Semantiske tags er karakteriseret som tags der fortæller noget om indholdet (Nyrup & Andreasen, 2020). De er blevet mere og mere vigtigt gennem tiden, hvor man tidligere bare brugte ikke semantiske tags til at bygge sine sider (ibid). Det er på grund af den stor vækst i vigtigheden af SEO (ibid). Eksempler på semantiske tags er:
+                            Semantiske tags er karakteriseret som tags der fortæller noget om indholdet (Nyrup &#38; Andreasen, 2020). De er blevet mere og mere vigtigt gennem tiden, hvor man tidligere bare brugte ikke semantiske tags til at bygge sine sider (ibid). Det er på grund af den stor vækst i vigtigheden af SEO (ibid). Eksempler på semantiske tags er:
                         </p>
                     </section>
                     
@@ -177,15 +177,42 @@
                 <section id="fordele-semantisk">
                     <h2 class="overskrift">Fordelen ved semantiske tags</h2>
                     <p class="body-text">
-                        Udover SEO som er den primær grund til at man skal bruge semantiske tags, da det gør det nemmere for serveren og søgemaskinerne at forstå din sides struktur (Nyrup & Andreasen, 2020). Så er fordelen også at man kan bygge en mere overskuelig struktur af koden til når andre programmører skal kigge og fortolke ens kode (ibid). Det vil for eksempel være vigtigt til når man skal arbejde sammen med andre om at bygge en webside (ibid).
+                        Udover SEO som er den primær grund til at man skal bruge semantiske tags, da det gør det nemmere for serveren og søgemaskinerne at forstå din sides struktur (Nyrup &#38; Andreasen, 2020). Så er fordelen også at man kan bygge en mere overskuelig struktur af koden til når andre programmører skal kigge og fortolke ens kode (ibid). Det vil for eksempel være vigtigt til når man skal arbejde sammen med andre om at bygge en webside (ibid).
                     </p>
                 </section>
                 
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            Nyrup, K. S. &#38; Andreasen, F. I. N., 2020. Semantiske tags og head (meta/base). [Online] 
+                            Available at: http://10854.apache.eadania.dk/semantisk/?fbclid=IwAR29j6hUMGbjaYR4mqHcNC-MS9G0StqHn0EOaALlvMmT_oUTTZORa1hIia4
+                            [Senest hentet eller vist den 7 december 2020].
+
+                        </li>
+                        <li>
+                            W3schools, 2020. HTML - The Head Element. [Online] 
+                            Available at: https://www.w3schools.com/html/html_head.asp
+                            [Senest hentet eller vist den 10 december 2020].
+
+                        </li>
+                        <li>
+                            W3schools, 2020. HTML Semantic Elements. [Online] 
+                            Available at: https://www.w3schools.com/html/html5_semantic_elements.asp
+                            [Senest hentet eller vist den 9 december 2020].
+
+                        </li>
+                        <li>
+                            W3schools, 2020. WEB - SEO. [Online] 
+                            Available at: https://www.quanzhanketang.com/website/web_search.html
+                            [Senest hentet eller vist den 2 december 2020].
+
+                        </li>
+                        <li>
+                            Østergaard, N., 2020. HTML. [Online] 
+                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=154867&#38;redirect=1
+                            [Senest hentet eller vist den 2 december 2020].
+                        </li>
                     </ul>
                 </section>
                 

@@ -21,6 +21,8 @@
         <header class="kodning-header">
             <?php include 'menu.inc' ?>
         </header>
+        
+             <?php include 'undermenu-css.inc' ?>
             
             <div id="mitgrid-display-position">
                 
@@ -123,8 +125,16 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            W3schools, 2020. CSS display Property. [Online] 
+                            Available at: https://www.w3schools.com/cssref/pr_class_display.asp
+                            [Senest hentet eller vist den 8 december 2020].
+                        </li>
+                        <li>
+                            W3schools, 2020. CSS Layout - The position Property. [Online] 
+                            Available at: https://www.w3schools.com/css/css_positioning.asp
+                            [Senest hentet eller vist den 8 december 2020].
+                        </li>
                     </ul>
                 </section>
             </div> <!-- MITGRID -->

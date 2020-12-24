@@ -1,5 +1,5 @@
 <nav class="globalmenu">
-                    <nav class="navbar navbar-expand-lg navbar-dark">
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                       <a class="navbar-brand" href="index.php"><img src="closure-logo-white.png"></a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="burgermenu-line"></span>
@@ -127,7 +127,7 @@
                 
                 <!-- DESKTOP  GLOBAL MENU -->
                     <nav class="globalmenu-desktop">
-                        <nav class="navbar navbar-expand-lg navbar-custom">
+                        <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
                           <a class="navbar-brand" href="index.php"><img src="closure-logo-white.png"></a>
                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">

@@ -83,8 +83,21 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            W3schools, 2020. HTML class Attribute. [Online] 
+                            Available at: https://www.w3schools.com/html/html_classes.asp
+                            [Senest hentet eller vist den 8 december 2020].
+                        </li>
+                        <li>
+                            W3Schools, 2020. HTML Elements. [Online] 
+                            Available at: https://www.w3schools.com/html/html_elements.asp
+                            [Senest hentet eller vist den 8 december 2020].
+                        </li>
+                        <li>
+                            W3schools, 2020. HTML id Attribute. [Online] 
+                            Available at: https://www.w3schools.com/html/html_id.asp
+                            [Senest hentet eller vist den 11 december 2020].
+                        </li>
                     </ul>
                 </section>
             </div> <!-- MITGRID -->

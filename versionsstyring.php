@@ -29,7 +29,7 @@
                 <section id="hvad-er-version">
                     <h2 class="overskrift">Hvad er versionsstyring?</h2>
                     <p class="body-text">
-                        Versionstyring er en metodisk tilgang, hvor man systematisk opstiller sine filer og mapper, med for eksempel navngivning og supplerende kommentarer til hvilke ændringerne man har fortaget sig i en hvis version af samme fil (Rijna & Knudsen, 2020). Så man ligsom kan eksperimentere med mange forskellige ideer på sammetid uden egentligt at ændre på selve projekt(hovedforløbet) (ibid).
+                        Versionstyring er en metodisk tilgang, hvor man systematisk opstiller sine filer og mapper, med for eksempel navngivning og supplerende kommentarer til hvilke ændringerne man har fortaget sig i en hvis version af samme fil (Rijna &#38; Knudsen, 2020). Så man ligsom kan eksperimentere med mange forskellige ideer på sammetid uden egentligt at ændre på selve projekt(hovedforløbet) (ibid).
                     </p>
                     <p class="body-text">
                         VCS (Version Control System) kan understøtte versionsyring, idet at det holder styr på hvilke ændringer man har lavede i de forskellige versioner (ibid).
@@ -81,48 +81,52 @@
                     <h2 class="overskrift">Fordele ved Github?</h2>
                     <ul class="liste">
                         <li>
-                        
+                            
                         </li>
                         <li>
-                        
+                            
                         </li>
                         <li>
-                        
+                            
                         </li>
                         <li>
-                        
+                            
                         </li>
                         <li>
-                        
+                            
                         </li>
                         <li>
-                        
+                            
                         </li>
                     </ul>
+                    
+                    <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html">Vil du gerne have en mere detaljeret guide til hvordan man laver versionsstyring på Github?</a>
                 </section>
                 
                 <section id="version-onepage">
                     <h2 class="overskrift">Github under One Page projektet</h2>
                     <p class="body-text">
-                    
+                        
                     </p>
                     
                     <h3 class="underoverskrift"></h3>
                     <p class="body-text">
-                    
+                        
                     </p>
                     
                     <h3 class="underoverskrift"></h3>
                     <p class="body-text">
-                    
+                        
                     </p>
                 </section>
         
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            Rijna, D. &#38; Knudsen, V. A., 2020. Versionsstyring [Online]
+                            Available at: <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html">http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html</a> [Senest hentet eller vist den 26 november 2020].
+                        </li>
                     </ul>
                 </section>
             </div> <!-- MITGRID -->
