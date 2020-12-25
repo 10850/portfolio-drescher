@@ -58,7 +58,7 @@
                     </ul>
 
 
-                    <img src="kodning/kodeskikke/godskikke.jpg" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
+                    <img src="kodning/kodeskikke/godskik.JPG" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
                 </section>
                 
         

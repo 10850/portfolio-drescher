@@ -81,22 +81,16 @@
                     <h2 class="overskrift">Fordele ved Github?</h2>
                     <ul class="liste">
                         <li>
-                            
+                            Man kan lave flere versioner af samme fil (Rijna &#38; Knudsen, 2020).
                         </li>
                         <li>
-                            
+                            Man kan eksperimentere uden at det indflydelse på hovedforløbet (ibid).
                         </li>
                         <li>
-                            
+                            Man kan gå tilbage til gamle versioner (ibid).
                         </li>
                         <li>
-                            
-                        </li>
-                        <li>
-                            
-                        </li>
-                        <li>
-                            
+                            Det nemmere at arbejde sammen med andre (ibid).
                         </li>
                     </ul>
                     
@@ -106,17 +100,17 @@
                 <section id="version-onepage">
                     <h2 class="overskrift">Github under One Page projektet</h2>
                     <p class="body-text">
-                        
+                        Da vi gik gennem one page projektet skulle jeg bruge github for første gang som et værktøj for gruppearbejde. 
                     </p>
                     
-                    <h3 class="underoverskrift"></h3>
+                    <h3 class="underoverskrift">Online gruppe arbejde via Github</h3>
                     <p class="body-text">
-                        
+                        På grund af Corona restriktionerne og sygdom var det meste af one page projektet lavet online. Det var here github viste sig at være et fantastisk værktøj fordi jeg kunne styrer processen for hvilke ændringer kommer ind i hovedforløbet og alle gruppemedlemmerne kunne lave deres egne versioner af samme dokumenter hvor de eksperimenteret. Hvor jeg eller dem efter at sige til mig kunne commit det til hovedforløbet.
                     </p>
                     
-                    <h3 class="underoverskrift"></h3>
+                    <h3 class="underoverskrift">Mulighed for at alle koder</h3>
                     <p class="body-text">
-                        
+                        Github løste på en måde et problem vi alle på studiet havde før, som var at når man lavede gruppearbejde endte det altid med at en person koder og resten byder ind. Men med Github kunne alle kode i deres egen branch og commit til hovedforløbet derfra så længe vi gav hinanden besked og diskuteret det med os førhen. Det gjorde det meget nemmere at få alle ind i processen selv om vi ikke fysisk var sammen.
                     </p>
                 </section>
         

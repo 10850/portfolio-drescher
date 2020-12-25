@@ -58,14 +58,14 @@
                         <p class="body-text">
                             Meta tags går altid inde i head-elementet og bruges typisk til at specificere karaktersæt, sidebeskrivelse, nøgleord, dokumentforfatter og visningsindstillinger (ibid). Det er supervigtigt at inkludere alt for god SEO-rangering (ibid).
                         </p>
-                        
-                        <img src="kodning/seo/metadata.jpg" alt="eksempel på metadata done right" id="meta-eksempel">
+
+                        <img src="kodning/seo/metadatause.JPG" alt="eksempel på metadata done right" id="meta-eksempel">
                         
                         <p id="skalinclude" class="body-text">
                             Man skal inkludere dette I sit metadata for viewport/visningsindstillinger for at ens side kan være responsiv (W3schools, 2020):
                         </p>
                         
-                        <img src="kodning/seo/viewport.png" alt="viewport for responsiv side" id="viewport-img">
+                        <img src="kodning/seo/viewport-use.JPG" alt="viewport for responsiv side" id="viewport-img">
                     </section>
                 </section> <!-- Metabase -->
         
