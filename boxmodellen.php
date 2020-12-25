@@ -30,30 +30,32 @@
         
         
                 <section id="boxmodellen">
-                    <p class="body-text">
+                    <p class="body-text" id="intro-boxmodel">
                         Modellen beskriver hvordan HTML elementer repræsenteres som kasser og dette gælder for alle elementer man arbejder med i CSS (W3schools, 2020).
                     </p>
                     
                     <img src="kodning/css/boxmodel/boxmodel.jpg" alt="billed af boxmodellen fra W3Schools" id="boxmodel-img">
                     
-                    <p class="body-text">
+                    <section id="boxmodel-elementer">
+                        <p class="body-text">
                         <strong>Modellen beskriver hvordan HTML elementer repræsenteres som kasser og dette gælder for alle elementer man arbejder med i CSS (W3schools, 2020).</strong>
-                    </p>
-                    
-                    <ul class="liste" id="box-elements">
-                        <li>
-                            Content: indholdet i elementet på HTML (W3schools, 2020).
-                        </li>
-                        <li>
-                            Padding: som defineres af det space som er mellem padding og content (ibid).
-                        </li>
-                        <li>
-                            Border: rammen uden om elementet og dens padding (ibid).
-                        </li>
-                        <li>
-                            Margin: som defineres af det space som er mellem hele         elementets kasse og andre elementer på din side (ibid).
-                        </li>
-                    </ul>
+                        </p>
+
+                        <ul class="liste" id="box-elements">
+                            <li>
+                                Content: indholdet i elementet på HTML (W3schools, 2020).
+                            </li>
+                            <li>
+                                Padding: som defineres af det space som er mellem padding og content (ibid).
+                            </li>
+                            <li>
+                                Border: rammen uden om elementet og dens padding (ibid).
+                            </li>
+                            <li>
+                                Margin: som defineres af det space som er mellem hele         elementets kasse og andre elementer på din side (ibid).
+                            </li>
+                        </ul>
+                    </section>
                 </section>
         
         

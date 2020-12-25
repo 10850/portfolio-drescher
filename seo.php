@@ -28,14 +28,14 @@
                 
                 <h1 class="titel">SEO, Semantiske tags og Metadata</h1>
         
-                <section class="seo-intro">
+                <section id="seo-intro">
                     <h2 class="overskrift">SEO</h2>
                     <p class="body-text">
                         SEO står for Search Engine Optimization og er det som alle søgemaskiner (google) bruger til at rangere hjemmesider på internettet (W3schools, 2020). Det er for at give brugerne de bedste hjemmesider som følge standarderne på toppen, som er det man ser først (ibid). Derfor er det derfor man følge standarderne for SEO når man koder, som brugen af semantiske tags, have styr på sit meta-data, alternativ billedtekst, responsivt design, mobilvenlighed, lav billedstørrelse for hurtig loading osv. (ibid).
                     </p>
                 </section> <!-- SEO -->
                 
-                <section class="metadata-intro">
+                <section id="metadata-intro">
                     <h2 class="overskrift">Metadata</h2>
                     <section id="hvad-er-head" class="mt">
                         <h3 class="underoverskrift">Hvad er head?</h3>
@@ -61,7 +61,7 @@
                         
                         <img src="kodning/seo/metadata.jpg" alt="eksempel på metadata done right" id="meta-eksempel">
                         
-                        <p class="body-text">
+                        <p id="skalinclude" class="body-text">
                             Man skal inkludere dette I sit metadata for viewport/visningsindstillinger for at ens side kan være responsiv (W3schools, 2020):
                         </p>
                         
@@ -78,7 +78,7 @@
                         </p>
                     </section>
                     
-                    <section class="mt" id="semantisk-intro">
+                    <section class="mt" id="semantisk-tags-list">
                         <h3 class="underoverskrift">Semantiske tags</h3>
                         
                         <p class="body-text">
@@ -93,11 +93,9 @@
                             <strong>Tommelfingerregel:</strong>brug aldrig mere end 1 h1 på en webside (Østergaard, 2020). 
                         </p>
                     </section>
-                </section> <!-- Hvad er semantiske tags -->
-                
-                
-                <section id="andre-tags-semantisk">
-                    <h2 class="overskrift">Flere semantiske tags</h2>
+                    
+                    <section id="andre-tags-semantisk">
+                    <h3 class="underoverskrift">Flere semantiske tags</h3>
                     
                     <h4 class="sub-skrift">&#60;p&#62;</h4>
                     <p class="body-text">
@@ -151,7 +149,7 @@
                 <img src="kodning/kodeskikke/godskikke.jpg" id="semantisk-html-struktur">
                 
                 <section id="ik-semantisk">
-                    <h2 class="overskrift">Ikke semantiske tags</h2>
+                    <h3 class="underoverskrift">Ikke semantiske tags</h3>
                     
                     <p class="body-text">
                         Ikke semantiske tags er tags som ikke fortæller noget om indholdet (Østergaard, 2020). Disse burde kun bruges til når man har noget bestemt man gerne vil formater/style på en bestemt måde (ibid). Eksempler på disse er:
@@ -173,6 +171,10 @@
                         Minder om &#60;div&#62; og &#60;p&#62; og bruges typisk på enkelte linjer som skal formateres på en bestemt måde (Østergaard, 2020). &#60;span&#62; medfører ikke linjeskift (ibid).
                     </p>
                 </section>
+                </section> <!-- Hvad er semantiske tags -->
+                
+                
+                
                 
                 <section id="fordele-semantisk">
                     <h2 class="overskrift">Fordelen ved semantiske tags</h2>

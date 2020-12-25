@@ -118,7 +118,7 @@
                         </p>
                     </section>
                     
-                    <img src="kodning/formularer/nyhedsbrev-screen.png">
+                    <img src="kodning/formularer/nyhedsbrev-screen.png" id="nyhedsbrev-screen">
                     
                 </section>
                 

@@ -1955,7 +1955,7 @@ video-php h1 {
 .display-psoition-php footer,
 .list-style-php footer,
 .media-queries-php footer,
-.animation footer {
+.animation-php footer {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
@@ -1973,15 +1973,15 @@ video-php h1 {
 .boxmodel-php .navbar,
 .position-php .navbar,
 .bootstrap-php .navbar,
-.php-php footer,
+.php-php .navbar,
 .versionsstyring-php .navbar,
-.server-php footer,
+.server-php .navbar,
 .background-property-php .navbar,
-.border-shadow-php footer,
+.border-shadow-php .navbar,
 .display-psoition-php .navbar,
-.list-style-php footer,
+.list-style-php .navbar,
 .media-queries-php .navbar,
-.animation .navbar {
+.animation-php .navbar {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
@@ -1990,8 +1990,63 @@ video-php h1 {
 
 
 /* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP START */
+/* GRID */
+.seo-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.seo-php #seo-intro {
+    grid-area: seo-intro;
+}
 
+.seo-php #metadata-intro {
+    grid-area: metadata-intro;
+}
+
+.seo-php #hvad-er-semantisk {
+    grid-area: hvad-er-semantisk;
+}
+
+.seo-php #semantisk-tags-list {
+    grid-area: andre-tags-semantisk;
+}
+
+.seo-php #semantisk-html-struktur {
+    grid-area: semantisk-html-struktur;
+}
+
+.seo-php #ik-semantisk {
+    grid-area: ik-semantisk;
+}
+
+.seo-php #fordele-semantisk {
+    grid-area: fordele-semantisk;
+}
+
+.seo-php .kilder {
+    grid-area: kilder;
+    
+}
+
+.kilder a {
+    word-break: break-all;
+}
+
+.seo-php #mitgrid-seo {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "seo-intro"
+        "metadata-intro"
+        "hvad-er-semantisk"
+        "andre-tags-semantisk"
+        "semantisk-html-struktur"
+        "ik-semantisk"
+        "kilder";
+}
 
 /* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP END */
 
@@ -2000,8 +2055,27 @@ video-php h1 {
 
 
 /* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP START */
+.attributter-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.attributter-php #anatomi-html {
+    grid-area: anatomi-html;
+}
 
+.attributter-php .kilder {
+    grid-area: kilder;
+}
+
+.attributter-php #mitgrid-attributter {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    grid-template-areas: 
+        "titel"
+        "anatomi-html"
+        "kilder";
+}
 
 /* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP END */
 
@@ -2010,10 +2084,13 @@ video-php h1 {
 
 
 /* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP START */
+.kodeskik-php h1 {
+    text-align: center;
+}
 
-
-
-
+.kodeskik-php #mitgrid-kodeskikke {
+    margin: 0.8em;
+}
 /* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP END */
 
 
@@ -2021,20 +2098,82 @@ video-php h1 {
 
 
 /* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP START */
+.adressering-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.adressering-php #relativ-adressering {
+    grid-area: relativ-adressering;
+}
 
+.adressering-php #absolut-adressering {
+    grid-area: absolut-adressering;
+}
 
+.adressering-php .kilder {
+    grid-area: kilder;
+}
 
-
+.adressering-php #mitgrid-adressering {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "relativ-adressering"
+        " absolut-adressering"
+        "kilder";
+}
 /* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP END */
 
 
 
 /* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP START */
+.formularer-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.formularer-php #form-intro {
+    grid-area: form-intro;
+}
 
+.formularer-php #formularer-tags {
+    grid-area: formularer-tags;
+}
 
+.formularer-php #formular-attribures {
+    grid-area: formular-attribures;
+}
 
+.formularer-php #nyhedsbrev-formularer {
+    grid-area: nyhedsbrev-formularer;
+}
+
+.formularer-php #searchbar {
+    grid-area: searchbar;
+}
+
+.formularer-php .kilder {
+    grid-area: kilder;
+}
+
+.formularer-php #mitgrid-formularer {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "form-intro"
+        "formularer-tags"
+        "formular-attribures"
+        "nyhedsbrev-formularer"
+        "searchbar"
+        "kilder";
+}
 
 /* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP END */
 
@@ -2043,19 +2182,77 @@ video-php h1 {
 
 
 /* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           START */
+.videoogimg-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.videoogimg-php #video-html {
+    grid-area: video-html;
+}
 
+.videoogimg-php #billeder-html {
+    grid-area: billeder-html;
+}
 
+.videoogimg-php .kilder {
+    grid-area: kilder;
+}
+
+.videoogimg-php #mitgrid-videoogimg {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "video-html"
+        "billeder-html"
+        "kilder";
+}
 
 /* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           END */
 
 
 
 /* PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP START */
+.php-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.php-php #hvad-er-serversider {
+    grid-area: hvad-er-serversider;
+}
 
+.php-php #php-include {
+    grid-area: php-include;
+}
 
+.php-php #hvaderinclude {
+    grid-area: hvaderinclude;
+}
 
+.php-php #andremuligheder {
+    grid-area: andremuligheder;
+}
+
+.php-php .kilder {
+    grid-area: kilder;
+}
+
+.php-php #mitgrid-php {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-serversider"
+        "php-include"
+        "hvaderinclude"
+        "andremuligheder"
+        "kilder";
+}
 
 /* PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP END */
 
@@ -2064,10 +2261,39 @@ video-php h1 {
 
 
 /* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP START */
+.bootstrap-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.bootstrap-php #hvad-er-bootstrap {
+    grid-area: hvad-er-bootstrap;
+}
 
+.bootstrap-php #bootstrap-praksis {
+    grid-area: bootstrap-praksis;
+}
 
+.bootstrap-php #fordelogulemp-bootstrap {
+    grid-area: fordelogulemp-bootstrap;
+}
 
+.bootstrap-php .kilder {
+    grid-area: kilder;
+}
+
+.bootstrap-php #mitgrid-bootstrap {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-bootstrap"
+        "bootstrap-praksis"
+        "fordelogulemp-bootstrap"
+        "kilder"
+}
 
 /* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP END */
 
@@ -2076,10 +2302,28 @@ video-php h1 {
 
 
 /* BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP START */
+.boxmodel-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.boxmodel-php #boxmodellen {
+    grid-area: boxmodel;
+}
 
+.boxmodel-php .kilder {
+    grid-area: kilder;
+}
 
-
+.boxmodel-php #mitgrid-boxmodellen {
+    margin: 0.8em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "boxmodel"
+        "kilder";
+}
 
 /* BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP END */
 
@@ -2088,21 +2332,77 @@ video-php h1 {
 
 
 /* SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP START */
+.selectors-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.selectors-php #hvadercss {
+    grid-area: hvadercss;
+}
 
+.selectors-php #selectors-css {
+    grid-area: selectors-css;
+}
 
+.selectors-php #psuedo-selector {
+    grid-area: psuedo-selector;
+}
 
+.selectors-php .kilder {
+    grid-area: kilder;
+}
 
+.selectors-php #mitgrid-selectors {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvadercss"
+        "selectors-css"
+        "psuedo-selector"
+        "kilder";
+}
 /* SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP END */
 
 
 
 
 /* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP START */
+.border-shadow-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.border-shadow-php #borders-css {
+    grid-area: borders-css;
+}
 
+.border-shadow-php #shadow-css {
+    grid-area: shadow-css;
+}
 
+.border-shadow-php #border-shadow-text-prakis {
+    grid-area: border-shadow-text-prakis;
+}
 
+.border-shadow-php .kilder {
+    grid-area: kilder;
+}
+
+.border-shadow-php #mitgrid-border-shadow {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "border-css"
+        "shadow-css"
+        "border-shadow-text-praksis"
+        "kilder";
+}
 
 /* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP END */
 
@@ -2111,10 +2411,39 @@ video-php h1 {
 
 
 /* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP START*/
+.background-property-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.background-property-php #background-intro {
+    grid-area: background-intro;
+}
 
+.background-property-php #radial-image {
+    grid-area: radial-image;
+}
 
+.background-property-php #linear-image {
+    grid-area: linear-image;
+}
 
+.background-property-php .kilder {
+    grid-area: kilder;
+}
+
+.background-property-php #mitgrid-background-property {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "background-intro"
+        "radial-image"
+        "linear-image"
+        "kilder";
+}
 
 /* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP END */
 
@@ -2122,8 +2451,34 @@ video-php h1 {
 
 
 /* DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  START */
+.display-psoition-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.display-psoition-php #display {
+    grid-area: display;
+}
 
+.display-psoition-php #position {
+    grid-area: position;
+}
+
+.display-psoition-php .kilder {
+    grid-area: kilder;
+}
+
+.display-psoition-php #mitgrid-display-position {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "display"
+        "position"
+        "kilder";
+}
 
 /* DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  END */
 
@@ -2132,10 +2487,34 @@ video-php h1 {
 
 
 /* LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP START*/
+.list-style-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.list-style-php #lists-css {
+    grid-area: lists-css;
+}
 
+.list-style-php #list-style-image {
+    grid-area: list-style-image;
+}
 
+.list-style-php .kilder {
+    grid-area: kilder;
+}
 
+.list-style-php #mitgrid-list-style {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "lists-css"
+        "list-style-image"
+        "kilder";
+}
 
 /* LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP END */
 
@@ -2144,10 +2523,33 @@ video-php h1 {
 
 
 /* MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP START */
+.media-queries-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.media-queries-php #media-queries-css {
+    grid-area: media-queries-css;
+}
 
+.media-queries-php #softbites-media {
+    grid-area: softbites-media;
+}
 
+.media-queries-php .kilder {
+    grid-area: kilder;
+}
 
+.media-queries-php #mitgrid-media-queries {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "media-queries-css"
+        "softbites-media"
+        "kilder";
+}
 
 /* MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP END */
 
@@ -2156,9 +2558,38 @@ video-php h1 {
 
 
 /* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP START */
+.animation-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.animation-php #transition-css {
+    grid-area: transition-css;
+}
 
+.animation-php #animation-css {
+    grid-area: animation-css;
+}
 
+.animation-php #keyframes-css {
+    grid-area: keyframes-css;
+}
+
+.animation-php .kilder {
+    grid-area: kilder;
+}
+
+.animation-php #mitgrid-animation {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "transition-css"
+        "animation-css"
+        "keyframes-css"
+        "kilder";
+}
 
 /* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP END */
 
@@ -2167,10 +2598,38 @@ video-php h1 {
 
 
 /* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP START */
+.cssgrid-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.cssgrid-php #grid-intro {
+    grid-area: grid-intro;
+}
 
+.cssgrid-php #to-metoder-grid {
+    grid-area: to-metoder-grid;
+}
 
+.cssgrid-php #hvad-fik-jeg-grid {
+    grid-area: hvadfikjeg;
+}
 
+.cssgrid-php .kilder {
+    grid-area: kilder;
+}
+
+.cssgrid-php #mitgrid-cssgrid {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "grid-intro"
+        "to-metoder-grid"
+        "hvadfikjeg"
+        "kilder"
+}
 
 /* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP END */
 
@@ -2179,11 +2638,48 @@ video-php h1 {
 
 
 /* VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP START */
+.versionsstyring-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
 
+.versionsstyring-php  #hvad-er-version {
+    grid-area: hvad-er-version;
+}
 
+.versionsstyring-php #hvad-er-git {
+    grid-area: hvad-er-git;
+}
 
+.versionsstyring-php #hvad-er-github {
+    grid-area: hvad-er-github;
+}
 
+.versionsstyring-php #version-anvend {
+    grid-area: version-anvend;
+}
 
+.versionsstyring-php #version-onepage {
+    grid-area: version-onepage;
+}
+
+.versionsstyring-php .kilder {
+    grid-area: kilder;
+}
+
+.versionsstyring-php #mitgrid-versionsstyring {
+    margin: 0.8em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-version"
+        "hvad-er-git"
+        "hvad-er-github"
+        "version-anvend"
+        "version-onepage"
+        "kilder";
+}
 
 /* VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP END */
 
@@ -3168,6 +3664,987 @@ usability-table {
     margin-bottom: 10px;
 }
 /* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
+
+    
+    
+
+
+    
+    
+/* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER START */
+    
+/* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP START */
+/* GRID */
+.seo-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.seo-php #seo-intro {
+    grid-area: seo-intro;
+}
+
+.seo-php #metadata-intro {
+    grid-area: metadata-intro;
+}
+
+.seo-php #hvad-er-semantisk {
+    grid-area: hvad-er-semantisk;
+}
+
+.seo-php #semantisk-tags-list {
+    grid-area: andre-tags-semantisk;
+}
+
+.seo-php #semantisk-html-struktur {
+    grid-area: semantisk-html-struktur;
+}
+
+.seo-php #ik-semantisk {
+    grid-area: ik-semantisk;
+}
+
+.seo-php #fordele-semantisk {
+    grid-area: fordele-semantisk;
+}
+
+.seo-php .kilder {
+    grid-area: kilder;
+}
+
+.seo-php #mitgrid-seo {
+    margin: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "seo-intro"
+        "metadata-intro"
+        "hvad-er-semantisk"
+        "andre-tags-semantisk"
+        "semantisk-html-struktur"
+        "ik-semantisk"
+        "kilder";
+}
+    
+.seo-php #skalinclude {
+     padding-bottom: 0;
+     padding-top: 25px;
+}
+    
+    
+    .seo-php #semantisk-intro {
+        grid-area: semantisk-intro;
+    }
+    
+    .seo-php #semantisk-tags-list {
+        grid-area: semantisk-tags-list;
+    }
+    
+    .seo-php #hvad-er-semantisk {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "semantisk-intro semantisk-intro"
+            "semantisk-tags-list ik-semantisk"
+            "andre-tags-semantisk ik-semantisk"
+            "semantisk-html-struktur semantisk-html-struktur";
+    }
+    
+
+/* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP END */
+
+
+
+
+
+/* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP START */
+.attributter-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+    
+.attributter-php #html-anatomi-img {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.attributter-php #anatomi-html {
+    grid-area: anatomi-html;
+}
+
+.attributter-php .kilder {
+    grid-area: kilder;
+}
+
+.attributter-php #mitgrid-attributter {
+    margin: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-template-areas: 
+        "titel"
+        "anatomi-html"
+        "kilder";
+}
+
+/* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP END */
+
+
+
+
+
+/* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP START */
+.kodeskik-php h1 {
+    text-align: center;
+}
+    
+.kodeskik-php #kodeskikke-good-bad ul {
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.kodeskik-php #god-skikke-img {
+     margin-bottom: 35px;
+}
+    
+.kodeskik-php #mitgrid-kodeskikke {
+    margin: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP END */
+
+
+
+
+
+/* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP START */
+.adressering-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.adressering-php #relativ-adressering {
+    grid-area: relativ-adressering;
+}
+
+.adressering-php #absolut-adressering {
+    grid-area: absolut-adressering;
+}
+
+.adressering-php .kilder {
+    grid-area: kilder;
+}
+    
+.adressering-php #absolut-adressering .overskrift,
+.adressering-php  #relativ-adressering .overskrift {
+        text-align: center;
+}
+    
+.adressering-php #relativ-adressering h4 {
+        margin-top: 15px;
+}
+
+.adressering-php #mitgrid-adressering {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-column-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "relativ-adressering absolut-adressering"
+        "kilder kilder";
+}
+/* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP END */
+
+
+
+/* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP START */
+.formularer-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.formularer-php #form-intro {
+    grid-area: form-intro;
+}
+
+.formularer-php #formularer-tags {
+    grid-area: formularer-tags;
+}
+
+.formularer-php #formular-attribures {
+    grid-area: formular-attribures;
+}
+
+.formularer-php #nyhedsbrev-formularer {
+    grid-area: nyhedsbrev-formularer;
+}
+
+.formularer-php #searchbar {
+    grid-area: searchbar;
+}
+
+.formularer-php .kilder {
+    grid-area: kilder;
+}
+    
+    .formularer-php  #nyhedsbrev-screen,
+    .formularer-php #searchbar-img{
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+
+.formularer-php #mitgrid-formularer {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "form-intro form-intro"
+        "formularer-tags formular-attribures"
+        "nyhedsbrev-formularer nyhedsbrev-formularer"
+        "searchbar searchbar"
+        "kilder kilder";
+}
+
+/* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP END */
+
+
+
+
+
+/* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           START */
+.videoogimg-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.videoogimg-php #video-html {
+    grid-area: video-html;
+}
+
+.videoogimg-php #billeder-html {
+    grid-area: billeder-html;
+}
+
+.videoogimg-php .kilder {
+    grid-area: kilder;
+}
+    
+.videoogimg-php video {
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.videoogimg-php #mitgrid-videoogimg {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "video-html"
+        "billeder-html"
+        "kilder";
+}
+       
+    .videoogimg-php #mitgrid-videoogimg  img {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+/* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           END */
+
+
+
+/* PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP START */
+.php-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.php-php #hvad-er-serversider {
+    grid-area: hvad-er-serversider;
+}
+
+.php-php #php-include {
+    grid-area: php-include;
+}
+
+.php-php #hvaderinclude {
+    grid-area: hvaderinclude;
+}
+
+.php-php #andremuligheder {
+    grid-area: andremuligheder;
+}
+
+.php-php .kilder {
+    grid-area: kilder;
+}
+
+.php-php #mitgrid-php {
+    margin: 3.5em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-serversider"
+        "php-include"
+        "hvaderinclude"
+        "andremuligheder"
+        "kilder";
+}
+
+    
+.php-php #kode-menuinc {
+        grid-area: kode-menuinc;
+}
+    
+.php-php #menuinc-kode {
+    margin-top: 1.5em;
+}
+    
+.php-php #kode-include {
+        grid-area: kode-include;
+}
+    
+.php-php #kode-include-screen {
+        grid-area: kode-include-screen;
+}
+    
+.php-php #hvadinclude-intro {
+    grid-area: hvadinclude-intro;
+}
+    
+.php-php #hvaderinclude {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "hvadinclude-intro hvadinclude-intro"
+        "kode-include kode-menuinc"
+        "kode-include-screen kode-include-screen";
+}
+/* PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP END */
+
+
+
+
+
+/* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP START */
+.bootstrap-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.bootstrap-php #hvad-er-bootstrap {
+    grid-area: hvad-er-bootstrap;
+}
+
+.bootstrap-php #bootstrap-praksis {
+    grid-area: bootstrap-praksis;
+}
+
+.bootstrap-php #fordelogulemp-bootstrap {
+    grid-area: fordelogulemp-bootstrap;
+}
+
+.bootstrap-php .kilder {
+    grid-area: kilder;
+}
+
+.bootstrap-php #mitgrid-bootstrap {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-bootstrap"
+        "bootstrap-praksis"
+        "fordelogulemp-bootstrap"
+        "kilder"
+}
+    
+.bootstrap-php #fordele-bootstrap .overskrift {
+    grid-area: overskrift; 
+}
+    
+.bootstrap-php #fordele-bootstrap {
+     grid-area: fordele; 
+}
+    
+.bootstrap-php #ulemper-bootstrap {
+    grid-area: ulemper;
+}
+    
+.bootstrap-php #fordelogulemp-bootstrap {
+     display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "overskrift overskrift"
+        "fordele ulemper";
+}
+
+/* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP END */
+
+
+
+
+
+/* BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP START */
+.boxmodel-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.boxmodel-php #boxmodellen {
+    grid-area: boxmodel;
+}
+
+.boxmodel-php .kilder {
+    grid-area: kilder;
+}
+
+.boxmodel-php #mitgrid-boxmodellen {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "boxmodel"
+        "kilder";
+}
+    
+
+.boxmodel-php #intro-boxmodel {
+       grid-area: intro; 
+}
+    
+.boxmodel-php #boxmodel-img {
+        grid-area: boxmodel-img;
+}
+    
+.boxmodel-php #boxmodel-elementer {
+        grid-area: boxmodel-element;
+}
+    
+.boxmodel-php #boxmodellen {
+       display: grid;
+    grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "intro intro"
+            "boxmodel-img boxmodel-element"
+}
+/* BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP END */
+
+
+
+
+
+/* SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP START */
+.selectors-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.selectors-php #hvadercss {
+    grid-area: hvadercss;
+}
+
+.selectors-php #selectors-css {
+    grid-area: selectors-css;
+}
+
+.selectors-php #psuedo-selector {
+    grid-area: psuedo-selector;
+}
+
+.selectors-php .kilder {
+    grid-area: kilder;
+}
+
+.selectors-php #mitgrid-selectors {
+    margin: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvadercss"
+        "selectors-css"
+        "psuedo-selector"
+        "kilder";
+}
+/* SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP END */
+
+
+
+
+/* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP START */
+.border-shadow-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.border-shadow-php #borders-css {
+    grid-area: borders-css;
+}
+
+.border-shadow-php #shadow-css {
+    grid-area: shadow-css;
+}
+
+.border-shadow-php #border-shadow-text-prakis {
+    grid-area: border-shadow-text-prakis;
+}
+
+.border-shadow-php .kilder {
+    grid-area: kilder;
+}
+
+.border-shadow-php #mitgrid-border-shadow {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "border-css"
+        "shadow-css"
+        "border-shadow-text-praksis"
+        "kilder";
+}
+
+/* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP END */
+
+
+
+
+
+/* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP START*/
+.background-property-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.background-property-php #background-intro {
+    grid-area: background-intro;
+}
+
+.background-property-php #radial-image {
+    grid-area: radial-image;
+}
+
+.background-property-php #linear-image {
+    grid-area: linear-image;
+}
+
+.background-property-php .kilder {
+    grid-area: kilder;
+}
+
+.background-property-php #mitgrid-background-property {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "background-intro"
+        "radial-image"
+        "linear-image"
+        "kilder";
+}
+    
+.background-property-php #whitman-kode {
+      grid-area: whitmankode;  
+}
+    
+.background-property-php #whitman-start {
+    grid-area: whitmanstart;
+}
+    
+.background-property-php #whitman-slut {
+    grid-area: whitmanslut;
+}
+    
+.background-property-php #radial-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "whitmankode whitmankode"
+        "whitmanstart whitmanslut";
+}
+    
+    
+    
+    
+.background-property-php #sonnet-kode {
+        grid-area: sonnetkode;
+}
+    
+.background-property-php #sonnet-start {
+        grid-area: sonnetstart;
+}
+    
+.background-property-php #sonnet-slut {
+        grid-area: sonnetslut;
+}
+    
+.background-property-php #linear-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "sonnetkode sonnetkode"
+            "sonnetstart sonnetslut";
+}
+
+/* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP END */
+
+
+
+
+/* DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  START */
+.display-psoition-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.display-psoition-php #display {
+    grid-area: display;
+}
+
+.display-psoition-php #position {
+    grid-area: position;
+}
+
+.display-psoition-php .kilder {
+    grid-area: kilder;
+}
+
+.display-psoition-php #mitgrid-display-position {
+    margin: 3.5em;
+    margin-bottom: 1em;;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "display"
+        "position"
+        "kilder";
+}
+
+/* DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  END */
+
+
+
+
+
+/* LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP START*/
+.list-style-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.list-style-php #lists-css {
+    grid-area: lists-css;
+}
+
+.list-style-php #list-style-image {
+    grid-area: list-style-image;
+}
+
+.list-style-php .kilder {
+    grid-area: kilder;
+}
+
+.list-style-php #mitgrid-list-style {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "lists-css"
+        "list-style-image"
+        "kilder";
+}
+
+    
+
+/* LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP END */
+
+
+
+
+
+/* MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP START */
+.media-queries-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.media-queries-php #media-queries-css {
+    grid-area: media-queries-css;
+}
+
+.media-queries-php #softbites-media {
+    grid-area: softbites-media;
+}
+
+.media-queries-php .kilder {
+    grid-area: kilder;
+}
+
+.media-queries-php #mitgrid-media-queries {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "media-queries-css"
+        "softbites-media"
+        "kilder";
+}
+    
+.media-queries-php #softbites-break-mobil {
+       grid-area: softbitesmobil; 
+}
+
+    
+.media-queries-php #softbites-break-desktop {
+        grid-area: softbitesdesktop;
+}
+    
+.media-queries-php #softbites-media {
+        margin-bottom: 25px;
+        display: grid;
+        grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "softbitesmobil softbitesdesktop";
+}
+/* MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP END */
+
+
+
+
+
+/* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP START */
+.animation-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.animation-php #transition-css {
+    grid-area: transition-css;
+}
+
+.animation-php #animation-css {
+    grid-area: animation-css;
+}
+
+.animation-php #keyframes-css {
+    grid-area: keyframes-css;
+}
+
+.animation-php .kilder {
+    grid-area: kilder;
+}
+
+.animation-php #mitgrid-animation {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "transition-css"
+        "animation-css"
+        "keyframes-css"
+        "kilder";
+}
+
+/* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP END */
+
+
+
+
+
+/* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP START */
+.cssgrid-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.cssgrid-php #grid-intro {
+    grid-area: grid-intro;
+}
+
+.cssgrid-php #to-metoder-grid {
+    grid-area: to-metoder-grid;
+}
+
+.cssgrid-php #hvad-fik-jeg-grid {
+    grid-area: hvadfikjeg;
+}
+
+.cssgrid-php .kilder {
+    grid-area: kilder;
+}
+
+.cssgrid-php #mitgrid-cssgrid {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "grid-intro"
+        "to-metoder-grid"
+        "hvadfikjeg"
+        "kilder"
+}
+    
+
+    .cssgrid-php #metode-et-intro {
+        grid-area: metodeetintro;
+    }
+    
+    .cssgrid-php #grid-areas {
+        grid-area: gridareas;
+    }
+    
+    
+    .cssgrid-php #grid-template {
+        grid-area: gridtemplate;
+    }
+    
+    
+    .cssgrid-php #grid-screen-img {
+        grid-area: gridimage;
+    }
+    
+    
+    .cssgrid-php #metode-et-grid {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "metodeetintro metodeetintro"
+            "gridareas gridtemplate"
+            "gridimage gridimage";
+    }
+
+
+    .cssgrid-php #grid-template ul {
+        margin-top: -1em;
+    }
+
+/* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP END */
+
+
+
+
+
+/* VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP START */
+.versionsstyring-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.versionsstyring-php  #hvad-er-version {
+    grid-area: hvad-er-version;
+}
+
+.versionsstyring-php #hvad-er-git {
+    grid-area: hvad-er-git;
+}
+
+.versionsstyring-php #hvad-er-github {
+    grid-area: hvad-er-github;
+}
+
+.versionsstyring-php #version-anvend {
+    grid-area: version-anvend;
+}
+
+.versionsstyring-php #version-onepage {
+    grid-area: version-onepage;
+}
+
+.versionsstyring-php .kilder {
+    grid-area: kilder;
+}
+
+.versionsstyring-php #mitgrid-versionsstyring {
+    margin: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "hvad-er-version hvad-er-version"
+        "hvad-er-git hvad-er-github"
+        "version-anvend version-anvend"
+        "version-onepage version-onepage"
+        "kilder kilder";
+}
+
+/* VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP END */
+
+/* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER END */
+    
+    
+    
+    
+    
+    
+    
     
     
 
@@ -4410,6 +5887,1164 @@ usability-table {
     
     
     
+/* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER START */
+    
+/* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP START */
+/* GRID */
+.seo-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.seo-php #seo-intro {
+    grid-area: seo-intro;
+}
+
+.seo-php #metadata-intro {
+    grid-area: metadata-intro;
+}
+
+.seo-php #hvad-er-semantisk {
+    grid-area: hvad-er-semantisk;
+}
+
+.seo-php #semantisk-tags-list {
+    grid-area: andre-tags-semantisk;
+}
+
+.seo-php #semantisk-html-struktur {
+    grid-area: semantisk-html-struktur;
+}
+
+.seo-php #ik-semantisk {
+    grid-area: ik-semantisk;
+}
+
+.seo-php #fordele-semantisk {
+    grid-area: fordele-semantisk;
+}
+
+.seo-php .kilder {
+    grid-area: kilder;
+}
+
+.seo-php #mitgrid-seo {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "seo-intro"
+        "metadata-intro"
+        "hvad-er-semantisk"
+        "andre-tags-semantisk"
+        "semantisk-html-struktur"
+        "ik-semantisk"
+        "kilder";
+}
+    
+.seo-php #skalinclude {
+     padding-bottom: 0;
+     padding-top: 25px;
+}
+    
+    
+    .seo-php #semantisk-intro {
+        grid-area: semantisk-intro;
+    }
+    
+    .seo-php #semantisk-tags-list {
+        grid-area: semantisk-tags-list;
+    }
+    
+    .seo-php #hvad-er-semantisk {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "semantisk-intro semantisk-intro"
+            "semantisk-tags-list ik-semantisk"
+            "andre-tags-semantisk ik-semantisk"
+            "semantisk-html-struktur semantisk-html-struktur";
+    }
+    
+
+/* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP END */
+
+
+
+
+
+/* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP START */
+.attributter-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+    
+.attributter-php #html-anatomi-img {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.attributter-php #anatomi-html {
+    grid-area: anatomi-html;
+}
+
+.attributter-php .kilder {
+    grid-area: kilder;
+}
+
+.attributter-php #mitgrid-attributter {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-template-areas: 
+        "titel"
+        "anatomi-html"
+        "kilder";
+}
+
+/* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP END */
+
+
+
+
+
+/* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP START */
+.kodeskik-php h1 {
+    text-align: center;
+}
+    
+.kodeskik-php #kodeskikke-good-bad ul {
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.kodeskik-php #god-skikke-img {
+     margin-bottom: 35px;
+}
+    
+.kodeskik-php #mitgrid-kodeskikke {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP END */
+
+
+
+
+
+/* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP START */
+.adressering-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.adressering-php #relativ-adressering {
+    grid-area: relativ-adressering;
+}
+
+.adressering-php #absolut-adressering {
+    grid-area: absolut-adressering;
+}
+
+.adressering-php .kilder {
+    grid-area: kilder;
+}
+    
+.adressering-php #absolut-adressering .overskrift,
+.adressering-php  #relativ-adressering .overskrift {
+        text-align: center;
+}
+    
+.adressering-php #relativ-adressering h4 {
+        margin-top: 15px;
+}
+
+.adressering-php #mitgrid-adressering {
+    margin: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-column-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "relativ-adressering absolut-adressering"
+        "kilder kilder";
+}
+/* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP END */
+
+
+
+/* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP START */
+.formularer-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.formularer-php #form-intro {
+    grid-area: form-intro;
+}
+
+.formularer-php #formularer-tags {
+    grid-area: formularer-tags;
+}
+
+.formularer-php #formular-attribures {
+    grid-area: formular-attribures;
+}
+
+.formularer-php #nyhedsbrev-formularer {
+    grid-area: nyhedsbrev-formularer;
+}
+
+.formularer-php #searchbar {
+    grid-area: searchbar;
+}
+
+.formularer-php .kilder {
+    grid-area: kilder;
+}
+    
+    .formularer-php  #nyhedsbrev-screen,
+    .formularer-php #searchbar-img{
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+
+.formularer-php #mitgrid-formularer {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "form-intro form-intro"
+        "formularer-tags formular-attribures"
+        "nyhedsbrev-formularer nyhedsbrev-formularer"
+        "searchbar searchbar"
+        "kilder kilder";
+}
+
+/* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP END */
+
+
+
+
+
+/* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           START */
+.videoogimg-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.videoogimg-php #video-html {
+    grid-area: video-html;
+}
+
+.videoogimg-php #billeder-html {
+    grid-area: billeder-html;
+}
+
+.videoogimg-php .kilder {
+    grid-area: kilder;
+}
+    
+.videoogimg-php video {
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.videoogimg-php #mitgrid-videoogimg {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "video-html"
+        "billeder-html"
+        "kilder";
+}
+       
+    .videoogimg-php #mitgrid-videoogimg  img {
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    .videoogimg-php #video-fil-input {
+        grid-area: lokalvideo;
+    }
+    
+    
+    .videoogimg-php #video-embedded {
+        grid-area: embedded;
+    }
+    
+    
+    .videoogimg-php #video-html {
+        margin-top: 1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "lokalvideo embedded";
+    }
+    
+/* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           END */
+
+
+
+/* PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP START */
+.php-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.php-php #hvad-er-serversider {
+    grid-area: hvad-er-serversider;
+}
+
+.php-php #php-include {
+    grid-area: php-include;
+}
+
+.php-php #hvaderinclude {
+    grid-area: hvaderinclude;
+}
+
+.php-php #andremuligheder {
+    grid-area: andremuligheder;
+}
+
+.php-php .kilder {
+    grid-area: kilder;
+}
+
+.php-php #mitgrid-php {
+    margin: 5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-serversider"
+        "php-include"
+        "hvaderinclude"
+        "andremuligheder"
+        "kilder";
+}
+
+    
+.php-php #kode-menuinc {
+        grid-area: kode-menuinc;
+}
+    
+.php-php #menuinc-kode {
+    margin-top: 1.5em;
+}
+    
+.php-php #kode-include {
+        grid-area: kode-include;
+}
+    
+.php-php #kode-include-screen {
+        grid-area: kode-include-screen;
+}
+    
+.php-php #hvadinclude-intro {
+    grid-area: hvadinclude-intro;
+}
+    
+.php-php #hvaderinclude {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "hvadinclude-intro hvadinclude-intro"
+        "kode-include kode-menuinc"
+        "kode-include-screen kode-include-screen";
+}
+/* PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP END */
+
+
+
+
+
+/* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP START */
+.bootstrap-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.bootstrap-php #hvad-er-bootstrap {
+    grid-area: hvad-er-bootstrap;
+}
+
+.bootstrap-php #bootstrap-praksis {
+    grid-area: bootstrap-praksis;
+}
+
+.bootstrap-php #fordelogulemp-bootstrap {
+    grid-area: fordelogulemp-bootstrap;
+}
+
+.bootstrap-php .kilder {
+    grid-area: kilder;
+}
+
+.bootstrap-php #mitgrid-bootstrap {
+    margin: 3.5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-bootstrap"
+        "bootstrap-praksis"
+        "fordelogulemp-bootstrap"
+        "kilder"
+}
+    
+.bootstrap-php #fordele-bootstrap .overskrift {
+    grid-area: overskrift; 
+}
+    
+.bootstrap-php #fordele-bootstrap {
+     grid-area: fordele; 
+}
+    
+.bootstrap-php #ulemper-bootstrap {
+    grid-area: ulemper;
+}
+    
+.bootstrap-php #fordelogulemp-bootstrap {
+     display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "overskrift overskrift"
+        "fordele ulemper";
+}
+    
+
+    
+    .bootstrap-php #navigation-eksempel-kode {
+        grid-area: navkode;
+    }
+    
+    .bootstrap-php #navigation-eksempel-before {
+        grid-area: navbefore;
+    }
+    
+    .bootstrap-php #navigation-eksempel-after {
+        grid-area: navafter;
+    }
+    
+    .bootstrap-php #bootstrap-nav-billeder-grid {
+        display: grid;
+        grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "navkode navkode"
+            "navbefore navafter";
+    }
+
+/* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP END */
+
+
+
+
+
+/* BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP START */
+.boxmodel-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.boxmodel-php #boxmodellen {
+    grid-area: boxmodel;
+}
+
+.boxmodel-php .kilder {
+    grid-area: kilder;
+}
+
+.boxmodel-php #mitgrid-boxmodellen {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "boxmodel"
+        "kilder";
+}
+    
+
+.boxmodel-php #intro-boxmodel {
+       grid-area: intro; 
+}
+    
+.boxmodel-php #boxmodel-img {
+        grid-area: boxmodel-img;
+}
+    
+.boxmodel-php #boxmodel-elementer {
+        grid-area: boxmodel-element;
+}
+    
+.boxmodel-php #boxmodellen {
+       display: grid;
+    grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "intro intro"
+            "boxmodel-img boxmodel-element"
+}
+/* BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP END */
+
+
+
+
+
+/* SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP START */
+.selectors-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.selectors-php #hvadercss {
+    grid-area: hvadercss;
+}
+
+.selectors-php #selectors-css {
+    grid-area: selectors-css;
+}
+
+.selectors-php #psuedo-selector {
+    grid-area: psuedo-selector;
+}
+
+.selectors-php .kilder {
+    grid-area: kilder;
+}
+
+.selectors-php #mitgrid-selectors {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvadercss"
+        "selectors-css"
+        "psuedo-selector"
+        "kilder";
+}
+    
+    
+.selectors-php #css-syntax-img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    
+    
+.selectors-php #selectors-css-intro {
+       grid-area: selectors-css-intro;
+}
+    
+.selectors-php #selector-tags {
+       grid-area: selector-tags;       
+}
+    
+.selectors-php #selector-id {
+        grid-area: selector-id;
+}
+    
+.selectors-php #selector-class {
+        grid-area: selector-class;
+}
+    
+.selectors-php #selector-struktur {
+        grid-area: selector-struktur;
+}
+    
+.selectors-php #selectors-css {
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "selectors-css-intro selectors-css-intro"
+            "selector-tags selector-struktur"
+            "selector-class selector-id"
+}
+/* SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP END */
+
+
+
+
+/* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP START */
+.border-shadow-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.border-shadow-php #borders-css {
+    grid-area: borders-css;
+}
+
+.border-shadow-php #shadow-css {
+    grid-area: shadow-css;
+}
+
+.border-shadow-php #border-shadow-text-prakis {
+    grid-area: border-shadow-text-prakis;
+}
+
+.border-shadow-php .kilder {
+    grid-area: kilder;
+}
+
+.border-shadow-php #mitgrid-border-shadow {
+    margin: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "border-css"
+        "shadow-css"
+        "border-shadow-text-praksis"
+        "kilder";
+}
+    
+.border-shadow-php #shadowtext-table {
+    grid-area: shadowtext;    
+}
+    
+.border-shadow-php #shadowbox-table {
+    grid-area: shadowbox;
+}
+    
+.border-shadow-php #shadow-intro {
+      grid-area: shadowintro;  
+}
+    
+.border-shadow-php #shadow-css {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "shadowintro shadowintro"
+            "shadowbox shadowtext";
+}
+
+/* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP END */
+
+
+
+
+
+/* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP START*/
+.background-property-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.background-property-php #background-intro {
+    grid-area: background-intro;
+}
+
+.background-property-php #radial-image {
+    grid-area: radial-image;
+}
+
+.background-property-php #linear-image {
+    grid-area: linear-image;
+}
+
+.background-property-php .kilder {
+    grid-area: kilder;
+}
+
+.background-property-php #mitgrid-background-property {
+    margin: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "background-intro"
+        "radial-image"
+        "linear-image"
+        "kilder";
+}
+    
+.background-property-php #whitman-kode {
+      grid-area: whitmankode;  
+}
+    
+.background-property-php #whitman-start {
+    grid-area: whitmanstart;
+}
+    
+.background-property-php #whitman-slut {
+    grid-area: whitmanslut;
+}
+    
+.background-property-php #radial-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "whitmankode whitmankode"
+        "whitmanstart whitmanslut";
+}
+    
+    
+    
+    
+.background-property-php #sonnet-kode {
+        grid-area: sonnetkode;
+}
+    
+.background-property-php #sonnet-start {
+        grid-area: sonnetstart;
+}
+    
+.background-property-php #sonnet-slut {
+        grid-area: sonnetslut;
+}
+    
+.background-property-php #linear-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "sonnetkode sonnetkode"
+            "sonnetstart sonnetslut";
+}
+    
+.background-property-php #radial-image-steps1 {
+        grid-area: radialstep1;
+}
+    
+.background-property-php #radial-image-steps2 {
+        grid-area: radialstep2;
+}
+    
+.background-property-php #radial-image-steps3 {
+        grid-area: radialstep3;
+}
+    
+.background-property-php #radial-image-steps4 {
+        grid-area: radialstep4;
+}
+    
+.background-property-php #radial-image-steps5 {
+        grid-area: radialstep5;
+        margin-right: 10em;
+
+}
+    
+    
+.background-property-php #radial-image-steps {
+        margin-top: 15px;
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "radialstep1 radialstep2 radialstep3"
+            "radialstep4 radialstep5 radialstep5";
+}
+    
+
+    
+
+
+.background-property-php #linear-image-steps1 {
+        grid-area: linearsteps1;
+}
+    
+.background-property-php #linear-image-steps2 {
+        grid-area: linearsteps2;
+}
+    
+.background-property-php #linear-image-steps3 {
+        grid-area: linearsteps3;
+}
+    
+.background-property-php #linear-image-steps4 {
+        grid-area: linearsteps4;
+}
+    
+.background-property-php #linear-image-steps5 {
+        grid-area: linearsteps5;
+        margin-right: 10em;
+}
+    
+.background-property-php #linear-image-steps {
+        margin-top: 15px;
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "linearsteps1 linearsteps2 linearsteps3"
+            "linearsteps4 linearsteps5 linearsteps5";
+    }
+
+/* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP END */
+
+
+
+
+/* DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  START */
+.display-psoition-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.display-psoition-php #display {
+    grid-area: display;
+}
+
+.display-psoition-php #position {
+    grid-area: position;
+}
+
+.display-psoition-php .kilder {
+    grid-area: kilder;
+}
+
+.display-psoition-php #mitgrid-display-position {
+    margin: 3.5em;
+    margin-bottom: 1em;;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "display position"
+        "kilder kilder";
+}
+
+/* DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  END */
+
+
+
+
+
+/* LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP START*/
+.list-style-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.list-style-php #lists-css {
+    grid-area: lists-css;
+}
+
+.list-style-php #list-style-image {
+    grid-area: list-style-image;
+}
+
+.list-style-php .kilder {
+    grid-area: kilder;
+}
+
+.list-style-php #mitgrid-list-style {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "lists-css"
+        "list-style-image"
+        "kilder";
+}
+
+    
+
+/* LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP END */
+
+
+
+
+
+/* MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP START */
+.media-queries-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.media-queries-php #media-queries-css {
+    grid-area: media-queries-css;
+}
+
+.media-queries-php #softbites-media {
+    grid-area: softbites-media;
+}
+
+.media-queries-php .kilder {
+    grid-area: kilder;
+}
+
+.media-queries-php #mitgrid-media-queries {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "media-queries-css"
+        "softbites-media"
+        "kilder";
+}
+    
+.media-queries-php #softbites-break-mobil {
+       grid-area: softbitesmobil; 
+}
+
+    
+.media-queries-php #softbites-break-desktop {
+        grid-area: softbitesdesktop;
+}
+    
+.media-queries-php #softbites-media {
+        margin-bottom: 25px;
+        display: grid;
+        grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "softbitesmobil softbitesdesktop";
+}
+/* MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP END */
+
+
+
+
+
+/* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP START */
+.animation-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.animation-php #transition-css {
+    grid-area: transition-css;
+}
+
+.animation-php #animation-css {
+    grid-area: animation-css;
+}
+
+.animation-php #keyframes-css {
+    grid-area: keyframes-css;
+}
+
+.animation-php .kilder {
+    grid-area: kilder;
+}
+
+.animation-php #mitgrid-animation {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "transition-css"
+        "animation-css"
+        "keyframes-css"
+        "kilder";
+}
+
+/* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP END */
+
+
+
+
+
+/* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP START */
+.cssgrid-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.cssgrid-php #grid-intro {
+    grid-area: grid-intro;
+}
+
+.cssgrid-php #to-metoder-grid {
+    grid-area: to-metoder-grid;
+}
+
+.cssgrid-php #hvad-fik-jeg-grid {
+    grid-area: hvadfikjeg;
+}
+
+.cssgrid-php .kilder {
+    grid-area: kilder;
+}
+
+.cssgrid-php #mitgrid-cssgrid {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "grid-intro"
+        "to-metoder-grid"
+        "hvadfikjeg"
+        "kilder"
+}
+    
+
+    .cssgrid-php #metode-et-intro {
+        grid-area: metodeetintro;
+    }
+    
+    .cssgrid-php #grid-areas {
+        grid-area: gridareas;
+    }
+    
+    
+    .cssgrid-php #grid-template {
+        grid-area: gridtemplate;
+    }
+    
+    
+    .cssgrid-php #grid-screen-img {
+        grid-area: gridimage;
+    }
+    
+    
+    .cssgrid-php #metode-et-grid {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "metodeetintro metodeetintro"
+            "gridareas gridtemplate"
+            "gridimage gridimage";
+    }
+
+
+    .cssgrid-php #grid-template ul {
+        margin-top: -1em;
+    }
+
+/* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP END */
+
+
+
+
+
+/* VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP START */
+.versionsstyring-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.versionsstyring-php  #hvad-er-version {
+    grid-area: hvad-er-version;
+}
+
+.versionsstyring-php #hvad-er-git {
+    grid-area: hvad-er-git;
+}
+
+.versionsstyring-php #hvad-er-github {
+    grid-area: hvad-er-github;
+}
+
+.versionsstyring-php #version-anvend {
+    grid-area: version-anvend;
+}
+
+.versionsstyring-php #version-onepage {
+    grid-area: version-onepage;
+}
+
+.versionsstyring-php .kilder {
+    grid-area: kilder;
+}
+
+.versionsstyring-php #mitgrid-versionsstyring {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "hvad-er-version hvad-er-version"
+        "hvad-er-git hvad-er-github"
+        "version-anvend version-anvend"
+        "version-onepage version-onepage"
+        "kilder kilder";
+}
+
+/* VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP END */
+
+/* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER END */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
   
     
     
@@ -5430,6 +8065,1231 @@ usability-table {
     }    
 
 /* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */
+    
+
+    
+    
+    
+    
+    
+/* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER START */
+    
+/* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP START */
+/* GRID */
+.seo-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.seo-php #seo-intro {
+    grid-area: seo-intro;
+}
+
+.seo-php #metadata-intro {
+    grid-area: metadata-intro;
+}
+
+.seo-php #hvad-er-semantisk {
+    grid-area: hvad-er-semantisk;
+}
+
+.seo-php #semantisk-tags-list {
+    grid-area: andre-tags-semantisk;
+}
+
+.seo-php #semantisk-html-struktur {
+    grid-area: semantisk-html-struktur;
+}
+
+.seo-php #ik-semantisk {
+    grid-area: ik-semantisk;
+}
+
+.seo-php #fordele-semantisk {
+    grid-area: fordele-semantisk;
+}
+
+.seo-php .kilder {
+    grid-area: kilder;
+}
+
+.seo-php #mitgrid-seo {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "seo-intro"
+        "metadata-intro"
+        "hvad-er-semantisk"
+        "andre-tags-semantisk"
+        "semantisk-html-struktur"
+        "ik-semantisk"
+        "kilder";
+}
+    
+.seo-php #skalinclude {
+     padding-bottom: 0;
+     padding-top: 25px;
+}
+    
+    
+    .seo-php #semantisk-intro {
+        grid-area: semantisk-intro;
+    }
+    
+    .seo-php #semantisk-tags-list {
+        grid-area: semantisk-tags-list;
+    }
+    
+    .seo-php #hvad-er-semantisk {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "semantisk-intro semantisk-intro"
+            "semantisk-tags-list ik-semantisk"
+            "andre-tags-semantisk ik-semantisk"
+            "semantisk-html-struktur semantisk-html-struktur";
+    }
+    
+
+/* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP END */
+
+
+
+
+
+/* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP START */
+.attributter-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+    
+.attributter-php #html-anatomi-img {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.attributter-php #anatomi-html {
+    grid-area: anatomi-html;
+}
+
+.attributter-php .kilder {
+    grid-area: kilder;
+}
+
+.attributter-php #mitgrid-attributter {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-template-areas: 
+        "titel"
+        "anatomi-html"
+        "kilder";
+}
+
+/* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP END */
+
+
+
+
+
+/* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP START */
+.kodeskik-php h1 {
+    text-align: center;
+}
+    
+.kodeskik-php #kodeskikke-good-bad ul {
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.kodeskik-php #god-skikke-img {
+     margin-bottom: 35px;
+}
+    
+.kodeskik-php #mitgrid-kodeskikke {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+    
+    .kodeskik-php #kodeskikke-good-bad p  {
+        grid-area: intro;
+    } 
+    .kodeskik-php #kodeskikke-good-bad ul {
+        grid-area: skikliste;
+    }
+    .kodeskik-php #god-skikke-img  {
+        grid-area: skikimg;
+    }  
+    .kodeskik-php #kodeskikke-good-bad {
+        display: grid;
+        grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "intro intro"
+            "skikliste skikimg";
+    }
+
+/* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP END */
+
+
+
+
+
+/* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP START */
+.adressering-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.adressering-php #relativ-adressering {
+    grid-area: relativ-adressering;
+}
+
+.adressering-php #absolut-adressering {
+    grid-area: absolut-adressering;
+}
+
+.adressering-php .kilder {
+    grid-area: kilder;
+}
+    
+.adressering-php #absolut-adressering .overskrift,
+.adressering-php  #relativ-adressering .overskrift {
+        text-align: center;
+}
+    
+.adressering-php #relativ-adressering h4 {
+        margin-top: 15px;
+}
+
+.adressering-php #mitgrid-adressering {
+    margin: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-column-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "relativ-adressering absolut-adressering"
+        "kilder kilder";
+}
+/* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP END */
+
+
+
+/* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP START */
+.formularer-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.formularer-php #form-intro {
+    grid-area: form-intro;
+}
+
+.formularer-php #formularer-tags {
+    grid-area: formularer-tags;
+}
+
+.formularer-php #formular-attribures {
+    grid-area: formular-attribures;
+}
+
+.formularer-php #nyhedsbrev-formularer {
+    grid-area: nyhedsbrev-formularer;
+}
+
+.formularer-php #searchbar {
+    grid-area: searchbar;
+}
+
+.formularer-php .kilder {
+    grid-area: kilder;
+}
+    
+    .formularer-php  #nyhedsbrev-screen,
+    .formularer-php #searchbar-img{
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+
+.formularer-php #mitgrid-formularer {
+    margin: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "form-intro form-intro"
+        "formularer-tags formular-attribures"
+        "nyhedsbrev-formularer searchbar"
+        "nyhedsbrev-formularer searchbar"
+        "kilder kilder";
+}
+
+/* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP END */
+
+
+
+
+
+/* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           START */
+.videoogimg-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.videoogimg-php #video-html {
+    grid-area: video-html;
+}
+
+.videoogimg-php #billeder-html {
+    grid-area: billeder-html;
+}
+
+.videoogimg-php .kilder {
+    grid-area: kilder;
+}
+    
+.videoogimg-php video {
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.videoogimg-php #mitgrid-videoogimg {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "video-html"
+        "billeder-html"
+        "kilder";
+}
+       
+    .videoogimg-php #mitgrid-videoogimg  img {
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    .videoogimg-php #video-fil-input {
+        grid-area: lokalvideo;
+    }
+    
+    
+    .videoogimg-php #video-embedded {
+        grid-area: embedded;
+    }
+    
+    
+    .videoogimg-php #video-html {
+        margin-top: 1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "lokalvideo embedded";
+    }
+    
+    
+    .videoogimg-php #kode-imginsert {
+        grid-area: kodeimgin;
+    }
+    
+    .videoogimg-php #imginsert-screen {
+        grid-area: screenimgin;
+    }
+    
+    .videoogimg-php #insert-img-figure {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "kodeimgin screenimgin";
+    }
+/* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           END */
+
+
+
+/* PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP START */
+.php-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.php-php #hvad-er-serversider {
+    grid-area: hvad-er-serversider;
+}
+
+.php-php #php-include {
+    grid-area: php-include;
+}
+
+.php-php #hvaderinclude {
+    grid-area: hvaderinclude;
+}
+
+.php-php #andremuligheder {
+    grid-area: andremuligheder;
+}
+
+.php-php .kilder {
+    grid-area: kilder;
+}
+
+.php-php #mitgrid-php {
+    margin: 7em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-serversider"
+        "php-include"
+        "hvaderinclude"
+        "andremuligheder"
+        "kilder";
+}
+
+    
+.php-php #kode-menuinc {
+        grid-area: kode-menuinc;
+}
+    
+.php-php #menuinc-kode {
+    margin-top: 1.5em;
+}
+    
+.php-php #kode-include {
+        grid-area: kode-include;
+}
+    
+.php-php #kode-include-screen {
+        grid-area: kode-include-screen;
+}
+    
+.php-php #hvadinclude-intro {
+    grid-area: hvadinclude-intro;
+}
+    
+.php-php #hvaderinclude {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "hvadinclude-intro hvadinclude-intro"
+        "kode-include kode-menuinc"
+        "kode-include-screen kode-include-screen";
+}
+/* PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP PHP.PHP END */
+
+
+
+
+
+/* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP START */
+.bootstrap-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.bootstrap-php #hvad-er-bootstrap {
+    grid-area: hvad-er-bootstrap;
+}
+
+.bootstrap-php #bootstrap-praksis {
+    grid-area: bootstrap-praksis;
+}
+
+.bootstrap-php #fordelogulemp-bootstrap {
+    grid-area: fordelogulemp-bootstrap;
+}
+
+.bootstrap-php .kilder {
+    grid-area: kilder;
+}
+
+.bootstrap-php #mitgrid-bootstrap {
+    margin: 7em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvad-er-bootstrap"
+        "bootstrap-praksis"
+        "fordelogulemp-bootstrap"
+        "kilder"
+}
+    
+.bootstrap-php #fordele-bootstrap .overskrift {
+    grid-area: overskrift; 
+}
+    
+.bootstrap-php #fordele-bootstrap {
+     grid-area: fordele; 
+}
+    
+.bootstrap-php #ulemper-bootstrap {
+    grid-area: ulemper;
+}
+    
+.bootstrap-php #fordelogulemp-bootstrap {
+     display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "overskrift overskrift"
+        "fordele ulemper";
+}
+    
+
+    
+    .bootstrap-php #navigation-eksempel-kode {
+        grid-area: navkode;
+    }
+    
+    .bootstrap-php #navigation-eksempel-before {
+        grid-area: navbefore;
+    }
+    
+    .bootstrap-php #navigation-eksempel-after {
+        grid-area: navafter;
+    }
+    
+    .bootstrap-php #bootstrap-nav-billeder-grid {
+        display: grid;
+        grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "navkode navkode"
+            "navbefore navafter";
+    }
+    
+    
+
+/* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP END */
+
+
+
+
+
+/* BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP START */
+.boxmodel-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.boxmodel-php #boxmodellen {
+    grid-area: boxmodel;
+}
+
+.boxmodel-php .kilder {
+    grid-area: kilder;
+}
+
+.boxmodel-php #mitgrid-boxmodellen {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "boxmodel"
+        "kilder";
+}
+    
+
+.boxmodel-php #intro-boxmodel {
+       grid-area: intro; 
+}
+    
+.boxmodel-php #boxmodel-img {
+        grid-area: boxmodel-img;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+}
+    
+.boxmodel-php #boxmodel-elementer {
+        grid-area: boxmodel-element;
+}
+    
+.boxmodel-php #boxmodellen {
+       display: grid;
+    grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "intro intro"
+            "boxmodel-img boxmodel-element"
+}
+/* BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP BOXMODELLEN.PHP END */
+
+
+
+
+
+/* SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP START */
+.selectors-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.selectors-php #hvadercss {
+    grid-area: hvadercss;
+}
+
+.selectors-php #selectors-css {
+    grid-area: selectors-css;
+}
+
+.selectors-php #psuedo-selector {
+    grid-area: psuedo-selector;
+}
+
+.selectors-php .kilder {
+    grid-area: kilder;
+}
+
+.selectors-php #mitgrid-selectors {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "hvadercss"
+        "selectors-css"
+        "psuedo-selector"
+        "kilder";
+}
+    
+    
+.selectors-php #css-syntax-img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    
+    
+.selectors-php #selectors-css-intro {
+       grid-area: selectors-css-intro;
+}
+    
+.selectors-php #selector-tags {
+       grid-area: selector-tags;       
+}
+    
+.selectors-php #selector-id {
+        grid-area: selector-id;
+}
+    
+.selectors-php #selector-class {
+        grid-area: selector-class;
+}
+    
+.selectors-php #selector-struktur {
+        grid-area: selector-struktur;
+}
+    
+.selectors-php #selectors-css {
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "selectors-css-intro selectors-css-intro"
+            "selector-tags selector-struktur"
+            "selector-class selector-id"
+}
+/* SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP SELECTORS.PHP END */
+
+
+
+
+/* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP START */
+.border-shadow-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.border-shadow-php #borders-css {
+    grid-area: borders-css;
+}
+
+.border-shadow-php #shadow-css {
+    grid-area: shadow-css;
+}
+
+.border-shadow-php #border-shadow-text-prakis {
+    grid-area: border-shadow-text-prakis;
+}
+
+.border-shadow-php .kilder {
+    grid-area: kilder;
+}
+
+.border-shadow-php #mitgrid-border-shadow {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "titel titel titel"
+        "borders-css shadow-css shadow-css"
+        "border-shadow-text-prakis border-shadow-text-prakis border-shadow-text-prakis"
+        "kilder kilder kilder"
+}
+    
+.border-shadow-php #shadowtext-table {
+    grid-area: shadowtext;    
+}
+    
+.border-shadow-php #shadowbox-table {
+    grid-area: shadowbox;
+}
+    
+.border-shadow-php #shadow-intro {
+      grid-area: shadowintro;  
+}
+    
+.border-shadow-php #shadow-css {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "shadowintro shadowintro"
+            "shadowbox shadowtext";
+}
+    
+
+    .border-shadow-php #shadowbox-kode {
+        grid-area: shadowkode;
+    }
+    
+    .border-shadow-php #shadowbox-screen {
+        grid-area: shadowscreen;
+    }
+    
+    .border-shadow-php #border-shadow-text-prakis {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "shadowkode shadowscreen";
+    }
+/* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP END */
+
+
+
+
+
+/* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP START*/
+.background-property-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.background-property-php #background-intro {
+    grid-area: background-intro;
+}
+
+.background-property-php #radial-image {
+    grid-area: radial-image;
+}
+
+.background-property-php #linear-image {
+    grid-area: linear-image;
+}
+
+.background-property-php .kilder {
+    grid-area: kilder;
+}
+
+.background-property-php #mitgrid-background-property {
+    margin: 10em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "background-intro"
+        "radial-image"
+        "linear-image"
+        "kilder";
+}
+    
+.background-property-php #whitman-kode {
+      grid-area: whitmankode; 
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+}
+    
+.background-property-php #whitman-start {
+    grid-area: whitmanstart;
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+.background-property-php #whitman-slut {
+    grid-area: whitmanslut;
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+.background-property-php #radial-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "whitmankode whitmankode"
+        "whitmanstart whitmanslut";
+}
+    
+    
+    
+    
+.background-property-php #sonnet-kode {
+        grid-area: sonnetkode;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+}
+    
+.background-property-php #sonnet-start {
+        grid-area: sonnetstart;
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+}
+    
+.background-property-php #sonnet-slut {
+        grid-area: sonnetslut;
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+}
+    
+.background-property-php #linear-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "sonnetkode sonnetkode"
+            "sonnetstart sonnetslut";
+}
+    
+.background-property-php #radial-image-steps1 {
+        grid-area: radialstep1;
+}
+    
+.background-property-php #radial-image-steps2 {
+        grid-area: radialstep2;
+}
+    
+.background-property-php #radial-image-steps3 {
+        grid-area: radialstep3;
+}
+    
+.background-property-php #radial-image-steps4 {
+        grid-area: radialstep4;
+}
+    
+.background-property-php #radial-image-steps5 {
+        grid-area: radialstep5;
+        margin-right: 10em;
+
+}
+    
+    
+.background-property-php #radial-image-steps {
+        margin-top: 15px;
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "radialstep1 radialstep2 radialstep3"
+            "radialstep4 radialstep5 radialstep5";
+}
+    
+
+    
+
+
+.background-property-php #linear-image-steps1 {
+        grid-area: linearsteps1;
+}
+    
+.background-property-php #linear-image-steps2 {
+        grid-area: linearsteps2;
+}
+    
+.background-property-php #linear-image-steps3 {
+        grid-area: linearsteps3;
+}
+    
+.background-property-php #linear-image-steps4 {
+        grid-area: linearsteps4;
+}
+    
+.background-property-php #linear-image-steps5 {
+        grid-area: linearsteps5;
+        margin-right: 10em;
+}
+    
+.background-property-php #linear-image-steps {
+        margin-top: 15px;
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "linearsteps1 linearsteps2 linearsteps3"
+            "linearsteps4 linearsteps5 linearsteps5";
+    }
+
+/* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP END */
+
+
+
+
+/* DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  START */
+.display-psoition-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.display-psoition-php #display {
+    grid-area: display;
+}
+
+.display-psoition-php #position {
+    grid-area: position;
+}
+
+.display-psoition-php .kilder {
+    grid-area: kilder;
+}
+
+.display-psoition-php #mitgrid-display-position {
+    margin: 7em;
+    margin-bottom: 1em;;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "display position"
+        "kilder kilder";
+}
+
+/* DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  DISPLAYOGPOSITION.PHP  END */
+
+
+
+
+
+/* LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP START*/
+.list-style-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.list-style-php #lists-css {
+    grid-area: lists-css;
+}
+
+.list-style-php #list-style-image {
+    grid-area: list-style-image;
+}
+
+.list-style-php .kilder {
+    grid-area: kilder;
+}
+
+.list-style-php #mitgrid-list-style {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "lists-css"
+        "list-style-image"
+        "kilder";
+}
+
+    
+
+/* LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP LIST-STYLE.PHP END */
+
+
+
+
+
+/* MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP START */
+.media-queries-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.media-queries-php #media-queries-css {
+    grid-area: media-queries-css;
+}
+
+.media-queries-php #softbites-media {
+    grid-area: softbites-media;
+}
+
+.media-queries-php .kilder {
+    grid-area: kilder;
+}
+
+.media-queries-php #mitgrid-media-queries {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "media-queries-css"
+        "softbites-media"
+        "kilder";
+}
+    
+.media-queries-php #softbites-break-mobil {
+       grid-area: softbitesmobil; 
+}
+
+    
+.media-queries-php #softbites-break-desktop {
+        grid-area: softbitesdesktop;
+}
+    
+.media-queries-php #softbites-media {
+        margin-bottom: 25px;
+        display: grid;
+        grid-column-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "softbitesmobil softbitesdesktop";
+}
+/* MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP MEDIA-QUERIES.PHP END */
+
+
+
+
+
+/* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP START */
+.animation-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.animation-php #transition-css {
+    grid-area: transition-css;
+}
+
+.animation-php #animation-css {
+    grid-area: animation-css;
+}
+
+.animation-php #keyframes-css {
+    grid-area: keyframes-css;
+}
+
+.animation-php .kilder {
+    grid-area: kilder;
+}
+
+.animation-php #mitgrid-animation {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "transition-css"
+        "animation-css"
+        "keyframes-css"
+        "kilder";
+}
+
+/* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP END */
+
+
+
+
+
+/* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP START */
+.cssgrid-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.cssgrid-php #grid-intro {
+    grid-area: grid-intro;
+}
+
+.cssgrid-php #to-metoder-grid {
+    grid-area: to-metoder-grid;
+}
+
+.cssgrid-php #hvad-fik-jeg-grid {
+    grid-area: hvadfikjeg;
+}
+
+.cssgrid-php .kilder {
+    grid-area: kilder;
+}
+
+.cssgrid-php #mitgrid-cssgrid {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel"
+        "grid-intro"
+        "to-metoder-grid"
+        "hvadfikjeg"
+        "kilder"
+}
+    
+
+    .cssgrid-php #metode-et-intro {
+        grid-area: metodeetintro;
+    }
+    
+    .cssgrid-php #grid-areas {
+        grid-area: gridareas;
+    }
+    
+    
+    .cssgrid-php #grid-template {
+        grid-area: gridtemplate;
+    }
+    
+    
+    .cssgrid-php #grid-screen-img {
+        grid-area: gridimage;
+    }
+    
+    
+    .cssgrid-php #metode-et-grid {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "metodeetintro metodeetintro"
+            "gridareas gridtemplate"
+            "gridimage gridimage";
+    }
+
+
+    .cssgrid-php #grid-template ul {
+        margin-top: -1em;
+    }
+
+/* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP END */
+
+
+
+
+
+/* VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP START */
+.versionsstyring-php h1 {
+    text-align: center;
+    grid-area: titel;
+}
+
+.versionsstyring-php  #hvad-er-version {
+    grid-area: hvad-er-version;
+}
+
+.versionsstyring-php #hvad-er-git {
+    grid-area: hvad-er-git;
+}
+
+.versionsstyring-php #hvad-er-github {
+    grid-area: hvad-er-github;
+}
+
+.versionsstyring-php #version-anvend {
+    grid-area: version-anvend;
+}
+
+.versionsstyring-php #version-onepage {
+    grid-area: version-onepage;
+}
+
+.versionsstyring-php .kilder {
+    grid-area: kilder;
+}
+
+.versionsstyring-php #mitgrid-versionsstyring {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel titel"
+        "hvad-er-version hvad-er-version"
+        "hvad-er-git hvad-er-github"
+        "version-anvend version-anvend"
+        "version-onepage version-onepage"
+        "kilder kilder";
+}
+
+/* VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP  VERSIONSSTYRING.PHP END */
+
+/* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER END */
+    
+    
+    
+    
+    
+    
+    
     
     
     

@@ -76,47 +76,56 @@
                     </section>
                     
                     <section id="metode-et-grid">
-                        <h3 class="underoverskrift">Grid-template</h3>
-                        <p class="body-text">
-                            Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
-                        </p>
-                        <img src="kodning/css/grid/gridareas.png" id="gridareas-img">
+                        <section id="metode-et-intro">
+                            <h3 class="underoverskrift">Grid-template</h3>
+                        </section>
+                        
+                        <section id="grid-areas">
+                            <p class="body-text">
+                                Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
+                            </p>
+                            
+                            <img src="kodning/css/grid/gridareas.png" id="gridareas-img">
+                        </section>
                         
                         
-                        <p class="body-text">
-                            Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
-                        </p>
-                        <img src="kodning/css/grid/grid-css.png" id="gridtemplate-areas">
-                        <p class="body-text">
-                            Dette siger at:
-                        </p>
-                        
-                        <ul class="liste">
-                            <li>
-                                felt1 fylder hele første række 
-                            </li>
-                            <li>
-                                felt4 fylder 1fr i venstre side, på anden række
-                            </li>
-                            <li>
-                                felt3 fylder 4fr i midten af anden række
-                            </li>
-                            <li>
-                                felt5 fylder 1fr til højre i anden række
-                            </li>
-                            <li>
-                                felt2 fylder 1fr i venstre side, på tredje række
-                            </li>
-                            <li>
-                                felt6 fylder 4fr i midten, på tredje række
-                            </li>
-                            <li>
-                                felt5 fylder 1fr i højre side, på tredje række
-                            </li>
-                            <li>
-                                felt8 fylder hele sidste række
-                            </li>
-                        </ul>
+                        <section id="grid-template">
+                            <p class="body-text">
+                                Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
+                            </p>
+                            
+                            <img src="kodning/css/grid/grid-css.png" id="gridtemplate-areas">
+                            <p class="body-text">
+                                Dette siger at:
+                            </p>
+
+                            <ul class="liste">
+                                <li>
+                                    felt1 fylder hele første række 
+                                </li>
+                                <li>
+                                    felt4 fylder 1fr i venstre side, på anden række
+                                </li>
+                                <li>
+                                    felt3 fylder 4fr i midten af anden række
+                                </li>
+                                <li>
+                                    felt5 fylder 1fr til højre i anden række
+                                </li>
+                                <li>
+                                    felt2 fylder 1fr i venstre side, på tredje række
+                                </li>
+                                <li>
+                                    felt6 fylder 4fr i midten, på tredje række
+                                </li>
+                                <li>
+                                    felt5 fylder 1fr i højre side, på tredje række
+                                </li>
+                                <li>
+                                    felt8 fylder hele sidste række
+                                </li>
+                            </ul>
+                        </section>
                         
                         <img src="kodning/css/grid/css-grid-screen.jpg" id="grid-screen-img">
                     </section>
@@ -159,7 +168,7 @@
                     </section>
                 </section>
         
-                <section id="hvad-fik-jeg">
+                <section id="hvad-fik-jeg-grid">
                     <h2 class="overskrift">Min udvikling med CSS grid</h2>
                     <p class="body-text">
                         Jeg har aldrig hørt om CSS grid før jeg kom på studiet og troede det ville være sindsygt kompliceret at have at gøre med. Men til min overraskelse var det et meget simpelt og intuitivt system. Jeg fandt nemt at forstå på grund af de simple øvelser vi havde på dagen vi lærte om responsivt design.

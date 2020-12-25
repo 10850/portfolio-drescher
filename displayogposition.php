@@ -32,11 +32,7 @@
                     <section id="display-intro">
                         <h2 class="overskrift">Display</h2>
                         <p class="body-text">
-                            Display property’en definere hvordan et valgt element fremvises på skærmen, som standard er display sat til (W3schools, 2020):
-                        </p>
-                        
-                        <p class="body-text">
-                           display: block;
+                            Display property’en definere hvordan et valgt element fremvises på skærmen (W3schools, 2020).
                         </p>
                     </section>
                     

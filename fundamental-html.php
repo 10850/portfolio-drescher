@@ -27,11 +27,11 @@
             
             <div id="mitgrid-attributter">
                 
-                <h1 class="titel">HTML Syntaks</h1>
+                <h1 class="titel">Grundlæggende HTML</h1>
         
                 <section id="anatomi-html">
                     <section id="anatomi-html-intro">
-                        <h2 class="overskrift">Hvad er HTML-kode opbygget af</h2>
+                        <h2 class="overskrift">HTML Syntaks</h2>
                         <p class="body-text">
                             Alt HTML-kode består af et element, start tag, end tag, attribute, value og content (W3schools, 2020). Dette kan kaldes for HTML’s anatomi som kan ses på illustrationen herunder (ibid):
                         </p>
@@ -76,7 +76,40 @@
                         </p>
                     </section>
                 </section>
-        
+                
+                <section>
+                    <h2 class="overskrift">God kodeskikke</h2>
+                    <p class="body-text">
+                        I verden af kodning findes der god og dårlige kodeskikke (Østergaard, 2020). Det er vigtigt at når man koder at man holder fast på gode kodeskikke (ibid). Ikke kun for at andre programmør nemt kan læse, forstå og overskue din kode, men også for at man selv kan have gode overblik over sin kode når man går tilbage i sin kode for at for eksempel lave ændringer (ibid). God kodeskikke er:
+                    </p>
+
+                    <ul class="liste">
+                        <li>
+                            En del af god kodeskik (Østergaard, 2020).
+                        </li>
+                        <li>
+                            Det giver dig overblik (ibid).
+                        </li>
+                        <li>
+                            Det gør din kode læselig for andre (ibid).
+                        </li>
+                        <li>
+                            Brug tabulatoren (flere mellemrum efter hinanden er FORBUDT!) (ibid).
+                        </li>
+                        <li>
+                            Editoren hjælper dig - lad den gøre det (ibid).
+                        </li>
+                        <li>
+                            Kode der ikke er indrykket, kan ikke godkendes! (ibid).
+                        </li>
+                        <li>
+                            Bemærk: Tabuleringer, ekstra mellemrum og linieskift kaldes “whitespace” og ignoreres af browseren (ibid).
+                        </li>
+                    </ul>
+
+
+                    <img src="kodning/kodeskikke/godskikke.jpg" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
+                </section>
         
         
         
@@ -97,6 +130,11 @@
                             W3schools, 2020. HTML id Attribute. [Online] 
                             Available at: https://www.w3schools.com/html/html_id.asp
                             [Senest hentet eller vist den 11 december 2020].
+                        </li>
+                        <li>
+                            Østergaard, N., 2020. HTML. [Online] 
+                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=154867&#38;redirect=1
+                            [Senest hentet eller vist den 2 december 2020].
                         </li>
                     </ul>
                 </section>

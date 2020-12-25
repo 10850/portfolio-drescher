@@ -59,7 +59,18 @@
                 </section>
         
         
-        
+                <section id="softbites-media">
+                    <section id="softbites-break-mobil">
+                        <img src="kodning/css/mediaqueries/breakpointtilgridskode2.png" id="media1-kode">
+                        <img src="kodning/css/mediaqueries/breakpointtilgrids2.png" id="media1-screen">
+                    </section>
+                    
+                    
+                    <section id="softbites-break-desktop">
+                        <img src="kodning/css/mediaqueries/breakpointtilgridskode1.png" id="media2-kode">
+                        <img src="kodning/css/mediaqueries/breakpointtilgrids.png" id="media2-screen">
+                    </section>
+                </section>
         
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>

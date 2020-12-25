@@ -28,10 +28,7 @@
                 
                 <h1 class="titel">Video og Billeder</h1>
         
-                <section id="video-html">
-                    
-                    <h2 class="overskrift">To metoder til indsætning af videoer</h2>
-                    
+                <section id="video-html">                    
                     <section class="mt" id="video-fil-input">
                         <h3 class="underoverskrift">Lokal videofil</h3>
                         
@@ -75,7 +72,7 @@
                 </section>
                 
                 <section id="billeder-html">
-                    <h2 class="overkskrift">Indsæt billeder i HTML</h2>
+                    <h2 class="overskrift">Indsæt billeder i HTML</h2>
                     <p class="body-text">
                        Billeder bliver sat ind på siden via HTML-tagget &#60;img&#62; (W3schools, 2020). Man linker til et billede, enten internt fra din lokale mappe eller eksternt fra browseren, det gøres ved brug af src-attribut (ibid).
                     </p>
@@ -84,9 +81,12 @@
                         For SEO sætter man også en alternativ tekst ind til hvis billedet ikke viser sig, det gøres med alt-attributten (W3schools, 2020):
                     </p>
                     
-                    <img src="kodning/videoogimg/billeder-kode.jpg" id="kode-imginsert">
+                    <figure id="insert-img-figure">
+                        <img src="kodning/videoogimg/billeder-kode.jpg" id="kode-imginsert">
                     
-                    <img src="kodning/videoogimg/billeder-screen.png">
+                        <img src="kodning/videoogimg/billeder-screen.png" id="imginsert-screen">
+                    </figure>
+                    
 
                 </section>
         

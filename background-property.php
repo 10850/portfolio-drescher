@@ -85,6 +85,14 @@
                         </p>
                     </section>
                     
+                    <figure id="radial-images">
+                        <img src="kodning/css/background/whitmanstep5kode.JPG" id="whitman-kode">
+                        
+                        <img src="kodning/css/background/startwhitman.JPG" id="whitman-start">
+                        
+                        <img src="kodning/css/background/whitmanstep5billed.JPG" id="whitman-slut">
+                    </figure>
+                    
                     <section id="radial-image-steps">
                         <section id="radial-image-steps1">
                             <h4 class="sub-skrift">Step 1</h4>
@@ -130,6 +138,14 @@
                             Udover background-image kombineret med linear gradient, lærte jeg også ved hjælp af LinkedIn learning  hvordan man kan kombinere radial gradient og et background-image til at lave en fed visuel illustration. <a href="http://10850.apache.eadania.dk/workshop/kombination/kombination.html">Og jeg har lavet en siden om Background property'en i CSS hvor man kan se mere om backgrounds på CSS.</a> 
                         </p>
                     </section>
+                    
+                    <figure id="linear-images">
+                        <img src="kodning/css/background/sonnet-step-4-kode.JPG" id="sonnet-kode">
+                        
+                        <img src="kodning/css/background/sonnet-step-1-billed.JPG" id="sonnet-start">
+                        
+                        <img src="kodning/css/background/sonnet-slut.JPG" id="sonnet-slut">
+                    </figure>
                     
                     <section id="linear-image-steps">
                         <section id="linear-image-steps1">

@@ -27,37 +27,40 @@
             <div id="mitgrid-kodeskikke">
                 
                 <h1 class="titel">Kodeskikke</h1>
-        
-                <p class="body-text">
-                    I verden af kodning findes der god og dårlige kodeskikke (Østergaard, 2020). Det er vigtigt at når man koder at man holder fast på gode kodeskikke (ibid). Ikke kun for at andre programmør nemt kan læse, forstå og overskue din kode, men også for at man selv kan have gode overblik over sin kode når man går tilbage i sin kode for at for eksempel lave ændringer (ibid). God kodeskikke er:
-                </p>
                 
-                <ul class="liste">
-                    <li>
-                        En del af god kodeskik (Østergaard, 2020).
-                    </li>
-                    <li>
-                        Det giver dig overblik (ibid).
-                    </li>
-                    <li>
-                        Det gør din kode læselig for andre (ibid).
-                    </li>
-                    <li>
-                        Brug tabulatoren (flere mellemrum efter hinanden er FORBUDT!) (ibid).
-                    </li>
-                    <li>
-                        Editoren hjælper dig - lad den gøre det (ibid).
-                    </li>
-                    <li>
-                        Kode der ikke er indrykket, kan ikke godkendes! (ibid).
-                    </li>
-                    <li>
-                        Bemærk: Tabuleringer, ekstra mellemrum og linieskift kaldes “whitespace” og ignoreres af browseren (ibid).
-                    </li>
-                </ul>
+                <section id="kodeskikke-good-bad">
+                    <p class="body-text">
+                        I verden af kodning findes der god og dårlige kodeskikke (Østergaard, 2020). Det er vigtigt at når man koder at man holder fast på gode kodeskikke (ibid). Ikke kun for at andre programmør nemt kan læse, forstå og overskue din kode, men også for at man selv kan have gode overblik over sin kode når man går tilbage i sin kode for at for eksempel lave ændringer (ibid). God kodeskikke er:
+                    </p>
                 
+                    <ul class="liste">
+                        <li>
+                            En del af god kodeskik (Østergaard, 2020).
+                        </li>
+                        <li>
+                            Det giver dig overblik (ibid).
+                        </li>
+                        <li>
+                            Det gør din kode læselig for andre (ibid).
+                        </li>
+                        <li>
+                            Brug tabulatoren (flere mellemrum efter hinanden er FORBUDT!) (ibid).
+                        </li>
+                        <li>
+                            Editoren hjælper dig - lad den gøre det (ibid).
+                        </li>
+                        <li>
+                            Kode der ikke er indrykket, kan ikke godkendes! (ibid).
+                        </li>
+                        <li>
+                            Bemærk: Tabuleringer, ekstra mellemrum og linieskift kaldes “whitespace” og ignoreres af browseren (ibid).
+                        </li>
+                    </ul>
+
+
+                    <img src="kodning/kodeskikke/godskikke.jpg" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
+                </section>
                 
-                <img src="kodning/kodeskikke/godskikke.jpg" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
         
         
         

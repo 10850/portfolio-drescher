@@ -43,14 +43,16 @@
                     </section>
                     
                     <section id="hvaderinclude">
-                        <h3 class="underoverskrift">PHP-include navigation</h3>
-                        <p class="body-text">
-                            Include er en PHP-kommando, som bruges til at tage stumper af kode og inkludere det på mange forskellige sider (W3schools, 2020). Så man har sin stumpe kode i en fil for eksempel menu.inc (ibid). sætter det ind i en string og include kommandoen vil tage den stump kode og placere den på siden. Include skrives som følgende (ibid):
-                        </p>
+                        <section id="hvadinclude-intro">
+                            <h3 class="underoverskrift">PHP-include navigation</h3>
+                            <p class="body-text">
+                                Include er en PHP-kommando, som bruges til at tage stumper af kode og inkludere det på mange forskellige sider (W3schools, 2020). Så man har sin stumpe kode i en fil for eksempel menu.inc (ibid). sætter det ind i en string og include kommandoen vil tage den stump kode og placere den på siden. Include skrives som følgende (ibid):
+                            </p>
+                        </section>
                         
-                        <figure id="kode-menu.inc">
+                        <figure id="kode-menuinc">
                             <h4 class="sub-skrift">Menu.inc fil med navigations kode</h4>
-                            <img src="kodning/serverside/php-include-menu-inc.png" alt="billed af menu.inc fil med navigation i den" id="menu.inc-kode">
+                            <img src="kodning/serverside/php-include-menu-inc.png" alt="billed af menu.inc fil med navigation i den" id="menuinc-kode">
                         </figure>
                         
                         <figure id="kode-include">
@@ -58,7 +60,7 @@
                             <img src="kodning/serverside/include.jpg" alt="billed af php-include kode på brackets" id="php-include-kode">
                         </figure>
                         
-                        <figure id="kode-include">
+                        <figure id="kode-include-screen">
                             <h4 class="sub-skrift">Nu har alle sider en navigation ved brug af PHP-include</h4>
                             <img src="kodning/serverside/navigation-side.jpg" alt="billed af siden med navigation" id="php-include-kode">
                             <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php">Hvis du gerne vil besøge siden og prøve navigationen</a>

@@ -65,6 +65,7 @@
                             Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/navbar/">navbar</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en menu op på min hundeside.
                         </p>
                         
+                        <div id="bootstrap-nav-billeder-grid">
                         <figure id="navigation-eksempel-kode">
                             <h4 class="sub-skrift">Koden til navigationen sat ind</h4>
                             <img src="kodning/bootstrap/navbar.png" id="navbar-kode-bootstrap">
@@ -81,7 +82,7 @@
                             <img src="kodning/bootstrap/navbar-after.jpg" id="navbar-screen-after">
                             <a href="http://10850.web.eadania.dk/hundeside/index.html">Navigationen kan prøves af på hundesiden</a>
                         </figure>
-                        
+                        </div>
                         <p class="body-text">
                             Menuen er en responsiv menu der bliver til en burgermenu på mobil størrelse. Det er gjordt ved hjælp af css media queries og burgermenuen skubber alle andre elementer ned som er gjordt i javascript, hvor det siger at når collapse boksen åbner så skubber den resten af siden ned og når den lukker kommer sidens elementer op igen. 
                         </p>
@@ -93,18 +94,18 @@
                             Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/dropdowns/">dropdown</a> og <a href="https://getbootstrap.com/docs/4.5/components/popovers/">popover</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en dropdown og popover knap frem på min hundeside.
                         </p>
                         
-                        <figure id="dropogpop-eksempel-kode">
-                            <h4 class="sub-skrift">Koden Dropdown og Popover knappen sat ind</h4>
-                            <img src="kodning/bootstrap/dropdown-kode.png" id="dropdown-koden">
-                            <img src="kodning/bootstrap/popover-kode.png" id="popover-koden">
-                        </figure>
-                        
-                        <figure id="dropogpop-eksempel-after">
-                            <h4 class="sub-skrift">Dropdown og Popover knappen på hundesiden</h4>
-                            <img src="kodning/bootstrap/popoveranddropdown-billed.png" id="knapper-on-site">
-                            <a href="http://10850.web.eadania.dk/hundeside/index.html">Dropdown og Popover knappen kan prøves af på hundesiden</a>
-                        </figure>
-                        
+
+                            <figure id="dropogpop-eksempel-kode">
+                                <h4 class="sub-skrift">Koden Dropdown og Popover knappen sat ind</h4>
+                                <img src="kodning/bootstrap/dropdown-kode.png" id="dropdown-koden">
+                            </figure>
+
+                            <figure id="dropogpop-eksempel-after">
+                                <h4 class="sub-skrift">Dropdown og Popover knappen på hundesiden</h4>
+                                <img src="kodning/bootstrap/popoveranddropdown-billed.png" id="knapper-on-site">
+                                <a href="http://10850.web.eadania.dk/hundeside/index.html">Dropdown og Popover knappen kan prøves af på hundesiden</a>
+                            </figure>
+
                         <p class="body-text">
                             Popover virker sådan at noget javascript fortæller knappen at når den trykkes på så popper der en boks med noget tekst op over knappen, og hvis man trykker på knappen mens den er åben så forsvinder boksen. 
                         </p>

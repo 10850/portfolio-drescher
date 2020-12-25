@@ -126,6 +126,7 @@
                     </section>
                 
                     <section id="shadowbox-table">
+                        <h3 class="underoverskrift">Box-shadow</h3>
                         <table class="usability-table" id="box-shadow-table-change">
                             <tr>
                                 <th>Value</th>
@@ -219,7 +220,8 @@
                 
         
                 <section id="border-shadow-text-prakis">
-                
+                    <img src="kodning/css/borders/kodeshadowbox.png" id="shadowbox-kode">
+                    <img src="kodning/css/borders/billedboxshadow.png" id="shadowbox-screen">
                 </section>
         
         
