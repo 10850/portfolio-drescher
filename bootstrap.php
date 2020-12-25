@@ -95,16 +95,16 @@
                         </p>
                         
 
-                            <figure id="dropogpop-eksempel-kode">
-                                <h4 class="sub-skrift">Koden Dropdown og Popover knappen sat ind</h4>
-                                <img src="kodning/bootstrap/dropdown-kode.png" id="dropdown-koden">
-                            </figure>
+                        <figure id="dropogpop-eksempel-kode">
+                            <h4 class="sub-skrift">Koden Dropdown og Popover knappen sat ind</h4>
+                            <img src="kodning/bootstrap/dropdown-kode.png" id="dropdown-koden">
+                        </figure>
 
-                            <figure id="dropogpop-eksempel-after">
-                                <h4 class="sub-skrift">Dropdown og Popover knappen på hundesiden</h4>
-                                <img src="kodning/bootstrap/popoveranddropdown-billed.png" id="knapper-on-site">
-                                <a href="http://10850.web.eadania.dk/hundeside/index.html">Dropdown og Popover knappen kan prøves af på hundesiden</a>
-                            </figure>
+                        <figure id="dropogpop-eksempel-after">
+                            <h4 class="sub-skrift">Dropdown og Popover knappen på hundesiden</h4>
+                            <img src="kodning/bootstrap/popoveranddropdown-billed.png" id="knapper-on-site">
+                            <a href="http://10850.web.eadania.dk/hundeside/index.html">Dropdown og Popover knappen kan prøves af på hundesiden</a>
+                        </figure>
 
                         <p class="body-text">
                             Popover virker sådan at noget javascript fortæller knappen at når den trykkes på så popper der en boks med noget tekst op over knappen, og hvis man trykker på knappen mens den er åben så forsvinder boksen. 
