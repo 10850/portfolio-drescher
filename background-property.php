@@ -142,7 +142,7 @@
                     </section>
                     
                     <figure id="linear-images">
-                        <img src="kodning/css/background/sonnet-step-4-kode.JPG" id="sonnet-kode">
+                        <img src="kodning/css/background/" id="sonnet-kode">
                         
                         <img src="kodning/css/background/sonnet-step-1-billed2.JPG" id="sonnet-start">
                         
