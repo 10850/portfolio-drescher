@@ -38,7 +38,9 @@
                     </section>
                     
                     <section id="html-elementer-anatomi">
-                        <img src="kodning/anatomi/html-anatomy.png" alt="billed af HTML anatomi" id="html-anatomi-img">
+                        <div class="background-icons-kodning">
+                            <img src="kodning/anatomi/html-anatomy.png" alt="billed af HTML anatomi" id="html-anatomi-img">
+                        </div>
                         
                         <h4 class="sub-skrift">Element:</h4>
                         <p class="body-text">
@@ -85,17 +87,17 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. HTML class Attribute. [Online] 
-                            Available at: https://www.w3schools.com/html/html_classes.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_classes.asp" target="_blank">https://www.w3schools.com/html/html_classes.asp</a> 
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                         <li>
                             W3Schools, 2020. HTML Elements. [Online] 
-                            Available at: https://www.w3schools.com/html/html_elements.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">https://www.w3schools.com/html/html_elements.asp</a> 
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. HTML id Attribute. [Online] 
-                            Available at: https://www.w3schools.com/html/html_id.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_id.asp" target="_blank">https://www.w3schools.com/html/html_id.asp</a> 
                             [Senest hentet eller vist den 11 december 2020].
                         </li>
                     </ul>

@@ -114,6 +114,7 @@
                                 <td>Definere at en border skal skjules (ibid).</td>
                             </tr>
                         </table>
+                      
                     </section>
                 </section>
                 
@@ -125,8 +126,9 @@
                         </p>
                     </section>
                 
-                    <section id="shadowbox-table">
+                    <section id="shadowbox-table" class="background-icons-kodning">
                         <h3 class="underoverskrift">Box-shadow</h3>
+                        
                         <table class="usability-table" id="box-shadow-table-change">
                             <tr>
                                 <th>Value</th>
@@ -173,6 +175,7 @@
                                 <td>Sætter property’en til sin default value (ibid).</td>
                             </tr>
                         </table>
+                       
                     </section>
                     
                     <section id="shadowtext-table">
@@ -230,17 +233,17 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. CSS Borders. [Online] 
-                            Available at: https://www.w3schools.com/css/css_border.asp
+                            Available at: <a href="https://www.w3schools.com/css/css_border.asp" target="_blank">https://www.w3schools.com/css/css_border.asp</a>
                             [Senest hentet eller vist den 4 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS Box Shadow. [Online] 
-                            Available at: https://www.w3schools.com/css/css3_shadows_box.asp
+                            Available at: <a href="https://www.w3schools.com/css/css3_shadows_box.asp" target="_blank">https://www.w3schools.com/css/css3_shadows_box.asp</a>
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS Shadow Effects. [Online] 
-                            Available at: https://www.w3schools.com/css/css3_shadows.asp
+                            Available at: <a href="https://www.w3schools.com/css/css3_shadows.asp" target="_blank">https://www.w3schools.com/css/css3_shadows.asp</a>
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                     </ul>

@@ -65,24 +65,25 @@
                             Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/navbar/">navbar</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en menu op på min hundeside.
                         </p>
                         
-                        <div id="bootstrap-nav-billeder-grid">
-                        <figure id="navigation-eksempel-kode">
+               
+                        
+                        <figure id="navigation-eksempel-kode" >
                             <h4 class="sub-skrift">Koden til navigationen sat ind</h4>
                             <img src="kodning/bootstrap/navbar.png" id="navbar-kode-bootstrap">
                         </figure>
                         
-                        <figure id="navigation-eksempel-before">
+                        <figure id="navigation-eksempel-before" >
                             <h4 class="sub-skrift">Hvordan sidens navigation så ud før Bootstrap</h4>
                             <img src="kodning/bootstrap/navbar-before.jpg" id="navbar-screen-before">
                             <a href="http://10850.web.eadania.dk/hundoriginal/index.html">Hvis du gerne vil besøge den originale hundesiden</a>
                         </figure>
                         
-                        <figure id="navigation-eksempel-after">
+                        <figure id="navigation-eksempel-after" >
                             <h4 class="sub-skrift">Hvordan sidens navigation ser ud nu med Bootstrap</h4>
                             <img src="kodning/bootstrap/navbar-after.jpg" id="navbar-screen-after">
                             <a href="http://10850.web.eadania.dk/hundeside/index.html">Navigationen kan prøves af på hundesiden</a>
                         </figure>
-                        </div>
+                     
                         <p class="body-text">
                             Menuen er en responsiv menu der bliver til en burgermenu på mobil størrelse. Det er gjordt ved hjælp af css media queries og burgermenuen skubber alle andre elementer ned som er gjordt i javascript, hvor det siger at når collapse boksen åbner så skubber den resten af siden ned og når den lukker kommer sidens elementer op igen. 
                         </p>
@@ -94,18 +95,24 @@
                             Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/dropdowns/">dropdown</a> og <a href="https://getbootstrap.com/docs/4.5/components/popovers/">popover</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en dropdown og popover knap frem på min hundeside.
                         </p>
                         
-
+                        
+                        <section id="images-dropandpop">
+                        
                         <figure id="dropogpop-eksempel-kode">
                             <h4 class="sub-skrift">Koden Dropdown og Popover knappen sat ind</h4>
                             <img src="kodning/bootstrap/dropdown-kode.png" id="dropdown-koden">
                         </figure>
-
+                        
+                        <div class="background-icons-kodning">
                         <figure id="dropogpop-eksempel-after">
                             <h4 class="sub-skrift">Dropdown og Popover knappen på hundesiden</h4>
                             <img src="kodning/bootstrap/popoveranddropdown-billed.png" id="knapper-on-site">
                             <a href="http://10850.web.eadania.dk/hundeside/index.html">Dropdown og Popover knappen kan prøves af på hundesiden</a>
                         </figure>
-
+                        </div>
+                            
+                        </section>    
+                        
                         <p class="body-text">
                             Popover virker sådan at noget javascript fortæller knappen at når den trykkes på så popper der en boks med noget tekst op over knappen, og hvis man trykker på knappen mens den er åben så forsvinder boksen. 
                         </p>
@@ -121,17 +128,23 @@
                             Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/carousel/">carousel</a> components. Derefter kopier jeg det og putter det ind i HTML'en, og lægger billeder ind i sliderne. Så vil der komme en billed karousel med billederne frem på min hundeside.
                         </p>
                         
-                        <figure id="karousel-eksempel-kode">
-                            <h4 class="sub-skrift">Koden til navigationen sat ind</h4>
+                        <section id="images-carousel">
+                        
+                        <figure id="karousel-eksempel-kode" >
+                            <h4 class="sub-skrift">Koden til karousellen sat ind</h4>
                             <img src="kodning/bootstrap/karousel.png" id="karousel-koden">
                         </figure>
                         
+                        <div class="background-icons-kodning">
                         <figure id="karousel-eksempel-after">
-                            <h4 class="sub-skrift">Koden til navigationen sat ind</h4>
+                            <h4 class="sub-skrift">Karousellen på hundesiden</h4>
                             <img src="kodning/bootstrap/karousel-billed.png" id="karousel-on-site">
                             <a href="http://10850.web.eadania.dk/hundeside/hundemad.html">Billedkarousellen kan prøves af på hundesiden</a>
                         </figure>
-                        
+                        </div>
+                            
+                        </section>
+                            
                         <p class="body-text">
                             Denne karousel er responsiv på grund css styling og dens slider funktion kommer af javascript, som siger at når man trykker på højre pil så vil elementet skifte til næste billed til højre for den og omvendt. Måden den slider til siden er en transistion style fra CSS.
                         </p>
@@ -182,12 +195,12 @@
                     <ul class="kildeliste">
                         <li>
                             Bootstrap, 2020. Introduction. [Online] 
-                            Available at: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+                            Available at: <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">https://getbootstrap.com/docs/4.5/getting-started/introduction/</a>
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                         <li>
-                            Østergaard, N., 2020. Frameworks. [Online] 
-                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=147090&#38;redirect=1
+                            Østergaard, N., 19. september 2020. Frameworks. [Online] 
+                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 2 december 2020].
                         </li>
                     </ul>

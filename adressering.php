@@ -24,7 +24,7 @@
         
         <?php include 'undermenu-html.inc' ?>
             
-            <div id="mitgrid-adressering">
+            <div id="mitgrid-adressering" class="background-icons-kodning">
                 <h1 class="titel">Adressering</h1>
         
                 <section id="relativ-adressering">
@@ -61,7 +61,7 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. HTML File Paths. [Online] 
-                            Available at: https://www.w3schools.com/html/html_filepaths.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_filepaths.asp" target="_blank">https://www.w3schools.com/html/html_filepaths.asp</a> 
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                     </ul>

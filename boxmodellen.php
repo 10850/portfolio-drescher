@@ -64,7 +64,7 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. CSS Box Model. [Online] 
-                            Available at: https://www.w3schools.com/css/css_boxmodel.asp
+                            Available at: <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">https://www.w3schools.com/css/css_boxmodel.asp</a>
                             [Senest hentet eller vist den 4 december 2020].
                         </li>
                     </ul>

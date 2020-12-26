@@ -50,6 +50,7 @@
                             </p>
                         </section>
                         
+                        
                         <figure id="kode-menuinc">
                             <h4 class="sub-skrift">Menu.inc fil med navigations kode</h4>
                             <img src="kodning/serverside/php-include-menu-inc.png" alt="billed af menu.inc fil med navigation i den" id="menuinc-kode">
@@ -62,7 +63,9 @@
                         
                         <figure id="kode-include-screen">
                             <h4 class="sub-skrift">Nu har alle sider en navigation ved brug af PHP-include</h4>
-                            <img src="kodning/serverside/navigation-side.jpg" alt="billed af siden med navigation" id="php-include-kode">
+                            <div class="background-icons-kodning">
+                                <img src="kodning/serverside/navigation-side.jpg" alt="billed af siden med navigation" id="php-include-kode">
+                            </div>
                             <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php">Hvis du gerne vil besøge siden og prøve navigationen</a>
                         </figure>
                     </section>
@@ -86,12 +89,12 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. PHP Include Files. [Online] 
-                            Available at: https://www.w3schools.com/php/php_includes.asp
+                            Available at: <a href="https://www.w3schools.com/php/php_includes.asp" target="_blank">https://www.w3schools.com/php/php_includes.asp</a>
                             [Senest hentet eller vist den 1 December 2020].
                         </li>
                         <li>
-                            Østergaard, N., 2020. Serversideprogrammering med PHP. [Online] 
-                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=162759&#38;redirect=1
+                            Østergaard, N., 19. oktober 2020. Serversideprogrammering med PHP. [Online] 
+                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a>
                             [Senest hentet eller vist den 29 November 2020].
                         </li>
                         <li>

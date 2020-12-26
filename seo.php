@@ -58,14 +58,18 @@
                         <p class="body-text">
                             Meta tags går altid inde i head-elementet og bruges typisk til at specificere karaktersæt, sidebeskrivelse, nøgleord, dokumentforfatter og visningsindstillinger (ibid). Det er supervigtigt at inkludere alt for god SEO-rangering (ibid).
                         </p>
-
-                        <img src="kodning/seo/metadatause.JPG" alt="eksempel på metadata done right" id="meta-eksempel">
+                        
+                        <div class="background-icons-kodning">
+                            <img src="kodning/seo/metadatause.JPG" alt="eksempel på metadata done right" id="meta-eksempel">
+                        </div>
                         
                         <p id="skalinclude" class="body-text">
                             Man skal inkludere dette I sit metadata for viewport/visningsindstillinger for at ens side kan være responsiv (W3schools, 2020):
                         </p>
                         
-                        <img src="kodning/seo/viewport-use.JPG" alt="viewport for responsiv side" id="viewport-img">
+                        <div class="background-icons-kodning">
+                            <img src="kodning/seo/viewport-use.JPG" alt="viewport for responsiv side" id="viewport-img">
+                        </div>
                     </section>
                 </section> <!-- Metabase -->
         
@@ -146,7 +150,10 @@
                     </p>
                 </section> <!-- Flere semantiske tags -->
                 
-                <img src="kodning/kodeskikke/godskikke.jpg" id="semantisk-html-struktur">
+                
+                <img src="kodning/kodeskikke/godskikke.jpg" id="semantisk-html-struktur" class="background-icons-kodning"> 
+                
+                
                 
                 <section id="ik-semantisk">
                     <h3 class="underoverskrift">Ikke semantiske tags</h3>
@@ -188,31 +195,31 @@
                     <ul class="kildeliste">
                         <li>
                             Nyrup, K. S. &#38; Andreasen, F. I. N., 2020. Semantiske tags og head (meta/base). [Online] 
-                            Available at: http://10854.apache.eadania.dk/semantisk/?fbclid=IwAR29j6hUMGbjaYR4mqHcNC-MS9G0StqHn0EOaALlvMmT_oUTTZORa1hIia4
+                            Available at: <a href="http://10854.apache.eadania.dk/semantisk/?fbclid=IwAR29j6hUMGbjaYR4mqHcNC-MS9G0StqHn0EOaALlvMmT_oUTTZORa1hIia4" target="_blank">http://10854.apache.eadania.dk/semantisk/?fbclid=IwAR29j6hUMGbjaYR4mqHcNC-MS9G0StqHn0EOaALlvMmT_oUTTZORa1hIia4</a> 
                             [Senest hentet eller vist den 7 december 2020].
 
                         </li>
                         <li>
                             W3schools, 2020. HTML - The Head Element. [Online] 
-                            Available at: https://www.w3schools.com/html/html_head.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_head.asp" target="_blank">https://www.w3schools.com/html/html_head.asp</a> 
                             [Senest hentet eller vist den 10 december 2020].
 
                         </li>
                         <li>
                             W3schools, 2020. HTML Semantic Elements. [Online] 
-                            Available at: https://www.w3schools.com/html/html5_semantic_elements.asp
+                            Available at: <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">https://www.w3schools.com/html/html5_semantic_elements.asp</a>
                             [Senest hentet eller vist den 9 december 2020].
 
                         </li>
                         <li>
                             W3schools, 2020. WEB - SEO. [Online] 
-                            Available at: https://www.quanzhanketang.com/website/web_search.html
+                            Available at: <a href="https://www.quanzhanketang.com/website/web_search.html" target="_blank">https://www.quanzhanketang.com/website/web_search.html</a>
                             [Senest hentet eller vist den 2 december 2020].
 
                         </li>
                         <li>
-                            Østergaard, N., 2020. HTML. [Online] 
-                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=154867&#38;redirect=1
+                            Østergaard, N., 10. september 2020. HTML. [Online] 
+                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 2 december 2020].
                         </li>
                     </ul>

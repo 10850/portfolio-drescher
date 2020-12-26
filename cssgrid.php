@@ -84,8 +84,9 @@
                             <p class="body-text">
                                 Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
                             </p>
-                            
-                            <img src="kodning/css/grid/grid-3.JPG" id="gridareas-img">
+                            <div class="background-icons-kodning">
+                                <img src="kodning/css/grid/grid-3.JPG" id="gridareas-img">
+                            </div>
                         </section>
                         
                         
@@ -93,8 +94,9 @@
                             <p class="body-text">
                                 Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
                             </p>
-                            
-                            <img src="kodning/css/grid/grid-template-area-use.JPG" id="gridtemplate-areas">
+                            <div class="background-icons-kodning">
+                                <img src="kodning/css/grid/grid-template-area-use.JPG" id="gridtemplate-areas">
+                            </div>
                             <p class="body-text">
                                 Dette siger at:
                             </p>
@@ -188,13 +190,13 @@
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
                         <li>
-                            Østergaard, N., 2020. LAYOUTSTRATEGIER FOR WEBDESIGN. [Online] 
-                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=147019&#38;redirect=1
+                            Østergaard, N., 15. september 2020. LAYOUTSTRATEGIER FOR WEBDESIGN. [Online] 
+                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                         <li>
-                            Østergaard, N., 2020. Webudvikling vil ikke være det samme efter.... [Online] 
-                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=147017&#38;redirect=1
+                            Østergaard, N., 15. september 2020. Webudvikling vil ikke være det samme efter.... [Online] 
+                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                     </ul>

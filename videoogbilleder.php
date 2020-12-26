@@ -36,12 +36,13 @@
                             Videoer som ligger som en lokal fil i mappen sættes ind via video tagget og source tagget i HTML (Nautrup &#38; Mikkelsen, 2020). Dette brugte jeg i mit portfolio til at indsætte denne løbehjulsvideo under Videoproduktion siden:
                         </p>
                         
-                        <img src="kodning/videoogimg/lokal-video-kode.jpg" alt="kode til at indsætte en lokal videofil i HTML" id="lokalvideo-kode">
-                        
-                        <video id="scootvideo-eksempel" width="1080px" height="1350px" controls loop>
-                            <source src="video/ScooterEdit.mp4" type="video/mp4">
-                        </video>
-                        
+                        <div class="background-icons-kodning">
+                            <img src="kodning/videoogimg/lokal-video-kode.jpg" alt="kode til at indsætte en lokal videofil i HTML" id="lokalvideo-kode">
+
+                            <video id="scootvideo-eksempel" width="1080px" height="1350px" controls loop>
+                                <source src="video/ScooterEdit.mp4" type="video/mp4">
+                            </video>
+                        </div>
                         
                         
                         <p class="body-text">
@@ -59,11 +60,11 @@
                         <p class="body-text">
                             Man kan med fordel også linke til en video som allerede ligger på internettet i for eksempel youtube eller instagram (Nautrup &#38; Mikkelsen, 2020). Hvor de giver en noget HTML kode som man kan copy + paste (ibid):
                         </p>
-                        
-                        <img src="kodning/videoogimg/embeddedvideo-kode.png" alt="eksempel på embedded kode til en youtube video. På hundesiden." id="embedded-kode">
-                        
-                        <img src="kodning/videoogimg/embeddedvideo-screen.jpg" alt="screenshot af hundesiden hvor videoen ligger" id="embedded-screen">
-                        
+                        <div class="background-icons-kodning">
+                            <img src="kodning/videoogimg/embeddedvideo-kode.png" alt="eksempel på embedded kode til en youtube video. På hundesiden." id="embedded-kode">
+
+                            <img src="kodning/videoogimg/embeddedvideo-screen.jpg" alt="screenshot af hundesiden hvor videoen ligger" id="embedded-screen">
+                        </div>
                         <p class="body-text">
                             Man kan også lave ændringer på for eksempel de forskellige controls videoen har (Nautrup &#38; Mikkelsen, 2020):
                         </p>
@@ -81,7 +82,7 @@
                         For SEO sætter man også en alternativ tekst ind til hvis billedet ikke viser sig, det gøres med alt-attributten (W3schools, 2020):
                     </p>
                     
-                    <figure id="insert-img-figure">
+                    <figure id="insert-img-figure" class="background-icons-kodning">
                         <img src="kodning/videoogimg/billeder-kode.jpg" id="kode-imginsert">
                     
                         <img src="kodning/videoogimg/billeder-screen.png" id="imginsert-screen">
@@ -97,12 +98,12 @@
                     <ul class="kildeliste">
                         <li>
                             Nautrup, S. M. &#38; Mikkelsen, D. N., 2020. Sådan indsætter du en video. [Online] 
-                            Available at: http://10763.apache.eadania.dk/video/video.html
+                            Available at: <a href="http://10763.apache.eadania.dk/video/video.html" target="_blank">http://10763.apache.eadania.dk/video/video.html</a>
                             [Senest hentet eller vist den 7 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. HTML Images. [Online] 
-                            Available at: https://www.w3schools.com/html/html_images.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">https://www.w3schools.com/html/html_images.asp</a>
                             [Senest hentet eller vist den 11 december 2020].
                         </li>
                     </ul>

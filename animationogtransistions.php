@@ -48,7 +48,7 @@
                         </p>
                     </section>
                     
-                    <section class="mt" id="transition-table">
+                    <section class="background-icons-kodning" id="transition-table">
                         <h3 class="underoverskrift">Transition values</h3>
                         <table class="usability-table">
                             <tr>
@@ -92,7 +92,7 @@
                         </p>
                     </section>
                     
-                    <section class="mt" id="animation-table">
+                    <section class="background-icons-kodning" id="animation-table">
                         <h3 class="underoverskrift">Animation values</h3>
                         <table class="usability-table">
                             <tr>
@@ -143,7 +143,7 @@
                     </section>
                 </section>
         
-                 <section id="keyframes-css"> 
+                 <section id="keyframes-css" class="background-icons-kodning"> 
                      <section id="keyframe-intro">
                         <h2 class="overskrift">&#64;keyframes</h2>
                         <p class="body-text">
@@ -155,7 +155,7 @@
                         </p>
                     </section>
                      
-                    <section class="mt" id="keyframes-table">
+                    <section class="background-icons-kodning" id="keyframes-table">
                         <h3 class="underoverskrift">&#64;keyframes values</h3>
                         <table class="usability-table">
                             <tr>
@@ -186,17 +186,17 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. CSS Animations. [Online] 
-                            Available at: https://www.w3schools.com/css/css3_animations.asp
+                            Available at: <a href="https://www.w3schools.com/css/css3_animations.asp" target="_blank">https://www.w3schools.com/css/css3_animations.asp</a> 
                             [Senest hentet eller vist den 10 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS Transitions. [Online] 
-                            Available at: https://www.w3schools.com/css/css3_transitions.asp
+                            Available at: <a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">https://www.w3schools.com/css/css3_transitions.asp</a> 
                             [Senest hentet eller vist den 10 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS Transitions. [Online] 
-                            Available at: https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp
+                            Available at: <a href="https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp" target="_blank">https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp</a>
                             [Senest hentet eller vist den 10 december 2020].
                         </li>
                     </ul>

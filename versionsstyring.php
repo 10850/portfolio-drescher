@@ -119,7 +119,7 @@
                     <ul class="kildeliste">
                         <li>
                             Rijna, D. &#38; Knudsen, V. A., 2020. Versionsstyring [Online]
-                            Available at: <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html">http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html</a> [Senest hentet eller vist den 26 november 2020].
+                            Available at: <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html" target="_blank">http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html</a> [Senest hentet eller vist den 26 november 2020].
                         </li>
                     </ul>
                 </section>

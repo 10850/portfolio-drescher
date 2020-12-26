@@ -24,7 +24,7 @@
         
              <?php include 'undermenu-css.inc' ?>
             
-            <div id="mitgrid-display-position">
+            <div id="mitgrid-display-position" class="background-icons-kodning">
                 
                 <h1 class="titel">Display og Positionering i CSS</h1>
                 
@@ -123,12 +123,12 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. CSS display Property. [Online] 
-                            Available at: https://www.w3schools.com/cssref/pr_class_display.asp
+                            Available at: <a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">https://www.w3schools.com/cssref/pr_class_display.asp</a>
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS Layout - The position Property. [Online] 
-                            Available at: https://www.w3schools.com/css/css_positioning.asp
+                            Available at: <a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">https://www.w3schools.com/css/css_positioning.asp</a>
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                     </ul>

@@ -140,6 +140,8 @@
                     </section>
                     
                     <section id="psuedo-selector-table">
+                        <h3 class="underoverskrift">Psuedo selectors</h3>
+                        <div class="background-icons-kodning">
                         <table class="usability-table">
                             <tr>
                                 <th>Selector</th>
@@ -189,6 +191,7 @@
                                 <td>Vælger besøgte links (ibid).</td>
                             </tr>
                         </table>
+                        </div>
                     </section>
                 </section>
         
@@ -198,22 +201,22 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. CSS Pseudo-classes. [Online] 
-                            Available at: https://www.w3schools.com/css/css_pseudo_classes.asp
+                            Available at: <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">https://www.w3schools.com/css/css_pseudo_classes.asp</a>
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS Selectors. [Online] 
-                            Available at: https://www.w3schools.com/css/css_selectors.asp
+                            Available at: <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">https://www.w3schools.com/css/css_selectors.asp</a>
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS Syntax. [Online] 
-                            Available at: https://www.w3schools.com/css/css_syntax.ASP
+                            Available at: <a href="https://www.w3schools.com/css/css_syntax.ASP" target="_blank">https://www.w3schools.com/css/css_syntax.ASP</a>
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                         <li>
-                            Østergaard, N., 2020. Intro til CSS. [Online] 
-                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=155569&#38;redirect=1
+                            Østergaard, N., 14. september 2020. Intro til CSS. [Online] 
+                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a>
                             [Senest hentet eller vist den 7 december 2020].
                         </li>
                     </ul>

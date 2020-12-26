@@ -2085,6 +2085,14 @@ video-php h1 {
 
 
 /* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP START */
+.kodeskik-php footer {
+    margin-top: 10%;
+}
+
+.kodeskik-php {
+    min-height: 100%;
+}
+
 .kodeskik-php h1 {
     text-align: center;
 }
@@ -2854,6 +2862,10 @@ video-php h1 {
         margin-bottom: 9px;
     }   
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+    
+.kodeskik-php {
+    min-height: 100%;
+}
     
         
 }
@@ -3679,6 +3691,10 @@ usability-table {
     grid-area: titel;
 }
 
+    .seo-php #semantisk-html-struktur {
+        max-width: 100%;
+    }
+
 .seo-php #seo-intro {
     grid-area: seo-intro;
 }
@@ -3798,6 +3814,10 @@ usability-table {
 
 
 /* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP START */
+ .kodeskik-php {
+    min-height: 100%;
+}   
+    
 .kodeskik-php h1 {
     text-align: center;
 }
@@ -3816,6 +3836,8 @@ usability-table {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+    
+
 /* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP END */
 
 
@@ -3823,6 +3845,8 @@ usability-table {
 
 
 /* ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP ADRESSERING.PHP START */
+
+    
 .adressering-php h1 {
     text-align: center;
     grid-area: titel;
@@ -3891,6 +3915,10 @@ usability-table {
     grid-area: searchbar;
 }
 
+.formularer-php #searchbar h4 {
+    text-align: center;
+}
+    
 .formularer-php .kilder {
     grid-area: kilder;
 }
@@ -3919,6 +3947,15 @@ usability-table {
         "searchbar searchbar"
         "kilder kilder";
 }
+    
+.formularer-php .background-icons-kodning {
+        background-image: url(kodning/background-icons-kodning.png);
+        background-repeat: repeat-x;
+        background-size: 150%;
+        background-position: center;
+        margin-left: -3.5em;
+        margin-right: -3.5em;
+    }
 
 /* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP END */
 
@@ -3927,6 +3964,15 @@ usability-table {
 
 
 /* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           START */
+.videoogimg-php .background-icons-kodning {
+        background-image: url(kodning/background-icons-kodning.png);
+        background-repeat: repeat-x;
+        background-size: 120%;
+        background-position: center;
+        margin-left: -3.5em;
+        margin-right: -3.5em;
+    }    
+
 .videoogimg-php h1 {
     text-align: center;
     grid-area: titel;
@@ -3945,8 +3991,8 @@ usability-table {
 }
     
 .videoogimg-php video {
-    max-width: 80%;
-    height: auto;
+    max-width: 280px;
+    height: 360px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -4072,6 +4118,38 @@ usability-table {
 .bootstrap-php .kilder {
     grid-area: kilder;
 }
+
+    #knapper-on-site {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #dropogpop-eksempel-after {
+        text-align: center;
+    }
+    
+    
+    .bootstrap-php .background-icons-kodning {
+        background-image: url(kodning/background-icons-kodning.png);
+        background-repeat: repeat-x;
+        background-size: 150%;
+        background-position: center;
+        margin-right: -3.5em;
+        margin-left: -3.5em;
+    }
+    
+    #karousel-eksempel-after {
+        text-align: center;
+    }
+    
+    #karousel-on-site {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
 
 .bootstrap-php #mitgrid-bootstrap {
     margin: 3.5em;
@@ -4214,9 +4292,26 @@ usability-table {
     text-align: center;
     grid-area: titel;
 }
+ 
+    #shadowbox-kode,
+    #shadowbox-screen {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    
+    #border-shadow-text-prakis {
+        margin-left: -3.5em;
+        margin-right: -3.5em;
+        background-image: url(kodning/background-icons-kodning.png);
+        background-repeat: repeat;
+        background-size: 120%;
+        background-position: top;
+    }
 
-.border-shadow-php #borders-css {
-    grid-area: borders-css;
+.border-shadow-php #border-styles-table table {
+    width: 100%;
 }
 
 .border-shadow-php #shadow-css {
@@ -4294,6 +4389,7 @@ usability-table {
     
 .background-property-php #whitman-start {
     grid-area: whitmanstart;
+    max-width: 99%;
 }
     
 .background-property-php #whitman-slut {
@@ -4312,11 +4408,16 @@ usability-table {
     
     
 .background-property-php #sonnet-kode {
-        grid-area: sonnetkode;
+    grid-area: sonnetkode;
+    margin-left: auto;
+    margin-right: auto;
+        
 }
     
 .background-property-php #sonnet-start {
-        grid-area: sonnetstart;
+    grid-area: sonnetstart;
+    max-width: 90%;
+    margin-left: auto;
 }
     
 .background-property-php #sonnet-slut {
@@ -4330,6 +4431,15 @@ usability-table {
             "sonnetkode sonnetkode"
             "sonnetstart sonnetslut";
 }
+    
+.background-property-php .background-icons-kodning {
+        margin-right: -3.5em;
+        margin-left: -3.5em;
+        background-image: url(kodning/background-icons-kodning.png);
+        background-size: contain;
+        background-position: center;
+}   
+
 
 /* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP END */
 
@@ -4340,6 +4450,10 @@ usability-table {
 .display-psoition-php h1 {
     text-align: center;
     grid-area: titel;
+}
+    
+.display-psoition-php table {
+       width: 100%; 
 }
 
 .display-psoition-php #display {
@@ -4379,6 +4493,28 @@ usability-table {
     text-align: center;
     grid-area: titel;
 }
+    
+    #mitgrid-list-style #list-style-image-screen {
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #list-style-image-kode {
+        width: 100%;
+    }
+    
+    .list-style-php .backgrounds-icons-kodning {
+        text-align: center;
+        margin-right: -7em;
+        margin-left: -7em;
+        background-image: url(kodning/background-icons-kodning.png);
+        background-repeat: repeat-x;
+        background-size: 120%;
+    }
+    
+    
 
 .list-style-php #lists-css {
     grid-area: lists-css;
@@ -6014,6 +6150,10 @@ usability-table {
 
 
 /* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP START */
+.kodeskik-php {
+    min-height: 100%;
+}    
+
 .kodeskik-php h1 {
     text-align: center;
 }
@@ -6113,7 +6253,7 @@ usability-table {
     
     .formularer-php  #nyhedsbrev-screen,
     .formularer-php #searchbar-img{
-        max-width: 85%;
+        max-width: 60%;
         margin-right: auto;
         margin-left: auto;
         display: flex;
@@ -6135,6 +6275,11 @@ usability-table {
         "searchbar searchbar"
         "kilder kilder";
 }
+    
+    .formularer-php .background-icons-kodning{
+        margin-left: -7em;
+        margin-right: -7em;
+    }
 
 /* FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP FORMULARER.PHP END */
 
@@ -6161,11 +6306,16 @@ usability-table {
 }
     
 .videoogimg-php video {
-    max-width: 80%;
-    height: auto;
+    max-width: 360px;
+    height: 480px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
+    
+}
+    
+.videoogimg-php .background-icons-kodning {
+    background-image: none;
 }
 
 .videoogimg-php #mitgrid-videoogimg {
@@ -6181,11 +6331,27 @@ usability-table {
         "kilder";
 }
        
-    .videoogimg-php #mitgrid-videoogimg  img {
+    .videoogimg-php #embedded-screen,
+    #embedded-kode {
         max-width: 100%;
         margin-right: auto;
         margin-left: auto;
         display: flex;
+    }
+    
+    #insert-img-figure img {
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #insert-img-figure {
+        margin-left: -3.5em;
+        margin-right: -3.5em;
+        background-image: url(kodning/background-icons-kodning.png);
+        background-repeat: repeat;
+        background-size: 120%;
+        background-position: top;
     }
     
     .videoogimg-php #video-fil-input {
@@ -6200,6 +6366,7 @@ usability-table {
     
     .videoogimg-php #video-html {
         margin-top: 1em;
+        grid-column-gap: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
@@ -6614,6 +6781,7 @@ usability-table {
     
 .background-property-php #whitman-start {
     grid-area: whitmanstart;
+    max-width: 99%;
 }
     
 .background-property-php #whitman-slut {
@@ -6633,14 +6801,19 @@ usability-table {
     
 .background-property-php #sonnet-kode {
         grid-area: sonnetkode;
+        margin-right: auto;
+        margin-left: auto;
 }
     
 .background-property-php #sonnet-start {
         grid-area: sonnetstart;
+        max-width: 90%;
+        margin-left: auto;
 }
     
 .background-property-php #sonnet-slut {
         grid-area: sonnetslut;
+        margin-right: auto;
 }
     
 .background-property-php #linear-images {
@@ -6721,6 +6894,15 @@ usability-table {
             "linearsteps4 linearsteps5 linearsteps5";
     }
 
+    
+    
+.background-property-php .background-icons-kodning {
+        margin-left: -5em;
+        margin-right: -5em;
+        background-image: url(kodning/background-icons-kodning.png);
+        background-size: contain;
+        background-position: center;
+    }
 /* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP END */
 
 
@@ -8199,6 +8381,10 @@ usability-table {
 
 
 /* KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP KODESKIKKE.PHP START */
+.kodeskik-php {
+    min-height: 100%;
+}  
+
 .kodeskik-php h1 {
     text-align: center;
 }
@@ -8322,6 +8508,15 @@ usability-table {
         margin-left: auto;
         display: flex;
     }
+    
+    .formularer-php .background-icons-kodning {
+        background-image: none;
+        margin: 0;
+    }
+    
+    .formularer-php #steps-searchbar h4 {
+        text-align: left;
+    }
 
 .formularer-php #mitgrid-formularer {
     margin: 5em;
@@ -8365,7 +8560,6 @@ usability-table {
 }
     
 .videoogimg-php video {
-    max-width: 80%;
     height: auto;
     display: flex;
     margin-right: auto;
@@ -8385,11 +8579,16 @@ usability-table {
         "kilder";
 }
        
-    .videoogimg-php #mitgrid-videoogimg  img {
+    .videoogimg-php #mitgrid-videoogimg  #kode-imginsert,
+    .videoogimg-php #mitgrid-videoogimg #imginsert-screen{
         max-width: 100%;
         margin-right: auto;
         margin-left: auto;
         display: flex;
+    }
+    
+    .videoogimg-php #insert-img-figure {
+        background-image: none;
     }
     
     .videoogimg-php #video-fil-input {
@@ -8424,6 +8623,11 @@ usability-table {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
             "kodeimgin screenimgin";
+    }
+    
+    .videoogimg-php #lokalvideo-kode,
+    .videoogimg-php #embedded-kode {
+        max-width: 80%;
     }
 /* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           END */
 
@@ -8589,7 +8793,56 @@ usability-table {
     }
     
     
+/* background image */
+    .bootstrap-php .background-icons-kodning {
+        margin-left: -7em;
+        margin-right: -7em;
+        background: none;
+    }
+    
+    #knapper-on-site,
+    #karousel-on-site {
+        max-width: 52%;
+    }
+    
+/* NYE GRIDS TIL SECTIONS */
+    #karousel-eksempel-kode {
+        grid-area: kodekarousel;
+    }
+    
+    #karousel-eksempel-after {
+        grid-area: karouselhund;
+    }
+    
+    #images-carousel {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-areas: 
+            "kodekarousel karouselhund";
+    }
 
+    #dropogpop-eksempel-kode {
+        grid-area: kodepopanddrop;
+        background-image: url(kodning/background-icons-kodning.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+    
+    #dropogpop-eksempel-after {
+        grid-area: popanddrophund;
+    }
+    
+    #images-dropandpop {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-areas: 
+            "kodepopanddrop popanddrophund"
+    }
+    
+    #dropdown-koden {
+        max-width: 92%;
+    }
 /* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP END */
 
 
@@ -8739,41 +8992,18 @@ usability-table {
     grid-area: titel;
 }
 
-.border-shadow-php #borders-css {
-    grid-area: borders-css;
-}
-
-.border-shadow-php #shadow-css {
-    grid-area: shadow-css;
-}
-
-.border-shadow-php #border-shadow-text-prakis {
-    grid-area: border-shadow-text-prakis;
-}
-
-.border-shadow-php .kilder {
-    grid-area: kilder;
-}
-
 .border-shadow-php #mitgrid-border-shadow {
     margin: 3.5em;
     margin-bottom: 1em;
     margin-top: 1em;
-    grid-row-gap: 25px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-        "titel titel titel"
-        "borders-css shadow-css shadow-css"
-        "border-shadow-text-prakis border-shadow-text-prakis border-shadow-text-prakis"
-        "kilder kilder kilder"
+}
+        
+.border-shadow-php #shadowbox-table {
+    grid-area: shadowbox;
 }
     
 .border-shadow-php #shadowtext-table {
-    grid-area: shadowtext;    
-}
-    
-.border-shadow-php #shadowbox-table {
-    grid-area: shadowbox;
+        grid-area: shadowtext;
 }
     
 .border-shadow-php #shadow-intro {
@@ -8802,6 +9032,18 @@ usability-table {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
             "shadowkode shadowscreen";
+    }
+    
+    
+    #shadowbox-screen {
+        max-width: 80%;
+    }
+    
+    #border-shadow-text-prakis {
+        background: none;
+        margin: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 /* BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP BORDEROGSHADOW.PHP END */
 
@@ -8855,16 +9097,14 @@ usability-table {
     
 .background-property-php #whitman-start {
     grid-area: whitmanstart;
-    max-width: 60%;
-    margin-right: auto;
+    max-width: 99%;
     margin-left: auto;
 }
     
 .background-property-php #whitman-slut {
     grid-area: whitmanslut;
-    max-width: 60%;
+    max-width: 100%;
     margin-right: auto;
-    margin-left: auto;
 }
     
 .background-property-php #radial-images {
@@ -8887,16 +9127,14 @@ usability-table {
     
 .background-property-php #sonnet-start {
         grid-area: sonnetstart;
-        max-width: 60%;
-        margin-right: auto;
+        max-width: 89%;
         margin-left: auto;
 }
     
 .background-property-php #sonnet-slut {
         grid-area: sonnetslut;
-        max-width: 60%;
+        max-width: 100%;
         margin-right: auto;
-        margin-left: auto;
 }
     
 .background-property-php #linear-images {
@@ -8925,7 +9163,7 @@ usability-table {
     
 .background-property-php #radial-image-steps5 {
         grid-area: radialstep5;
-        margin-right: 10em;
+        margin-right: 50%;
 
 }
     
@@ -8935,10 +9173,10 @@ usability-table {
         display: grid;
         grid-column-gap: 15px;
         grid-row-gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
-            "radialstep1 radialstep2 radialstep3"
-            "radialstep4 radialstep5 radialstep5";
+            "radialstep1 radialstep2 radialstep3 radialstep4"
+            " radialstep5 radialstep5 radialstep5 radialstep5";
 }
     
 
@@ -8963,7 +9201,7 @@ usability-table {
     
 .background-property-php #linear-image-steps5 {
         grid-area: linearsteps5;
-        margin-right: 10em;
+        margin-right: 50%;
 }
     
 .background-property-php #linear-image-steps {
@@ -8971,11 +9209,22 @@ usability-table {
         display: grid;
         grid-column-gap: 15px;
         grid-row-gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
-            "linearsteps1 linearsteps2 linearsteps3"
-            "linearsteps4 linearsteps5 linearsteps5";
+            "linearsteps1 linearsteps2 linearsteps3 linearsteps4"
+            " linearsteps5 linearsteps5 linearsteps5 linearsteps5";
     }
+    
+    
+    
+    .background-property-php .background-icons-kodning {
+        margin-left: -10em;
+        margin-right: -10em;
+        background-image: url(kodning/background-icons-kodning.png);
+        background-size: contain;
+        background-position: center;
+    }
+    
 
 /* BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP BACKGROUND.PHP END */
 

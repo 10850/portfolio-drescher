@@ -117,9 +117,9 @@
                             Knappen "Subscribe" er et input som har attributterne type="submit" og value="Subscribe", det fortæller formulareren at knappen hedder subscribe og at dens værdi er at det til at Subscribe til nyhedsbrevet.
                         </p>
                     </section>
-                    
-                    <img src="kodning/formularer/nyhedsbrev-screen.png" id="nyhedsbrev-screen">
-                    
+                    <div class="background-icons-kodning">
+                        <img src="kodning/formularer/nyhedsbrev-screen.png" id="nyhedsbrev-screen">
+                    </div>
                 </section>
                 
                 
@@ -145,11 +145,12 @@
                                 Til sidst er der en placholder som siger "søg efter produkter eller brands..." for at fortælle brugeren hvad feltet bruges til.
                             </p>
                         </section>
-                        
+                        <div class="background-icons-kodning">
                         <section id="searchbar-screen">
                             <h4 class="sub-skrift">Søgefeltet på Løbehjulsiden</h4>
                             <img src="kodning/formularer/s%C3%B8gefelt-screen.png" id="searchbar-img">
                         </section>
+                        </div>
                     </section>
                 </section>
         
@@ -159,11 +160,11 @@
                     <ul class="kildeliste">
                         <li>
                             Knudsen, V. A. &#38; Sørensen, A., 2020. Formularer, felttyper og formatering. [Online] 
-                            Available at: http://10743.apache.eadania.dk/HTML%20Forms/Index.html
+                            Available at: <a href="http://10743.apache.eadania.dk/HTML%20Forms/Index.html" target="_blank">http://10743.apache.eadania.dk/HTML%20Forms/Index.html</a>
                             [Senest hentet eller vist den 7 december 2020].
                         </li>
                         <li>
-                            Rijna, Drescher:<a href="http://10850.apache.eadania.dk/scootershopv2/index.php">Gisito Scooters</a>; Fra 23. Oktober 2020
+                            Rijna, Drescher:<a href="http://10850.apache.eadania.dk/scootershopv2/index.php" target="_blank">Gisito Scooters</a>; Fra 23. Oktober 2020
                         </li>
                     </ul>
                 </section>

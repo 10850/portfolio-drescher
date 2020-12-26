@@ -57,8 +57,9 @@
                         </li>
                     </ul>
 
-
+                    
                     <img src="kodning/kodeskikke/godskik.JPG" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
+                    
                 </section>
                 
         
@@ -68,8 +69,8 @@
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
                         <li>
-                            Østergaard, N., 2020. HTML. [Online] 
-                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=154867&#38;redirect=1
+                            Østergaard, N., 10. september 2020. HTML. [Online] 
+                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 2 december 2020].
                         </li>
                     </ul>

@@ -32,7 +32,7 @@
                     <p class="body-text">
                         Background property’en giver mulighed for at man kan style på et valgt elements baggrund (Rijna &#38; Lank, 2020). Under det findes der forskellige property-values som man kan laver rules med (ibid):
                     </p>
-                    
+                    <div class="background-icons-kodning">
                     <table class="usability-table">
                         <tr>
                             <th>Value</th>
@@ -75,8 +75,10 @@
                         </tr>
                     
                     </table>
+                    </div>
                 </section>
                 
+                <div id="background-radial-icons">
                 <section id="radial-image">
                     <section id="radial-image-intro">
                         <h2 class="overskrift">Background-image + Radial gradient</h2>
@@ -130,7 +132,7 @@
                         </section>
                     </section>
                 </section>
-                
+                </div>
                 <section id="linear-image">
                     <section id="linear-image-intro">
                         <h2 class="overskrift">Background-image + Linear gradient</h2>
@@ -142,7 +144,7 @@
                     <figure id="linear-images">
                         <img src="kodning/css/background/sonnet-step-4-kode.JPG" id="sonnet-kode">
                         
-                        <img src="kodning/css/background/sonnet-step-1-billed.JPG" id="sonnet-start">
+                        <img src="kodning/css/background/sonnet-step-1-billed2.JPG" id="sonnet-start">
                         
                         <img src="kodning/css/background/sonnet-slut.JPG" id="sonnet-slut">
                     </figure>
@@ -192,17 +194,17 @@
                     <ul class="kildeliste">
                         <li>
                             Rijna, F. D. &#38; Lank, N., 2020. CSS Background (Billeder og Gradient). [Online] 
-                            Available at: http://10850.apache.eadania.dk/workshop/Index.html
+                            Available at: <a href="http://10850.apache.eadania.dk/workshop/Index.html" target="_blank">http://10850.apache.eadania.dk/workshop/Index.html</a> 
                             [Senest hentet eller vist den 25 november 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS background Property. [Online] 
-                            Available at: https://www.w3schools.com/cssref/css3_pr_background.asp
+                            Available at: <a href="https://www.w3schools.com/cssref/css3_pr_background.asp" target="_blank">https://www.w3schools.com/cssref/css3_pr_background.asp</a> 
                             [Senest hentet eller vist den 10 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. CSS background-image Property. [Online] 
-                            Available at: https://www.w3schools.com/cssref/pr_background-image.asp
+                            Available at: <a href="https://www.w3schools.com/cssref/pr_background-image.asp" target="_blank">https://www.w3schools.com/cssref/pr_background-image.asp</a>
                             [Senest hentet eller vist den 3 december 2020].
                         </li>
                     </ul>

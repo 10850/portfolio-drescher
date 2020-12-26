@@ -60,7 +60,7 @@
         
         
                 <section id="softbites-media">
-                    <section id="softbites-break-mobil">
+                    <section id="softbites-break-mobil" class="background-icons-kodning">
                         <img src="kodning/css/mediaqueries/breakpointtilgridskode2.png" id="media1-kode">
                         <img src="kodning/css/mediaqueries/breakpointtilgrids2.png" id="media1-screen">
                     </section>
@@ -77,12 +77,12 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. CSS @media Rule. [Online] 
-                            Available at: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+                            Available at:  <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">https://www.w3schools.com/cssref/css3_pr_mediaquery.asp</a>
                             [Senest hentet eller vist den 10 december 2020].
                         </li>
                         <li>
                             Rijna, D., Andreasen. F. I. N. &#38; Christensen, H. M. L., 2020. Soft Bites. [Online] 
-                            Available at: <a href="http://10850.web.eadania.dk/softbites2/index.html">http://10850.web.eadania.dk/softbites2/index.html</a>
+                            Available at: <a href="http://10850.web.eadania.dk/softbites2/index.html" target="_blank">http://10850.web.eadania.dk/softbites2/index.html</a>
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                     </ul>

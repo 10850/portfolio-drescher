@@ -78,7 +78,7 @@
                         <img src="kodning/css/list/list-style-image-kode.jpg" id="list-style-image-kode">
                     </figure>
                     
-                    <figure>
+                    <figure class="backgrounds-icons-kodning">
                         <h4 class="sub-skrift">List-style-image på Soft Bites</h4>
                         <img src="kodning/css/list/list-style-image.jpg" id="list-style-image-screen">
                         <a href="http://10850.web.eadania.dk/softbites2/index.html">Siden med listen kan ses på Soft Bites one page</a>
@@ -91,12 +91,12 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. CSS Lists. [Online] 
-                            Available at: https://www.w3schools.com/css/css_list.asp
+                            Available at: <a href="https://www.w3schools.com/css/css_list.asp" target="_blank">https://www.w3schools.com/css/css_list.asp</a> 
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                         <li>
                             Rijna, D., Andreasen. F. I. N. &#38; Christensen, H. M. L., 2020. Soft Bites. [Online] 
-                            Available at: <a href="http://10850.web.eadania.dk/softbites2/index.html">http://10850.web.eadania.dk/softbites2/index.html</a>
+                            Available at: <a href="http://10850.web.eadania.dk/softbites2/index.html" target="_blank">http://10850.web.eadania.dk/softbites2/index.html</a>
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                     </ul>
