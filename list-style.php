@@ -75,7 +75,7 @@
                     
                     <figure>
                         <h4 class="sub-skrift">List-style-image koden</h4>
-                        <img src="kodning/css/list/list-style-image-kode.jpg" id="list-style-image-kode">
+                        <img src="kodning/css/list/listkode.png" id="list-style-image-kode">
                     </figure>
                     
                     <figure class="backgrounds-icons-kodning">
