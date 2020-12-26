@@ -37,7 +37,7 @@
                         </p>
                         
                         <div class="background-icons-kodning">
-                            <img src="kodning/videoogimg/lokal-video-kode.jpg" alt="kode til at indsætte en lokal videofil i HTML" id="lokalvideo-kode">
+                            <img src="kodning/videoogimg/lokal-video-kode.png" alt="kode til at indsætte en lokal videofil i HTML" id="lokalvideo-kode">
 
                             <video id="scootvideo-eksempel" width="1080px" height="1350px" controls loop>
                                 <source src="video/ScooterEdit.mp4" type="video/mp4">
@@ -61,7 +61,7 @@
                             Man kan med fordel også linke til en video som allerede ligger på internettet i for eksempel youtube eller instagram (Nautrup &#38; Mikkelsen, 2020). Hvor de giver en noget HTML kode som man kan copy + paste (ibid):
                         </p>
                         <div class="background-icons-kodning">
-                            <img src="kodning/videoogimg/embeddedvideo-kode.png" alt="eksempel på embedded kode til en youtube video. På hundesiden." id="embedded-kode">
+                            <img src="kodning/videoogimg/iframe.png" alt="eksempel på embedded kode til en youtube video. På hundesiden." id="embedded-kode">
 
                             <img src="kodning/videoogimg/embeddedvideo-screen.jpg" alt="screenshot af hundesiden hvor videoen ligger" id="embedded-screen">
                         </div>

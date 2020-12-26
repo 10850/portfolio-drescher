@@ -60,7 +60,7 @@
                         </p>
                         
                         <div class="background-icons-kodning">
-                            <img src="kodning/seo/metadatause.JPG" alt="eksempel på metadata done right" id="meta-eksempel">
+                            <img src="kodning/seo/metadata.png" alt="eksempel på metadata done right" id="meta-eksempel">
                         </div>
                         
                         <p id="skalinclude" class="body-text">
@@ -68,7 +68,7 @@
                         </p>
                         
                         <div class="background-icons-kodning">
-                            <img src="kodning/seo/viewport-use.JPG" alt="viewport for responsiv side" id="viewport-img">
+                            <img src="kodning/seo/viewport.png" alt="viewport for responsiv side" id="viewport-img">
                         </div>
                     </section>
                 </section> <!-- Metabase -->

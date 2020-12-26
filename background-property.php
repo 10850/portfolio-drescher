@@ -88,7 +88,7 @@
                     </section>
                     
                     <figure id="radial-images">
-                        <img src="kodning/css/background/whitmanstep5kode.JPG" id="whitman-kode">
+                        <img src="kodning/css/background/radialkode.png" id="whitman-kode">
                         
                         <img src="kodning/css/background/startwhitman.JPG" id="whitman-start">
                         
@@ -99,7 +99,7 @@
                         <section id="radial-image-steps1">
                             <h4 class="sub-skrift">Step 1</h4>
                             <p class="body-text">
-                                Vi starter denne her gang med at lave et radial gradient ved brug af RGBA sammen med Background: radial-gradient() i CSS (Rijna & Lank, 2020).
+                                Vi starter denne her gang med at lave et radial gradient ved brug af RGBA sammen med Background: radial-gradient() i CSS (Rijna &#38; Lank, 2020).
                             </p>
                         </section>
 
@@ -142,7 +142,7 @@
                     </section>
                     
                     <figure id="linear-images">
-                        <img src="kodning/css/background/sonnet-slut-kode.JPG" id="sonnet-kode">
+                        <img src="kodning/css/background/linearkode.png" id="sonnet-kode">
                         
                         <img src="kodning/css/background/sonnet-step-1-billed2.JPG" id="sonnet-start">
                         

@@ -9,9 +9,6 @@
     <title>Drescher Rijna - Læringsportfolio</title>
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
-    <!-- Karma fra google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Mit stylesheet -->
@@ -58,7 +55,7 @@
                     </ul>
 
                     
-                    <img src="kodning/kodeskikke/godskik.JPG" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
+                    <img src="kodning/kodeskikke/godskik.png" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
                     
                 </section>
                 

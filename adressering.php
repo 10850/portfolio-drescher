@@ -34,7 +34,7 @@
                     </p>
                     
                     <h4 class="sub-skrift">Relativ adressering fra dette læringsporfolio</h4>
-                    <img src="kodning/adressering/relativ-koe.jpg" alt="eksempel på relativ adressering" id="relativ-img">
+                    <img src="kodning/adressering/relativ.png" alt="eksempel på relativ adressering" id="relativ-img">
                     <p class="body-text">
                         Dette er linket oppe i menuen til Design Thinking, hvor jeg har brugt relativ adressering.
                     </p>
@@ -47,7 +47,7 @@
                     </p>
                     
                     <h4 class="sub-skrift">Absolut addressering fra One page projektet</h4>
-                    <img src="kodning/adressering/absolut-kode.jpg" alt="eksempel på absolut adressering" id="absolut-img">
+                    <img src="kodning/adressering/absolut.png" alt="eksempel på absolut adressering" id="absolut-img">
                     <p class="body-text">
                         <a href="http://10850.web.eadania.dk/softbites2/index.html">Du kan gå til min One page der omhandler Soft Bites, og prøve at trykke på Køb nu knappen der linker til nemlig.dk</a>
                     </p>

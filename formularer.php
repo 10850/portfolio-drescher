@@ -89,7 +89,7 @@
                     <section id="nyhedsbrev-formularer-koden">
                         <figure id="koden-til-brevet">
                             <h4 class="sub-skrift">Koden</h4>
-                            <img src="kodning/formularer/nyhedsbrev.jpg" id="nyhedsbrev-kode">
+                            <img src="kodning/formularer/nyhedsbrev.png" id="nyhedsbrev-kode">
                         </figure>
                         
                         <h4 class="sub-skrift">
@@ -134,7 +134,7 @@
                     <section id="searchbar-kode">
                         <section id="steps-searchbar">
                             <h4 class="sub-skrift">Koden til søgefeltet</h4>
-                            <img src="kodning/formularer/s%C3%B8gefelt.jpg" id="koden-til-searchbar">
+                            <img src="kodning/formularer/searchbar.png" id="koden-til-searchbar">
                             <p class="body-text">
                                 Der er lavet et &#60;nav&#62; for at indikere det er noget navigation vi har at gøre med.
                             </p>
