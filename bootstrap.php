@@ -69,7 +69,7 @@
                         
                         <figure id="navigation-eksempel-kode" >
                             <h4 class="sub-skrift">Koden til navigationen sat ind</h4>
-                            <img src="kodning/bootstrap/navbar.png" id="navbar-kode-bootstrap">
+                            <img src="kodning/bootstrap/bootstrap-nav.png" id="navbar-kode-bootstrap">
                         </figure>
                         
                         <figure id="navigation-eksempel-before" >
@@ -100,7 +100,7 @@
                         
                         <figure id="dropogpop-eksempel-kode">
                             <h4 class="sub-skrift">Koden Dropdown og Popover knappen sat ind</h4>
-                            <img src="kodning/bootstrap/dropdown-kode.png" id="dropdown-koden">
+                            <img src="kodning/bootstrap/dropandpopkode.png" id="dropdown-koden">
                         </figure>
                         
                         <div class="background-icons-kodning">
@@ -132,7 +132,7 @@
                         
                         <figure id="karousel-eksempel-kode" >
                             <h4 class="sub-skrift">Koden til karousellen sat ind</h4>
-                            <img src="kodning/bootstrap/karousel.png" id="karousel-koden">
+                            <img src="kodning/bootstrap/carouselkode.png" id="karousel-koden">
                         </figure>
                         
                         <div class="background-icons-kodning">

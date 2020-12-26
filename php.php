@@ -53,12 +53,12 @@
                         
                         <figure id="kode-menuinc">
                             <h4 class="sub-skrift">Menu.inc fil med navigations kode</h4>
-                            <img src="kodning/serverside/php-include-menu-inc.png" alt="billed af menu.inc fil med navigation i den" id="menuinc-kode">
+                            <img src="kodning/serverside/menuinc.png" alt="billed af menu.inc fil med navigation i den" id="menuinc-kode">
                         </figure>
                         
                         <figure id="kode-include">
                             <h4 class="sub-skrift">PHP-inlcude kommandoen hvor du linker til menu.inc</h4>
-                            <img src="kodning/serverside/include.jpg" alt="billed af php-include kode på brackets" id="php-include-kode">
+                            <img src="kodning/serverside/include.png" alt="billed af php-include kode på brackets" id="php-include-kode">
                         </figure>
                         
                         <figure id="kode-include-screen">

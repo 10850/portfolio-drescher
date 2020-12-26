@@ -85,7 +85,7 @@
                                 Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
                             </p>
                             <div class="background-icons-kodning">
-                                <img src="kodning/css/grid/grid-3.JPG" id="gridareas-img">
+                                <img src="kodning/css/grid/gridareas.png" id="gridareas-img">
                             </div>
                         </section>
                         
@@ -95,7 +95,7 @@
                                 Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
                             </p>
                             <div class="background-icons-kodning">
-                                <img src="kodning/css/grid/grid-template-area-use.JPG" id="gridtemplate-areas">
+                                <img src="kodning/css/grid/gridtemplate.png" id="gridtemplate-areas">
                             </div>
                             <p class="body-text">
                                 Dette siger at:
