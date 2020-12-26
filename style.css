@@ -2246,6 +2246,11 @@ video-php h1 {
         "kilder";
 }
 
+#scootvideo-eksempel {
+    max-width: 100%;
+    height: auto;
+}
+
 /* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           END */
 
 
@@ -4100,6 +4105,11 @@ usability-table {
         margin-left: auto;
         display: flex;
     }
+    
+    #scootvideo-eksempel {
+    max-width: 280px;
+    height: 360px;
+}
 /* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           END */
 
 
@@ -8744,6 +8754,11 @@ usability-table {
     .videoogimg-php #embedded-kode {
         max-width: 80%;
     }
+    
+        #scootvideo-eksempel {
+    max-width: 480px;
+    height: 610px;
+}
 /* VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP VIDEOOGBILLEDER.PHP           END */
 
 
