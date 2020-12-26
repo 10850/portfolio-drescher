@@ -1955,7 +1955,8 @@ video-php h1 {
 .display-psoition-php footer,
 .list-style-php footer,
 .media-queries-php footer,
-.animation-php footer {
+.animation-php footer,
+.kodning-refleksion footer {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
@@ -1981,11 +1982,37 @@ video-php h1 {
 .display-psoition-php .navbar,
 .list-style-php .navbar,
 .media-queries-php .navbar,
-.animation-php .navbar {
+.animation-php .navbar,
+.kodning-refleksion .navbar{
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
 
+/* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP START */
+.kodning-refleksion h1 {
+    text-align: center;
+    
+}
+
+.kodning-refleksion .background-refleksion-kodning {
+    height: 100px;
+    width: 100%;
+}
+
+.kodning-refleksion .background-refleksion-kodning {
+    background-image: url(kodning/back-refleksions-kodning.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-left: -0.8em;
+    margin-right: -0.8em;
+}
+
+
+.kodning-refleksion #mitgrid-kodningrefleksion {
+    margin: 0.8em;
+}
+
+/* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP END */
 
 
 
@@ -2867,6 +2894,33 @@ video-php h1 {
     min-height: 100%;
 }
     
+    
+/* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP START */
+.kodning-refleksion h1 {
+    text-align: center;
+    
+}
+
+.kodning-refleksion .background-refleksion-kodning {
+    height: 100px;
+    width: 100%;
+}
+
+.kodning-refleksion .background-refleksion-kodning {
+    background-image: url(kodning/back-refleksions-kodning.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+}
+
+
+.kodning-refleksion #mitgrid-kodningrefleksion {
+    margin: 1.5em;
+}
+
+/* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP END */
+    
         
 }
 
@@ -3683,6 +3737,35 @@ usability-table {
     
     
 /* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER START */
+  
+/* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP START */
+.kodning-refleksion h1 {
+    text-align: center;
+    
+}
+
+.kodning-refleksion .background-refleksion-kodning {
+    height: 100px;
+    width: 100%;
+}
+
+.kodning-refleksion .background-refleksion-kodning {
+    background-image: url(kodning/back-refleksions-kodning.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.kodning-refleksion #mitgrid-kodningrefleksion {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+/* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP END */    
+    
     
 /* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP START */
 /* GRID */
@@ -6023,6 +6106,38 @@ usability-table {
     
     
 /* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER START */
+
+
+/* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP START */
+.kodning-refleksion h1 {
+    text-align: center;
+    
+}
+
+.kodning-refleksion .background-refleksion-kodning {
+    height: 100px;
+    width: 100%;
+}
+
+.kodning-refleksion .background-refleksion-kodning {
+    background-image: url(kodning/back-refleksions-kodning.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.kodning-refleksion #mitgrid-kodningrefleksion {
+    margin: 10em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+/* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP END */  
+    
+    
+    
     
 /* SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHP SEO.PHPSEO.PHP START */
 /* GRID */
