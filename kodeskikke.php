@@ -17,8 +17,67 @@
     <!-- Mit stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
-    <body class="kodeskikke-php">
+    <body class="kodeskik-php">
+        <header class="kodning-header">
+            <?php include 'menu.inc' ?>
+        </header>
+        
+        <?php include 'undermenu-html.inc' ?>
+            
+            <div id="mitgrid-kodeskikke">
+                
+                <h1 class="titel">Kodeskikke</h1>
+                
+                <section id="kodeskikke-good-bad">
+                    <p class="body-text">
+                        I verden af kodning findes der god og dårlige kodeskikke (Østergaard, 2020). Det er vigtigt at når man koder at man holder fast på gode kodeskikke (ibid). Ikke kun for at andre programmør nemt kan læse, forstå og overskue din kode, men også for at man selv kan have gode overblik over sin kode når man går tilbage i sin kode for at for eksempel lave ændringer (ibid). God kodeskikke er:
+                    </p>
+                
+                    <ul class="liste">
+                        <li>
+                            En del af god kodeskik (Østergaard, 2020).
+                        </li>
+                        <li>
+                            Det giver dig overblik (ibid).
+                        </li>
+                        <li>
+                            Det gør din kode læselig for andre (ibid).
+                        </li>
+                        <li>
+                            Brug tabulatoren (flere mellemrum efter hinanden er FORBUDT!) (ibid).
+                        </li>
+                        <li>
+                            Editoren hjælper dig - lad den gøre det (ibid).
+                        </li>
+                        <li>
+                            Kode der ikke er indrykket, kan ikke godkendes! (ibid).
+                        </li>
+                        <li>
+                            Bemærk: Tabuleringer, ekstra mellemrum og linieskift kaldes “whitespace” og ignoreres af browseren (ibid).
+                        </li>
+                    </ul>
 
+                    
+                    <img src="kodning/kodeskikke/godskik.JPG" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
+                    
+                </section>
+                
+        
+        
+        
+                <section class="kilder">
+                    <h2 class="overskrift">Kilder</h2>
+                    <ul class="kildeliste">
+                        <li>
+                            Østergaard, N., 10. september 2020. HTML. [Online] 
+                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                            [Senest hentet eller vist den 2 december 2020].
+                        </li>
+                    </ul>
+                </section>
+            </div> <!-- MITGRID -->
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

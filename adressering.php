@@ -18,7 +18,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="adressering-php">
-
+        <header class="kodning-header">
+            <?php include 'menu.inc' ?>
+        </header>
+        
+        <?php include 'undermenu-html.inc' ?>
+            
+            <div id="mitgrid-adressering" class="background-icons-kodning">
+                <h1 class="titel">Adressering</h1>
+        
+                <section id="relativ-adressering">
+                    <h2 class="overskrift">Relativ adressering</h2>
+                    <p class="body-text">
+                        Relativ adressering er når man linker til sider som ligger lokalt i dine mapper, så du linker til andre HTML-filer eller filer (billeder og video) (W3schools, 2020). Eksempel på linking til relative sider ville være:
+                    </p>
+                    
+                    <h4 class="sub-skrift">Relativ adressering fra dette læringsporfolio</h4>
+                    <img src="kodning/adressering/relativ-koe.jpg" alt="eksempel på relativ adressering" id="relativ-img">
+                    <p class="body-text">
+                        Dette er linket oppe i menuen til Design Thinking, hvor jeg har brugt relativ adressering.
+                    </p>
+                </section> <!-- relativ -->
+                
+                <section id="absolut-adressering">
+                    <h2 class="overskrift">Absolut adressering</h2>
+                    <p class="body-text">
+                        Absolut adressering er når man linker til sider som ligger eksternt fra dit lokale drev, så du linker til andre sider/content på world wide web(www) (W3schools, 2020). Eksempel på linking til relative sider ville være:
+                    </p>
+                    
+                    <h4 class="sub-skrift">Absolut addressering fra One page projektet</h4>
+                    <img src="kodning/adressering/absolut-kode.jpg" alt="eksempel på absolut adressering" id="absolut-img">
+                    <p class="body-text">
+                        <a href="http://10850.web.eadania.dk/softbites2/index.html">Du kan gå til min One page der omhandler Soft Bites, og prøve at trykke på Køb nu knappen der linker til nemlig.dk</a>
+                    </p>
+                </section> <!-- absolut -->
+        
+        
+        
+        
+                <section class="kilder">
+                    <h2 class="overskrift">Kilder</h2>
+                    <ul class="kildeliste">
+                        <li>
+                            W3schools, 2020. HTML File Paths. [Online] 
+                            Available at: <a href="https://www.w3schools.com/html/html_filepaths.asp" target="_blank">https://www.w3schools.com/html/html_filepaths.asp</a> 
+                            [Senest hentet eller vist den 8 december 2020].
+                        </li>
+                    </ul>
+                </section>
+            </div> <!-- MITGRID -->
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
