@@ -150,10 +150,6 @@
                                             <li><a class="dropdown-item" href="formularer.php">Formularer, felttyper og formatering</a></li>
                                           </ul> 
                                           <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>Serverer</h3></li>
-                                            <li><a class="dropdown-item" href="server.php">Serverer</a></li>
-                                          </ul>
-                                          <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>CSS</h3></li>
                                             <li><a class="dropdown-item" href="boxmodellen.php">Boxmodellen</a></li>
                                             <li><a class="dropdown-item" href="selectors.php">Selectors</a></li>
@@ -176,6 +172,10 @@
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Bootstrap</h3></li>
                                             <li><a class="dropdown-item" href="bootstrap.php">Bootstrap</a></li>
+                                          </ul>
+                                          <ul class="mega-dropdown-desktop">
+                                            <li class="mega-menu-list-title"><h3>Min udvikling i kodning</h3></li>
+                                            <li><a class="dropdown-item" href="min-udvikling-kodning.php">Min udvikling i kodning</a></li>
                                           </ul>
                                         </div>
                                     </li> <!-- mega dropdown -->

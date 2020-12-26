@@ -175,10 +175,7 @@
                                             <li><a class="dropdown-item" href="videoogbilleder.php">Video og Billeder</a></li>
                                             <li><a class="dropdown-item" href="formularer.php">Formularer, felttyper og formatering</a></li>
                                           </ul> 
-                                          <ul class="mega-dropdown-desktop">
-                                            <li class="mega-menu-list-title"><h3>Serverer</h3></li>
-                                            <li><a class="dropdown-item" href="server.php">Serverer</a></li>
-                                          </ul>
+                                          
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>CSS</h3></li>
                                             <li><a class="dropdown-item" href="boxmodellen.php">Boxmodellen</a></li>
@@ -199,6 +196,11 @@
                                             <li class="mega-menu-list-title"><h3>Bootstrap</h3></li>
                                             <li><a class="dropdown-item" href="bootstrap.php">Bootstrap</a></li>
                                           </ul>
+                                          <ul class="mega-dropdown-desktop">
+                                            <li class="mega-menu-list-title"><h3>Min udvikling i kodning</h3></li>
+                                            <li><a class="dropdown-item" href="min-udvikling-kodning.php">Min udvikling i kodning</a></li>
+                                          </ul>
+                                            
                                         </div>
                                     </li> <!-- mega dropdown -->
                                  </div> <!-- container til styling for mega dropdown -->
@@ -335,23 +337,23 @@
                 
                 <ul id="uxuimenu">
                     <li><div id="uxoguiboks"><h3>UX/UI</h3></div> <!-- Boksen som siger UX/UI så jeg kan lave en rød boks --></li>
-                    <li><a id="designthinkingforside" href="designthinking.html">Design Thinking</a> <!-- Link til design thinking som skal stå for sig selv på toppen af billedet --></li>
+                    <li><a id="designthinkingforside" href="designthinking.php">Design Thinking</a> <!-- Link til design thinking som skal stå for sig selv på toppen af billedet --></li>
                 </ul>
                 
                 
                 <ul id="uxmenu">
                     <li><div id="uxboks"><h3>UX</h3></div> <!-- Boksen som siger UX så jeg kan lave en rød boks --></li>
-                    <li><a id="kodningforside" href="kodning.html">Kodning</a></li>
-                    <li><a id="kommunikationforside" href="kommunikation.html">Kommunikation</a></li>
-                    <li><a id="usabilityforside" href="usability.html">Usability</a></li>
+                    <li><a id="kodningforside" href="attributter.php">Kodning</a></li>
+                    <li><a id="kommunikationforside" href="hvad-er-kommunikation.php">Kommunikation</a></li>
+                    <li><a id="usabilityforside" href="hvad-er-usability.php">Usability</a></li>
                 </ul> <!-- Links som skal stå under UX og på venstre side af billedet -->
                 
                 
                 <ul id="uimenu">
                     <li><div id="uiboks"><h3>UI</h3></div> <!-- Boksen som siger UI så jeg kan lave en rød boks --></li>
-                    <li><a id="designforside" href="design.html">Design</a></li>
-                    <li><a id="videoforside" href="video.html">Videoproduktion</a></li>
-                    <li><a id="fotoforside" href="foto.html">Fotografering</a></li>
+                    <li><a id="designforside" href="outofframe.php">Design</a></li>
+                    <li><a id="videoforside" href="videoproduktion.php">Videoproduktion</a></li>
+                    <li><a id="fotoforside" href="fotografering.php">Fotografering</a></li>
                 </ul> <!-- Links som skal stå under UI og på højre side af billedet -->
                 
             </nav> <!-- Alt indhold til menuen på forsiden -->
