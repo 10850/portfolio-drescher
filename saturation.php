@@ -17,42 +17,38 @@
     <!-- Mit stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
-    <body class="outofframe-php">
+    <body class="saturation-php">
         <header>
             <?php include 'menu.inc' ?>
         </header>
         
-            <h1 class="titel">Out of frame</h1>
+            <h1 class="titel">Saturation</h1>
         
-            <div id="mitgrid-outofframe">
-                <section id="outofframe">
-                    <section id="outofframe-intro">
+            <div id="mitgrid-saturation">
+                <section id="saturation-climate">
+                    <section id="saturation-intro">
                         <ul class="liste">
                             <li>
-                                <h4 class="sub-skrift">Magic wand tool</h4>
-                                Magic wand tool er ligsom quick selection tool bortset fra at den selecter ud fra farve sammenlignelighed.
+                                <h4 class="sub-skrift">Frame tool</h4>
+                                Laver en placeholder frame for et billed. Det kan være firkantet eller en elipse.
                             </li>
                             <li>
-                                <h4 class="sub-skrift">Select  Inverse</h4>
-                                Select  Inverse gør at man kan vælge store dele af et lag som man ikke allerede har valgt. Det kan bruges til at fjerne eller ændre på baggrunden uden ens focal point på billedet ændres. 
-                            </li>
-                            <li>
-                                <h4 class="sub-skrift">Mask layer</h4>
-                                Mask layers er et værktøj som gør et valgt lag til en maske som man kan udviske normalt for at give det gennemsigtighed til et lag under ved brug af en sort farve eller man kan gør layer masken sort og derved gøre sit layer usynligt og tegne det frem med en hvid farver nærmest som en form for omvendt eraser tool.
+                                <h4 class="sub-skrift">Hue/Saturation</h4>
+                                Et adjustmens panel der giver mulighed for at justere et billeds Hue/saturation.
                             </li>
                         </ul>
                     </section>
                     
-                    <section id="outofframe-start">
-                        <img src="design/photoshop/outofframe/wandtool-contract-inverse-layermask-before.jpg" alt="screenshot af photoshop" id="outofframe-start-img">
+                    <section id="saturation-start">
+                        <img src="design/photoshop/saturation/summer.jpg" alt="screenshot af photoshop" id="saturation-start-img">
                     </section>
                     
-                    <section id="outofframe-options">
-                        <img src="design/photoshop/outofframe/wandtool-contract-inverse-layermask-after2.jpg" alt="screenshot af photoshop" id="outofframe-options-img">
+                    <section id="saturation-options">
+                        <img src="design/photoshop/saturation/summercircle.png" alt="screenshot af photoshop" id="saturation-options-img">
                     </section>
                     
-                    <section id="outofframe-slut">
-                        <img src="design/photoshop/outofframe/wandtool-contract-inverse-bevelemboss-layermask-after.jpg" alt="screenshot af photoshop" id="outofframe-slut-img">
+                    <section id="saturation-slut">
+                        <img src="design/photoshop/saturation/winter.png" alt="screenshot af photoshop" id="saturation-slut-img">
                     </section>
                 </section>
             </div>
