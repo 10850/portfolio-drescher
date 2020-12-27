@@ -17,35 +17,8 @@
     <!-- Mit stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
-    <body class="directselection-php">
-        <header>
-            <?php include 'menu.inc' ?>
-        </header>
-        
-            <h1 class="titel">Direct selection tool</h1>
-        
-            <div id="mitgrid-directselection">
-                <section id="direct-select-tool">
-                    <section id="direct-select-intro">
-                        <ul class="liste">
-                            <li>
-                                <h4 class="sub-skrift">Direct selection tool</h4>
-                                Selection tool giver muligheden for at select et eller flere elementer/layers. Hvorimod Dircet Selection Tool giver mulighed for at isolere en enkelt object, anchor point eller path selv hvis det er i en gruppe.  
-                            </li>
-                            <li>
-                                <h4 class="sub-skrift">Pen tool</h4>
-                                En af dens funktioner er at den kan kreere og fjerne anchor points.
-                            </li>
-                        </ul>
-                    </section>
-                    
-                    <section id="direct-select-start">
-                        <img src="design/illustrator/direct-select/direct-selection-and-pen-tool.png" alt="screenshot af illustrator" id="direct-select-start-img">
-                    </section>
-                </section>
-            </div>
-        
-        <?php include 'footer.inc' ?> <!-- footer -->
+    <body class="typografi-php">
+
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

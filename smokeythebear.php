@@ -18,7 +18,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="smokey-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+            <h1 class="titel">Smokey the Bear</h1>
+        
+            <div id="mitgrid-smokeythebear">
+                <section id="smokey">
+                    <section id="smokey-intro">
+                        <ul class="liste">
+                            <li>
+                                <h4 class="sub-skrift">Marquee tool</h4>
+                                Marquee tool giver en mulighed for at lave en selection i form af en geometrisk figur. Herunder elipse, rectangle, single row og single column.
+                            </li>
+                            <li>
+                                <h4 class="sub-skrift">Text tool</h4>
+                                Text tool giver mulighed for at skrive text som er i sit eget layer.
+                            </li>
+                            <li>
+                                <h4 class="sub-skrift">Gradients</h4>
+                                Gradients giver mulighed for at lave unikke farvekombinationer, der kan skabe nye nuancer 
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section id="smokey-start">
+                        <img src="design/photoshop/smokey-before.jpg" alt="screenshot af photoshop" id="smokey-start-img">
+                    </section>
+                    
+                    <section id="smokey-options">
+                        <img src="design/photoshop/smokey-no-color.png" alt="screenshot af photoshop" id="smokey-options-img">
+                    </section>
+                    
+                    <section id="smokey-slut">
+                        <img src="design/photoshop/smokey-done.png" alt="screenshot af photoshop" id="smokey-slut-img">
+                    </section>
+                </section>
+            </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

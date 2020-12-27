@@ -18,7 +18,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="captain-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+            <h1 class="titel">Captain America</h1>
+        
+            <div id="mitgrid-acaptainamerica">
+                <section id="cap-america">
+                    <section id="cap-intro">
+                        <ul class="liste">
+                            <li>
+                                <h4 class="sub-skrift">Elipse tool</h4>
+                                Elipse tool giver en mulighed for at tegne perfekte og uperfekte cirkler 
+                            </li>
+                            <li>
+                                <h4 class="sub-skrift">Star tool</h4>
+                                Star tool giver en mulighed for at tegne stjerner og styrer hvor mange kanter den har med piletasterne
+                            </li>
+                            <li>
+                                <h4 class="sub-skrift">Gradients</h4>
+                                Gradients giver mulighed for at lave unikke farvekombinationer, der kan skabe nye nuancer 
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section id="cap-start">
+                        <img src="design/illustrator/captaina/captain-start.png" alt="screenshot af illustrator" id="cap-start-img">
+                    </section>
+                    
+                    <section id="cap-options">
+                        <img src="design/illustrator/captaina/gradient-options.png" alt="screenshot af illustrator" id="cap-options-img">
+                    </section>
+                    
+                    <section id="cap-slut">
+                        <img src="design/illustrator/captaina/Captain-america-circle-tool-star-tool-gradient.png" alt="screenshot af illustrator" id="cap-slut-img">
+                    </section>
+                </section>
+            </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

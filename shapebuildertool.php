@@ -18,7 +18,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="shapebuilder-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+            <h1 class="titel">Shape Builder Tool</h1>
+        
+            <div id="mitgrid-shapebuilder">
+                <section id="shape-tool">
+                    <section id="shape-intro">
+                        <ul class="liste">
+                            <li>
+                                <h4 class="sub-skrift">Shape Builder Tool(Shift + M)</h4>
+                                Shape Builder tool er det værktøj som giver en mulighed for at lave specielle figur ud af simple figure/objekter der er sat sammen til at illustrere et specielt shape, ved at fjerne specifikke uønsket linjer/paths og derved gøre flere objekter til et objekt. 
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section id="shape-start">
+                        <img src="design/illustrator/shapebuilder/yugiohstarter-03.png" alt="screenshot af illustrator" id="shape-start-img">
+                    </section>
+                    
+                    <section id="shape-slut">
+                        <img src="design/illustrator/shapebuilder/yu-gi-oh-03.png" alt="screenshot af illustrator" id="shape-slut-img">
+                    </section>
+                    
+                    <section id="shape-start2">
+                        <img src="design/illustrator/shapebuilder/scooter-04.png" alt="screenshot af illustrator" id="shape-start2-img">
+                    </section>
+                    <section id="shape-slut2">
+                        <img src="design/illustrator/shapebuilder/dragonball-01.png" alt="screenshot af illustrator" id="shape-slut2-img">
+                    </section>
+                </section>
+            </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

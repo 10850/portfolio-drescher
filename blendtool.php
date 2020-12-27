@@ -18,7 +18,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="blendtool-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+            <h1 class="titel">Blend tool</h1>
+        
+            <div id="mitgrid-bendtool">
+                <section id="blend-tool">
+                    <section id="blend-intro">
+                        <h2 class="overskrift">Blend tool</h2>
+                        <p class="body-text">Blend tool giver muligheden for at mixe 2 eller flere objekter og farver så det bliver til et objekt.</p>
+                    </section>
+                    
+                    <section id="blend-start">
+                        <img src="design/illustrator/blendtool/blend-tool-flag-before.png" alt="screenshot af illustrator" id="blend-start-img">
+                    </section>
+                    
+                    <section id="blend-options">
+                        <img src="design/illustrator/blendtool/blendtool-steps.png" alt="screenshot af illustrator" id="blend-options-img">
+                    </section>
+                    
+                    <section id="blend-slut">
+                        <img src="design/illustrator/blendtool/blend-tool-flag-after.png" alt="screenshot af illustrator" id="blend-slut-img">
+                    </section>
+                </section>
+            </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

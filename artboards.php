@@ -18,7 +18,83 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="artboards-php">
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+            <h1 class="titel">Artboards</h1>
+        
+            <div id="mitgrid-artboards">
+                
+                <section id="artboard-tool">
+                    
+                    <section id="arboard-intro">
+                        <h2 class="overskrift">Artboard tool</h2>
+                        <p class="body-text">Artboard tool bruges til at kreerer nye artboards i samme dokument og redigere størrelsen på sine artboards.</p>
+                    </section>
+                    
+                    <section id="artboard-start">
+                        <img src="design/illustrator/artboardsogworkspace/artboard-start.png" alt="screenshot af illustrator" id="artboard-start-img">
+                    </section>
+                    
+                    <section id="artboard-options">
+                        <img src="design/illustrator/artboardsogworkspace/artboard-options.png" alt="screenshot af illustrator" id="artboard-options-img">
+                    </section>
+                    
+                    <section id="artboard-slut">
+                        <img src="design/illustrator/artboardsogworkspace/artboard-start.png" alt="screenshot af illustrator" id="artboard-slut-img">
+                    </section>
+                </section>
+                
+                
+                <section id="workspace">
+                    <section id="workspace-intro">
+                        <h2 class="overskrift">Paneller</h2>
+                        <p class="body-text">
+                            I illustrator er paneller brugt som ens workspace hvor man kan få overblik over sine objekter, properties af elementer osv. Paneller i illustrator er typisk defineret i 4 forskellige kategorier:
+                        </p>
 
+                        <ul class="liste" id="panel-kategorier">
+                            <li>
+                                <strong>Command/modify &#8594;</strong> kommandere eller modificere noget som strokes, alignment, fill osv.
+                            </li>
+                            <li>
+                                <strong>Storage &#8594;</strong> gemmer ting som custom swatches og brushes
+                            </li>
+                            <li>
+                                <strong>Manage &#8594;</strong> management ting som for eks. Layers 
+                            </li>
+                            <li>
+                                <strong>Create &#8594;</strong> creation af for eksempel Assets
+                            </li>
+                        </ul>
+
+                        <h3 class="underoverskrift">Layers</h3>
+                        <p class="body-text">
+                            Layers panellet er hvor du ser alle dine layers med alle dine objekter og kan organisere dem og navngive dem for bedre overblik. Du kan også nemmere vælge specifikke objekter via layers panellet hvis du har et projekt med mange forskellige layers over hinanden.
+                        </p>
+
+                        <h3 class="underoverskrift">Properties</h3>
+                        <p class="body-text">
+                            Properties panellet giver dig et overview over hvilke values du kan ændre på alt efter hvilket element/objekt du selecter.
+                        </p>
+                    </section>
+                    
+                    <section id="workspace-change">
+                        <section id="workspace-start">
+                            <img src="design/illustrator/artboardsogworkspace/workspace-start.png" alt="screenshot af illustrator" id="workspace-start-img">
+                        </section>
+                        
+                        <section id="workspace-slut">
+                            <img src="design/illustrator/artboardsogworkspace/workspace-slut.png" alt="screenshot af illustrator" id="workspace-slut-img">
+                        </section>
+                    </section>
+                </section>
+                
+
+            </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

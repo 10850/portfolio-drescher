@@ -83,7 +83,7 @@
                     </p>
                     
                     <figure id="insert-img-figure" class="background-icons-kodning">
-                        <img src="kodning/videoogimg/billeder-kode.jpg" id="kode-imginsert">
+                        <img src="kodning/videoogimg/billeder-kode.png" id="kode-imginsert">
                     
                         <img src="kodning/videoogimg/billeder-screen.png" id="imginsert-screen">
                     </figure>
