@@ -318,27 +318,27 @@
                     </section>
                     
                     <figure>
-                    
+                        <img src="design/farver/bus-blue-mono.jpg" id="mono-bus">
                     </figure>
                     
                     <figure>
-                    
+                        <img src="design/farver/green-mono.jpg" id="green-mono">
                     </figure>
                     
                     <figure>
-                    
+                        <img src="design/farver/gul-tilbud.jpg" id="mono-tilbud">
                     </figure>
                     
                     <figure>
-                    
+                        <img src="design/farver/blad-gultilred-analog.jpg" id="blad-analog">
                     </figure>
                     
                     <figure>
-                    
+                        <img src="design/farver/complentary-vejskilt-red-blue.jpg" id="complementary-skilt">
                     </figure>
                    
                     <figure>
-                    
+                        <img src="design/farver/legetoj-triader-starkefarver.jpg" id="tretiader-playtoy">
                     </figure>
                     
                 </section>

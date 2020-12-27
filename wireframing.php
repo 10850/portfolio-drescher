@@ -18,7 +18,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="typografi-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+            
+            <h1 class="titel">Wireframing</h1>
+        
+            <div id="mitgrid-wireframing">
+                <section id="Wireframing-section">
+                    
+                    <section id="wireframing-intro">
+                        <p class="body-text">
+                            En wireframe er en skitse som på den meste simple måde illustrerer og giver overblik over, hvordan ens sides indhold skal placeres i forhold til hinanden (Rold, 2019). Wireframe indeholder sjældent konkret indhold som billeder og tekst (ibid). I stedet indeholder de som standard bokse, som markerer som billeder eller tekst eller knapper m.m. (ibid).
+                        </p>
+                        <p class="body-text">
+                            Man laver wireframe for at få en hurtig, nem og billig prototype som kan give designeren af siden overblik over sine ideer visuelt og være istand til at vurdere dem (ibid). Samt gå ud og teste sin side og få feedback før den endelige implementeringsfase (ibid).
+                        </p>
+                    </section>
+                    
+                    <section id="hifivlofi">
+                        <h2 class="overskrift">Lo-fi versus Hi-fi</h2>
+                        <p class="body-text">
+                            Lo-fi er det man normalt ville lave først hvor man tegner en skitse med bokse med markeringer der henviser til hvad deres funktion er på siden (Rold, 2019). 
+                        </p>
+                        <p class="body-text">
+                            Hi-fi er en wireframe som man ville lave ved enden af sin prototype fase til en sidste test (ibid). Det er hvor wireframen vil være så tæt på at ligne det endelige produkt som overhovedet muligt, mens det stadig er billigt og simpelt at udføre.
+                        </p>
+                    </section>
+                    
+                    <section id="lofi-india">
+                        <h2 class="overskrift">Proximity</h2>
+                        <p class="body-text">
+                            Proximity er loven som siger, at ting som har en kort afstand fra hinanden anses som værende i samme gruppe, altså at ting som står tæt har en relation til hinanden (Usertesting, 2019). Modsat ville en stor proximity anses som at to ting ikke har noget med hinanden at gøre (ibid).
+                        </p>
+                        <img src="design/wireframing/lofi-india.png" id="lofi-india-img">
+                    </section>
+                    
+                    <section id="hifi-india">
+                        <h2 class="overskrift">Common region</h2>
+                        <p class="body-text">
+                            Common region er loven som siger, at når objekter ligger i den samme lukkede områder/boks, så anses man dem for at have en vis relation med hinanden (Usertesting, 2019). De er i samme gruppe (ibid).
+                        </p>
+                        <img src="design/wireframing/hifi-india.jpg" id="hifi-india-img">
+                    </section>
+                </section>
+            </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
