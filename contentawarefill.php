@@ -76,7 +76,7 @@
                         <ul class="liste">
                             <li>
                                 <h4 class="sub-skrift">Patch Tool</h4>
-                                Patch tool tager et valgt område af billedet flytter det og udfylder hullet med et pattern fra et andet sted på billedet. 
+                                Patch tool gør det samme som healing brush tool, men den gør det ved at den udskifter et område på et billed med et mønster fra et andet område på billedet og ikke med pixels. 
                             </li>
                         </ul>
                     </section>

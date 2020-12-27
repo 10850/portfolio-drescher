@@ -18,7 +18,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="outofframe-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+            <h1 class="titel">Out of frame</h1>
+        
+            <div id="mitgrid-outofframe">
+                <section id="outofframe">
+                    <section id="outofframe-intro">
+                        <ul class="liste">
+                            <li>
+                                <h4 class="sub-skrift">Smart Object</h4>
+                                Smart Objects er lag, der indeholder billeddata fra raster- eller vektorbilleder, f.eks. Photoshop- eller Illustrator-filer. Smart Objects bevarer et billedes kildeindhold med alle dets oprindelige egenskaber, hvilket bevirker, at du kan foretage redigering af laget uden at slette noget. 
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section id="outofframe-start">
+                        <img src="design/photoshop/outofframe/wandtool-contract-inverse-layermask-before.jpg" alt="screenshot af photoshop" id="outofframe-start-img">
+                    </section>
+                    
+                    <section id="outofframe-options">
+                        <img src="design/photoshop/outofframe/wandtool-contract-inverse-layermask-after2.jpg" alt="screenshot af photoshop" id="outofframe-options-img">
+                    </section>
+                    
+                    <section id="outofframe-slut">
+                        <img src="design/photoshop/outofframe/wandtool-contract-inverse-bevelemboss-layermask-after.jpg" alt="screenshot af photoshop" id="outofframe-slut-img">
+                    </section>
+                </section>
+            </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -22,75 +22,21 @@
             <?php include 'menu.inc' ?>
         </header>
         
-            <h1 class="titel">Content Aware Fill</h1>
+            <h1 class="titel">Spot Healing Tool</h1>
         
-            <div id="mitgrid-smooth">
-                <section id="content-aware-fill">
-                    <section id="content-aware-fill-intro">
+            <div id="mitgrid-spothealing">
+                <section id="spothealing">
+                    <section id="spothealing-intro">
                         <ul class="liste">
                             <li>
-                                <h4 class="sub-skrift">Content Aware Fill</h4>
-                                Content aware fill er en kommando på photoshop som gør at et valgt område på billedet kan blive fjernet og udskifte med detaljer fra andre områder på billedet. Det gør at fjerne uønsket elementer fra et billede så simpelt som overhovedet muligt. 
+                                <h4 class="sub-skrift">Spot Healing Tool</h4>
+                                Spot healing tool virker nærmest som et viskelæder bortset fra den kunne fjerne mærker og pletter. 
                             </li>
                         </ul>
                     </section>
                     
-                    <section id="content-aware-fill-start">
-                        <img src="design/photoshop/content-aware/content-aware-fill-start.jpg" alt="screenshot af photoshop" id="aware-fill-start-img">
-                    </section>
-                    
-                    <section id="content-aware-fill-options">
-                        <img src="design/photoshop/content-aware/content-aware-fill-step.jpg" alt="screenshot af photoshop" id="aware-fill-options-img">
-                    </section>
-                    
-                    <section id="content-aware-fill-slut">
-                        <img src="design/photoshop/content-aware/content-aware-fill-after.jpg" alt="screenshot af photoshop" id="aware-fill-slut-img">
-                    </section>
-                </section>
-                
-                <section id="content-aware-move">
-                    <section id="content-aware-move-intro">
-                        <ul class="liste">
-                            <li>
-                                <h4 class="sub-skrift">Content Aware Move</h4>
-                                Content aware move tool gøre at man kan vælge et element og flyt det et andet sted hen på billedet og Photoshop vil automatisk fylde hullet ud ved brug af lignende elementer på resten af billedet. 
-                            </li>
-                        </ul>
-                    </section>
-                    
-                    <section id="content-aware-move-start">
-                        <img src="design/photoshop/content-aware/content_aware_move.jpg" alt="screenshot af photoshop" id="aware-move-start-img">
-                    </section>
-                    
-                    <section id="content-aware-move-options">
-                        <img src="design/photoshop/content-aware/content-aware-move-step.jpg" alt="screenshot af photoshop" id="aware-move-options-img">
-                    </section>
-                    
-                    <section id="content-aware-move-slut">
-                        <img src="design/photoshop/content-aware/content_aware_move-after.jpg" alt="screenshot af photoshop" id="aware-move-slut-img">
-                    </section>
-                </section>
-                
-                <section id="content-aware-patch">
-                    <section id="content-aware-patch-intro">
-                        <ul class="liste">
-                            <li>
-                                <h4 class="sub-skrift">Patch Tool</h4>
-                                Patch tool tager et valgt område af billedet flytter det og udfylder hullet med et pattern fra et andet sted på billedet. 
-                            </li>
-                        </ul>
-                    </section>
-                    
-                    <section id="content-aware-patch-start">
-                        <img src="design/photoshop/content-aware/content_aware_patch.jpg" alt="screenshot af photoshop" id="aware-patch-start-img">
-                    </section>
-                    
-                    <section id="content-aware-patch-options">
-                        <img src="design/photoshop/content-aware/content-aware-patch-step.jpg" alt="screenshot af photoshop" id="aware-patch-options-img">
-                    </section>
-                    
-                    <section id="content-aware-patch-slut">
-                        <img src="design/photoshop/content-aware/content_aware_patch-after.jpg" alt="screenshot af photoshop" id="aware-patch-slut-img">
+                    <section id="spothealing-start">
+                        <img src="design/photoshop/SPOTHEALING/spot_healing_brush-beforeafter.jpg" alt="screenshot af photoshop" id="spothealing-start-img">
                     </section>
                 </section>
             </div>

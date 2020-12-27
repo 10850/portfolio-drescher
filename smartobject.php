@@ -18,7 +18,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="smartobject-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+            <h1 class="titel">Smart Object</h1>
+        
+            <div id="mitgrid-smartobject">
+                <section id="smartobject">
+                    <section id="smartobject-intro">
+                        <ul class="liste">
+                            <li>
+                                <h4 class="sub-skrift">Smart Object</h4>
+                                Smart Objects er lag, der indeholder billeddata fra raster- eller vektorbilleder, f.eks. Photoshop- eller Illustrator-filer. Smart Objects bevarer et billedes kildeindhold med alle dets oprindelige egenskaber, hvilket bevirker, at du kan foretage redigering af laget uden at slette noget. 
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section id="smartobject-start">
+                        <img src="design/photoshop/smartobject/smart-object-mockups.jpg" alt="screenshot af photoshop" id="smartobject-start-img">
+                    </section>
+                    
+                    <section id="smartobject-options">
+                        <img src="design/photoshop/smartobject/smartobjectrec.jpg" alt="screenshot af photoshop" id="smartobject-options-img">
+                    </section>
+                    
+                    <section id="smartobject-edit">
+                        <img src="design/photoshop/smartobject/smartobject3.jpg" alt="screenshot af photoshop" id="smartobject-edit-img">
+                    </section>
+                    
+                    <section id="smartobject-slut">
+                        <img src="design/photoshop/smartobject/smart-object-mockupsdone.jpg" alt="screenshot af photoshop" id="smartobject-slut-img">
+                    </section>
+                </section>
+            </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
