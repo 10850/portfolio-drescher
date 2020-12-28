@@ -2743,6 +2743,7 @@ video-php h1 {
 .smartobject-php .navbar,
 .outofframe-php .navbar,
 .farver-php .navbar,
+.typografi-php .navbar,
 .gestaltlove-php .navbar,
 .wireframing-php .navbar,
 .saturation-php .navbar,
@@ -2762,6 +2763,7 @@ video-php h1 {
 .smartobject-php footer,
 .outofframe-php footer,
 .farver-php footer,
+.typografi-php footer,
 .gestaltlove-php footer,
 .wireframing-php footer,
 .saturation-php footer,
@@ -3316,29 +3318,346 @@ video-php h1 {
 
 
 /* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP START */
+.smartobject-php h1 {
+    text-align: center;
+}
 
+.smartobject-php #smartobject-intro {
+    grid-area: smartobject-intro;
+}
 
+.smartobject-php #smartobject-start {
+    grid-area: smartobject-start;
+}
+
+.smartobject-php #smartobject-options {
+    grid-area: smartobject-options;
+}
+
+.smartobject-php #smartobject-edit {
+    grid-area: smartobject-edit;
+}
+
+.smartobject-php #smartobject-slut {
+    grid-area: smartobject-slut;
+}
+
+.smartobject-php #smartobject {
+    grid-area: smartobject;
+    display: grid;
+    grid-row: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smartobject-intro"
+        "smartobject-start"
+        "smartobject-options"
+        "smartobject-edit"
+        "smartobject-slut";
+}
+
+.smartobject-php .kilder {
+    grid-area: kilder;
+}
+
+.smartobject-php #mitgrid-smartobject {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smartobject"
+        "kilder";
+}
 /* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP END*/
 
 
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP START */
+.outofframe-php h1 {
+    text-align: center;
+}
 
+.outofframe-php #outofframe-intro {
+    grid-area: outofframe-intro;
+}
 
+.outofframe-php #outofframe-start {
+    grid-area: outofframe-start;
+}
+
+.outofframe-php #outofframe-options {
+    grid-area: outofframe-options;
+}
+
+.outofframe-php #outofframe-slut {
+    grid-area: outofframe-slut;
+}
+
+.outofframe-php #outofframe {
+    grid-area: outofframe;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "outofframe-intro"
+        "outofframe-start"
+        "outofframe-options"
+        "outofframe-slut";
+}
+
+.outofframe-php .kilder {
+    grid-area: kilder;
+}
+
+.outofframe-php #mitgrid-outofframe {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "outofframe"
+        "kilder";
+}
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
 
 
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP START */ 
+.farver-php h1 {
+    text-align: center;
+}
 
+.farver-php #farver-intro {
+    grid-area: farver-intro;
+}
+
+.farver-php #farver-cirklen {
+    grid-area: farver-cirklen;
+}
+
+
+.farver-php #titel-rgbcmyk {
+    grid-area: titel-rgbcmyk;
+}
+.farver-php #rgb-fordele {
+    grid-area: rgb-fordele;
+}
+.farver-php #cmyk-fordele {
+    grid-area: cmyk-fordele;
+}
+
+.farver-php #rgbvscmyk {
+    grid-area: rgbvscmyk;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel-rgbcmyk"
+        "rgb-fordele"
+        "cmyk-fordele";
+}
+
+.farver-php #farver {
+    grid-area: farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver-intro"
+        "farver-cirklen"
+        "rgbvscmyk";
+}
+
+
+
+.farver-php #harmonier-intro {
+    grid-area: harmonier-intro;
+}
+
+.farver-php #monokrom {
+    grid-area: monokrom;
+}
+
+.farver-php #analog {
+    grid-area: analog;
+}
+
+.farver-php #komplementary {
+    grid-area: komplementary;
+}
+
+.farver-php #split-komplementary {
+    grid-area: split-komplementary;
+}
+
+.farver-php #triader {
+    grid-area: triader;
+}
+
+.farver-php #tetriader {
+    grid-area: tetriader;
+}
+
+.farver-php #farve-harmonier {
+    grid-area: farve-harmonier;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "harmonier-intro"
+        "monokrom"
+        "analog"
+        "komplementary"
+        "split-komplementary"
+        "triader"
+        "tetriader";
+}
+
+
+.farver-php #intro-psyk {
+    grid-area: intro-psyk;
+}
+
+.farver-php #blue-psyk {
+    grid-area: blue-psyk;
+}
+
+.farver-php #red-psyk {
+    grid-area: red-psyk;
+}
+
+.farver-php #gul-psyk {
+    grid-area: gul-psyk;
+}
+
+.farver-php #green-psyk {
+    grid-area: green-psyk;
+}
+
+.farver-php #lilla-psyk {
+    grid-area: lilla-psyk;
+}
+
+.farver-php #orange-psyk {
+    grid-area: orange-psyk;
+}
+
+.farver-php #slut-psyk {
+    grid-area: slut-psyk;
+}
+
+.farver-php #farve-psyk {
+    grid-area: farve-psyk;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "intro-psyk"
+        "blue-psyk"
+        "red-psyk"
+        "gul-psyk"
+        "green-psyk"
+        "lilla-psyk"
+        "orange-psyk"
+        "slut-psyk";
+}
+
+
+.farver-php #opdage-intro {
+    grid-area: opdage-intro;
+}
+
+.farver-php #mono-bus-fig {
+    grid-area: mono-bus-fig;
+}
+
+.farver-php #green-mono-fig {
+    grid-area: green-mono-fig;
+}
+
+.farver-php #mono-tilbud-fig {
+    grid-area: mono-tilbud-fig;
+}
+
+.farver-php #blad-analig-fig {
+    grid-area: blad-analig-fig;
+}
+
+.farver-php #complementary-skilt-fig {
+    grid-area: complementary-skilt-fig;
+}
+
+.farver-php #tretiader-playtoy-fig {
+    grid-area: tretiader-playtoy-fig;
+}
+
+.farver-php #opdage-farver-slut {
+    grid-area: opdage-farver-slut;
+}
+
+.farver-php #opdage-farver {
+    grid-area: opdage-farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "opdage-intro"
+        "mono-bus-fig"
+        "green-mono-fig"
+        "mono-tilbud-fig"
+        "blad-analig-fig"
+        "complementary-skilt-fig"
+        "tretiader-playtoy-fig"
+        "opdage-farver-slut";
+}
+
+
+.farver-php .kilder {
+    grid-area: kilder;
+}
+
+
+.farver-php #mitgrid-farver {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver"
+        "farve-harmonier"
+        "farve-psyk"
+        "opdage-farver"
+        "kilder";
+}
 
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
 
 
 
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
+.typografi-php
 
+.typografi-php
+
+.typografi-php
+
+.typografi-php
+
+.typografi-php
+
+.typografi-php
+
+.typografi-php
+
+.typografi-php
+
+.typografi-php
+
+.typografi-php
+
+.typografi-php
+
+.typografi-php
 
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP END */
 

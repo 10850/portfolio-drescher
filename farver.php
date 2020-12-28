@@ -73,36 +73,41 @@
                     </section>
                     
                     <section id="rgbvscmyk">
-                        <h2 class="overskrift">RGB vs CMYK</h2>
-                        <p class="body-text">
-                            RGB er det man altid skal bruge når man laver noget til skærm på grund af dens egenskaber (Rold, 2019):
-                        </p>
-                        <ul class="liste">
-                            <li>
-                                Additivt farvesystem (ibid).
-                            </li>
-                            <li>
-                                Hvid som primær farve (ibid).
-                            </li>
-                            <li>
-                                Rød, grøn, blå + intensitet 0 til 255 (ibid).
-                            </li>
-                        </ul>
+                        <h2 class="overskrift" id="titel-rgbcmyk">RGB vs CMYK</h2>
                         
-                        <p class="body-text">
-                            CMYK er det man som standard bruger til print på grund af (Rold, 2019):
-                        </p>
-                        <ul class="liste">
-                            <li>
-                                Substraktivt farvesystem (ibid).
-                            </li>
-                            <li>
-                                Sort som primær farve (ibid).
-                            </li>
-                            <li>
-                                Cyan, Magenta, Gul (ibid).
-                            </li>
-                        </ul>
+                        <section id="rgb-fordele">
+                            <p class="body-text">
+                                RGB er det man altid skal bruge når man laver noget til skærm på grund af dens egenskaber (Rold, 2019):
+                            </p>
+                            <ul class="liste">
+                                <li>
+                                    Additivt farvesystem (ibid).
+                                </li>
+                                <li>
+                                    Hvid som primær farve (ibid).
+                                </li>
+                                <li>
+                                    Rød, grøn, blå + intensitet 0 til 255 (ibid).
+                                </li>
+                            </ul>
+                        </section>
+                        
+                        <section id="cmyk-fordele">
+                            <p class="body-text">
+                                CMYK er det man som standard bruger til print på grund af (Rold, 2019):
+                            </p>
+                            <ul class="liste">
+                                <li>
+                                    Substraktivt farvesystem (ibid).
+                                </li>
+                                <li>
+                                    Sort som primær farve (ibid).
+                                </li>
+                                <li>
+                                    Cyan, Magenta, Gul (ibid).
+                                </li>
+                            </ul>
+                        </section>
                     </section>
                 </section>
                 
@@ -317,29 +322,33 @@
                         </p>
                     </section>
                     
-                    <figure>
+                    <figure id="mono-bus-fig">
                         <img src="design/farver/bus-blue-mono.jpg" id="mono-bus">
                     </figure>
                     
-                    <figure>
+                    <figure id="green-mono-fig">
                         <img src="design/farver/green-mono.jpg" id="green-mono">
                     </figure>
                     
-                    <figure>
+                    <figure id="mono-tilbud-fig">
                         <img src="design/farver/gul-tilbud.jpg" id="mono-tilbud">
                     </figure>
                     
-                    <figure>
+                    <figure id="blad-analig-fig">
                         <img src="design/farver/blad-gultilred-analog.jpg" id="blad-analog">
                     </figure>
                     
-                    <figure>
+                    <figure id="complementary-skilt-fig">
                         <img src="design/farver/complentary-vejskilt-red-blue.jpg" id="complementary-skilt">
                     </figure>
                    
-                    <figure>
+                    <figure id="tretiader-playtoy-fig">
                         <img src="design/farver/legetoj-triader-starkefarver.jpg" id="tretiader-playtoy">
                     </figure>
+                    
+                    <section id="opdage-farver-slut">
+                    
+                    </section>
                 </section>
                 
                 <section class="kilder">
