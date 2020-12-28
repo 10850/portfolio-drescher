@@ -97,125 +97,12 @@
                 </section>
                 
                 <section id="font-anatomi">
-                    <section id="harmonier-intro">
+                    <section id="anatomi-intro">
                         <h2 class="overskrift">Font anatomi</h2>
-                        <p class="body-text">
-                            Optager samme plads mellem bogstaverne (Rold, 2019).
-                            God til når bogstaverne skal tydeliggøres ligeligt, end teksten som helhed (ibid). Det kunne bruges ved for eksempel et password (ibid).
-                        </p>
-                    </section>
-                    <section id="monokrom">
-                        <h3 class="underoverskrift"></h3>
-                        <ul class="liste">
-                            <li>
-                                Er en farver/kulør som ændrer i sin lyshed og mætning (Guru, 2014).
-                            </li>
-                            <li>
-                                Bedst til enkle emner (ibid).
-                            </li>
-                            <li>
-                                Kan bruges til at skabe en vis atmosfære (ibid).
-                            </li>
-                        </ul>
-                    </section>
-                    <section id="analog">
-                        <h3 class="underoverskrift"></h3>
-                        <ul class="liste">
-                            <li>
-                                En farve/kulør som bredere sig i et større spektrum af lyshed og mætning (Guru, 2014).
-                            </li>
-                            <li>
-                                Let for øjnene (ibid).
-                            </li>
-                            <li>
-                                Føles naturlig at kigge på (ibid).
-                            </li>
-                            <li>
-                                Skaber en rolig stemmening (ibid).
-                            </li>
-                        </ul>
-                    </section>
-                    <section id="komplementary">
-                        <h3 class="underoverskrift"></h3>
-                        <ul class="liste">
-                            <li>
-                                To farver som ligger overfor hinanden i farvecirklen (Guru, 2014).
-                            </li>
-                            <li>
-                                Nok den mest populær farveharmoni (ibid).
-                            </li>
-                            <li>
-                                Dejlig for øjene at kigge på (ibid).
-                            </li>
-                            <li>
-                                Føles narturlig at kigge på (ibid).
-                            </li>
-                            <li>
-                                Dog skal man aldrig bruge begge farve med lighed (ibid). Det er anbefalet at man vælger en af farverne som den primær farve 80/20 (ibid).
-                            </li>
-                        </ul>
-                    </section>
-                    <section id="split-komplementary">
-                        <h3 class="underoverskrift"></h3>
-                        <ul class="liste">
-                            <li>
-                                Sammenlignlig med komplentær farve harmoni men har et bredere farvespektrum (Guru, 2014).
-                            </li>
-                            <li>
-                                Giver mere kreativ frihed i det man har flere nuancer af samme farve man kan arbejde med (ibid).
-                            </li>
-                            <li>
-                                Føles livlig at kigge på (ibid).
-                            </li>
-                        </ul>
-                    </section>
-                    <section id="triader">
-                        <h3 class="underoverskrift"></h3>
-                        <ul class="liste">
-                            <li>
-                                Tre farver som ligger med samme distance fra hinanden i farvehjulet (Guru, 2014).
-                            </li>
-                            <li>
-                                Det er den sværeste at bruge optimalt (ibid).
-                            </li>
-                            <li>
-                                Bruges meget til ting der er for børn eller lege, som cartoons, forlystelsesparker eller legetøj (ibid).
-                            </li>
-                            <li>
-                                Giver tegn på fiktion (ibid).
-                            </li>
-                        </ul>
-                    </section>
-                    <section id="tetriader">
-                        <h3 class="underoverskrift"></h3>
-                        <ul class="liste">
-                            <li>
-                                Denne er også kaldt dobbelt komplentær fordi det er en kombination af 2 par af komplementær farver (Guru, 2014).
-                            </li>
-                            <li>
-                                God til forgrunde og baggrunde (ibid).
-                            </li>
-                            <li>
-                                Man skal aldrig bruge farverne ligeligt. Der skal være en farve som er en primær brug (ibid).
-                            </li>
-                            <li>
-                                Det er anbefalet at man bruger en mørkere farve som sin primær og bruger lysere farver som ens sekundære farve, som bruges her og der (ibid).
-                            </li>
-                        </ul>
-                    </section>
-                </section>
-                
-                <section id="farve-psyk">
-                    <section id="intro-psyk">
-                        <h2 class="overskrift">Farvepsykologi</h2>
-                        <p class="body-text">
-                            Farver taler sit eget sprog og mennesker forstår farver på en vis måde (Rold, 2019). Derfor er det vigtigt som multimediedesigner at vide hvordan farver anses i mennesker psyke (ibid).
-                        </p>
                         
                         <img src="design/typografi/Billede1.png" id="font-anatomy-img">
                     </section>
-                    <section id="blue-psyk">
-                        <h4 class="sub-skrift">Blå</h4>
+                    <section id="anatomi-begreber">
                         <ul>
                             <li>
                                 <strong>X-height</strong> - højden af lowercase bogstaver målt fra baseline til meanline (Strizver, u.d.).
@@ -264,7 +151,7 @@
                 </section>
                 
                 <section id="readability">
-                    <section>
+                    <section id="read-friendly">
                         <h2 class="overskrift">Læsevenlighed</h2>
                         <h3 class="underoverskrift">Visuelt hierarki </h3>
                         <p class="body-text">
@@ -272,7 +159,7 @@
                         </p>
                     </section>
                     
-                    <section>
+                    <section id="skanbarhed">
                         <h3 class="underoverskrift">Skanbarhed </h3>
                         <p class="body-text">
                             Brugeren er tilbøjelig til at skimme/skanne ens siden og læse det aldrig fra ende til anden (Rold, 2019). Derfor er skanbarhed vigtigt. Skannevenlighed indebærer:
@@ -296,14 +183,14 @@
                         </ul>
                     </section>
                     
-                    <section>
+                    <section id="skriftsize">
                         <h3 class="underoverskrift">Skriftstørrelser</h3>
                         <p class="body-text">
                             Alt efter en skrifttypes pixelværdi vil der være et min. og max. for hvor store og små de kan være før de bliver ulæselige (Rold, 2019). En typisk pixel størrelse vil være 14-16 pixels (ibid).
                         </p>
                     </section>
                     
-                    <section>
+                    <section id="lineheight">
                         <h3 class="underoverskrift">Linjehøjde og -længde</h3>
                         <p class="body-text">
                             Tommelfingerreglen for linjehøjde og -længde:

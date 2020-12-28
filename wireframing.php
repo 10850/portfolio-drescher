@@ -26,7 +26,7 @@
             <h1 class="titel">Wireframing</h1>
         
             <div id="mitgrid-wireframing">
-                <section id="Wireframing-section">
+                <section id="wireframing-section">
                     
                     <section id="wireframing-intro">
                         <p class="body-text">
@@ -50,15 +50,14 @@
                     <section id="lofi-india">
                         <h2 class="overskrift">Proximity</h2>
                         <p class="body-text">
-                            Proximity er loven som siger, at ting som har en kort afstand fra hinanden anses som værende i samme gruppe, altså at ting som står tæt har en relation til hinanden (Usertesting, 2019). Modsat ville en stor proximity anses som at to ting ikke har noget med hinanden at gøre (ibid).
-                        </p>
+                            
                         <img src="design/wireframing/lofi-india.png" id="lofi-india-img">
                     </section>
                     
                     <section id="hifi-india">
                         <h2 class="overskrift">Common region</h2>
                         <p class="body-text">
-                            Common region er loven som siger, at når objekter ligger i den samme lukkede områder/boks, så anses man dem for at have en vis relation med hinanden (Usertesting, 2019). De er i samme gruppe (ibid).
+                            
                         </p>
                         <img src="design/wireframing/hifi-india.jpg" id="hifi-india-img">
                     </section>
