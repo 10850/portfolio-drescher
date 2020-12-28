@@ -6181,7 +6181,9 @@ usability-table {
 }
 
 .artboards-php #mitgrid-artboards {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -6235,7 +6237,9 @@ usability-table {
 
 
 .blendtool-php #mitgrid-bendtool {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -6286,7 +6290,9 @@ usability-table {
 }
 
 .captain-php #mitgrid-acaptainamerica {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -6325,7 +6331,9 @@ usability-table {
 }
 
 .directselection-php #mitgrid-directselection {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-areas: 
@@ -6366,13 +6374,11 @@ usability-table {
     grid-area: shape-tool;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "shape-intro"
-        "shape-start"
-        "shape-slut"
-        "shape-start2"
-        "shape-slut2";
+        "shape-intro shape-intro"
+        "shape-start shape-slut"
+        "shape-start2 shape-slut2";
 }
 
 .shapebuilder-php .kilder {
@@ -6380,7 +6386,9 @@ usability-table {
 }
 
 .shapebuilder-php #mitgrid-shapebuilder {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -6418,11 +6426,11 @@ usability-table {
     grid-area: smokey;
     display: grid;
     grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "smokey-intro"
-        "smokey-start"
-        "smokey-options"
-        "smokey-slut";
+        "smokey-intro smokey-intro"
+        "smokey-start smokey-options"
+        "smokey-slut smokey-slut";
 }
 
 .smokey-php .kilder {
@@ -6430,7 +6438,9 @@ usability-table {
 }
 
 .smokey-php #mitgrid-smokeythebear {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-areas: 
@@ -6470,13 +6480,11 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "smooth-intro"
-        "smooth-start"
-        "smooth-options"
-        "smooth-secondlast"
-        "smooth-slut";
+        "smooth-intro smooth-intro"
+        "smooth-start smooth-options"
+        "smooth-secondlast smooth-slut";
 }
 
 .smooth-php .kilder {
@@ -6484,7 +6492,9 @@ usability-table {
 }
 
 .smooth-php #mitgrid-smooth {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -6521,12 +6531,11 @@ usability-table {
     grid-area: content-aware-fill;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-fill-intro"
-        "content-aware-fill-start"
-        "content-aware-fill-options"
-        "content-aware-fill-slut";
+        "content-aware-fill-intro content-aware-fill-intro"
+        "content-aware-fill-options content-aware-fill-options"
+        "content-aware-fill-start content-aware-fill-slut";
 }
 
 
@@ -6551,12 +6560,11 @@ usability-table {
     grid-area: content-aware-move;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-move-intro"
-        "content-aware-move-start"
-        "content-aware-move-options"
-        "content-aware-move-slut";
+        "content-aware-move-intro content-aware-move-intro"
+        "content-aware-move-options content-aware-move-options"
+        "content-aware-move-start content-aware-move-slut";
 }
 
 
@@ -6582,12 +6590,11 @@ usability-table {
     grid-area: content-aware-patch;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-patch-intro"
-        "content-aware-patch-start"
-        "content-aware-patch-options"
-        "content-aware-patch-slut";
+        "content-aware-patch-intro content-aware-patch-intro"
+        "content-aware-patch-options content-aware-patch-options"
+        "content-aware-patch-start content-aware-patch-slut";
 }
 
 
@@ -6599,7 +6606,9 @@ usability-table {
 
 
 .contentaware-php #mitgrid-content-aware {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -6644,7 +6653,9 @@ usability-table {
 }
 
 .spothealing-php #mitgrid-spothealing {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -6685,13 +6696,12 @@ usability-table {
     grid-area: smartobject;
     display: grid;
     grid-row: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "smartobject-intro"
-        "smartobject-start"
-        "smartobject-options"
-        "smartobject-edit"
-        "smartobject-slut";
+        "smartobject-intro smartobject-intro"
+        "smartobject-start smartobject-start"
+        "smartobject-options smartobject-edit"
+        "smartobject-slut smartobject-slut";
 }
 
 .smartobject-php .kilder {
@@ -6699,7 +6709,9 @@ usability-table {
 }
 
 .smartobject-php #mitgrid-smartobject {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -6736,12 +6748,11 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "outofframe-intro"
-        "outofframe-start"
-        "outofframe-options"
-        "outofframe-slut";
+        "outofframe-intro outofframe-intro"
+        "outofframe-start outofframe-options"
+        "outofframe-slut outofframe-slut";
 }
 
 .outofframe-php .kilder {
@@ -6749,7 +6760,9 @@ usability-table {
 }
 
 .outofframe-php #mitgrid-outofframe {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -6789,11 +6802,10 @@ usability-table {
 .farver-php #rgbvscmyk {
     grid-area: rgbvscmyk;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "titel-rgbcmyk"
-        "rgb-fordele"
-        "cmyk-fordele";
+        "titel-rgbcmyk titel-rgbcmyk"
+        "rgb-fordele cmyk-fordele";
 }
 
 .farver-php #farver {
@@ -6841,15 +6853,12 @@ usability-table {
     grid-area: farve-harmonier;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "harmonier-intro"
-        "monokrom"
-        "analog"
-        "komplementary"
-        "split-komplementary"
-        "triader"
-        "tetriader";
+        "harmonier-intro harmonier-intro"
+        "monokrom analog"
+        "komplementary split-komplementary"
+        "triader tetriader";
 }
 
 
@@ -6889,16 +6898,13 @@ usability-table {
     grid-area: farve-psyk;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "intro-psyk"
-        "blue-psyk"
-        "red-psyk"
-        "gul-psyk"
-        "green-psyk"
-        "lilla-psyk"
-        "orange-psyk"
-        "slut-psyk";
+        "intro-psyk intro-psyk"
+        "blue-psyk red-psyk"
+        "gul-psyk green-psyk"
+        "lilla-psyk orange-psyk"
+        "slut-psyk slut-psyk";
 }
 
 
@@ -6938,16 +6944,13 @@ usability-table {
     grid-area: opdage-farver;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "opdage-intro"
-        "mono-bus-fig"
-        "green-mono-fig"
-        "mono-tilbud-fig"
-        "blad-analig-fig"
-        "complementary-skilt-fig"
-        "tretiader-playtoy-fig"
-        "opdage-farver-slut";
+        "opdage-intro opdage-intro"
+        "mono-bus-fig complementary-skilt-fig"
+        "green-mono-fig mono-tilbud-fig"
+        "blad-analig-fig tretiader-playtoy-fig"
+        "opdage-farver-slut opdage-farver-slut";
 }
 
 
@@ -6957,7 +6960,9 @@ usability-table {
 
 
 .farver-php #mitgrid-farver {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -7059,7 +7064,9 @@ usability-table {
 }
 
 .typografi-php #mitgrid-typografi {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -7128,7 +7135,9 @@ usability-table {
 }
 
 .gestaltlove-php #mitgrid-gestalt {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -7165,12 +7174,11 @@ usability-table {
     grid-area: wireframing-section;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "wireframing-intro"
-        "hifivlofi"
-        "lofi-india"
-        "hifi-india";
+        "wireframing-intro wireframing-intro"
+        "hifivlofi hifivlofi"
+        "lofi-india hifi-india";
 }
 
 .wireframing-php .kilder {
@@ -7178,7 +7186,9 @@ usability-table {
 }
 
 .wireframing-php #mitgrid-wireframing {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -7215,12 +7225,11 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "saturation-intro"
-        "saturation-start"
-        "saturation-options"
-        "saturation-slut";
+        "saturation-intro saturation-intro"
+        "saturation-start saturation-start"
+        "saturation-options saturation-slut";
 }
 
 .saturation-php .kilder {
@@ -7228,7 +7237,9 @@ usability-table {
 }
 
 .saturation-php #mitgrid-saturation {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -7277,7 +7288,9 @@ usability-table {
 }
 
 .adobexd-php #mitgrid-adobexd {
-    margin: 0.8em;
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -9828,7 +9841,9 @@ usability-table {
 }
 
 .artboards-php #mitgrid-artboards {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -9882,7 +9897,9 @@ usability-table {
 
 
 .blendtool-php #mitgrid-bendtool {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -9933,7 +9950,9 @@ usability-table {
 }
 
 .captain-php #mitgrid-acaptainamerica {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -9972,7 +9991,9 @@ usability-table {
 }
 
 .directselection-php #mitgrid-directselection {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-areas: 
@@ -10013,13 +10034,11 @@ usability-table {
     grid-area: shape-tool;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "shape-intro"
-        "shape-start"
-        "shape-slut"
-        "shape-start2"
-        "shape-slut2";
+        "shape-intro shape-intro"
+        "shape-start shape-slut"
+        "shape-start2 shape-slut2";
 }
 
 .shapebuilder-php .kilder {
@@ -10027,7 +10046,9 @@ usability-table {
 }
 
 .shapebuilder-php #mitgrid-shapebuilder {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10065,11 +10086,11 @@ usability-table {
     grid-area: smokey;
     display: grid;
     grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "smokey-intro"
-        "smokey-start"
-        "smokey-options"
-        "smokey-slut";
+        "smokey-intro smokey-intro"
+        "smokey-start smokey-options"
+        "smokey-slut smokey-slut";
 }
 
 .smokey-php .kilder {
@@ -10077,7 +10098,9 @@ usability-table {
 }
 
 .smokey-php #mitgrid-smokeythebear {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-areas: 
@@ -10117,13 +10140,11 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "smooth-intro"
-        "smooth-start"
-        "smooth-options"
-        "smooth-secondlast"
-        "smooth-slut";
+        "smooth-intro smooth-intro"
+        "smooth-start smooth-options"
+        "smooth-secondlast smooth-slut";
 }
 
 .smooth-php .kilder {
@@ -10131,7 +10152,9 @@ usability-table {
 }
 
 .smooth-php #mitgrid-smooth {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10168,12 +10191,11 @@ usability-table {
     grid-area: content-aware-fill;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-fill-intro"
-        "content-aware-fill-start"
-        "content-aware-fill-options"
-        "content-aware-fill-slut";
+        "content-aware-fill-intro content-aware-fill-intro"
+        "content-aware-fill-options content-aware-fill-options"
+        "content-aware-fill-start content-aware-fill-slut";
 }
 
 
@@ -10198,12 +10220,11 @@ usability-table {
     grid-area: content-aware-move;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-move-intro"
-        "content-aware-move-start"
-        "content-aware-move-options"
-        "content-aware-move-slut";
+        "content-aware-move-intro content-aware-move-intro"
+        "content-aware-move-options content-aware-move-options"
+        "content-aware-move-start content-aware-move-slut";
 }
 
 
@@ -10229,12 +10250,11 @@ usability-table {
     grid-area: content-aware-patch;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-patch-intro"
-        "content-aware-patch-start"
-        "content-aware-patch-options"
-        "content-aware-patch-slut";
+        "content-aware-patch-intro content-aware-patch-intro"
+        "content-aware-patch-options content-aware-patch-options"
+        "content-aware-patch-start content-aware-patch-slut";
 }
 
 
@@ -10246,7 +10266,9 @@ usability-table {
 
 
 .contentaware-php #mitgrid-content-aware {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10291,7 +10313,9 @@ usability-table {
 }
 
 .spothealing-php #mitgrid-spothealing {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -10332,13 +10356,12 @@ usability-table {
     grid-area: smartobject;
     display: grid;
     grid-row: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "smartobject-intro"
-        "smartobject-start"
-        "smartobject-options"
-        "smartobject-edit"
-        "smartobject-slut";
+        "smartobject-intro smartobject-intro"
+        "smartobject-start smartobject-start"
+        "smartobject-options smartobject-edit"
+        "smartobject-slut smartobject-slut";
 }
 
 .smartobject-php .kilder {
@@ -10346,7 +10369,9 @@ usability-table {
 }
 
 .smartobject-php #mitgrid-smartobject {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10383,12 +10408,10 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "outofframe-intro"
-        "outofframe-start"
-        "outofframe-options"
-        "outofframe-slut";
+        "outofframe-intro outofframe-intro outofframe-intro"
+        "outofframe-start outofframe-options outofframe-slut";
 }
 
 .outofframe-php .kilder {
@@ -10396,7 +10419,9 @@ usability-table {
 }
 
 .outofframe-php #mitgrid-outofframe {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10436,11 +10461,10 @@ usability-table {
 .farver-php #rgbvscmyk {
     grid-area: rgbvscmyk;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "titel-rgbcmyk"
-        "rgb-fordele"
-        "cmyk-fordele";
+        "titel-rgbcmyk titel-rgbcmyk"
+        "rgb-fordele cmyk-fordele";
 }
 
 .farver-php #farver {
@@ -10488,15 +10512,12 @@ usability-table {
     grid-area: farve-harmonier;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "harmonier-intro"
-        "monokrom"
-        "analog"
-        "komplementary"
-        "split-komplementary"
-        "triader"
-        "tetriader";
+        "harmonier-intro harmonier-intro"
+        "monokrom analog"
+        "komplementary split-komplementary"
+        "triader tetriader";
 }
 
 
@@ -10536,16 +10557,13 @@ usability-table {
     grid-area: farve-psyk;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "intro-psyk"
-        "blue-psyk"
-        "red-psyk"
-        "gul-psyk"
-        "green-psyk"
-        "lilla-psyk"
-        "orange-psyk"
-        "slut-psyk";
+        "intro-psyk intro-psyk"
+        "blue-psyk red-psyk"
+        "gul-psyk green-psyk"
+        "lilla-psyk orange-psyk"
+        "slut-psyk slut-psyk";
 }
 
 
@@ -10585,16 +10603,13 @@ usability-table {
     grid-area: opdage-farver;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "opdage-intro"
-        "mono-bus-fig"
-        "green-mono-fig"
-        "mono-tilbud-fig"
-        "blad-analig-fig"
-        "complementary-skilt-fig"
-        "tretiader-playtoy-fig"
-        "opdage-farver-slut";
+        "opdage-intro opdage-intro"
+        "mono-bus-fig complementary-skilt-fig"
+        "green-mono-fig mono-tilbud-fig"
+        "blad-analig-fig tretiader-playtoy-fig"
+        "opdage-farver-slut opdage-farver-slut";
 }
 
 
@@ -10604,7 +10619,9 @@ usability-table {
 
 
 .farver-php #mitgrid-farver {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10706,7 +10723,9 @@ usability-table {
 }
 
 .typografi-php #mitgrid-typografi {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10775,7 +10794,9 @@ usability-table {
 }
 
 .gestaltlove-php #mitgrid-gestalt {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10812,12 +10833,11 @@ usability-table {
     grid-area: wireframing-section;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "wireframing-intro"
-        "hifivlofi"
-        "lofi-india"
-        "hifi-india";
+        "wireframing-intro wireframing-intro"
+        "hifivlofi hifivlofi"
+        "lofi-india hifi-india";
 }
 
 .wireframing-php .kilder {
@@ -10825,7 +10845,9 @@ usability-table {
 }
 
 .wireframing-php #mitgrid-wireframing {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10862,12 +10884,11 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "saturation-intro"
-        "saturation-start"
-        "saturation-options"
-        "saturation-slut";
+        "saturation-intro saturation-intro"
+        "saturation-start saturation-start"
+        "saturation-options saturation-slut";
 }
 
 .saturation-php .kilder {
@@ -10875,7 +10896,9 @@ usability-table {
 }
 
 .saturation-php #mitgrid-saturation {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -10912,11 +10935,10 @@ usability-table {
     grid-area: adobexd;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "adobexd-intro"
-        "adobexd-mobil"
-        "adobexd-desktop";
+        "adobexd-intro adobexd-intro"
+        "adobexd-mobil adobexd-desktop";
 }
 
 .adobexd-php .kilder {
@@ -10924,7 +10946,9 @@ usability-table {
 }
 
 .adobexd-php #mitgrid-adobexd {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13292,12 +13316,11 @@ usability-table {
     grid-area: artboard-tool;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "artboard-intro"
-        "artboard-start"
-        "artboard-options"
-        "artboard-slut";
+        "artboard-intro artboard-intro"
+        "artboard-start artboard-options"
+        "artboard-slut artboard-slut";
 }
 
 .artboards-php #workspace-intro {
@@ -13317,8 +13340,7 @@ usability-table {
     display: grid;
     grid-row-gap: 15px;
     grid-template-areas: 
-        "workspace-start"
-        "workspace-slut";
+        "workspace-start workspace-slut";
 }
 
 
@@ -13336,7 +13358,9 @@ usability-table {
 }
 
 .artboards-php #mitgrid-artboards {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13374,12 +13398,11 @@ usability-table {
     grid-area: blend-tool;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "blend-intro"
-        "blend-start"
-        "blend-options"
-        "blend-slut";
+        "blend-intro blend-intro"
+        "blend-options blend-options"
+        "blend-start blend-slut";
 }
 
 
@@ -13390,7 +13413,9 @@ usability-table {
 
 
 .blendtool-php #mitgrid-bendtool {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13428,12 +13453,11 @@ usability-table {
     grid-area: cap-america;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "cap-intro"
-        "cap-start"
-        "cap-options"
-        "cap-slut";
+        "cap-intro cap-intro"
+        "cap-start cap-start"
+        "cap-options cap-slut";
 }
 
 .captain-php .kilder {
@@ -13441,7 +13465,9 @@ usability-table {
 }
 
 .captain-php #mitgrid-acaptainamerica {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13480,7 +13506,9 @@ usability-table {
 }
 
 .directselection-php #mitgrid-directselection {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-areas: 
@@ -13521,13 +13549,11 @@ usability-table {
     grid-area: shape-tool;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "shape-intro"
-        "shape-start"
-        "shape-slut"
-        "shape-start2"
-        "shape-slut2";
+        "shape-intro shape-intro"
+        "shape-start shape-slut"
+        "shape-start2 shape-slut2";
 }
 
 .shapebuilder-php .kilder {
@@ -13535,7 +13561,9 @@ usability-table {
 }
 
 .shapebuilder-php #mitgrid-shapebuilder {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13573,11 +13601,10 @@ usability-table {
     grid-area: smokey;
     display: grid;
     grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "smokey-intro"
-        "smokey-start"
-        "smokey-options"
-        "smokey-slut";
+        "smokey-intro smokey-intro smokey-intro"
+        "smokey-start smokey-options smokey-slut";
 }
 
 .smokey-php .kilder {
@@ -13585,7 +13612,9 @@ usability-table {
 }
 
 .smokey-php #mitgrid-smokeythebear {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-areas: 
@@ -13625,13 +13654,11 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "smooth-intro"
-        "smooth-start"
-        "smooth-options"
-        "smooth-secondlast"
-        "smooth-slut";
+        "smooth-intro smooth-intro"
+        "smooth-start smooth-options"
+        "smooth-secondlast smooth-slut";
 }
 
 .smooth-php .kilder {
@@ -13639,7 +13666,9 @@ usability-table {
 }
 
 .smooth-php #mitgrid-smooth {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13676,12 +13705,11 @@ usability-table {
     grid-area: content-aware-fill;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-fill-intro"
-        "content-aware-fill-start"
-        "content-aware-fill-options"
-        "content-aware-fill-slut";
+        "content-aware-fill-intro content-aware-fill-intro"
+        "content-aware-fill-options content-aware-fill-options"
+        "content-aware-fill-start content-aware-fill-slut";
 }
 
 
@@ -13706,12 +13734,11 @@ usability-table {
     grid-area: content-aware-move;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-move-intro"
-        "content-aware-move-start"
-        "content-aware-move-options"
-        "content-aware-move-slut";
+        "content-aware-move-intro content-aware-move-intro"
+        "content-aware-move-options content-aware-move-options"
+        "content-aware-move-start content-aware-move-slut";
 }
 
 
@@ -13737,12 +13764,11 @@ usability-table {
     grid-area: content-aware-patch;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "content-aware-patch-intro"
-        "content-aware-patch-start"
-        "content-aware-patch-options"
-        "content-aware-patch-slut";
+        "content-aware-patch-intro content-aware-patch-intro"
+        "content-aware-patch-options content-aware-patch-options"
+        "content-aware-patch-start content-aware-patch-slut";
 }
 
 
@@ -13754,7 +13780,9 @@ usability-table {
 
 
 .contentaware-php #mitgrid-content-aware {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13799,7 +13827,9 @@ usability-table {
 }
 
 .spothealing-php #mitgrid-spothealing {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -13840,13 +13870,11 @@ usability-table {
     grid-area: smartobject;
     display: grid;
     grid-row: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "smartobject-intro"
-        "smartobject-start"
-        "smartobject-options"
-        "smartobject-edit"
-        "smartobject-slut";
+        "smartobject-intro smartobject-intro smartobject-intro"
+        "smartobject-start smartobject-options smartobject-edit"
+        "smartobject-slut smartobject-slut smartobject-slut";
 }
 
 .smartobject-php .kilder {
@@ -13854,7 +13882,9 @@ usability-table {
 }
 
 .smartobject-php #mitgrid-smartobject {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13891,12 +13921,10 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "outofframe-intro"
-        "outofframe-start"
-        "outofframe-options"
-        "outofframe-slut";
+        "outofframe-intro outofframe-intro outofframe-intro"
+        "outofframe-start outofframe-options outofframe-slut";
 }
 
 .outofframe-php .kilder {
@@ -13904,7 +13932,9 @@ usability-table {
 }
 
 .outofframe-php #mitgrid-outofframe {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13944,11 +13974,10 @@ usability-table {
 .farver-php #rgbvscmyk {
     grid-area: rgbvscmyk;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "titel-rgbcmyk"
-        "rgb-fordele"
-        "cmyk-fordele";
+        "titel-rgbcmyk titel-rgbcmyk"
+        "rgb-fordele cmyk-fordele";
 }
 
 .farver-php #farver {
@@ -13996,15 +14025,12 @@ usability-table {
     grid-area: farve-harmonier;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "harmonier-intro"
-        "monokrom"
-        "analog"
-        "komplementary"
-        "split-komplementary"
-        "triader"
-        "tetriader";
+        "harmonier-intro harmonier-intro"
+        "monokrom analog"
+        "komplementary split-komplementary"
+        "triader tetriader";
 }
 
 
@@ -14044,16 +14070,13 @@ usability-table {
     grid-area: farve-psyk;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "intro-psyk"
-        "blue-psyk"
-        "red-psyk"
-        "gul-psyk"
-        "green-psyk"
-        "lilla-psyk"
-        "orange-psyk"
-        "slut-psyk";
+        "intro-psyk intro-psyk"
+        "blue-psyk red-psyk"
+        "gul-psyk green-psyk"
+        "lilla-psyk orange-psyk"
+        "slut-psyk slut-psyk";
 }
 
 
@@ -14093,16 +14116,13 @@ usability-table {
     grid-area: opdage-farver;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "opdage-intro"
-        "mono-bus-fig"
-        "green-mono-fig"
-        "mono-tilbud-fig"
-        "blad-analig-fig"
-        "complementary-skilt-fig"
-        "tretiader-playtoy-fig"
-        "opdage-farver-slut";
+        "opdage-intro opdage-intro"
+        "mono-bus-fig complementary-skilt-fig"
+        "green-mono-fig mono-tilbud-fig"
+        "blad-analig-fig tretiader-playtoy-fig"
+        "opdage-farver-slut opdage-farver-slut";
 }
 
 
@@ -14112,7 +14132,9 @@ usability-table {
 
 
 .farver-php #mitgrid-farver {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -14214,7 +14236,9 @@ usability-table {
 }
 
 .typografi-php #mitgrid-typografi {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -14283,7 +14307,9 @@ usability-table {
 }
 
 .gestaltlove-php #mitgrid-gestalt {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -14320,12 +14346,11 @@ usability-table {
     grid-area: wireframing-section;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "wireframing-intro"
-        "hifivlofi"
-        "lofi-india"
-        "hifi-india";
+        "wireframing-intro wireframing-intro"
+        "hifivlofi hifivlofi"
+        "lofi-india hifi-india";
 }
 
 .wireframing-php .kilder {
@@ -14333,7 +14358,9 @@ usability-table {
 }
 
 .wireframing-php #mitgrid-wireframing {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -14370,12 +14397,10 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "saturation-intro"
-        "saturation-start"
-        "saturation-options"
-        "saturation-slut";
+        "saturation-intro saturation-intro saturation-intro"
+        "saturation-start saturation-options saturation-slut";
 }
 
 .saturation-php .kilder {
@@ -14383,7 +14408,9 @@ usability-table {
 }
 
 .saturation-php #mitgrid-saturation {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -14420,11 +14447,10 @@ usability-table {
     grid-area: adobexd;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "adobexd-intro"
-        "adobexd-mobil"
-        "adobexd-desktop";
+        "adobexd-intro adobexd-intro"
+        "adobexd-mobil adobexd-desktop";
 }
 
 .adobexd-php .kilder {
@@ -14432,7 +14458,9 @@ usability-table {
 }
 
 .adobexd-php #mitgrid-adobexd {
-    margin: 0.8em;
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;

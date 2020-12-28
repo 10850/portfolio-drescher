@@ -103,7 +103,7 @@
                         <img src="design/typografi/Billede1.png" id="font-anatomy-img">
                     </section>
                     <section id="anatomi-begreber">
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 <strong>X-height</strong> - højden af lowercase bogstaver målt fra baseline til meanline (Strizver, u.d.).
                             </li>
@@ -195,7 +195,7 @@
                         <p class="body-text">
                             Tommelfingerreglen for linjehøjde og -længde:
                         </p>
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 150% højde. Så for eksempel 12px længde betyder 18px højde (Rold, 2019).
                             </li>

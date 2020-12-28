@@ -228,7 +228,7 @@
                     </section>
                     <section id="blue-psyk">
                         <h4 class="sub-skrift">Blå</h4>
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 Udbredt yndlingsfarve (ibid).
                             </li>
@@ -248,7 +248,7 @@
                     </section>
                     <section id="red-psyk">
                         <h4 class="sub-skrift">Rød</h4>
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 Associeres hovedsageligt med Ekstreme og dramatiske følelser (ibid).
                             </li>
@@ -262,7 +262,7 @@
                     </section>
                     <section id="gul-psyk">
                         <h4 class="sub-skrift">Gul</h4>
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 Associeres med glæde, håb og optimisme (ibid).
                             </li>
@@ -276,7 +276,7 @@
                     </section>
                     <section id="green-psyk">
                         <h4 class="sub-skrift">Grøn</h4>
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 Associeres med vækst, fornyelse og bæredygtighed. Grundet den dominans som den primær farve i naturen (ibid).
                             </li>
@@ -287,7 +287,7 @@
                     </section>
                     <section id="lilla-psyk">
                         <h4 class="sub-skrift">Lilla</h4>
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 Associeres med Mystik, kreativitet og spiritualitet (ibid).
                             </li>
@@ -298,7 +298,7 @@
                     </section>
                     <section id="orange-psyk">
                         <h4 class="sub-skrift">Orange</h4>
-                        <ul>
+                        <ul class="liste">
                             <li>
                                 Det en dynamisk farve som associeres med Energi, spænding og ungdom (ibid).
                             </li>
