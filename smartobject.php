@@ -51,6 +51,20 @@
                         <img src="design/photoshop/smartobject/smart-object-mockupsdone.jpg" alt="screenshot af photoshop" id="smartobject-slut-img">
                     </section>
                 </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
+                </section>
             </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->

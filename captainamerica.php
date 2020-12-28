@@ -55,6 +55,20 @@
                         <img src="design/illustrator/captaina/Captain-america-circle-tool-star-tool-gradient.png" alt="screenshot af illustrator" id="cap-slut-img">
                     </section>
                 </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
+                </section>
             </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->

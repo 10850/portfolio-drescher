@@ -55,6 +55,20 @@
                         <img src="design/photoshop/outofframe/wandtool-contract-inverse-bevelemboss-layermask-after.jpg" alt="screenshot af photoshop" id="outofframe-slut-img">
                     </section>
                 </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
+                </section>
             </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->

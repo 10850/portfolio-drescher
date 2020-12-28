@@ -43,6 +43,20 @@
                         <img src="design/illustrator/direct-select/direct-selection-and-pen-tool.png" alt="screenshot af illustrator" id="direct-select-start-img">
                     </section>
                 </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
+                </section>
             </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->

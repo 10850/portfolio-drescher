@@ -28,7 +28,7 @@
                 
                 <section id="artboard-tool">
                     
-                    <section id="arboard-intro">
+                    <section id="artboard-intro">
                         <h2 class="overskrift">Artboard tool</h2>
                         <p class="body-text">Artboard tool bruges til at kreerer nye artboards i samme dokument og redigere størrelsen på sine artboards.</p>
                     </section>
@@ -91,7 +91,19 @@
                     </section>
                 </section>
                 
-
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
+                </section>
             </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->

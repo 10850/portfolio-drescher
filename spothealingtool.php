@@ -39,6 +39,20 @@
                         <img src="design/photoshop/SPOTHEALING/spot_healing_brush-beforeafter.jpg" alt="screenshot af photoshop" id="spothealing-start-img">
                     </section>
                 </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
+                </section>
             </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->

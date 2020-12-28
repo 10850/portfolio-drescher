@@ -17,7 +17,7 @@
     <!-- Mit stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
-    <body class="typografi-php">
+    <body class="wireframing-php">
         <header>
             <?php include 'menu.inc' ?>
         </header>
@@ -62,6 +62,20 @@
                         </p>
                         <img src="design/wireframing/hifi-india.jpg" id="hifi-india-img">
                     </section>
+                </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
                 </section>
             </div>
         

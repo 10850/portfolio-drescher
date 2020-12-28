@@ -50,6 +50,20 @@
                         <img src="design/illustrator/shapebuilder/dragonball-01.png" alt="screenshot af illustrator" id="shape-slut2-img">
                     </section>
                 </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
+                </section>
             </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->

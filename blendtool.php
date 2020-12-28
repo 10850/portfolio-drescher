@@ -44,23 +44,18 @@
                     </section>
                 </section>
                 
-                <section id="blend-tool">
-                    <section id="blend-intro">
-                        <h2 class="overskrift">Blend tool til at lave shadow</h2>
-                        <p class="body-text">Blend tool giver muligheden for at mixe 2 eller flere objekter og farver så det bliver til et objekt.</p>
-                    </section>
-                    
-                    <section id="blend-start">
-                        <img src="design/illustrator/blendtool/blend-tool-flag-before.png" alt="screenshot af illustrator" id="blend-start-img">
-                    </section>
-                    
-                    <section id="blend-options">
-                        <img src="design/illustrator/blendtool/blendtool-steps.png" alt="screenshot af illustrator" id="blend-options-img">
-                    </section>
-                    
-                    <section id="blend-slut">
-                        <img src="design/illustrator/blendtool/blend-tool-flag-after.png" alt="screenshot af illustrator" id="blend-slut-img">
-                    </section>
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
                 </section>
             </div>
         

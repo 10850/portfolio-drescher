@@ -340,7 +340,20 @@
                     <figure>
                         <img src="design/farver/legetoj-triader-starkefarver.jpg" id="tretiader-playtoy">
                     </figure>
-                    
+                </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
                 </section>
             </div>
         
