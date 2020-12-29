@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-photoshop.inc' ?>
+        
             <h1 class="titel">Content Aware Fill</h1>
         
             <div id="mitgrid-content-aware">
@@ -150,20 +152,6 @@
                             Jeg har aldrig brugt patch tool før studiet og jeg er så overrasket over at photoshop har de her tre værktøjer, som gøre noget jeg ville tror er sindsygt kompliceret og næsten umuligt at gøre uden kompetencer. Men de har på en måde lavet det mest simple værktøj til at gøre det med som selv en nybegynder kunne finde ud af.
                         </p>
                     </section>
-                </section>
-                
-                <section class="kilder">
-                    <ul class="kildeliste">
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                    </ul>
                 </section>
             </div>
         

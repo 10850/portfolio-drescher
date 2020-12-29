@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-illustrator' ?>
+        
             <h1 class="titel">Blend tool</h1>
         
             <div id="mitgrid-bendtool">
@@ -59,20 +61,6 @@
                         </p>
                         <img src="design/illustrator/blendtool/blend-tool-flag-after.png" alt="screenshot af illustrator" id="blend-slut-img">
                     </section>
-                </section>
-                
-                <section class="kilder">
-                    <ul class="kildeliste">
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                    </ul>
                 </section>
             </div>
         

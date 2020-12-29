@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-photoshop.inc' ?>
+        
             <h1 class="titel">Spot Healing Tool</h1>
         
             <div id="mitgrid-spothealing">
@@ -52,20 +54,6 @@
                             Jeg har altid vidst at photoshop havde en funktion som kunne gøre det her, men havde aldrig brugt det og nu når jeg kan se det på arbejde i førstehånd, må jeg sige at jeg er overrasket over hvor godt det virker mht. hvor simpelt værktøjet egentligt er.
                         </p>
                     </section>
-                </section>
-                
-                <section class="kilder">
-                    <ul class="kildeliste">
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                    </ul>
                 </section>
             </div>
         

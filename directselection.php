@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-illustrator' ?>
+        
             <h1 class="titel">Direct selection tool</h1>
         
             <div id="mitgrid-directselection">

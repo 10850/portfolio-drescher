@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-illustrator' ?>
+        
             <h1 class="titel">Artboards</h1>
         
             <div id="mitgrid-artboards">
@@ -121,20 +123,6 @@
                             </ol>
                         </section>
                     </section>
-                </section>
-                
-                <section class="kilder">
-                    <ul class="kildeliste">
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                    </ul>
                 </section>
             </div>
         

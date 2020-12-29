@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-photoshop.inc' ?>
+        
             <h1 class="titel">Smart Object</h1>
         
             <div id="mitgrid-smartobject">

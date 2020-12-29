@@ -2771,11 +2771,27 @@ video-php h1 {
     background: linear-gradient(180deg, #BD67FF, #9200F0) no-repeat;
 }
 
+.artboards-php .undermenu-mobil button,
+.blendtool-php .undermenu-mobil button,
+.captain-php .undermenu-mobil button,
+.directselection-php .undermenu-mobil button,
+.shapebuilder-php .undermenu-mobil button,
+.smokey-php .undermenu-mobil button,
+.smooth-php .undermenu-mobil button,
+.contentaware-php .undermenu-mobil button,
+.spothealing-php .undermenu-mobil button,
+.smartobject-php .undermenu-mobil button,
+.outofframe-php .undermenu-mobil button,
+.saturation-php .undermenu-mobil button { 
+    background: linear-gradient(180deg, #BD67FF, #9200F0) no-repeat;
+}
+
 
 
 /* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
 .artboards-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .artboards-php #artboard-intro {
@@ -2858,6 +2874,7 @@ video-php h1 {
 /* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP START */
 .blendtool-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .blendtool-php #blend-intro {
@@ -2912,6 +2929,7 @@ video-php h1 {
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP START */
 .captain-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .captain-php #cap-intro {
@@ -2961,6 +2979,7 @@ video-php h1 {
 /* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP START */
 .directselection-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .directselection-php #direct-select-intro {
@@ -3001,6 +3020,7 @@ video-php h1 {
 /* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP START */
 .shapebuilder-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .shapebuilder-php #shape-intro {
@@ -3057,6 +3077,7 @@ video-php h1 {
 /* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       START */
 .smokey-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .smokey-php #smokey-intro {
@@ -3105,6 +3126,7 @@ video-php h1 {
 /* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP START */
 .smooth-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .smooth-php #smooth-intro {
@@ -3160,6 +3182,7 @@ video-php h1 {
 /* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP START */
 .contentaware-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .contentaware-php #content-aware-fill-intro {
@@ -3280,6 +3303,7 @@ video-php h1 {
 /* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP START */
 .spothealing-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .spothealing-php #spothealing-intro {
@@ -3320,6 +3344,7 @@ video-php h1 {
 /* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP START */
 .smartobject-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .smartobject-php #smartobject-intro {
@@ -3375,6 +3400,7 @@ video-php h1 {
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP START */
 .outofframe-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .outofframe-php #outofframe-intro {
@@ -3426,6 +3452,7 @@ video-php h1 {
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP START */ 
 .farver-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .farver-php #farver-intro {
@@ -3637,6 +3664,7 @@ video-php h1 {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .typografi-php #typogrfi-intro {
@@ -3739,6 +3767,7 @@ video-php h1 {
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP START */
 .gestaltlove-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .gestaltlove-php #figure-ground {
@@ -3804,6 +3833,7 @@ video-php h1 {
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING START */
 .wireframing-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .wireframing-php #wireframing-intro {
@@ -3854,6 +3884,7 @@ video-php h1 {
 /* SATURATION.PHP SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP START */ 
 .saturation-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .saturation-php #saturation-intro {
@@ -3908,6 +3939,7 @@ video-php h1 {
 /* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP END */
 .adobexd-php h1 {
     text-align: center;
+    margin-top: 1em;
 }
 
 .adobexd-php #adobexd-intro {

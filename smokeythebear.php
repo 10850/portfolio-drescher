@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-photoshop.inc' ?>
+        
             <h1 class="titel">Smokey the Bear</h1>
         
             <div id="mitgrid-smokeythebear">
@@ -103,20 +105,6 @@
                         </h4>
                         <img src="design/photoshop/smokey-done.png" alt="screenshot af photoshop" id="smokey-slut-img">
                     </section>
-                </section>
-                
-                <section class="kilder">
-                    <ul class="kildeliste">
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                    </ul>
                 </section>
             </div>
         
