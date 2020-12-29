@@ -1,0 +1,16 @@
+<nav class="undermenu-mobil">
+                <p class="main-button">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                         Vis flere emner
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                        <a href="artboards.php"><button type="button" class="btn btn-primary">Artboards</button></a>
+                        <a href="blendtool.php"><button type="button" class="btn btn-primary">Blend tool</button></a>
+                        <a href="captainamerica.php"><button type="button" class="btn btn-primary">Captain America</button></a>
+                        <a href="directselection.php"><button type="button" class="btn btn-primary">Direct selection tool</button></a>
+                        <a href="shapebuildertool.php"><button type="button" class="btn btn-primary">Shape builder tool</button></a>
+                    </div>
+                </div>
+            </nav> <!-- undermenu mobil -->

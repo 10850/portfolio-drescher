@@ -2729,6 +2729,1278 @@ video-php h1 {
 
 
 
+
+/* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER START */
+.artboards-php .navbar,
+.blendtool-php .navbar,
+.captain-php .navbar,
+.directselection-php .navbar,
+.shapebuilder-php .navbar,
+.smokey-php .navbar,
+.smooth-php .navbar,
+.contentaware-php .navbar,
+.spothealing-php .navbar,
+.smartobject-php .navbar,
+.outofframe-php .navbar,
+.farver-php .navbar,
+.typografi-php .navbar,
+.gestaltlove-php .navbar,
+.wireframing-php .navbar,
+.saturation-php .navbar,
+.adobexd-php .navbar {
+    background: linear-gradient(180deg, #BD67FF, #9200F0) no-repeat;
+}
+
+.artboards-php footer,
+.blendtool-php footer,
+.captain-php footer,
+.directselection-php footer,
+.shapebuilder-php footer,
+.smokey-php footer,
+.smooth-php footer,
+.contentaware-php footer,
+.spothealing-php footer,
+.smartobject-php footer,
+.outofframe-php footer,
+.farver-php footer,
+.typografi-php footer,
+.gestaltlove-php footer,
+.wireframing-php footer,
+.saturation-php footer,
+.adobexd-php footer {
+    background: linear-gradient(180deg, #BD67FF, #9200F0) no-repeat;
+}
+
+.artboards-php .undermenu-mobil .btn,
+.blendtool-php .undermenu-mobil .btn,
+.captain-php .undermenu-mobil .btn,
+.directselection-php .undermenu-mobil .btn,
+.shapebuilder-php .undermenu-mobil .btn,
+.smokey-php .undermenu-mobil button,
+.smooth-php .undermenu-mobil button,
+.contentaware-php .undermenu-mobil .btn,
+.spothealing-php .undermenu-mobil .btn,
+.smartobject-php .undermenu-mobil .btn,
+.outofframe-php .undermenu-mobil .btn,
+.saturation-php .undermenu-mobil .btn { 
+    background: linear-gradient(180deg, #BD67FF, #9200F0) no-repeat;
+}
+
+
+
+/* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
+.artboards-php h1 {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.artboards-php #artboard-intro {
+    grid-area: artboard-intro;
+}
+
+.artboards-php #artboard-start {
+    grid-area: artboard-start;
+}
+
+.artboards-php #artboard-options {
+    grid-area: artboard-options;
+}
+
+.artboards-php #artboard-slut {
+    grid-area: artboard-slut;
+}
+
+.artboards-php #artboard-tool {
+    grid-area: artboard-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "artboard-intro"
+        "artboard-start"
+        "artboard-options"
+        "artboard-slut";
+}
+
+.artboards-php #workspace-intro {
+    grid-area: workspace-intro;
+}
+
+.artboards-php #workspace-start {
+    grid-area: workspace-start;
+}
+
+.artboards-php #workspace-slut {
+    grid-area: workspace-slut;
+}
+
+.artboards-php #workspace-change {
+    grid-area: workspace-change;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "workspace-start"
+        "workspace-slut";
+}
+
+
+.artboards-php #workspace {
+    grid-area: workspace;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "workspace-intro"
+        "workspace-change";
+}
+
+.artboards-php .kilder {
+    grid-area: kilder;
+}
+
+.artboards-php #mitgrid-artboards {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "artboard-tool"
+        "workspace"
+        "kilder";
+}
+/* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP END */
+
+
+
+/* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP START */
+.blendtool-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.blendtool-php #blend-intro {
+    grid-area: blend-intro;
+}
+
+.blendtool-php #blend-start {
+    grid-area: blend-start;
+}
+
+.blendtool-php #blend-options {
+    grid-area: blend-options;
+}
+
+.blendtool-php #blend-slut {
+    grid-area: blend-slut;
+}
+
+.blendtool-php #blend-tool {
+    grid-area: blend-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "blend-intro"
+        "blend-start"
+        "blend-options"
+        "blend-slut";
+}
+
+
+.blendtool-php .kilder {
+    grid-area: kilder;
+}
+
+
+
+.blendtool-php #mitgrid-bendtool {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "blend-tool"
+        "kilder";
+}
+
+/* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
+
+
+
+/* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP START */
+.captain-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.captain-php #cap-intro {
+    grid-area: cap-intro;
+}
+
+.captain-php #cap-start {
+    grid-area: cap-start;
+}
+
+.captain-php #cap-options {
+    grid-area: cap-options;
+}
+
+.captain-php #cap-slut {
+    grid-area: cap-slut;
+}
+
+.captain-php #cap-america {
+    grid-area: cap-america;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cap-intro"
+        "cap-start"
+        "cap-options"
+        "cap-slut";
+}
+
+.captain-php .kilder {
+    grid-area: kilder;
+}
+
+.captain-php #mitgrid-acaptainamerica {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cap-america"
+        "kilder";
+}
+
+/* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
+
+/* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP START */
+.directselection-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.directselection-php #direct-select-intro {
+    grid-area: direct-select-intro;
+}
+
+.directselection-php #direct-select-start {
+    grid-area: direct-select-start;
+}
+
+.directselection-php #direct-select-tool {
+    grid-area: direct-select-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "direct-select-intro"
+        "direct-select-start";
+}
+
+.directselection-php .kilder {
+    grid-area: kilder;
+}
+
+.directselection-php #mitgrid-directselection {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+        "direct-select-tool"
+        "kilder";
+}
+
+/* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP END */
+
+
+
+/* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP START */
+.shapebuilder-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.shapebuilder-php #shape-intro {
+    grid-area: shape-intro;
+}
+
+.shapebuilder-php #shape-start {
+    grid-area: shape-start;
+}
+
+.shapebuilder-php #shape-slut {
+    grid-area: shape-slut;
+}
+
+.shapebuilder-php #shape-start2 {
+    grid-area: shape-start2;
+}
+
+.shapebuilder-php #shape-slut2 {
+    grid-area: shape-slut2;
+}
+
+.shapebuilder-php #shape-tool {
+    grid-area: shape-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "shape-intro"
+        "shape-start"
+        "shape-slut"
+        "shape-start2"
+        "shape-slut2";
+}
+
+.shapebuilder-php .kilder {
+    grid-area: kilder;
+}
+
+.shapebuilder-php #mitgrid-shapebuilder {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "shape-tool"
+        "kilder";
+}
+
+/* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP END */
+
+
+
+/* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       START */
+.smokey-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.smokey-php #smokey-intro {
+    grid-area: smokey-intro;
+}
+
+.smokey-php #smokey-start {
+    grid-area: smokey-start;
+}
+
+.smokey-php #smokey-options {
+    grid-area: smokey-options;
+}
+
+.smokey-php #smokey-slut {
+    grid-area: smokey-slut;
+}
+
+.smokey-php #smokey {
+    grid-area: smokey;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "smokey-intro"
+        "smokey-start"
+        "smokey-options"
+        "smokey-slut";
+}
+
+.smokey-php .kilder {
+    grid-area: kilder;
+}
+
+.smokey-php #mitgrid-smokeythebear {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+        "smokey"
+        "kilder";
+}
+/* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       END */
+
+
+
+/* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP START */
+.smooth-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.smooth-php #smooth-intro {
+    grid-area: smooth-intro;
+}
+
+.smooth-php #smooth-start {
+    grid-area: smooth-start;
+}
+
+.smooth-php #smooth-options {
+    grid-area: smooth-options;
+}
+
+.smooth-php #smooth-secondlast {
+    grid-area: smooth-secondlast;
+}
+
+.smooth-php #smooth-slut {
+    grid-area: smooth-slut;
+}
+
+.smooth-php #smooth {
+    grid-area: smooth;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smooth-intro"
+        "smooth-start"
+        "smooth-options"
+        "smooth-secondlast"
+        "smooth-slut";
+}
+
+.smooth-php .kilder {
+    grid-area: kilder;
+}
+
+.smooth-php #mitgrid-smooth {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smooth"
+        "kilder";
+}
+/* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP END */
+
+
+
+/* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP START */
+.contentaware-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.contentaware-php #content-aware-fill-intro {
+    grid-area: content-aware-fill-intro;
+}
+
+.contentaware-php #content-aware-fill-start {
+    grid-area: content-aware-fill-start;
+}
+
+.contentaware-php #content-aware-fill-options {
+    grid-area: content-aware-fill-options;
+}
+
+.contentaware-php #content-aware-fill-slut {
+    grid-area: content-aware-fill-slut;
+}
+
+.contentaware-php #content-aware-fill {
+    grid-area: content-aware-fill;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "content-aware-fill-intro"
+        "content-aware-fill-start"
+        "content-aware-fill-options"
+        "content-aware-fill-slut";
+}
+
+
+
+.contentaware-php #content-aware-move-intro {
+    grid-area: content-aware-move-intro;
+}
+
+.contentaware-php #content-aware-move-start {
+    grid-area: content-aware-move-start;
+}
+
+.contentaware-php #content-aware-move-options {
+    grid-area: content-aware-move-options;
+}
+
+.contentaware-php #content-aware-move-slut {
+    grid-area: content-aware-move-slut;
+}
+
+.contentaware-php #content-aware-move {
+    grid-area: content-aware-move;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "content-aware-move-intro"
+        "content-aware-move-start"
+        "content-aware-move-options"
+        "content-aware-move-slut";
+}
+
+
+
+.contentaware-php #content-aware-patch-intro {
+    grid-area: content-aware-patch-intro;
+}
+
+.contentaware-php #content-aware-patch-start {
+    grid-area: content-aware-patch-start;
+}
+
+.contentaware-php #content-aware-patch-options {
+    grid-area: content-aware-patch-options;
+
+}
+
+.contentaware-php #content-aware-patch-slut {
+    grid-area: content-aware-patch-slut;
+}
+
+.contentaware-php #content-aware-patch {
+    grid-area: content-aware-patch;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "content-aware-patch-intro"
+        "content-aware-patch-start"
+        "content-aware-patch-options"
+        "content-aware-patch-slut";
+}
+
+
+
+.contentaware-php .kilder {
+    grid-area: kilder;
+}
+
+
+
+.contentaware-php #mitgrid-content-aware {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "content-aware-fill"
+        "content-aware-move"
+        "content-aware-patch"
+        "kilder";
+}
+
+
+
+/* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP END */
+
+
+
+/* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP START */
+.spothealing-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.spothealing-php #spothealing-intro {
+    grid-area: spothealing-intro; 
+}
+
+.spothealing-php #spothealing-start {
+    grid-area: spothealing-start;
+}
+
+.spothealing-php #spothealing {
+    grid-area: spothealing;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "spothealing-intro"
+        "spothealing-start";
+}
+
+.spothealing-php .kilder {
+    grid-area: kilder;
+}
+
+.spothealing-php #mitgrid-spothealing {
+    margin: 0.8em;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "spothealing"
+        "kilder";
+}
+
+/* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP END */
+
+
+
+/* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP START */
+.smartobject-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.smartobject-php #smartobject-intro {
+    grid-area: smartobject-intro;
+}
+
+.smartobject-php #smartobject-start {
+    grid-area: smartobject-start;
+}
+
+.smartobject-php #smartobject-options {
+    grid-area: smartobject-options;
+}
+
+.smartobject-php #smartobject-edit {
+    grid-area: smartobject-edit;
+}
+
+.smartobject-php #smartobject-slut {
+    grid-area: smartobject-slut;
+}
+
+.smartobject-php #smartobject {
+    grid-area: smartobject;
+    display: grid;
+    grid-row: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smartobject-intro"
+        "smartobject-start"
+        "smartobject-options"
+        "smartobject-edit"
+        "smartobject-slut";
+}
+
+.smartobject-php .kilder {
+    grid-area: kilder;
+}
+
+.smartobject-php #mitgrid-smartobject {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smartobject"
+        "kilder";
+}
+/* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP END*/
+
+
+
+/* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP START */
+.outofframe-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.outofframe-php #outofframe-intro {
+    grid-area: outofframe-intro;
+}
+
+.outofframe-php #outofframe-start {
+    grid-area: outofframe-start;
+}
+
+.outofframe-php #outofframe-options {
+    grid-area: outofframe-options;
+}
+
+.outofframe-php #outofframe-slut {
+    grid-area: outofframe-slut;
+}
+
+.outofframe-php #outofframe {
+    grid-area: outofframe;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "outofframe-intro"
+        "outofframe-start"
+        "outofframe-options"
+        "outofframe-slut";
+}
+
+.outofframe-php .kilder {
+    grid-area: kilder;
+}
+
+.outofframe-php #mitgrid-outofframe {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "outofframe"
+        "kilder";
+}
+
+/* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
+
+
+
+/* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP START */ 
+.farver-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.farver-php #farver-intro {
+    grid-area: farver-intro;
+}
+
+.farver-php #farver-cirklen {
+    grid-area: farver-cirklen;
+}
+
+
+.farver-php #titel-rgbcmyk {
+    grid-area: titel-rgbcmyk;
+}
+.farver-php #rgb-fordele {
+    grid-area: rgb-fordele;
+}
+.farver-php #cmyk-fordele {
+    grid-area: cmyk-fordele;
+}
+
+.farver-php #rgbvscmyk {
+    grid-area: rgbvscmyk;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titel-rgbcmyk"
+        "rgb-fordele"
+        "cmyk-fordele";
+}
+
+.farver-php #farver {
+    grid-area: farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver-intro"
+        "farver-cirklen"
+        "rgbvscmyk";
+}
+
+
+
+.farver-php #harmonier-intro {
+    grid-area: harmonier-intro;
+}
+
+.farver-php #monokrom {
+    grid-area: monokrom;
+}
+
+.farver-php #analog {
+    grid-area: analog;
+}
+
+.farver-php #komplementary {
+    grid-area: komplementary;
+}
+
+.farver-php #split-komplementary {
+    grid-area: split-komplementary;
+}
+
+.farver-php #triader {
+    grid-area: triader;
+}
+
+.farver-php #tetriader {
+    grid-area: tetriader;
+}
+
+.farver-php #farve-harmonier {
+    grid-area: farve-harmonier;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "harmonier-intro"
+        "monokrom"
+        "analog"
+        "komplementary"
+        "split-komplementary"
+        "triader"
+        "tetriader";
+}
+
+
+.farver-php #intro-psyk {
+    grid-area: intro-psyk;
+}
+
+.farver-php #blue-psyk {
+    grid-area: blue-psyk;
+}
+
+.farver-php #red-psyk {
+    grid-area: red-psyk;
+}
+
+.farver-php #gul-psyk {
+    grid-area: gul-psyk;
+}
+
+.farver-php #green-psyk {
+    grid-area: green-psyk;
+}
+
+.farver-php #lilla-psyk {
+    grid-area: lilla-psyk;
+}
+
+.farver-php #orange-psyk {
+    grid-area: orange-psyk;
+}
+
+.farver-php #slut-psyk {
+    grid-area: slut-psyk;
+}
+
+.farver-php #farve-psyk {
+    grid-area: farve-psyk;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "intro-psyk"
+        "blue-psyk"
+        "red-psyk"
+        "gul-psyk"
+        "green-psyk"
+        "lilla-psyk"
+        "orange-psyk"
+        "slut-psyk";
+}
+
+
+.farver-php #opdage-intro {
+    grid-area: opdage-intro;
+}
+
+.farver-php #mono-bus-fig {
+    grid-area: mono-bus-fig;
+}
+
+.farver-php #green-mono-fig {
+    grid-area: green-mono-fig;
+}
+
+.farver-php #mono-tilbud-fig {
+    grid-area: mono-tilbud-fig;
+}
+
+.farver-php #blad-analig-fig {
+    grid-area: blad-analig-fig;
+}
+
+.farver-php #complementary-skilt-fig {
+    grid-area: complementary-skilt-fig;
+}
+
+.farver-php #tretiader-playtoy-fig {
+    grid-area: tretiader-playtoy-fig;
+}
+
+.farver-php #opdage-farver-slut {
+    grid-area: opdage-farver-slut;
+}
+
+.farver-php #opdage-farver {
+    grid-area: opdage-farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "opdage-intro"
+        "mono-bus-fig"
+        "green-mono-fig"
+        "mono-tilbud-fig"
+        "blad-analig-fig"
+        "complementary-skilt-fig"
+        "tretiader-playtoy-fig"
+        "opdage-farver-slut";
+}
+
+
+.farver-php .kilder {
+    grid-area: kilder;
+}
+
+
+.farver-php #mitgrid-farver {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver"
+        "farve-harmonier"
+        "farve-psyk"
+        "opdage-farver"
+        "kilder";
+}
+
+/* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
+
+
+
+/* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
+.typografi-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.typografi-php #typogrfi-intro {
+    grid-area: typografi-intro;
+}
+
+.typografi-php #skrifttyper-passer {
+    grid-area: skrifttyper-passer;
+}
+
+.typografi-php #typografi-komposition {
+    grid-area: typografi-komposition;
+}
+
+.typografi-php #skrifttyperne {
+    grid-area: skrifttyperne;
+}
+
+.typografi-php #typografi {
+    grid-area: typografi;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "typografi-intro"
+        "skrifttyper-passer"
+        "typografi-komposition"
+        "skrifttyperne";
+}
+
+.typografi-php #anatomi-intro  {
+    grid-area: anatomi-intro;
+}
+
+.typografi-php #anatomi-begreber {
+    grid-area: anatomi-begreber;
+}
+
+.typografi-php #font-anatomi {
+    grid-area: font-anatomi;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "anatomi-intro"
+        "anatomi-begreber";
+}
+
+
+.typografi-php #read-friendly {
+    grid-area: read-friendly;
+}
+
+.typografi-php #skanbarhed {
+    grid-area: skanbarhed;
+}
+
+.typografi-php #skriftsize {
+    grid-area: skriftsize;
+}
+
+.typografi-php #lineheight {
+    grid-area: lineheight;
+}
+
+.typografi-php #readability {
+    grid-area: readability;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "read-friendly"
+        "skanbarhed"
+        "skriftsize"
+        "lineheight";
+}
+    
+
+.typografi-php .kilder {
+    grid-area: kilder;
+}
+
+.typografi-php #mitgrid-typografi {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "typografi"
+        "font-anatomi"
+        "readability"
+        "kilder";
+}
+
+/* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP END */
+
+
+
+
+/* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP START */
+.gestaltlove-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.gestaltlove-php #figure-ground {
+    grid-area: figure-ground;
+}
+
+.gestaltlove-php #similarity {
+    grid-area: similarity;
+}
+
+.gestaltlove-php #proximity {
+    grid-area: proximity;
+}
+
+.gestaltlove-php #commonregion {
+    grid-area: commonregion;
+}
+
+.gestaltlove-php #continuity {
+    grid-area: continuity;
+}
+
+.gestaltlove-php #closure {
+    grid-area: closure;
+}
+
+.gestaltlove-php #focalpoint {
+    grid-area: focalpoint;
+}
+
+.gestaltlove-php #gestaltlovene {
+    grid-area: gestaltlovene;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "figure-ground"
+        "similarity"
+        "proximity"
+        "commonregion"
+        "continuity"
+        "closure"
+        "focalpoint";
+}
+
+.gestaltlove-php .kilder {
+    grid-area: kilder;
+}
+
+.gestaltlove-php #mitgrid-gestalt {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "gestaltlovene"
+        "kilder";
+}
+/* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
+
+
+
+/* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING START */
+.wireframing-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.wireframing-php #wireframing-intro {
+    grid-area: wireframing-intro;
+}
+
+.wireframing-php #hifivlofi {
+    grid-area: hifivlofi;
+}
+
+.wireframing-php #lofi-india {
+    grid-area: lofi-india;
+}
+
+.wireframing-php #hifi-india {
+    grid-area: hifi-india;
+}
+
+.wireframing-php #wireframing-section {
+    grid-area: wireframing-section;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "wireframing-intro"
+        "hifivlofi"
+        "lofi-india"
+        "hifi-india";
+}
+
+.wireframing-php .kilder {
+    grid-area: kilder;
+}
+
+.wireframing-php #mitgrid-wireframing {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "wireframing-section"
+        "kilder";
+}
+
+/* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
+
+
+/* SATURATION.PHP SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP START */ 
+.saturation-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.saturation-php #saturation-intro {
+    grid-area: saturation-intro;
+}
+
+.saturation-php #saturation-start {
+    grid-area: saturation-start;
+}
+
+.saturation-php #saturation-options {
+    grid-area: saturation-options;
+}
+
+.saturation-php #saturation-slut {
+    grid-area: saturation-slut;
+}
+
+.saturation-php #saturation-climate {
+    grid-area: saturation-climate;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "saturation-intro"
+        "saturation-start"
+        "saturation-options"
+        "saturation-slut";
+}
+
+.saturation-php .kilder {
+    grid-area: kilder;
+}
+
+.saturation-php #mitgrid-saturation {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "saturation-climate"
+        "kilder";
+}
+
+/* SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP END */
+
+
+
+/* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP START */
+
+
+/* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP END */
+.adobexd-php h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.adobexd-php #adobexd-intro {
+    grid-area: adobexd-intro;
+}
+
+.adobexd-php #adobexd-mobil {
+    grid-area: adobexd-mobil;
+}
+
+.adobexd-php #adobexd-desktop {
+    grid-area: adobexd-desktop;
+}
+
+.adobexd-php #adobexd {
+    grid-area: adobexd;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "adobexd-intro"
+        "adobexd-mobil"
+        "adobexd-desktop";
+}
+
+.adobexd-php .kilder {
+    grid-area: kilder;
+}
+
+.adobexd-php #mitgrid-adobexd {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "adobexd"
+        "kilder";
+}
+
+/* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE eller mindre */
 @media only screen and (max-width: 600px) {
 
@@ -4867,7 +6139,1199 @@ usability-table {
 
 /* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER END */
     
+
     
+    
+    
+    
+/* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
+.artboards-php h1 {
+    text-align: center;
+}
+
+.artboards-php #artboard-intro {
+    grid-area: artboard-intro;
+}
+
+.artboards-php #artboard-start {
+    grid-area: artboard-start;
+}
+
+.artboards-php #artboard-options {
+    grid-area: artboard-options;
+}
+
+.artboards-php #artboard-slut {
+    grid-area: artboard-slut;
+}
+
+.artboards-php #artboard-tool {
+    grid-area: artboard-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "artboard-intro"
+        "artboard-start"
+        "artboard-options"
+        "artboard-slut";
+}
+
+.artboards-php #workspace-intro {
+    grid-area: workspace-intro;
+}
+
+.artboards-php #workspace-start {
+    grid-area: workspace-start;
+}
+
+.artboards-php #workspace-slut {
+    grid-area: workspace-slut;
+}
+
+.artboards-php #workspace-change {
+    grid-area: workspace-change;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "workspace-start"
+        "workspace-slut";
+}
+
+
+.artboards-php #workspace {
+    grid-area: workspace;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "workspace-intro"
+        "workspace-change";
+}
+
+.artboards-php .kilder {
+    grid-area: kilder;
+}
+
+.artboards-php #mitgrid-artboards {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "artboard-tool"
+        "workspace"
+        "kilder";
+}
+/* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP END */
+
+
+
+/* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP START */
+.blendtool-php h1 {
+    text-align: center;
+}
+
+.blendtool-php #blend-intro {
+    grid-area: blend-intro;
+}
+
+.blendtool-php #blend-start {
+    grid-area: blend-start;
+}
+
+.blendtool-php #blend-options {
+    grid-area: blend-options;
+}
+
+.blendtool-php #blend-slut {
+    grid-area: blend-slut;
+}
+
+.blendtool-php #blend-tool {
+    grid-area: blend-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "blend-intro"
+        "blend-start"
+        "blend-options"
+        "blend-slut";
+}
+
+
+.blendtool-php .kilder {
+    grid-area: kilder;
+}
+
+
+
+.blendtool-php #mitgrid-bendtool {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "blend-tool"
+        "kilder";
+}
+
+/* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
+
+
+
+/* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP START */
+.captain-php h1 {
+    text-align: center;
+}
+
+.captain-php #cap-intro {
+    grid-area: cap-intro;
+}
+
+.captain-php #cap-start {
+    grid-area: cap-start;
+}
+
+.captain-php #cap-options {
+    grid-area: cap-options;
+}
+
+.captain-php #cap-slut {
+    grid-area: cap-slut;
+}
+
+.captain-php #cap-america {
+    grid-area: cap-america;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cap-intro"
+        "cap-start"
+        "cap-options"
+        "cap-slut";
+}
+
+.captain-php .kilder {
+    grid-area: kilder;
+}
+
+.captain-php #mitgrid-acaptainamerica {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cap-america"
+        "kilder";
+}
+
+/* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
+
+/* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP START */
+.directselection-php h1 {
+    text-align: center;
+}
+
+.directselection-php #direct-select-intro {
+    grid-area: direct-select-intro;
+}
+
+.directselection-php #direct-select-start {
+    grid-area: direct-select-start;
+}
+
+.directselection-php #direct-select-tool {
+    grid-area: direct-select-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "direct-select-intro"
+        "direct-select-start";
+}
+
+.directselection-php .kilder {
+    grid-area: kilder;
+}
+
+.directselection-php #mitgrid-directselection {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+        "direct-select-tool"
+        "kilder";
+}
+
+/* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP END */
+
+
+
+/* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP START */
+.shapebuilder-php h1 {
+    text-align: center;
+}
+
+.shapebuilder-php #shape-intro {
+    grid-area: shape-intro;
+}
+
+.shapebuilder-php #shape-start {
+    grid-area: shape-start;
+}
+
+.shapebuilder-php #shape-slut {
+    grid-area: shape-slut;
+}
+
+.shapebuilder-php #shape-start2 {
+    grid-area: shape-start2;
+}
+
+.shapebuilder-php #shape-slut2 {
+    grid-area: shape-slut2;
+}
+
+.shapebuilder-php #shape-tool {
+    grid-area: shape-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "shape-intro shape-intro"
+        "shape-start shape-slut"
+        "shape-start2 shape-slut2";
+}
+
+.shapebuilder-php .kilder {
+    grid-area: kilder;
+}
+
+.shapebuilder-php #mitgrid-shapebuilder {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "shape-tool"
+        "kilder";
+}
+
+/* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP END */
+
+
+
+/* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       START */
+.smokey-php h1 {
+    text-align: center;
+}
+
+.smokey-php #smokey-intro {
+    grid-area: smokey-intro;
+}
+
+.smokey-php #smokey-start {
+    grid-area: smokey-start;
+}
+
+.smokey-php #smokey-options {
+    grid-area: smokey-options;
+}
+
+.smokey-php #smokey-slut {
+    grid-area: smokey-slut;
+}
+
+.smokey-php #smokey {
+    grid-area: smokey;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "smokey-intro smokey-intro"
+        "smokey-start smokey-options"
+        "smokey-slut smokey-slut";
+}
+
+.smokey-php .kilder {
+    grid-area: kilder;
+}
+
+.smokey-php #mitgrid-smokeythebear {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+        "smokey"
+        "kilder";
+}
+/* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       END */
+
+
+
+/* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP START */
+.smooth-php h1 {
+    text-align: center;
+}
+
+.smooth-php #smooth-intro {
+    grid-area: smooth-intro;
+}
+
+.smooth-php #smooth-start {
+    grid-area: smooth-start;
+}
+
+.smooth-php #smooth-options {
+    grid-area: smooth-options;
+}
+
+.smooth-php #smooth-secondlast {
+    grid-area: smooth-secondlast;
+}
+
+.smooth-php #smooth-slut {
+    grid-area: smooth-slut;
+}
+
+.smooth-php #smooth {
+    grid-area: smooth;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "smooth-intro smooth-intro"
+        "smooth-start smooth-options"
+        "smooth-secondlast smooth-slut";
+}
+
+.smooth-php .kilder {
+    grid-area: kilder;
+}
+
+.smooth-php #mitgrid-smooth {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smooth"
+        "kilder";
+}
+/* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP END */
+
+
+
+/* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP START */
+.contentaware-php h1 {
+    text-align: center;
+}
+
+.contentaware-php #content-aware-fill-intro {
+    grid-area: content-aware-fill-intro;
+}
+
+.contentaware-php #content-aware-fill-start {
+    grid-area: content-aware-fill-start;
+}
+
+.contentaware-php #content-aware-fill-options {
+    grid-area: content-aware-fill-options;
+}
+
+.contentaware-php #content-aware-fill-slut {
+    grid-area: content-aware-fill-slut;
+}
+
+.contentaware-php #content-aware-fill {
+    grid-area: content-aware-fill;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-fill-intro content-aware-fill-intro"
+        "content-aware-fill-options content-aware-fill-options"
+        "content-aware-fill-start content-aware-fill-slut";
+}
+
+
+
+.contentaware-php #content-aware-move-intro {
+    grid-area: content-aware-move-intro;
+}
+
+.contentaware-php #content-aware-move-start {
+    grid-area: content-aware-move-start;
+}
+
+.contentaware-php #content-aware-move-options {
+    grid-area: content-aware-move-options;
+}
+
+.contentaware-php #content-aware-move-slut {
+    grid-area: content-aware-move-slut;
+}
+
+.contentaware-php #content-aware-move {
+    grid-area: content-aware-move;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-move-intro content-aware-move-intro"
+        "content-aware-move-options content-aware-move-options"
+        "content-aware-move-start content-aware-move-slut";
+}
+
+
+
+.contentaware-php #content-aware-patch-intro {
+    grid-area: content-aware-patch-intro;
+}
+
+.contentaware-php #content-aware-patch-start {
+    grid-area: content-aware-patch-start;
+}
+
+.contentaware-php #content-aware-patch-options {
+    grid-area: content-aware-patch-options;
+
+}
+
+.contentaware-php #content-aware-patch-slut {
+    grid-area: content-aware-patch-slut;
+}
+
+.contentaware-php #content-aware-patch {
+    grid-area: content-aware-patch;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-patch-intro content-aware-patch-intro"
+        "content-aware-patch-options content-aware-patch-options"
+        "content-aware-patch-start content-aware-patch-slut";
+}
+
+
+
+.contentaware-php .kilder {
+    grid-area: kilder;
+}
+
+
+
+.contentaware-php #mitgrid-content-aware {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "content-aware-fill"
+        "content-aware-move"
+        "content-aware-patch"
+        "kilder";
+}
+
+
+
+/* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP END */
+
+
+
+/* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP START */
+.spothealing-php h1 {
+    text-align: center;
+}
+
+.spothealing-php #spothealing-intro {
+    grid-area: spothealing-intro; 
+}
+
+.spothealing-php #spothealing-start {
+    grid-area: spothealing-start;
+}
+
+.spothealing-php #spothealing {
+    grid-area: spothealing;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "spothealing-intro"
+        "spothealing-start";
+}
+
+.spothealing-php .kilder {
+    grid-area: kilder;
+}
+
+.spothealing-php #mitgrid-spothealing {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "spothealing"
+        "kilder";
+}
+
+/* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP END */
+
+
+
+/* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP START */
+.smartobject-php h1 {
+    text-align: center;
+}
+
+.smartobject-php #smartobject-intro {
+    grid-area: smartobject-intro;
+}
+
+.smartobject-php #smartobject-start {
+    grid-area: smartobject-start;
+}
+
+.smartobject-php #smartobject-options {
+    grid-area: smartobject-options;
+}
+
+.smartobject-php #smartobject-edit {
+    grid-area: smartobject-edit;
+}
+
+.smartobject-php #smartobject-slut {
+    grid-area: smartobject-slut;
+}
+
+.smartobject-php #smartobject {
+    grid-area: smartobject;
+    display: grid;
+    grid-row: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "smartobject-intro smartobject-intro"
+        "smartobject-start smartobject-start"
+        "smartobject-options smartobject-edit"
+        "smartobject-slut smartobject-slut";
+}
+
+.smartobject-php .kilder {
+    grid-area: kilder;
+}
+
+.smartobject-php #mitgrid-smartobject {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smartobject"
+        "kilder";
+}
+/* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP END*/
+
+
+
+/* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP START */
+.outofframe-php h1 {
+    text-align: center;
+}
+
+.outofframe-php #outofframe-intro {
+    grid-area: outofframe-intro;
+}
+
+.outofframe-php #outofframe-start {
+    grid-area: outofframe-start;
+}
+
+.outofframe-php #outofframe-options {
+    grid-area: outofframe-options;
+}
+
+.outofframe-php #outofframe-slut {
+    grid-area: outofframe-slut;
+}
+
+.outofframe-php #outofframe {
+    grid-area: outofframe;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "outofframe-intro outofframe-intro"
+        "outofframe-start outofframe-options"
+        "outofframe-slut outofframe-slut";
+}
+
+.outofframe-php .kilder {
+    grid-area: kilder;
+}
+
+.outofframe-php #mitgrid-outofframe {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "outofframe"
+        "kilder";
+}
+
+/* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
+
+
+
+/* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP START */ 
+.farver-php h1 {
+    text-align: center;
+}
+
+.farver-php #farver-intro {
+    grid-area: farver-intro;
+}
+
+.farver-php #farver-cirklen {
+    grid-area: farver-cirklen;
+}
+
+
+.farver-php #titel-rgbcmyk {
+    grid-area: titel-rgbcmyk;
+}
+.farver-php #rgb-fordele {
+    grid-area: rgb-fordele;
+}
+.farver-php #cmyk-fordele {
+    grid-area: cmyk-fordele;
+}
+
+.farver-php #rgbvscmyk {
+    grid-area: rgbvscmyk;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel-rgbcmyk titel-rgbcmyk"
+        "rgb-fordele cmyk-fordele";
+}
+
+.farver-php #farver {
+    grid-area: farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver-intro"
+        "farver-cirklen"
+        "rgbvscmyk";
+}
+
+
+
+.farver-php #harmonier-intro {
+    grid-area: harmonier-intro;
+}
+
+.farver-php #monokrom {
+    grid-area: monokrom;
+}
+
+.farver-php #analog {
+    grid-area: analog;
+}
+
+.farver-php #komplementary {
+    grid-area: komplementary;
+}
+
+.farver-php #split-komplementary {
+    grid-area: split-komplementary;
+}
+
+.farver-php #triader {
+    grid-area: triader;
+}
+
+.farver-php #tetriader {
+    grid-area: tetriader;
+}
+
+.farver-php #farve-harmonier {
+    grid-area: farve-harmonier;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "harmonier-intro harmonier-intro"
+        "monokrom analog"
+        "komplementary split-komplementary"
+        "triader tetriader";
+}
+
+
+.farver-php #intro-psyk {
+    grid-area: intro-psyk;
+}
+
+.farver-php #blue-psyk {
+    grid-area: blue-psyk;
+}
+
+.farver-php #red-psyk {
+    grid-area: red-psyk;
+}
+
+.farver-php #gul-psyk {
+    grid-area: gul-psyk;
+}
+
+.farver-php #green-psyk {
+    grid-area: green-psyk;
+}
+
+.farver-php #lilla-psyk {
+    grid-area: lilla-psyk;
+}
+
+.farver-php #orange-psyk {
+    grid-area: orange-psyk;
+}
+
+.farver-php #slut-psyk {
+    grid-area: slut-psyk;
+}
+
+.farver-php #farve-psyk {
+    grid-area: farve-psyk;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "intro-psyk intro-psyk"
+        "blue-psyk red-psyk"
+        "gul-psyk green-psyk"
+        "lilla-psyk orange-psyk"
+        "slut-psyk slut-psyk";
+}
+
+
+.farver-php #opdage-intro {
+    grid-area: opdage-intro;
+}
+
+.farver-php #mono-bus-fig {
+    grid-area: mono-bus-fig;
+}
+
+.farver-php #green-mono-fig {
+    grid-area: green-mono-fig;
+}
+
+.farver-php #mono-tilbud-fig {
+    grid-area: mono-tilbud-fig;
+}
+
+.farver-php #blad-analig-fig {
+    grid-area: blad-analig-fig;
+}
+
+.farver-php #complementary-skilt-fig {
+    grid-area: complementary-skilt-fig;
+}
+
+.farver-php #tretiader-playtoy-fig {
+    grid-area: tretiader-playtoy-fig;
+}
+
+.farver-php #opdage-farver-slut {
+    grid-area: opdage-farver-slut;
+}
+
+.farver-php #opdage-farver {
+    grid-area: opdage-farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "opdage-intro opdage-intro"
+        "mono-bus-fig complementary-skilt-fig"
+        "green-mono-fig mono-tilbud-fig"
+        "blad-analig-fig tretiader-playtoy-fig"
+        "opdage-farver-slut opdage-farver-slut";
+}
+
+
+.farver-php .kilder {
+    grid-area: kilder;
+}
+
+
+.farver-php #mitgrid-farver {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver"
+        "farve-harmonier"
+        "farve-psyk"
+        "opdage-farver"
+        "kilder";
+}
+
+/* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
+
+
+
+/* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
+.typografi-php h1 {
+    text-align: center;
+}
+
+.typografi-php #typogrfi-intro {
+    grid-area: typografi-intro;
+}
+
+.typografi-php #skrifttyper-passer {
+    grid-area: skrifttyper-passer;
+}
+
+.typografi-php #typografi-komposition {
+    grid-area: typografi-komposition;
+}
+
+.typografi-php #skrifttyperne {
+    grid-area: skrifttyperne;
+}
+
+.typografi-php #typografi {
+    grid-area: typografi;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "typografi-intro"
+        "skrifttyper-passer"
+        "typografi-komposition"
+        "skrifttyperne";
+}
+
+.typografi-php #anatomi-intro  {
+    grid-area: anatomi-intro;
+}
+
+.typografi-php #anatomi-begreber {
+    grid-area: anatomi-begreber;
+}
+
+.typografi-php #font-anatomi {
+    grid-area: font-anatomi;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "anatomi-intro"
+        "anatomi-begreber";
+}
+
+
+.typografi-php #read-friendly {
+    grid-area: read-friendly;
+}
+
+.typografi-php #skanbarhed {
+    grid-area: skanbarhed;
+}
+
+.typografi-php #skriftsize {
+    grid-area: skriftsize;
+}
+
+.typografi-php #lineheight {
+    grid-area: lineheight;
+}
+
+.typografi-php #readability {
+    grid-area: readability;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "read-friendly"
+        "skanbarhed"
+        "skriftsize"
+        "lineheight";
+}
+    
+
+.typografi-php .kilder {
+    grid-area: kilder;
+}
+
+.typografi-php #mitgrid-typografi {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "typografi"
+        "font-anatomi"
+        "readability"
+        "kilder";
+}
+
+/* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP END */
+
+
+
+
+/* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP START */
+.gestaltlove-php h1 {
+    text-align: center;
+}
+
+.gestaltlove-php #figure-ground {
+    grid-area: figure-ground;
+}
+
+.gestaltlove-php #similarity {
+    grid-area: similarity;
+}
+
+.gestaltlove-php #proximity {
+    grid-area: proximity;
+}
+
+.gestaltlove-php #commonregion {
+    grid-area: commonregion;
+}
+
+.gestaltlove-php #continuity {
+    grid-area: continuity;
+}
+
+.gestaltlove-php #closure {
+    grid-area: closure;
+}
+
+.gestaltlove-php #focalpoint {
+    grid-area: focalpoint;
+}
+
+.gestaltlove-php #gestaltlovene {
+    grid-area: gestaltlovene;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "figure-ground"
+        "similarity"
+        "proximity"
+        "commonregion"
+        "continuity"
+        "closure"
+        "focalpoint";
+}
+
+.gestaltlove-php .kilder {
+    grid-area: kilder;
+}
+
+.gestaltlove-php #mitgrid-gestalt {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "gestaltlovene"
+        "kilder";
+}
+/* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
+
+
+
+/* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING START */
+.wireframing-php h1 {
+    text-align: center;
+}
+
+.wireframing-php #wireframing-intro {
+    grid-area: wireframing-intro;
+}
+
+.wireframing-php #hifivlofi {
+    grid-area: hifivlofi;
+}
+
+.wireframing-php #lofi-india {
+    grid-area: lofi-india;
+}
+
+.wireframing-php #hifi-india {
+    grid-area: hifi-india;
+}
+
+.wireframing-php #wireframing-section {
+    grid-area: wireframing-section;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "wireframing-intro wireframing-intro"
+        "hifivlofi hifivlofi"
+        "lofi-india hifi-india";
+}
+
+.wireframing-php .kilder {
+    grid-area: kilder;
+}
+
+.wireframing-php #mitgrid-wireframing {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "wireframing-section"
+        "kilder";
+}
+
+/* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
+
+
+/* SATURATION.PHP SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP START */ 
+.saturation-php h1 {
+    text-align: center;
+}
+
+.saturation-php #saturation-intro {
+    grid-area: saturation-intro;
+}
+
+.saturation-php #saturation-start {
+    grid-area: saturation-start;
+}
+
+.saturation-php #saturation-options {
+    grid-area: saturation-options;
+}
+
+.saturation-php #saturation-slut {
+    grid-area: saturation-slut;
+}
+
+.saturation-php #saturation-climate {
+    grid-area: saturation-climate;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "saturation-intro saturation-intro"
+        "saturation-start saturation-start"
+        "saturation-options saturation-slut";
+}
+
+.saturation-php .kilder {
+    grid-area: kilder;
+}
+
+.saturation-php #mitgrid-saturation {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "saturation-climate"
+        "kilder";
+}
+
+/* SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP END */
+
+
+
+/* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP START */
+
+
+/* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP END */
+.adobexd-php h1 {
+    text-align: center;
+}
+
+.adobexd-php #adobexd-intro {
+    grid-area: adobexd-intro;
+}
+
+.adobexd-php #adobexd-mobil {
+    grid-area: adobexd-mobil;
+}
+
+.adobexd-php #adobexd-desktop {
+    grid-area: adobexd-desktop;
+}
+
+.adobexd-php #adobexd {
+    grid-area: adobexd;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "adobexd-intro"
+        "adobexd-mobil"
+        "adobexd-desktop";
+}
+
+.adobexd-php .kilder {
+    grid-area: kilder;
+}
+
+.adobexd-php #mitgrid-adobexd {
+    margin: 3.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "adobexd"
+        "kilder";
+}
+
+/* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
     
     
     
@@ -7334,7 +9798,1198 @@ usability-table {
 
 /* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER END */
     
+
     
+    
+    
+    
+    
+/* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
+.artboards-php h1 {
+    text-align: center;
+}
+
+.artboards-php #artboard-intro {
+    grid-area: artboard-intro;
+}
+
+.artboards-php #artboard-start {
+    grid-area: artboard-start;
+}
+
+.artboards-php #artboard-options {
+    grid-area: artboard-options;
+}
+
+.artboards-php #artboard-slut {
+    grid-area: artboard-slut;
+}
+
+.artboards-php #artboard-tool {
+    grid-area: artboard-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "artboard-intro"
+        "artboard-start"
+        "artboard-options"
+        "artboard-slut";
+}
+
+.artboards-php #workspace-intro {
+    grid-area: workspace-intro;
+}
+
+.artboards-php #workspace-start {
+    grid-area: workspace-start;
+}
+
+.artboards-php #workspace-slut {
+    grid-area: workspace-slut;
+}
+
+.artboards-php #workspace-change {
+    grid-area: workspace-change;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "workspace-start"
+        "workspace-slut";
+}
+
+
+.artboards-php #workspace {
+    grid-area: workspace;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "workspace-intro"
+        "workspace-change";
+}
+
+.artboards-php .kilder {
+    grid-area: kilder;
+}
+
+.artboards-php #mitgrid-artboards {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "artboard-tool"
+        "workspace"
+        "kilder";
+}
+/* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP END */
+
+
+
+/* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP START */
+.blendtool-php h1 {
+    text-align: center;
+}
+
+.blendtool-php #blend-intro {
+    grid-area: blend-intro;
+}
+
+.blendtool-php #blend-start {
+    grid-area: blend-start;
+}
+
+.blendtool-php #blend-options {
+    grid-area: blend-options;
+}
+
+.blendtool-php #blend-slut {
+    grid-area: blend-slut;
+}
+
+.blendtool-php #blend-tool {
+    grid-area: blend-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "blend-intro"
+        "blend-start"
+        "blend-options"
+        "blend-slut";
+}
+
+
+.blendtool-php .kilder {
+    grid-area: kilder;
+}
+
+
+
+.blendtool-php #mitgrid-bendtool {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "blend-tool"
+        "kilder";
+}
+
+/* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
+
+
+
+/* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP START */
+.captain-php h1 {
+    text-align: center;
+}
+
+.captain-php #cap-intro {
+    grid-area: cap-intro;
+}
+
+.captain-php #cap-start {
+    grid-area: cap-start;
+}
+
+.captain-php #cap-options {
+    grid-area: cap-options;
+}
+
+.captain-php #cap-slut {
+    grid-area: cap-slut;
+}
+
+.captain-php #cap-america {
+    grid-area: cap-america;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cap-intro"
+        "cap-start"
+        "cap-options"
+        "cap-slut";
+}
+
+.captain-php .kilder {
+    grid-area: kilder;
+}
+
+.captain-php #mitgrid-acaptainamerica {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cap-america"
+        "kilder";
+}
+
+/* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
+
+/* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP START */
+.directselection-php h1 {
+    text-align: center;
+}
+
+.directselection-php #direct-select-intro {
+    grid-area: direct-select-intro;
+}
+
+.directselection-php #direct-select-start {
+    grid-area: direct-select-start;
+}
+
+.directselection-php #direct-select-tool {
+    grid-area: direct-select-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "direct-select-intro"
+        "direct-select-start";
+}
+
+.directselection-php .kilder {
+    grid-area: kilder;
+}
+
+.directselection-php #mitgrid-directselection {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+        "direct-select-tool"
+        "kilder";
+}
+
+/* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP END */
+
+
+
+/* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP START */
+.shapebuilder-php h1 {
+    text-align: center;
+}
+
+.shapebuilder-php #shape-intro {
+    grid-area: shape-intro;
+}
+
+.shapebuilder-php #shape-start {
+    grid-area: shape-start;
+}
+
+.shapebuilder-php #shape-slut {
+    grid-area: shape-slut;
+}
+
+.shapebuilder-php #shape-start2 {
+    grid-area: shape-start2;
+}
+
+.shapebuilder-php #shape-slut2 {
+    grid-area: shape-slut2;
+}
+
+.shapebuilder-php #shape-tool {
+    grid-area: shape-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "shape-intro shape-intro"
+        "shape-start shape-slut"
+        "shape-start2 shape-slut2";
+}
+
+.shapebuilder-php .kilder {
+    grid-area: kilder;
+}
+
+.shapebuilder-php #mitgrid-shapebuilder {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "shape-tool"
+        "kilder";
+}
+
+/* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP END */
+
+
+
+/* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       START */
+.smokey-php h1 {
+    text-align: center;
+}
+
+.smokey-php #smokey-intro {
+    grid-area: smokey-intro;
+}
+
+.smokey-php #smokey-start {
+    grid-area: smokey-start;
+}
+
+.smokey-php #smokey-options {
+    grid-area: smokey-options;
+}
+
+.smokey-php #smokey-slut {
+    grid-area: smokey-slut;
+}
+
+.smokey-php #smokey {
+    grid-area: smokey;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "smokey-intro smokey-intro"
+        "smokey-start smokey-options"
+        "smokey-slut smokey-slut";
+}
+
+.smokey-php .kilder {
+    grid-area: kilder;
+}
+
+.smokey-php #mitgrid-smokeythebear {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+        "smokey"
+        "kilder";
+}
+/* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       END */
+
+
+
+/* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP START */
+.smooth-php h1 {
+    text-align: center;
+}
+
+.smooth-php #smooth-intro {
+    grid-area: smooth-intro;
+}
+
+.smooth-php #smooth-start {
+    grid-area: smooth-start;
+}
+
+.smooth-php #smooth-options {
+    grid-area: smooth-options;
+}
+
+.smooth-php #smooth-secondlast {
+    grid-area: smooth-secondlast;
+}
+
+.smooth-php #smooth-slut {
+    grid-area: smooth-slut;
+}
+
+.smooth-php #smooth {
+    grid-area: smooth;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "smooth-intro smooth-intro"
+        "smooth-start smooth-options"
+        "smooth-secondlast smooth-slut";
+}
+
+.smooth-php .kilder {
+    grid-area: kilder;
+}
+
+.smooth-php #mitgrid-smooth {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smooth"
+        "kilder";
+}
+/* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP END */
+
+
+
+/* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP START */
+.contentaware-php h1 {
+    text-align: center;
+}
+
+.contentaware-php #content-aware-fill-intro {
+    grid-area: content-aware-fill-intro;
+}
+
+.contentaware-php #content-aware-fill-start {
+    grid-area: content-aware-fill-start;
+}
+
+.contentaware-php #content-aware-fill-options {
+    grid-area: content-aware-fill-options;
+}
+
+.contentaware-php #content-aware-fill-slut {
+    grid-area: content-aware-fill-slut;
+}
+
+.contentaware-php #content-aware-fill {
+    grid-area: content-aware-fill;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-fill-intro content-aware-fill-intro"
+        "content-aware-fill-options content-aware-fill-options"
+        "content-aware-fill-start content-aware-fill-slut";
+}
+
+
+
+.contentaware-php #content-aware-move-intro {
+    grid-area: content-aware-move-intro;
+}
+
+.contentaware-php #content-aware-move-start {
+    grid-area: content-aware-move-start;
+}
+
+.contentaware-php #content-aware-move-options {
+    grid-area: content-aware-move-options;
+}
+
+.contentaware-php #content-aware-move-slut {
+    grid-area: content-aware-move-slut;
+}
+
+.contentaware-php #content-aware-move {
+    grid-area: content-aware-move;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-move-intro content-aware-move-intro"
+        "content-aware-move-options content-aware-move-options"
+        "content-aware-move-start content-aware-move-slut";
+}
+
+
+
+.contentaware-php #content-aware-patch-intro {
+    grid-area: content-aware-patch-intro;
+}
+
+.contentaware-php #content-aware-patch-start {
+    grid-area: content-aware-patch-start;
+}
+
+.contentaware-php #content-aware-patch-options {
+    grid-area: content-aware-patch-options;
+
+}
+
+.contentaware-php #content-aware-patch-slut {
+    grid-area: content-aware-patch-slut;
+}
+
+.contentaware-php #content-aware-patch {
+    grid-area: content-aware-patch;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-patch-intro content-aware-patch-intro"
+        "content-aware-patch-options content-aware-patch-options"
+        "content-aware-patch-start content-aware-patch-slut";
+}
+
+
+
+.contentaware-php .kilder {
+    grid-area: kilder;
+}
+
+
+
+.contentaware-php #mitgrid-content-aware {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "content-aware-fill"
+        "content-aware-move"
+        "content-aware-patch"
+        "kilder";
+}
+
+
+
+/* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP END */
+
+
+
+/* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP START */
+.spothealing-php h1 {
+    text-align: center;
+}
+
+.spothealing-php #spothealing-intro {
+    grid-area: spothealing-intro; 
+}
+
+.spothealing-php #spothealing-start {
+    grid-area: spothealing-start;
+}
+
+.spothealing-php #spothealing {
+    grid-area: spothealing;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "spothealing-intro"
+        "spothealing-start";
+}
+
+.spothealing-php .kilder {
+    grid-area: kilder;
+}
+
+.spothealing-php #mitgrid-spothealing {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "spothealing"
+        "kilder";
+}
+
+/* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP END */
+
+
+
+/* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP START */
+.smartobject-php h1 {
+    text-align: center;
+}
+
+.smartobject-php #smartobject-intro {
+    grid-area: smartobject-intro;
+}
+
+.smartobject-php #smartobject-start {
+    grid-area: smartobject-start;
+}
+
+.smartobject-php #smartobject-options {
+    grid-area: smartobject-options;
+}
+
+.smartobject-php #smartobject-edit {
+    grid-area: smartobject-edit;
+}
+
+.smartobject-php #smartobject-slut {
+    grid-area: smartobject-slut;
+}
+
+.smartobject-php #smartobject {
+    grid-area: smartobject;
+    display: grid;
+    grid-row: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "smartobject-intro smartobject-intro"
+        "smartobject-start smartobject-start"
+        "smartobject-options smartobject-edit"
+        "smartobject-slut smartobject-slut";
+}
+
+.smartobject-php .kilder {
+    grid-area: kilder;
+}
+
+.smartobject-php #mitgrid-smartobject {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smartobject"
+        "kilder";
+}
+/* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP END*/
+
+
+
+/* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP START */
+.outofframe-php h1 {
+    text-align: center;
+}
+
+.outofframe-php #outofframe-intro {
+    grid-area: outofframe-intro;
+}
+
+.outofframe-php #outofframe-start {
+    grid-area: outofframe-start;
+}
+
+.outofframe-php #outofframe-options {
+    grid-area: outofframe-options;
+}
+
+.outofframe-php #outofframe-slut {
+    grid-area: outofframe-slut;
+}
+
+.outofframe-php #outofframe {
+    grid-area: outofframe;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "outofframe-intro outofframe-intro outofframe-intro"
+        "outofframe-start outofframe-options outofframe-slut";
+}
+
+.outofframe-php .kilder {
+    grid-area: kilder;
+}
+
+.outofframe-php #mitgrid-outofframe {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "outofframe"
+        "kilder";
+}
+
+/* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
+
+
+
+/* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP START */ 
+.farver-php h1 {
+    text-align: center;
+}
+
+.farver-php #farver-intro {
+    grid-area: farver-intro;
+}
+
+.farver-php #farver-cirklen {
+    grid-area: farver-cirklen;
+}
+
+
+.farver-php #titel-rgbcmyk {
+    grid-area: titel-rgbcmyk;
+}
+.farver-php #rgb-fordele {
+    grid-area: rgb-fordele;
+}
+.farver-php #cmyk-fordele {
+    grid-area: cmyk-fordele;
+}
+
+.farver-php #rgbvscmyk {
+    grid-area: rgbvscmyk;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel-rgbcmyk titel-rgbcmyk"
+        "rgb-fordele cmyk-fordele";
+}
+
+.farver-php #farver {
+    grid-area: farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver-intro"
+        "farver-cirklen"
+        "rgbvscmyk";
+}
+
+
+
+.farver-php #harmonier-intro {
+    grid-area: harmonier-intro;
+}
+
+.farver-php #monokrom {
+    grid-area: monokrom;
+}
+
+.farver-php #analog {
+    grid-area: analog;
+}
+
+.farver-php #komplementary {
+    grid-area: komplementary;
+}
+
+.farver-php #split-komplementary {
+    grid-area: split-komplementary;
+}
+
+.farver-php #triader {
+    grid-area: triader;
+}
+
+.farver-php #tetriader {
+    grid-area: tetriader;
+}
+
+.farver-php #farve-harmonier {
+    grid-area: farve-harmonier;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "harmonier-intro harmonier-intro"
+        "monokrom analog"
+        "komplementary split-komplementary"
+        "triader tetriader";
+}
+
+
+.farver-php #intro-psyk {
+    grid-area: intro-psyk;
+}
+
+.farver-php #blue-psyk {
+    grid-area: blue-psyk;
+}
+
+.farver-php #red-psyk {
+    grid-area: red-psyk;
+}
+
+.farver-php #gul-psyk {
+    grid-area: gul-psyk;
+}
+
+.farver-php #green-psyk {
+    grid-area: green-psyk;
+}
+
+.farver-php #lilla-psyk {
+    grid-area: lilla-psyk;
+}
+
+.farver-php #orange-psyk {
+    grid-area: orange-psyk;
+}
+
+.farver-php #slut-psyk {
+    grid-area: slut-psyk;
+}
+
+.farver-php #farve-psyk {
+    grid-area: farve-psyk;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "intro-psyk intro-psyk"
+        "blue-psyk red-psyk"
+        "gul-psyk green-psyk"
+        "lilla-psyk orange-psyk"
+        "slut-psyk slut-psyk";
+}
+
+
+.farver-php #opdage-intro {
+    grid-area: opdage-intro;
+}
+
+.farver-php #mono-bus-fig {
+    grid-area: mono-bus-fig;
+}
+
+.farver-php #green-mono-fig {
+    grid-area: green-mono-fig;
+}
+
+.farver-php #mono-tilbud-fig {
+    grid-area: mono-tilbud-fig;
+}
+
+.farver-php #blad-analig-fig {
+    grid-area: blad-analig-fig;
+}
+
+.farver-php #complementary-skilt-fig {
+    grid-area: complementary-skilt-fig;
+}
+
+.farver-php #tretiader-playtoy-fig {
+    grid-area: tretiader-playtoy-fig;
+}
+
+.farver-php #opdage-farver-slut {
+    grid-area: opdage-farver-slut;
+}
+
+.farver-php #opdage-farver {
+    grid-area: opdage-farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "opdage-intro opdage-intro"
+        "mono-bus-fig complementary-skilt-fig"
+        "green-mono-fig mono-tilbud-fig"
+        "blad-analig-fig tretiader-playtoy-fig"
+        "opdage-farver-slut opdage-farver-slut";
+}
+
+
+.farver-php .kilder {
+    grid-area: kilder;
+}
+
+
+.farver-php #mitgrid-farver {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver"
+        "farve-harmonier"
+        "farve-psyk"
+        "opdage-farver"
+        "kilder";
+}
+
+/* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
+
+
+
+/* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
+.typografi-php h1 {
+    text-align: center;
+}
+
+.typografi-php #typogrfi-intro {
+    grid-area: typografi-intro;
+}
+
+.typografi-php #skrifttyper-passer {
+    grid-area: skrifttyper-passer;
+}
+
+.typografi-php #typografi-komposition {
+    grid-area: typografi-komposition;
+}
+
+.typografi-php #skrifttyperne {
+    grid-area: skrifttyperne;
+}
+
+.typografi-php #typografi {
+    grid-area: typografi;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "typografi-intro"
+        "skrifttyper-passer"
+        "typografi-komposition"
+        "skrifttyperne";
+}
+
+.typografi-php #anatomi-intro  {
+    grid-area: anatomi-intro;
+}
+
+.typografi-php #anatomi-begreber {
+    grid-area: anatomi-begreber;
+}
+
+.typografi-php #font-anatomi {
+    grid-area: font-anatomi;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "anatomi-intro"
+        "anatomi-begreber";
+}
+
+
+.typografi-php #read-friendly {
+    grid-area: read-friendly;
+}
+
+.typografi-php #skanbarhed {
+    grid-area: skanbarhed;
+}
+
+.typografi-php #skriftsize {
+    grid-area: skriftsize;
+}
+
+.typografi-php #lineheight {
+    grid-area: lineheight;
+}
+
+.typografi-php #readability {
+    grid-area: readability;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "read-friendly"
+        "skanbarhed"
+        "skriftsize"
+        "lineheight";
+}
+    
+
+.typografi-php .kilder {
+    grid-area: kilder;
+}
+
+.typografi-php #mitgrid-typografi {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "typografi"
+        "font-anatomi"
+        "readability"
+        "kilder";
+}
+
+/* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP END */
+
+
+
+
+/* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP START */
+.gestaltlove-php h1 {
+    text-align: center;
+}
+
+.gestaltlove-php #figure-ground {
+    grid-area: figure-ground;
+}
+
+.gestaltlove-php #similarity {
+    grid-area: similarity;
+}
+
+.gestaltlove-php #proximity {
+    grid-area: proximity;
+}
+
+.gestaltlove-php #commonregion {
+    grid-area: commonregion;
+}
+
+.gestaltlove-php #continuity {
+    grid-area: continuity;
+}
+
+.gestaltlove-php #closure {
+    grid-area: closure;
+}
+
+.gestaltlove-php #focalpoint {
+    grid-area: focalpoint;
+}
+
+.gestaltlove-php #gestaltlovene {
+    grid-area: gestaltlovene;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "figure-ground"
+        "similarity"
+        "proximity"
+        "commonregion"
+        "continuity"
+        "closure"
+        "focalpoint";
+}
+
+.gestaltlove-php .kilder {
+    grid-area: kilder;
+}
+
+.gestaltlove-php #mitgrid-gestalt {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "gestaltlovene"
+        "kilder";
+}
+/* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
+
+
+
+/* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING START */
+.wireframing-php h1 {
+    text-align: center;
+}
+
+.wireframing-php #wireframing-intro {
+    grid-area: wireframing-intro;
+}
+
+.wireframing-php #hifivlofi {
+    grid-area: hifivlofi;
+}
+
+.wireframing-php #lofi-india {
+    grid-area: lofi-india;
+}
+
+.wireframing-php #hifi-india {
+    grid-area: hifi-india;
+}
+
+.wireframing-php #wireframing-section {
+    grid-area: wireframing-section;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "wireframing-intro wireframing-intro"
+        "hifivlofi hifivlofi"
+        "lofi-india hifi-india";
+}
+
+.wireframing-php .kilder {
+    grid-area: kilder;
+}
+
+.wireframing-php #mitgrid-wireframing {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "wireframing-section"
+        "kilder";
+}
+
+/* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
+
+
+/* SATURATION.PHP SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP START */ 
+.saturation-php h1 {
+    text-align: center;
+}
+
+.saturation-php #saturation-intro {
+    grid-area: saturation-intro;
+}
+
+.saturation-php #saturation-start {
+    grid-area: saturation-start;
+}
+
+.saturation-php #saturation-options {
+    grid-area: saturation-options;
+}
+
+.saturation-php #saturation-slut {
+    grid-area: saturation-slut;
+}
+
+.saturation-php #saturation-climate {
+    grid-area: saturation-climate;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "saturation-intro saturation-intro"
+        "saturation-start saturation-start"
+        "saturation-options saturation-slut";
+}
+
+.saturation-php .kilder {
+    grid-area: kilder;
+}
+
+.saturation-php #mitgrid-saturation {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "saturation-climate"
+        "kilder";
+}
+
+/* SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP END */
+
+
+
+/* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP START */
+
+
+/* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP END */
+.adobexd-php h1 {
+    text-align: center;
+}
+
+.adobexd-php #adobexd-intro {
+    grid-area: adobexd-intro;
+}
+
+.adobexd-php #adobexd-mobil {
+    grid-area: adobexd-mobil;
+}
+
+.adobexd-php #adobexd-desktop {
+    grid-area: adobexd-desktop;
+}
+
+.adobexd-php #adobexd {
+    grid-area: adobexd;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "adobexd-intro adobexd-intro"
+        "adobexd-mobil adobexd-desktop";
+}
+
+.adobexd-php .kilder {
+    grid-area: kilder;
+}
+
+.adobexd-php #mitgrid-adobexd {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "adobexd"
+        "kilder";
+}
+
+/* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
     
     
     
@@ -9662,7 +13317,1191 @@ usability-table {
 
 /* KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER KODNINGSSIDER END */
     
+ 
     
+    
+    
+    
+    
+/* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
+.artboards-php h1 {
+    text-align: center;
+}
+
+.artboards-php #artboard-intro {
+    grid-area: artboard-intro;
+}
+
+.artboards-php #artboard-start {
+    grid-area: artboard-start;
+}
+
+.artboards-php #artboard-options {
+    grid-area: artboard-options;
+}
+
+.artboards-php #artboard-slut {
+    grid-area: artboard-slut;
+}
+
+.artboards-php #artboard-tool {
+    grid-area: artboard-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "artboard-intro artboard-intro"
+        "artboard-start artboard-options"
+        "artboard-slut artboard-slut";
+}
+
+.artboards-php #workspace-intro {
+    grid-area: workspace-intro;
+}
+
+.artboards-php #workspace-start {
+    grid-area: workspace-start;
+}
+
+.artboards-php #workspace-slut {
+    grid-area: workspace-slut;
+}
+
+.artboards-php #workspace-change {
+    grid-area: workspace-change;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "workspace-start workspace-slut";
+}
+
+
+.artboards-php #workspace {
+    grid-area: workspace;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "workspace-intro"
+        "workspace-change";
+}
+
+.artboards-php .kilder {
+    grid-area: kilder;
+}
+
+.artboards-php #mitgrid-artboards {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "artboard-tool"
+        "workspace"
+        "kilder";
+}
+/* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP END */
+
+
+
+/* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP START */
+.blendtool-php h1 {
+    text-align: center;
+}
+
+.blendtool-php #blend-intro {
+    grid-area: blend-intro;
+}
+
+.blendtool-php #blend-start {
+    grid-area: blend-start;
+}
+
+.blendtool-php #blend-options {
+    grid-area: blend-options;
+}
+
+.blendtool-php #blend-slut {
+    grid-area: blend-slut;
+}
+
+.blendtool-php #blend-tool {
+    grid-area: blend-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "blend-intro blend-intro"
+        "blend-options blend-options"
+        "blend-start blend-slut";
+}
+
+
+.blendtool-php .kilder {
+    grid-area: kilder;
+}
+
+
+
+.blendtool-php #mitgrid-bendtool {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "blend-tool"
+        "kilder";
+}
+
+/* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
+
+
+
+/* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP START */
+.captain-php h1 {
+    text-align: center;
+}
+
+.captain-php #cap-intro {
+    grid-area: cap-intro;
+}
+
+.captain-php #cap-start {
+    grid-area: cap-start;
+}
+
+.captain-php #cap-options {
+    grid-area: cap-options;
+}
+
+.captain-php #cap-slut {
+    grid-area: cap-slut;
+}
+
+.captain-php #cap-america {
+    grid-area: cap-america;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "cap-intro cap-intro"
+        "cap-start cap-start"
+        "cap-options cap-slut";
+}
+
+.captain-php .kilder {
+    grid-area: kilder;
+}
+
+.captain-php #mitgrid-acaptainamerica {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cap-america"
+        "kilder";
+}
+
+/* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
+
+/* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP START */
+.directselection-php h1 {
+    text-align: center;
+}
+
+.directselection-php #direct-select-intro {
+    grid-area: direct-select-intro;
+}
+
+.directselection-php #direct-select-start {
+    grid-area: direct-select-start;
+}
+
+.directselection-php #direct-select-tool {
+    grid-area: direct-select-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "direct-select-intro"
+        "direct-select-start";
+}
+
+.directselection-php .kilder {
+    grid-area: kilder;
+}
+
+.directselection-php #mitgrid-directselection {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+        "direct-select-tool"
+        "kilder";
+}
+
+/* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP END */
+
+
+
+/* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP START */
+.shapebuilder-php h1 {
+    text-align: center;
+}
+
+.shapebuilder-php #shape-intro {
+    grid-area: shape-intro;
+}
+
+.shapebuilder-php #shape-start {
+    grid-area: shape-start;
+}
+
+.shapebuilder-php #shape-slut {
+    grid-area: shape-slut;
+}
+
+.shapebuilder-php #shape-start2 {
+    grid-area: shape-start2;
+}
+
+.shapebuilder-php #shape-slut2 {
+    grid-area: shape-slut2;
+}
+
+.shapebuilder-php #shape-tool {
+    grid-area: shape-tool;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "shape-intro shape-intro"
+        "shape-start shape-slut"
+        "shape-start2 shape-slut2";
+}
+
+.shapebuilder-php .kilder {
+    grid-area: kilder;
+}
+
+.shapebuilder-php #mitgrid-shapebuilder {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "shape-tool"
+        "kilder";
+}
+
+/* SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP SHAPEBUILDERTOOL.PHP END */
+
+
+
+/* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       START */
+.smokey-php h1 {
+    text-align: center;
+}
+
+.smokey-php #smokey-intro {
+    grid-area: smokey-intro;
+}
+
+.smokey-php #smokey-start {
+    grid-area: smokey-start;
+}
+
+.smokey-php #smokey-options {
+    grid-area: smokey-options;
+}
+
+.smokey-php #smokey-slut {
+    grid-area: smokey-slut;
+}
+
+.smokey-php #smokey {
+    grid-area: smokey;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "smokey-intro smokey-intro smokey-intro"
+        "smokey-start smokey-options smokey-slut";
+}
+
+.smokey-php .kilder {
+    grid-area: kilder;
+}
+
+.smokey-php #mitgrid-smokeythebear {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+        "smokey"
+        "kilder";
+}
+/* SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP SMOKEYTHEBEAR.PHP       END */
+
+
+
+/* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP START */
+.smooth-php h1 {
+    text-align: center;
+}
+
+.smooth-php #smooth-intro {
+    grid-area: smooth-intro;
+}
+
+.smooth-php #smooth-start {
+    grid-area: smooth-start;
+}
+
+.smooth-php #smooth-options {
+    grid-area: smooth-options;
+}
+
+.smooth-php #smooth-secondlast {
+    grid-area: smooth-secondlast;
+}
+
+.smooth-php #smooth-slut {
+    grid-area: smooth-slut;
+}
+
+.smooth-php #smooth {
+    grid-area: smooth;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "smooth-intro smooth-intro"
+        "smooth-start smooth-options"
+        "smooth-secondlast smooth-slut";
+}
+
+.smooth-php .kilder {
+    grid-area: kilder;
+}
+
+.smooth-php #mitgrid-smooth {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smooth"
+        "kilder";
+}
+/* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP END */
+
+
+
+/* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP START */
+.contentaware-php h1 {
+    text-align: center;
+}
+
+.contentaware-php #content-aware-fill-intro {
+    grid-area: content-aware-fill-intro;
+}
+
+.contentaware-php #content-aware-fill-start {
+    grid-area: content-aware-fill-start;
+}
+
+.contentaware-php #content-aware-fill-options {
+    grid-area: content-aware-fill-options;
+}
+
+.contentaware-php #content-aware-fill-slut {
+    grid-area: content-aware-fill-slut;
+}
+
+.contentaware-php #content-aware-fill {
+    grid-area: content-aware-fill;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-fill-intro content-aware-fill-intro"
+        "content-aware-fill-options content-aware-fill-options"
+        "content-aware-fill-start content-aware-fill-slut";
+}
+
+
+
+.contentaware-php #content-aware-move-intro {
+    grid-area: content-aware-move-intro;
+}
+
+.contentaware-php #content-aware-move-start {
+    grid-area: content-aware-move-start;
+}
+
+.contentaware-php #content-aware-move-options {
+    grid-area: content-aware-move-options;
+}
+
+.contentaware-php #content-aware-move-slut {
+    grid-area: content-aware-move-slut;
+}
+
+.contentaware-php #content-aware-move {
+    grid-area: content-aware-move;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-move-intro content-aware-move-intro"
+        "content-aware-move-options content-aware-move-options"
+        "content-aware-move-start content-aware-move-slut";
+}
+
+
+
+.contentaware-php #content-aware-patch-intro {
+    grid-area: content-aware-patch-intro;
+}
+
+.contentaware-php #content-aware-patch-start {
+    grid-area: content-aware-patch-start;
+}
+
+.contentaware-php #content-aware-patch-options {
+    grid-area: content-aware-patch-options;
+
+}
+
+.contentaware-php #content-aware-patch-slut {
+    grid-area: content-aware-patch-slut;
+}
+
+.contentaware-php #content-aware-patch {
+    grid-area: content-aware-patch;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "content-aware-patch-intro content-aware-patch-intro"
+        "content-aware-patch-options content-aware-patch-options"
+        "content-aware-patch-start content-aware-patch-slut";
+}
+
+
+
+.contentaware-php .kilder {
+    grid-area: kilder;
+}
+
+
+
+.contentaware-php #mitgrid-content-aware {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "content-aware-fill"
+        "content-aware-move"
+        "content-aware-patch"
+        "kilder";
+}
+
+
+
+/* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP END */
+
+
+
+/* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP START */
+.spothealing-php h1 {
+    text-align: center;
+}
+
+.spothealing-php #spothealing-intro {
+    grid-area: spothealing-intro; 
+}
+
+.spothealing-php #spothealing-start {
+    grid-area: spothealing-start;
+}
+
+.spothealing-php #spothealing {
+    grid-area: spothealing;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "spothealing-intro"
+        "spothealing-start";
+}
+
+.spothealing-php .kilder {
+    grid-area: kilder;
+}
+
+.spothealing-php #mitgrid-spothealing {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "spothealing"
+        "kilder";
+}
+
+/* SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP SPOTHEALINGTOOL.PHP END */
+
+
+
+/* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP START */
+.smartobject-php h1 {
+    text-align: center;
+}
+
+.smartobject-php #smartobject-intro {
+    grid-area: smartobject-intro;
+}
+
+.smartobject-php #smartobject-start {
+    grid-area: smartobject-start;
+}
+
+.smartobject-php #smartobject-options {
+    grid-area: smartobject-options;
+}
+
+.smartobject-php #smartobject-edit {
+    grid-area: smartobject-edit;
+}
+
+.smartobject-php #smartobject-slut {
+    grid-area: smartobject-slut;
+}
+
+.smartobject-php #smartobject {
+    grid-area: smartobject;
+    display: grid;
+    grid-row: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "smartobject-intro smartobject-intro smartobject-intro"
+        "smartobject-start smartobject-options smartobject-edit"
+        "smartobject-slut smartobject-slut smartobject-slut";
+}
+
+.smartobject-php .kilder {
+    grid-area: kilder;
+}
+
+.smartobject-php #mitgrid-smartobject {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "smartobject"
+        "kilder";
+}
+/* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP END*/
+
+
+
+/* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP START */
+.outofframe-php h1 {
+    text-align: center;
+}
+
+.outofframe-php #outofframe-intro {
+    grid-area: outofframe-intro;
+}
+
+.outofframe-php #outofframe-start {
+    grid-area: outofframe-start;
+}
+
+.outofframe-php #outofframe-options {
+    grid-area: outofframe-options;
+}
+
+.outofframe-php #outofframe-slut {
+    grid-area: outofframe-slut;
+}
+
+.outofframe-php #outofframe {
+    grid-area: outofframe;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "outofframe-intro outofframe-intro outofframe-intro"
+        "outofframe-start outofframe-options outofframe-slut";
+}
+
+.outofframe-php .kilder {
+    grid-area: kilder;
+}
+
+.outofframe-php #mitgrid-outofframe {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "outofframe"
+        "kilder";
+}
+
+/* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
+
+
+
+/* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP START */ 
+.farver-php h1 {
+    text-align: center;
+}
+
+.farver-php #farver-intro {
+    grid-area: farver-intro;
+}
+
+.farver-php #farver-cirklen {
+    grid-area: farver-cirklen;
+}
+
+
+.farver-php #titel-rgbcmyk {
+    grid-area: titel-rgbcmyk;
+}
+.farver-php #rgb-fordele {
+    grid-area: rgb-fordele;
+}
+.farver-php #cmyk-fordele {
+    grid-area: cmyk-fordele;
+}
+
+.farver-php #rgbvscmyk {
+    grid-area: rgbvscmyk;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "titel-rgbcmyk titel-rgbcmyk"
+        "rgb-fordele cmyk-fordele";
+}
+
+.farver-php #farver {
+    grid-area: farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver-intro"
+        "farver-cirklen"
+        "rgbvscmyk";
+}
+
+
+
+.farver-php #harmonier-intro {
+    grid-area: harmonier-intro;
+}
+
+.farver-php #monokrom {
+    grid-area: monokrom;
+}
+
+.farver-php #analog {
+    grid-area: analog;
+}
+
+.farver-php #komplementary {
+    grid-area: komplementary;
+}
+
+.farver-php #split-komplementary {
+    grid-area: split-komplementary;
+}
+
+.farver-php #triader {
+    grid-area: triader;
+}
+
+.farver-php #tetriader {
+    grid-area: tetriader;
+}
+
+.farver-php #farve-harmonier {
+    grid-area: farve-harmonier;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "harmonier-intro harmonier-intro"
+        "monokrom analog"
+        "komplementary split-komplementary"
+        "triader tetriader";
+}
+
+
+.farver-php #intro-psyk {
+    grid-area: intro-psyk;
+}
+
+.farver-php #blue-psyk {
+    grid-area: blue-psyk;
+}
+
+.farver-php #red-psyk {
+    grid-area: red-psyk;
+}
+
+.farver-php #gul-psyk {
+    grid-area: gul-psyk;
+}
+
+.farver-php #green-psyk {
+    grid-area: green-psyk;
+}
+
+.farver-php #lilla-psyk {
+    grid-area: lilla-psyk;
+}
+
+.farver-php #orange-psyk {
+    grid-area: orange-psyk;
+}
+
+.farver-php #slut-psyk {
+    grid-area: slut-psyk;
+}
+
+.farver-php #farve-psyk {
+    grid-area: farve-psyk;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "intro-psyk intro-psyk"
+        "blue-psyk red-psyk"
+        "gul-psyk green-psyk"
+        "lilla-psyk orange-psyk"
+        "slut-psyk slut-psyk";
+}
+
+
+.farver-php #opdage-intro {
+    grid-area: opdage-intro;
+}
+
+.farver-php #mono-bus-fig {
+    grid-area: mono-bus-fig;
+}
+
+.farver-php #green-mono-fig {
+    grid-area: green-mono-fig;
+}
+
+.farver-php #mono-tilbud-fig {
+    grid-area: mono-tilbud-fig;
+}
+
+.farver-php #blad-analig-fig {
+    grid-area: blad-analig-fig;
+}
+
+.farver-php #complementary-skilt-fig {
+    grid-area: complementary-skilt-fig;
+}
+
+.farver-php #tretiader-playtoy-fig {
+    grid-area: tretiader-playtoy-fig;
+}
+
+.farver-php #opdage-farver-slut {
+    grid-area: opdage-farver-slut;
+}
+
+.farver-php #opdage-farver {
+    grid-area: opdage-farver;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "opdage-intro opdage-intro"
+        "mono-bus-fig complementary-skilt-fig"
+        "green-mono-fig mono-tilbud-fig"
+        "blad-analig-fig tretiader-playtoy-fig"
+        "opdage-farver-slut opdage-farver-slut";
+}
+
+
+.farver-php .kilder {
+    grid-area: kilder;
+}
+
+
+.farver-php #mitgrid-farver {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "farver"
+        "farve-harmonier"
+        "farve-psyk"
+        "opdage-farver"
+        "kilder";
+}
+
+/* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
+
+
+
+/* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
+.typografi-php h1 {
+    text-align: center;
+}
+
+.typografi-php #typogrfi-intro {
+    grid-area: typografi-intro;
+}
+
+.typografi-php #skrifttyper-passer {
+    grid-area: skrifttyper-passer;
+}
+
+.typografi-php #typografi-komposition {
+    grid-area: typografi-komposition;
+}
+
+.typografi-php #skrifttyperne {
+    grid-area: skrifttyperne;
+}
+
+.typografi-php #typografi {
+    grid-area: typografi;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "typografi-intro"
+        "skrifttyper-passer"
+        "typografi-komposition"
+        "skrifttyperne";
+}
+
+.typografi-php #anatomi-intro  {
+    grid-area: anatomi-intro;
+}
+
+.typografi-php #anatomi-begreber {
+    grid-area: anatomi-begreber;
+}
+
+.typografi-php #font-anatomi {
+    grid-area: font-anatomi;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "anatomi-intro"
+        "anatomi-begreber";
+}
+
+
+.typografi-php #read-friendly {
+    grid-area: read-friendly;
+}
+
+.typografi-php #skanbarhed {
+    grid-area: skanbarhed;
+}
+
+.typografi-php #skriftsize {
+    grid-area: skriftsize;
+}
+
+.typografi-php #lineheight {
+    grid-area: lineheight;
+}
+
+.typografi-php #readability {
+    grid-area: readability;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "read-friendly"
+        "skanbarhed"
+        "skriftsize"
+        "lineheight";
+}
+    
+
+.typografi-php .kilder {
+    grid-area: kilder;
+}
+
+.typografi-php #mitgrid-typografi {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "typografi"
+        "font-anatomi"
+        "readability"
+        "kilder";
+}
+
+/* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP END */
+
+
+
+
+/* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP START */
+.gestaltlove-php h1 {
+    text-align: center;
+}
+
+.gestaltlove-php #figure-ground {
+    grid-area: figure-ground;
+}
+
+.gestaltlove-php #similarity {
+    grid-area: similarity;
+}
+
+.gestaltlove-php #proximity {
+    grid-area: proximity;
+}
+
+.gestaltlove-php #commonregion {
+    grid-area: commonregion;
+}
+
+.gestaltlove-php #continuity {
+    grid-area: continuity;
+}
+
+.gestaltlove-php #closure {
+    grid-area: closure;
+}
+
+.gestaltlove-php #focalpoint {
+    grid-area: focalpoint;
+}
+
+.gestaltlove-php #gestaltlovene {
+    grid-area: gestaltlovene;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "figure-ground"
+        "similarity"
+        "proximity"
+        "commonregion"
+        "continuity"
+        "closure"
+        "focalpoint";
+}
+
+.gestaltlove-php .kilder {
+    grid-area: kilder;
+}
+
+.gestaltlove-php #mitgrid-gestalt {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "gestaltlovene"
+        "kilder";
+}
+/* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
+
+
+
+/* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING START */
+.wireframing-php h1 {
+    text-align: center;
+}
+
+.wireframing-php #wireframing-intro {
+    grid-area: wireframing-intro;
+}
+
+.wireframing-php #hifivlofi {
+    grid-area: hifivlofi;
+}
+
+.wireframing-php #lofi-india {
+    grid-area: lofi-india;
+}
+
+.wireframing-php #hifi-india {
+    grid-area: hifi-india;
+}
+
+.wireframing-php #wireframing-section {
+    grid-area: wireframing-section;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "wireframing-intro wireframing-intro"
+        "hifivlofi hifivlofi"
+        "lofi-india hifi-india";
+}
+
+.wireframing-php .kilder {
+    grid-area: kilder;
+}
+
+.wireframing-php #mitgrid-wireframing {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "wireframing-section"
+        "kilder";
+}
+
+/* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
+
+
+/* SATURATION.PHP SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP START */ 
+.saturation-php h1 {
+    text-align: center;
+}
+
+.saturation-php #saturation-intro {
+    grid-area: saturation-intro;
+}
+
+.saturation-php #saturation-start {
+    grid-area: saturation-start;
+}
+
+.saturation-php #saturation-options {
+    grid-area: saturation-options;
+}
+
+.saturation-php #saturation-slut {
+    grid-area: saturation-slut;
+}
+
+.saturation-php #saturation-climate {
+    grid-area: saturation-climate;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "saturation-intro saturation-intro saturation-intro"
+        "saturation-start saturation-options saturation-slut";
+}
+
+.saturation-php .kilder {
+    grid-area: kilder;
+}
+
+.saturation-php #mitgrid-saturation {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "saturation-climate"
+        "kilder";
+}
+
+/* SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP END */
+
+
+
+/* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP START */
+
+
+/* ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP ADOBEXD.PHP END */
+.adobexd-php h1 {
+    text-align: center;
+}
+
+.adobexd-php #adobexd-intro {
+    grid-area: adobexd-intro;
+}
+
+.adobexd-php #adobexd-mobil {
+    grid-area: adobexd-mobil;
+}
+
+.adobexd-php #adobexd-desktop {
+    grid-area: adobexd-desktop;
+}
+
+.adobexd-php #adobexd {
+    grid-area: adobexd;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "adobexd-intro adobexd-intro"
+        "adobexd-mobil adobexd-desktop";
+}
+
+.adobexd-php .kilder {
+    grid-area: kilder;
+}
+
+.adobexd-php #mitgrid-adobexd {
+    margin: 7em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "adobexd"
+        "kilder";
+}
+
+/* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
     
     
     

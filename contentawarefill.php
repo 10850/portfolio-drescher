@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-photoshop.inc' ?>
+        
             <h1 class="titel">Content Aware Fill</h1>
         
             <div id="mitgrid-content-aware">
@@ -37,14 +39,34 @@
                     
                     <section id="content-aware-fill-start">
                         <img src="design/photoshop/content-aware/content-aware-fill-start.jpg" alt="screenshot af photoshop" id="aware-fill-start-img">
+                        <p class="body-text">
+                            Jeg har dette billede af en der laver tricks på løbehjul, men der er en person i baggrunden som jeg gerne vil fjerne fra billedet. Det er her hvor Content aware fill kommer ind.
+                        </p>
                     </section>
                     
                     <section id="content-aware-fill-options">
                         <img src="design/photoshop/content-aware/content-aware-fill-step.jpg" alt="screenshot af photoshop" id="aware-fill-options-img">
+                        <ol class="liste">
+                            <li>
+                                Jeg bruger lasso tool til at lave en selection omkring personen jeg vil fjerne
+                            </li>
+                            <li>
+                                Så går jeg under "Edit" og finder "Content Aware Fill".
+                            </li>
+                            <li>
+                                Så giver photoshop mig et panel hvor jeg har mulighed for at tegne de områder den skal bruge til at udfylde det hul som der er i billedet når man fjerne personen.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="content-aware-fill-slut">
                         <img src="design/photoshop/content-aware/content-aware-fill-after.jpg" alt="screenshot af photoshop" id="aware-fill-slut-img">
+                        <p class="body-text">
+                            Nu har jeg et billed hvor man kun ser personen der laver tricks og man kan ikke se at der var en person som er blevet fjernet fra billedet.
+                        </p>
+                        <p class="body-text">
+                            Jeg har aldrig brugt content aware fill før og syntes at det er utroligt at photoshop automatisk bare kan fjerne noget fra et billed og udfylde hullet for dig. Især til den grad af kvalitet og simplificering af funktionen, jeg troede det ville være meget mere kompliceret end det.
+                        </p>
                     </section>
                 </section>
                 
@@ -60,14 +82,35 @@
                     
                     <section id="content-aware-move-start">
                         <img src="design/photoshop/content-aware/content_aware_move.jpg" alt="screenshot af photoshop" id="aware-move-start-img">
+                        <p class="body-text">
+                            Her er et billed af folk som hiker, men de to personer bagved er ret lang væk fra personen længest fremme. Det er her hvor Content aware move kan hjælpe dig.
+                        </p>
                     </section>
                     
                     <section id="content-aware-move-options">
                         <img src="design/photoshop/content-aware/content-aware-move-step.jpg" alt="screenshot af photoshop" id="aware-move-options-img">
+                        <ol class="liste">
+                            <li>
+                                Jeg laver en selection af en af de to personer med "Content aware move tool".
+                            </li>
+                            <li>
+                                Derefter giver photoshop mig et panel hvor jeg tegner op hvilke dele af billedet den skal bruge til at udfylde det hul der kommer af at bevæge personen på billedet og klikker OK.
+                            </li>
+                            <li>
+                                Samme process gøres igen med den anden person.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="content-aware-move-slut">
                         <img src="design/photoshop/content-aware/content_aware_move-after.jpg" alt="screenshot af photoshop" id="aware-move-slut-img">
+                        <p class="body-text">
+                            Nu er de to personer tættere på personen som originalt var længest fremme og billedet ser stadig realistisk ud.
+                        </p>
+                        
+                        <p class="body-text">
+                            Det samme med content aware fill gælder også her. Jeg har aldrig brugt content aware move før studiet og var overrasket over at man faktisk kunne bevæge elementer i et billed og stadig  have et realistisk billed. Især med en funktion som er så simpel at bruge.
+                        </p>
                     </section>
                 </section>
                 
@@ -76,21 +119,38 @@
                         <ul class="liste">
                             <li>
                                 <h4 class="sub-skrift">Patch Tool</h4>
-                                Patch tool tager et valgt område af billedet flytter det og udfylder hullet med et pattern fra et andet sted på billedet. 
+                                Patch tool gør det samme som healing brush tool, men den gør det ved at den udskifter et område på et billed med et mønster fra et andet område på billedet og ikke med pixels. 
                             </li>
                         </ul>
                     </section>
                     
                     <section id="content-aware-patch-start">
                         <img src="design/photoshop/content-aware/content_aware_patch.jpg" alt="screenshot af photoshop" id="aware-patch-start-img">
+                        <p class="body-text">
+                            Her har jeg et billed med folk der løber i solnedgangen, men man kan lige præcis se et ben i billedet, som jeg ikke vil have der. Her kan man bruge Patch tool.
+                        </p>
                     </section>
                     
                     <section id="content-aware-patch-options">
                         <img src="design/photoshop/content-aware/content-aware-patch-step.jpg" alt="screenshot af photoshop" id="aware-patch-options-img">
+                        <ol class="liste">
+                            <li>
+                                Jeg laver en selection med "Patch tool".
+                            </li>
+                            <li>
+                                Så tager jeg den selection og trækker den ud af billedet og photoshop vil automatisk bruger patterns fra resten af billedet til at fylde billedet ud.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="content-aware-patch-slut">
                         <img src="design/photoshop/content-aware/content_aware_patch-after.jpg" alt="screenshot af photoshop" id="aware-patch-slut-img">
+                        <p class="body-text">
+                            Nu har jeg billedet uden det ben og det ser stadig realistisk ud og ligner ikke det er blevet redigeret.
+                        </p>
+                        <p class="body-text">
+                            Jeg har aldrig brugt patch tool før studiet og jeg er så overrasket over at photoshop har de her tre værktøjer, som gøre noget jeg ville tror er sindsygt kompliceret og næsten umuligt at gøre uden kompetencer. Men de har på en måde lavet det mest simple værktøj til at gøre det med som selv en nybegynder kunne finde ud af.
+                        </p>
                     </section>
                 </section>
             </div>

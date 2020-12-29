@@ -253,11 +253,16 @@
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Photoshop</h3></li>
                                             <li><a class="dropdown-item" href="smokeythebear.php">Smokey the Bear</a></li>
-                                            <li><a class="dropdown-item" href="smooth.php">Smooth</a></li>
+                                            <li><a class="dropdown-item" href="smooth.php">Warped</a></li>
                                             <li><a class="dropdown-item" href="contentawarefill.php">Content Aware Fill</a></li>
                                             <li><a class="dropdown-item" href="spothealingtool.php">Spot Healing Tool</a></li>
                                             <li><a class="dropdown-item" href="smartobject.php">Smart Object</a></li>
                                             <li><a class="dropdown-item" href="outofframe.php">Out of Frame</a></li>
+                                            <li><a class="dropdown-item" href="saturation.php">Saturation</a></li>
+                                          </ul>
+                                          <ul class="mega-dropdown-desktop">
+                                            <li class="mega-menu-list-title"><h3>Adobe XD</h3></li>
+                                            <li><a class="dropdown-item" href="adobexd.php">Adobe XD</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Farver</h3></li>
@@ -273,8 +278,7 @@
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Wireframing</h3></li>
-                                            <li><a class="dropdown-item" href="lofi.php">Lo-Fi</a></li>
-                                            <li><a class="dropdown-item" href="hifi.php">Hi-Fi</a></li>
+                                            <li><a class="dropdown-item" href="wireframing.php">Wireframing</a></li>
                                           </ul>
                                         </div>
                                     </li> <!-- mega dropdown -->

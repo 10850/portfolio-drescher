@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-illustrator' ?>
+        
             <h1 class="titel">Direct selection tool</h1>
         
             <div id="mitgrid-directselection">
@@ -30,7 +32,7 @@
                         <ul class="liste">
                             <li>
                                 <h4 class="sub-skrift">Direct selection tool</h4>
-                                Selection tool giver muligheden for at select et eller flere elementer/layers. Hvorimod Dircet Selection Tool giver mulighed for at isolere en enkelt object, anchor point eller path selv hvis det er i en gruppe.  
+                                Selection tool giver muligheden for at select et eller flere elementer/layers. Hvorimod Dircet Selection Tool giver mulighed for at isolere en enkelt anchor point eller path og ændre på et objekt shape (Harmer, 2019).  
                             </li>
                             <li>
                                 <h4 class="sub-skrift">Pen tool</h4>
@@ -40,8 +42,29 @@
                     </section>
                     
                     <section id="direct-select-start">
+                        <p class="body-text">
+                            Ved at lege rundt med direct selection tool og pen tool til at lave mærklige shapes fik jeg lavede denne guitar.
+                        </p>
                         <img src="design/illustrator/direct-select/direct-selection-and-pen-tool.png" alt="screenshot af illustrator" id="direct-select-start-img">
+                        <ol class="liste">
+                            <li>
+                                Man bruger pen tool til at lave flere anchor points så man har flere punkter man kan trække i med direct selection tool.
+                            </li>
+                            <li>
+                                Derefter tager man direct selection tool og begynder at tage fat i de forskellige anchor points og trækker i dem for at bøje linjerne på forskellige måder, indtil man har formen af bunden af en guitar.
+                            </li>
+                        </ol>
                     </section>
+                </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                            Harmer, T., 2019. Linkedin Learning. [Online] 
+                            Available at: <a href="https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532" target="_blank">https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532</a>
+                            [Senest hentet eller vist den 18 december 2020].
+                        </li>
+                    </ul>
                 </section>
             </div>
         

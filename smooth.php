@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-photoshop.inc' ?>
+        
             <h1 class="titel">Warped Text</h1>
         
             <div id="mitgrid-smooth">
@@ -44,20 +46,67 @@
                     </section>
                     
                     <section id="smooth-start">
+                        <p class="body-text">
+                            Jeg lavet denne øvelse på studiet med at lave noget dynamisk text design ved brug af Text tool arc, Layer mask og Gradients.
+                        </p>
                         <img src="design/photoshop/warped/warped-alternate-start.jpg" alt="screenshot af photoshop" id="smooth-start-img">
+                        <ol class="liste">
+                            <li>
+                                Jeg skriver noget tekst med text tool og bruger gradient med en pink og lilla farve på teksten.
+                            </li>
+                            <li>
+                                Jeg giver derefter bogstaverne en stærk skygge som giver bogstaverne et pink omrids.
+                            </li>
+                            <li>
+                                Jeg giver også en normal skygge og noget outerglow til at give det noget dybde og får det til at stå ud.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="smooth-options">
                         <img src="design/photoshop/warped/warped-alternate-2.jpg" alt="screenshot af photoshop" id="smooth-options-img">
+                        <ol class="liste">
+                            <li>
+                                For at bøje teksten bruger jeg text arc tool og giver den en arc som bøjer teksten.
+                            </li>
+                            <li>
+                                Nu giver jeg den en lilla baggrundsfrave.
+                            </li>
+                            <li>
+                                Så for lidt ekstra effekt giver jeg baggrunden en radial gradient med pink i bunden og i toppen.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="smooth-secondlast">
                         <img src="design/photoshop/warped/warped-alternate-3.jpg" alt="screenshot af photoshop" id="smooth-secondlast-img">
+                        <ol class="liste">
+                            <li>
+                                Nu laver jeg et rectangle med rectangle tool og give den en pink farve og giver den en lavere opaicity.
+                            </li>
+                            <li>
+                                Til sidst laver jeg en layermask og 
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="smooth-slut">
                         <img src="design/photoshop/warped/warped-alternate.jpg" alt="screenshot af photoshop" id="smooth-slut-img">
                     </section>
+                </section>
+                
+                <section class="kilder">
+                    <ul class="kildeliste">
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                        <li>
+                        
+                        </li>
+                    </ul>
                 </section>
             </div>
         

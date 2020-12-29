@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+            <?php include 'undermenu-illustrator' ?>
+        
             <h1 class="titel">Blend tool</h1>
         
             <div id="mitgrid-bendtool">
@@ -33,13 +35,30 @@
                     
                     <section id="blend-start">
                         <img src="design/illustrator/blendtool/blend-tool-flag-before.png" alt="screenshot af illustrator" id="blend-start-img">
+                        <p class="body-text">
+                            Dette er en øvelse hvor jeg skal bruge blend tool til at lave det europæriske flag med grønne og gule stjerne, hvor jeg skal blend stjernerne sammen med cirklen.
+                        </p>
                     </section>
                     
                     <section id="blend-options">
                         <img src="design/illustrator/blendtool/blendtool-steps.png" alt="screenshot af illustrator" id="blend-options-img">
+                        <ol class="liste">
+                            <li>
+                                Du selector de tre lag du gerne vil blend.
+                            </li>
+                            <li>
+                                Derefter går du op under "Object" og går under "Blend" og tryk på "Make" for at lave et blend layer.
+                            </li>
+                            <li>
+                                Til sidst dobbleklikker du på blend tool eller går under "Object" og under "Blend" og vælger options. Hvor du så vælge specified steps og skriver antallet af stjerner du vil have, som her er 12.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="blend-slut">
+                        <p class="body-text">
+                            Nu har man det europæriske flag med grønne og gule stjerner.
+                        </p>
                         <img src="design/illustrator/blendtool/blend-tool-flag-after.png" alt="screenshot af illustrator" id="blend-slut-img">
                     </section>
                 </section>
