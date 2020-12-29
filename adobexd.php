@@ -92,7 +92,14 @@
                         <img src="design/adobexd/desktopxd.png" alt="screenshot af adobe xd" id="adobexd-desktop-img">
                         <a href="https://xd.adobe.com/view/2bd275a6-3ab1-41d5-84c9-99c089de3a49-7e81/?fbclid=IwAR1KpjaeuzEBTsITpEZpnBMU6zMBE-s5iennhLQn20JHaQZ533X2SF7CYcA" target="_blank">Soft Bites desktop wireframe</a>
                     </section>
+                    
+                    <p class="body-text">
+                        Dette var min første oplevelse med wireframing af hi-fi wireframes og jeg lærte at teksterne og billederne med fordel skal være dem man faktisk vil bruge på siden. For hvis det ikke er det så kan man komme ud for problemer med at billeder ikke passer eller er for små. Eller at tekst er længere eller kortere end forventet.
+                    </p>
+                    
                 </section>
+                
+                    
                 
                 <section class="kilder">
                     <ul class="kildeliste">

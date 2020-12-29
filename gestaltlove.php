@@ -32,6 +32,9 @@
                             Figure-ground er loven som siger, at mennesket opfatter ting som værende i forgrunden eller baggrunden (Usertesting, 2019). Så at noget vil stik ud og kommer frem i forgrunden altså figure, og at noget vil trække sig tilbage og være i baggrunden altså ground (ibid).
                         </p>
                         <img src="design/gestaltlovene/figure-ground-soft-bites.jpg" id="figure-ground-img">
+                        <p class="body-text">
+                            I vores One page for Soft Bites bruger vi figure-ground hvor man kan se, at hunden står i forgrunden sammen med teksten og logoet til venstre, som derfor er figure. Det er grundet vores ground, som er billedet af Soft Bites posen, og de Soft Bites som bliver hældet ud. 
+                        </p>
                     </section>
                     
                     <section id="similarity">
@@ -40,6 +43,12 @@
                             Similarity er loven som siger, at ting ser ud til at være ens med hinanden, så er de i den samme gruppe, der er sammenhæng mellem dem (Usertesting, 2019).
                         </p>
                         <img src="design/gestaltlovene/india-air---Kopi.jpg" id="similarity-img">
+                        <p class="body-text">
+                            I denne wireframe af India Air som vi lavet var en af tingene vi fokuseret på similarity. Fordi vi kunne se på deres egen side at det var noget der mangles. Så vi lavede alle CTA-knappet den samme orange farve med stregen i midten, så de alle anses for at have samme funktion/formål. 
+                        </p>
+                        <p class="body-text">
+                            Det samme gjorde vi nederest på siden hvor de fire sektioner med billed og tekst ligner hinandnen så man vil anse dem som værende i samme gruppe af indhold.
+                        </p>
                     </section>
                     
                     <section id="proximity">
@@ -48,6 +57,9 @@
                             Proximity er loven som siger, at ting som har en kort afstand fra hinanden anses som værende i samme gruppe, altså at ting som står tæt har en relation til hinanden (Usertesting, 2019). Modsat ville en stor proximity anses som at to ting ikke har noget med hinanden at gøre (ibid).
                         </p>
                         <img src="design/gestaltlovene/india-air---Kopi.jpg" id="proximity-img">
+                        <p class="body-text">
+                            I India Air wireframen sørgeret vi får at bruge proximity for at henvise til hvad hørte sammen og ikke hørte sammen. For eksempel nede i bunden hvor de fire sektioner med billed, tekst og CTA-knap har samme proximity helevejen igennem og står tæt på hinanden, mens proximity mellem dem og de to billeder ovenfor er en lillesmulle større fordi de ikke skal ses som at være i den samme kategori.
+                        </p>
                     </section>
                     
                     <section id="commonregion">
@@ -56,6 +68,9 @@
                             Common region er loven som siger, at når objekter ligger i den samme lukkede områder/boks, så anses man dem for at have en vis relation med hinanden (Usertesting, 2019). De er i samme gruppe (ibid).
                         </p>
                         <img src="design/gestaltlovene/common-region-scootershop.jpg" id="common-region-img">
+                        <p class="body-text">
+                            Dette billed er fra min egen løbehjulsside jeg har lavet, hvor jeg brugte common region til at indikere hvilke dele hørte sammen ved at putte dem i deres egne kasser/områder. Derved vil man nemt kunne se hvilke dele er under samme Top 3 kategori og hvilke ikke høre under andre top 3 kategorier.
+                        </p>
                     </section>
                     
                     <section id="continuity">
@@ -64,6 +79,9 @@
                             Continuity er loven som siger, at når elementer er sat i den samme linje eller kurve så vil man se dem som være mere relative, end hvis de ikke er i samme linje eller kurve (Usertesting, 2019).
                         </p>
                         <img src="design/gestaltlovene/figure-ground-soft-bites.jpg" id="continuity-img">
+                        <p class="body-text">
+                            I vores one page projekt brugte vi continuity i det man ser soft bites falde ned, men man kan ikke se det hele hvilket gøre at folk ville følge den linje ned ad siden. 
+                        </p>
                     </section>
                     
                     <section id="closure">
@@ -72,6 +90,9 @@
                             Closure er loven som siger, at når mennesket kigger på en illustration som er meget kompleks, er vi tilbøjelige til at prøve at finde et enkelt genkendeligt mønster (Usertesting, 2019).
                         </p>
                         <img src="design/gestaltlovene/closure-logo3.jpg" id="closure-img">
+                        <p class="body-text">
+                            I mit portfolio logo har jeg brugt closure i det man, som udgangspunkt ikke ser et helt normalt skrevet "R" men to elementer som sammen skaber et "R". Det samme med "D'et" hvor man ser to elementer som skaber det indereste hul i "D'et" og man så kan forstille sig, at det er et "D".
+                        </p>
                     </section>
                     
                     <section id="focalpoint">

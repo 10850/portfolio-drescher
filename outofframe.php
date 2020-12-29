@@ -45,10 +45,39 @@
                     
                     <section id="outofframe-start">
                         <img src="design/photoshop/outofframe/wandtool-contract-inverse-layermask-before.jpg" alt="screenshot af photoshop" id="outofframe-start-img">
+                        <p class="body-text">
+                            Jeg startede med tre billeder og havde en ide om hvordan jeg ville have det til at se ud. Jeg søgte på youtube og fandt en video som gav mig det svar jeg ledte efter.
+                        </p>
+                        <ol class="liste">
+                            <li>
+                                Først laver jeg en layer mask på billedet på mit hoved. Så bruger jeg brush tool med en soft brush til at tegne billedet frem på mit hoved med lavere opacity så det ligner en fantasi.
+                            </li>
+                            <li>
+                                Derefter merger jeg alle layers bortset for puslespillet, hvor jeg så laver en selection på omridset af puslespillet og laver en kopi af billedet af mig så den tager form af omridset af puslespillet.
+                            </li>
+                            <li>
+                                Nu visker jeg baggrunden på puslespillet væk og bruger magic wand tool til at vælge alle stregerne i puslespillet og bruger inverse til at vælge resten af  billedet, som mit focal point og kopier laget med billedet af mig, som så gøre at det kun er det som er selected med inverse der kommer med og stregerne der er selected med magic wand tool kommer ikke med.
+                            </li>
+                        </ol>
+                        
                     </section>
                     
                     <section id="outofframe-options">
                         <img src="design/photoshop/outofframe/wandtool-contract-inverse-layermask-after2.jpg" alt="screenshot af photoshop" id="outofframe-options-img">
+                        <ol class="liste">
+                            <li>
+                                Efter puslespillet er lavet bruger jeg et nyt layer med sort baggrund til at laver stregerne til puslespillet. 
+                            </li>
+                            <li>
+                                Derefter laver jeg en layer maske hvor jeg putter puslespilsbilledet ind i thumbnailen. Hvor jeg bruger magic wand tool til at vælge et område i form af en puslespilsbrik, og går tilbage til lageret og tager en kopi af hele laget hvor kun  brikken som blev valgt af magic wand tool bliver kopieret.
+                            </li>
+                            <li>
+                                Så for at gør delen af billedet ,hvor jeg har taget brikken ud, transparent, så går jeg tilbage ind i thumbnailen af layermasken og bruger magic wand tool til at vælge den samme brik, laver en group til laget og laver en ny maske på gruppen som gør, at det område som var valgt med magic wand tool bliver usynligt.
+                            </li>
+                            <li>
+                                Efter det blev det sat sammen med andre billeder og skabte min out of frame plakat.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="outofframe-slut">

@@ -48,18 +48,48 @@
                     </section>
                     
                     <section id="lofi-india">
-                        <h2 class="overskrift">Proximity</h2>
-                        <p class="body-text">
+                        <h2 class="overskrift">Lo-fi</h2>
                             
                         <img src="design/wireframing/lofi-india.png" id="lofi-india-img">
+                            
+                        <ul class="liste">
+                            <li>
+                                Firkanter med et "X" betyder det er et billed.
+                            </li>
+                            <li>    
+                                horisontale streger betyder tekst.
+                            </li>
+                            <li>
+                                cirklerne og rektanglerne med en orange farve betyder CTA-knap.
+                            </li>
+                            <li>
+                                Tykke horisontale streger betyder det er en tekst med stor font-weight.
+                            </li>
+                            <li>
+                                Pile betyder det er en funktion som går en vis retning.
+                            </li>
+                        </ul>
                     </section>
                     
                     <section id="hifi-india">
-                        <h2 class="overskrift">Common region</h2>
-                        <p class="body-text">
-                            
-                        </p>
+                        <h2 class="overskrift">Hi-fi</h2>
+
                         <img src="design/wireframing/hifi-india.jpg" id="hifi-india-img">
+                        
+                        <ul class="liste">
+                            <li>
+                                Hi-fi wireframes vil normalt have færdiggjort tekst.
+                            </li>
+                            <li>
+                                Funktionalitet implementeret som en navigation.
+                            </li>
+                            <li>
+                                CTA-knapper.
+                            </li>
+                            <li>
+                                Færdiggjorte billeder sat ind som de ville på den endelige side.
+                            </li>
+                        </ul>
                     </section>
                 </section>
                 

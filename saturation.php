@@ -33,6 +33,10 @@
                                 Laver en placeholder frame for et billed. Det kan være firkantet eller en elipse.
                             </li>
                             <li>
+                                <h4 class="sub-skrift">Color range</h4>
+                                En funktion i photoshop som tager samples af farver fra en selection eller et helt billed.
+                            </li>
+                            <li>
                                 <h4 class="sub-skrift">Hue/Saturation</h4>
                                 Et adjustmens panel der giver mulighed for at justere et billeds Hue/saturation.
                             </li>
@@ -41,14 +45,33 @@
                     
                     <section id="saturation-start">
                         <img src="design/photoshop/saturation/summer.jpg" alt="screenshot af photoshop" id="saturation-start-img">
+                        <p class="body-text">Dette billed af et grønt landskab der ligner det er i forår/sommertiden skulle jeg lave om til et vinter landkskab. Det gjorde jeg ved brug af saturation.</p>
+                        <p class="body-text">
+                            Jeg startede med at bruge frame tool til at lave et område af billedet til en cirkel.
+                        </p>
                     </section>
                     
                     <section id="saturation-options">
                         <img src="design/photoshop/saturation/summercircle.png" alt="screenshot af photoshop" id="saturation-options-img">
+                        <ol class="liste">
+                            <li>
+                                Derefter selecter jeg laget og bruger color range til at vælge alt det grønne, som jeg gerne vil gøre hvidt. Her bruger jeg en fuziness på 22.
+                            </li>
+                            <li>
+                                Jeg giver min selection fra color range en solid color af hvid, og går under blending options til at ændre på "Blend if" for mit "underlying layer", så den hvide farve ikke dækker for meget på de mørke områder.
+                            </li>
+                            <li>
+                                Nu laver jeg et Hue/Saturation adjustment layer til at gøre resten af billedet mere hvidt og vinter agtigt. Det gør jeg ved at mindske saturationen og forstørre lightness.
+                            </li>
+                            <li>
+                                Igen bruger jeg så blending options og ændre på "Blen if" for mit "underlying layer" så de mørke område ikke blive for hvide og lyse.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="saturation-slut">
                         <img src="design/photoshop/saturation/winter.png" alt="screenshot af photoshop" id="saturation-slut-img">
+                        <p class="body-text">Og nu er det sommer landskabet blevet til et vinter landskab.</p>
                     </section>
                 </section>
                 

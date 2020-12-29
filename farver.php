@@ -324,30 +324,67 @@
                     
                     <figure id="mono-bus-fig">
                         <img src="design/farver/bus-blue-mono.jpg" id="mono-bus">
+                        <figcaption>
+                        <p class="body-text">
+                            Jeg så en blå bus og indså at dens blå farve er grundet at den skal ses som værende troværdigt og sikkert transport.
+                            Samt er den kun en farve fordi det er et enkelt emne/objekt man har fokus på.
+                        </p>
+                        </figcaption>
                     </figure>
                     
                     <figure id="green-mono-fig">
                         <img src="design/farver/green-mono.jpg" id="green-mono">
+                        <figcaption>
+                        <p class="body-text">
+                            Jeg blev mere bevidst om hvordan forretninger bruger farver på deres reklamer, som på denne Fakta reklame som har en monokrom farve harmoni fordi reklamen omhandler et emne. Og den bruger en grøn farve fordi det omhandler sundhed og grøntsager.
+                        </p>
+                        </figcaption>
                     </figure>
                     
                     <figure id="mono-tilbud-fig">
                         <img src="design/farver/gul-tilbud.jpg" id="mono-tilbud">
+                        <figcaption>
+                        <p class="body-text">
+                            Et andet eksempel er tilbud reklamer hvor Fakta igen bruger en monkrom farveharmoni fordi det omhandler et emne altså discount priser. Derfor bruger de så også den gule farve som vi i Danmark associere med tilbud og discount priser.
+                        </p>
+                        </figcaption>
                     </figure>
                     
                     <figure id="blad-analig-fig">
                         <img src="design/farver/blad-gultilred-analog.jpg" id="blad-analog">
+                        <figcaption>
+                        <p class="body-text">
+                            Jeg kiggede på bladenes farveskifte til efteråret og så at de havde en analog farveharmoni med rød, orange og gul idet den skifter farve til efteråret. Den orange farve associeres med eventyr og nye begyndelser, som passer godt til efteråret som er en årstid tæt på enden af året og begyndelsen på et nyt.
+                        </p>
+                        </figcaption>
                     </figure>
                     
                     <figure id="complementary-skilt-fig">
                         <img src="design/farver/complentary-vejskilt-red-blue.jpg" id="complementary-skilt">
+                        <figcaption>
+                        <p class="body-text">
+                            Jeg indså hvorfor nogle skilte har en blå og rød farve. Den bruger komplementær farveharmoni som er meget iøjenfaldene, som er vigtigt for et vejskilt og dens røde farve indikere fare, mens den blå farve indikere sikkerhed, altså det er for vores sikkerheds skyld.
+                        </p>
+                        </figcaption>
                     </figure>
                    
                     <figure id="tretiader-playtoy-fig">
                         <img src="design/farver/legetoj-triader-starkefarver.jpg" id="tretiader-playtoy">
+                        <figcaption>
+                        <p class="body-text">
+                            Jeg blev bevidst om at det er rigtigt at triader farveharmonier er brugt til fiktive ting eller legetøj da jeg så det here legetøj og forskellige legepladser, som alle havde triader farveharmonier og med meget lyse farver som er meget iøjenfaldende.
+                        </p>
+                        </figcaption>
                     </figure>
                     
                     <section id="opdage-farver-slut">
-                    
+                        <h2 class="overskrift">Større bevidsthed om farver</h2>
+                        <p class="body-text">
+                            Jeg kunne virkelig godt lide denne øvelse for det ændret faktisk hvor bevidst jeg var om farverne omkring mig og hvor stort et omfang de faktisk har betydning i verden ikke kun de menneskeskabte ting, som vi bevidst vælger farver til af hensigtsmæssige grunde, men også naturen og hvordan deres farver også hænger sammen med farveharmonierne og har en hensigtsmæssig betydning og ikke bare er random.
+                        </p>
+                        <p class="body-text">
+                            Faktisk går jeg stadig nogle gange rundt og se forskellige plakater osv. og hurtigt kommer i tanke om hvorfor de bruger de farver de bruger.
+                        </p>
                     </section>
                 </section>
                 
