@@ -2771,18 +2771,18 @@ video-php h1 {
     background: linear-gradient(180deg, #BD67FF, #9200F0) no-repeat;
 }
 
-.artboards-php .undermenu-mobil button,
-.blendtool-php .undermenu-mobil button,
-.captain-php .undermenu-mobil button,
-.directselection-php .undermenu-mobil button,
-.shapebuilder-php .undermenu-mobil button,
+.artboards-php .undermenu-mobil .btn,
+.blendtool-php .undermenu-mobil .btn,
+.captain-php .undermenu-mobil .btn,
+.directselection-php .undermenu-mobil .btn,
+.shapebuilder-php .undermenu-mobil .btn,
 .smokey-php .undermenu-mobil button,
 .smooth-php .undermenu-mobil button,
-.contentaware-php .undermenu-mobil button,
-.spothealing-php .undermenu-mobil button,
-.smartobject-php .undermenu-mobil button,
-.outofframe-php .undermenu-mobil button,
-.saturation-php .undermenu-mobil button { 
+.contentaware-php .undermenu-mobil .btn,
+.spothealing-php .undermenu-mobil .btn,
+.smartobject-php .undermenu-mobil .btn,
+.outofframe-php .undermenu-mobil .btn,
+.saturation-php .undermenu-mobil .btn { 
     background: linear-gradient(180deg, #BD67FF, #9200F0) no-repeat;
 }
 
@@ -2791,7 +2791,7 @@ video-php h1 {
 /* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
 .artboards-php h1 {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0.5em;
 }
 
 .artboards-php #artboard-intro {

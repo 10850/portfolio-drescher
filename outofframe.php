@@ -35,8 +35,8 @@
                                 Magic wand tool er ligsom quick selection tool bortset fra at den selecter ud fra farve sammenlignelighed.
                             </li>
                             <li>
-                                <h4 class="sub-skrift">Select  Inverse</h4>
-                                Select  Inverse gør at man kan vælge store dele af et lag som man ikke allerede har valgt. Det kan bruges til at fjerne eller ændre på baggrunden uden ens focal point på billedet ændres. 
+                                <h4 class="sub-skrift">Select &#8594; Inverse</h4>
+                                Select &#8594; Inverse gør at man kan vælge store dele af et lag som man ikke allerede har valgt. Det kan bruges til at fjerne eller ændre på baggrunden uden ens focal point på billedet ændres. 
                             </li>
                             <li>
                                 <h4 class="sub-skrift">Mask layer</h4>
