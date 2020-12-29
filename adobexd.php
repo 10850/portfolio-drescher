@@ -28,7 +28,7 @@
                 <section id="adobexd">
                     <section id="adobexd-intro">
                         <p class="body-text">
-                            Adobe XD er et program man bruger til at lave hi-fi wireframes/prototyper af websider og mobil apps. Dette er et værktøj jeg har brugt på studiet i for eksempel one page projektet til at lave en højst detaljeret prototype der lignede det endelige produkt vi lavet i sidste ende.
+                            Adobe XD er et program man bruger til at lave hi-fi wireframes/prototyper af websider og mobil apps (VALISHVILI, 2018). Dette er et værktøj jeg har brugt på studiet i for eksempel one page projektet til at lave en højst detaljeret prototype der lignede det endelige produkt vi lavet i sidste ende.
                         </p>
                         
                         <h3 class="underoverskrift">Adobe XD Tools</h3>
@@ -104,13 +104,9 @@
                 <section class="kilder">
                     <ul class="kildeliste">
                         <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
+                            VALISHVILI, L., 2018. Design with Precision – An Adobe XD Review. [Online] 
+                            Available at: <a href="https://www.toptal.com/designers/adobe/adobe-xd-review" target="_blank">https://www.toptal.com/designers/adobe/adobe-xd-review</a> 
+                            [Senest hentet eller vist den 22 december 2020].
                         </li>
                     </ul>
                 </section>

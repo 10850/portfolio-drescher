@@ -30,7 +30,7 @@
                         <ul class="liste">
                             <li>
                                 <h4 class="sub-skrift">Smart Object</h4>
-                                Smart Objects er lag, der indeholder billeddata fra raster- eller vektorbilleder, f.eks. Photoshop- eller Illustrator-filer. Smart Objects bevarer et billedes kildeindhold med alle dets oprindelige egenskaber, hvilket bevirker, at du kan foretage redigering af laget uden at slette noget. 
+                                Smart Objects er lag, der indeholder og bibeholder billedata som vector eller pixels når man redigere i det (PiximPerfect, 2018). Smart objects bliver brugt til non-destructive editing (PiximPerfect, 2018). 
                             </li>
                         </ul>
                     </section>
@@ -38,7 +38,7 @@
                     <section id="smartobject-start">
                         <img src="design/photoshop/smartobject/smart-object-mockups.jpg" alt="screenshot af photoshop" id="smartobject-start-img">
                         <p class="body-text">
-                            Jeg startede ud med dette billed af et tomt billboard og ville gerne sætte et billed op på det. Her fandt jeg ud af via youtube at smart objects er et fantastisk værktøj.
+                            Jeg startede ud med dette billed af et tomt billboard og ville gerne sætte et billed op på det. Her fandt jeg ud af via youtube: <a href="https://www.youtube.com/watch?v=3YkIzg2CUFQ&#38;t=1411s&#38;ab_channel=PiXimperfect" target="_blank">The COMPLETE Guide to Smart Objects in Photoshop</a>  at smart objects er et fantastisk værktøj.
                         </p>
                     </section>
                     
@@ -85,13 +85,9 @@
                 <section class="kilder">
                     <ul class="kildeliste">
                         <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
+                            PiximPerfect, 2018. The COMPLETE Guide to Smart Objects in Photoshop. [Online] 
+                            Available at: <a href="https://www.youtube.com/watch?v=3YkIzg2CUFQ&#38;t=1411s&#38;ab_channel=PiXimperfect" target="_blank">https://www.youtube.com/watch?v=3YkIzg2CUFQ&#38;t=1411s&#38;ab_channel=PiXimperfect</a> 
+                            [Senest hentet eller vist den 5 december 2020].
                         </li>
                     </ul>
                 </section>

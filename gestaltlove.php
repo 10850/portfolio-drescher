@@ -106,13 +106,9 @@
                 <section class="kilder">
                     <ul class="kildeliste">
                         <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
+                            Usertesting, 2019. Usertesting. 
+                            [Online] Available at: <a href="https://www.usertesting.com/blog/gestalt-principles" target="_blank">https://www.usertesting.com/blog/gestalt-principles</a>
+                            [Senest hentet eller vist den 20 december 2020].
                         </li>
                     </ul>
                 </section>

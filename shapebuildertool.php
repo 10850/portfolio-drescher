@@ -30,7 +30,7 @@
                         <ul class="liste">
                             <li>
                                 <h4 class="sub-skrift">Shape Builder Tool(Shift + M)</h4>
-                                Shape Builder tool er det værktøj som giver en mulighed for at lave specielle figur ud af simple figure/objekter der er sat sammen til at illustrere et specielt shape, ved at fjerne specifikke uønsket linjer/paths og derved gøre flere objekter til et objekt. 
+                                Shape Builder tool er det værktøj som giver en mulighed for at lave specielle figur ud af simple figure/objekter, der er sat sammen, ved at fjerne specifikke uønsket linjer/paths og derved gøre flere objekter til et objekt (Harmer, 2019).
                             </li>
                         </ul>
                     </section>
@@ -90,13 +90,9 @@
                 <section class="kilder">
                     <ul class="kildeliste">
                         <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
+                            Harmer, T., 2019. Linkedin Learning. [Online] 
+                            Available at: <a href="https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532" target="_blank">https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532</a>
+                            [Senest hentet eller vist den 18 december 2020].
                         </li>
                     </ul>
                 </section>

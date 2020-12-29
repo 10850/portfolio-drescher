@@ -46,7 +46,7 @@
                     <section id="outofframe-start">
                         <img src="design/photoshop/outofframe/wandtool-contract-inverse-layermask-before.jpg" alt="screenshot af photoshop" id="outofframe-start-img">
                         <p class="body-text">
-                            Jeg startede med tre billeder og havde en ide om hvordan jeg ville have det til at se ud. Jeg søgte på youtube og fandt en video som gav mig det svar jeg ledte efter.
+                            Jeg startede med tre billeder og havde en ide om hvordan jeg ville have det til at se ud. Jeg søgte på youtube og fandt en video som gav mig det svar jeg ledte efter: <a href="https://www.youtube.com/watch?v=7vsnPszln8A&#38;t=345s&#38;ab_channel=ShawnDolinski" target="_blank">Unfinished Jigsaw Puzzle Effect in Photoshop 2020</a>.
                         </p>
                         <ol class="liste">
                             <li>
@@ -88,13 +88,9 @@
                 <section class="kilder">
                     <ul class="kildeliste">
                         <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
+                            Dolinski, S., 2020. Unfinished Jigsaw Puzzle Effect in Photoshop 2020. [Online] 
+                            Available at: <a href="https://www.youtube.com/watch?v=7vsnPszln8A&#38;t=345s&#38;ab_channel=ShawnDolinski" target="_blank">https://www.youtube.com/watch?v=7vsnPszln8A&#38;t=345s&#38;ab_channel=ShawnDolinski</a>
+                            [Senest hentet eller vist den 24 december 2020].
                         </li>
                     </ul>
                 </section>

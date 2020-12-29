@@ -391,13 +391,13 @@
                 <section class="kilder">
                     <ul class="kildeliste">
                         <li>
-                        
+                            Guru, B., 2014. Youtube. [Online] 
+                            Available at: <a href="https://www.youtube.com/watch?v=Qj1FK8n7WgY&#38;ab_channel=BlenderGuru" target="_blank">https://www.youtube.com/watch?v=Qj1FK8n7WgY&#38;ab_channel=BlenderGuru</a> 
+                            [Senest hentet eller vist den 20 december 2020].
+
                         </li>
                         <li>
-                        
-                        </li>
-                        <li>
-                        
+                            Rold, M., 2019. Farver. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 173-189.
                         </li>
                     </ul>
                 </section>

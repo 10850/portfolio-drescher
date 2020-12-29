@@ -215,13 +215,13 @@
                 <section class="kilder">
                     <ul class="kildeliste">
                         <li>
-                        
+                            Rold, M., 2019. Typografi. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 161-172.
                         </li>
                         <li>
-                        
-                        </li>
-                        <li>
-                        
+                            Strizver, I., u.d. Fonts.com. [Online] 
+                            Available at: <a href="https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/anatomy" target="_blank">https://www.fonts.com/content/learning/fontology/level-1/type-anatomy/anatomy</a> 
+                            [Senest hentet eller vist den 20 december 2020].
+
                         </li>
                     </ul>
                 </section>

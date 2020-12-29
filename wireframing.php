@@ -54,19 +54,19 @@
                             
                         <ul class="liste">
                             <li>
-                                Firkanter med et "X" betyder det er et billed.
+                                Firkanter med et "X" betyder det er et billed (Rold, 2019).
                             </li>
                             <li>    
-                                horisontale streger betyder tekst.
+                                horisontale streger betyder tekst (ibid).
                             </li>
                             <li>
-                                cirklerne og rektanglerne med en orange farve betyder CTA-knap.
+                                cirklerne og rektanglerne med en orange farve betyder CTA-knap (ibid).
                             </li>
                             <li>
-                                Tykke horisontale streger betyder det er en tekst med stor font-weight.
+                                Tykke horisontale streger betyder det er en tekst med stor font-weight (ibid).
                             </li>
                             <li>
-                                Pile betyder det er en funktion som går en vis retning.
+                                Pile betyder det er en funktion som går en vis retning (ibid).
                             </li>
                         </ul>
                     </section>
@@ -78,16 +78,16 @@
                         
                         <ul class="liste">
                             <li>
-                                Hi-fi wireframes vil normalt have færdiggjort tekst.
+                                Hi-fi wireframes vil normalt have færdiggjort tekst (Rold, 2019).
                             </li>
                             <li>
-                                Funktionalitet implementeret som en navigation.
+                                Funktionalitet implementeret som en navigation (ibid).
                             </li>
                             <li>
-                                CTA-knapper.
+                                CTA-knapper (ibid).
                             </li>
                             <li>
-                                Færdiggjorte billeder sat ind som de ville på den endelige side.
+                                Færdiggjorte billeder sat ind som de ville på den endelige side (ibid).
                             </li>
                         </ul>
                     </section>
@@ -96,13 +96,7 @@
                 <section class="kilder">
                     <ul class="kildeliste">
                         <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
+                            Rold, M., 2019. Output: wireframes. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 141-146.
                         </li>
                     </ul>
                 </section>
