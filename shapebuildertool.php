@@ -36,17 +36,53 @@
                     </section>
                     
                     <section id="shape-start">
+                        <p class="body-text">
+                            I en opgave hvor jeg skulle lave 5 ikoner lavet jeg denne ilustration af et millenium puzzle fra et show kaldt Yu-Gi-Oh, for at udfordre mig selv med noget der ude fra kan virke ret kompleks.
+                        </p>
                         <img src="design/illustrator/shapebuilder/yugiohstarter-03.png" alt="screenshot af illustrator" id="shape-start-img">
+                        <ol class="liste">
+                            <li>
+                                Først lavet jeg den stor trekant som er basen for figuren.
+                            </li>
+                            <li>
+                                Derefter lavet jeg to cirkler op på toppen af trekanten som er dens handle.
+                            </li>
+                            <li>
+                                Så laver jeg den lille trekant i bunden og bruger to rektangler til at lave de to hjørner oppe til venstre og højre.
+                            </li>
+                            <li>
+                                Til sidste kom jeg til centeren hvor jeg brugte to trekanter der står modsat hinanden og to regtangler i midten af de to.
+                            </li>
+                            <li>
+                                Nu når det hele er sat op brugte jeg shape builder tool på forskellige layers som jeg selector til at fjerne unødige linjer.
+                            </li>
+                            <li>
+                                Øjet blev tegnet op med pen tool fordi jeg ikke vidste at jeg kunne bruge direct selection tool med pen tool til at lave det.
+                            </li>
+                        </ol>
+                        
+                        <p class="body-text">
+                            Det var ikke være eneste lille detalje, men det er hovedsageligt hvad jeg gjorde til at lave hele figuren og jeg var overrasket over at noget som så så kompleks ud kunne laves ud af cirkler, trekanter og firkanter.
+                        </p>
                     </section>
                     
                     <section id="shape-slut">
+                        <p class="body-text">
+                            Til sidst brugte jeg gradient til at lave guld farven på figuren, ved brug af forskellige gule og brune farver.
+                        </p>
                         <img src="design/illustrator/shapebuilder/yu-gi-oh-03.png" alt="screenshot af illustrator" id="shape-slut-img">
                     </section>
                     
                     <section id="shape-start2">
+                        <h3 class="underoverskrift">
+                            Her er to andre eksempler på ikoner jeg lavet i min opgave ved brug af shape builder tool.
+                        </h3>
+                        
+                        <h4 class="sub-skrift">Mit løbehjul</h4>
                         <img src="design/illustrator/shapebuilder/scooter-04.png" alt="screenshot af illustrator" id="shape-start2-img">
                     </section>
                     <section id="shape-slut2">
+                        <h4 class="sub-skrift">Dragon Ball</h4>
                         <img src="design/illustrator/shapebuilder/dragonball-01.png" alt="screenshot af illustrator" id="shape-slut2-img">
                     </section>
                 </section>

@@ -44,14 +44,52 @@
                     </section>
                     
                     <section id="cap-start">
+                        <p class="body-text">
+                            Her er et eksempel på hvordan man kan bruge elipse tool, star tool og gradients til at lave Captain Americas skjold.
+                        </p>
                         <img src="design/illustrator/captaina/captain-start.png" alt="screenshot af illustrator" id="cap-start-img">
+                        <ol class="liste">
+                            <li>
+                                Først skal skjoldet tegnes op. Hvor vi tager fat i Elipse tool (L) og tegner 1 lille cirkel.
+                            </li>
+                            <li>
+                                Derefter bruger man Copy paste til at kopier den 4 gange og gøre dem større med free transform (CRTL + t).
+                            </li>
+                            <li>
+                                Til sidst tager man fat i star tool i værktøjspanelet, og tegner en stjerne i den mindste cirkel i centrum.
+                            </li>
+                        </ol>
+                        
+                        <p class="body-text">
+                            Nu skal der farve på.
+                        </p>
                     </section>
                     
                     <section id="cap-options">
                         <img src="design/illustrator/captaina/gradient-options.png" alt="screenshot af illustrator" id="cap-options-img">
+                        <ol class="liste">
+                            <li>
+                                Du selector den sidste og den anden cirkel som skal farves røde og går under properties og trykker på fill.
+                            </li>
+                            <li>
+                                Der vil være en mulighed oppe i højre hjørne som giver mulighed for at lave gradients.
+                            </li>
+                            <li>
+                                Så bruger du en rød og en sort farve og vælger hvor meget hver farve fylder i din gradient.
+                            </li>
+                            <li>
+                                Det samme gøres for den anden sidste cirkel og stjernen i midten, men med en hvid og sort farve.
+                            </li>
+                            <li>
+                                Og til sidste tager man centrum og giver den en gradient med en blå og sort farve.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="cap-slut">
+                        <p class="body-text">
+                            Nu har vi en fed illustration af Captain America's skjold.
+                        </p>
                         <img src="design/illustrator/captaina/Captain-america-circle-tool-star-tool-gradient.png" alt="screenshot af illustrator" id="cap-slut-img">
                     </section>
                 </section>

@@ -44,14 +44,63 @@
                     </section>
                     
                     <section id="smokey-start">
+                        <p class="body-text">
+                            Dette er den første øvelse jeg havde på studiet hvor jeg brugte Marquee tool, Gradients og Text tool til at lave en bjørn jeg kaldte "Smokey the Bear".
+                        </p>
                         <img src="design/photoshop/smokey-before.jpg" alt="screenshot af photoshop" id="smokey-start-img">
+                        <ol class="liste">
+                            <li>
+                                Det første jeg gør er at lave alle delene til bjørnen med marquee tool.
+                            </li>
+                            <li>
+                                Jeg laver hovedet med elipse marquee tool, hvor jeg laver en cirkel og bruger CRTL + Shift + Backspace til at farve den og derefter CRTL + J til at lave en kopi af den selection som sit eget layer.
+                            </li>
+                            <li>
+                                Det samme gøres for ørene hvor jeg laver en cirkel med marquee tool, farver den, og kopier den tre gange og lavet to stor og to små cirkler som udgøre ørene.
+                            </li>
+                            <li>
+                                Derefter lavede jeg elipsen til munden, til næsen og til munden med marquee tool, fyldte det ind og brugte CRTL + J til hver af dem.
+                            </li>
+                            <li>
+                                Når jeg laver øjenen lavet jeg den første ydre elipse og når jeg så laver pupillerne med en sort farve og bruger marquee tool til at cutte en lille halvcirkel ud af pupillerne.
+                            </li>
+                            <li>
+                                Den samme process blev brugt med pupillerne gjorde jeg med øjenbrynene, hvor jeg lavet en sort cirkel med marquee tool og brugte marquee tool til at cutte en stor del af cirklen ud i form af et øjenbryn og kopieret den så jeg har to øjenbryn
+                            </li>
+                        </ol>
+                        <p class="body-text">
+                            Jeg vidste godt man kunne lave selection, kopier og cutte dem ud med marquee tool fra tidligere brug photoshop, men jeg vidste ikke man kunne fylde dem ind og lave illustrationer med marquee tool.
+                        </p>
                     </section>
                     
                     <section id="smokey-options">
                         <img src="design/photoshop/smokey-no-color.png" alt="screenshot af photoshop" id="smokey-options-img">
+                        <ol class="liste">
+                            <li>
+                                Efter alle delene er lavet, sætter jeg dem sammen til et bjørnefjæs
+                            </li>
+                            <li>
+                                Herefter bruger jeg text tool til at give den et navn, "Smokey the Bear".
+                            </li>
+                            <li>
+                                Nu kommer jeg til at farve bjørnen og her bruger jeg gradients.
+                            </li>
+                            <li>
+                                Jeg laver en gradient med en brun og mørkebrun til fjæset og ydreside af ørene.
+                            </li>
+                            <li>
+                                Så laver jeg en gradient med en brun og lysebrun farve til indeside af ørene og munden.
+                            </li>
+                            <li>
+                                Til sidst laver jeg en gradient med pink og lyserød til snuden.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="smokey-slut">
+                        <h4 class="sub-skrift">
+                            Sig hej til Smokey the Bear.
+                        </h4>
                         <img src="design/photoshop/smokey-done.png" alt="screenshot af photoshop" id="smokey-slut-img">
                     </section>
                 </section>

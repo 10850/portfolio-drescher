@@ -40,7 +40,18 @@
                     </section>
                     
                     <section id="direct-select-start">
+                        <p class="body-text">
+                            Ved at lege rundt med direct selection tool og pen tool til at lave mærklige shapes fik jeg lavede denne guitar.
+                        </p>
                         <img src="design/illustrator/direct-select/direct-selection-and-pen-tool.png" alt="screenshot af illustrator" id="direct-select-start-img">
+                        <ol class="liste">
+                            <li>
+                                Man bruger pen tool til at lave flere anchor points så man har flere punkter man kan trække i med direct selection tool.
+                            </li>
+                            <li>
+                                Derefter tager man direct selection tool og begynder at tage fat i de forskellige anchor points og trækker i dem for at bøje linjerne på forskellige måder, indtil man har formen af bunden af en guitar.
+                            </li>
+                        </ol>
                     </section>
                 </section>
                 

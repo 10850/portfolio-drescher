@@ -36,7 +36,21 @@
                     </section>
                     
                     <section id="spothealing-start">
+                        <ol class="liste">
+                            <li>
+                                Jeg tager fat i spot healing brush tool.
+                            </li>
+                            <li>
+                                Så tegner jeg på billedet med små stokes som jeg ville med en normal brush og photoshop tager pletter og rynker væk fra personens fjæs.
+                            </li>
+                        </ol>
                         <img src="design/photoshop/SPOTHEALING/spot_healing_brush-beforeafter.jpg" alt="screenshot af photoshop" id="spothealing-start-img">
+                        <p class="body-text">
+                            Nu er damen blevet en del år yngre. Vel... halvdelen af hende
+                        </p>
+                        <p class="body-text">
+                            Jeg har altid vidst at photoshop havde en funktion som kunne gøre det her, men havde aldrig brugt det og nu når jeg kan se det på arbejde i førstehånd, må jeg sige at jeg er overrasket over hvor godt det virker mht. hvor simpelt værktøjet egentligt er.
+                        </p>
                     </section>
                 </section>
                 

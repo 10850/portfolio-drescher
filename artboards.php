@@ -35,14 +35,28 @@
                     
                     <section id="artboard-start">
                         <img src="design/illustrator/artboardsogworkspace/artboard-start.png" alt="screenshot af illustrator" id="artboard-start-img">
+                        <p class="body-text">
+                            På studiet havde vi øvelse i hvordan man kan lave flere artboards i en fil så man kan arbejde på flere projekter på en gang. Vi startede med kun 1 artboard og skulle lave 7 artboards mere ved brug af artboard tool.
+                        </p>
                     </section>
                     
                     <section id="artboard-options">
                         <img src="design/illustrator/artboardsogworkspace/artboard-options.png" alt="screenshot af illustrator" id="artboard-options-img">
+                        <ol class="liste">
+                            <li>
+                                Man trykker på artboard tool ude på værktøjspanelet i venstre side.
+                            </li>
+                            <li>
+                                Der vil komme et artboard tool panel op i property panellet, hvor du trykker på + knappen hvor du kan vælge hvor mange flere artboards du vil lave og hvilken størrelse de skal være.
+                            </li>
+                        </ol>
                     </section>
                     
                     <section id="artboard-slut">
                         <img src="design/illustrator/artboardsogworkspace/artboard-start.png" alt="screenshot af illustrator" id="artboard-slut-img">
+                        <p class="body-text">
+                            Nu har man 8 artboards hvor man kan arbejde på flere projekter det samme sted eller lave forskellige versioner af samme ide.
+                        </p>
                     </section>
                 </section>
                 
@@ -82,11 +96,29 @@
                     
                     <section id="workspace-change">
                         <section id="workspace-start">
+                            <h2 class="overskrift">Customized workspace</h2>
+                            <p class="body-text">På illustrator kan du ændre på de forskellige panellers position i programmet og lave dit eget personlige workspace.</p>
                             <img src="design/illustrator/artboardsogworkspace/workspace-start.png" alt="screenshot af illustrator" id="workspace-start-img">
+                            <ol class="liste">
+                                <li>
+                                    Hvis du går op i højre hjørne kan du se en dropdown hvor der står essentials. Det er illustrators workspace.
+                                </li>
+                                <li>
+                                    Under den dropdown er der en funktion som hedder "New workspace", som giver mulighed for at gemme dit eget workspace.
+                                </li>
+                            </ol>
                         </section>
                         
                         <section id="workspace-slut">
                             <img src="design/illustrator/artboardsogworkspace/workspace-slut.png" alt="screenshot af illustrator" id="workspace-slut-img">
+                            <ol class="liste">
+                                <li>
+                                    Du rykker rundt på de forskellige paneller ved at trykke og holde nede på panellerne og trækker dem rundt.
+                                </li>
+                                <li>
+                                    Når du er tilfreds med dit workspace, går du op og trykker på "New workspace" i dropdownen og gemmer dit workspace under et vis navn.
+                                </li>
+                            </ol>
                         </section>
                     </section>
                 </section>
