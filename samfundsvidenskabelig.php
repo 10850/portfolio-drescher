@@ -18,7 +18,180 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="samfundsvidenskablig-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+        <h1 class="titel">Samfundsvidenskablige paradigme</h1>
+        
+        <div id="mitgrid-samfundsvidenskabelig">
+            
+            <section id="hvad-er-samfundsvidenskablig">
+                <h2 class="overskrift">Karakteristika</h2>
+                <p class="body-text">
+                    Samfundsvidenskabelige paradigme er det andet stor paradigme man arbejder med som er karakteriseret som værende:
+                </p>
+                <ul class="liste">
+                    <li>
+                        Objektivitet (Busch, 2015).
+                    </li>
+                    <li>
+                        Forklaring (ibid).
+                    </li>
+                    <li>
+                        Kvantitativ (ibid).
+                    </li>
+                    <li>
+                        Stabilt verdensbillede (ibid).
+                    </li>
+                    <li>
+                        Afsenderorienteret (ibid).
+                    </li>
+                    <li>
+                        Transmission i fokus (ibid).
+                    </li>
+                    <li>
+                        Handlingsanvisende (ibid).
+                    </li>
+                    <li>
+                        Modtageren ses som passiv (ibid).
+                    </li>
+                </ul>
+            </section>
+            
+            <section id="kanyle-modellen">
+                <section id="kanyle-intro">
+                    <h2 class="overskrift">Kanyleteorien</h2>
+                    <p class="body-text">
+                        Lasswell siger metaforisk at man kan sprøjte ideer, tanker og holdninger ind i modtagerne via propaganda (Busch, 2015). Det vil sige at medierne vi ser til dagligt, kan påvirke vores adfærd og tænkning, så hvis man altid ser grove og voldelig film, vil man, ifølge kanyleteorien, så ville volden i samfundet stige (ibid).
+                    </p>
+                </section>
+                
+                <section id="lasswell-formel">
+                    <section id="lasswell-intro">
+                        <h3 class="underoverskrift">
+                            Laswells formel 
+                        </h3>
+                        <p class="body-text">
+                            En bekvem måde at beskrive en kommunikationshandling på er at besvare følgende spørgsmål (Busch, 2015):
+                        </p>
+                    </section>
+                    
+                    <img src="kommunikation/Paradigmer/lasswell.png" alt="lasswells formel" id="lasswell-formel-img">
+                    
+                    
+                    <p class="body-text">
+                        Dette er en klassisk funktionalistisk struktur model, som sætter betydning på valg af medie (Busch, 2015). Der er stadig fokus på afsenderen selvom han har øjne for modtageren (ibid). Det fordi afsenderens interesse for modtageren begrænses dog til konstatering af, at modtageren skal udpeges, og at effekten skal registreres (ibid).
+                    </p>
+                </section>
+            </section>
+            
+            <section id="sr-sor-model">
+                    <section id="sr-model">
+                        <section id="sr-intro">
+                            <h3 class="underoverskrift">
+                                S-R
+                            </h3>
+                            <p class="body-text">
+                                S-R modellen følger kanyleteorien med at man kan påvirker modtagerne med et budskab (Busch, 2015).
+                            </p>
+                        </section>
+                        
+                        <img src="kommunikation/Paradigmer/s-r.png" alt="s-r modellen" id="s-r-img">
+                        
+                        <ul class="liste">
+                            <li>
+                                S: Stimulis fra det budskab som afsenderen udtrykker (ibid).
+                            </li>
+                            <li>
+                                R: Respons fra modtagerne, jo kraftigere budskab desto kraftigere respons (ibid).
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section id="sor-model">
+                        <section id="sor-intro">
+                            <h3 class="underoverskrift">
+                                S-O-R
+                            </h3>
+                            <p class="body-text">
+                                S-O-R modellen medtænker, at kommunikation kanaliseres gennem en organisme og altså ikke overføres direkte (ibid). Mennesker ses derved ikke som værende ens og vil derfor have forskellige respons (ibid).
+                            </p>
+                        </section>
+                        
+                        <img src="kommunikation/Paradigmer/s-o-r.png" alt="s-o-r modellen" id="s-o-r-img">
+                        
+                        <ul class="liste">
+                            <li>
+                                S: Stimulis fra det budskab som afsenderen udtrykker (Busch, 2015).
+                            </li>
+                            <li>
+                                O: Organisme hvor budskabet kanaliseres (ibid). 
+                            </li>
+                            <li>
+                                R: Respons fra modtagerne, jo kraftigere budskab desto kraftigere respons (ibid).
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            
+            
+            
+            <section id="kortlers-modellen">
+                <section id="kortlers-intro">
+                    <h2 class="overskrift">Kotlers model for markedskommunikation</h2>
+                    <p class="body-text">
+                        Også kaldet den udvidede kommunikationsmodel (Busch, 2015). Viser den cyklus en kommunikationssituation går igennem (ibid). Støj er alt det distraherende der kan ske i en kommunikationssituation, og skal tages højde for gennem hele processen (ibid).
+                    </p>
+                </section>
+                
+                <img src="kommunikation/Paradigmer/kotlers-model.png" alt="kortlers markedskommunikation model" id="kortlers-model-img">
+                
+                <section id="thorlacius-elementer">
+                    <h3 class="underoverskrift">
+                        Modellens elementer:
+                    </h3>
+                    <ul class="liste">
+                        <li>
+                            <strong>Afsender:</strong> Senderen af budskabet (ibid).
+                        </li>
+                        <li>
+                            <strong>Indkodning:</strong> Illustrationen som er kodet på en bestemt måde (ibid).
+                        </li>
+                        <li>
+                            <strong>Budskab:</strong> Selve budskabet af illustrationen som modtageren skal give respons til (ibid).
+                        </li>
+                        <li>
+                            <strong>Afkodning:</strong> Modtagerens aktivitet som er at afkode budskabet fra afsenderen (ibid).
+                        </li>
+                        <li>
+                            <strong>Modtager:</strong> Dem som skal se budskabet og give respons (ibid).
+                        </li>
+                        <li>
+                            <strong>Feedback:</strong> Modtagernes feedback til afsenderen som kan være alt fra øget varesalg til en ændret holdning til økologi (ibid).
+                        </li>
+                        <li>
+                            <strong>Støj:</strong> Ses som alt der påvirker omgivelserne af en kommunikation. Det kan være støj på telefonlinjen, eller forståelsesmæssige problemer (ibid).
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            
+            
+            <section class="kilder">
+                <h2 class="overskrift">Kilder</h2>
+                <ul class="kildeliste">
+                    <li>
+                        Busch, M. A., 2015. Det samfundsvidenskablige paradigme. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 76-77.
+                    </li>
+                    <li>
+                        Busch, M. A., 2015. Transmissionsmodeller. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 78-82.
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

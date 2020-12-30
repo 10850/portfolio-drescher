@@ -18,7 +18,183 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="tekstproduktion-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+        <h1 class="titel">Tekstproduktion</h1>
+        
+        <div id="mitgrid-tekstproduktion">
+            
+            <section id="nyhedsartikel">
+                <section id="nyhedskritier">
+                    <h2 class="overksrift">
+                    
+                    </h2>
+                    
+                    <ol class="liste">
+                       
+                    </ol>
+                </section>
+                
+                <section id="nyhedstrekant">
+                    <h2 class="overksrift">
+                    
+                    </h2>
+                    <p class="body-text">
+                    
+                    </p>
+                    
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <ul class="liste">
+                    
+                    </ul>
+                    
+                    
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <ul class="liste">
+                    
+                    </ul>
+                    
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <p class="body-text">
+                    
+                    </p>
+                    <ul class="liste">
+                    
+                    
+                    </ul>
+                </section>
+                
+                <section id="proces-scanning">
+                    <h2 class="overksrift">
+                    
+                    </h2>
+                    <p class="body-text">
+                    
+                    </p>
+                    <ul class="liste">
+                    
+                    </ul>
+                    
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <p class="body-text">
+                    
+                    </p>
+                    
+                    
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <p class="body-text">
+                    
+                    </p>
+                </section>
+            </section>
+            
+            <section id="webtekst">
+                <section id="webtekst-intro">
+                    <h2 class="overksrift">
+                    
+                    </h2>
+                </section>
+                
+                <section id="karateristika-bruger">
+                    <h2 class="overksrift">
+                    
+                    </h2>
+                </section>
+            </section>
+            
+            <section id="hey-you-see-so">
+                <h2 class="overksrift">
+                    
+                </h2>
+                
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <p class="body-text">
+                    
+                    </p>
+                    
+                    
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <p class="body-text">
+                    
+                    </p>
+                
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <p class="body-text">
+                    
+                    </p>
+                    
+                    
+                    <h4 class="sub-skrift">
+                    
+                    </h4>
+                    <p class="body-text">
+                    
+                    </p>
+            </section>
+            
+            <section id="skive-princip">
+                <section id="klarhed">
+                    <h2 class="overksrift">
+                    
+                    </h2>
+                    
+                    <ul class="liste">
+                    
+                    </ul>
+                </section>
+                
+                <section id="7-geniale">
+                    <h2 class="overksrift">
+                    
+                    </h2>
+                    <ol class="liste">
+                    
+                    </ol>
+                </section>
+            </section>
+            
+            <section id="refleksion-tekstproduktion">
+            
+            
+            </section>
+            
+             <section class="kilder">
+                <h2 class="overskrift">Kilder</h2>
+                <ul class="kildeliste">
+                    <li>
+                        Busch, M. A. &#38; Engelby, D., 2015. Tekstproduktion. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 235-252.
+                    </li>
+                    <li>
+                        Friis, N., 2019. Sprog og formidling. I: Kommunikation Online. s.l.:Hans Reitzel Forlag, pp. 186-221.
+                    </li>
+                    <li>
+                        Schmith, W. K. M., 2020. Tekstproduktion. [Online] 
+                        Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a>
+                        [Senest hentet eller vist den 15 december 2020].
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

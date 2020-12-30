@@ -18,7 +18,152 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body class="bmc-php">
-
+        <header>
+            <?php include 'menu.inc' ?>
+        </header>
+        
+        <h1 class="titel">Business Moel Canvas</h1>
+        
+        <div id="mitgrid-bmc">
+            
+            <section id="bmc-intro">
+                <h2 class="overksrift">
+                    BMC
+                </h2>
+                <p class="body-text">
+                    Business Model Canvas også kaldt BMC er et strategisk ledelsesværktøj, som beskriver rationelt bag, hvordan en organistion skaber, leverer og fastholder værdi (Osterwalder &#38; Pigneur, 2013). Den kan anvendes til:
+                </p>
+                <ol class="liste">
+                    <li>
+                        Den strategiske analyse (ibid).
+                    </li>
+                    <li>
+                        Stratgisk planlægning (ibid).
+                    </li>
+                    <li>
+                        Udvikling af virksomhedens forretningsmodel (ibid).
+                    </li>
+                </ol>
+                <p class="body-text">
+                    I BMC skal man kigge på 9 forskellige punkter i modellen, som skal analyseres, vurderes og defineres (Osterwalder & Pigneur, 2013):
+                </p>
+            </section>
+            
+            <section id="bmc-9sten">
+                <section id="valueproperty">
+                    <h3 class="underoverskrift">
+                        Værditilbud 
+                    </h3>
+                    <p class="body-text">
+                        Værditilbud definerer den samling produkter og ydelser, som skaber værdi for et bestemt kundesegment (ibid).
+                    </p>
+                </section>
+                
+                <section id="kundesegmenter">
+                    <h3 class="underoverskrift">
+                        Kundesegmenter
+                    </h3>
+                    <p class="body-text">
+                        Kundesegmenter definerer de forskellige grupper af mennesker eller organisationer, som en virksomhed sigter efter at nå ud til og betjene (ibid).
+                    </p>
+                </section>
+                
+                <section id="kunderelationer">
+                    <h3 class="underoverskrift">
+                        Kunderelationer 
+                    </h3>
+                    <p class="body-text">
+                        Kunderelationer beskriver, hvilke typer relationer en virksomhed etablerer til specifikke kundesegmenter (ibid).
+                    </p>
+                </section>
+                
+                <section id="kanaler">
+                    <h3 class="underoverskrift">
+                        Kanaler
+                    </h3>
+                    <p class="body-text">
+                        Kanaler beskriver hvordan en virksomhed kommunikerer med og når ud til sine kundesegmenter for at levere et værditilbud (ibid).
+                    </p>
+                </section>
+                
+                <section id="keyactivity">
+                    <h3 class="underoverskrift">
+                        Nøgleaktiviteter 
+                    </h3>
+                    <p class="body-text">
+                        Nøgleaktiviteter beskriver de vigtigste ting, en virksomhed skal gøre for at få sin forretningsmodel til at fungere (ibid).
+                    </p>
+                </section>
+                
+                <section id="keyresource">
+                    <h3 class="underoverskrift">
+                        Nøgleressourcer 
+                    </h3>
+                    <p class="body-text">
+                        Nøgleressourcer beskriver de vigtigste aktiver, der er nødvendige for at få en forretningsmodel til at virke (ibid).
+                    </p>
+                </section>
+                
+                <section id="partnere">
+                    <h3 class="underoverskrift">
+                        Partnere 
+                    </h3>
+                    <p class="body-text">
+                        Partnere beskriver det netværk af leverandører og partnere, der får forretningsmodellen til at fungere (ibid).
+                    </p>
+                </section>
+                
+                <section id="omkostninger">
+                    <h3 class="underoverskrift">
+                        Omkostninger
+                    </h3>
+                    <p class="body-text">
+                        Omkostninger betegner alle de omkostninger, der er forbundet med at drive en forretningsmodel (ibid).
+                    </p>
+                </section>
+                
+                <section id="profit">
+                    <h3 class="underoverskrift">
+                        Indtægter
+                    </h3>
+                    <p class="body-text">
+                        Indtægter repræsenterer de penge, en virksomhed genererer fra hvert kundesegment (ibid).
+                    </p>
+                </section>
+            </section>
+            
+            <section id="bmc-eksempel">
+                <h3 class="underoverskrift">
+                    BMC på MC Donalds
+                </h3>
+                
+                <p class="body-text">
+                    Vi har på klassen lavet en BMC på MC Donalds hvor vi i grupper selv lavede en BMC og samlede alle vores forskellige svar sammen i en BMC.
+                </p>
+                
+                <img src="kommunikation/BMC/123638780_706984926593367_2432848405738236827_n.jpg" alt="BMC af MC Donalds i gruppen" id="bmc-eksempel-img1">
+                
+                <img src="kommunikation/BMC/123518965_3672897906106536_1703884817540383381_n.jpg" alt="BMC af MC Donalds med klassen" id="bmc-eksempel-img2">
+                
+                <p class="body-text">
+                    De her principper var lidt af en revolution for mig for jeg har altid været den person som har store overskrifter med hvid baggrund og ingen kontraster. Da jeg fik lavet mit eget PowerPoint ud fra de principper, kunne jeg nemt se hvor meget bedre det var for en præsentation. Og det blev endnu mere klart når jeg selv fremlagde med det og så andre fremlægger med PowerPoints der fulgte principperne. Det var meget nemmere at holde koncentrationen når jeg så andre fremlægge og jeg kunne se at folk som jeg fremlagde for, var mere opmærksomme på mig, end de plejer at være når jeg fremlægger.
+                </p>
+            </section>
+            
+            <section class="kilder">
+                <h2 class="overskrift">Kilder</h2>
+                <ul class="kildeliste">
+                    <li>
+                        Osterwalder, A. &#38; Pigneur, Y., 2013. De 9 byggesten. I: Businesss Model Generation. s.l.:Gyldendal Business, pp. 22-47.
+                    </li>
+                    <li>
+                        Osterwalder, A. &#38; Pigneur, Y., 2013. Definition af en forretningsmodel. I: Businesss Model Generation. s.l.:Gyldendal Business, pp. 20-22.
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+        <?php include 'footer.inc' ?> <!-- footer -->
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
