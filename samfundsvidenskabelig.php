@@ -147,7 +147,7 @@
                 
                 <img src="kommunikation/Paradigmer/kotlers-model.png" alt="kortlers markedskommunikation model" id="kortlers-model-img">
                 
-                <section id="thorlacius-elementer">
+                <section id="kotlers-elementer">
                     <h3 class="underoverskrift">
                         Modellens elementer:
                     </h3>

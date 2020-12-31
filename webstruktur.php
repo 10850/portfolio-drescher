@@ -77,54 +77,14 @@
                         Har mål for at give brugerne så meget frihed så muligt så de selv bestemmer deres interaktion med siden information (ibid). Dog er den også forvirrende og besværlig at finde rundt i for brugeren, da der ikke er sat nogen grænser (ibid).
                     </p>
                 </section>
-                
+            </section>
+            
+            
                 <section id="visualisere-struktur">
                     <h3 class="underoverskrift">Hvordan kan man visualisere arkitekturen?</h3>
                     <p class="body-text">
                         Wireframe - skelettet til det visuelle design som er musklerne (ibid). Opbygningen går i udgangspunkt i gængse konventioner (ibid).
                     </p>
-                </section>
-            </section>
-            
-            <section id="informationsstruktur-brainstorm">
-                        <section id="informationsstruktur-brainstorm-intro">
-                            <h3 class="underoverskrift">
-                                Hvordan kan man få ideer til informationsarkitektur?
-                            </h3>
-                            <h4 class="sub-skrift">
-                                Brainstorm som med design thinking:
-                            </h4>
-                            <ul class="liste">
-                                <li>
-                                    Skriv ned på labels (Andersen, 2015).
-                                </li>
-                                <li>
-                                    Hæng dem op (ibid).
-                                </li>
-                                <li>
-                                    Diskutere organisering af dem til der er konsensus (ibid).
-                                </li>
-                            </ul>
-                        </section>
-                        
-                    
-                    <section id="informationsstruktur-brainstorm-kort">
-                        <h4 class="sub-skrift">
-                            Kortsortering:
-                        </h4>
-                            
-                        <ol class="liste">
-                            <li>
-                                Give dem underemner og de skal selv lægger dem sammen som de finder det logisk (Andersen, 2015).
-                            </li>
-                            <li>
-                                Give dem overemner og de skal vælge hvor et underemne skal gå en ad gangen (ibid).
-                            </li>
-                            <li>
-                                Derefter spørg man ind til deres tanker og overvejelser (ibid).
-                            </li>
-                        </ol>
-                    </section>
                 </section>
             
             

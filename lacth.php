@@ -82,6 +82,35 @@
                 </section>
             </section>
             
+            <section id="latch-eksempel">
+                <section id="latch-eksempel-intro">
+                    <h2 class="overskrift">
+                        Informationsarkitektur review på MinKøbmand og Skatepro
+                    </h2>
+                    <p class="body-text">
+                        I en K3 opgave lavede jeg en informationsarkitektur review på MinKøbmand og Skatepro. Herunder vil du se et eksempel på informationsarkitektur med kategorier og lokationer på MinKøbmand. <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Resten af reviewen kan læses her.</a> 
+                    </p>
+                </section>
+                <section id="kategori-eksempel">
+                    <h4 class="sub-skrift">
+                        Kategori informationsarkitektur
+                    </h4>
+                    <img src="kommunikation/Informationsarkitektur/information-kategori.jpg" alt="screenshot af minkøbmands website" id="kategori-img">
+                    <p class="body-text">
+                        Her kan det ses at deres globale menu er delt op i forskellige kategorier, og når man går ind under "opskrifter", ser man en undermenu der har underkategorier.
+                    </p>
+                </section>
+                <section id="location-eksempel">
+                    <h4 class="sub-skrift">
+                        Lokation informationsarkitektur
+                    </h4>
+                    <img src="kommunikation/Informationsarkitektur/information-location.jpg" alt="screenshot af minkøbmands website" id="location-img">
+                    <p class="body-text">
+                        Her kan det ses at MinKøbmand bruger lokation til deres informationsarkitektur i deres "Find Butik" side, hvor der er et søgefelt til at søge efter en by og man kan se hvor butikkerne ligger på et kort af Danmark.
+                    </p>
+                </section>
+            </section>
+            
             <section id="informationsstruktur-brainstorm">
                         <section id="informationsstruktur-brainstorm-intro">
                             <h3 class="underoverskrift">

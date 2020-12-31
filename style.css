@@ -3987,6 +3987,628 @@ video-php h1 {
 
 
 
+/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER START */
+
+/* GENRELT */
+.hvad-er-kommunikation-php h1,
+.humanistisk-php h1,
+.samfundsvidenskablig-php h1,
+.kvalitativ-php h1,
+.kvantitativ-php h1,
+.latch-php h1,
+.webstruktur-php h1,
+.navigering h1,
+.godtale-php h1,
+.powerpoint-php h1,
+.tekstproduktion-php h1,
+.licens-php h1,
+.bmc-php h1 {
+    text-align: center;
+}
+
+.hvad-er-kommunikation-php .navbar,
+.humanistisk-php .navbar,
+.samfundsvidenskablig-php .navbar,
+.kvalitativ-php .navbar,
+.kvantitativ-php .navbar,
+.latch-php .navbar,
+.webstruktur-php .navbar,
+.navigering .navbar,
+.godtale-php .navbar,
+.powerpoint-php .navbar,
+.tekstproduktion-php .navbar,
+.licens-php .navbar,
+.bmc-php .navbar {
+    background: linear-gradient(360deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.hvad-er-kommunikation-php footer,
+.humanistisk-php footer,
+.samfundsvidenskablig-php footer,
+.kvalitativ-php footer,
+.kvantitativ-php footer,
+.latch-php footer,
+.webstruktur-php footer,
+.navigering footer,
+.godtale-php footer,
+.powerpoint-php footer,
+.tekstproduktion-php footer,
+.licens-php footer,
+.bmc-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+/* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP START */
+.hvad-er-kommunikation-php #hvad-er-kommunikation {
+    grid-area: hvader;
+}
+
+.hvad-er-kommunikation-php #hvad-er-multimediedesign {
+    grid-area: multimediedesign;
+}
+
+.hvad-er-kommunikation-php #typiske-emner {
+    grid-area: typiske-emner;
+}
+
+.hvad-er-kommunikation-php #konklusion-hvad-er-kommunikation {
+    grid-area: konklusion;
+}
+
+.hvad-er-kommunikation-php .kilder {
+    grid-area: kilder;
+}
+
+.hvad-er-kommunikation-php #mitgrid-hvaderkommunikation {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "multimediedesign"
+        "typiske-emner"
+        "konklusion"
+        "kilder";
+}
+
+/* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP SLUT */
+
+
+
+/* HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP START */
+.humanistisk-php #hvad-er-humanistisk {
+    grid-area: hvader;
+}
+
+
+.humanistisk-php #imk-intro {
+    grid-area: imk-intro;
+}
+
+.humanistisk-php #imk-tre-aspekter {
+    grid-area: imk-tre-aspekter;
+}
+
+.humanistisk-php #imk-modellen-img {
+    grid-area: imk-modellen-img;
+}
+
+.humanistisk-php #imk-elementer {
+    grid-area: imk-elementer;
+}
+
+.humanistisk-php #imk-modellen {
+    grid-area: imk-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 1fr;
+    grid-template-areas: 
+        "imk-intro"
+        "imk-tre-aspekter"
+        "imk-modellen-img"
+        "imk-elementer";
+}
+
+.humanistisk-php #thorlacius-intro {
+    grid-area: thorlacius-intro;
+}
+
+.humanistisk-php #thorlacius-model-img {
+    grid-area: thorlacius-model-img;
+}
+
+.humanistisk-php #thorlacius-elementer {
+    grid-area: thorlacius-elementer;
+}
+
+.humanistisk-php #thorlacius-modellen {
+    grid-area: thorlacius-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "thorlacius-intro"
+        "thorlacius-model-img"
+        "thorlacius-elementer";
+}
+
+
+.humanistisk-php .kilder {
+    grid-area: kilder;
+}
+
+
+.humanistisk-php #mitgrid-humanistisk {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "imk-modellen"
+        "thorlacius-modellen"
+        "kilder";
+}
+
+/* HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP SLUT */
+
+
+
+/* SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP START */
+.samfundsvidenskablig-php #hvad-er-samfundsvidenskablig {
+    grid-area: hvader;
+}
+
+.samfundsvidenskablig-php #kanyle-intro {
+    grid-area: kanyle-intro;
+}
+
+.samfundsvidenskablig-php #lasswell-formel {
+    grid-area: lasswell-formel;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "lasswell-intro"
+        "lasswell-formel-img"
+        "tekst";
+}
+
+.samfundsvidenskablig-php #lasswell-intro {
+    grid-area: lasswell-intro;
+}
+
+.samfundsvidenskablig-php #lasswell-formel-img {
+    grid-area: lasswell-formel-img;
+}
+
+.samfundsvidenskablig-php #lasswell-formel p {
+    grid-area: tekst;
+}
+
+.samfundsvidenskablig-php #kanyle-modellen {
+    grid-area: kanyle-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kanyle-intro"
+        "lasswell-formel";
+}
+
+.samfundsvidenskablig-php #sr-intro {
+    grid-area: sr-intro;
+}
+
+.samfundsvidenskablig-php #s-r-img {
+    grid-area: s-r-img;
+}
+
+.samfundsvidenskablig-php #sr-model .liste {
+    grid-area: liste-sr;
+}
+
+.samfundsvidenskablig-php #sr-model {
+    grid-area: sr-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sr-intro"
+        "s-r-img"
+        "liste-sr";
+}
+
+
+
+.samfundsvidenskablig-php #sor-intro {
+    grid-area: sor-intro;
+}
+
+.samfundsvidenskablig-php #s-o-r-img {
+    grid-area: s-o-r-img;
+}
+
+.samfundsvidenskablig-php #sor-model .liste {
+    grid-area: sor-liste;
+}
+
+.samfundsvidenskablig-php #sor-model {
+    grid-area: sor-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sor-intro"
+        "s-o-r-img"
+        "sor-liste"
+}
+
+
+.samfundsvidenskablig-php #sr-sor-model {
+    grid-area: sr-sor-model;
+}
+
+
+
+.samfundsvidenskablig-php #kortlers-intro {
+    grid-area: kortlers-intro;
+}
+
+.samfundsvidenskablig-php #kortlers-model-img {
+    grid-area: kortlers-model-img;
+}
+
+.samfundsvidenskablig-php #kotlers-elementer {
+    grid-area: kotlers-elementer;
+}
+
+.samfundsvidenskablig-php #kortlers-modellen {
+    grid-area: kortlers-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kortlers-intro"
+        "kortlers-model-img"
+        "kotlers-elementer";
+}
+
+.samfundsvidenskablig-php .kilder {
+    grid-area: kilder;
+}
+
+.samfundsvidenskablig-php #mitgrid-samfundsvidenskabelig {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "kanyle-modellen"
+        "sr-sor-model"
+        "kortlers-modellen"
+        "kilder";
+}
+
+/* SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SLUT */
+
+
+
+/* KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP START */
+.kvalitativ-php #kvalitativ-intro {
+    grid-area: kvalitativ-intro;
+}
+
+.kvalitativ-php #styrker-kvalitativ {
+    grid-area: styrker-kvalitativ;
+}
+
+.kvalitativ-php #svagheder-kvalitativ {
+    grid-area: svagheder-kvalitativ;
+}
+
+.kvalitativ-php #hvad-er-kvalitativ {
+    grid-area: hvad-er-kvalitativ;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kvalitativ-intro"
+        "styrker-kvalitativ"
+        "svagheder-kvalitativ";
+}
+
+
+.kvalitativ-php #observationstudie {
+    grid-area: observationstudie;
+}
+
+.kvalitativ-php #kvalitativ-interview {
+    grid-area: kvalitativ-interview;
+}
+
+.kvalitativ-php #kvalitativ-metoder {
+    grid-area: kvalitativ-metoder;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "observationstudie"
+        "kvalitativ-interview";
+}
+
+
+.kvalitativ-php #fokus-grupper {
+    grid-area: fokus-grupper;
+}
+
+.kvalitativ-php #tanke-hojt-test {
+    grid-area: tanke-hojt-test;
+}
+
+
+.kvalitativ-php .kilder {
+    grid-area: kilder;
+}
+
+
+.kvalitativ-php #hvad-er-kvalitativ {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-kvalitativ"
+        "kvalitativ-metoder"
+        "fokus-grupper"
+        "tanke-hojt-test"
+        "kilder";
+}
+
+/* KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP SLUT */
+
+
+
+
+/* KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP START */
+.kvantitativ-php #kvantitativ-intro {
+    grid-area: kvantitativ-intro;
+}
+
+.kvantitativ-php #styrker-kvantitativ {
+    grid-area: styrker-kvantitativ;
+}
+
+.kvantitativ-php #svagheder-kvantitativ {
+    grid-area: svagheder-kvantitativ;
+}
+
+.kvantitativ-php #hvad-er-kvantitativ {
+    grid-area: hvad-er-kvantitativ;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kvantitativ-intro"
+        "styrker-kvantitativ"
+        "svagheder-kvantitativ";
+}
+
+
+.kvantitativ-php #kvantitativ-metoder {
+    grid-area: kvantitativ-metoder;
+}
+
+.kvantitativ-php .kilder {
+    grid-area: kilder;
+}
+
+.kvantitativ-php #mitgrid-kvantitativ {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-kvantitativ"
+        "kvantitativ-metoder"
+        "kilder";
+}
+
+/* KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP SLUT */
+
+
+
+/* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP START */
+.latch-php #hvad-er-informationsarkitektur {
+    grid-area: hvad-er-informationsarkitektur;
+}
+
+.latch-php #latch-intro {
+    grid-area: latch-intro;
+}
+
+.latch-php #latch-types {
+    grid-area: latch-types;
+}
+
+.latch-php #latch-def {
+    grid-area: latch-def;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "latch-intro"
+        "latch-types";
+}
+
+
+.latch-php #latch-eksempel-intro {
+    grid-area: latch-eksempel-intro;
+}
+
+.latch-php #kategori-eksempel {
+    grid-area: kategori-eksempel;
+}
+
+.latch-php #location-eksempel {
+    grid-area: location-eksempel;
+}
+
+.latch-php #latch-eksempel {
+    grid-area: latch-eksempel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "latch-eksempel-intro"
+        "kategori-eksempel"
+        "location-eksempel";
+}
+
+
+
+.latch-php #informationsstruktur-brainstorm-intro {
+    grid-area: informationsstruktur-brainstorm-intro;
+}
+
+.latch-php #informationsstruktur-brainstorm-kort {
+    grid-area: informationsstruktur-brainstorm-kort;
+}
+
+.latch-php #informationsstruktur-brainstorm {
+    grid-area: informationsstruktur-brainstorm;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "informationsstruktur-brainstorm-intro"
+        "informationsstruktur-brainstorm-kort";
+}
+
+
+.latch-php .kilder {
+    grid-area: kilder;
+}
+
+.latch-php #mitgrid-informationsarkitektur {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-informationsarkitektur"
+        "latch-def"
+        "latch-eksempel"
+        "informationsstruktur-brainstorm"
+        "kilder";
+}
+
+
+/* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP SLUT */
+
+
+
+
+/* WEBSTRUKTUR.PHP  WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP START */
+.webstruktur-php #hvad-er-webstruktur {
+    grid-area: hvad-er-webstruktur; 
+}
+
+.webstruktur-php #sekvens-webstruktur {
+    grid-area: sekvens-webstruktur;
+}
+
+.webstruktur-php #hieraki-webstruktur {
+    grid-area: hieraki-webstruktur;
+}
+
+.webstruktur-php #webstruktur-struktur {
+    grid-area: webstruktur-struktur;
+}
+
+.webstruktur-php #webstruktur-typer {
+    grid-area: webstruktur-typer;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sekvens-webstruktur"
+        "hieraki-webstruktur"
+        "webstruktur-struktur";
+}
+
+
+.webstruktur-php #visualisere-struktur {
+    grid-area: visualisere-struktur;
+}
+
+.webstruktur-php .kilder {
+    grid-area: kilder;
+}
+
+.webstruktur-php #mitgrid-webstruktur {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-webstruktur"
+        "webstruktur-typer"
+        "visualisere-struktur"
+        "kilder";
+}
+
+
+/* WEBSTRUKTUR.PHP  WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP SLUT */
+
+
+
+
+/* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP START */
+
+
+/* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP SLUT */
+
+
+
+/* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP START */
+
+/* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP END */
+
+
+
+/* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP START */
+
+
+/* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP END */
+
+
+
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP START */
+
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
+
+
+
+/* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP START */
+
+/* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP SLUT */
+
+
+
+
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP START */
+
+
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP END */
+
+
+
+/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER END */
+
 
 
 
