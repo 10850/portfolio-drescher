@@ -4566,19 +4566,220 @@ video-php h1 {
 
 
 /* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP START */
+.navigering-php #hvad-er-navigering {
+    grid-area: hvad-er-navigering;
+}
 
+
+.navigering-php #linear-navigering {
+    grid-area: linear-navigering;
+}
+
+.navigering-php #hieraki-navigering {
+    grid-area: hieraki-navigering;
+}
+
+.navigering-php #sammenhang-navigering {
+    grid-area: sammenhang-navigering;
+}
+
+.navigering-php #navigeringstruktur-typer {
+    grid-area: navigeringstruktur-typer;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "linear-navigering"
+        "hieraki-navigering"
+        "sammenhang-navigering";
+}
+
+
+.navigering-php #wayfinding {
+    grid-area: wayfinding;
+}
+
+
+.navigering-php #hvad-er-mapping {
+    grid-area: hvad-er-mapping;
+}
+
+.navigering-php #mapping-good {
+    grid-area: mapping-good;
+}
+
+.navigering-php #mapping-bad {
+    grid-area: mapping-bad;
+}
+
+.navigering-php #mapping-eksempel {
+    grid-area: mapping-eksempel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "mapping-good"
+        "mapping-bad";
+}
+
+.navigering-php #mapping {
+    grid-area: mapping;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-mapping"
+        "mapping-eksempel";
+}
+
+
+.navigering-php .kilder {
+    grid-area: kilder;
+}
+
+
+.navigering-php #mitgrid-navigering {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-navigering"
+        "navigeringstruktur-typer"
+        "mapping"
+        "kilder";
+}
 
 /* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP SLUT */
 
 
 
 /* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP START */
+.godtale-php #multimediedesigner-presentation {
+    grid-area: multimediedesigner-presentation;
+}
+
+
+.godtale-php #inventio {
+    grid-area: inventio;
+}
+
+.godtale-php #dispositio {
+    grid-area: dispositio;
+}
+
+.godtale-php #elocutio {
+    grid-area: elocutio;
+}
+
+.godtale-php #memoria {
+    grid-area: memoria;
+}
+
+.godtale-php #actio {
+    grid-area: actio;
+}
+
+.godtale-php #opskrift-tale {
+    grid-area: opskrift-tale;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "inventio"
+        "dispositio"
+        "elocutio"
+        "memoria"
+        "actio";
+}
+
+
+.godtale-php #fisk-model-intro {
+    grid-area: fisk-model-intro;
+}
+
+.godtale-php #fisk-begynd {
+    grid-area: fisk-begynd;
+}
+
+.godtale-php #fisk-midt {
+    grid-area: fisk-midt;
+}
+
+.godtale-php #fisk-model-img {
+    grid-area: fisk-model-img;
+}
+
+.godtale-php #fisk-afslut {
+    grid-area: fisk-afslut;
+}
+
+.godtale-php #fisk-model {
+    grid-area: fisk-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "fisk-model-intro"
+        "fisk-model-img"
+        "fisk-begynd"
+        "fisk-midt"
+        "fisk-afslut";
+}
+
+
+.godtale-php #the-9-c {
+    grid-area: the-9-c;
+}
+
+.godtale-php .kilder {
+    grid-area: kilder;
+}
+
+.godtale-php #mitgrid-godtale {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "multimediedesigner-presentation"
+        "opskrift-tale"
+        "fisk-model"
+        "the-9-c"
+        "kilder";
+}
 
 /* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP END */
 
 
 
 /* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP START */
+.powerpoint-php #powerpoint-intro {
+    grid-area: powerpoint-intro;
+}
+
+.powerpoint-php #principper-liste {
+    grid-area: principper-liste;
+}
+
+.powerpoint-php #powerpoint-eksempel {
+    grid-area: powerpoint-eksempel;
+}
+
+.powerpoint-php .kilder {
+    grid-area: kilder;
+}
+
+.powerpoint-php #mitgrid-powerpoint {
+    margin: 0.8em;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "powerpoint-intro"
+        "principper-liste"
+        "powerpoint-eksempel"
+        "kilder";
+}
 
 
 /* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP END */
@@ -4590,18 +4791,234 @@ video-php h1 {
 
 
 /* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
+.tekstproduktion-php #nyhedskritier {
+    grid-area: nyhedskritier;
+}
 
+.tekstproduktion-php #proces-scanning {
+    grid-area: proces-scanning;
+}
+
+.tekstproduktion-php #nyhedstrekant {
+    grid-area: nyhedstrekant;
+}
+
+.tekstproduktion-php #nyhedsartikel {
+    grid-area: nyhedsartikel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "nyhedskritier"
+        "nyhedstrekant"
+        "proces-scanning";
+}
+
+
+.tekstproduktion-php #webtekst-intro {
+    grid-area: webtekst-intro;
+}
+
+.tekstproduktion-php #karateristika-bruger {
+    grid-area: karateristika-bruger;
+}
+
+.tekstproduktion-php #webtekst {
+    grid-area: webtekst;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "webtekst-intro"
+        "karateristika-bruger";
+}
+
+
+.tekstproduktion-php #hey-you-see-so {
+    grid-area: hey-you-see-so;
+}
+
+
+
+.tekstproduktion-php #klarhed {
+    grid-area: klarhed;
+}
+
+.tekstproduktion-php #syv-geniale {
+    grid-area: syv-geniale;
+}
+
+.tekstproduktion-php #skive-princip {
+    grid-area: skive-princip;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "klarhed"
+        "syv-geniale";
+}
+
+
+.tekstproduktion-php #refleksion-tekstproduktion {
+    grid-area: refleksion-tekstproduktion;
+}
+
+.tekstproduktion-php .kilder {
+    grid-area: kilder;
+}
+
+.tekstproduktion-php #mitgrid-tekstproduktion {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "nyhedsartikel"
+        "webtekst"
+        "hey-you-see-so"
+        "skive-princip"
+        "refleksion-tekstproduktion"
+        "kilder";
+}
 
 
 /* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP START */
+.licens-php #persondataloven {
+    grid-area: persondataloven;
+}
 
+.licens-php #gdpr {
+    grid-area: gdpr;
+}
+
+.licens-php #immaterielle-rettigheder {
+    grid-area: immaterielle-rettigheder;
+}
+
+.licens-php #ophavsret {
+    grid-area: ophavsret;
+}
+
+.licens-php #open-source {
+    grid-area: open-source;
+}
+
+.licens-php #licensaftaler {
+    grid-area: licensaftaler;
+}
+
+.licens-php #mit-licens {
+    grid-area: mit-licens;
+}
+
+.licens-php #creative-commons {
+    grid-area: creative-commons;
+}
+
+.licens-php .kilder {
+    grid-area: kilder;
+}
+
+.licens-php #mitgrid-licens {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "persondataloven"
+        "gdpr"
+        "immaterielle-rettigheder"
+        "ophavsret"
+        "open-source"
+        "licensaftaler"
+        "mit-licens"
+        "creative-commons"
+        "kilder";
+}
 /* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP SLUT */
 
 
 
 
 /* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP START */
+.bmc-php #bmc-intro {
+    grid-area: bmc-intro;
+}
 
+.bmc-php #valueproperty {
+    grid-area: valueproperty;
+}
+
+.bmc-php #kundesegmenter {
+    grid-area: kundesegmenter;
+}
+
+.bmc-php #kunderelationer {
+    grid-area: kunderelationer;
+}
+
+.bmc-php #kanaler {
+    grid-area: kanaler;
+}
+
+.bmc-php #keyactivity {
+    grid-area: keyactivity;
+}
+
+.bmc-php #keyresource {
+    grid-area: keyresource;
+}
+
+.bmc-php #partnere {
+    grid-area: partnere;
+}
+
+.bmc-php #omkostninger {
+    grid-area: omkostninger;
+}
+
+.bmc-php #profit {
+    grid-area: profit;
+}
+
+
+.bmc-php #bmc-9sten {
+    grid-area: bmc-9sten;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "valueproperty"
+        "kundesegmenter"
+        "kunderelationer"
+        "kanaler"
+        "keyactivity"
+        "keyresource"
+        "partnere"
+        "omkostninger"
+        "profit";
+}
+
+
+.bmc-php #bmc-eksempel {
+    grid-area: bmc-eksempel;
+}
+
+.bmc-php .kilder {
+    grid-area: kilder;
+}
+
+.bmc-php #mitgrid-bmc {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "bmc-intro"
+        "bmc-9sten"
+        "bmc-eksempel"
+        "kilder";
+}
 
 /* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP END */
 

@@ -259,7 +259,7 @@
                     </ul>
                 </section>
                 
-                <section id="7-geniale">
+                <section id="syv-geniale">
                     <h2 class="overksrift">
                         7 geniale genveje 
                     </h2>

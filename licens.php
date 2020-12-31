@@ -53,7 +53,7 @@
                 </a>
             </section>
             
-            <section id="immaterielle-rettigheder ">
+            <section id="immaterielle-rettigheder">
                 <h2 class="overksrift">
                     Immaterielle rettigheder 
                 </h2>

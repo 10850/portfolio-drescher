@@ -130,6 +130,8 @@
                     </p>
                 </section>
                 
+                <img src="kommunikation/Presentationsteknik/fiskmodel.png" alt="fiskmodellen" id="fisk-model-img">
+                
                 <section id="fisk-begynd">
                     <h4 class="sub-skrift">
                         Begyndelse:
