@@ -82,7 +82,7 @@
             </section>
             
             <section id="kvalitativ-metoder">
-                <section id="observationstudie">
+                <section id="observation-studie">
                     <section id="observation-intro">
                         <h2 class="overskrift">Observationsstudier</h2>
                         <p class="body-text">

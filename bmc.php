@@ -150,9 +150,12 @@
                     Vi har på klassen lavet en BMC på MC Donalds hvor vi i grupper selv lavede en BMC og samlede alle vores forskellige svar sammen i en BMC.
                 </p>
                 
-                <img src="kommunikation/BMC/123638780_706984926593367_2432848405738236827_n.jpg" alt="BMC af MC Donalds i gruppen" id="bmc-eksempel-img1">
+                <figure id="bmc-figure">
+                    <img src="kommunikation/BMC/123638780_706984926593367_2432848405738236827_n.jpg" alt="BMC af MC Donalds i gruppen" id="bmc-eksempel-img1">
                 
-                <img src="kommunikation/BMC/123518965_3672897906106536_1703884817540383381_n.jpg" alt="BMC af MC Donalds med klassen" id="bmc-eksempel-img2">
+                    <img src="kommunikation/BMC/123518965_3672897906106536_1703884817540383381_n.jpg" alt="BMC af MC Donalds med klassen" id="bmc-eksempel-img2">
+                </figure>
+                
                 
                 <p class="body-text">
                     De her principper var lidt af en revolution for mig for jeg har altid været den person som har store overskrifter med hvid baggrund og ingen kontraster. Da jeg fik lavet mit eget PowerPoint ud fra de principper, kunne jeg nemt se hvor meget bedre det var for en præsentation. Og det blev endnu mere klart når jeg selv fremlagde med det og så andre fremlægger med PowerPoints der fulgte principperne. Det var meget nemmere at holde koncentrationen når jeg så andre fremlægge og jeg kunne se at folk som jeg fremlagde for, var mere opmærksomme på mig, end de plejer at være når jeg fremlægger.
