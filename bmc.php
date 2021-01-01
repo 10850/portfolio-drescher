@@ -45,12 +45,13 @@
                     </li>
                 </ol>
                 <p class="body-text">
-                    I BMC skal man kigge på 9 forskellige punkter i modellen, som skal analyseres, vurderes og defineres (Osterwalder & Pigneur, 2013):
+                    I BMC skal man kigge på 9 forskellige punkter i modellen, som skal analyseres, vurderes og defineres (Osterwalder &#38; Pigneur, 2013):
                 </p>
             </section>
             
             <section id="bmc-9sten">
                 <section id="valueproperty">
+                    <img src="kommunikation/BMC/Value-Propositions-Inline.png" id="propersition-icon">
                     <h3 class="underoverskrift">
                         Værditilbud 
                     </h3>
@@ -60,6 +61,7 @@
                 </section>
                 
                 <section id="kundesegmenter">
+                    <img src="kommunikation/BMC/Customer-Segments-Inline.png" id="kundesegment-icon">
                     <h3 class="underoverskrift">
                         Kundesegmenter
                     </h3>
@@ -69,6 +71,7 @@
                 </section>
                 
                 <section id="kunderelationer">
+                    <img src="kommunikation/BMC/Customer-Relationships-Inline.png" id="kunderelation-icon">
                     <h3 class="underoverskrift">
                         Kunderelationer 
                     </h3>
@@ -78,6 +81,7 @@
                 </section>
                 
                 <section id="kanaler">
+                    <img src="kommunikation/BMC/Channels-Inline.png" id="kanaler-icon">
                     <h3 class="underoverskrift">
                         Kanaler
                     </h3>
@@ -87,6 +91,7 @@
                 </section>
                 
                 <section id="keyactivity">
+                    <img src="kommunikation/BMC/Key-Activities-Inline.png" id="key-active-icon">
                     <h3 class="underoverskrift">
                         Nøgleaktiviteter 
                     </h3>
@@ -96,6 +101,7 @@
                 </section>
                 
                 <section id="keyresource">
+                    <img src="kommunikation/BMC/Key-Resources-Inline.png" id="key-resource-icon">
                     <h3 class="underoverskrift">
                         Nøgleressourcer 
                     </h3>
@@ -105,6 +111,7 @@
                 </section>
                 
                 <section id="partnere">
+                    <img src="kommunikation/BMC/images.png" id="partnere-icon">
                     <h3 class="underoverskrift">
                         Partnere 
                     </h3>
@@ -114,6 +121,7 @@
                 </section>
                 
                 <section id="omkostninger">
+                    <img src="kommunikation/BMC/Cost-Strcuture-Inline.png" id="omkostninger-icon">
                     <h3 class="underoverskrift">
                         Omkostninger
                     </h3>
@@ -123,6 +131,7 @@
                 </section>
                 
                 <section id="profit">
+                    <img src="kommunikation/BMC/Revenue-Streams-Inline.png" id="profit-icon">
                     <h3 class="underoverskrift">
                         Indtægter
                     </h3>
@@ -141,9 +150,12 @@
                     Vi har på klassen lavet en BMC på MC Donalds hvor vi i grupper selv lavede en BMC og samlede alle vores forskellige svar sammen i en BMC.
                 </p>
                 
-                <img src="kommunikation/BMC/123638780_706984926593367_2432848405738236827_n.jpg" alt="BMC af MC Donalds i gruppen" id="bmc-eksempel-img1">
+                <figure id="bmc-figure">
+                    <img src="kommunikation/BMC/123638780_706984926593367_2432848405738236827_n.jpg" alt="BMC af MC Donalds i gruppen" id="bmc-eksempel-img1">
                 
-                <img src="kommunikation/BMC/123518965_3672897906106536_1703884817540383381_n.jpg" alt="BMC af MC Donalds med klassen" id="bmc-eksempel-img2">
+                    <img src="kommunikation/BMC/123518965_3672897906106536_1703884817540383381_n.jpg" alt="BMC af MC Donalds med klassen" id="bmc-eksempel-img2">
+                </figure>
+                
                 
                 <p class="body-text">
                     De her principper var lidt af en revolution for mig for jeg har altid været den person som har store overskrifter med hvid baggrund og ingen kontraster. Da jeg fik lavet mit eget PowerPoint ud fra de principper, kunne jeg nemt se hvor meget bedre det var for en præsentation. Og det blev endnu mere klart når jeg selv fremlagde med det og så andre fremlægger med PowerPoints der fulgte principperne. Det var meget nemmere at holde koncentrationen når jeg så andre fremlægge og jeg kunne se at folk som jeg fremlagde for, var mere opmærksomme på mig, end de plejer at være når jeg fremlægger.

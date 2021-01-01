@@ -46,6 +46,9 @@
                             Brug af lukkede spørgsmål, da man nemmere kan indlæse data når svarene er korte, konkrete og konsistent (ibid).
                         </li>
                     </ul>
+                    <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">
+                        Denne information og informationen på resten af siden uddybbes mere i min rapport om kvalitativ og kvantitativ empiri.
+                    </a>
                 </section>
                 <section id="styrker-kvantitativ">
                     <h3 class="underoverskrift">Stryker</h3>

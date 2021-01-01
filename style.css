@@ -3987,6 +3987,1046 @@ video-php h1 {
 
 
 
+/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER START */
+
+/* GENRELT */
+.hvad-er-kommunikation-php h1,
+.humanistisk-php h1,
+.samfundsvidenskablig-php h1,
+.kvalitativ-php h1,
+.kvantitativ-php h1,
+.latch-php h1,
+.webstruktur-php h1,
+.navigering-php h1,
+.godtale-php h1,
+.powerpoint-php h1,
+.tekstproduktion-php h1,
+.licens-php h1,
+.bmc-php h1 {
+    text-align: center;
+}
+
+.hvad-er-kommunikation-php .navbar,
+.humanistisk-php .navbar,
+.samfundsvidenskablig-php .navbar,
+.kvalitativ-php .navbar,
+.kvantitativ-php .navbar,
+.latch-php .navbar,
+.webstruktur-php .navbar,
+.navigering-php .navbar,
+.godtale-php .navbar,
+.powerpoint-php .navbar,
+.tekstproduktion-php .navbar,
+.licens-php .navbar,
+.bmc-php .navbar {
+    background: linear-gradient(360deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+.hvad-er-kommunikation-php footer,
+.humanistisk-php footer,
+.samfundsvidenskablig-php footer,
+.kvalitativ-php footer,
+.kvantitativ-php footer,
+.latch-php footer,
+.webstruktur-php footer,
+.navigering-php footer,
+.godtale-php footer,
+.powerpoint-php footer,
+.tekstproduktion-php footer,
+.licens-php footer,
+.bmc-php footer {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+/* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP START */
+.hvad-er-kommunikation-php #hvad-er-kommunikation {
+    grid-area: hvader;
+}
+
+.hvad-er-kommunikation-php #hvad-er-multimediedesign {
+    grid-area: multimediedesign;
+}
+
+.hvad-er-kommunikation-php #typiske-emner {
+    grid-area: typiske-emner;
+}
+
+.hvad-er-kommunikation-php #konklusion-hvad-er-kommunikation {
+    grid-area: konklusion;
+}
+
+.hvad-er-kommunikation-php .kilder {
+    grid-area: kilder;
+}
+
+.hvad-er-kommunikation-php #mitgrid-hvaderkommunikation {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "multimediedesign"
+        "typiske-emner"
+        "konklusion"
+        "kilder";
+}
+
+/* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP SLUT */
+
+
+
+/* HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP START */
+.humanistisk-php #hvad-er-humanistisk {
+    grid-area: hvader;
+}
+
+
+.humanistisk-php #imk-intro {
+    grid-area: imk-intro;
+}
+
+.humanistisk-php #imk-tre-aspekter {
+    grid-area: imk-tre-aspekter;
+}
+
+.humanistisk-php #imk-modellen-img {
+    grid-area: imk-modellen-img;
+}
+
+.humanistisk-php #imk-elementer {
+    grid-area: imk-elementer;
+}
+
+.humanistisk-php #imk-modellen {
+    grid-area: imk-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 1fr;
+    grid-template-areas: 
+        "imk-intro"
+        "imk-tre-aspekter"
+        "imk-modellen-img"
+        "imk-elementer";
+}
+
+.humanistisk-php #thorlacius-intro {
+    grid-area: thorlacius-intro;
+}
+
+.humanistisk-php #thorlacius-model-img {
+    grid-area: thorlacius-model-img;
+}
+
+.humanistisk-php #thorlacius-elementer {
+    grid-area: thorlacius-elementer;
+}
+
+.humanistisk-php #thorlacius-modellen {
+    grid-area: thorlacius-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "thorlacius-intro"
+        "thorlacius-model-img"
+        "thorlacius-elementer";
+}
+
+
+.humanistisk-php .kilder {
+    grid-area: kilder;
+}
+
+
+.humanistisk-php #mitgrid-humanistisk {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "imk-modellen"
+        "thorlacius-modellen"
+        "kilder";
+}
+
+/* HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP SLUT */
+
+
+
+/* SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP START */
+.samfundsvidenskablig-php #hvad-er-samfundsvidenskablig {
+    grid-area: hvader;
+}
+
+.samfundsvidenskablig-php #kanyle-intro {
+    grid-area: kanyle-intro;
+}
+
+.samfundsvidenskablig-php #lasswell-formel {
+    grid-area: lasswell-formel;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "lasswell-intro"
+        "lasswell-formel-img"
+        "tekst";
+}
+
+.samfundsvidenskablig-php #lasswell-intro {
+    grid-area: lasswell-intro;
+}
+
+.samfundsvidenskablig-php #lasswell-formel-img {
+    grid-area: lasswell-formel-img;
+}
+
+.samfundsvidenskablig-php #lasswell-formel p {
+    grid-area: tekst;
+}
+
+.samfundsvidenskablig-php #kanyle-modellen {
+    grid-area: kanyle-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kanyle-intro"
+        "lasswell-formel";
+}
+
+.samfundsvidenskablig-php #sr-intro {
+    grid-area: sr-intro;
+}
+
+.samfundsvidenskablig-php #s-r-img {
+    grid-area: s-r-img;
+}
+
+.samfundsvidenskablig-php #sr-model .liste {
+    grid-area: liste-sr;
+}
+
+.samfundsvidenskablig-php #sr-model {
+    grid-area: sr-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sr-intro"
+        "s-r-img"
+        "liste-sr";
+}
+
+
+
+.samfundsvidenskablig-php #sor-intro {
+    grid-area: sor-intro;
+}
+
+.samfundsvidenskablig-php #s-o-r-img {
+    grid-area: s-o-r-img;
+}
+
+.samfundsvidenskablig-php #sor-model .liste {
+    grid-area: sor-liste;
+}
+
+.samfundsvidenskablig-php #sor-model {
+    grid-area: sor-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sor-intro"
+        "s-o-r-img"
+        "sor-liste"
+}
+
+
+.samfundsvidenskablig-php #sr-sor-model {
+    grid-area: sr-sor-model;
+}
+
+
+
+.samfundsvidenskablig-php #kortlers-intro {
+    grid-area: kortlers-intro;
+}
+
+.samfundsvidenskablig-php #kortlers-model-img {
+    grid-area: kortlers-model-img;
+}
+
+.samfundsvidenskablig-php #kotlers-elementer {
+    grid-area: kotlers-elementer;
+}
+
+.samfundsvidenskablig-php #kortlers-modellen {
+    grid-area: kortlers-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kortlers-intro"
+        "kortlers-model-img"
+        "kotlers-elementer";
+}
+
+.samfundsvidenskablig-php .kilder {
+    grid-area: kilder;
+}
+
+.samfundsvidenskablig-php #mitgrid-samfundsvidenskabelig {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "kanyle-modellen"
+        "sr-sor-model"
+        "kortlers-modellen"
+        "kilder";
+}
+
+/* SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SLUT */
+
+
+
+/* KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP START */
+.kvalitativ-php #kvalitativ-intro {
+    grid-area: kvalitativ-intro;
+}
+
+.kvalitativ-php #styrker-kvalitativ {
+    grid-area: styrker-kvalitativ;
+}
+
+.kvalitativ-php #svagheder-kvalitativ {
+    grid-area: svagheder-kvalitativ;
+}
+
+.kvalitativ-php #hvad-er-kvalitativ {
+    grid-area: hvad-er-kvalitativ;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kvalitativ-intro"
+        "styrker-kvalitativ"
+        "svagheder-kvalitativ";
+}
+
+
+.kvalitativ-php #observationstudie {
+    grid-area: observationstudie;
+}
+
+.kvalitativ-php #kvalitativ-interview {
+    grid-area: kvalitativ-interview;
+}
+
+.kvalitativ-php #kvalitativ-metoder {
+    grid-area: kvalitativ-metoder;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "observationstudie"
+        "kvalitativ-interview";
+}
+
+
+.kvalitativ-php #fokus-grupper {
+    grid-area: fokus-grupper;
+}
+
+.kvalitativ-php #tanke-hojt-test {
+    grid-area: tanke-hojt-test;
+}
+
+
+.kvalitativ-php .kilder {
+    grid-area: kilder;
+}
+
+
+.kvalitativ-php #mitgrid-kvalitativ {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-kvalitativ"
+        "kvalitativ-metoder"
+        "fokus-grupper"
+        "tanke-hojt-test"
+        "kilder";
+}
+
+/* KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP SLUT */
+
+
+
+
+/* KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP START */
+.kvantitativ-php #kvantitativ-intro {
+    grid-area: kvantitativ-intro;
+}
+
+.kvantitativ-php #styrker-kvantitativ {
+    grid-area: styrker-kvantitativ;
+}
+
+.kvantitativ-php #svagheder-kvantitativ {
+    grid-area: svagheder-kvantitativ;
+}
+
+.kvantitativ-php #hvad-er-kvantitativ {
+    grid-area: hvad-er-kvantitativ;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kvantitativ-intro"
+        "styrker-kvantitativ"
+        "svagheder-kvantitativ";
+}
+
+
+.kvantitativ-php #kvantitativ-metoder {
+    grid-area: kvantitativ-metoder;
+}
+
+.kvantitativ-php .kilder {
+    grid-area: kilder;
+}
+
+.kvantitativ-php #mitgrid-kvantitativ {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-kvantitativ"
+        "kvantitativ-metoder"
+        "kilder";
+}
+
+/* KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP SLUT */
+
+
+
+/* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP START */
+.latch-php #hvad-er-informationsarkitektur {
+    grid-area: hvad-er-informationsarkitektur;
+}
+
+.latch-php #latch-intro {
+    grid-area: latch-intro;
+}
+
+.latch-php #latch-types {
+    grid-area: latch-types;
+}
+
+.latch-php #latch-def {
+    grid-area: latch-def;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "latch-intro"
+        "latch-types";
+}
+
+
+.latch-php #latch-eksempel-intro {
+    grid-area: latch-eksempel-intro;
+}
+
+.latch-php #kategori-eksempel {
+    grid-area: kategori-eksempel;
+}
+
+.latch-php #location-eksempel {
+    grid-area: location-eksempel;
+}
+
+.latch-php #latch-eksempel {
+    grid-area: latch-eksempel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "latch-eksempel-intro"
+        "kategori-eksempel"
+        "location-eksempel";
+}
+
+
+
+.latch-php #informationsstruktur-brainstorm-intro {
+    grid-area: informationsstruktur-brainstorm-intro;
+}
+
+.latch-php #informationsstruktur-brainstorm-kort {
+    grid-area: informationsstruktur-brainstorm-kort;
+}
+
+.latch-php #informationsstruktur-brainstorm {
+    grid-area: informationsstruktur-brainstorm;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "informationsstruktur-brainstorm-intro"
+        "informationsstruktur-brainstorm-kort";
+}
+
+
+.latch-php .kilder {
+    grid-area: kilder;
+}
+
+.latch-php #mitgrid-informationsarkitektur {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-informationsarkitektur"
+        "latch-def"
+        "latch-eksempel"
+        "informationsstruktur-brainstorm"
+        "kilder";
+}
+
+
+/* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP SLUT */
+
+
+
+
+/* WEBSTRUKTUR.PHP  WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP START */
+.webstruktur-php #hvad-er-webstruktur {
+    grid-area: hvad-er-webstruktur; 
+}
+
+.webstruktur-php #sekvens-webstruktur {
+    grid-area: sekvens-webstruktur;
+}
+
+.webstruktur-php #hieraki-webstruktur {
+    grid-area: hieraki-webstruktur;
+}
+
+.webstruktur-php #webstruktur-struktur {
+    grid-area: webstruktur-struktur;
+}
+
+.webstruktur-php #webstruktur-typer {
+    grid-area: webstruktur-typer;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sekvens-webstruktur"
+        "hieraki-webstruktur"
+        "webstruktur-struktur";
+}
+
+
+.webstruktur-php #visualisere-struktur {
+    grid-area: visualisere-struktur;
+}
+
+.webstruktur-php .kilder {
+    grid-area: kilder;
+}
+
+.webstruktur-php #mitgrid-webstruktur {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-webstruktur"
+        "webstruktur-typer"
+        "visualisere-struktur"
+        "kilder";
+}
+
+
+/* WEBSTRUKTUR.PHP  WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP SLUT */
+
+
+
+
+/* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP START */
+.navigering-php #hvad-er-navigering {
+    grid-area: hvad-er-navigering;
+}
+
+
+.navigering-php #linear-navigering {
+    grid-area: linear-navigering;
+}
+
+.navigering-php #hieraki-navigering {
+    grid-area: hieraki-navigering;
+}
+
+.navigering-php #sammenhang-navigering {
+    grid-area: sammenhang-navigering;
+}
+
+.navigering-php #navigeringstruktur-typer {
+    grid-area: navigeringstruktur-typer;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "linear-navigering"
+        "hieraki-navigering"
+        "sammenhang-navigering";
+}
+
+
+.navigering-php #wayfinding {
+    grid-area: wayfinding;
+}
+
+
+.navigering-php #hvad-er-mapping {
+    grid-area: hvad-er-mapping;
+}
+
+.navigering-php #mapping-good {
+    grid-area: mapping-good;
+}
+
+.navigering-php #mapping-bad {
+    grid-area: mapping-bad;
+}
+
+.navigering-php #mapping-eksempel {
+    grid-area: mapping-eksempel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "mapping-good"
+        "mapping-bad";
+}
+
+.navigering-php #mapping {
+    grid-area: mapping;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-mapping"
+        "mapping-eksempel";
+}
+
+
+.navigering-php .kilder {
+    grid-area: kilder;
+}
+
+
+.navigering-php #mitgrid-navigering {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-navigering"
+        "navigeringstruktur-typer"
+        "wayfinding"
+        "mapping"
+        "kilder";
+}
+
+/* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP SLUT */
+
+
+
+/* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP START */
+.godtale-php #multimediedesigner-presentation {
+    grid-area: multimediedesigner-presentation;
+}
+
+
+.godtale-php #inventio {
+    grid-area: inventio;
+}
+
+.godtale-php #dispositio {
+    grid-area: dispositio;
+}
+
+.godtale-php #elocutio {
+    grid-area: elocutio;
+}
+
+.godtale-php #memoria {
+    grid-area: memoria;
+}
+
+.godtale-php #actio {
+    grid-area: actio;
+}
+
+.godtale-php #opskrift-tale {
+    grid-area: opskrift-tale;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "inventio"
+        "dispositio"
+        "elocutio"
+        "memoria"
+        "actio";
+}
+
+
+.godtale-php #fisk-model-intro {
+    grid-area: fisk-model-intro;
+}
+
+.godtale-php #fisk-begynd {
+    grid-area: fisk-begynd;
+}
+
+.godtale-php #fisk-midt {
+    grid-area: fisk-midt;
+}
+
+.godtale-php #fisk-model-img {
+    grid-area: fisk-model-img;
+}
+
+.godtale-php #fisk-afslut {
+    grid-area: fisk-afslut;
+}
+
+.godtale-php #fisk-model {
+    grid-area: fisk-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "fisk-model-intro"
+        "fisk-model-img"
+        "fisk-begynd"
+        "fisk-midt"
+        "fisk-afslut";
+}
+
+
+.godtale-php #the-9-c {
+    grid-area: the-9-c;
+}
+
+.godtale-php .kilder {
+    grid-area: kilder;
+}
+
+.godtale-php #mitgrid-godtale {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "multimediedesigner-presentation"
+        "opskrift-tale"
+        "fisk-model"
+        "the-9-c"
+        "kilder";
+}
+
+/* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP END */
+
+
+
+/* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP START */
+.powerpoint-php #powerpoint-intro {
+    grid-area: powerpoint-intro;
+}
+
+.powerpoint-php #principper-liste {
+    grid-area: principper-liste;
+}
+
+.powerpoint-php #powerpoint-eksempel {
+    grid-area: powerpoint-eksempel;
+}
+
+.powerpoint-php .kilder {
+    grid-area: kilder;
+}
+
+.powerpoint-php #mitgrid-powerpoint {
+    margin: 0.8em;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "powerpoint-intro"
+        "principper-liste"
+        "powerpoint-eksempel"
+        "kilder";
+}
+
+
+/* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP END */
+
+
+
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP START */
+
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
+.tekstproduktion-php #nyhedskritier {
+    grid-area: nyhedskritier;
+}
+
+.tekstproduktion-php #proces-scanning {
+    grid-area: proces-scanning;
+}
+
+.tekstproduktion-php #nyhedstrekant {
+    grid-area: nyhedstrekant;
+}
+
+.tekstproduktion-php #nyhedsartikel {
+    grid-area: nyhedsartikel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "nyhedskritier"
+        "nyhedstrekant"
+        "proces-scanning";
+}
+
+
+.tekstproduktion-php #webtekst-intro {
+    grid-area: webtekst-intro;
+}
+
+.tekstproduktion-php #karateristika-bruger {
+    grid-area: karateristika-bruger;
+}
+
+.tekstproduktion-php #webtekst {
+    grid-area: webtekst;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "webtekst-intro"
+        "karateristika-bruger";
+}
+
+
+.tekstproduktion-php #hey-you-see-so {
+    grid-area: hey-you-see-so;
+}
+
+
+
+.tekstproduktion-php #klarhed {
+    grid-area: klarhed;
+}
+
+.tekstproduktion-php #syv-geniale {
+    grid-area: syv-geniale;
+}
+
+.tekstproduktion-php #skive-princip {
+    grid-area: skive-princip;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "klarhed"
+        "syv-geniale";
+}
+
+
+.tekstproduktion-php #refleksion-tekstproduktion {
+    grid-area: refleksion-tekstproduktion;
+}
+
+.tekstproduktion-php .kilder {
+    grid-area: kilder;
+}
+
+.tekstproduktion-php #mitgrid-tekstproduktion {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "nyhedsartikel"
+        "webtekst"
+        "hey-you-see-so"
+        "skive-princip"
+        "refleksion-tekstproduktion"
+        "kilder";
+}
+
+
+/* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP START */
+.licens-php #persondataloven {
+    grid-area: persondataloven;
+}
+
+.licens-php #gdpr {
+    grid-area: gdpr;
+}
+
+.licens-php #immaterielle-rettigheder {
+    grid-area: immaterielle-rettigheder;
+}
+
+.licens-php #ophavsret {
+    grid-area: ophavsret;
+}
+
+.licens-php #open-source {
+    grid-area: open-source;
+}
+
+.licens-php #licensaftaler {
+    grid-area: licensaftaler;
+}
+
+.licens-php #mit-licens {
+    grid-area: mit-licens;
+}
+
+.licens-php #creative-commons {
+    grid-area: creative-commons;
+}
+
+.licens-php .kilder {
+    grid-area: kilder;
+}
+
+.licens-php #mitgrid-licens {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "persondataloven"
+        "gdpr"
+        "immaterielle-rettigheder"
+        "ophavsret"
+        "open-source"
+        "licensaftaler"
+        "mit-licens"
+        "creative-commons"
+        "kilder";
+}
+/* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP SLUT */
+
+
+
+
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP START */
+.bmc-php #bmc-intro {
+    grid-area: bmc-intro;
+}
+
+.bmc-php #valueproperty {
+    grid-area: valueproperty;
+}
+
+.bmc-php #kundesegmenter {
+    grid-area: kundesegmenter;
+}
+
+.bmc-php #kunderelationer {
+    grid-area: kunderelationer;
+}
+
+.bmc-php #kanaler {
+    grid-area: kanaler;
+}
+
+.bmc-php #keyactivity {
+    grid-area: keyactivity;
+}
+
+.bmc-php #keyresource {
+    grid-area: keyresource;
+}
+
+.bmc-php #partnere {
+    grid-area: partnere;
+}
+
+.bmc-php #omkostninger {
+    grid-area: omkostninger;
+}
+
+.bmc-php #profit {
+    grid-area: profit;
+}
+
+
+.bmc-php #bmc-9sten {
+    grid-area: bmc-9sten;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "valueproperty"
+        "kundesegmenter"
+        "kunderelationer"
+        "kanaler"
+        "keyactivity"
+        "keyresource"
+        "partnere"
+        "omkostninger"
+        "profit";
+}
+
+
+.bmc-php #bmc-eksempel {
+    grid-area: bmc-eksempel;
+}
+
+.bmc-php .kilder {
+    grid-area: kilder;
+}
+
+.bmc-php #mitgrid-bmc {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "bmc-intro"
+        "bmc-9sten"
+        "bmc-eksempel"
+        "kilder";
+}
+
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP END */
+
+
+
+/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER END */
+
 
 
 
@@ -7332,6 +8372,1029 @@ usability-table {
 }
 
 /* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
+    
+
+    
+    
+
+    
+    
+    
+
+/* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP START */
+.hvad-er-kommunikation-php #hvad-er-kommunikation {
+    grid-area: hvader;
+}
+
+.hvad-er-kommunikation-php #hvad-er-multimediedesign {
+    grid-area: multimediedesign;
+}
+
+.hvad-er-kommunikation-php #typiske-emner {
+    grid-area: typiske-emner;
+}
+
+.hvad-er-kommunikation-php #konklusion-hvad-er-kommunikation {
+    grid-area: konklusion;
+}
+
+.hvad-er-kommunikation-php .kilder {
+    grid-area: kilder;
+}
+
+.hvad-er-kommunikation-php #mitgrid-hvaderkommunikation {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "multimediedesign"
+        "typiske-emner"
+        "konklusion"
+        "kilder";
+}
+
+/* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP SLUT */
+
+
+
+/* HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP START */
+.humanistisk-php #hvad-er-humanistisk {
+    grid-area: hvader;
+}
+
+
+.humanistisk-php #imk-intro {
+    grid-area: imk-intro;
+}
+
+.humanistisk-php #imk-tre-aspekter {
+    grid-area: imk-tre-aspekter;
+}
+
+.humanistisk-php #imk-modellen-img {
+    grid-area: imk-modellen-img;
+}
+
+.humanistisk-php #imk-elementer {
+    grid-area: imk-elementer;
+}
+
+.humanistisk-php #imk-modellen {
+    grid-area: imk-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-areas: 1fr;
+    grid-template-areas: 
+        "imk-intro"
+        "imk-tre-aspekter"
+        "imk-modellen-img"
+        "imk-elementer";
+}
+
+.humanistisk-php #thorlacius-intro {
+    grid-area: thorlacius-intro;
+}
+
+.humanistisk-php #thorlacius-model-img {
+    grid-area: thorlacius-model-img;
+}
+
+.humanistisk-php #thorlacius-elementer {
+    grid-area: thorlacius-elementer;
+}
+
+.humanistisk-php #thorlacius-modellen {
+    grid-area: thorlacius-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "thorlacius-intro"
+        "thorlacius-model-img"
+        "thorlacius-elementer";
+}
+
+
+.humanistisk-php .kilder {
+    grid-area: kilder;
+}
+
+
+.humanistisk-php #mitgrid-humanistisk {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "imk-modellen"
+        "thorlacius-modellen"
+        "kilder";
+}
+
+/* HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP SLUT */
+
+
+
+/* SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP START */
+.samfundsvidenskablig-php #hvad-er-samfundsvidenskablig {
+    grid-area: hvader;
+}
+
+.samfundsvidenskablig-php #kanyle-intro {
+    grid-area: kanyle-intro;
+}
+
+.samfundsvidenskablig-php #lasswell-formel {
+    grid-area: lasswell-formel;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "lasswell-intro"
+        "lasswell-formel-img"
+        "tekst";
+}
+
+.samfundsvidenskablig-php #lasswell-intro {
+    grid-area: lasswell-intro;
+}
+
+.samfundsvidenskablig-php #lasswell-formel-img {
+    grid-area: lasswell-formel-img;
+}
+
+.samfundsvidenskablig-php #lasswell-formel p {
+    grid-area: tekst;
+}
+
+.samfundsvidenskablig-php #kanyle-modellen {
+    grid-area: kanyle-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kanyle-intro"
+        "lasswell-formel";
+}
+
+.samfundsvidenskablig-php #sr-intro {
+    grid-area: sr-intro;
+}
+
+.samfundsvidenskablig-php #s-r-img {
+    grid-area: s-r-img;
+}
+
+.samfundsvidenskablig-php #sr-model .liste {
+    grid-area: liste-sr;
+}
+
+.samfundsvidenskablig-php #sr-model {
+    grid-area: sr-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sr-intro"
+        "s-r-img"
+        "liste-sr";
+}
+
+
+
+.samfundsvidenskablig-php #sor-intro {
+    grid-area: sor-intro;
+}
+
+.samfundsvidenskablig-php #s-o-r-img {
+    grid-area: s-o-r-img;
+}
+
+.samfundsvidenskablig-php #sor-model .liste {
+    grid-area: sor-liste;
+}
+
+.samfundsvidenskablig-php #sor-model {
+    grid-area: sor-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sor-intro"
+        "s-o-r-img"
+        "sor-liste"
+}
+
+
+.samfundsvidenskablig-php #sr-sor-model {
+    grid-area: sr-sor-model;
+}
+
+
+
+.samfundsvidenskablig-php #kortlers-intro {
+    grid-area: kortlers-intro;
+}
+
+.samfundsvidenskablig-php #kortlers-model-img {
+    grid-area: kortlers-model-img;
+}
+
+.samfundsvidenskablig-php #kotlers-elementer {
+    grid-area: kotlers-elementer;
+}
+
+.samfundsvidenskablig-php #kortlers-modellen {
+    grid-area: kortlers-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kortlers-intro"
+        "kortlers-model-img"
+        "kotlers-elementer";
+}
+
+.samfundsvidenskablig-php .kilder {
+    grid-area: kilder;
+}
+
+.samfundsvidenskablig-php #mitgrid-samfundsvidenskabelig {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "kanyle-modellen"
+        "sr-sor-model"
+        "kortlers-modellen"
+        "kilder";
+}
+
+/* SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SLUT */
+
+
+
+/* KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP START */
+.kvalitativ-php #kvalitativ-intro {
+    grid-area: kvalitativ-intro;
+}
+
+.kvalitativ-php #styrker-kvalitativ {
+    grid-area: styrker-kvalitativ;
+}
+
+.kvalitativ-php #svagheder-kvalitativ {
+    grid-area: svagheder-kvalitativ;
+}
+
+.kvalitativ-php #hvad-er-kvalitativ {
+    grid-area: hvad-er-kvalitativ;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "kvalitativ-intro kvalitativ-intro"
+        "styrker-kvalitativ svagheder-kvalitativ";
+}
+
+
+.kvalitativ-php #observation-studie {
+    grid-area: observation-studie;
+}
+
+.kvalitativ-php #kvalitativ-interview {
+    grid-area: kvalitativ-interview;
+}
+
+.kvalitativ-php #kvalitativ-metoder {
+    grid-area: kvalitativ-metoder;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "observation-studie"
+        "kvalitativ-interview";
+}
+
+
+.kvalitativ-php #fokus-grupper {
+    grid-area: fokus-grupper;
+}
+
+.kvalitativ-php #tanke-hojt-test {
+    grid-area: tanke-hojt-test;
+}
+
+
+.kvalitativ-php .kilder {
+    grid-area: kilder;
+}
+
+
+.kvalitativ-php #mitgrid-kvalitativ {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-kvalitativ"
+        "kvalitativ-metoder"
+        "fokus-grupper"
+        "tanke-hojt-test"
+        "kilder";
+}
+
+/* KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP SLUT */
+
+
+
+
+/* KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP START */
+.kvantitativ-php #kvantitativ-intro {
+    grid-area: kvantitativ-intro;
+}
+
+.kvantitativ-php #styrker-kvantitativ {
+    grid-area: styrker-kvantitativ;
+}
+
+.kvantitativ-php #svagheder-kvantitativ {
+    grid-area: svagheder-kvantitativ;
+}
+
+.kvantitativ-php #hvad-er-kvantitativ {
+    grid-area: hvad-er-kvantitativ;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "kvantitativ-intro kvantitativ-intro"
+        "styrker-kvantitativ svagheder-kvantitativ";
+}
+
+
+.kvantitativ-php #kvantitativ-metoder {
+    grid-area: kvantitativ-metoder;
+}
+
+.kvantitativ-php .kilder {
+    grid-area: kilder;
+}
+
+.kvantitativ-php #mitgrid-kvantitativ {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-kvantitativ"
+        "kvantitativ-metoder"
+        "kilder";
+}
+
+/* KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP SLUT */
+
+
+
+/* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP START */
+.latch-php #hvad-er-informationsarkitektur {
+    grid-area: hvad-er-informationsarkitektur;
+}
+
+.latch-php #latch-intro {
+    grid-area: latch-intro;
+}
+
+.latch-php #latch-types {
+    grid-area: latch-types;
+}
+
+.latch-php #latch-def {
+    grid-area: latch-def;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "latch-intro"
+        "latch-types";
+}
+
+
+.latch-php #latch-eksempel-intro {
+    grid-area: latch-eksempel-intro;
+}
+
+.latch-php #kategori-eksempel {
+    grid-area: kategori-eksempel;
+}
+
+.latch-php #location-eksempel {
+    grid-area: location-eksempel;
+}
+
+.latch-php #latch-eksempel {
+    grid-area: latch-eksempel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "latch-eksempel-intro"
+        "kategori-eksempel"
+        "location-eksempel";
+}
+
+
+
+.latch-php #informationsstruktur-brainstorm-intro {
+    grid-area: informationsstruktur-brainstorm-intro;
+}
+
+.latch-php #informationsstruktur-brainstorm-kort {
+    grid-area: informationsstruktur-brainstorm-kort;
+}
+
+.latch-php #informationsstruktur-brainstorm {
+    grid-area: informationsstruktur-brainstorm;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "informationsstruktur-brainstorm-intro"
+        "informationsstruktur-brainstorm-kort";
+}
+
+
+.latch-php .kilder {
+    grid-area: kilder;
+}
+
+.latch-php #mitgrid-informationsarkitektur {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-informationsarkitektur"
+        "latch-def"
+        "latch-eksempel"
+        "informationsstruktur-brainstorm"
+        "kilder";
+}
+
+
+/* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP SLUT */
+
+
+
+
+/* WEBSTRUKTUR.PHP  WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP START */
+.webstruktur-php #hvad-er-webstruktur {
+    grid-area: hvad-er-webstruktur; 
+}
+
+.webstruktur-php #sekvens-webstruktur {
+    grid-area: sekvens-webstruktur;
+}
+
+.webstruktur-php #hieraki-webstruktur {
+    grid-area: hieraki-webstruktur;
+}
+
+.webstruktur-php #webstruktur-struktur {
+    grid-area: webstruktur-struktur;
+}
+
+.webstruktur-php #webstruktur-typer {
+    grid-area: webstruktur-typer;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sekvens-webstruktur"
+        "hieraki-webstruktur"
+        "webstruktur-struktur";
+}
+
+
+.webstruktur-php #visualisere-struktur {
+    grid-area: visualisere-struktur;
+}
+
+.webstruktur-php .kilder {
+    grid-area: kilder;
+}
+
+.webstruktur-php #mitgrid-webstruktur {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-webstruktur"
+        "webstruktur-typer"
+        "visualisere-struktur"
+        "kilder";
+}
+
+
+/* WEBSTRUKTUR.PHP  WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP SLUT */
+
+
+
+
+/* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP START */
+.navigering-php #hvad-er-navigering {
+    grid-area: hvad-er-navigering;
+}
+
+
+.navigering-php #linear-navigering {
+    grid-area: linear-navigering;
+}
+
+.navigering-php #hieraki-navigering {
+    grid-area: hieraki-navigering;
+}
+
+.navigering-php #sammenhang-navigering {
+    grid-area: sammenhang-navigering;
+}
+
+.navigering-php #navigeringstruktur-typer {
+    grid-area: navigeringstruktur-typer;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "linear-navigering"
+        "hieraki-navigering"
+        "sammenhang-navigering";
+}
+
+
+.navigering-php #wayfinding {
+    grid-area: wayfinding;
+}
+
+
+.navigering-php #hvad-er-mapping {
+    grid-area: hvad-er-mapping;
+}
+
+.navigering-php #mapping-good {
+    grid-area: mapping-good;
+}
+
+.navigering-php #mapping-bad {
+    grid-area: mapping-bad;
+}
+
+.navigering-php #mapping-eksempel {
+    grid-area: mapping-eksempel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "mapping-good"
+        "mapping-bad";
+}
+
+.navigering-php #mapping {
+    grid-area: mapping;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-mapping"
+        "mapping-eksempel";
+}
+
+
+.navigering-php .kilder {
+    grid-area: kilder;
+}
+
+
+.navigering-php #mitgrid-navigering {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-navigering"
+        "navigeringstruktur-typer"
+        "wayfinding"
+        "mapping"
+        "kilder";
+}
+
+/* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP SLUT */
+
+
+
+/* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP START */
+.godtale-php #multimediedesigner-presentation {
+    grid-area: multimediedesigner-presentation;
+}
+
+
+.godtale-php #inventio {
+    grid-area: inventio;
+}
+
+.godtale-php #dispositio {
+    grid-area: dispositio;
+}
+
+.godtale-php #elocutio {
+    grid-area: elocutio;
+}
+
+.godtale-php #memoria {
+    grid-area: memoria;
+}
+
+.godtale-php #actio {
+    grid-area: actio;
+}
+
+.godtale-php #opskrift-tale {
+    grid-area: opskrift-tale;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "inventio"
+        "dispositio"
+        "elocutio"
+        "memoria"
+        "actio";
+}
+
+
+.godtale-php #fisk-model-intro {
+    grid-area: fisk-model-intro;
+}
+
+.godtale-php #fisk-begynd {
+    grid-area: fisk-begynd;
+}
+
+.godtale-php #fisk-midt {
+    grid-area: fisk-midt;
+}
+
+.godtale-php #fisk-model-img {
+    grid-area: fisk-model-img;
+}
+
+.godtale-php #fisk-afslut {
+    grid-area: fisk-afslut;
+}
+
+.godtale-php #fisk-model {
+    grid-area: fisk-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "fisk-model-intro"
+        "fisk-model-img"
+        "fisk-begynd"
+        "fisk-midt"
+        "fisk-afslut";
+}
+
+
+.godtale-php #the-9-c {
+    grid-area: the-9-c;
+}
+
+.godtale-php .kilder {
+    grid-area: kilder;
+}
+
+.godtale-php #mitgrid-godtale {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "multimediedesigner-presentation"
+        "opskrift-tale"
+        "fisk-model"
+        "the-9-c"
+        "kilder";
+}
+
+/* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP END */
+
+
+
+/* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP START */
+.powerpoint-php #powerpoint-intro {
+    grid-area: powerpoint-intro;
+}
+
+.powerpoint-php #principper-liste {
+    grid-area: principper-liste;
+}
+
+.powerpoint-php #powerpoint-eksempel {
+    grid-area: powerpoint-eksempel;
+}
+
+.powerpoint-php .kilder {
+    grid-area: kilder;
+}
+
+.powerpoint-php #mitgrid-powerpoint {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "powerpoint-intro"
+        "principper-liste"
+        "powerpoint-eksempel"
+        "kilder";
+}
+
+
+/* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP END */
+
+
+
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP START */
+
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
+.tekstproduktion-php #nyhedskritier {
+    grid-area: nyhedskritier;
+}
+
+.tekstproduktion-php #proces-scanning {
+    grid-area: proces-scanning;
+}
+
+.tekstproduktion-php #nyhedstrekant {
+    grid-area: nyhedstrekant;
+}
+
+.tekstproduktion-php #nyhedsartikel {
+    grid-area: nyhedsartikel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "nyhedskritier"
+        "nyhedstrekant"
+        "proces-scanning";
+}
+
+
+.tekstproduktion-php #webtekst-intro {
+    grid-area: webtekst-intro;
+}
+
+.tekstproduktion-php #karateristika-bruger {
+    grid-area: karateristika-bruger;
+}
+
+.tekstproduktion-php #webtekst {
+    grid-area: webtekst;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "webtekst-intro"
+        "karateristika-bruger";
+}
+
+
+.tekstproduktion-php #hey-you-see-so {
+    grid-area: hey-you-see-so;
+}
+
+
+
+.tekstproduktion-php #klarhed {
+    grid-area: klarhed;
+}
+
+.tekstproduktion-php #syv-geniale {
+    grid-area: syv-geniale;
+}
+
+.tekstproduktion-php #skive-princip {
+    grid-area: skive-princip;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "klarhed"
+        "syv-geniale";
+}
+
+
+.tekstproduktion-php #refleksion-tekstproduktion {
+    grid-area: refleksion-tekstproduktion;
+}
+
+.tekstproduktion-php .kilder {
+    grid-area: kilder;
+}
+
+.tekstproduktion-php #mitgrid-tekstproduktion {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "nyhedsartikel"
+        "webtekst"
+        "hey-you-see-so"
+        "skive-princip"
+        "refleksion-tekstproduktion"
+        "kilder";
+}
+
+
+/* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP START */
+.licens-php #persondataloven {
+    grid-area: persondataloven;
+}
+
+.licens-php #gdpr {
+    grid-area: gdpr;
+}
+
+.licens-php #immaterielle-rettigheder {
+    grid-area: immaterielle-rettigheder;
+}
+
+.licens-php #ophavsret {
+    grid-area: ophavsret;
+}
+
+.licens-php #open-source {
+    grid-area: open-source;
+}
+
+.licens-php #licensaftaler {
+    grid-area: licensaftaler;
+}
+
+.licens-php #mit-licens {
+    grid-area: mit-licens;
+}
+
+.licens-php #creative-commons {
+    grid-area: creative-commons;
+}
+
+.licens-php .kilder {
+    grid-area: kilder;
+}
+
+.licens-php #mitgrid-licens {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "persondataloven"
+        "gdpr"
+        "immaterielle-rettigheder"
+        "ophavsret"
+        "open-source"
+        "licensaftaler"
+        "mit-licens"
+        "creative-commons"
+        "kilder";
+}
+/* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP SLUT */
+
+
+
+
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP START */
+.bmc-php #bmc-intro {
+    grid-area: bmc-intro;
+}
+
+.bmc-php #valueproperty {
+    grid-area: valueproperty;
+}
+
+.bmc-php #kundesegmenter {
+    grid-area: kundesegmenter;
+}
+
+.bmc-php #kunderelationer {
+    grid-area: kunderelationer;
+}
+
+.bmc-php #kanaler {
+    grid-area: kanaler;
+}
+
+.bmc-php #keyactivity {
+    grid-area: keyactivity;
+}
+
+.bmc-php #keyresource {
+    grid-area: keyresource;
+}
+
+.bmc-php #partnere {
+    grid-area: partnere;
+}
+
+.bmc-php #omkostninger {
+    grid-area: omkostninger;
+}
+
+.bmc-php #profit {
+    grid-area: profit;
+}
+
+
+.bmc-php #bmc-9sten {
+    grid-area: bmc-9sten;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "valueproperty"
+        "kundesegmenter"
+        "kunderelationer"
+        "kanaler"
+        "keyactivity"
+        "keyresource"
+        "partnere"
+        "omkostninger"
+        "profit";
+}
+
+
+.bmc-php #bmc-eksempel {
+    grid-area: bmc-eksempel;
+}
+
+.bmc-php .kilder {
+    grid-area: kilder;
+}
+
+.bmc-php #mitgrid-bmc {
+    margin: 3.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "bmc-intro"
+        "bmc-9sten"
+        "bmc-eksempel"
+        "kilder";
+}
+
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP END */
+
+
+
+/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER END */
+
+    
     
     
     
@@ -10990,7 +13053,1065 @@ usability-table {
 }
 
 /* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
+
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP START */
+.hvad-er-kommunikation-php #hvad-er-kommunikation {
+    grid-area: hvader;
+}
+
+.hvad-er-kommunikation-php #hvad-er-multimediedesign {
+    grid-area: multimediedesign;
+}
+
+.hvad-er-kommunikation-php #typiske-emner {
+    grid-area: typiske-emner;
+}
+
+.hvad-er-kommunikation-php #konklusion-hvad-er-kommunikation {
+    grid-area: konklusion;
+}
+
+.hvad-er-kommunikation-php .kilder {
+    grid-area: kilder;
+}
+
+.hvad-er-kommunikation-php #mitgrid-hvaderkommunikation {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "multimediedesign"
+        "typiske-emner"
+        "konklusion"
+        "kilder";
+}
+
+/* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP SLUT */
+
+
+
+/* HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP START */
+.humanistisk-php #hvad-er-humanistisk {
+    grid-area: hvader;
+}
+
+
+.humanistisk-php #imk-intro {
+    grid-area: imk-intro;
+}
+
+.humanistisk-php #imk-tre-aspekter {
+    grid-area: imk-tre-aspekter;
+}
+
+.humanistisk-php #imk-modellen-img {
+    grid-area: imk-modellen-img;
+}
+
+.humanistisk-php #imk-elementer {
+    grid-area: imk-elementer;
+}
+
+.humanistisk-php #imk-modellen {
+    grid-area: imk-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: 
+        "imk-intro imk-intro"
+        "imk-tre-aspekter imk-tre-aspekter"
+        "imk-modellen-img imk-elementer";
+}
+
+.humanistisk-php #thorlacius-intro {
+    grid-area: thorlacius-intro;
+}
+
+.humanistisk-php #thorlacius-model-img {
+    grid-area: thorlacius-model-img;
+}
+
+.humanistisk-php #thorlacius-elementer {
+    grid-area: thorlacius-elementer;
+}
+
+.humanistisk-php #thorlacius-modellen {
+    grid-area: thorlacius-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: 
+        "thorlacius-intro thorlacius-intro"
+        "thorlacius-model-img thorlacius-elementer";
+}
+
+
+.humanistisk-php .kilder {
+    grid-area: kilder;
+}
+
+
+.humanistisk-php #mitgrid-humanistisk {
+    margin: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "imk-modellen"
+        "thorlacius-modellen"
+        "kilder";
+}
+
+/* HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP HUMANISTISK.PHP SLUT */
+
+
+
+/* SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP START */
+.samfundsvidenskablig-php #hvad-er-samfundsvidenskablig {
+    grid-area: hvader;
+}
+
+.samfundsvidenskablig-php #kanyle-intro {
+    grid-area: kanyle-intro;
+}
+
+.samfundsvidenskablig-php #lasswell-formel {
+    grid-area: lasswell-formel;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "lasswell-intro"
+        "lasswell-formel-img"
+        "tekst";
+}
+
+.samfundsvidenskablig-php #lasswell-intro {
+    grid-area: lasswell-intro;
+}
+
+.samfundsvidenskablig-php #lasswell-formel-img {
+    grid-area: lasswell-formel-img;
+}
+
+.samfundsvidenskablig-php #lasswell-formel p {
+    grid-area: tekst;
+}
+
+.samfundsvidenskablig-php #kanyle-modellen {
+    grid-area: kanyle-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kanyle-intro"
+        "lasswell-formel";
+}
+
+.samfundsvidenskablig-php #sr-intro {
+    grid-area: sr-intro;
+}
+
+.samfundsvidenskablig-php #s-r-img {
+    grid-area: s-r-img;
+}
+
+.samfundsvidenskablig-php #sr-model .liste {
+    grid-area: liste-sr;
+}
+
+.samfundsvidenskablig-php #sr-model {
+    grid-area: sr-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "sr-intro sr-intro"
+        "s-r-img liste-sr";
+}
+
+
+
+.samfundsvidenskablig-php #sor-intro {
+    grid-area: sor-intro;
+}
+
+.samfundsvidenskablig-php #s-o-r-img {
+    grid-area: s-o-r-img;
+}
+
+.samfundsvidenskablig-php #sor-model .liste {
+    grid-area: sor-liste;
+}
+
+.samfundsvidenskablig-php #sor-model {
+    grid-area: sor-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "sor-intro sor-intro"
+        "s-o-r-img sor-liste";
+}
+
+
+.samfundsvidenskablig-php #sr-sor-model {
+    grid-area: sr-sor-model;
+}
+
+
+
+.samfundsvidenskablig-php #kortlers-intro {
+    grid-area: kortlers-intro;
+}
+
+.samfundsvidenskablig-php #kortlers-model-img {
+    grid-area: kortlers-model-img;
+}
+
+.samfundsvidenskablig-php #kotlers-elementer {
+    grid-area: kotlers-elementer;
+}
+
+.samfundsvidenskablig-php #kortlers-modellen {
+    grid-area: kortlers-modellen;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "kortlers-intro"
+        "kortlers-model-img"
+        "kotlers-elementer";
+}
+
+.samfundsvidenskablig-php .kilder {
+    grid-area: kilder;
+}
+
+.samfundsvidenskablig-php #mitgrid-samfundsvidenskabelig {
+    margin: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvader"
+        "kanyle-modellen"
+        "sr-sor-model"
+        "kortlers-modellen"
+        "kilder";
+}
+
+/* SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SAMFUNDSVIDENSKABELIG.PHP SLUT */
+
+
+
+/* KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP START */
+.kvalitativ-php #kvalitativ-intro {
+    grid-area: kvalitativ-intro;
+}
+
+.kvalitativ-php #styrker-kvalitativ {
+    grid-area: styrker-kvalitativ;
+}
+
+.kvalitativ-php #svagheder-kvalitativ {
+    grid-area: svagheder-kvalitativ;
+}
+
+.kvalitativ-php #hvad-er-kvalitativ {
+    grid-area: hvad-er-kvalitativ;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "kvalitativ-intro kvalitativ-intro"
+        "styrker-kvalitativ svagheder-kvalitativ";
+}
+
+
+.kvalitativ-php #observation-studie {
+    grid-area: observation-studie;
+}
+
+.kvalitativ-php #kvalitativ-interview {
+    grid-area: kvalitativ-interview;
+}
+
+.kvalitativ-php #kvalitativ-metoder {
+    grid-area: kvalitativ-metoder;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "observation-studie"
+        "kvalitativ-interview";
+}
+
+
+.kvalitativ-php #fokus-grupper {
+    grid-area: fokus-grupper;
+}
+
+.kvalitativ-php #tanke-hojt-test {
+    grid-area: tanke-hojt-test;
+}
+
+
+.kvalitativ-php .kilder {
+    grid-area: kilder;
+}
+
+
+.kvalitativ-php #mitgrid-kvalitativ {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-kvalitativ"
+        "kvalitativ-metoder"
+        "fokus-grupper"
+        "tanke-hojt-test"
+        "kilder";
+}
+
+/* KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP KVALITATIV.PHP SLUT */
+
+
+
+
+/* KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP START */
+.kvantitativ-php #kvantitativ-intro {
+    grid-area: kvantitativ-intro;
+}
+
+.kvantitativ-php #styrker-kvantitativ {
+    grid-area: styrker-kvantitativ;
+}
+
+.kvantitativ-php #svagheder-kvantitativ {
+    grid-area: svagheder-kvantitativ;
+}
+
+.kvantitativ-php #hvad-er-kvantitativ {
+    grid-area: hvad-er-kvantitativ;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "kvantitativ-intro kvantitativ-intro"
+        "styrker-kvantitativ svagheder-kvantitativ";
+}
+
+
+.kvantitativ-php #kvantitativ-metoder {
+    grid-area: kvantitativ-metoder;
+}
+
+.kvantitativ-php .kilder {
+    grid-area: kilder;
+}
+
+.kvantitativ-php #mitgrid-kvantitativ {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-kvantitativ"
+        "kvantitativ-metoder"
+        "kilder";
+}
+
+/* KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP KVANTITATIV.PHP SLUT */
+
+
+
+/* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP START */
+.latch-php #hvad-er-informationsarkitektur {
+    grid-area: hvad-er-informationsarkitektur;
+}
+
+.latch-php #latch-intro {
+    grid-area: latch-intro;
+}
+
+.latch-php #latch-types {
+    grid-area: latch-types;
+}
+
+.latch-php #latch-def {
+    grid-area: latch-def;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "latch-intro"
+        "latch-types";
+}
+
+
+.latch-php #latch-eksempel-intro {
+    grid-area: latch-eksempel-intro;
+}
+
+.latch-php #kategori-eksempel {
+    grid-area: kategori-eksempel;
+}
+
+.latch-php #location-eksempel {
+    grid-area: location-eksempel;
+}
+
+.latch-php #latch-eksempel {
+    grid-area: latch-eksempel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "latch-eksempel-intro"
+        "kategori-eksempel"
+        "location-eksempel";
+}
+
+
+
+.latch-php #informationsstruktur-brainstorm-intro {
+    grid-area: informationsstruktur-brainstorm-intro;
+}
+
+.latch-php #informationsstruktur-brainstorm-kort {
+    grid-area: informationsstruktur-brainstorm-kort;
+}
+
+.latch-php #informationsstruktur-brainstorm {
+    grid-area: informationsstruktur-brainstorm;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "informationsstruktur-brainstorm-intro"
+        "informationsstruktur-brainstorm-kort";
+}
+
+
+.latch-php .kilder {
+    grid-area: kilder;
+}
+
+.latch-php #mitgrid-informationsarkitektur {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-informationsarkitektur"
+        "latch-def"
+        "latch-eksempel"
+        "informationsstruktur-brainstorm"
+        "kilder";
+}
+
+
+/* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP SLUT */
+
+
+
+
+/* WEBSTRUKTUR.PHP  WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP START */
+.webstruktur-php #hvad-er-webstruktur {
+    grid-area: hvad-er-webstruktur; 
+}
+
+.webstruktur-php #sekvens-webstruktur {
+    grid-area: sekvens-webstruktur;
+}
+
+.webstruktur-php #hieraki-webstruktur {
+    grid-area: hieraki-webstruktur;
+}
+
+.webstruktur-php #webstruktur-struktur {
+    grid-area: webstruktur-struktur;
+}
+
+.webstruktur-php #webstruktur-typer {
+    grid-area: webstruktur-typer;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "sekvens-webstruktur"
+        "hieraki-webstruktur"
+        "webstruktur-struktur";
+}
+
+
+.webstruktur-php #visualisere-struktur {
+    grid-area: visualisere-struktur;
+}
+
+.webstruktur-php .kilder {
+    grid-area: kilder;
+}
+
+.webstruktur-php #mitgrid-webstruktur {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-webstruktur"
+        "webstruktur-typer"
+        "visualisere-struktur"
+        "kilder";
+}
+
+
+/* WEBSTRUKTUR.PHP  WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP WEBSTRUKTUR.PHP SLUT */
+
+
+
+
+/* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP START */
+.navigering-php #hvad-er-navigering {
+    grid-area: hvad-er-navigering;
+}
+
+
+.navigering-php #linear-navigering {
+    grid-area: linear-navigering;
+}
+
+.navigering-php #hieraki-navigering {
+    grid-area: hieraki-navigering;
+}
+
+.navigering-php #sammenhang-navigering {
+    grid-area: sammenhang-navigering;
+}
+
+.navigering-php #navigeringstruktur-typer {
+    grid-area: navigeringstruktur-typer;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "linear-navigering"
+        "hieraki-navigering"
+        "sammenhang-navigering";
+}
+
+
+.navigering-php #wayfinding {
+    grid-area: wayfinding;
+}
+
+
+.navigering-php #hvad-er-mapping {
+    grid-area: hvad-er-mapping;
+}
+
+.navigering-php #mapping-good {
+    grid-area: mapping-good;
+}
+
+.navigering-php #mapping-bad {
+    grid-area: mapping-bad;
+}
+
+.navigering-php #mapping-eksempel {
+    grid-area: mapping-eksempel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "mapping-good"
+        "mapping-bad";
+}
+
+.navigering-php #mapping {
+    grid-area: mapping;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-mapping"
+        "mapping-eksempel";
+}
+
+
+.navigering-php .kilder {
+    grid-area: kilder;
+}
+
+
+.navigering-php #mitgrid-navigering {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "hvad-er-navigering"
+        "navigeringstruktur-typer"
+        "wayfinding"
+        "mapping"
+        "kilder";
+}
+
+/* NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP NAVIGERING.PHP SLUT */
+
+
+
+/* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP START */
+.godtale-php #multimediedesigner-presentation {
+    grid-area: multimediedesigner-presentation;
+}
+
+
+.godtale-php #inventio {
+    grid-area: inventio;
+}
+
+.godtale-php #dispositio {
+    grid-area: dispositio;
+}
+
+.godtale-php #elocutio {
+    grid-area: elocutio;
+}
+
+.godtale-php #memoria {
+    grid-area: memoria;
+}
+
+.godtale-php #actio {
+    grid-area: actio;
+}
+
+.godtale-php #opskrift-tale {
+    grid-area: opskrift-tale;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "inventio"
+        "dispositio"
+        "elocutio"
+        "memoria"
+        "actio";
+}
+
+
+.godtale-php #fisk-model-intro {
+    grid-area: fisk-model-intro;
+}
+
+.godtale-php #fisk-begynd {
+    grid-area: fisk-begynd;
+}
+
+.godtale-php #fisk-midt {
+    grid-area: fisk-midt;
+}
+
+.godtale-php #fisk-model-img {
+    grid-area: fisk-model-img;
+}
+
+.godtale-php #fisk-afslut {
+    grid-area: fisk-afslut;
+}
+
+.godtale-php #fisk-model {
+    grid-area: fisk-model;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "fisk-model-intro fisk-model-intro fisk-model-intro"
+        "fisk-model-img fisk-model-img fisk-model-img"
+        "fisk-begynd fisk-midt fisk-afslut";
+}
+
+
+.godtale-php #the-9-c {
+    grid-area: the-9-c;
+}
+
+.godtale-php .kilder {
+    grid-area: kilder;
+}
+
+.godtale-php #mitgrid-godtale {
+    margin: 6em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "multimediedesigner-presentation"
+        "opskrift-tale"
+        "fisk-model"
+        "the-9-c"
+        "kilder";
+}
+
+/* OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP OPSKRIFTTILGODTALE.PHP END */
+
+
+
+/* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP START */
+.powerpoint-php #powerpoint-intro {
+    grid-area: powerpoint-intro;
+}
+
+.powerpoint-php #principper-liste {
+    grid-area: principper-liste;
+}
+
+.powerpoint-php #powerpoint-eksempel {
+    grid-area: powerpoint-eksempel;
+}
+
+.powerpoint-php .kilder {
+    grid-area: kilder;
+}
+
+.powerpoint-php #mitgrid-powerpoint {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "powerpoint-intro"
+        "principper-liste"
+        "powerpoint-eksempel"
+        "kilder";
+}
+
+
+/* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP END */
+
+
+
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP START */
+
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
+.tekstproduktion-php #nyhedskritier {
+    grid-area: nyhedskritier;
+}
+
+.tekstproduktion-php #proces-scanning {
+    grid-area: proces-scanning;
+}
+
+.tekstproduktion-php #nyhedstrekant {
+    grid-area: nyhedstrekant;
+}
+
+.tekstproduktion-php #nyhedsartikel {
+    grid-area: nyhedsartikel;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "nyhedskritier"
+        "nyhedstrekant"
+        "proces-scanning";
+}
+
+
+.tekstproduktion-php #webtekst-intro {
+    grid-area: webtekst-intro;
+}
+
+.tekstproduktion-php #karateristika-bruger {
+    grid-area: karateristika-bruger;
+}
+
+.tekstproduktion-php #webtekst {
+    grid-area: webtekst;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "webtekst-intro"
+        "karateristika-bruger";
+}
+
+
+.tekstproduktion-php #hey-you-see-so {
+    grid-area: hey-you-see-so;
+}
+
+
+
+.tekstproduktion-php #klarhed {
+    grid-area: klarhed;
+}
+
+.tekstproduktion-php #syv-geniale {
+    grid-area: syv-geniale;
+}
+
+.tekstproduktion-php #skive-princip {
+    grid-area: skive-princip;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "klarhed syv-geniale";
+}
+
+
+.tekstproduktion-php #refleksion-tekstproduktion {
+    grid-area: refleksion-tekstproduktion;
+}
+
+.tekstproduktion-php .kilder {
+    grid-area: kilder;
+}
+
+.tekstproduktion-php #mitgrid-tekstproduktion {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "nyhedsartikel"
+        "webtekst"
+        "hey-you-see-so"
+        "skive-princip"
+        "refleksion-tekstproduktion"
+        "kilder";
+}
+
+
+/* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP START */
+.licens-php #persondataloven {
+    grid-area: persondataloven;
+}
+
+.licens-php #gdpr {
+    grid-area: gdpr;
+}
+
+.licens-php #immaterielle-rettigheder {
+    grid-area: immaterielle-rettigheder;
+}
+
+.licens-php #ophavsret {
+    grid-area: ophavsret;
+}
+
+.licens-php #open-source {
+    grid-area: open-source;
+}
+
+.licens-php #licensaftaler {
+    grid-area: licensaftaler;
+}
+
+.licens-php #mit-licens {
+    grid-area: mit-licens;
+}
+
+.licens-php #creative-commons {
+    grid-area: creative-commons;
+}
+
+.licens-php .kilder {
+    grid-area: kilder;
+}
+
+.licens-php #mitgrid-licens {
+    margin: 5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "persondataloven gdpr"
+        "immaterielle-rettigheder ophavsret"
+        "open-source licensaftaler"
+        "mit-licens creative-commons"
+        "kilder kilder";
+}
+/* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP SLUT */
+
+
+
+
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP START */
+    .bmc-php h3 {
+        display: none;
+    }
+    
+    #bmc-eksempel-img1 {
+        grid-area: img1;
+    }
+    
+    #bmc-eksempel-img2 {
+        grid-area: img2;
+    }
+    
+    .bmc-php #bmc-figure {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-template-areas: 
+            "img1 img2";
+    }
+    
+.bmc-php #bmc-intro {
+    grid-area: bmc-intro;
+}
+
+.bmc-php #valueproperty {
+    grid-area: valueproperty;
+    border: 2px solid black;
+    padding: 10px;
+    border-top: 4px solid black;
+}
+
+.bmc-php #kundesegmenter {
+    grid-area: kundesegmenter;
+    border: 2px solid black;
+    padding: 10px;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.bmc-php #kunderelationer {
+    grid-area: kunderelationer;
+    border: 2px solid black;
+    padding: 10px;
+    border-top: 4px solid black;
+}
+
+.bmc-php #kanaler {
+    grid-area: kanaler;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.bmc-php #keyactivity {
+    grid-area: keyactivity;
+    border: 2px solid black;
+    padding: 10px;
+    border-top: 4px solid black;
+}
+
+.bmc-php #keyresource {
+    grid-area: keyresource;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.bmc-php #partnere {
+    grid-area: partnere;
+    border: 2px solid black;
+    padding: 10px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.bmc-php #omkostninger {
+    grid-area: omkostninger;
+    border: 2px solid black;
+    padding: 10px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.bmc-php #profit {
+    grid-area: profit;
+    border: 2px solid black;
+    padding: 10px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+
+.bmc-php #bmc-9sten {
+    grid-area: bmc-9sten;
+    margin-right: -4em;
+    margin-left: -4em;
+    display: grid;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    grid-template-columns: 0.5fr 0.5fr 0.25fr 0.25fr 0.5fr 0.5fr;
+    grid-template-areas: 
+        "partnere keyactivity valueproperty valueproperty kunderelationer kundesegmenter"
+        "partnere keyresource valueproperty valueproperty kanaler kundesegmenter"
+        "omkostninger omkostninger omkostninger profit profit profit";
+}
+
+
+.bmc-php #bmc-eksempel {
+    grid-area: bmc-eksempel;
+}
+
+.bmc-php .kilder {
+    grid-area: kilder;
+}
+
+.bmc-php #mitgrid-bmc {
+    margin: 7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "bmc-intro"
+        "bmc-9sten"
+        "bmc-eksempel"
+        "kilder";
+}
+
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP END */
+
+
+
+/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER END */
     
     
     

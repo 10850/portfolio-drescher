@@ -119,6 +119,29 @@
                             Mapping handler om at gøre brugerens brugeroplevelse så naturlig og intuitiv som overhovedet muligt (ibid).
                         </p>
                     </section>
+                    
+                    <section id="mapping-eksempel">
+                        <section id="mapping-good">
+                            <h3 class="underoverskrift">
+                                Skatepro: eksempel på god mapping
+                            </h3>
+                            <img src="kommunikation/Informationsarkitektur/navigerings-filter.png" alt="screenshot af Skatepros website" id="mapping-good-img">
+                            <p class="body-text">
+                                På selv samme side er der mulighed for at filetere efter NYESTE, som beskriver præcist hvad der vil ske med brugen af denne funktion, at man ser det nyeste produkt først.
+                            </p>
+                            <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Dette eksempel kommer fra min K3 opgave om informationsarkitektur og navigeringsdesign</a>
+                        </section>
+                        <section id="mapping-bad">
+                            <h3 class="underoverskrift">
+                                Skatepro: eksempel på dårlig mapping
+                            </h3>
+                            <img src="kommunikation/Informationsarkitektur/navigering-filter-bad.png" alt="screenshot af Skatepros website" id="mapping-bad-img">
+                            <p class="body-text">
+                                Der mulighed for at filtrere efter PRIS men man ved ikke om det er billigst eller dyrest der vil komme først og der er ingen mulighed for at bestemme det efter man har trykket. Så afsenderen forventer at de ved hvad kunderne vil have som her, for dem, er billigst først. 
+                            </p>
+                            <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Dette eksempel kommer fra min K3 opgave om informationsarkitektur og navigeringsdesign</a>
+                        </section>
+                    </section>
                 </section>
             
             

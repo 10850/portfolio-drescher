@@ -43,6 +43,10 @@
                             Dybdegående ”hv” spørgsmål (ibid).
                         </li>
                     </ul>
+                    
+                    <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">
+                        Denne information og informationen på resten af siden uddybbes mere i min rapport om kvalitativ og kvantitativ empiri.
+                    </a>
                 </section>
                 <section id="styrker-kvalitativ">
                     <h3 class="underoverskrift">Stryker</h3>
@@ -78,7 +82,7 @@
             </section>
             
             <section id="kvalitativ-metoder">
-                <section id="observationstudie">
+                <section id="observation-studie">
                     <section id="observation-intro">
                         <h2 class="overskrift">Observationsstudier</h2>
                         <p class="body-text">
