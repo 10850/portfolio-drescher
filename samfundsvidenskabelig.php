@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+        <?php include 'paradigmer-undermenu.inc' ?>
+        
         <h1 class="titel">Samfundsvidenskablige paradigme</h1>
         
         <div id="mitgrid-samfundsvidenskabelig">

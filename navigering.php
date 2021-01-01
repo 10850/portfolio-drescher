@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+        <?php include 'navigering-undermenu.inc' ?>
+        
         <h1 class="titel">Navigeringsdesign</h1>
         
         <div id="mitgrid-navigering">

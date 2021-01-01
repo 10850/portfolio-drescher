@@ -22,6 +22,8 @@
             <?php include 'menu.inc' ?>
         </header>
         
+        <?php include 'empiri-undermenu.inc' ?>
+        
         <h1 class="titel">Kvalitativ empiri</h1>
         
         <div id="mitgrid-kvalitativ">

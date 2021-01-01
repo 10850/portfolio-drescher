@@ -4038,6 +4038,24 @@ video-php h1 {
     background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
 }
 
+.hvad-er-kommunikation-php .undermenu-mobil button,
+.humanistisk-php .undermenu-mobil button,
+.samfundsvidenskablig-php .undermenu-mobil button,
+.kvalitativ-php .undermenu-mobil button,
+.kvantitativ-php .undermenu-mobil button,
+.latch-php .undermenu-mobil button,
+.webstruktur-php .undermenu-mobil button,
+.navigering-php .undermenu-mobil button,
+.godtale-php .undermenu-mobil button,
+.powerpoint-php .undermenu-mobil button,
+.tekstproduktion-php .undermenu-mobil button,
+.licens-php .undermenu-mobil button,
+.bmc-php .undermenu-mobil button {
+    background: linear-gradient(180deg, #0CD4F7, #0C4FF7) no-repeat;
+}
+
+
+
 /* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP START */
 .hvad-er-kommunikation-php #hvad-er-kommunikation {
     grid-area: hvader;
