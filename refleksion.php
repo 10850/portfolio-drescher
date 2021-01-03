@@ -22,7 +22,7 @@
             <?php include 'menu.inc' ?>
         </header>
         
-            <h1 class="titel">Farver</h1>
+            <h1 class="titel">Arbejdet Bag</h1>
         
             <div id="mitgrid-refleksion">
                     <section id="informationsarkitektur-refleksion">
@@ -140,7 +140,7 @@
                             <p class="body-text">
                                 Jeg endte med at vælge: 
                             </p>
-                            <ul class="body-text">
+                            <ul class="liste">
                                 <li>
                                     Montserrat sans serif for alle mine overskrift
                                 </li>
@@ -196,7 +196,7 @@
                                 </p>
                             </section>
                             
-                            <img src="refleksion/wireframe-desktop-lofi.jpg" alt="billed af mine lofi wireframes" id="lofi-wireframe-portfolio">
+                            <img src="refleksion/lofi-wireframe-mobildesktop.jpg" alt="billed af mine lofi wireframes" id="lofi-wireframe-portfolio">
                             
                             <img src="refleksion/wireframe-desktopmobil-hifi.png" alt="billed af mine hifi wireframes" id="hifi-wireframe-portfolio1">
                             
@@ -213,9 +213,13 @@
                                 </p>
                             </section>
                             
-                            <img src="refleksion/wireframe-desktopmobil-hifi2.png" alt="billed af mine hifi wireframes med baggrundsfarve" id="hifi-wireframes-hifi2">
                             
-                            <img src="refleksion/wireframe-projekt-hifi.jpg" alt="billed af hifi wireframe for en projekt side" id="projektside-wireframe">
+                            <div id="grid-wireframe-img">
+                                <img src="refleksion/wireframe-desktopmobil-hifi2.png" alt="billed af mine hifi wireframes med baggrundsfarve" id="hifi-wireframes-hifi2">
+                            
+                                <img src="refleksion/wireframe-projekt-hifi.jpg" alt="billed af hifi wireframe for en projekt side" id="projektside-wireframe">
+                            </div>
+                            
                             
                         </section>
                         

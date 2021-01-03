@@ -5047,9 +5047,104 @@ video-php h1 {
 
 
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN START */
+.refleksion-php .navbar {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.refleksion-php footer {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.refleksion-php h1 {
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+.refleksion-php #projektside-wireframe  {
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.refleksion-php #logo-skitser {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.refleksion-php #informationsarkitektur-refleksion {
+    grid-area: informationsarkitektur-refleksion;
+}
+
+.refleksion-php #tekstproduktion-refleksion-portfolio {
+    grid-area: tekstproduktion-refleksion-portfolio;
+}
+
+
+.refleksion-php #design-refleksion-intro {
+    grid-area: design-refleksion-intro;
+}
+
+.refleksion-php #typografi-refleksion {
+    grid-area: typografi-refleksion;
+}
+
+.refleksion-php #farver-refleksion {
+    grid-area: farver-refleksion;
+}
+
+.refleksion-php #wireframes-refleksion {
+    grid-area: wireframes-refleksion;
+}
+
+.refleksion-php #logo-refleksion {
+    grid-area: logo-refleksion;
+}
+
+.refleksion-php #gestalt-refleksion {
+    grid-area: gestalt-refleksion;
+}
+
+.refleksion-php #design-refleksion {
+    grid-area: design-refleksion;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "design-refleksion-intro"
+        "typografi-refleksion"
+        "farver-refleksion"
+        "wireframes-refleksion"
+        "logo-refleksion"
+        "gestalt-refleksion";
+}
+
+
+.refleksion-php #kodning-refleksion-portfolio {
+    grid-area: kodning-refleksion-portfolio;
+}
+
+.refleksion-php #navigationsdesign-refleksion {
+    grid-area: navigationsdesign-refleksion;
+}
 
 
 
+.refleksion-php #mitgrid-refleksion {
+    margin: 0.8em;
+    display: grid;
+    grid-row-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "informationsarkitektur-refleksion"
+        "tekstproduktion-refleksion-portfolio"
+        "design-refleksion"
+        "kodning-refleksion-portfolio"
+        "navigationsdesign-refleksion";
+}
 
 
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
@@ -9413,6 +9508,121 @@ usability-table {
 
 /* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER END */
 
+    
+    
+    
+    
+/* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN START */
+.refleksion-php .navbar {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.refleksion-php footer {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.refleksion-php h1 {
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+.refleksion-php #projektside-wireframe  {
+    max-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.refleksion-php #logo-skitser {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+    
+    .refleksion-php #closure-logo-ref {
+        max-width: 60%;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+.refleksion-php #informationsarkitektur-refleksion {
+    grid-area: informationsarkitektur-refleksion;
+}
+
+.refleksion-php #tekstproduktion-refleksion-portfolio {
+    grid-area: tekstproduktion-refleksion-portfolio;
+}
+
+
+.refleksion-php #design-refleksion-intro {
+    grid-area: design-refleksion-intro;
+}
+
+.refleksion-php #typografi-refleksion {
+    grid-area: typografi-refleksion;
+}
+
+.refleksion-php #farver-refleksion {
+    grid-area: farver-refleksion;
+}
+
+.refleksion-php #wireframes-refleksion {
+    grid-area: wireframes-refleksion;
+}
+
+.refleksion-php #logo-refleksion {
+    grid-area: logo-refleksion;
+}
+
+.refleksion-php #gestalt-refleksion {
+    grid-area: gestalt-refleksion;
+}
+
+.refleksion-php #design-refleksion {
+    grid-area: design-refleksion;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "design-refleksion-intro"
+        "typografi-refleksion"
+        "farver-refleksion"
+        "wireframes-refleksion"
+        "logo-refleksion"
+        "gestalt-refleksion";
+}
+
+
+.refleksion-php #kodning-refleksion-portfolio {
+    grid-area: kodning-refleksion-portfolio;
+}
+
+.refleksion-php #navigationsdesign-refleksion {
+    grid-area: navigationsdesign-refleksion;
+}
+
+
+
+.refleksion-php #mitgrid-refleksion {
+    margin: 3.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: grid;
+    grid-row-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "informationsarkitektur-refleksion"
+        "tekstproduktion-refleksion-portfolio"
+        "design-refleksion"
+        "kodning-refleksion-portfolio"
+        "navigationsdesign-refleksion";
+}
+
+
+/* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
     
     
@@ -14131,7 +14341,147 @@ usability-table {
 
 
 /* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER END */
+ 
     
+    
+    
+    
+/* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN START */
+.refleksion-php .navbar {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.refleksion-php footer {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.refleksion-php h1 {
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+.refleksion-php #projektside-wireframe  {
+    max-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.refleksion-php #logo-skitser {
+    max-width: 60%;
+}
+    
+.refleksion-php #closure-logo-ref {
+    max-width: 80%;
+}
+
+.refleksion-php #informationsarkitektur-refleksion {
+    grid-area: informationsarkitektur-refleksion;
+}
+
+.refleksion-php #tekstproduktion-refleksion-portfolio {
+    grid-area: tekstproduktion-refleksion-portfolio;
+}
+
+
+.refleksion-php #design-refleksion-intro {
+    grid-area: design-refleksion-intro;
+}
+
+.refleksion-php #typografi-refleksion {
+    grid-area: typografi-refleksion;
+}
+
+.refleksion-php #farver-refleksion {
+    grid-area: farver-refleksion;
+}
+
+.refleksion-php #wireframes-refleksion {
+    grid-area: wireframes-refleksion;
+}
+
+.refleksion-php #logo-refleksion {
+    grid-area: logo-refleksion;
+}
+
+.refleksion-php #gestalt-refleksion {
+    grid-area: gestalt-refleksion;
+}
+
+.refleksion-php #design-refleksion {
+    grid-area: design-refleksion;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "design-refleksion-intro"
+        "typografi-refleksion"
+        "farver-refleksion"
+        "wireframes-refleksion"
+        "logo-refleksion"
+        "gestalt-refleksion";
+}
+
+
+.refleksion-php #kodning-refleksion-portfolio {
+    grid-area: kodning-refleksion-portfolio;
+}
+
+.refleksion-php #navigationsdesign-refleksion {
+    grid-area: navigationsdesign-refleksion;
+}
+
+
+
+.refleksion-php #mitgrid-refleksion {
+    margin: 5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: grid;
+    grid-row-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "informationsarkitektur-refleksion"
+        "tekstproduktion-refleksion-portfolio"
+        "design-refleksion"
+        "kodning-refleksion-portfolio"
+        "navigationsdesign-refleksion";
+}
+
+    
+    .refleksion-php #logo-refleksion h3 {
+        grid-area: h3;
+    }
+    
+    .refleksion-php #logo-intro-ref {
+        grid-area: logo-intro-ref;
+    }
+    
+    .refleksion-php #logo-skitser {
+        grid-area: logo-skitser;
+    }
+    
+    .refleksion-php #logo-viderearbejde {
+        grid-area: logo-viderearbejde;
+
+    }
+    
+    .refleksion-php #closure-logo-ref {
+        grid-area: closure-logo-ref;
+    }
+    
+    .refleksion-php #logo-refleksion {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "h3 h3"
+            "logo-intro-ref logo-intro-ref"
+            "logo-skitser closure-logo-ref"
+            "logo-viderearbejde logo-viderearbejde";
+    }
+
+/* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
     
     
@@ -17643,7 +17993,166 @@ usability-table {
 
 /* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
     
+
+/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER END */
+ 
     
+    
+    
+    
+/* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN START */
+.refleksion-php .navbar {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.refleksion-php footer {
+    background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.refleksion-php h1 {
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+.refleksion-php #projektside-wireframe  {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.refleksion-php #logo-skitser {
+    max-width: 60%;
+}
+    
+.refleksion-php #closure-logo-ref {
+    max-width: 80%;
+}
+
+.refleksion-php #informationsarkitektur-refleksion {
+    grid-area: informationsarkitektur-refleksion;
+}
+
+.refleksion-php #tekstproduktion-refleksion-portfolio {
+    grid-area: tekstproduktion-refleksion-portfolio;
+}
+
+
+.refleksion-php #design-refleksion-intro {
+    grid-area: design-refleksion-intro;
+}
+
+.refleksion-php #typografi-refleksion {
+    grid-area: typografi-refleksion;
+}
+
+.refleksion-php #farver-refleksion {
+    grid-area: farver-refleksion;
+}
+
+.refleksion-php #wireframes-refleksion {
+    grid-area: wireframes-refleksion;
+}
+
+.refleksion-php #logo-refleksion {
+    grid-area: logo-refleksion;
+}
+
+.refleksion-php #gestalt-refleksion {
+    grid-area: gestalt-refleksion;
+}
+
+.refleksion-php #design-refleksion {
+    grid-area: design-refleksion;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "design-refleksion-intro"
+        "typografi-refleksion"
+        "farver-refleksion"
+        "wireframes-refleksion"
+        "logo-refleksion"
+        "gestalt-refleksion";
+}
+
+
+.refleksion-php #kodning-refleksion-portfolio {
+    grid-area: kodning-refleksion-portfolio;
+}
+
+.refleksion-php #navigationsdesign-refleksion {
+    grid-area: navigationsdesign-refleksion;
+}
+
+
+
+.refleksion-php #mitgrid-refleksion {
+    margin: 10em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: grid;
+    grid-row-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "informationsarkitektur-refleksion"
+        "tekstproduktion-refleksion-portfolio"
+        "design-refleksion"
+        "kodning-refleksion-portfolio"
+        "navigationsdesign-refleksion";
+}
+
+    
+    .refleksion-php #logo-refleksion h3 {
+        grid-area: h3;
+    }
+    
+    .refleksion-php #logo-intro-ref {
+        grid-area: logo-intro-ref;
+    }
+    
+    .refleksion-php #logo-skitser {
+        grid-area: logo-skitser;
+    }
+    
+    .refleksion-php #logo-viderearbejde {
+        grid-area: logo-viderearbejde;
+
+    }
+    
+    .refleksion-php #closure-logo-ref {
+        grid-area: closure-logo-ref;
+    }
+    
+    .refleksion-php #logo-refleksion {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "h3 h3"
+            "logo-intro-ref logo-intro-ref"
+            "logo-skitser closure-logo-ref"
+            "logo-viderearbejde logo-viderearbejde";
+    }
+    
+    
+    .refleksion-php #hifi-wireframes-hifi2 {
+        grid-area: hifi-wireframes-hifi2;
+    }
+    
+    .refleksion-php #projektside-wireframe {
+        grid-area: projektside-wireframe;
+    }
+    
+    .refleksion-php #grid-wireframe-img {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-template-columns: 0.81fr 0.21fr;
+        grid-template-areas: 
+            "hifi-wireframes-hifi2 projektside-wireframe";
+    }
+
+/* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
     
     
