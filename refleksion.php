@@ -24,24 +24,31 @@
         
             <h1 class="titel">Farver</h1>
         
-            <div id="mitgrid-farver">
+            <div id="mitgrid-refleksion">
                     <section id="informationsarkitektur-refleksion">
                         <h2 class="overskrift">Informationsarkitektur</h2>
-                        <p class="body-text">
-                            Jeg startede med at få overblik over opgaven. Jeg, sammen med andre fra klassen gik gennem de forskellige emner og teorier vi havde haft om, ved at tjekke moodle, projekter og studieordningen. 
-                        </p>
                         
-                        <p class="body-text">
-                            Derefter lavet jeg en brainstorm i form af en kortsortering af hvordan jeg ville strukturer informationen på min side.
-                        </p>
+                        <section id="infro-ref-start">
+                            <p class="body-text">
+                                Jeg startede med at få overblik over opgaven. Jeg, sammen med andre fra klassen gik gennem de forskellige emner og teorier vi havde haft om, ved at tjekke moodle, projekter og studieordningen. 
+                            </p>
+
+                            <p class="body-text">
+                                Derefter lavet jeg en brainstorm i form af en kortsortering af hvordan jeg ville strukturer informationen på min side.
+                            </p>
+                        </section>
                         
-                        <p class="body-text">
-                            Jeg valgte at lave en kategori organisering med hovedkategorier som var de emner/fag vi har haft som havde underemner. Jeg spurgte de andre fra klassen om de synes det giver god mening og jeg fik god respons fra alle. 
-                        </p>
+                        <img src="refleksion/informationsarkitektur-img.jpg" alt="billed af min kortsortering til portfoliet" id="info-arkitekt-portfolio">
                         
-                        <p class="body-text">
-                            På selve siden vil man se at den globale menu på desktop har videoproduktion og fotografering i samme dropdown. Det fordi kategorierne fyldte for meget i headeren så at sætte de to sammen var mit bedste alternativ jeg kunne komme på.
-                        </p>
+                        <section id="infro-ref-slut">
+                            <p class="body-text">
+                                Jeg valgte at lave en kategori organisering med hovedkategorier som var de emner/fag vi har haft som havde underemner. Jeg spurgte de andre fra klassen om de synes det giver god mening og jeg fik god respons fra alle. 
+                            </p>
+
+                            <p class="body-text">
+                                På selve siden vil man se at den globale menu på desktop har videoproduktion og fotografering i samme dropdown. Det fordi kategorierne fyldte for meget i headeren så at sætte de to sammen var mit bedste alternativ jeg kunne komme på.
+                            </p>
+                        </section>
                     </section>
                     
                     <section id="tekstproduktion-refleksion-portfolio">
@@ -182,25 +189,57 @@
                             <h3 class="underoverskrift">
                                 Wireframing 
                             </h3>
-                            <p class="body-text">
-                                Jeg lavede mine wireframes på papir først og derefter på Adobe XD når jeg havde fået noget feedback og spurgte ind til hvordan de andre fra klassen havde designet deres sider.
-                            </p>
+
+                            <section>
+                                <p class="body-text">
+                                    Jeg lavede mine wireframes på papir først og derefter på Adobe XD når jeg havde fået noget feedback og spurgte ind til hvordan de andre fra klassen havde designet deres sider.
+                                </p>
+                            </section>
                             
-                            <p class="body-text">
-                                Jeg fik nogle udfordringer med tiden fordi jeg gav ikke mig selv sindsyg meget tid til wireframing fordi jeg ikke havde så meget tid tilbage og vidste kodning ville tage lang tid.
-                            </p>
-                            <p class="body-text">
-                                Det kunne jeg også se på nogle af mine sider hvor de sider jeg fik lavet wireframes på og sider der lignede de sider, endte med at ser meget godt ud. Mens dem som ikke var lavet wireframes på og ikke kunne designes på samme måde, endte nogle gange med at blive lavet lidt overfladiske. Det har vist mig hvor stor en forskel wireframes kan gøre for webdesign og for farten af kodningsprocessen.
-                            </p>
+                            <img src="refleksion/wireframe-desktop-lofi.jpg" alt="billed af mine lofi wireframes" id="lofi-wireframe-portfolio">
+                            
+                            <img src="refleksion/wireframe-desktopmobil-hifi.png" alt="billed af mine hifi wireframes" id="hifi-wireframe-portfolio1">
+                            
+                            <section>
+                                <p class="body-text">
+                                    Jeg fik nogle udfordringer med tiden fordi jeg gav ikke mig selv sindsyg meget tid til wireframing fordi jeg ikke havde så meget tid tilbage og vidste kodning ville tage lang tid.
+                                </p>
+                                <p class="body-text">
+                                    Det kunne jeg også se på nogle af mine sider hvor de sider jeg fik lavet wireframes på og sider der lignede de sider, endte med at ser meget godt ud. Mens dem som ikke var lavet wireframes på og ikke kunne designes på samme måde, endte nogle gange med at blive lavet lidt overfladiske. Det har vist mig hvor stor en forskel wireframes kan gøre for webdesign og for farten af kodningsprocessen.
+                                </p>
+                                
+                                <p class="body-text">
+                                    Jeg havde også andre ideer, som endten ikke kom til at blive arbejdet på fordi jeg ikke havde til som en projektside i form af en slags tidslinje, og at lave siderne med en baggrundsfarve istedet for hvid, som jeg så ikke endte med at bruge efter det feedback jeg fik fra andre. Jeg har tænkt på at lave light- og darkmode så begge kunne bruges, men det kunne heller ikke nåes.
+                                </p>
+                            </section>
+                            
+                            <img src="refleksion/wireframe-desktopmobil-hifi2.png" alt="billed af mine hifi wireframes med baggrundsfarve" id="hifi-wireframes-hifi2">
+                            
+                            <img src="refleksion/wireframe-projekt-hifi.jpg" alt="billed af hifi wireframe for en projekt side" id="projektside-wireframe">
+                            
                         </section>
                         
                         <section id="logo-refleksion">
                             <h3 class="underoverskrift">
                                 Logo 
                             </h3>
-                            <p class="body-text">
-                                Jeg lavet mit eget logo på illustrator for at give min side lidt mere personlighed og jeg brugte closure til mit logo i det man som udgangspunkt ikke ser normale bogstaver, men ender med at genkende et R og et D i logoet.
-                            </p>
+                            
+                            <section id="logo-intro-ref">
+                                <p class="body-text">
+                                    Jeg startede ud med at lave nogle skitser af ideer til mit logo.
+                                </p>
+                            </section>
+                            
+                            <img src="refleksion/refleksion-skitser-logo.jpg" alt="billed af skitser til ideer for mit logo" id="logo-skitser">
+                            
+                            
+                            <section id="logo-viderearbejde">
+                                <p class="body-text">
+                                    Jeg lavet derefter mit logo på illustrator. Jeg lavede et logo for at give min side lidt mere personlighed og jeg brugte closure til mit logo i det man som udgangspunkt ikke ser normale bogstaver, men ender med at genkende et R og et D i logoet.
+                                </p>
+                            </section>
+                            
+                            <img src="closure-logo-black.png" alt="logo til portfoliet" id="closure-logo-ref">
                         </section>
                         
                         <section id="gestalt-refleksion">
