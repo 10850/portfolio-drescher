@@ -562,6 +562,7 @@ body {
 
 
 /* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+
 .titel {
     font-family: montserrat, sans-serif;
     font-weight: 700;
@@ -15113,8 +15114,8 @@ usability-table {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: -8em;
-    margin-right: -8em;
+    margin-left: -7em;
+    margin-right: -7em;
     
 }
     
