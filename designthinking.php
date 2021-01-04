@@ -280,15 +280,15 @@
                 <section class="kilder-dt">
                     <h2 class="overskrift">Kilder</h2>
                     
-                    <ul class="kilde-liste">
+                    <ul class="kildeliste">
                         <li>
                             Innovation, 2020. Model Design Tænkning. [Online] 
-                            Available at: <a href="https://innovation.sites.ku.dk/model/design-thinking/">https://innovation.sites.ku.dk/model/design-thinking/</a>
+                            Available at: <a href="https://innovation.sites.ku.dk/model/design-thinking/" target="_blank">https://innovation.sites.ku.dk/model/design-thinking/</a>
                             [Senest hentet eller vist den 28 november 2020].
                         </li>
                         <li>
                             Mumaw, S., 2020. Creativity: Generate Ideas in Greater Quantity and Quality. [Online] 
-                            Available at: <a href="https://www.linkedin.com/learning/creativity-generate-ideas-in-greater-quantity-and-quality/problem-solving-part-2?u=37312532">https://www.linkedin.com/learning/creativity-generate-ideas-in-greater-quantity-and-quality/problem-solving-part-2?u=37312532</a>
+                            Available at: <a href="https://www.linkedin.com/learning/creativity-generate-ideas-in-greater-quantity-and-quality/problem-solving-part-2?u=37312532" target="_blank">https://www.linkedin.com/learning/creativity-generate-ideas-in-greater-quantity-and-quality/problem-solving-part-2?u=37312532</a>
                             [Senest hentet eller vist den 29 november 2020].
 
                         </li>

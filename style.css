@@ -736,32 +736,12 @@ usability-table {
 }
 
 
-.designthinking-php .kilder-dt li {
-    margin-top: 0.75em;
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
-}
-
 .designthinking-php .kilder-dt li a {
     word-break: break-all;
 }
 
 
-.designthinking-php #steps-dt-hverdag {
-    margin-top: -0.75em;
-}
 
-.designthinking-php #steps-dt-hverdag li:nth-child(5) {
-    margin-bottom: 0.75em;
-}
-
-
-.designthinking-php #brainstorm-steps {
-    margin-top: -0.75em;
-}
  
 
 /* footer styling (for alle sider) */
@@ -5597,9 +5577,10 @@ usability-table {
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
 .designthinking-php #mitgrid-designthinking {
-        margin: 3em;
+        margin: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     }
-
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
@@ -9988,10 +9969,7 @@ usability-table {
     }
 
     
-.designthinking-php .kilder-dt li {
-    font-size: 16px;
-    color: black;
-}
+
 
     
 /* IKONER */
