@@ -5506,7 +5506,7 @@ video-php h1 {
     font-style: normal;
     font-size: 15px;
     color: black;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
 }
     
@@ -5581,7 +5581,6 @@ usability-table {
     margin-top: 1em;
     margin-bottom: 1em;
     }
-    
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
 
@@ -5595,12 +5594,6 @@ usability-table {
     font-size: 14px; 
 }
 
-.video-php h4 {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-}
 
 .video-php h1 {
     text-align: center;
@@ -14707,6 +14700,7 @@ usability-table {
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
    .designthinking-php #mitgrid-designthinking {
         margin: 7em;
+       margin-bottom: 1em;
     }
     
     
