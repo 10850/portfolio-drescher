@@ -320,6 +320,7 @@ body {
     margin-top: -10%;
     margin-left: 0.5em;
     padding-right: 1em;
+    padding-top: 35px;
 }
 
 #uxoguiboks {
@@ -567,7 +568,7 @@ body {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 38px;
+    font-size: 36px;
     color: black;
 }
 
@@ -601,9 +602,11 @@ body {
     font-style: normal;
     font-size: 14px;
     color: black;
-    padding-top: 10px;
+    padding-top: 3px;
     padding-bottom: 10px;
+    line-height: 150%;
 }
+
 
 .liste {
     font-family: lora, serif;
@@ -611,14 +614,24 @@ body {
     font-style: normal;
     font-size: 14px;
     color: black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: -15px;
+    padding-top: 0px;
+    margin-bottom: 10px;
     margin-left: 1.2em;
+    line-height: 150%;
     
 }
     
 .liste li {
     padding-top: 15px;
+}
+
+.liste ul li:first-child {
+    padding-top: 0px;
+}
+
+.liste ol li:first-child {
+    padding-top: 0px;
 }
 
 .pdf-link {
@@ -636,6 +649,15 @@ body {
     font-style: normal;
     font-size: 14px;
     color: black;
+    line-height: 150%;
+}
+
+.kildeliste li {
+    padding-top: 10px;
+}
+
+.kildeliste li:nth-child(1) {
+    padding-top: 0;
 }
 
 .usability-table td {
@@ -775,6 +797,10 @@ footer {
 }
 
 /* section margins */
+#banner-desktop-dt {
+    grid-area: banner;
+} 
+
 .designthinking-php .hvaderdt {
     grid-area: hvaderdt;
 }
@@ -793,21 +819,33 @@ footer {
 .designthinking-php .implement {
     grid-area: implement-full;
 }
+
+.designthinking-php .refleksion-dt {
+    grid-area: refleksion-dt;
+}
+
+#hackathon-prototype-mobil {
+    grid-area: hackathon-prototype-mobil;
+}
+
 .designthinking-php .kilder-dt {
     grid-area: kilder-dt;
 }
 
 .designthinking-php #mitgrid-designthinking {
     display: grid;
-    grid-row-gap: 50px;
+    grid-row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: 
+        "banner"
         "hvaderdt"
         "empathize-full"
         "define-full"
         "ideate-full"
         "prototype-full"
         "implement-full"
+        "hackathon-prototype-mobil"
+        "refleksion-dt"
         "kilder-dt";
 }
 
@@ -829,11 +867,11 @@ footer {
 .designthinking-php #refleksion-now,
 .designthinking-php #refleksion-end,
 .designthinking-php #kritik {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 
-
+.designthinking-php #hackathon-medal-mobil,
 .designthinking-php #hackathon-medal-faser,
 .designthinking-php #hackathon-medal-desktop{
     display: none;
@@ -883,7 +921,6 @@ video-php h1 {
     margin: 0.8em;
 }
 
-
 /* FONTS MOBIL */
 .video-php blockquote {
     font-family: lora, serif;
@@ -897,17 +934,6 @@ video-php h1 {
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
-}
-
-.video-php .video-kilde-liste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-}
-
-.video-php .video-kilder h2 {
-    text-decoration-line: underline;
 }
 
 /* IMAGES */
@@ -982,58 +1008,13 @@ video-php h1 {
     word-break: break-all;
 }
 
-
-
 .video-php .post-production div {
     margin-top: 10px;
 }
 
-.video-php .post-production p,
-.video-php .post-production h4 {
-    margin-top: 10px;
-}
-
-
-.video-php .pre-production p,
-.video-php .pre-production ul, 
-.video-php .pre-production ul li {
-    margin-top: 10px;
-}
-
-.video-php .pre-production h3 {
-    margin-top: 10px;
-}
-
-.video-php .video-empathize h3 {
-    margin-top: 10px;
-}
-
-.video-php .production p{
-    margin-top: 10px;
-}
-
-.video-php .premiere-rush h3,
-.video-php .premiere-rush p {
-    margin-top: 10px;
-}
-
-.video-php .scootervideo p,
-.video-php .scootervideo video,
-.video-php .scootervideo blockquote {
-    margin-top: 10px;
-}
-
-.video-php .video-kilder ul,
-.video-php .video-kilder ul li {
-    margin-top: 10px;
-}
 
 #storyboard-list {
     margin-top: -2em;
-}
-
-.video-php .video-kilder ul {
-    margin-left: 2em;
 }
 
 /* VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP END */
@@ -1417,11 +1398,7 @@ video-php h1 {
 
 
 
-/* LISTER */
-.liste {
-    padding-top: 0;
-    margin-top: 0;
-}
+
 
 
 /* padding / margin */
@@ -2025,6 +2002,7 @@ video-php h1 {
 .seo-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .seo-php #seo-intro {
@@ -2033,10 +2011,12 @@ video-php h1 {
 
 .seo-php #metadata-intro {
     grid-area: metadata-intro;
+    margin-top: 25px;
 }
 
 .seo-php #hvad-er-semantisk {
     grid-area: hvad-er-semantisk;
+    margin-top: 35px;
 }
 
 .seo-php #semantisk-tags-list {
@@ -2053,10 +2033,12 @@ video-php h1 {
 
 .seo-php #fordele-semantisk {
     grid-area: fordele-semantisk;
+    margin-top: 25px;
 }
 
 .seo-php .kilder {
     grid-area: kilder;
+    margin-top: 25px;
     
 }
 
@@ -2066,7 +2048,6 @@ video-php h1 {
 
 .seo-php #mitgrid-seo {
     margin: 0.8em;
-    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
@@ -2089,6 +2070,7 @@ video-php h1 {
 .attributter-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .attributter-php #anatomi-html {
@@ -2224,6 +2206,7 @@ video-php h1 {
 .videoogimg-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .videoogimg-php #video-html {
@@ -5494,7 +5477,7 @@ video-php h1 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 48px;
+    font-size: 46px;
     color: black;
 }
 
@@ -5502,7 +5485,7 @@ video-php h1 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 36px;
+    font-size: 32px;
     color: black;
 }
 
@@ -5528,7 +5511,7 @@ video-php h1 {
     font-style: normal;
     font-size: 15px;
     color: black;
-    padding-top: 5px;
+    padding-top: 3px;
     padding-bottom: 10px;
 }
     
@@ -5538,14 +5521,7 @@ video-php h1 {
     font-style: normal;
     font-size: 15px;
     color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 1.2em;
-    
-}
-    
-.liste li {
-    padding-top: 15px;
+    margin-left: 1em;
 }
 
 .pdf-link {
@@ -5600,9 +5576,30 @@ usability-table {
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
 .designthinking-php #mitgrid-designthinking {
         margin: 3.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        grid-row-gap: 25px;
     }
+
+.designthinking-php #empthize-def,
+.designthinking-php #define-def,
+.designthinking-php #ideate-def,
+.designthinking-php #prototype-def,
+.designthinking-php #implement-def,
+.designthinking-php #empathize-studie,
+.designthinking-php #define-studie,
+.designthinking-php #ideate-ideer,
+.designthinking-php #ideate-brainstorm,
+.designthinking-php #prototype-optimering,
+.designthinking-php #prototype-lofi-hifi,
+.designthinking-php #implement-undtagelse,
+.designthinking-php #refleksion-start,
+.designthinking-php #refleksion-mid,
+.designthinking-php #refleksion-now,
+.designthinking-php #refleksion-end,
+.designthinking-php #kritik {
+    margin-top: 15px;
+}
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
 
@@ -9871,7 +9868,7 @@ usability-table {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 36px;
+    font-size: 35px;
     color: black;
 }
 
@@ -9879,7 +9876,7 @@ usability-table {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 28px;
+    font-size: 24px;
     color: black;
 }
 
@@ -9887,7 +9884,7 @@ usability-table {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 22px;
+    font-size: 18px;
     color: black;
 }
 
@@ -9897,8 +9894,8 @@ usability-table {
     font-style: normal;
     font-size: 15px;
     color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
 }
 
 .liste {
@@ -9907,14 +9904,7 @@ usability-table {
     font-style: normal;
     font-size: 15px;
     color: black;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 1.2em;
     
-}
-    
-.liste li {
-    padding-top: 15px;
 }
 
 .pdf-link {
@@ -9975,13 +9965,6 @@ usability-table {
     
    
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
-.designthinking-php #mitgrid-designthinking {
-        margin: 3.5em;
-    }
-
-    
-
-
     
 /* IKONER */
     .designthinking-php #faserne-mobil,
@@ -10231,7 +10214,8 @@ usability-table {
     
     .designthinking-php #mitgrid-designthinking {
         display: grid;
-        grid-row-gap: 50px;
+        margin: 5em;
+        grid-row-gap: 30px;
         grid-template-columns: 1fr;
         grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
         grid-template-areas: 
@@ -10255,7 +10239,26 @@ usability-table {
         margin-top: 0em;
     }
     
- 
+
+.designthinking-php #empthize-def,
+.designthinking-php #define-def,
+.designthinking-php #ideate-def,
+.designthinking-php #prototype-def,
+.designthinking-php #implement-def,
+.designthinking-php #empathize-studie,
+.designthinking-php #define-studie,
+.designthinking-php #ideate-ideer,
+.designthinking-php #ideate-brainstorm,
+.designthinking-php #prototype-optimering,
+.designthinking-php #prototype-lofi-hifi,
+.designthinking-php #implement-undtagelse,
+.designthinking-php #refleksion-start,
+.designthinking-php #refleksion-mid,
+.designthinking-php #refleksion-now,
+.designthinking-php #refleksion-end,
+.designthinking-php #kritik {
+    margin-top: 15px;
+}
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
 
     
@@ -14645,7 +14648,7 @@ usability-table {
     font-style: normal;
     font-size: 16px;
     color: black;
-    padding-top: 10px;
+    padding-top: 3px;
     padding-bottom: 10px;
 }
     
@@ -14654,15 +14657,7 @@ usability-table {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 1.2em;
-    
-}
-    
-.liste li {
-    padding-top: 15px;
+    color: black;   
 }
 
 .pdf-link {
@@ -14674,7 +14669,7 @@ usability-table {
 }
     
 .kildeliste {
-     margin-left: 1.2em;  
+     margin-left: 1em;  
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
@@ -14717,8 +14712,9 @@ usability-table {
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
    .designthinking-php #mitgrid-designthinking {
-        margin: 7em;
-       margin-bottom: 1em;
+        margin: 10em;
+       margin-bottom: 2em;
+       margin-top: 3em;
     }
     
     
@@ -14730,6 +14726,11 @@ usability-table {
         grid-template-areas: 
             "implement-ikon implement-def implment-praksis"
             "implement-ikon implement-undtagelse implment-praksis";
+    }
+    
+    
+    .designthinking-php .refleksion-dt {
+        margin-top: -20vh;
     }
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */ 
     
