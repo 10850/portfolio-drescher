@@ -5307,6 +5307,29 @@ video-php h1 {
     }   
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
     
+    
+    
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */ 
+    .designthinking-php .dt-img {
+        max-width: 65%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .designthinking-php #faserne-mobil {
+        width: 100%;
+    }
+    
+    
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */  
+
+    
+    
+    
+    
 .kodeskik-php {
     min-height: 100%;
 }
@@ -5600,6 +5623,26 @@ usability-table {
 .designthinking-php #kritik {
     margin-top: 15px;
 }
+    
+    
+    .designthinking-php .dt-img {
+        max-width: 65%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .designthinking-php #faserne-mobil {
+        width: 100%;
+    }
+    
+    .designthinking-php #hackathon-prototype-mobil {
+        max-width: 65%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
 
@@ -10259,6 +10302,25 @@ usability-table {
 .designthinking-php #kritik {
     margin-top: 15px;
 }
+    
+    
+.designthinking-php #mitgrid-designthinking .dt-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #banner-desktop-dt {
+        width: 100%;
+    }
+    
+    .designthinking-php #mitgrid-designthinking #faserne-mobil,
+    .designthinking-php #mitgrid-designthinking #hackathon-medal-mobil,
+    .designthinking-php #mitgrid-designthinking #hackathon-prototype-mobil {
+        display: none;
+    }
+
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
 
     

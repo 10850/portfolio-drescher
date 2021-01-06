@@ -35,7 +35,7 @@
         </section> <!-- dett banner er til for at lave et grid til desktop -->
         
             <div id="mitgrid-designthinking">
-                <img class="dt-img" id="faserne-mobil" src="design-thinking/designthinking-faser.png" alt="billed af faserne i design thinking"> <!-- faserne til mobil -->
+                <img id="faserne-mobil" src="design-thinking/designthinking-faser.png" alt="billed af faserne i design thinking"> <!-- faserne til mobil -->
                 
                 <section class="hvaderdt">                    
                     <h2 class="overskrift">Hvad er Design Thinking?</h2>
