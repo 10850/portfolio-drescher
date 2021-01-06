@@ -1979,14 +1979,6 @@ video-php h1 {
     width: 100%;
 }
 
-.kodning-refleksion .background-refleksion-kodning {
-    background-image: url(kodning/back-refleksions-kodning.png);
-    background-repeat: repeat-x;
-    background-size: contain;
-    margin-left: -0.8em;
-    margin-right: -0.8em;
-}
-
 
 .kodning-refleksion #mitgrid-kodningrefleksion {
     margin: 0.8em;
