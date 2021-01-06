@@ -225,6 +225,9 @@
                 
         
                 <section id="border-shadow-text-prakis">
+                    <h2 class="overskrift">
+                        Anvendelse af borders og shadows
+                    </h2>
                     <img src="kodning/css/borders/kodeshadowbox.png" id="shadowbox-kode">
                     <img src="kodning/css/borders/billedboxshadow.png" id="shadowbox-screen">
                 </section>

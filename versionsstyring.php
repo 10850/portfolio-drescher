@@ -96,7 +96,7 @@
                         </li>
                     </ul>
                     
-                    <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html">Vil du gerne have en mere detaljeret guide til hvordan man laver versionsstyring på Github?</a>
+                    <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html" target="_blank" class="pdf-link">Vil du gerne have en mere detaljeret guide til hvordan man laver versionsstyring på Github?</a>
                 </section>
                 
                 <section id="version-onepage">

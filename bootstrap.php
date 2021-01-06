@@ -62,7 +62,7 @@
                     <section class="mt" id="bootstrap-nav-prakis">
                         <h3 class="underoverskrift">Bootstrap navigation</h3>
                         <p class="body-text">
-                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/navbar/">navbar</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en menu op på min hundeside.
+                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/navbar/" target="_blank">navbar</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en menu op på min hundeside.
                         </p>
                         
                
@@ -75,13 +75,13 @@
                         <figure id="navigation-eksempel-before" >
                             <h4 class="sub-skrift">Hvordan sidens navigation så ud før Bootstrap</h4>
                             <img src="kodning/bootstrap/navbar-before.jpg" id="navbar-screen-before">
-                            <a href="http://10850.web.eadania.dk/hundoriginal/index.html">Hvis du gerne vil besøge den originale hundesiden</a>
+                            <a href="http://10850.web.eadania.dk/hundoriginal/index.html" target="_blank" class="link-margin">Hvis du gerne vil besøge den originale hundesiden</a>
                         </figure>
                         
                         <figure id="navigation-eksempel-after" >
                             <h4 class="sub-skrift">Hvordan sidens navigation ser ud nu med Bootstrap</h4>
                             <img src="kodning/bootstrap/navbar-after.jpg" id="navbar-screen-after">
-                            <a href="http://10850.web.eadania.dk/hundeside/index.html">Navigationen kan prøves af på hundesiden</a>
+                            <a href="http://10850.web.eadania.dk/hundeside/index.html" target="_blank" class="link-margin">Navigationen kan prøves af på hundesiden</a>
                         </figure>
                      
                         <p class="body-text">
@@ -92,7 +92,7 @@
                     <section class="mt" id="bootstrap-dropogpop-praksis">
                         <h3 class="underoverskrift">Bootstrap dropdown og popover knapper</h3>
                         <p class="body-text">
-                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/dropdowns/">dropdown</a> og <a href="https://getbootstrap.com/docs/4.5/components/popovers/">popover</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en dropdown og popover knap frem på min hundeside.
+                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/dropdowns/" target="_blank">dropdown</a> og <a href="https://getbootstrap.com/docs/4.5/components/popovers/" target="_blank">popover</a> components. Derefter kopier jeg det og putter det ind i HTML'en. Så vil der komme en dropdown og popover knap frem på min hundeside.
                         </p>
                         
                         
@@ -103,13 +103,13 @@
                             <img src="kodning/bootstrap/dropandpopkode.png" id="dropdown-koden">
                         </figure>
                         
-                        <div class="background-icons-kodning">
+                        
                         <figure id="dropogpop-eksempel-after">
                             <h4 class="sub-skrift">Dropdown og Popover knappen på hundesiden</h4>
                             <img src="kodning/bootstrap/popoveranddropdown-billed.png" id="knapper-on-site">
-                            <a href="http://10850.web.eadania.dk/hundeside/index.html">Dropdown og Popover knappen kan prøves af på hundesiden</a>
+                            <a href="http://10850.web.eadania.dk/hundeside/index.html"  target="_blank" class="link-margin">Dropdown og Popover knappen kan prøves af på hundesiden</a>
                         </figure>
-                        </div>
+                        
                             
                         </section>    
                         
@@ -125,7 +125,7 @@
                     <section class="mt" id="bootstrap-karousel-praksis">
                         <h3 class="underoverskrift">Bootstrap billedkarousel</h3>
                         <p class="body-text">
-                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/carousel/">carousel</a> components. Derefter kopier jeg det og putter det ind i HTML'en, og lægger billeder ind i sliderne. Så vil der komme en billed karousel med billederne frem på min hundeside.
+                            Jeg går ind på bootstrap og finder deres <a href="https://getbootstrap.com/docs/4.5/components/carousel/" target="_blank">carousel</a> components. Derefter kopier jeg det og putter det ind i HTML'en, og lægger billeder ind i sliderne. Så vil der komme en billed karousel med billederne frem på min hundeside.
                         </p>
                         
                         <section id="images-carousel">
@@ -135,13 +135,13 @@
                             <img src="kodning/bootstrap/carouselkode.png" id="karousel-koden">
                         </figure>
                         
-                        <div class="background-icons-kodning">
+                        
                         <figure id="karousel-eksempel-after">
                             <h4 class="sub-skrift">Karousellen på hundesiden</h4>
                             <img src="kodning/bootstrap/karousel-billed.png" id="karousel-on-site">
-                            <a href="http://10850.web.eadania.dk/hundeside/hundemad.html">Billedkarousellen kan prøves af på hundesiden</a>
+                            <a href="http://10850.web.eadania.dk/hundeside/hundemad.html" target="_blank" class="link-margin">Billedkarousellen kan prøves af på hundesiden</a>
                         </figure>
-                        </div>
+                       
                             
                         </section>
                             
@@ -200,7 +200,7 @@
                         </li>
                         <li>
                             Østergaard, N., 19. september 2020. Frameworks. [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                            Available at: <a href="kodning/pdf/bootstrapIntro.pdf" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 2 december 2020].
                         </li>
                     </ul>

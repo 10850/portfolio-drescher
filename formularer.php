@@ -166,7 +166,7 @@
                             [Senest hentet eller vist den 7 december 2020].
                         </li>
                         <li>
-                            Rijna, Drescher:<a href="http://10850.apache.eadania.dk/scootershopv2/index.php" target="_blank">Gisito Scooters</a>; Fra 23. Oktober 2020
+                            Rijna, Drescher: <a href="http://10850.apache.eadania.dk/scootershopv2/index.php" target="_blank">Gisito Scooters</a>; Fra 23. Oktober 2020
                         </li>
                     </ul>
                 </section>

@@ -42,7 +42,7 @@
                                   Kodning
                                 </a>
                                 <div class="dropdown-menu" id="kodning-dropdown" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="attributter.php">HTML</a>
+                                  <a class="dropdown-item" href="fundamental-html.php">HTML</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="server.php">Serverer</a>
                                     <div class="dropdown-divider"></div>
@@ -166,11 +166,8 @@
                                         <div class="dropdown-menu" id="background-kodning" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="attributter.php">Attributter</a></li>
-                                            <li><a class="dropdown-item" href="kodeskikke.php">Kodeskikke</a></li>
-                                            <li><a class="dropdown-item" href="semantisketags.php">Semantiske tags</a></li>
+                                            <li><a class="dropdown-item" href="fundamental-html.php">Grundlæggende HTML</a></li>
                                             <li><a class="dropdown-item" href="seo.php">SEO</a></li>
-                                            <li><a class="dropdown-item" href="metadata.php">Metadata</a></li>
                                             <li><a class="dropdown-item" href="adressering.php">Adressering</a></li>
                                             <li><a class="dropdown-item" href="videoogbilleder.php">Video og Billeder</a></li>
                                             <li><a class="dropdown-item" href="formularer.php">Formularer, felttyper og formatering</a></li>
@@ -180,8 +177,12 @@
                                             <li class="mega-menu-list-title"><h3>CSS</h3></li>
                                             <li><a class="dropdown-item" href="boxmodellen.php">Boxmodellen</a></li>
                                             <li><a class="dropdown-item" href="selectors.php">Selectors</a></li>
-                                            <li><a class="dropdown-item" href="properties.php">Properties</a></li>
-                                            <li><a class="dropdown-item" href="position.php">Positionering</a></li>
+                                            <li><a class="dropdown-item" href="background-property.php">Background</a></li>
+                                            <li><a class="dropdown-item" href="borderogshadow.php">Border &#38; Shadows</a></li>
+                                            <li><a class="dropdown-item" href="list-style.php">List-style</a></li>
+                                            <li><a class="dropdown-item" href="media-queries.php">@media</a></li>
+                                            <li><a class="dropdown-item" href="animationogtransistions.php">Animation &#38; Transitions</a></li>
+                                            <li><a class="dropdown-item" href="displayogposition.php">Display &#38; Position</a></li>
                                             <li><a class="dropdown-item" href="cssgrid.php">CSS Grid</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">

@@ -153,7 +153,7 @@
                 </section> <!-- Flere semantiske tags -->
                 
                 
-                <img src="kodning/kodeskikke/godskikke.jpg" id="semantisk-html-struktur" class="background-icons-kodning"> 
+                <img src="kodning/kodeskikke/godskik.png" id="semantisk-html-struktur" class="background-icons-kodning"> 
                 
                 
                 
@@ -221,7 +221,7 @@
                         </li>
                         <li>
                             Østergaard, N., 10. september 2020. HTML. [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                            Available at: <a href="kodning/pdf/Intro%20til%20HTML.pdf" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 2 december 2020].
                         </li>
                     </ul>

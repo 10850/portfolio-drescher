@@ -35,7 +35,7 @@
                         <h3 class="underoverskrift">Lokal videofil</h3>
                         
                         <p class="body-text">
-                            Videoer som ligger som en lokal fil i mappen sættes ind via video tagget og source tagget i HTML (Nautrup &#38; Mikkelsen, 2020). Dette brugte jeg i mit portfolio til at indsætte denne løbehjulsvideo under Videoproduktion siden:
+                            Videoer som ligger som en lokal fil i mappen sættes ind via video tagget og source tagget i HTML (Nautrup &#38; Mikkelsen, 2020). Dette brugte jeg i mit portfolio til at indsætte denne løbehjulsvideo under Videoproduktion siden.
                         </p>
                         
                         <div class="background-icons-kodning">
@@ -60,7 +60,7 @@
                         <h3 class="underoverskrift">Embedded video</h3>
                         
                         <p class="body-text">
-                            Man kan med fordel også linke til en video som allerede ligger på internettet i for eksempel youtube eller instagram (Nautrup &#38; Mikkelsen, 2020). Hvor de giver en noget HTML kode som man kan copy + paste (ibid):
+                            Man kan med fordel også linke til en video som allerede ligger på internettet i for eksempel youtube eller instagram (Nautrup &#38; Mikkelsen, 2020). Hvor de giver en noget HTML kode som man kan copy + paste (ibid).
                         </p>
                         <div class="background-icons-kodning">
                             <img src="kodning/videoogimg/iframe.png" alt="eksempel på embedded kode til en youtube video. På hundesiden." id="embedded-kode">
@@ -68,7 +68,7 @@
                             <img src="kodning/videoogimg/embeddedvideo-screen.jpg" alt="screenshot af hundesiden hvor videoen ligger" id="embedded-screen">
                         </div>
                         <p class="body-text">
-                            Man kan også lave ændringer på for eksempel de forskellige controls videoen har (Nautrup &#38; Mikkelsen, 2020):
+                            Man kan også lave ændringer på for eksempel de forskellige controls videoen har (Nautrup &#38; Mikkelsen, 2020).
                         </p>
                         
                     </section>
@@ -81,7 +81,7 @@
                     </p>
                     
                     <p class="body-text">
-                        For SEO sætter man også en alternativ tekst ind til hvis billedet ikke viser sig, det gøres med alt-attributten (W3schools, 2020):
+                        For SEO sætter man også en alternativ tekst ind til hvis billedet ikke viser sig, det gøres med alt-attributten (W3schools, 2020).
                     </p>
                     
                     <figure id="insert-img-figure" class="background-icons-kodning">

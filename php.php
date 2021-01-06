@@ -66,7 +66,7 @@
                             <div class="background-icons-kodning">
                                 <img src="kodning/serverside/navigation-side.jpg" alt="billed af siden med navigation" id="php-include-kode">
                             </div>
-                            <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php">Hvis du gerne vil besøge siden og prøve navigationen</a>
+                            <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php" target="_blank" class="pdf-link">Hvis du gerne vil besøge siden og prøve navigationen</a>
                         </figure>
                     </section>
                     
@@ -94,11 +94,11 @@
                         </li>
                         <li>
                             Østergaard, N., 19. oktober 2020. Serversideprogrammering med PHP. [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a>
+                            Available at: <a href="kodning/pdf/serverside.pdf" target="_blank">https://eadania.mrooms.net/</a>
                             [Senest hentet eller vist den 29 November 2020].
                         </li>
                         <li>
-                            Rijna, Drescher: <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php">Php-include-navigation</a>; Fra 19. oktober 2020
+                            Rijna, Drescher: <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php" target="_blank">Php-include-navigation</a>; Fra 19. oktober 2020
                         </li>
                     </ul>
                 </section>

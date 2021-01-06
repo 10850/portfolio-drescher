@@ -80,23 +80,60 @@
                     <section id="metode-et-grid">
                         <section id="metode-et-intro">
                             <h3 class="underoverskrift">Grid-template</h3>
+                            <p class="body-text" >
+                             Dette eksempel kommer fra en øvelse jeg lavet på studiet med <a href="http://10850.web.eadania.dk/grid-template-area/ovelse4.html" target="_blank" >Grid Template Areas, Øvelse 4</a>
+                            </p>
                         </section>
                         
                         <section id="grid-areas">
                             <p class="body-text">
-                                Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
+                                1. Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
                             </p>
                             <div class="background-icons-kodning">
+                                <a href="http://10850.web.eadania.dk/grid-template-area/ovelse4.html" target="_blank" class="pdf-link">Grid Template Area Øvelse 4</a>
                                 <img src="kodning/css/grid/gridareas.png" id="gridareas-img">
+                                
                             </div>
+                            
+                            <p class="body-text">
+                                Dette siger at:
+                            </p>
+                            
+                            <ul class="liste">
+                                <li>
+                                    felt1 hedder a
+                                </li>
+                                <li>
+                                    felt4 hedder b
+                                </li>
+                                <li>
+                                    felt3 hedder c
+                                </li>
+                                <li>
+                                    felt5 hedder d
+                                </li>
+                                <li>
+                                    felt2 hedder e
+                                </li>
+                                <li>
+                                    felt6 hedder f
+                                </li>
+                                <li>
+                                    felt5 hedder g
+                                </li>
+                                <li>
+                                    felt8 hedder h
+                                </li>
+                            </ul>
                         </section>
                         
                         
                         <section id="grid-template">
                             <p class="body-text">
-                                Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
+                                2. Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
                             </p>
                             <div class="background-icons-kodning">
+                                <a href="http://10850.web.eadania.dk/grid-template-area/ovelse4.html" target="_blank" class="pdf-link">Grid Template Area Øvelse 4</a>
                                 <img src="kodning/css/grid/gridtemplate.png" id="gridtemplate-areas">
                             </div>
                             <p class="body-text">
@@ -132,6 +169,7 @@
                         </section>
                         
                         <img src="kodning/css/grid/css-grid-screen.jpg" id="grid-screen-img">
+                        <a href="http://10850.web.eadania.dk/grid-template-area/ovelse4.html" target="_blank" class="pdf-link">Grid Template Area Øvelse 4</a>
                     </section>
                     
                     <section id="metode-to-grid">
@@ -193,12 +231,12 @@
                     <ul class="kildeliste">
                         <li>
                             Østergaard, N., 15. september 2020. LAYOUTSTRATEGIER FOR WEBDESIGN. [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                            Available at: <a href="kodning/css/grid/responsive_i_praksis.pdf" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                         <li>
                             Østergaard, N., 15. september 2020. Webudvikling vil ikke være det samme efter.... [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                            Available at: <a href="kodning/css/grid/Grids2.pdf">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                     </ul>

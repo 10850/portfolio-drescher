@@ -18,7 +18,7 @@
                                   Kodning
                                 </a>
                                 <div class="dropdown-menu" id="kodning-dropdown" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="attributter.php">HTML</a>
+                                  <a class="dropdown-item" href="fundamental-html.php">HTML</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="server.php">Serverer</a>
                                     <div class="dropdown-divider"></div>
@@ -142,8 +142,7 @@
                                         <div class="dropdown-menu" id="background-kodning" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="attributter.php">Attributter</a></li>
-                                            <li><a class="dropdown-item" href="kodeskikke.php">Kodeskikke</a></li>
+                                            <li><a class="dropdown-item" href="fundamental-html.php">Grundlæggende HTML</a></li>
                                             <li><a class="dropdown-item" href="seo.php">SEO</a></li>
                                             <li><a class="dropdown-item" href="adressering.php">Adressering</a></li>
                                             <li><a class="dropdown-item" href="videoogbilleder.php">Video og Billeder</a></li>

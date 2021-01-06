@@ -27,7 +27,7 @@
         <div id="mitgrid-bmc">
             
             <section id="bmc-intro">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     BMC
                 </h2>
                 <p class="body-text">

@@ -51,7 +51,7 @@
                     <h4 class="sub-skrift">Absolut addressering fra One page projektet</h4>
                     <img src="kodning/adressering/absolut.png" alt="eksempel på absolut adressering" id="absolut-img">
                     <p class="body-text">
-                        <a href="http://10850.web.eadania.dk/softbites2/index.html">Du kan gå til min One page der omhandler Soft Bites, og prøve at trykke på Køb nu knappen der linker til nemlig.dk</a>
+                        <a href="http://10850.web.eadania.dk/softbites2/index.html" target="_blank">Du kan gå til mig, Lissi og Nuunus One page der omhandler Soft Bites, og prøve at trykke på Køb nu knappen der linker til nemlig.dk</a>
                     </p>
                 </section> <!-- absolut -->
         

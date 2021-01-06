@@ -218,7 +218,7 @@
                         </li>
                         <li>
                             Østergaard, N., 14. september 2020. Intro til CSS. [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a>
+                            Available at: <a href="kodning/pdf/intro%20til%20css.pdf" target="_blank">https://eadania.mrooms.net/</a>
                             [Senest hentet eller vist den 7 december 2020].
                         </li>
                     </ul>
