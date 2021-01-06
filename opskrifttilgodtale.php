@@ -36,7 +36,7 @@
             
             <section id="opskrift-tale">
                 <section id="inventio">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Inventio
                     </h3>
                     
@@ -58,7 +58,7 @@
                 </section>
                 
                 <section id="dispositio">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Dispositio 
                     </h3>
                     
@@ -83,7 +83,7 @@
                 </section>
                 
                 <section id="elocutio">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Elocutio 
                     </h3>
                     <p class="body-text">
@@ -106,7 +106,7 @@
                 </section>
                 
                 <section id="memoria">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Memoria 
                     </h3>
                     <p class="body-text">
@@ -115,7 +115,7 @@
                 </section>
                 
                 <section id="actio">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Actio
                     </h3>
                     <p class="body-text">
@@ -203,7 +203,7 @@
                     </li>
                     <li>
                         Schmith Wøldike Kluw, M., 2020. Præsentationsteknik. [Online] 
-                        Available at: https://eadania.mrooms.net/
+                        Available at: <a href="kommunikation/Presentationsteknik/Pr%C3%A6sentationsteknik-ver2.pdf" target="_blank">https://eadania.mrooms.net/</a>
                         [Senest hentet eller vist den 14 december 2020].
                     </li>
                 </ul>

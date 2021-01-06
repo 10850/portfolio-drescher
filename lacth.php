@@ -90,7 +90,7 @@
                         Informationsarkitektur review på MinKøbmand og Skatepro
                     </h2>
                     <p class="body-text">
-                        I en K3 opgave lavede jeg en informationsarkitektur review på MinKøbmand og Skatepro. Herunder vil du se et eksempel på informationsarkitektur med kategorier og lokationer på MinKøbmand. <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Resten af reviewen kan læses her.</a> 
+                        I en K3 opgave lavede jeg en informationsarkitektur review på MinKøbmand og Skatepro. Herunder vil du se et eksempel på informationsarkitektur med kategorier og lokationer på MinKøbmand. <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank" class="pdf-link">Resten af reviewen kan læses her.</a> 
                     </p>
                 </section>
                 <section id="kategori-eksempel">
@@ -165,6 +165,10 @@
                         How, C., 2015. All You Need To Know About Information Architecture In 10 Minutes. [Online] 
                         Available at: <a href="https://www.youtube.com/watch?v=TsH8y5fbfX8&#38;feature=emb_logo&#38;ab_channel=UXBrighton" target="_blank">https://www.youtube.com/watch?v=TsH8y5fbfX8&#38;feature=emb_logo&#38;ab_channel=UXBrighton</a>
                         [Senest hentet eller vist den 6 december 2020].
+                    </li>
+                    <li>
+                        Rijna, D., 2020. Informationsarkitektur og navigeringsdesign review
+                        Available at: <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Informationsarkitektur og navigeringsdesign review</a>
                     </li>
                 </ul>
             </section>

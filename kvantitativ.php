@@ -48,7 +48,7 @@
                             Brug af lukkede spørgsmål, da man nemmere kan indlæse data når svarene er korte, konkrete og konsistent (ibid).
                         </li>
                     </ul>
-                    <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">
+                    <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank" class="pdf-link">
                         Denne information og informationen på resten af siden uddybbes mere i min rapport om kvalitativ og kvantitativ empiri.
                     </a>
                 </section>
@@ -151,8 +151,8 @@
                         </ul>
                         
                         <p class="body-text">
-                            Jeg har været med til at lave et spørgeskema på campus om Corona på Dania, hvor vi gik ud fra nogle af disse principper når vi fremstillet spørgsmålene og hvilken rækkefølge de kom i:
-                            <a href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Corona på EA Dania Skive</a> 
+                            Vi har lavet et spørgeskema på campus om Corona på Dania, hvor vi gik ud fra nogle af disse principper når vi fremstillet spørgsmålene og hvilken rækkefølge de kom i:
+                            <a href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank" class="pdf-link">Corona på EA Dania Skive</a> 
                         </p>
                     </section>
                 </section>
@@ -169,6 +169,10 @@
                         Systime, 2020. 2.2 Kvantitativ metode. [Online] 
                         Available at: <a href="https://metodenu.systime.dk/?id=131" target="_blank">https://metodenu.systime.dk/?id=131</a>
                         [Last visitied: 5. december 2020]
+                    </li>
+                    <li>
+                        Rijna, D., 2020. Metoderne forfalder
+                        Available at: <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">Metoderne forfalder</a>
                     </li>
                 </ul>
             </section>

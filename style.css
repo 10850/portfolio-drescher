@@ -4235,6 +4235,10 @@ video-php h1 {
         "kilder";
 }
 
+.hvad-er-kommunikation-php .sub-skrift {
+    margin-bottom: 20px;
+}
+
 /* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP SLUT */
 
 
@@ -4957,9 +4961,6 @@ video-php h1 {
 
 
 /* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP START */
-
-
-/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
 .tekstproduktion-php #nyhedskritier {
     grid-area: nyhedskritier;
 }
@@ -4970,6 +4971,14 @@ video-php h1 {
 
 .tekstproduktion-php #nyhedstrekant {
     grid-area: nyhedstrekant;
+}
+
+#skive-princip h2 {
+    margin-bottom: 10px;
+}
+
+#webteksteksempel {
+    grid-area: webteksteksempel;
 }
 
 .tekstproduktion-php #nyhedsartikel {
@@ -4983,6 +4992,9 @@ video-php h1 {
         "proces-scanning";
 }
 
+#onepage-heyyou {
+    max-width: 100%;
+}
 
 .tekstproduktion-php #webtekst-intro {
     grid-area: webtekst-intro;
@@ -5024,7 +5036,8 @@ video-php h1 {
     grid-template-columns: 1fr;
     grid-template-areas: 
         "klarhed"
-        "syv-geniale";
+        "syv-geniale"
+        "webteksteksempel";
 }
 
 
@@ -5046,9 +5059,13 @@ video-php h1 {
         "webtekst"
         "hey-you-see-so"
         "skive-princip"
+        "webteksteksempel"
         "refleksion-tekstproduktion"
         "kilder";
 }
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
+
 
 
 /* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP START */
@@ -9651,7 +9668,8 @@ usability-table {
     grid-template-columns: 1fr;
     grid-template-areas: 
         "klarhed"
-        "syv-geniale";
+        "syv-geniale"
+        "webteksteksempel";
 }
 
 
@@ -9675,6 +9693,7 @@ usability-table {
         "webtekst"
         "hey-you-see-so"
         "skive-princip"
+        "webteksteksempel"
         "refleksion-tekstproduktion"
         "kilder";
 }
@@ -14626,7 +14645,8 @@ usability-table {
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "klarhed syv-geniale";
+        "klarhed syv-geniale"
+        "webteksteksempel webteksteksempel";
 }
 
 
@@ -14650,6 +14670,7 @@ usability-table {
         "webtekst"
         "hey-you-see-so"
         "skive-princip"
+        "webteksteksempel"
         "refleksion-tekstproduktion"
         "kilder";
 }

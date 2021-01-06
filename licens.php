@@ -33,7 +33,7 @@
                 <p class="body-text">
                     Persondataloven også kaldt Databeskyttelsesloven er en lov lavede af EU parlamentet tilbage i 2016 (Rijna, 2020). Dens formål er at beskytte folk ved at supplere bestemmelser om beskyttelse af folks personlige oplysninger og om fri udveksling af sådanne oplysninger (ibid).
                 </p>
-                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">
+                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank" class="pdf-link">
                     Hvis du gerne vil læse mere om persondataloven m.m. om licensering og ophavsret.
                 </a>
             </section>
@@ -48,7 +48,7 @@
                 <p class="body-text">
                     GDPR er en ordning som har en masse regler, og er et af de største krav til en virksomheds dokumentation og beskyttelse af data (ibid).
                 </p>
-                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">
+                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank" class="pdf-link">
                     Hvis du gerne vil læse mere om GDPR m.m. om licensering og ophavsret.
                 </a>
             </section>
@@ -77,7 +77,7 @@
                         Ophavsretsloven beskytter kunstneriske og litterære værker (ibid).
                     </li>
                 </ul>
-                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">
+                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank" class="pdf-link">
                     Hvis du gerne vil læse mere om Immaterielle rettigheder m.m. om licensering og ophavsret.
                 </a>
             </section>
@@ -89,7 +89,7 @@
                 <p class="body-text">
                     Ophavsret, som også er kendt som copyright er til formål for at beskytte værker fra ulovligt brug og kopiering (Rijna, 2020). Altså at en person eller virksomhed kan kræve monopol på deres værk og kun ved deres samtykke kan andre bruge det (ibid).
                 </p>
-                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">
+                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank" class="pdf-link">
                     Hvis du gerne vil læse mere om Ophavsret m.m. om licensering og ophavsret.
                 </a>
             </section>
@@ -104,7 +104,7 @@
                 <p class="body-text">
                     Open source har så den forskel at det er forretningsorienteret det er kun virksomheder som bruger det (ibid). Normalt ville virksomheder låse deres kildekode for at andre konkurrenter ikke stjal dem (ibid). Open source gør at man kan gøre det frit tilgængeligt under forskellige licenstyper som sætter rammerne for hvordan andre virksomheder må bruge deres kildekode og gøre at det er ulovligt at videresælge (ibid).
                 </p>
-                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">
+                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank" class="pdf-link">
                     Hvis du gerne vil læse mere om Open source m.m. om licensering og ophavsret.
                 </a>
             </section>
@@ -116,7 +116,7 @@
                 <p class="body-text">
                     En licensaftale er en aftale mellem to parter, hvor en part giver den anden tilladelse til brug af sit værk, nærmest ligesom en ophavsret, her er det bare mere forretningsorienteret (ibid). Licensen kræver også en betaling til en vis pris, og bruges tit til at styrke et firmas salg og produktion ved at arbejde med en samarbejdspartner (ibid).
                 </p>
-                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">
+                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank" class="pdf-link">
                     Hvis du gerne vil læse mere om Licensaftaler m.m. om licensering og ophavsret.
                 </a>
             </section>
@@ -128,7 +128,7 @@
                 <p class="body-text">
                     MIT-licens, som står for Massachusetts Institute of Technology, som er en free software licens der giver meget få begrænsninger med henhold til genbrug og redigering, så den kan kombineres med mange forskellige licenser (ibid).
                 </p>
-                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">
+                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank" class="pdf-link">
                     Hvis du gerne vil læse mere om MIT-licens m.m. om licensering og ophavsret.
                 </a>
             </section>
@@ -140,7 +140,7 @@
                 <p class="body-text">
                     Creative commons er en nonprofitorganisation hvis mål er at hjælpe andre med at overkomme forhindringer når det kommer til love om deling af værker (ibid). Creative Commons licenser giver virksomheder og folk som har lavet værker værktøjer og licenser som giver dem en fri, simpel og standardiseret måde at give copyright tilladelser (ibid). Så der er mulighed for andre at bruge eller kopier deres værker under gode omstændigheder (ibid).
                 </p>
-                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">
+                <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank" class="pdf-link">
                     Hvis du gerne vil læse mere om Creative Commons m.m. om licensering og ophavsret.
                 </a>
             </section>

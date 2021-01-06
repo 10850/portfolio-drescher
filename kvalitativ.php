@@ -46,7 +46,7 @@
                         </li>
                     </ul>
                     
-                    <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">
+                    <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank" class="pdf-link">
                         Denne information og informationen på resten af siden uddybbes mere i min rapport om kvalitativ og kvantitativ empiri.
                     </a>
                 </section>
@@ -295,6 +295,10 @@
                         Systime, 2020. 2.3 Kvalitativ metode. [Online] 
                         Available at: <a href="https://metodenu.systime.dk/?id=132" target="_blank">https://metodenu.systime.dk/?id=132</a> 
                         [Last visitied: 5. december 2020]
+                    </li>
+                    <li>
+                        Rijna, D., 2020. Metoderne forfalder
+                        Available at: <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">Metoderne forfalder</a>
                     </li>
                 </ul>
             </section>
