@@ -94,20 +94,6 @@
                         <img src="design/photoshop/warped/warped-alternate.jpg" alt="screenshot af photoshop" id="smooth-slut-img">
                     </section>
                 </section>
-                
-                <section class="kilder">
-                    <ul class="kildeliste">
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                    </ul>
-                </section>
             </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->

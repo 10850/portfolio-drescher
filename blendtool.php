@@ -31,13 +31,14 @@
                     <section id="blend-intro">
                         <h2 class="overskrift">Blend tool</h2>
                         <p class="body-text">Blend tool giver muligheden for at mixe 2 eller flere objekter og farver så det bliver til et objekt.</p>
+                        
+                        <p class="body-text">
+                            Dette er en øvelse hvor jeg skal bruge blend tool til at lave det europæriske flag med grønne og gule stjerne, hvor jeg skal blend stjernerne sammen med cirklen.
+                        </p>
                     </section>
                     
                     <section id="blend-start">
                         <img src="design/illustrator/blendtool/blend-tool-flag-before.png" alt="screenshot af illustrator" id="blend-start-img">
-                        <p class="body-text">
-                            Dette er en øvelse hvor jeg skal bruge blend tool til at lave det europæriske flag med grønne og gule stjerne, hvor jeg skal blend stjernerne sammen med cirklen.
-                        </p>
                     </section>
                     
                     <section id="blend-options">
@@ -56,9 +57,7 @@
                     </section>
                     
                     <section id="blend-slut">
-                        <p class="body-text">
-                            Nu har man det europæriske flag med grønne og gule stjerner.
-                        </p>
+                        
                         <img src="design/illustrator/blendtool/blend-tool-flag-after.png" alt="screenshot af illustrator" id="blend-slut-img">
                     </section>
                 </section>

@@ -582,7 +582,7 @@ body {
 
 .underoverskrift {
     font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 22px;
     color: black;
@@ -2941,6 +2941,7 @@ video-php h1 {
 
 .artboards-php #artboard-intro {
     grid-area: artboard-intro;
+    margin-bottom: -20px;
 }
 
 .artboards-php #artboard-start {
@@ -2979,11 +2980,16 @@ video-php h1 {
     grid-area: workspace-slut;
 }
 
+.artboards-php #workspace-change-intro {
+    grid-area: workspace-change-intro;
+}
+
 .artboards-php #workspace-change {
     grid-area: workspace-change;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-areas: 
+    grid-template-areas:
+        "workspace-change-intro"
         "workspace-start"
         "workspace-slut";
 }
@@ -3005,12 +3011,17 @@ video-php h1 {
 .artboards-php #mitgrid-artboards {
     margin: 0.8em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "artboard-tool"
         "workspace"
         "kilder";
+}
+
+
+.artboards-php #mitgrid-artboards img {
+    margin-bottom: 5px;
 }
 /* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP END */
 
@@ -3118,6 +3129,26 @@ video-php h1 {
         "cap-america"
         "kilder";
 }
+
+ #cap-options-img {
+        margin-bottom: 10px;
+    }
+    
+    #cap-start-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+    
+    #cap-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
+
 
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
 
@@ -3420,6 +3451,10 @@ video-php h1 {
 }
 
 
+.contentaware-php #contentaware-releksion {
+    grid-area: contentaware-releksion;
+}
+
 
 .contentaware-php .kilder {
     grid-area: kilder;
@@ -3436,6 +3471,7 @@ video-php h1 {
         "content-aware-fill"
         "content-aware-move"
         "content-aware-patch"
+        "contentaware-releksion"
         "kilder";
 }
 
@@ -3971,6 +4007,15 @@ video-php h1 {
         "gestaltlovene"
         "kilder";
 }
+
+    
+    #closure-img {
+        max-width: 75%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
 
 
@@ -4093,16 +4138,23 @@ video-php h1 {
 
 .adobexd-php #adobexd-mobil {
     grid-area: adobexd-mobil;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .adobexd-php #adobexd-desktop {
     grid-area: adobexd-desktop;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
+
 
 .adobexd-php #adobexd {
     grid-area: adobexd;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "adobexd-intro"
@@ -4124,6 +4176,11 @@ video-php h1 {
         "kilder";
 }
 
+
+.adobexd-php .liste {
+    list-style: none;
+    margin-left: 0;
+}
 /* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
 
 
@@ -5715,7 +5772,7 @@ video-php h1 {
 
 .underoverskrift {
     font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 28px;
     color: black;
@@ -5723,7 +5780,7 @@ video-php h1 {
 
 .sub-skrift {
     font-family: montserrat, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 22px;
     color: black;
@@ -7638,6 +7695,7 @@ usability-table {
 /* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
 .artboards-php h1 {
     text-align: center;
+    margin-top: 0.5em;
 }
 
 .artboards-php #artboard-intro {
@@ -7680,11 +7738,16 @@ usability-table {
     grid-area: workspace-slut;
 }
 
+.artboards-php #workspace-change-intro {
+    grid-area: workspace-change-intro;
+}
+
 .artboards-php #workspace-change {
     grid-area: workspace-change;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-areas: 
+    grid-template-areas:
+        "workspace-change-intro"
         "workspace-start"
         "workspace-slut";
 }
@@ -7705,10 +7768,10 @@ usability-table {
 
 .artboards-php #mitgrid-artboards {
     margin: 3.5em;
-    margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "artboard-tool"
@@ -7770,6 +7833,28 @@ usability-table {
         "blend-tool"
         "kilder";
 }
+    
+    #blend-start-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 75%;
+    }
+    
+#blend-options-img {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        margin-bottom: 10px;
+        max-width: 75%;
+    }
+    
+    #blend-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 75%;
+    }
 
 /* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
 
@@ -7823,6 +7908,26 @@ usability-table {
         "cap-america"
         "kilder";
 }
+    
+ #cap-options-img {
+        margin-bottom: 8px;
+    }
+    
+    #cap-start-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+    
+    #cap-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 70%;
+    }
+
 
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
 
@@ -8054,6 +8159,7 @@ usability-table {
     grid-area: content-aware-fill;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-fill-intro content-aware-fill-intro"
@@ -8083,6 +8189,7 @@ usability-table {
     grid-area: content-aware-move;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-move-intro content-aware-move-intro"
@@ -8113,6 +8220,7 @@ usability-table {
     grid-area: content-aware-patch;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-patch-intro content-aware-patch-intro"
@@ -8125,7 +8233,10 @@ usability-table {
 .contentaware-php .kilder {
     grid-area: kilder;
 }
-
+    
+.contentaware-php #contentaware-releksion {
+    grid-area: contentaware-releksion;
+}
 
 
 .contentaware-php #mitgrid-content-aware {
@@ -8139,8 +8250,33 @@ usability-table {
         "content-aware-fill"
         "content-aware-move"
         "content-aware-patch"
+        "contentaware-releksion"
         "kilder";
 }
+    
+#aware-fill-options-img {
+        display: flex;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    #aware-move-options-img {
+        display: flex;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #aware-patch-options-img {
+        display: flex;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
 
 
 
@@ -8271,6 +8407,7 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "outofframe-intro outofframe-intro"
@@ -8285,7 +8422,7 @@ usability-table {
 .outofframe-php #mitgrid-outofframe {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -8293,6 +8430,29 @@ usability-table {
         "outofframe"
         "kilder";
 }
+    
+#outofframe-start-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    #outofframe-options-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #outofframe-slut-img {
+        max-width: 50%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
@@ -8376,6 +8536,7 @@ usability-table {
     grid-area: farve-harmonier;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "harmonier-intro harmonier-intro"
@@ -8421,6 +8582,7 @@ usability-table {
     grid-area: farve-psyk;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "intro-psyk intro-psyk"
@@ -8467,6 +8629,7 @@ usability-table {
     grid-area: opdage-farver;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "opdage-intro opdage-intro"
@@ -8496,6 +8659,48 @@ usability-table {
         "opdage-farver"
         "kilder";
 }
+    
+#mono-bus {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #green-mono {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #mono-tilbud {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #blad-analog {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #complementary-skilt {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #tretiader-playtoy {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
 
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
 
@@ -8668,6 +8873,55 @@ usability-table {
         "gestaltlovene"
         "kilder";
 }
+    
+#figure-ground-img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #similarity-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #proximity-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #common-region-img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #continuity-img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #closure-img {
+        max-width: 50%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #focal-point-img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
 
 
@@ -8748,6 +9002,7 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "saturation-intro saturation-intro"
@@ -8762,15 +9017,27 @@ usability-table {
 .saturation-php #mitgrid-saturation {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 0px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "saturation-climate"
         "kilder";
 }
-
+    
+    #saturation-start-img {
+        margin-top: -50px;
+        margin-bottom: -70px;
+    }
+    #saturation-options-img {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    #saturation-slut-img {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
 /* SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP END */
 
 
@@ -8789,10 +9056,16 @@ usability-table {
 
 .adobexd-php #adobexd-mobil {
     grid-area: adobexd-mobil;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
 }
 
 .adobexd-php #adobexd-desktop {
     grid-area: adobexd-desktop;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
 }
 
 .adobexd-php #adobexd {
@@ -10223,7 +10496,7 @@ usability-table {
 
 .underoverskrift {
     font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 24px;
     color: black;
@@ -10231,7 +10504,7 @@ usability-table {
 
 .sub-skrift {
     font-family: montserrat, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 18px;
     color: black;
@@ -12621,6 +12894,7 @@ usability-table {
 /* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
 .artboards-php h1 {
     text-align: center;
+    margin-top: 0.5em;
 }
 
 .artboards-php #artboard-intro {
@@ -12663,11 +12937,16 @@ usability-table {
     grid-area: workspace-slut;
 }
 
+.artboards-php #workspace-change-intro {
+    grid-area: workspace-change-intro;
+}
+
 .artboards-php #workspace-change {
     grid-area: workspace-change;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-areas: 
+    grid-template-areas:
+        "workspace-change-intro"
         "workspace-start"
         "workspace-slut";
 }
@@ -12688,10 +12967,10 @@ usability-table {
 
 .artboards-php #mitgrid-artboards {
     margin: 7em;
-    margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "artboard-tool"
@@ -12727,12 +13006,12 @@ usability-table {
     grid-area: blend-tool;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "blend-intro"
-        "blend-start"
-        "blend-options"
-        "blend-slut";
+        "blend-intro blend-intro"
+        "blend-options blend-options"
+        "blend-start blend-slut";
 }
 
 
@@ -12753,6 +13032,28 @@ usability-table {
         "blend-tool"
         "kilder";
 }
+    
+    #blend-start-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
+    
+#blend-options-img {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        margin-bottom: 10px;
+        max-width: 85%;
+    }
+    
+    #blend-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
 
 /* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
 
@@ -12806,6 +13107,25 @@ usability-table {
         "cap-america"
         "kilder";
 }
+    
+ #cap-options-img {
+        margin-bottom: 8px;
+    }
+    
+    #cap-start-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+    
+    #cap-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 70%;
+    }
 
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
 
@@ -13104,6 +13424,11 @@ usability-table {
 }
 
 
+    
+.contentaware-php #contentaware-releksion {
+    grid-area: contentaware-releksion;
+}
+
 
 .contentaware-php .kilder {
     grid-area: kilder;
@@ -13122,6 +13447,7 @@ usability-table {
         "content-aware-fill"
         "content-aware-move"
         "content-aware-patch"
+        "contentaware-releksion"
         "kilder";
 }
 
@@ -13217,7 +13543,7 @@ usability-table {
 .smartobject-php #mitgrid-smartobject {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13254,6 +13580,7 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "outofframe-intro outofframe-intro outofframe-intro"
@@ -13275,6 +13602,21 @@ usability-table {
         "outofframe"
         "kilder";
 }
+    
+#outofframe-start-img {
+        max-width: 90%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    margin-bottom: 15px;
+    }
+
+    #outofframe-options-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
@@ -13307,6 +13649,7 @@ usability-table {
 .farver-php #rgbvscmyk {
     grid-area: rgbvscmyk;
     display: grid;
+    grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "titel-rgbcmyk titel-rgbcmyk"
@@ -13358,6 +13701,7 @@ usability-table {
     grid-area: farve-harmonier;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "harmonier-intro harmonier-intro"
@@ -13403,6 +13747,7 @@ usability-table {
     grid-area: farve-psyk;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "intro-psyk intro-psyk"
@@ -13449,6 +13794,7 @@ usability-table {
     grid-area: opdage-farver;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "opdage-intro opdage-intro"
@@ -13478,6 +13824,54 @@ usability-table {
         "opdage-farver"
         "kilder";
 }
+    
+#mono-bus {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #green-mono {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #mono-tilbud {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #blad-analog {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #complementary-skilt {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #tretiader-playtoy {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+
+    
+/* billed størrelse */
+    
+
 
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
 
@@ -13650,6 +14044,55 @@ usability-table {
         "gestaltlovene"
         "kilder";
 }
+    
+#figure-ground-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #similarity-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #proximity-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #common-region-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #continuity-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #closure-img {
+        max-width: 50%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #focal-point-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
 
 
@@ -13730,6 +14173,7 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "saturation-intro saturation-intro"
@@ -13744,7 +14188,7 @@ usability-table {
 .saturation-php #mitgrid-saturation {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13771,20 +14215,38 @@ usability-table {
 
 .adobexd-php #adobexd-mobil {
     grid-area: adobexd-mobil;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .adobexd-php #adobexd-desktop {
     grid-area: adobexd-desktop;
+    margin-right: auto;
+    margin-left: auto;
 }
+    
+    .adobexd-php #adobexd p {
+        grid-area: tekst;
+    }
+    
+    #adobexd-desktop {
+        max-width: 90%;
+    }
+    
+    #adobexd-mobil {
+        max-width: 90%;
+    }
 
 .adobexd-php #adobexd {
     grid-area: adobexd;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-template-columns: 0.6fr 1.4fr;
     grid-template-areas: 
         "adobexd-intro adobexd-intro"
-        "adobexd-mobil adobexd-desktop";
+        "adobexd-mobil adobexd-desktop"
+        "tekst tekst";
 }
 
 .adobexd-php .kilder {
@@ -15159,7 +15621,7 @@ usability-table {
 
 .underoverskift {
     font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 32px;
     color: black;
@@ -15167,7 +15629,7 @@ usability-table {
 
 .sub-skrift {
     font-family: montserrat, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 24px;
     color: black;
@@ -17463,6 +17925,7 @@ usability-table {
     grid-area: artboard-tool;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "artboard-intro artboard-intro"
@@ -17481,12 +17944,18 @@ usability-table {
 .artboards-php #workspace-slut {
     grid-area: workspace-slut;
 }
+    
+    .artboards-php #workspace-change-intro {
+        grid-area: workspace-change-intro;
+    }
 
 .artboards-php #workspace-change {
     grid-area: workspace-change;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-areas: 
+        "workspace-change-intro workspace-change-intro"
         "workspace-start workspace-slut";
 }
 
@@ -17545,6 +18014,7 @@ usability-table {
     grid-area: blend-tool;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "blend-intro blend-intro"
@@ -17570,6 +18040,14 @@ usability-table {
         "blend-tool"
         "kilder";
 }
+    
+    #blend-options-img {
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        margin-bottom: 10px;
+    }
 
 /* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
 
@@ -17600,6 +18078,7 @@ usability-table {
     grid-area: cap-america;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "cap-intro cap-intro"
@@ -17622,6 +18101,22 @@ usability-table {
         "cap-america"
         "kilder";
 }
+    
+    #cap-options-img {
+        margin-bottom: 8px;
+    }
+    
+    #cap-start-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+    
+    #cap-slut-img {
+        display: flex;
+    }
 
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
 
@@ -17852,6 +18347,7 @@ usability-table {
     grid-area: content-aware-fill;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-fill-intro content-aware-fill-intro"
@@ -17881,6 +18377,7 @@ usability-table {
     grid-area: content-aware-move;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-move-intro content-aware-move-intro"
@@ -17911,6 +18408,7 @@ usability-table {
     grid-area: content-aware-patch;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-patch-intro content-aware-patch-intro"
@@ -17939,7 +18437,30 @@ usability-table {
         "content-aware-patch"
         "kilder";
 }
+    
+    #aware-fill-options-img {
+        display: flex;
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
 
+    #aware-move-options-img {
+        display: flex;
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #aware-patch-options-img {
+        display: flex;
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
 
 
 /* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP END */
@@ -18068,7 +18589,8 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr 1.2fr;
     grid-template-areas: 
         "outofframe-intro outofframe-intro outofframe-intro"
         "outofframe-start outofframe-options outofframe-slut";
@@ -18081,7 +18603,7 @@ usability-table {
 .outofframe-php #mitgrid-outofframe {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -18089,6 +18611,26 @@ usability-table {
         "outofframe"
         "kilder";
 }
+    
+    
+    #outofframe-start-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #outofframe-options-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #outofframe-slut-img {
+        
+    }
+
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
@@ -18121,6 +18663,7 @@ usability-table {
 .farver-php #rgbvscmyk {
     grid-area: rgbvscmyk;
     display: grid;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "titel-rgbcmyk titel-rgbcmyk"
@@ -18171,7 +18714,8 @@ usability-table {
 .farver-php #farve-harmonier {
     grid-area: farve-harmonier;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "harmonier-intro harmonier-intro"
@@ -18216,7 +18760,8 @@ usability-table {
 .farver-php #farve-psyk {
     grid-area: farve-psyk;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "intro-psyk intro-psyk"
@@ -18292,6 +18837,48 @@ usability-table {
         "opdage-farver"
         "kilder";
 }
+    
+    #mono-bus {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #green-mono {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #mono-tilbud {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #blad-analog {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #complementary-skilt {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #tretiader-playtoy {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
 
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
 
@@ -18464,6 +19051,63 @@ usability-table {
         "gestaltlovene"
         "kilder";
 }
+    
+    
+    #figure-ground-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #similarity-img {
+        max-width: 30%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #proximity-img {
+        max-width: 30%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #common-region-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #continuity-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #closure-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #focal-point-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
 
 
@@ -18544,6 +19188,7 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "saturation-intro saturation-intro saturation-intro"
@@ -18557,7 +19202,7 @@ usability-table {
 .saturation-php #mitgrid-saturation {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -18565,7 +19210,7 @@ usability-table {
         "saturation-climate"
         "kilder";
 }
-
+    
 /* SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP END */
 
 
@@ -18584,20 +19229,38 @@ usability-table {
 
 .adobexd-php #adobexd-mobil {
     grid-area: adobexd-mobil;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .adobexd-php #adobexd-desktop {
     grid-area: adobexd-desktop;
+    margin-right: auto;
+    margin-left: auto;
 }
+    
+    .adobexd-php #adobexd p {
+        grid-area: tekst;
+    }
+    
+    #adobexd-desktop {
+        max-width: 80%;
+    }
+    
+    #adobexd-mobil {
+        max-width: 80%;
+    }
 
 .adobexd-php #adobexd {
     grid-area: adobexd;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-template-columns: 0.6fr 1.4fr;
     grid-template-areas: 
         "adobexd-intro adobexd-intro"
-        "adobexd-mobil adobexd-desktop";
+        "adobexd-mobil adobexd-desktop"
+        "tekst tekst";
 }
 
 .adobexd-php .kilder {

@@ -52,13 +52,16 @@
                         </p>
                         <ol class="liste">
                             <li>
-                                Først laver jeg en layer mask på billedet på mit hoved. Så bruger jeg brush tool med en soft brush til at tegne billedet frem på mit hoved med lavere opacity så det ligner en fantasi.
+                                Først laver jeg en layer mask på billedet på mit hoved (Dolinski, 2020). Så bruger jeg brush tool med en soft brush til at tegne billedet frem på mit hoved med lavere opacity så det ligner en fantasi (ibid).
                             </li>
                             <li>
-                                Derefter merger jeg alle layers bortset for puslespillet, hvor jeg så laver en selection på omridset af puslespillet og laver en kopi af billedet af mig så den tager form af omridset af puslespillet.
+                                Derefter merger jeg alle layers bortset for puslespillet, hvor jeg så laver en selection på omridset af puslespillet og laver en kopi af billedet af mig så den tager form af omridset af puslespillet (ibid).
                             </li>
                             <li>
-                                Nu visker jeg baggrunden på puslespillet væk og bruger magic wand tool til at vælge alle stregerne i puslespillet og bruger inverse til at vælge resten af  billedet, som mit focal point og kopier laget med billedet af mig, som så gøre at det kun er det som er selected med inverse der kommer med og stregerne der er selected med magic wand tool kommer ikke med.
+                                Nu visker jeg baggrunden på puslespillet væk og bruger magic wand tool til at vælge alle stregerne i puslespillet (ibid). 
+                            </li>
+                            <li>
+                                Jeg bruger derefter inverse til at vælge resten af  billedet, som mit focal point og kopier laget med billedet af mig (ibid). Det gør at det kun er det som er selected med inverse der kommer med og stregerne der er selected med magic wand tool kommer ikke med (ibid).
                             </li>
                         </ol>
                         
@@ -68,13 +71,16 @@
                         <img src="design/photoshop/outofframe/wandtool-contract-inverse-layermask-after2.jpg" alt="screenshot af photoshop" id="outofframe-options-img">
                         <ol class="liste">
                             <li>
-                                Efter puslespillet er lavet bruger jeg et nyt layer med sort baggrund til at laver stregerne til puslespillet. 
+                                Efter puslespillet er lavet bruger jeg et nyt layer med sort baggrund til at laver stregerne til puslespillet (Dolinski, 2020). 
                             </li>
                             <li>
-                                Derefter laver jeg en layer maske hvor jeg putter puslespilsbilledet ind i thumbnailen. Hvor jeg bruger magic wand tool til at vælge et område i form af en puslespilsbrik, og går tilbage til lageret og tager en kopi af hele laget hvor kun  brikken som blev valgt af magic wand tool bliver kopieret.
+                                Derefter laver jeg en layer maske hvor jeg putter puslespilsbilledet ind i thumbnailen (ibid). 
                             </li>
                             <li>
-                                Så for at gør delen af billedet ,hvor jeg har taget brikken ud, transparent, så går jeg tilbage ind i thumbnailen af layermasken og bruger magic wand tool til at vælge den samme brik, laver en group til laget og laver en ny maske på gruppen som gør, at det område som var valgt med magic wand tool bliver usynligt.
+                                Jeg bruger magic wand tool til at vælge et område i form af en puslespilsbrik, og går tilbage til laget og tager en kopi af hele laget hvor kun  brikken som blev valgt af magic wand tool bliver kopieret (ibid).
+                            </li>
+                            <li>
+                                Så for at gør delen af billedet ,hvor jeg har taget brikken ud transparent, går jeg tilbage ind i thumbnailen af layermasken (ibid). Bruger magic wand tool til at vælge den samme brik, laver en group til laget og laver en ny maske på gruppen som gør, at det område som var valgt med magic wand tool bliver usynligt (ibid).
                             </li>
                             <li>
                                 Efter det blev det sat sammen med andre billeder og skabte min out of frame plakat.
@@ -88,6 +94,9 @@
                 </section>
                 
                 <section class="kilder">
+                    <h2 class="overskrift">
+                        Kilder
+                    </h2>
                     <ul class="kildeliste">
                         <li>
                             Dolinski, S., 2020. Unfinished Jigsaw Puzzle Effect in Photoshop 2020. [Online] 
