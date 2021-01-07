@@ -1399,9 +1399,6 @@ video-php h1 {
 
 
 
-
-
-
 /* padding / margin */
 .sporgeskema-php .sporgeskema-praksis .overskrift:nth-child(4) {
     padding-top: 40px;
@@ -6025,8 +6022,16 @@ usability-table {
 }
 
 .video-php #mitgrid-video {
-    margin: 1.2em;
-}   
+    margin: 3.5em;
+}  
+    
+    .video-php #scooteredit {
+        width: 360px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */    
     
   
@@ -11160,6 +11165,7 @@ usability-table {
 
 .video-php .production {
     grid-area: production;
+    margin-top: 15px;
 }
 
 .video-php .scootervideo {
@@ -11177,8 +11183,11 @@ usability-table {
 
 .video-php #mitgrid-video {
     display: grid;
+    margin: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     grid-row-gap: 25px;
-    grid-column-gap: 10px;
+    grid-column-gap: 20px;
     grid-template-columns: 3fr 3fr;
     grid-template-rows: 0fr 0.1fr 0.1fr 0.86fr 0.1fr 0.1fr;
     grid-template-areas: 
@@ -11188,7 +11197,45 @@ usability-table {
         "pre-production premiere-rush"
         "production premiere-rush"
         "video-kilder video-kilder";
-}    
+} 
+    
+    
+    
+    
+    .video-php #background-image {
+        min-width: 100%;
+        height: auto;
+        margin-right: -5em;
+        margin-left: -5em;
+        overflow: hidden;
+        background-image: url(video/background-video-ikoner-final.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        
+    }
+    
+    
+    .video-php #videosection {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .video-php  #headphones {
+        height: 280px;
+    }
+    
+    .video-php #scooteredit {
+        height: 480px;
+        width: auto;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+    
     
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */   
@@ -11422,6 +11469,14 @@ usability-table {
         margin-left: -3.5em;
         margin-right: -3.5em;
     }
+    
+    .sporgeskema-php .sporgeskema-corona {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 
 /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/ 
 
@@ -11615,6 +11670,30 @@ usability-table {
         "dokumentation"
         "kilder";
 }
+    
+    .kortsortering-php .usability-table {
+        max-width: 70%;
+    }
+    
+    .kortsortering-php .testmetoder-table {
+        text-align: center;
+    }
+    
+    .kortsortering-php .resultater-kort img {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #rundte1-img {
+        margin-top: 30px;
+    }
+    
+    #rundte2-img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
 /* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */   
     
@@ -11652,7 +11731,6 @@ usability-table {
     padding-bottom: 5px;
 }
 
-/* GRID */
 .brugertest-php h1 {
     grid-area: titel;
 }
@@ -11665,7 +11743,7 @@ usability-table {
 
 
 .brugertest-php #mitgrid-brugertest {
-    margin: 5em;    
+    margin: 7em;    
 }
 
 .brugertest-php .forbered-bruger section {
@@ -11688,6 +11766,28 @@ usability-table {
     margin-top: 15px;
     margin-bottom: 10px;
 }
+    
+    
+    #hi-budgt {
+        grid-area: hi-budgt;
+    }
+    
+    #lo-budget {
+        grid-area: lo-budget;
+    }
+    
+    #lo-budget img {
+        max-width: 50%;
+    }
+    
+    #brugertest-setups {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+        grid-template-areas: 
+            "hi-budgt lo-budget";
+    }
+
 /* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */   
 
     
@@ -16009,10 +16109,12 @@ usability-table {
 
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */  .video-php #mitgrid-video {
-    margin: 2em;
+    margin: 7em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 25px;
-    grid-column-gap: 20px;
+    grid-column-gap: 30px;
     grid-template-columns: 3fr 3fr;
     grid-template-rows: 0fr 0.2fr 0.1fr 0.76fr 0.1fr 0.1fr;
     grid-template-areas: 
@@ -16027,11 +16129,6 @@ usability-table {
     .titel {
         text-align: center;
     }
-
-    .video-php iframe {
-        height: 720px;
-        max-width: 1280px;
-    }
     
 .video-php #videosection {
     max-width: 80%;
@@ -16043,8 +16140,8 @@ usability-table {
     .video-php #background-image {
         min-width: 100%;
         height: auto;
-        margin-right: -2em;
-        margin-left: -2em;
+        margin-right: -7em;
+        margin-left: -7em;
         overflow: hidden;
         background-image: url(video/background-video-ikoner-final.png);
         background-repeat: no-repeat;
@@ -16058,6 +16155,23 @@ usability-table {
     margin-top: 0em;
 }
     
+    
+    .video-php  #headphones {
+        height: 280px;
+    }
+    
+    .video-php #scooteredit {
+        height: 550px;
+        width: auto;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+    
+    .video-php .production {
+        margin-top: 110px;
+    }
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */        
 
@@ -16227,8 +16341,6 @@ usability-table {
 }
 
 .gangster-pointsystem {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
@@ -16437,6 +16549,13 @@ usability-table {
         background-position: center;
         margin-left: -7em;
         margin-right: -7em;
+    }
+    
+    .sporgeskema-php .sporgeskema-corona {
+        max-width: 65%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/   
@@ -16679,6 +16798,37 @@ usability-table {
     margin-left: -7em;
     margin-right: -7em;
     
+    }
+    
+    .kortsortering-php .usability-table {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .kortsortering-php .testmetoder-table {
+        text-align: left;
+    }
+    
+    .kortsortering-php .testmetoder-table .pdf-link,
+    .kortsortering-php .testmetoder-table h2 {
+        text-align: center;
+    }
+    
+    .kortsortering-php .resultater-kort img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #rundte1-img {
+        margin-top: 30px;
+    }
+    
+    #rundte2-img {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
 /* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */ 

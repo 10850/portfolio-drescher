@@ -23,9 +23,7 @@
         
         <div id="mitgrid-sporgeskema">
             
-            <div class="background-titel">
             <h1 class="titel">Spørgeskema</h1>
-            </div>
             
             <section class="hvad-er-sporgeskema">
                 <h2 class="overskrift">Hvad er et spørgeskema?</h2>
@@ -379,8 +377,10 @@
                         Jeg har været med til at lave et spørgeskema i en øvelse på studiet, hvor vi fik brugt disse principper for at bygge et godt spørgeskema. Det omhandler Covid-19 og hvordan det haft indflydelse på studiemiljøet på Campus.
                     </p>
                     
-                    <img src="usability/sporgeskema/sporgskema.jpg" class="sporgeskema-corona" alt="screenshot af vores spørgeskema vi lavet med hensyn til Corona på Dania.">
-                    
+                    <div class="background-image-usability">
+                        <img src="usability/sporgeskema/sporgskema.jpg" class="sporgeskema-corona" alt="screenshot af vores spørgeskema vi lavet med hensyn til Corona på Dania.">
+                    </div>
+                        
                     <h2 class="overskrift">Resultater</h2>
                     
                     <div class="background-image-usability">

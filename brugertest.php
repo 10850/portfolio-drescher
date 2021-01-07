@@ -174,13 +174,13 @@
                             Der er to måder man kan opstille de praktiske forhold i forhold til antal mennesker og hvor de skal side (ibid). Det kan være low-budget eller high-budget:
                         </p>
                         
-                        <div id="brugertest-setups" class="background-image-usability">
-                            <div>
+                        <div id="brugertest-setups">
+                            <div id="hi-budgt">
                                 <h3 class="underoverskrift">High budget</h3>
                                 <img src="usability/brugertest/highbudgetsetup.jpg" alt="high budget opstilling af en brugertest">
                             </div>
                             
-                            <div>
+                            <div id="lo-budget">
                                 <h3 class="underoverskrift">Low budget</h3>
                                 <img src="usability/brugertest/lowbudgetsetup.jpg" alt="low budget opstilling af en brugertest">
                             </div>
@@ -246,7 +246,7 @@
                         
                         
                         <p class="body-text">
-                            I min usablility testmetoder rapport, lavede jeg en brugertest på Resturant Flammen med 3 forskellige personer som skulle løse en bestemt opgave som jeg satte op i en opgaveskabelon.
+                            I vores usablility testmetoder rapport, lavede vi en brugertest på Resturant Flammen med 3 forskellige personer som skulle løse en bestemt opgave som vi satte op i en opgaveskabelon.
                         </p>
                         
                         <div class="background-image-usability">
