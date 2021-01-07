@@ -72,8 +72,6 @@
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="brugertest.php">Brugertest</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="tilgangelighed.php">Tilgængelighedstest</a>
-                                    <div class="dropdown-divider"></div>
                                 </div>
                             </li>
 
@@ -232,7 +230,6 @@
                                           <a class="dropdown-item" href="ekspertvudering.php">Ekspertvudering</a>
                                           <a class="dropdown-item" href="kortsortering.php">Kortsortering</a>
                                           <a class="dropdown-item" href="brugertest.php">Brugertest</a>
-                                          <a class="dropdown-item" href="tilgangelighed.php">Tilgængelighedstest</a>
                                     </div>
                                   </li> <!-- standard dropdown class="dropdown-standard" -->
                                 <div class="dropdown-menu-mega">

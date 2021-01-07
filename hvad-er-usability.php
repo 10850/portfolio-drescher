@@ -171,8 +171,12 @@
             <section class="kilder">
                 <h2 class="overskrift">Kilder</h2>
                 <ul class="kildeliste">
-                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Hvad er Usability?. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 14-24.</li>
-                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Undersøgelsesdesign. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 24-42.</li>
+                    <li>
+                        Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Hvad er Usability?. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 14-24.
+                    </li>
+                    <li>
+                        Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Undersøgelsesdesign. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 24-42.
+                    </li>
                 </ul>
             </section>
         </div>

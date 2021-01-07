@@ -49,6 +49,28 @@ body {
 .index-php .navbar {
     background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
 }
+
+.darkmode-uxui {
+    background-color: #441865;
+    
+}
+
+.darkmode-uxui p,
+.darkmode-uxui li,
+.darkmode-uxui h1,
+.darkmode-uxui h2,
+.darkmode-uxui h3,
+.darkmode-uxui h4 {
+    color: white;
+}
+
+.darkmode-uxui a {
+    color: #BD67FF;
+}
+
+.darklight-switch {
+    margin-left: 10px;
+}
 /* STYLING MOBILE FIRST */
 /* GLOBAL MENU */
 
@@ -3177,6 +3199,14 @@ video-php h1 {
     grid-area: kilder;
 }
 
+#direct-select-start-img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .directselection-php #mitgrid-directselection {
     margin: 0.8em;
     display: grid;
@@ -3365,6 +3395,8 @@ video-php h1 {
 .smooth-php .kilder {
     grid-area: kilder;
 }
+
+
 
 .smooth-php #mitgrid-smooth {
     margin: 0.8em;
@@ -5429,9 +5461,25 @@ video-php h1 {
 
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
 
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 1em;
+}
 
 
-
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
 
 
 
@@ -5501,7 +5549,7 @@ video-php h1 {
         margin-bottom: 3px;
     }   
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/   
-    
+
 }
 
 
@@ -5659,6 +5707,31 @@ video-php h1 {
     
 /* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP END */
 
+    
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+    
+        
+    
         
 }
 
@@ -10431,7 +10504,30 @@ usability-table {
 
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
+
     
+    
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
     
     
     
@@ -13969,6 +14065,13 @@ usability-table {
         margin-right: auto;
         margin-left: auto;
     }
+    
+     #outofframe-slut-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
@@ -14606,12 +14709,12 @@ usability-table {
         grid-area: tekst;
     }
     
-    #adobexd-desktop {
-        max-width: 90%;
+    .adobexd-php #adobexd-desktop {
+        max-width: 80%;
     }
     
-    #adobexd-mobil {
-        max-width: 90%;
+    .adobexd-php #adobexd-mobil {
+        max-width: 80%;
     }
 
 .adobexd-php #adobexd {
@@ -15847,7 +15950,31 @@ usability-table {
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
     
+
     
+    
+    
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
     
     
     
@@ -18880,12 +19007,14 @@ usability-table {
     grid-area: kilder;
 }
 
-
+.contentaware-php #contentaware-releksion {
+    grid-area: contentaware-releksion;
+}
 
 .contentaware-php #mitgrid-content-aware {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -18893,6 +19022,7 @@ usability-table {
         "content-aware-fill"
         "content-aware-move"
         "content-aware-patch"
+        "contentaware-releksion"
         "kilder";
 }
     
@@ -19107,9 +19237,7 @@ usability-table {
         margin-left: auto;
     }
     
-    #outofframe-slut-img {
-        
-    }
+
 
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
@@ -19749,11 +19877,11 @@ usability-table {
         grid-area: tekst;
     }
     
-    #adobexd-desktop {
+    .adobexd-php #adobexd-desktop {
         max-width: 80%;
     }
     
-    #adobexd-mobil {
+    .adobexd-php #adobexd-mobil {
         max-width: 80%;
     }
 
@@ -19958,7 +20086,27 @@ usability-table {
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
     
-   
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 12em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */ 
     
     
     

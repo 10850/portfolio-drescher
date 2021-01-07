@@ -27,7 +27,7 @@
         <div id="mitgrid-licens">
             
             <section id="persondataloven">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     Persondataloven 
                 </h2>
                 <p class="body-text">
@@ -39,7 +39,7 @@
             </section>
             
             <section id="gdpr">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     GDPR 
                 </h2>
                 <p class="body-text">
@@ -54,7 +54,7 @@
             </section>
             
             <section id="immaterielle-rettigheder">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     Immaterielle rettigheder 
                 </h2>
                 <p class="body-text">
@@ -83,7 +83,7 @@
             </section>
             
             <section id="ophavsret">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     Ophavsret
                 </h2>
                 <p class="body-text">
@@ -95,7 +95,7 @@
             </section>
             
             <section id="open-source">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     Open source
                 </h2>
                 <p class="body-text">
@@ -110,7 +110,7 @@
             </section>
             
             <section id="licensaftaler">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     Licensaftaler  
                 </h2>
                 <p class="body-text">
@@ -122,7 +122,7 @@
             </section>
             
             <section id="mit-licens">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     MIT-licens
                 </h2>
                 <p class="body-text">
@@ -134,7 +134,7 @@
             </section>
             
             <section id="creative-commons">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     Creative commons 
                 </h2>
                 <p class="body-text">

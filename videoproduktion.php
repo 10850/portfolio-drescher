@@ -147,7 +147,9 @@
             <section class="video-kilder">
                 <h2 class="overskrift"> Kilder </h2>
                 <ul class="kildeliste">
-                    <li>Bogner, K. C., 2020. Quick’n Dirty video, s.l.: Moodle.</li>
+                    <li>
+                        Bogner, K. C., 2020. Quick’n Dirty video, s.l.: Moodle
+                    </li>
                     <li>Storysium, 2019. Youtube. [Online] 
                         Available at: <a href="https://www.youtube.com/watch?v=Tsc81qbpy6g&feature=emb_logo&ab_channel=Storysium" target="_blank">https://www.youtube.com/watch?v=Tsc81qbpy6g&#38;feature=emb_logo&#38;ab_channel=Storysium</a>
                         [Senest hentet eller vist den 19 december 2020].

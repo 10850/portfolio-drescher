@@ -96,8 +96,6 @@
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="brugertest.php">Brugertest</a>
                                     <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="tilgangelighed.php">Tilgængelighedstest</a>
-                                    <div class="dropdown-divider"></div>
                                 </div>
                             </li>
 
@@ -258,7 +256,6 @@
                                           <a class="dropdown-item" href="ekspertvudering.php">Ekspertvudering</a>
                                           <a class="dropdown-item" href="kortsortering.php">Kortsortering</a>
                                           <a class="dropdown-item" href="brugertest.php">Brugertest</a>
-                                          <a class="dropdown-item" href="tilgangelighed.php">Tilgængelighedstest</a>
                                     </div>
                                   </li> <!-- standard dropdown class="dropdown-standard" -->
                                 <div class="dropdown-menu-mega">
@@ -348,7 +345,7 @@
                 
                 <ul id="uxmenu">
                     <li><div id="uxboks"><h3>UX</h3></div> <!-- Boksen som siger UX så jeg kan lave en rød boks --></li>
-                    <li><a id="kodningforside" href="attributter.php">Kodning</a></li>
+                    <li><a id="kodningforside" href="fundamental-html.php">Kodning</a></li>
                     <li><a id="kommunikationforside" href="hvad-er-kommunikation.php">Kommunikation</a></li>
                     <li><a id="usabilityforside" href="hvad-er-usability.php">Usability</a></li>
                 </ul> <!-- Links som skal stå under UX og på venstre side af billedet -->

@@ -419,8 +419,12 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Brugertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 96-116.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Brugertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 96-116.
+                        </li>
+                        <li>
+                            Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
+                        </li>
                     </ul>
                 </section>
             </div>

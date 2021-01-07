@@ -412,8 +412,12 @@
             <section class="kilder">
                 <h2 class="overskrift">Kilder</h2>
                 <ul class="kildeliste">
-                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Spørgeskema. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 50-64.</li>
-                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 22. september: <a class="pdf-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Corona på Dania Skive</a></li>
+                    <li>
+                        Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Spørgeskema. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 50-64.
+                    </li>
+                    <li>
+                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 22. september: <a class="pdf-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Corona på Dania Skive</a>
+                    </li>
                 </ul>
             </section>
         </div>

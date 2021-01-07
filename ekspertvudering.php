@@ -272,7 +272,7 @@
             <section class="dokumentation-ekspert">
                 <h2 class="overskrift">Dokumentation</h2>
                 <p class="body-text">
-                    I en god ekspertvurdering er de fundne problemer sammenfattet og prioriteret (Gregersen & Wisler-Poulsen, 2017). De er sat i en simpel og overskuelig struktur (ibid). Der anbefales at dokumentationen indeholder:
+                    I en god ekspertvurdering er de fundne problemer sammenfattet og prioriteret (Gregersen &#38; Wisler-Poulsen, 2017). De er sat i en simpel og overskuelig struktur (ibid). Der anbefales at dokumentationen indeholder:
                 </p>
                 
                 <h3 class="underoverskrift">Kortresume (1-2 sider):</h3>
@@ -302,8 +302,12 @@
             <section class="kilder">
                 <h2 class="overskrift">Kilder</h2>
                 <ul class="kildeliste">
-                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Ekspertvudering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 64-86.</li>
-                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                    <li>
+                        Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Ekspertvudering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 64-86.
+                    </li>
+                    <li>
+                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
+                    </li>
                 </ul>
             </section>
         

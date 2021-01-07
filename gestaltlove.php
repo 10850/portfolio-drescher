@@ -140,10 +140,10 @@
                             [Senest hentet eller vist den 20 december 2020].
                         </li>
                         <li>
-                        Phillips, J. D., 2014. How to avoid death By PowerPoint | David JP Phillips | TEDxStockholmSalon. [Online] 
-                        Available at: <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks" target="_blank">https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks</a>
-                        [Senest hentet eller vist den 5 december 2020].
-                    </li>
+                            Phillips, J. D., 2014. How to avoid death By PowerPoint | David JP Phillips | TEDxStockholmSalon. [Online] 
+                            Available at: <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks" target="_blank">https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks</a>
+                            [Senest hentet eller vist den 5 december 2020].
+                        </li>
                     </ul>
                 </section>
             </div>
