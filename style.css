@@ -3219,18 +3219,40 @@ video-php h1 {
     grid-area: shape-slut2;
 }
 
+    .shapebuilder-php #shape-start-liste {
+        grid-area: shape-start-liste;
+    }
+
 .shapebuilder-php #shape-tool {
     grid-area: shape-tool;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "shape-intro"
         "shape-start"
+        "shape-start-liste"
         "shape-slut"
         "shape-start2"
         "shape-slut2";
 }
+    
+    .shapebuilder-php #shape-start2 h4,
+    .shapebuilder-php #shape-slut2 h4{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #shape-start-img {
+        margin-top: -65px;
+        margin-bottom: -65px;
+    }
+    
+    #shape-slut-img {
+        margin-top: -65px;
+        margin-bottom: -55px;
+    }
 
 .shapebuilder-php .kilder {
     grid-area: kilder;
@@ -3311,14 +3333,19 @@ video-php h1 {
 
 .smooth-php #smooth-start {
     grid-area: smooth-start;
+    margin-top: -25px;
+    margin-bottom: 50px;
 }
 
 .smooth-php #smooth-options {
     grid-area: smooth-options;
+    margin-top: -25px;
+    margin-bottom: 50px;
 }
 
 .smooth-php #smooth-secondlast {
     grid-area: smooth-secondlast;
+    margin-bottom: 50px;
 }
 
 .smooth-php #smooth-slut {
@@ -3505,6 +3532,11 @@ video-php h1 {
         "spothealing-start";
 }
 
+.spothealing-php #spothealing-start img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 .spothealing-php .kilder {
     grid-area: kilder;
 }
@@ -3574,6 +3606,8 @@ video-php h1 {
         "smartobject"
         "kilder";
 }
+
+
 /* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP END*/
 
 
@@ -4067,6 +4101,24 @@ video-php h1 {
         "wireframing-section"
         "kilder";
 }
+
+
+    
+    .wireframing-php #lofi-india img {
+        margin-bottom: 15px;
+    }
+
+    .wireframing-php #hifi-india img {
+        margin-bottom: 15px;
+    }
+    
+    .wireframing-php #lofi-india h2 {
+        text-align: center;
+    }
+
+    .wireframing-php #hifi-india h2 {
+        text-align: center;
+    }
 
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
 
@@ -5451,15 +5503,7 @@ video-php h1 {
     #uxmenu li:nth-child(4){
         margin-bottom: 3px;
     }   
-/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
-    
-    
-    
-    
-    
-    
-    
-    
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/   
     
 }
 
@@ -5617,10 +5661,42 @@ video-php h1 {
     
     
 /* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP END */
-    
 
         
 }
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* SMARTOBJECT.PHP START */
+    .smartobject-php #smartobject-start img {
+        margin-bottom: 10px;
+    }
+
+    .smartobject-php #smartobject-options img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .smartobject-php #smartobject-edit img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .smartobject-php #smartobject-slut img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -7998,16 +8074,61 @@ usability-table {
     grid-area: shape-slut2;
 }
 
+    .shapebuilder-php #shape-start-liste {
+        grid-area: shape-start-liste;
+    }
+
 .shapebuilder-php #shape-tool {
     grid-area: shape-tool;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "shape-intro shape-intro"
-        "shape-start shape-slut"
+        "shape-start shape-start"
+        "shape-start-liste shape-start-liste"
+        "shape-slut shape-slut"
         "shape-start2 shape-slut2";
 }
+    
+    .shapebuilder-php #shape-start2 h4,
+    .shapebuilder-php #shape-slut2 h4{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #shape-start-img {
+        margin-top: -125px;
+        margin-bottom: -105px;
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #shape-slut-img {
+        margin-top: -105px;
+        margin-bottom: -55px;
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #shape-slut2-img {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #shape-start2-img {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 .shapebuilder-php .kilder {
     grid-area: kilder;
@@ -8049,11 +8170,17 @@ usability-table {
 .smokey-php #smokey-slut {
     grid-area: smokey-slut;
 }
+    
+    .smokey-php #smokey-slut h4 {
+        text-align: center;
+        margin-top: 25px;
+    }
 
 .smokey-php #smokey {
     grid-area: smokey;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smokey-intro smokey-intro"
@@ -8090,14 +8217,19 @@ usability-table {
 
 .smooth-php #smooth-start {
     grid-area: smooth-start;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-options {
     grid-area: smooth-options;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-secondlast {
     grid-area: smooth-secondlast;
+    margin-bottom: 0px;
 }
 
 .smooth-php #smooth-slut {
@@ -8108,6 +8240,7 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smooth-intro smooth-intro"
@@ -8122,13 +8255,12 @@ usability-table {
 .smooth-php #mitgrid-smooth {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
-        "smooth"
-        "kilder";
+        "smooth";
 }
 /* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP END */
 
@@ -8306,6 +8438,15 @@ usability-table {
         "spothealing-intro"
         "spothealing-start";
 }
+    
+    .spothealing-php #spothealing-start img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 .spothealing-php .kilder {
     grid-area: kilder;
@@ -8314,7 +8455,7 @@ usability-table {
 .spothealing-php #mitgrid-spothealing {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -8350,11 +8491,37 @@ usability-table {
 .smartobject-php #smartobject-slut {
     grid-area: smartobject-slut;
 }
+    
+    
+    .smartobject-php #smartobject-start img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+.smartobject-php #smartobject-slut img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    
+    .smartobject-php #smartobject-edit img {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
 
+    
+    
 .smartobject-php #smartobject {
     grid-area: smartobject;
     display: grid;
-    grid-row: 15px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smartobject-intro smartobject-intro"
@@ -8370,7 +8537,7 @@ usability-table {
 .smartobject-php #mitgrid-smartobject {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -8730,7 +8897,7 @@ usability-table {
 .typografi-php #typografi {
     grid-area: typografi;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "typografi-intro"
@@ -8750,7 +8917,7 @@ usability-table {
 .typografi-php #font-anatomi {
     grid-area: font-anatomi;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "anatomi-intro"
@@ -8777,7 +8944,7 @@ usability-table {
 .typografi-php #readability {
     grid-area: readability;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "read-friendly"
@@ -8794,9 +8961,9 @@ usability-table {
 .typografi-php #mitgrid-typografi {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 50px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "typografi"
@@ -8950,6 +9117,7 @@ usability-table {
 .wireframing-php #wireframing-section {
     grid-area: wireframing-section;
     display: grid;
+    grid-column-gap: 15px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -8965,7 +9133,7 @@ usability-table {
 .wireframing-php #mitgrid-wireframing {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -8973,6 +9141,28 @@ usability-table {
         "wireframing-section"
         "kilder";
 }
+    
+
+    
+    .wireframing-php #lofi-india h2 {
+        text-align: center;
+    }
+
+    .wireframing-php #hifi-india h2 {
+        text-align: center;
+    }
+    
+    
+    .wireframing-php #lofi-india img {
+
+        margin-bottom: 15px;
+    }
+
+    .wireframing-php #hifi-india img {
+
+        margin-bottom: 15px;
+    }
+
 
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
 
@@ -13195,21 +13385,45 @@ usability-table {
 .shapebuilder-php #shape-slut2 {
     grid-area: shape-slut2;
 }
+    
+    .shapebuilder-php #shape-start-liste {
+        grid-area: shape-start-liste;
+    }
 
 .shapebuilder-php #shape-tool {
     grid-area: shape-tool;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "shape-intro shape-intro"
         "shape-start shape-slut"
+        "shape-start-liste shape-start-liste"
         "shape-start2 shape-slut2";
 }
-
-.shapebuilder-php .kilder {
-    grid-area: kilder;
-}
+    
+    .shapebuilder-php #shape-start-liste ol {
+        
+        column-count: 2;
+        column-gap: 30px;
+    }
+    
+    .shapebuilder-php #shape-start2 h4,
+    .shapebuilder-php #shape-slut2 h4{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #shape-start-img {
+        margin-top: -85px;
+        margin-bottom: -85px;
+    }
+    
+    #shape-slut-img {
+        margin-top: -45px;
+        margin-bottom: -85px;
+    }
 
 .shapebuilder-php #mitgrid-shapebuilder {
     margin: 7em;
@@ -13252,6 +13466,7 @@ usability-table {
     grid-area: smokey;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smokey-intro smokey-intro"
@@ -13288,10 +13503,14 @@ usability-table {
 
 .smooth-php #smooth-start {
     grid-area: smooth-start;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-options {
     grid-area: smooth-options;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-secondlast {
@@ -13306,6 +13525,7 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smooth-intro smooth-intro"
@@ -13479,6 +13699,15 @@ usability-table {
         "spothealing-intro"
         "spothealing-start";
 }
+    
+    .spothealing-php #spothealing-start img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 .spothealing-php .kilder {
     grid-area: kilder;
@@ -13487,7 +13716,7 @@ usability-table {
 .spothealing-php #mitgrid-spothealing {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -13523,11 +13752,34 @@ usability-table {
 .smartobject-php #smartobject-slut {
     grid-area: smartobject-slut;
 }
+    
+    .smartobject-php #smartobject-start img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+.smartobject-php #smartobject-slut img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    
+    .smartobject-php #smartobject-edit img {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
 
 .smartobject-php #smartobject {
     grid-area: smartobject;
     display: grid;
-    grid-row: 15px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smartobject-intro smartobject-intro"
@@ -13901,7 +14153,7 @@ usability-table {
 .typografi-php #typografi {
     grid-area: typografi;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "typografi-intro"
@@ -13921,7 +14173,7 @@ usability-table {
 .typografi-php #font-anatomi {
     grid-area: font-anatomi;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "anatomi-intro"
@@ -13948,7 +14200,7 @@ usability-table {
 .typografi-php #readability {
     grid-area: readability;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "read-friendly"
@@ -13965,9 +14217,9 @@ usability-table {
 .typografi-php #mitgrid-typografi {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 50px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "typografi"
@@ -14122,6 +14374,7 @@ usability-table {
     grid-area: wireframing-section;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "wireframing-intro wireframing-intro"
@@ -14136,7 +14389,7 @@ usability-table {
 .wireframing-php #mitgrid-wireframing {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -14144,6 +14397,30 @@ usability-table {
         "wireframing-section"
         "kilder";
 }
+    
+    .wireframing-php #lofi-india img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    .wireframing-php #hifi-india img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    .wireframing-php #lofi-india h2 {
+        text-align: center;
+    }
+
+    .wireframing-php #hifi-india h2 {
+        text-align: center;
+    }
 
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
 
@@ -18187,16 +18464,45 @@ usability-table {
     grid-area: shape-slut2;
 }
 
+    
+    .shapebuilder-php #shape-start-liste {
+        grid-area: shape-start-liste;
+    }
+
 .shapebuilder-php #shape-tool {
     grid-area: shape-tool;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "shape-intro shape-intro"
         "shape-start shape-slut"
+        "shape-start-liste shape-start-liste"
         "shape-start2 shape-slut2";
 }
+    
+    .shapebuilder-php #shape-start-liste ol {
+        
+        column-count: 2;
+        column-gap: 30px;
+    }
+    
+    .shapebuilder-php #shape-start2 h4,
+    .shapebuilder-php #shape-slut2 h4{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #shape-start-img {
+        margin-top: -105px;
+        margin-bottom: -105px;
+    }
+    
+    #shape-slut-img {
+        margin-top: -85px;
+        margin-bottom: -105px;
+    }
 
 .shapebuilder-php .kilder {
     grid-area: kilder;
@@ -18205,7 +18511,7 @@ usability-table {
 .shapebuilder-php #mitgrid-shapebuilder {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -18238,10 +18544,12 @@ usability-table {
 .smokey-php #smokey-slut {
     grid-area: smokey-slut;
 }
+    
 
 .smokey-php #smokey {
     grid-area: smokey;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
@@ -18254,9 +18562,9 @@ usability-table {
 }
 
 .smokey-php #mitgrid-smokeythebear {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-areas: 
@@ -18278,10 +18586,14 @@ usability-table {
 
 .smooth-php #smooth-start {
     grid-area: smooth-start;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-options {
     grid-area: smooth-options;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-secondlast {
@@ -18296,6 +18608,7 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smooth-intro smooth-intro"
@@ -18303,20 +18616,15 @@ usability-table {
         "smooth-secondlast smooth-slut";
 }
 
-.smooth-php .kilder {
-    grid-area: kilder;
-}
-
 .smooth-php #mitgrid-smooth {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
-        "smooth"
-        "kilder";
+        "smooth";
 }
 /* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP END */
 
@@ -18495,9 +18803,9 @@ usability-table {
 }
 
 .spothealing-php #mitgrid-spothealing {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -18533,11 +18841,33 @@ usability-table {
 .smartobject-php #smartobject-slut {
     grid-area: smartobject-slut;
 }
+    
+    .smartobject-php #smartobject-start img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    .smartobject-php #smartobject-slut img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    .smartobject-php #smartobject-edit img {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
 
 .smartobject-php #smartobject {
     grid-area: smartobject;
     display: grid;
-    grid-row: 15px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "smartobject-intro smartobject-intro smartobject-intro"
@@ -18550,9 +18880,9 @@ usability-table {
 }
 
 .smartobject-php #mitgrid-smartobject {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -18970,9 +19300,9 @@ usability-table {
 }
 
 .typografi-php #mitgrid-typografi {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -19137,6 +19467,7 @@ usability-table {
     grid-area: wireframing-section;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "wireframing-intro wireframing-intro"
@@ -19148,10 +19479,11 @@ usability-table {
     grid-area: kilder;
 }
 
+
 .wireframing-php #mitgrid-wireframing {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -19159,6 +19491,30 @@ usability-table {
         "wireframing-section"
         "kilder";
 }
+    
+    .wireframing-php #lofi-india img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    .wireframing-php #hifi-india img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    .wireframing-php #lofi-india h2 {
+        text-align: center;
+    }
+
+    .wireframing-php #hifi-india h2 {
+        text-align: center;
+    }
 
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
 

@@ -43,12 +43,14 @@
                                 Gradients giver mulighed for at lave unikke farvekombinationer, der kan skabe nye nuancer 
                             </li>
                         </ul>
-                    </section>
-                    
-                    <section id="smokey-start">
+                        
                         <p class="body-text">
                             Dette er den første øvelse jeg havde på studiet hvor jeg brugte Marquee tool, Gradients og Text tool til at lave en bjørn jeg kaldte "Smokey the Bear".
                         </p>
+                    </section>
+                    
+                    <section id="smokey-start">
+                        
                         <img src="design/photoshop/smokey-before.jpg" alt="screenshot af photoshop" id="smokey-start-img">
                         <ol class="liste">
                             <li>
@@ -70,9 +72,7 @@
                                 Den samme process blev brugt med pupillerne gjorde jeg med øjenbrynene, hvor jeg lavet en sort cirkel med marquee tool og brugte marquee tool til at cutte en stor del af cirklen ud i form af et øjenbryn og kopieret den så jeg har to øjenbryn
                             </li>
                         </ol>
-                        <p class="body-text">
-                            Jeg vidste godt man kunne lave selection, kopier og cutte dem ud med marquee tool fra tidligere brug photoshop, men jeg vidste ikke man kunne fylde dem ind og lave illustrationer med marquee tool.
-                        </p>
+                        
                     </section>
                     
                     <section id="smokey-options">
@@ -97,13 +97,17 @@
                                 Til sidst laver jeg en gradient med pink og lyserød til snuden.
                             </li>
                         </ol>
+                        
                     </section>
                     
                     <section id="smokey-slut">
-                        <h4 class="sub-skrift">
+                        <h4 class="underoverskrift">
                             Sig hej til Smokey the Bear.
                         </h4>
                         <img src="design/photoshop/smokey-done.png" alt="screenshot af photoshop" id="smokey-slut-img">
+                        <p class="body-text">
+                            Jeg vidste godt man kunne lave selection, kopier og cutte dem ud med marquee tool fra tidligere brug photoshop, men jeg vidste ikke man kunne fylde dem ind og lave illustrationer med marquee tool.
+                        </p>
                     </section>
                 </section>
             </div>

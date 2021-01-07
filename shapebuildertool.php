@@ -39,9 +39,13 @@
                     
                     <section id="shape-start">
                         <p class="body-text">
-                            I en opgave hvor jeg skulle lave 5 ikoner lavet jeg denne ilustration af et millenium puzzle fra et show kaldt Yu-Gi-Oh, for at udfordre mig selv med noget der ude fra kan virke ret kompleks.
+                            <a href="design/illustrator/shapebuilder/shape-builder-tool-ikoner5.pdf" target="_blank">I en opgave hvor jeg skulle lave 5 ikoner</a> lavet jeg denne ilustration af et millenium puzzle fra et show kaldt Yu-Gi-Oh, for at udfordre mig selv med noget der ude fra kan virke ret kompleks.
                         </p>
                         <img src="design/illustrator/shapebuilder/yugiohstarter-03.png" alt="screenshot af illustrator" id="shape-start-img">
+                        
+                    </section>
+                    
+                    <section id="shape-start-liste">
                         <ol class="liste">
                             <li>
                                 Først lavet jeg den stor trekant som er basen for figuren.
@@ -76,15 +80,11 @@
                     </section>
                     
                     <section id="shape-start2">
-                        <h3 class="underoverskrift">
-                            Her er to andre eksempler på ikoner jeg lavet i min opgave ved brug af shape builder tool.
-                        </h3>
-                        
-                        <h4 class="sub-skrift">Mit løbehjul</h4>
+                        <h4 class="underoverskrift">Mit løbehjul</h4>
                         <img src="design/illustrator/shapebuilder/scooter-04.png" alt="screenshot af illustrator" id="shape-start2-img">
                     </section>
                     <section id="shape-slut2">
-                        <h4 class="sub-skrift">Dragon Ball</h4>
+                        <h4 class="underoverskrift">Dragon Ball</h4>
                         <img src="design/illustrator/shapebuilder/dragonball-01.png" alt="screenshot af illustrator" id="shape-slut2-img">
                     </section>
                 </section>
@@ -98,6 +98,10 @@
                             Harmer, T., 2019. Linkedin Learning. [Online] 
                             Available at: <a href="https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532" target="_blank">https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532</a>
                             [Senest hentet eller vist den 18 december 2020].
+                        </li>
+                        <li>
+                            Rijna, D., 2020. Shape builder tool 5 Ikoner. 
+                            Available at: <a href="design/illustrator/shapebuilder/shape-builder-tool-ikoner5.pdf" target="_blank">Shape builder tool 5 ikoner</a>
                         </li>
                     </ul>
                 </section>

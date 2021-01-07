@@ -50,7 +50,7 @@
                     <section id="lofi-india">
                         <h2 class="overskrift">Lo-fi</h2>
                             
-                        <img src="design/wireframing/lofi-india.png" id="lofi-india-img">
+                        <img src="design/wireframing/lofi-india.jpg" id="lofi-india-img">
                             
                         <ul class="liste">
                             <li>
