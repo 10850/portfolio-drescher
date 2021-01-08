@@ -33,7 +33,7 @@
                 <section id="form-intro">
                     <h2 class="overskrift">HTML form tag</h2>
                     <p class="body-text">
-                        HTML formularer bruges til at indsamle forskellige brugerinformationer, som oftest sendes til en server, hvor de bearbejdes (Knudsen &#38; Sørensen, 2020). Tagget 	&#60;form&#62;&#60;/form&#62; bruges til at oprette en HTML formularer og fungere som en beholder til alle elementtyperne der er til rådighed (ibid).
+                        HTML formularer bruges til at indsamle data, som oftest sendes til en server, hvor det bearbejdes (Knudsen &#38; Sørensen, 2020). Tagget &#60;form&#62;&#60;/form&#62; bruges til at oprette en HTML formularer og er beholderen til alle elementtyperne for forskellige typer af formularer (ibid).
                     </p>
                 </section> <!-- form tag intro -->
                 

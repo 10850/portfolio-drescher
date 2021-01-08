@@ -78,7 +78,7 @@
                             Både afsender (produktion) og modtager (reception) skal deltage før der er en interaktion (Busch, 2015). Modtager og afsender har muligvis ikke samme koder og ser derfor produktet forskelligt (ibid).
                         </li>
                         <li>
-                            Den genre man bruger produktet, gør at produktet opfattes ligesom de andre i den genre, og bliver kodet derefter (ibid). Det hedder et diskursfællesskab og findes ved analyse af tekstens trækstruktur og retoriske strategi (ibid).
+                            Den genre man bruger til produktet, gør at produktet opfattes ligesom de andre i den genre, og bliver kodet derefter (ibid). Det hedder et diskursfællesskab og findes ved analyse af tekstens trækstruktur og retoriske strategi (ibid).
                         </li>
                         <li>
                             Modellen opfatter alle kulturelle fænomener som tegn (ibid). Det kaldes for en semiotisk tilgang (ibid).
@@ -97,19 +97,19 @@
                             <strong>Afsender:</strong> Afsenderen af kommunikationen. Kan både være producenten (teksteksterne) og den der har bestilt produktet (tekstinterne) (Busch, 2015). Primær afsender er den der har bestilt produktet, mens den sekundære kan være specialister fremhævet i produktet (ibid).
                         </li>
                         <li>
-                            <strong>Modtager:</strong> Modtageren af kommunikationen. Kan både være specifik målgruppe (tekstinterne) eller uden for målgruppen (teksteksterne) (ibid). Primær modtager er dem der specifikt bruger produktet, mens sekundære er dem der kan påvirke den primære til at bruge det (ibid).
+                            <strong>Modtager:</strong> Modtageren af kommunikationen. Kan både være specifik målgruppe (tekstinterne) eller uden for målgruppen (teksteksterne) (ibid). Primær modtager er dem der specifikt bruger produktet, mens sekundære er dem der kan påvirke den primære modtager til at bruge det (ibid).
                         </li>
                         <li>
                             <strong>Teksten:</strong> Selve kommunikationen (ibid).
                         </li>
                         <li>
-                            <strong>Referenten:</strong> Alt hvad teksten refererer til. Kan være et specifikt produkt, effekt ved produktet, et brand osv. (ibid).
+                            <strong>Referenten:</strong> Alt hvad teksten refererer til. Kan være et specifikt produkt, et brand osv. (ibid).
                         </li>
                         <li>
                             <strong>Koden:</strong> Hvad man bruger til at give teksten et bestemt budskab (ibid). Kan være det medie der bliver brugt, konteksten det bliver set i, og hvilken genre der bliver brugt (ibid).
                         </li>
                         <li>
-                            <strong>Kontekst/kultur:</strong> Situationen som kommunikationen sker i, altså hvem, hvad, hvor og hvornår. Her spiller modtagerens kultur også ind (ibid).
+                            <strong>Kontekst/kultur:</strong> Situationen som kommunikationen sker i, altså hvem, hvad, hvor og hvornår. Her spiller modtagerens kultur også en rolle (ibid).
                         </li>
                         <li>
                             <strong>Medier:</strong> Hvordan kommunikationen bliver præsenteret. Kan være forskellige former for print eller elektronisk (ibid). Her tænkes situationen og anvendelsen ind over for at vælge det mest passende medie (ibid).
@@ -192,6 +192,7 @@
         </div>
         
         <?php include 'footer.inc' ?> <!-- footer -->
+
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

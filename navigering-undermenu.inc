@@ -6,7 +6,7 @@
                 </p>
                 <div class="collapse" id="collapseExample">
                       <div class="card card-body">
-                        <a href="latch.php"><button type="button" class="btn btn-primary">LATCH</button></a>
+                        <a href="lacth.php"><button type="button" class="btn btn-primary">LATCH</button></a>
                         <a href="webstruktur.php"><button type="button" class="btn btn-primary">Webstruktur</button></a>
                         <a href="navigering.php"><button type="button" class="btn btn-primary">Navigeringsdesign</button></a>
                     </div>

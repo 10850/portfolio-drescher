@@ -250,7 +250,7 @@
                         </p>
                         
                         <div class="background-image-usability">
-                            <img src="usability/brugertest/brugertest-screenshot.jpg" alt="screenshot af resturant Flammen som jeg brugertestet i rapporten om usability testmetoder" class="brugertest-screenshot">
+                            <img src="usability/brugertest/brugertest-screenshot.jpg" alt="screenshot af resturant Flammen som vi brugertestet i rapporten om usability testmetoder" class="brugertest-screenshot">
                         </div>
                             
                         <div class="background-image-usability">

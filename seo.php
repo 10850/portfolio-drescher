@@ -55,10 +55,10 @@
                     <section id="metaogbase" class="mt">
                         <h3 class="underoverskrift">Hvad er head?</h3>
                         <p class="body-text">
-                            Meta tagget definere alt metadata om HTML-dokumentet (Nyrup &#38; Andreasen, 2020). 
+                            Meta tagget definere alt metadata vedrørende HTML-dokumentet (Nyrup &#38; Andreasen, 2020). 
                         </p>
                         <p class="body-text">
-                            Meta tags går altid inde i head-elementet og bruges typisk til at specificere karaktersæt, sidebeskrivelse, nøgleord, dokumentforfatter og visningsindstillinger (ibid). Det er supervigtigt at inkludere alt for god SEO-rangering (ibid).
+                            Meta tags går altid ind i head-elementet og bruges typisk til at specificere karaktersæt, sidebeskrivelse, nøgleord, dokumentforfatter og visningsindstillinger (ibid). Det er supervigtigt at inkludere alt for god SEO-rangering (ibid).
                         </p>
                         
                         <div class="background-icons-kodning">
@@ -80,7 +80,7 @@
                         <h2 class="overskrift">Hvad er semantiske tags</h2>
                         
                         <p class="body-text">
-                            Semantiske tags er karakteriseret som tags der fortæller noget om indholdet (Nyrup &#38; Andreasen, 2020). De er blevet mere og mere vigtigt gennem tiden, hvor man tidligere bare brugte ikke semantiske tags til at bygge sine sider (ibid). Det er på grund af den stor vækst i vigtigheden af SEO (ibid). Eksempler på semantiske tags er:
+                            Semantiske tags er karakteriseret som tags der fortæller noget om indholdet (Nyrup &#38; Andreasen, 2020). De er blevet mere og mere vigtige gennem tiden, hvor man tidligere bare brugte ikke semantiske tags til at bygge sine sider (ibid). Det er på grund af den stor vækst i vigtigheden af SEO (ibid). Eksempler på semantiske tags er:
                         </p>
                     </section>
                     
@@ -165,7 +165,7 @@
                     </p>
                     
                     <h4 class="sub-skrift">
-                        &#60;div&#62; står for list item og fortæller at indholdet er et element i en given liste (ibid). 
+                        &#60;div&#62; 
                     </h4>
                     
                     <p class="body-text">
@@ -173,7 +173,7 @@
                     </p>
                     
                     <h4 class="sub-skrift">
-                        &#60;span&#62; står for list item og fortæller at indholdet er et element i en given liste (ibid). 
+                        &#60;span&#62; 
                     </h4>
                     
                     <p class="body-text">

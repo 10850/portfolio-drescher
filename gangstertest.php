@@ -115,7 +115,7 @@
                 <h2 class="overskrift">Gangstertest på Youtube</h2>
                 
                 <p class="body-text">
-                    Jeg har lavet en gangstertest på youtube med 3 personer i en rapport om usability metoder. I denne test gik jeg ind på en tilfældig video og testede Youtube's underside for når man ser en video, hvor jeg stillede 6 spørgsmål med følgende resultater: 
+                    Vi har lavet en gangstertest på youtube med 3 personer i en rapport om usability metoder. I denne test gik vi ind på en tilfældig video og testede Youtube's underside for når man ser en video, hvor vi stillede 6 spørgsmål med følgende resultater: 
                 </p>
                 
                 <img src="usability/gangstertest/gangstertest-screenshot.jpg" alt="screenshot af youtube" class="youtube-screenshot">

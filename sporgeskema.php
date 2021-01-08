@@ -398,7 +398,7 @@
                     
                     <h3 class="underoverskrift">Hvad fik jeg ud af øvelsen</h3>
                     <p class="body-text">
-                        Jeg fik meget ud af denne øvelse fordi jeg faktisk kunne sidde med teorien i hænderne og bruge det til at lave et spørgeskema. Ikke kun hjalp det mig til at huske på visse principper bedre, men jeg kunne meget nemmere se og forstå hvorfor de principper er vigtige og hvad de gøre ved at lave et spørgeskema og se på andres.
+                        Jeg fik meget ud af denne øvelse fordi jeg kunne sidde med teorien i hænderne og bruge det til at lave et spørgeskema. Ikke kun hjalp det mig til at huske på visse principper bedre, men jeg kunne meget nemmere se og forstå hvorfor de principper er vigtige og hvad de gøre ved at lave et spørgeskema og se på andres.
                     </p>
                     
                     <p class="body-text">

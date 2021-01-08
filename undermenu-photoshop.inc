@@ -8,9 +8,9 @@
                       <div class="card card-body">
                         <a href="smokeythebear.php"><button type="button" class="btn btn-primary">Smokey the Bear</button></a>
                         <a href="smooth.php"><button type="button" class="btn btn-primary">Warped</button></a>
+                        <a href="smartobject.php"><button type="button" class="btn btn-primary">Smart object</button></a>
                         <a href="contentawarefill.php"><button type="button" class="btn btn-primary">Content aware fill</button></a>
                         <a href="spothealingtool.php"><button type="button" class="btn btn-primary">Spot healing tool</button></a>
-                        <a href="smartobject.php"><button type="button" class="btn btn-primary">Smart object</button></a>
                         <a href="outofframe.php"><button type="button" class="btn btn-primary">Out of Frame</button></a>
                         <a href="saturation.php"><button type="button" class="btn btn-primary">Saturation</button></a>
                     </div>

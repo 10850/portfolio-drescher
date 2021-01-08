@@ -87,25 +87,19 @@
 
                     <ul class="liste">
                         <li>
-                            En del af god kodeskik (Østergaard, 2020).
+                            Brug af tabulering (ibid).
                         </li>
                         <li>
-                            Det giver dig overblik (ibid).
+                            Kode med indrykninger (ibid).
+                        </li>
+                        <li>
+                            Kodning med hensigstmæssige kommentarer (ibid).
+                        </li>
+                        <li>
+                            Kode der giver god overblik (ibid).
                         </li>
                         <li>
                             Det gør din kode læselig for andre (ibid).
-                        </li>
-                        <li>
-                            Brug tabulatoren (flere mellemrum efter hinanden er FORBUDT!) (ibid).
-                        </li>
-                        <li>
-                            Editoren hjælper dig - lad den gøre det (ibid).
-                        </li>
-                        <li>
-                            Kode der ikke er indrykket, kan ikke godkendes! (ibid).
-                        </li>
-                        <li>
-                            Bemærk: Tabuleringer, ekstra mellemrum og linieskift kaldes “whitespace” og ignoreres af browseren (ibid).
                         </li>
                     </ul>
 

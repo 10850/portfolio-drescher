@@ -70,11 +70,6 @@
                         [Senest hentet eller vist den 11 december 2020].
                     </li>
                     <li>
-                        Østergaard, N., 2020. HTML. [Online] 
-                        Available at: <a href="kodning/pdf/Intro%20til%20HTML.pdf" target="_blank">https://eadania.mrooms.net/</a>
-                        [Senest hentet eller vist den 2 december 2020].
-                    </li>
-                    <li>
                         W3schools, 2020. HTML File Paths. [Online] 
                         Available at: <a href="https://www.w3schools.com/html/html_filepaths.asp" target="_blank">https://www.w3schools.com/html/html_filepaths.asp</a> 
                         [Senest hentet eller vist den 8 december 2020].
@@ -94,11 +89,7 @@
                         Available at: <a href="https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp" target="_blank">https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp</a>
                         [Senest hentet eller vist den 10 december 2020].
                     </li>
-                    <li>
-                        Rijna, F. D. &#38; Lank, N., 2020. CSS Background (Billeder og Gradient). [Online] 
-                        Available at: <a href="http://10850.apache.eadania.dk/workshop/Index.html" target="_blank">http://10850.apache.eadania.dk/workshop/Index.html</a> 
-                        [Senest hentet eller vist den 25 november 2020].
-                    </li>
+                    
                     <li>
                         W3schools, 2020. CSS background Property. [Online] 
                         Available at: <a href="https://www.w3schools.com/cssref/css3_pr_background.asp" target="_blank">https://www.w3schools.com/cssref/css3_pr_background.asp</a> 
@@ -114,11 +105,7 @@
                         Available at: <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">https://getbootstrap.com/docs/4.5/getting-started/introduction/</a>
                         [Senest hentet eller vist den 8 december 2020].
                     </li>
-                    <li>
-                        Østergaard, N., 19. september 2020. Frameworks. [Online] 
-                        Available at: <a href="kodning/pdf/bootstrapIntro.pdf" target="_blank">https://eadania.mrooms.net/</a> 
-                        [Senest hentet eller vist den 2 december 2020].
-                    </li>
+                    
                     <li>
                         W3schools, 2020. CSS Borders. [Online] 
                         Available at: <a href="https://www.w3schools.com/css/css_border.asp" target="_blank">https://www.w3schools.com/css/css_border.asp</a>
@@ -139,16 +126,8 @@
                         Available at: <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">https://www.w3schools.com/css/css_boxmodel.asp</a>
                         [Senest hentet eller vist den 4 december 2020].
                     </li>
-                    <li>
-                        Østergaard, N., 15. september 2020. LAYOUTSTRATEGIER FOR WEBDESIGN. [Online] 
-                        Available at: <a href="kodning/css/grid/responsive_i_praksis.pdf" target="_blank">https://eadania.mrooms.net/</a> 
-                        [Senest hentet eller vist den 9 december 2020].
-                    </li>
-                    <li>
-                        Østergaard, N., 15. september 2020. Webudvikling vil ikke være det samme efter.... [Online] 
-                        Available at: <a href="kodning/css/grid/Grids2.pdf">https://eadania.mrooms.net/</a> 
-                        [Senest hentet eller vist den 9 december 2020].
-                    </li>
+                    
+                    
                     <li>
                         W3schools, 2020. CSS display Property. [Online] 
                         Available at: <a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">https://www.w3schools.com/cssref/pr_class_display.asp</a>
@@ -160,46 +139,24 @@
                         [Senest hentet eller vist den 8 december 2020].
                     </li>
                     <li>
-                        Knudsen, V. A. &#38; Sørensen, A., 2020. Formularer, felttyper og formatering. [Online] 
-                        Available at: <a href="http://10743.apache.eadania.dk/HTML%20Forms/Index.html" target="_blank">http://10743.apache.eadania.dk/HTML%20Forms/Index.html</a>
-                        [Senest hentet eller vist den 7 december 2020].
-                    </li>
-                    <li>
-                        Rijna, Drescher: <a href="http://10850.apache.eadania.dk/scootershopv2/index.php" target="_blank">Gisito Scooters</a>; Fra 23. Oktober 2020
-                    </li>
-                    <li>
                         W3schools, 2020. CSS @media Rule. [Online] 
                         Available at:  <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">https://www.w3schools.com/cssref/css3_pr_mediaquery.asp</a>
                         [Senest hentet eller vist den 10 december 2020].
                     </li>
-                    <li>
-                        Rijna, D., Andreasen. F. I. N. &#38; Christensen, H. M. L., 2020. Soft Bites. [Online] 
-                        Available at: <a href="http://10850.web.eadania.dk/softbites2/index.html" target="_blank">http://10850.web.eadania.dk/softbites2/index.html</a>
-                        [Senest hentet eller vist den 9 december 2020].
-                    </li>
+                    
                     <li>
                         W3schools, 2020. CSS Lists. [Online] 
                         Available at: <a href="https://www.w3schools.com/css/css_list.asp" target="_blank">https://www.w3schools.com/css/css_list.asp</a> 
                         [Senest hentet eller vist den 9 december 2020].
                     </li>
-                    <li>
-                        Rijna, D., Andreasen. F. I. N. &#38; Christensen, H. M. L., 2020. Soft Bites. [Online] 
-                        Available at: <a href="http://10850.web.eadania.dk/softbites2/index.html" target="_blank">http://10850.web.eadania.dk/softbites2/index.html</a>
-                        [Senest hentet eller vist den 9 december 2020].
-                    </li>
+                    
                     <li>
                         W3schools, 2020. PHP Include Files. [Online] 
                         Available at: <a href="https://www.w3schools.com/php/php_includes.asp" target="_blank">https://www.w3schools.com/php/php_includes.asp</a>
                         [Senest hentet eller vist den 1 December 2020].
                     </li>
-                    <li>
-                        Østergaard, N., 19. oktober 2020. Serversideprogrammering med PHP. [Online] 
-                        Available at: <a href="kodning/pdf/serverside.pdf" target="_blank">https://eadania.mrooms.net/</a>
-                        [Senest hentet eller vist den 29 November 2020].
-                    </li>
-                    <li>
-                        Rijna, Drescher: <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php" target="_blank">Php-include-navigation</a>; Fra 19. oktober 2020
-                    </li>
+                    
+                    
                     <li>
                         W3schools, 2020. CSS Pseudo-classes. [Online] 
                         Available at: <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">https://www.w3schools.com/css/css_pseudo_classes.asp</a>
@@ -215,16 +172,8 @@
                         Available at: <a href="https://www.w3schools.com/css/css_syntax.ASP" target="_blank">https://www.w3schools.com/css/css_syntax.ASP</a>
                         [Senest hentet eller vist den 9 december 2020].
                     </li>
-                    <li>
-                        Østergaard, N., 14. september 2020. Intro til CSS. [Online] 
-                        Available at: <a href="kodning/pdf/intro%20til%20css.pdf" target="_blank">https://eadania.mrooms.net/</a>
-                        [Senest hentet eller vist den 7 december 2020].
-                    </li>
-                    <li>
-                        Nyrup, K. S. &#38; Andreasen, F. I. N., 2020. Semantiske tags og head (meta/base). [Online] 
-                        Available at: <a href="http://10854.apache.eadania.dk/semantisk/?fbclid=IwAR29j6hUMGbjaYR4mqHcNC-MS9G0StqHn0EOaALlvMmT_oUTTZORa1hIia4" target="_blank">http://10854.apache.eadania.dk/semantisk/?fbclid=IwAR29j6hUMGbjaYR4mqHcNC-MS9G0StqHn0EOaALlvMmT_oUTTZORa1hIia4</a> 
-                        [Senest hentet eller vist den 7 december 2020].
-                    </li>
+                    
+                    
                     <li>
                         W3schools, 2020. HTML - The Head Element. [Online] 
                         Available at: <a href="https://www.w3schools.com/html/html_head.asp" target="_blank">https://www.w3schools.com/html/html_head.asp</a> 
@@ -241,13 +190,14 @@
                         [Senest hentet eller vist den 2 december 2020].
                     </li>
                     <li>
-                        Østergaard, N., 10. september 2020. HTML. [Online] 
-                        Available at: <a href="kodning/pdf/Intro%20til%20HTML.pdf" target="_blank">https://eadania.mrooms.net/</a> 
-                        [Senest hentet eller vist den 2 december 2020].
+                        W3schools, 2020. HTML Images. [Online] 
+                        Available at: <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">https://www.w3schools.com/html/html_images.asp</a>
+                        [Senest hentet eller vist den 11 december 2020].
                     </li>
                     <li>
-                        Rijna, D. &#38; Knudsen, V. A., 2020. Versionsstyring [Online]
-                        Available at: <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html" target="_blank">http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html</a> [Senest hentet eller vist den 26 november 2020].
+                        Knudsen, V. A. &#38; Sørensen, A., 2020. Formularer, felttyper og formatering. [Online] 
+                        Available at: <a href="http://10743.apache.eadania.dk/HTML%20Forms/Index.html" target="_blank">http://10743.apache.eadania.dk/HTML%20Forms/Index.html</a>
+                        [Senest hentet eller vist den 7 december 2020].
                     </li>
                     <li>
                         Nautrup, S. M. &#38; Mikkelsen, D. N., 2020. Sådan indsætter du en video. [Online] 
@@ -255,9 +205,64 @@
                         [Senest hentet eller vist den 7 december 2020].
                     </li>
                     <li>
-                        W3schools, 2020. HTML Images. [Online] 
-                        Available at: <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">https://www.w3schools.com/html/html_images.asp</a>
-                        [Senest hentet eller vist den 11 december 2020].
+                        Nyrup, K. S. &#38; Andreasen, F. I. N., 2020. Semantiske tags og head (meta/base). [Online] 
+                        Available at: <a href="http://10854.apache.eadania.dk/semantisk/?fbclid=IwAR29j6hUMGbjaYR4mqHcNC-MS9G0StqHn0EOaALlvMmT_oUTTZORa1hIia4" target="_blank">http://10854.apache.eadania.dk/semantisk/?fbclid=IwAR29j6hUMGbjaYR4mqHcNC-MS9G0StqHn0EOaALlvMmT_oUTTZORa1hIia4</a> 
+                        [Senest hentet eller vist den 7 december 2020].
+                    </li>
+                    <li>
+                        Rijna, Drescher: <a href="http://10850.apache.eadania.dk/scootershopv2/index.php" target="_blank">Gisito Scooters</a>; Fra 23. Oktober 2020
+                    </li>
+                    <li>
+                        Rijna, D., Andreasen. F. I. N. &#38; Christensen, H. M. L., 2020. Soft Bites. [Online] 
+                        Available at: <a href="http://10850.web.eadania.dk/softbites2/index.html" target="_blank">http://10850.web.eadania.dk/softbites2/index.html</a>
+                        [Senest hentet eller vist den 9 december 2020].
+                    </li>
+                    <li>
+                        Rijna, Drescher: <a href="http://10850.web.eadania.dk/php-include-navigation/side2.php" target="_blank">Php-include-navigation</a>; Fra 19. oktober 2020
+                    </li>
+                    <li>
+                        Rijna, D. &#38; Knudsen, V. A., 2020. Versionsstyring [Online]
+                        Available at: <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html" target="_blank">http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html</a> [Senest hentet eller vist den 26 november 2020].
+                    </li>
+                    <li>
+                        Rijna, F. D. &#38; Lank, N., 2020. CSS Background (Billeder og Gradient). [Online] 
+                        Available at: <a href="http://10850.apache.eadania.dk/workshop/Index.html" target="_blank">http://10850.apache.eadania.dk/workshop/Index.html</a> 
+                        [Senest hentet eller vist den 25 november 2020].
+                    </li>
+                    <li>
+                        Østergaard, N., 15. september 2020. LAYOUTSTRATEGIER FOR WEBDESIGN. [Online] 
+                        Available at: <a href="kodning/css/grid/responsive_i_praksis.pdf" target="_blank">https://eadania.mrooms.net/</a> 
+                        [Senest hentet eller vist den 9 december 2020].
+                    </li>
+                    <li>
+                        Østergaard, N., 15. september 2020. Webudvikling vil ikke være det samme efter.... [Online] 
+                        Available at: <a href="kodning/css/grid/Grids2.pdf">https://eadania.mrooms.net/</a> 
+                        [Senest hentet eller vist den 9 december 2020].
+                    </li>
+                    <li>
+                        Østergaard, N., 19. oktober 2020. Serversideprogrammering med PHP. [Online] 
+                        Available at: <a href="kodning/pdf/serverside.pdf" target="_blank">https://eadania.mrooms.net/</a>
+                        [Senest hentet eller vist den 29 November 2020].
+                    </li>
+                    <li>
+                        Østergaard, N., 14. september 2020. Intro til CSS. [Online] 
+                        Available at: <a href="kodning/pdf/intro%20til%20css.pdf" target="_blank">https://eadania.mrooms.net/</a>
+                        [Senest hentet eller vist den 7 december 2020].
+                    </li>
+                    <li>
+                        Østergaard, N., 10. september 2020. HTML. [Online] 
+                        Available at: <a href="kodning/pdf/Intro%20til%20HTML.pdf" target="_blank">https://eadania.mrooms.net/</a> 
+                        [Senest hentet eller vist den 2 december 2020].
+                    </li>
+                    <li>
+                        Østergaard, N., 2020. HTML. [Online] 
+                        Available at: <a href="kodning/pdf/Intro%20til%20HTML.pdf" target="_blank">https://eadania.mrooms.net/</a>
+                        [Senest hentet eller vist den 2 december 2020].
+                    </li>
+                    <li>
+                        Østergaard, N., 19. september 2020. Frameworks. [Online] 
+                        Available at: <a href="kodning/pdf/bootstrapIntro.pdf" target="_blank">https://eadania.mrooms.net/</a> 
+                        [Senest hentet eller vist den 2 december 2020].
                     </li>
                 </ul>
             </section>
@@ -268,15 +273,16 @@
                 </h2>
                 <ul class="kildeliste">
                     <li>
-                        Osterwalder, A. &#38; Pigneur, Y., 2013. De 9 byggesten. I: Businesss Model Generation. s.l.:Gyldendal Business, pp. 22-47.
+                        Andersen, H. &#38; Jørnø, L. M., 2013. Fem grundantagelser om kommunikation. I: Kommunikation i praksis. s.l.:Samfundslitteratur, pp. 20-22.
                     </li>
                     <li>
-                        Osterwalder, A. &#38; Pigneur, Y., 2013. Definition af en forretningsmodel. I: Businesss Model Generation. s.l.:Gyldendal Business, pp. 20-22.
+                        Andersen, M. G., 2015. Informationsarkitektur. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 165-179.
                     </li>
                     <li>
-                        Phillips, J. D., 2014. How to avoid death By PowerPoint | David JP Phillips | TEDxStockholmSalon. [Online] 
-                        Available at: <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks" target="_blank">https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks</a>
-                        [Senest hentet eller vist den 5 december 2020].
+                        Andersen, M. G., 2015. Informationsarkitektur. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 165-179.
+                    </li>
+                    <li>
+                        Andersen, M. G., 2015. Informationsarkitektur. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 165-179.
                     </li>
                     <li>
                         Busch, M. A., 2015. Det humanistiske paradigme. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 67-69.
@@ -287,76 +293,23 @@
                     <li>
                         Busch, M. A., 2015. Thorlacius' kommmunikationsmodel. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 72-76.
                     </li>
-                    <li>
-                        Andersen, H. &#38; Jørnø, L. M., 2013. Fem grundantagelser om kommunikation. I: Kommunikation i praksis. s.l.:Samfundslitteratur, pp. 20-22.
-                    </li>
+                    
                     <li>
                         Busch, M. A., 2015. Hvad er Multimediedesign?. I: Kommunikation i multimediedesigner. s.l.:Forfatterne og Hans Reitzels Forlag, pp. 22-23.
                     </li>
-                    <li>
-                        Schmith Wøldike Kluw, M., 2020. Grundlæggende kommunikation. [Online] 
-                        Available at: <a href="kommunikation/Hvad-er-kommunikation/Kommunikation-MMD-1-semester.pdf" target="_blank">https://eadania.mrooms.net/</a> 
-                        [Senest hentet eller vist den 13 december 2020].
-                    </li>
+                    
                     <li>
                         Busch, M. A., 2015. Kvantitative metoder. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 84-87.
                     </li>
-                    <li>
-                        Systime, 2020. 2.2 Kvantitativ metode. [Online] 
-                        Available at: <a href="https://metodenu.systime.dk/?id=131" target="_blank">https://metodenu.systime.dk/?id=131</a>
-                        [Last visitied: 5. december 2020]
-                    </li>
-                    <li>
-                        Rijna, D., 2020. Metoderne forfalder
-                        Available at: <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">Metoderne forfalder</a>
-                    </li>
+
                     <li>
                         Busch, M. A., 2015. Kvalitative metoder. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 88-101.
                     </li>
-                    <li>
-                        Systime, 2020. 2.3 Kvalitativ metode. [Online] 
-                        Available at: <a href="https://metodenu.systime.dk/?id=132" target="_blank">https://metodenu.systime.dk/?id=132</a> 
-                        [Last visitied: 5. december 2020]
-                    </li>
-                    <li>
-                        Rijna, D., 2020. Metoderne forfalder
-                        Available at: <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">Metoderne forfalder</a>
-                    </li>
-                    <li>
-                        Andersen, M. G., 2015. Informationsarkitektur. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 165-179.
-                    </li>
-                    <li>
-                        How, C., 2015. All You Need To Know About Information Architecture In 10 Minutes. [Online] 
-                        Available at: <a href="https://www.youtube.com/watch?v=TsH8y5fbfX8&#38;feature=emb_logo&#38;ab_channel=UXBrighton" target="_blank">https://www.youtube.com/watch?v=TsH8y5fbfX8&#38;feature=emb_logo&#38;ab_channel=UXBrighton</a>
-                        [Senest hentet eller vist den 6 december 2020].
-                    </li>
-                    <li>
-                        Rijna, D., 2020. Informationsarkitektur og navigeringsdesign review
-                        Available at: <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Informationsarkitektur og navigeringsdesign review</a>
-                    </li>
-                    <li>
-                        Rijna, F. D., 2020. Hvad er Ophavsret og Licensering?. [Online] 
-                        Available at: <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">Hvad er Ophavsret og Licensering?</a>
-                        [Senest hentet eller vist den 25 november 2020].
-                    </li>
-                    <li>
-                        Andersen, M. G., 2015. Informationsarkitektur. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 165-179.
-                    </li>
-                    <li>
-                        Rijna, D., 2020. Informationsarkitektur og navigeringsdesign review
-                        Available at: <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Informationsarkitektur og navigeringsdesign review</a>
-                    </li>
-                    <li>
-                        Rold, M., 2019. Navigationsdesign. I: Interfacedesign - fra idé til digital prototype. s.l.:Forfatterne og Samfundslitteratur , pp. 215-230.
-                    </li>
+                    
                     <li>
                         Busch, M. A., 2015. Præsentation. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 315-324.
                     </li>
-                    <li>
-                        Schmith Wøldike Kluw, M., 2020. Præsentationsteknik. [Online] 
-                        Available at: <a href="kommunikation/Presentationsteknik/Pr%C3%A6sentationsteknik-ver2.pdf" target="_blank">https://eadania.mrooms.net/</a>
-                        [Senest hentet eller vist den 14 december 2020].
-                    </li>
+                    
                     <li>
                         Busch, M. A., 2015. Det samfundsvidenskablige paradigme. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 76-77.
                     </li>
@@ -370,16 +323,65 @@
                         Friis, N., 2019. Sprog og formidling. I: Kommunikation Online. s.l.:Hans Reitzel Forlag, pp. 186-221.
                     </li>
                     <li>
+                        Rold, M., 2019. Navigationsdesign. I: Interfacedesign - fra idé til digital prototype. s.l.:Forfatterne og Samfundslitteratur , pp. 215-230.
+                    </li>
+                    <li>
+                        Osterwalder, A. &#38; Pigneur, Y., 2013. De 9 byggesten. I: Businesss Model Generation. s.l.:Gyldendal Business, pp. 22-47.
+                    </li>
+                    <li>
+                        Osterwalder, A. &#38; Pigneur, Y., 2013. Definition af en forretningsmodel. I: Businesss Model Generation. s.l.:Gyldendal Business, pp. 20-22.
+                    </li>
+                    <li>
+                        How, C., 2015. All You Need To Know About Information Architecture In 10 Minutes. [Online] 
+                        Available at: <a href="https://www.youtube.com/watch?v=TsH8y5fbfX8&#38;feature=emb_logo&#38;ab_channel=UXBrighton" target="_blank">https://www.youtube.com/watch?v=TsH8y5fbfX8&#38;feature=emb_logo&#38;ab_channel=UXBrighton</a>
+                        [Senest hentet eller vist den 6 december 2020].
+                    </li>
+                    <li>
+                        Phillips, J. D., 2014. How to avoid death By PowerPoint | David JP Phillips | TEDxStockholmSalon. [Online] 
+                        Available at: <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks" target="_blank">https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks</a>
+                        [Senest hentet eller vist den 5 december 2020].
+                    </li>
+                    <li>
+                        Schmith Wøldike Kluw, M., 2020. Grundlæggende kommunikation. [Online] 
+                        Available at: <a href="kommunikation/Hvad-er-kommunikation/Kommunikation-MMD-1-semester.pdf" target="_blank">https://eadania.mrooms.net/</a> 
+                        [Senest hentet eller vist den 13 december 2020].
+                    </li>
+                    <li>
+                        Schmith Wøldike Kluw, M., 2020. Præsentationsteknik. [Online] 
+                        Available at: <a href="kommunikation/Presentationsteknik/Pr%C3%A6sentationsteknik-ver2.pdf" target="_blank">https://eadania.mrooms.net/</a>
+                        [Senest hentet eller vist den 14 december 2020].
+                    </li>
+                    <li>
                         Schmith, W. K. M., 2020. Tekstproduktion. [Online] 
                         Available at: <a href="kommunikation/Tekstproduktion/tekstproduktion.pdf" target="_blank">https://eadania.mrooms.net/</a>
                         [Senest hentet eller vist den 15 december 2020].
                     </li>
                     <li>
-                        Rijna, D., 2020. 2 Tekster
-                        Available at: <a href="kommunikation/Tekstproduktion/2%20tekster.pdf" target="_blank">2 Tekster</a>
+                        Systime, 2020. 2.2 Kvantitativ metode. [Online] 
+                        Available at: <a href="https://metodenu.systime.dk/?id=131" target="_blank">https://metodenu.systime.dk/?id=131</a>
+                        [Last visitied: 5. december 2020]
                     </li>
                     <li>
-                        Andersen, M. G., 2015. Informationsarkitektur. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 165-179.
+                        Systime, 2020. 2.3 Kvalitativ metode. [Online] 
+                        Available at: <a href="https://metodenu.systime.dk/?id=132" target="_blank">https://metodenu.systime.dk/?id=132</a> 
+                        [Last visitied: 5. december 2020]
+                    </li>
+                    <li>
+                        Rijna, D., 2020. Metoderne forfalder
+                        Available at: <a href="kommunikation/Empiri/Opgave-om-metoderne-forfalder.pdf" target="_blank">Metoderne forfalder</a>
+                    </li>
+                    <li>
+                        Rijna, D., 2020. Informationsarkitektur og navigeringsdesign review
+                        Available at: <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Informationsarkitektur og navigeringsdesign review</a>
+                    </li>
+                    <li>
+                        Rijna, F. D., 2020. Hvad er Ophavsret og Licensering?. [Online] 
+                        Available at: <a href="kommunikation/Licensering/Hvad-er-Ophavsret-og-Licensering.pdf" target="_blank">Hvad er Ophavsret og Licensering?</a>
+                        [Senest hentet eller vist den 25 november 2020].
+                    </li>
+                    <li>
+                        Rijna, D., 2020. 2 Tekster
+                        Available at: <a href="kommunikation/Tekstproduktion/2%20tekster.pdf" target="_blank">2 Tekster</a>
                     </li>
                 </ul>
             </section>
@@ -393,19 +395,10 @@
                         Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Brugertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 96-116.
                     </li>
                     <li>
-                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
-                    </li>
-                    <li>
                         Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Ekspertvudering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 64-86.
                     </li>
                     <li>
-                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
-                    </li>
-                    <li>
                         Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Gangstertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 42-50.
-                    </li>
-                    <li>
-                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
                     </li>
                     <li>
                         Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Hvad er Usability?. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 14-24.
@@ -416,11 +409,12 @@
                     <li>
                         Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Kortsortering. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 86-96.
                     </li>
-                    <li>
-                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
-                    </li>
+                    
                     <li>
                         Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Spørgeskema. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 50-64.
+                    </li>
+                    <li>
+                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
                     </li>
                     <li>
                         Rijna, Drescher &#38; Lank, Nicolaj, 2020, 22. september: <a class="pdf-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Corona på Dania Skive</a>
@@ -434,32 +428,13 @@
                 </h2>
                 <ul class="kildeliste">
                     <li>
-                        VALISHVILI, L., 2018. Design with Precision – An Adobe XD Review. [Online] 
-                        Available at: <a href="https://www.toptal.com/designers/adobe/adobe-xd-review" target="_blank">https://www.toptal.com/designers/adobe/adobe-xd-review</a> 
-                        [Senest hentet eller vist den 22 december 2020].
-                    </li>
-                    <li>
-                        Harmer, T., 2019. Linkedin Learning. [Online] 
-                        Available at: <a href="https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532" target="_blank">https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532</a>
-                        [Senest hentet eller vist den 18 december 2020].
-                    </li>
-                    <li>
-                        Guru, B., 2014. Youtube. [Online] 
-                        Available at: <a href="https://www.youtube.com/watch?v=Qj1FK8n7WgY&#38;ab_channel=BlenderGuru" target="_blank">https://www.youtube.com/watch?v=Qj1FK8n7WgY&#38;ab_channel=BlenderGuru</a> 
-                        [Senest hentet eller vist den 20 december 2020].
-                    </li>
-                    <li>
                         Rold, M., 2019. Farver. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 173-189.
                     </li>
                     <li>
-                        Usertesting, 2019. Usertesting. 
-                        [Online] Available at: <a href="https://www.usertesting.com/blog/gestalt-principles" target="_blank">https://www.usertesting.com/blog/gestalt-principles</a>
-                        [Senest hentet eller vist den 20 december 2020].
+                        Rold, M., 2019. Typografi. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 161-172.
                     </li>
                     <li>
-                        Phillips, J. D., 2014. How to avoid death By PowerPoint | David JP Phillips | TEDxStockholmSalon. [Online] 
-                        Available at: <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks" target="_blank">https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks</a>
-                        [Senest hentet eller vist den 5 december 2020].
+                        Rold, M., 2019. Output: wireframes. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 141-146.
                     </li>
                     <li>
                         Dolinski, S., 2020. Unfinished Jigsaw Puzzle Effect in Photoshop 2020. [Online] 
@@ -467,9 +442,9 @@
                         [Senest hentet eller vist den 24 december 2020].
                     </li>
                     <li>
-                        PiXimperfect, 2020. Make It Snow in Summer with Photoshop!. [Online] 
-                        Available at: <a href="https://www.youtube.com/watch?v=lZm_l31p_cI&#38;t=518s&#38;ab_channel=PiXimperfect" target="_blank">https://www.youtube.com/watch?v=lZm_l31p_cI&#38;t=518s&#38;ab_channel=PiXimperfect</a> 
-                        [Senest hentet eller vist den 13 december 2020].
+                        Guru, B., 2014. Youtube. [Online] 
+                        Available at: <a href="https://www.youtube.com/watch?v=Qj1FK8n7WgY&#38;ab_channel=BlenderGuru" target="_blank">https://www.youtube.com/watch?v=Qj1FK8n7WgY&#38;ab_channel=BlenderGuru</a> 
+                        [Senest hentet eller vist den 20 december 2020].
                     </li>
                     <li>
                         Harmer, T., 2019. Linkedin Learning. [Online] 
@@ -477,8 +452,19 @@
                         [Senest hentet eller vist den 18 december 2020].
                     </li>
                     <li>
-                        Rijna, D., 2020. Shape builder tool 5 Ikoner. 
-                        Available at: <a href="design/illustrator/shapebuilder/shape-builder-tool-ikoner5.pdf" target="_blank">Shape builder tool 5 ikoner</a>
+                        Harmer, T., 2019. Linkedin Learning. [Online] 
+                        Available at: <a href="https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532" target="_blank">https://www.linkedin.com/learning/illustrator-2020-essential-training/the-direct-selection-tool?u=37312532</a>
+                        [Senest hentet eller vist den 18 december 2020].
+                    </li>
+                    <li>
+                        Phillips, J. D., 2014. How to avoid death By PowerPoint | David JP Phillips | TEDxStockholmSalon. [Online] 
+                        Available at: <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks" target="_blank">https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks</a>
+                        [Senest hentet eller vist den 5 december 2020].
+                    </li>
+                    <li>
+                        PiXimperfect, 2020. Make It Snow in Summer with Photoshop!. [Online] 
+                        Available at: <a href="https://www.youtube.com/watch?v=lZm_l31p_cI&#38;t=518s&#38;ab_channel=PiXimperfect" target="_blank">https://www.youtube.com/watch?v=lZm_l31p_cI&#38;t=518s&#38;ab_channel=PiXimperfect</a> 
+                        [Senest hentet eller vist den 13 december 2020].
                     </li>
                     <li>
                         PiximPerfect, 2018. The COMPLETE Guide to Smart Objects in Photoshop. [Online] 
@@ -486,7 +472,8 @@
                         [Senest hentet eller vist den 5 december 2020].
                     </li>
                     <li>
-                        Rold, M., 2019. Typografi. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 161-172.
+                        Rijna, D., 2020. Shape builder tool 5 Ikoner. 
+                        Available at: <a href="design/illustrator/shapebuilder/shape-builder-tool-ikoner5.pdf" target="_blank">Shape builder tool 5 ikoner</a>
                     </li>
                     <li>
                         Strizver, I., u.d. Fonts.com. [Online] 
@@ -494,7 +481,14 @@
                         [Senest hentet eller vist den 20 december 2020].
                     </li>
                     <li>
-                        Rold, M., 2019. Output: wireframes. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 141-146.
+                        Usertesting, 2019. Usertesting. 
+                        [Online] Available at: <a href="https://www.usertesting.com/blog/gestalt-principles" target="_blank">https://www.usertesting.com/blog/gestalt-principles</a>
+                        [Senest hentet eller vist den 20 december 2020].
+                    </li>
+                    <li>
+                        VALISHVILI, L., 2018. Design with Precision – An Adobe XD Review. [Online] 
+                        Available at: <a href="https://www.toptal.com/designers/adobe/adobe-xd-review" target="_blank">https://www.toptal.com/designers/adobe/adobe-xd-review</a> 
+                        [Senest hentet eller vist den 22 december 2020].
                     </li>
                 </ul>
             </section>

@@ -201,7 +201,7 @@
             <section class="ekspert-rapport">
                 <h2 class="overskrift">Hvad er en eskpertvudering</h2>
                 <p class="body-text">
-                    I min rapport om usability testmetoder har jeg lavet en ekspertvudering på Zalandos hjemmeside. Hvor jeg gav point ud fra de 10 herustikker og brugte følgende point system fra Usability bogen:
+                    I min og Nicolaj Lanks rapport om usability testmetoder har vi lavet en ekspertvudering på Zalandos hjemmeside. Hvor vi gav point ud fra de 10 herustikker og brugte følgende point system fra Usability bogen:
                 </p>
                 
                 <div class="background-image-usability">
@@ -243,11 +243,11 @@
                         <img src="usability/ekspertvudering/3.3.png" alt="screenshot af zalando.dk hvor der er lavet en ekspertvudering" class="ekspert-img">
 
                         <p class="body-text">
-                            Jeg fandt frem til, at når man klikker på en kategori i zalandos menu, som t-shirt, så kan man se en brødkrummesti. Dog forsvinder den når man klikker på et produkt. Det gør at kunden har mangel på information om deres placering. Dette er herustik nummer 1: systemstatus.
+                            Vi fandt frem til, at når man klikker på en kategori i zalandos menu, som t-shirt, så kan man se en brødkrummesti. Dog forsvinder den når man klikker på et produkt. Det gør at kunden har mangel på information om deres placering. Dette er herustik nummer 1: systemstatus.
                         </p>
 
                         <p class="body-text">
-                            Jeg kom med forslaget at brødkrummesti altid skull være der helevejen igennem brugerens surfing på siden så de altid er informeret.
+                            Vi kom med forslaget at brødkrummesti altid skull være der helevejen igennem brugerens surfing på siden så de altid er informeret.
                         </p>
                 </section>
                 
@@ -257,7 +257,7 @@
                     <img src="usability/ekspertvudering/6.6.png" alt="screenshot af zalando.dk hvor der er lavet en ekspertvudering" class="ekspert-img">
 
                     <p class="body-text">
-                        Jeg gik indtil zalando's kurv efter, at have lægget et produkt derind, og blev forvirret. Det er fordi jeg ikke kunne finde fortryd eller slet knappen for produktet i kurven. Det var indtil jeg så den faktisk var der hele tiden, men var for lille og i en grå farve som gjorde den næsten usynelig. Dette er herustil nummer 5: forhindring af fejl.
+                        Vi gik indtil zalando's kurv efter, at have lægget et produkt derind, og blev forvirret. Det er fordi vi ikke kunne finde fortryd eller slet knappen for produktet i kurven. Det var indtil vi så den faktisk var der hele tiden, men var for lille og i en grå farve som gjorde den næsten usynelig. Dette er herustil nummer 5: forhindring af fejl.
                     </p>
 
                     <p class="body-text">
@@ -295,7 +295,7 @@
                     </li>
                 </ul>
                 
-                <p class="pdf-link-p">Hvis du gerne vil se et eksempel på dokumentation for ekspertvuderingen, <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">kan du tjekke ud min usability testmetoder rapport</a></p>
+                <p class="pdf-link-p">Hvis du gerne vil se et eksempel på dokumentation for ekspertvuderingen, <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">kan du tjekke ud vores usability testmetoder rapport</a></p>
             </section> <!-- dokumentation -->
             
             

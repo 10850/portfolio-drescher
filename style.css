@@ -50,27 +50,8 @@ body {
     background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
 }
 
-.darkmode-uxui {
-    background-color: #441865;
-    
-}
 
-.darkmode-uxui p,
-.darkmode-uxui li,
-.darkmode-uxui h1,
-.darkmode-uxui h2,
-.darkmode-uxui h3,
-.darkmode-uxui h4 {
-    color: white;
-}
 
-.darkmode-uxui a {
-    color: #BD67FF;
-}
-
-.darklight-switch {
-    margin-left: 10px;
-}
 /* STYLING MOBILE FIRST */
 /* GLOBAL MENU */
 
@@ -144,11 +125,15 @@ body {
     z-index: 99;
 }
 
+.globalmenu .navbar-collapse {
+    padding-top: 20px;
+}
+
 
 .globalmenu .navbar-collapse {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
-    min-height: 100%;
+    min-height: 100vh;
     
 }
 
@@ -280,8 +265,6 @@ body {
 .globalmenu-desktop {
     display: none;
 }
-
-
 
 
 /* UNDERMENU TIL MOBIL */
@@ -713,6 +696,7 @@ usability-table {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 /* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */
 
 
@@ -3908,7 +3892,7 @@ video-php h1 {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0.8em;
 }
 
 .typografi-php #typogrfi-intro {
@@ -4287,6 +4271,7 @@ video-php h1 {
 .licens-php h1,
 .bmc-php h1 {
     text-align: center;
+    margin-top: 0.8em;
 }
 
 .hvad-er-kommunikation-php .navbar,
@@ -4727,6 +4712,10 @@ video-php h1 {
 /* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP START */
 .latch-php #hvad-er-informationsarkitektur {
     grid-area: hvad-er-informationsarkitektur;
+}
+
+.latch-php .titel {
+    font-size: 30px;
 }
 
 .latch-php #latch-intro {
@@ -5483,6 +5472,190 @@ video-php h1 {
 
 
 
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+.projekter-php .navbar {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.projekter-php footer {
+    background: linear-gradient(-180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.projekter-php .timeline {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+.projekter-php .timeline__content-title {
+  font-weight: normal;
+  font-size: 66px;
+  margin: -10px 0 0 0;
+  transition: 0.4s;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+.projekter-php .timeline__content-desc {
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, .7);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 25px;
+}
+.projekter-php .timeline:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+  background: rgba(255, 255, 255, .07);
+}
+@media only screen and (max-width: 767px) {
+  .timeline:before {
+    left: 40px;
+  }
+}
+.projekter-php .timeline-item {
+  padding: 40px 0;
+  opacity: 0.3;
+  filter: blur(2px);
+  transition: 0.5s;
+  box-sizing: border-box;
+  width: calc(50% - 40px);
+  display: flex;
+  position: relative;
+  transform: translateY(-80px);
+}
+.projekter-php .timeline-item:before {
+  content: attr(data-text);
+  letter-spacing: 3px;
+  width: 100%;
+  position: absolute;
+  color: rgba(255, 255, 255, .5);
+  font-size: 13px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  border-left: 2px solid rgba(255, 255, 255, .5);
+  top: 70%;
+  margin-top: -5px;
+  padding-left: 15px;
+  opacity: 0;
+  right: calc(-100% - 56px);
+}
+.projekter-php .timeline-item:nth-child(even) {
+  align-self: flex-end;
+}
+.projekter-php .timeline-item:nth-child(even):before {
+  right: auto;
+  text-align: right;
+  left: calc(-100% - 56px);
+  padding-left: 0;
+  border-left: none;
+  border-right: 2px solid rgba(255, 255, 255, .5);
+  padding-right: 15px;
+}
+.projekter-php .timeline-item--active {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+.projekter-php .timeline-item--active:before {
+  top: 50%;
+  transition: 0.3s all 0.2s;
+  opacity: 1;
+}
+.projekter-php .timeline-item--active .timeline__content-title {
+  margin: -50px 0 20px 0;
+}
+@media only screen and (max-width: 767px) {
+ .projekter-php  .timeline-item {
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px 150px 80px;
+  }
+ .projekter-php  .timeline-item:before {
+    left: 10px !important;
+    padding: 0 !important;
+    top: 50px;
+    text-align: center !important;
+    width: 60px;
+    border: none !important;
+  }
+ .projekter-php .timeline-item:last-child {
+    padding-bottom: 40px;
+  }
+}
+.projekter-php .timeline__img {
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+}
+.projekter-php .timeline-container {
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  transition: 0.3s ease 0s;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.projekter-php .timeline-container:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ background: rgba(0,0,0,0.6);
+  content: "";
+}
+.projekter-php .timeline-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.projekter-php .timeline-header__title {
+  color: #fff;
+  font-size: 58px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+.projekter-php .timeline-header__subtitle {
+  color: rgba(255, 255, 255, .5);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
+.projekter-php .demo-footer {
+  padding: 60px 0;
+  text-align: center;
+}
+.projekter-php .demo-footer a {
+  color: #999;
+  display: inline-block;
+  font-family: Cardo;
+}
+
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
+
+
+
+
+
+
+
+
 /* MOBILE eller mindre */
 @media only screen and (max-width: 600px) {
 
@@ -5729,6 +5902,7 @@ video-php h1 {
     margin-top: 25px;
 }
 /* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+
     
         
     
@@ -6111,6 +6285,8 @@ usability-table {
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
     margin: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
     
 /* fonts */
@@ -8954,6 +9130,7 @@ usability-table {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
+    
 }
 
 .typografi-php #typogrfi-intro {
@@ -9785,6 +9962,9 @@ usability-table {
         "latch-types";
 }
 
+    .latch-php .titel {
+    font-size: 48px;
+}
 
 .latch-php #latch-eksempel-intro {
     grid-area: latch-eksempel-intro;
@@ -10529,7 +10709,17 @@ usability-table {
 }
 /* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
     
+
     
+    
+    
+    
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+
+
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
     
     
     
@@ -11342,6 +11532,8 @@ usability-table {
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
     margin: 3.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
     
 /* fonts */
@@ -14010,6 +14202,7 @@ usability-table {
 
 .outofframe-php #outofframe-intro {
     grid-area: outofframe-intro;
+    margin-right: 15vw;
 }
 
 .outofframe-php #outofframe-start {
@@ -14072,6 +14265,14 @@ usability-table {
         margin-right: auto;
         margin-left: auto;
     }
+
+    .outofframe-php {
+        background-image: url(design/tool-icons.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 70%;
+    }
+
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
@@ -14335,6 +14536,7 @@ usability-table {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
+    
 }
 
 .typografi-php #typogrfi-intro {
@@ -14823,6 +15025,7 @@ usability-table {
     grid-area: imk-modellen;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1.5fr 1fr;
     grid-template-areas: 
         "imk-intro imk-intro"
@@ -14846,6 +15049,7 @@ usability-table {
     grid-area: thorlacius-modellen;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1.5fr 1fr;
     grid-template-areas: 
         "thorlacius-intro thorlacius-intro"
@@ -14933,6 +15137,7 @@ usability-table {
     grid-area: sr-model;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "sr-intro sr-intro"
@@ -14957,6 +15162,7 @@ usability-table {
     grid-area: sor-model;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "sor-intro sor-intro"
@@ -15153,6 +15359,10 @@ usability-table {
 
 .latch-php #latch-types {
     grid-area: latch-types;
+}
+    
+    .latch-php .titel {
+    font-size: 52px;
 }
 
 .latch-php #latch-def {
@@ -15978,7 +16188,7 @@ usability-table {
     
     
     
-    
+
     
 
     
@@ -16307,6 +16517,8 @@ usability-table {
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
     margin: 7em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
     
 /* fonts */
@@ -19237,7 +19449,12 @@ usability-table {
         margin-left: auto;
     }
     
-
+    .outofframe-php {
+        background-image: url(design/tool-icons.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 80%;
+    }
 
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
@@ -19495,6 +19712,7 @@ usability-table {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
+    
 }
 
 .typografi-php #typogrfi-intro {
@@ -20107,6 +20325,20 @@ usability-table {
     margin-top: 25px;
 }
 /* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */ 
+    
+
+    
+
+    
+    
+    
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+
+
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
+    
     
     
     

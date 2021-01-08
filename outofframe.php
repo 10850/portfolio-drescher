@@ -23,9 +23,6 @@
         </header>
         
             <?php include 'undermenu-photoshop.inc' ?>
-            
-            
-            <button class="darklight-switch" onclick="myFunction()">Dark/Light Mode</button>
         
             <h1 class="titel">Out of frame</h1>
         
@@ -112,13 +109,6 @@
         
         <?php include 'footer.inc' ?> <!-- footer -->
         
-        
-        <script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("darkmode-uxui");
-}
-</script>
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

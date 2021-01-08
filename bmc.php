@@ -22,7 +22,7 @@
             <?php include 'menu.inc' ?>
         </header>
         
-        <h1 class="titel">Business Moel Canvas</h1>
+        <h1 class="titel">Business Model Canvas</h1>
         
         <div id="mitgrid-bmc">
             

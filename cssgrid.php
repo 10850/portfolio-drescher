@@ -42,19 +42,19 @@
                         <h2 class="overskrift">Hvorfor Grid</h2>
                         <ul class="liste">
                             <li>
-                                Der har aldrig været en god måde at placere elementer i CSS, som samtidigt virker responsivt (Østergaard, 2020).
+                                CSS Grid er det første system som effektivt kan placere elementer i CSS, som samtidigt forbliver responsivt (Østergaard, 2020).
                             </li>
                             <li>
-                                HTML- og andre CSS-funktioner var brugt til mere end de var lavet til (ibid). En form for hacking (ibid).
+                                HTML- og andre CSS-funktioner var brugt til mere end de var lavet til (ibid).
                             </li>
                             <li>
-                                Det er for vanskeligt at bruge funktionerne til mere end de er tænkt til (ibid).
+                                Det er en vanskelig proces at bruge HTML og CSS til mere end de er egnet til (ibid).
                             </li>
                             <li>
-                                Float og clear som er den gamle måde at gøre det på er forældet og ses som at være ”trial and error” (ibid).
+                                Float og clear som er den gamle måde at gøre det på er forældet og ses som at værende ”trial and error” (ibid).
                             </li>
                             <li>
-                                CSS flexbox er kun til 1-dimension, altså en retning (ibid).
+                                CSS Flexbox er godt og responsivt. Men er kun 1-dimensionel (ibid).
                             </li>
                             <li>
                                 Man kan lave mere end et grid på samme side og man kan lave grids inde i en grid (embeddet grids) (Østergaard, 2020).

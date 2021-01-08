@@ -130,7 +130,7 @@
                     <section class="rapport-kort-intro">
                         <h2 class="overskrift">Kortsortering på Resturant Flammen</h2>
                         <p class="body-text">
-                            I min rapport om Usability testmetoder lavede jeg en kortsortering på Resturants Flammen. Jeg valgte deres globale menu, som element, og testede 3 personer.
+                            I min rapport om Usability testmetoder lavede vi en kortsortering på Resturants Flammen. Vi valgte deres globale menu, som element, og testede 3 personer.
                         </p>
                         <p class="body-text">
                             I testen var der to rundter hvor personen skulle sortere kortene og det var en rundte der var en åben test, og derefter en form for lukket test i anden rundte.

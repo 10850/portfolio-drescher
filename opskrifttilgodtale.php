@@ -162,38 +162,6 @@
                 </section>
             </section>
             
-            <section id="the-9-c">
-                <ul class="liste">
-                    <li>
-                        Concise – make it short (Schmith Wøldike Kluw, 2020).
-                    </li>
-                    <li>
-                        Compelling – make it interesting (ibid).
-                    </li>
-                    <li>
-                        Conceptual – make it undetailed (ibid).
-                    </li>
-                    <li>
-                        Customized – make it to your audience (ibid).
-                    </li>
-                    <li>
-                        Conversational – make it open to further conversation (ibid).
-                    </li>
-                    <li>
-                        Clear – make it understandable (ibid).
-                    </li>
-                    <li>
-                        Credible – make it trustworthy (ibid).
-                    </li>
-                    <li>
-                        Concrete – make it specific (ibid).
-                    </li>
-                    <li>
-                        Consistent – make it align (ibid).
-                    </li>
-                </ul>
-            </section>
-            
             
             <section class="kilder">
                 <h2 class="overskrift">Kilder</h2>
