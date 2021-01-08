@@ -85,6 +85,9 @@
                 </section>
                 
                 <section class="kilder">
+                    <h2 class="overskrift">
+                        Kilder
+                    </h2>
                     <ul class="kildeliste">
                         <li>
                             PiximPerfect, 2018. The COMPLETE Guide to Smart Objects in Photoshop. [Online] 

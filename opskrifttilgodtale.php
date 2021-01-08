@@ -36,7 +36,7 @@
             
             <section id="opskrift-tale">
                 <section id="inventio">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Inventio
                     </h3>
                     
@@ -58,7 +58,7 @@
                 </section>
                 
                 <section id="dispositio">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Dispositio 
                     </h3>
                     
@@ -83,7 +83,7 @@
                 </section>
                 
                 <section id="elocutio">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Elocutio 
                     </h3>
                     <p class="body-text">
@@ -106,7 +106,7 @@
                 </section>
                 
                 <section id="memoria">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Memoria 
                     </h3>
                     <p class="body-text">
@@ -115,7 +115,7 @@
                 </section>
                 
                 <section id="actio">
-                    <h3 class="underoverksrift">
+                    <h3 class="underoverskrift">
                         Actio
                     </h3>
                     <p class="body-text">
@@ -162,38 +162,6 @@
                 </section>
             </section>
             
-            <section id="the-9-c">
-                <ul class="liste">
-                    <li>
-                        Concise – make it short (Schmith Wøldike Kluw, 2020).
-                    </li>
-                    <li>
-                        Compelling – make it interesting (ibid).
-                    </li>
-                    <li>
-                        Conceptual – make it undetailed (ibid).
-                    </li>
-                    <li>
-                        Customized – make it to your audience (ibid).
-                    </li>
-                    <li>
-                        Conversational – make it open to further conversation (ibid).
-                    </li>
-                    <li>
-                        Clear – make it understandable (ibid).
-                    </li>
-                    <li>
-                        Credible – make it trustworthy (ibid).
-                    </li>
-                    <li>
-                        Concrete – make it specific (ibid).
-                    </li>
-                    <li>
-                        Consistent – make it align (ibid).
-                    </li>
-                </ul>
-            </section>
-            
             
             <section class="kilder">
                 <h2 class="overskrift">Kilder</h2>
@@ -203,7 +171,7 @@
                     </li>
                     <li>
                         Schmith Wøldike Kluw, M., 2020. Præsentationsteknik. [Online] 
-                        Available at: https://eadania.mrooms.net/
+                        Available at: <a href="kommunikation/Presentationsteknik/Pr%C3%A6sentationsteknik-ver2.pdf" target="_blank">https://eadania.mrooms.net/</a>
                         [Senest hentet eller vist den 14 december 2020].
                     </li>
                 </ul>

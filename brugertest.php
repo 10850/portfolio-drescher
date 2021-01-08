@@ -174,13 +174,13 @@
                             Der er to måder man kan opstille de praktiske forhold i forhold til antal mennesker og hvor de skal side (ibid). Det kan være low-budget eller high-budget:
                         </p>
                         
-                        <div id="brugertest-setups" class="background-image-usability">
-                            <div>
+                        <div id="brugertest-setups">
+                            <div id="hi-budgt">
                                 <h3 class="underoverskrift">High budget</h3>
                                 <img src="usability/brugertest/highbudgetsetup.jpg" alt="high budget opstilling af en brugertest">
                             </div>
                             
-                            <div>
+                            <div id="lo-budget">
                                 <h3 class="underoverskrift">Low budget</h3>
                                 <img src="usability/brugertest/lowbudgetsetup.jpg" alt="low budget opstilling af en brugertest">
                             </div>
@@ -246,11 +246,11 @@
                         
                         
                         <p class="body-text">
-                            I min usablility testmetoder rapport, lavede jeg en brugertest på Resturant Flammen med 3 forskellige personer som skulle løse en bestemt opgave som jeg satte op i en opgaveskabelon.
+                            I vores usablility testmetoder rapport, lavede vi en brugertest på Resturant Flammen med 3 forskellige personer som skulle løse en bestemt opgave som vi satte op i en opgaveskabelon.
                         </p>
                         
                         <div class="background-image-usability">
-                            <img src="usability/brugertest/brugertest-screenshot.jpg" alt="screenshot af resturant Flammen som jeg brugertestet i rapporten om usability testmetoder" class="brugertest-screenshot">
+                            <img src="usability/brugertest/brugertest-screenshot.jpg" alt="screenshot af resturant Flammen som vi brugertestet i rapporten om usability testmetoder" class="brugertest-screenshot">
                         </div>
                             
                         <div class="background-image-usability">
@@ -419,8 +419,12 @@
                 <section class="kilder">
                     <h2 class="overskrift">Kilder</h2>
                     <ul class="kildeliste">
-                        <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Brugertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 96-116.</li>
-                        <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                        <li>
+                            Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Brugertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 96-116.
+                        </li>
+                        <li>
+                            Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
+                        </li>
                     </ul>
                 </section>
             </div>

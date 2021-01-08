@@ -29,7 +29,7 @@
         <div id="mitgrid-powerpoint">
             
             <section id="powerpoint-intro">
-                <h2 class="overksrift">
+                <h2 class="overskrift">
                     De fem principper til et godt powerpoint
                 </h2>
                 <p class="body-text">
@@ -41,7 +41,7 @@
                 <ol class="liste">
                     <li>
                         <h4 class="sub-skrift">
-                            One message 
+                            1. One message 
                         </h4>
                         <p class="body-text">
                             Der skal kun være en besked i hvert dias for ellers vil folk skulle multitaske og skifte deres opmærksomhed mellem to meddelelser og vil til sidst ikke have opmærksomhed på nogen af dem (ibid).
@@ -49,7 +49,7 @@
                     </li>
                     <li>
                         <h4 class="sub-skrift">
-                            Working memory
+                            2. Working memory
                         </h4>
                         <p class="body-text">
                             Redundanse-effekten vil få publikum til at glemme både hvad du siger, og hvad der vises på PowerPoint 1+1=0 eller virkelig tæt på 0 (ibid).
@@ -57,7 +57,7 @@
                     </li>
                     <li>
                         <h4 class="sub-skrift">
-                            Size
+                            3. Size
                         </h4>
                         <p class="body-text">
                             Som mennesker fokuserer vi på fire ting når vi åbner vores øjne (ibid):
@@ -72,7 +72,7 @@
                     </li>
                     <li>
                         <h4 class="sub-skrift">
-                            Contrast
+                            4. Contrast
                         </h4>
                         <p class="body-text">
                             Kontrast styre folks fokus (ibid). Så når man har mange punkter på sit PowerPoint, kan man for eksempel lave kontrast på farven af teksten så folk fokusere på det punkt er taler om.
@@ -80,7 +80,7 @@
                     </li>
                     <li>
                         <h4 class="sub-skrift">
-                            Black background
+                            5. Black background
                         </h4>
                         <p class="body-text">
                             Man skal ikke bruge hvid baggrund til PowerPoint men i stedet skal være sort (ibid). Det fordi hvid er en meget lys og stærk farve på en skærm og vil tage alt spotlight fra det der faktisk er præsentationen som er en selv (ibid). Powerpointet er bare en hjælp til at gøre det du præsentere visuelt (ibid).
@@ -88,7 +88,7 @@
                     </li>
                     <li>
                         <h4 class="sub-skrift">
-                            Objects
+                            6. Objects
                         </h4>
                         <p class="body-text">
                             Den perfekte mængde af objekter på et PowerPoint er 6 eller mindre (ibid). Fordi den kognitive hjerne skal til at bruge tid og energi på at tælle når man går over 6 objekter (ibid). Hvis der 6 eller mindre skal de ikke tælle men i stedet se (ibid). Så de bruger mindre energi og har energi til at hold opmærksomheden (ibid).
@@ -118,7 +118,7 @@
                 <ul class="kildeliste">
                     <li>
                         Phillips, J. D., 2014. How to avoid death By PowerPoint | David JP Phillips | TEDxStockholmSalon. [Online] 
-                        Available at: https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks
+                        Available at: <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks" target="_blank">https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks</a>
                         [Senest hentet eller vist den 5 december 2020].
                     </li>
                 </ul>

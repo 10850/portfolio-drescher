@@ -85,12 +85,12 @@
                     
                     <section id="adobexd-mobil">
                         <img src="design/adobexd/main.png" alt="screenshot af adobe xd" id="adobexd-mobile-img">
-                        <a href="https://xd.adobe.com/view/759eeeca-ad77-483d-8043-db783c5c74f4-20cd/?fbclid=IwAR0DWwl1exFFsz7gYiPHrvFr7PVqq7ueRhVbScSDd5M8UZN7fBrFlWEdiNk" target="_blank">Soft Bites mobile wireframe</a>
+                        <a href="https://xd.adobe.com/view/759eeeca-ad77-483d-8043-db783c5c74f4-20cd/?fbclid=IwAR0DWwl1exFFsz7gYiPHrvFr7PVqq7ueRhVbScSDd5M8UZN7fBrFlWEdiNk" target="_blank" class="pdf-link">Soft Bites mobile wireframe</a>
                     </section>
                     
                     <section id="adobexd-desktop">
                         <img src="design/adobexd/desktopxd.png" alt="screenshot af adobe xd" id="adobexd-desktop-img">
-                        <a href="https://xd.adobe.com/view/2bd275a6-3ab1-41d5-84c9-99c089de3a49-7e81/?fbclid=IwAR1KpjaeuzEBTsITpEZpnBMU6zMBE-s5iennhLQn20JHaQZ533X2SF7CYcA" target="_blank">Soft Bites desktop wireframe</a>
+                        <a href="https://xd.adobe.com/view/2bd275a6-3ab1-41d5-84c9-99c089de3a49-7e81/?fbclid=IwAR1KpjaeuzEBTsITpEZpnBMU6zMBE-s5iennhLQn20JHaQZ533X2SF7CYcA" target="_blank" class="pdf-link">Soft Bites desktop wireframe</a>
                     </section>
                     
                     <p class="body-text">
@@ -102,6 +102,9 @@
                     
                 
                 <section class="kilder">
+                    <h2 class="overskrift">
+                        Kilder
+                    </h2>
                     <ul class="kildeliste">
                         <li>
                             VALISHVILI, L., 2018. Design with Precision – An Adobe XD Review. [Online] 

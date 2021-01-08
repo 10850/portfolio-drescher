@@ -35,7 +35,7 @@
         </section> <!-- dett banner er til for at lave et grid til desktop -->
         
             <div id="mitgrid-designthinking">
-                <img class="dt-img" id="faserne-mobil" src="design-thinking/designthinking-faser.png" alt="billed af faserne i design thinking"> <!-- faserne til mobil -->
+                <img id="faserne-mobil" src="design-thinking/designthinking-faser.png" alt="billed af faserne i design thinking"> <!-- faserne til mobil -->
                 
                 <section class="hvaderdt">                    
                     <h2 class="overskrift">Hvad er Design Thinking?</h2>
@@ -73,11 +73,11 @@
                         <h3 class="underoverskrift">Empathize på studiet</h3>
                         
                         <p class="body-text">
-                            I Hackthon med Skive Festival og startede jeg med at gøre mig nysgerrig på selve organisationen via research. Her indgår det at kigge på deres egen hjemmeside, tidligere events de har holdt og hvordan deres marketing var på forskellige sociale medier og kigge på hvad for et budskab og hvilket billede de gerne vil fremstille om sig selv for andre. 
+                            I Hackthon med Skive Festival og startede vi med at gøre mig nysgerrig på selve organisationen via research. Her indgår det at kigge på deres egen hjemmeside, tidligere events de har holdt og hvordan deres marketing var på forskellige sociale medier og kigge på hvad for et budskab og hvilket billede de gerne vil fremstille om sig selv for andre. 
                         </p>
                         
                         <p class="body-text">
-                            Derefter gik jeg ud til kunderne/deltagerne i deres festival for at gøre mig nysgerrig på deres adfærd før, til og efter festivalen, traditioner de måske har, spørger indtil hvorfor de tager afsted, hvad de finder værdifuldt og hvilken kontekst de er i som hvor de bor, om de har venner og familie de ikke ser så tit osv.  
+                            Derefter gik vi ud til kunderne/deltagerne i deres festival for at gøre mig nysgerrig på deres adfærd før, til og efter festivalen, traditioner de måske har, spørger indtil hvorfor de tager afsted, hvad de finder værdifuldt og hvilken kontekst de er i som hvor de bor, om de har venner og familie de ikke ser så tit osv.  
                         </p>    
                     </section>
                 </section> <!-- Empathize -->
@@ -106,7 +106,7 @@
                         <h3 class="underoverskrift">Den første problemformulering er ikke nødvendigvis den endelige</h3>
                         
                         <p class="body-text">
-                            Jeg lærte også at siden design thinking i sin helhed er en iterativ proces, så ender man altid med at skulle gå tilbage til sin problemformulering. Grundet at jeg fik mere viden og kontekst gennem processen, som ville skabe en problemformulering som passer bedre til det egentlige problem (Innovation, 2020).
+                            Jeg lærte at siden design thinking i sin helhed er en iterativ proces, så ender man altid med at skulle gå tilbage til sin problemformulering. Grundet at vi fik mere viden og kontekst gennem processen, som ville skabe en problemformulering som passer bedre til det egentlige problem (Innovation, 2020).
                         </p>
                     </section>
                 </section> <!-- define -->
@@ -139,7 +139,7 @@
                         <h3 class="underoverskrift"></h3>
                         
                         <p class="body-text">
-                            Måden jeg har arbejdet med ideate har været ved brainstorming og negativ brainstorming, hvor jeg og de andre i gruppen går gennem iterative processer af brainstorming:
+                            Måden vi har arbejdet med ideate har været ved brainstorming og negativ brainstorming, hvor vi i gruppen går gennem iterative processer af brainstorming:
                         </p>
                         
                         <ol class="liste" id="brainstorm-steps">
@@ -197,7 +197,7 @@
                         <h2 class="overskrift">Implementering</h2>
                         
                         <p class="body-text">
-                            Efter at have gået gennem alle faserne kommer man til at lave det endelige produkt, som typisk for os er et website, på HTML og CSS. Jeg går ud fra sin Hi-Fi-prototype på XD som var lavede så kodningen ville blive så nem så muligt. Fordi jeg kunne føle at det var meget nemmere at kode noget når man har en visuel illustration af det man skal kode og man kan nemmere lave ændringer.
+                            Efter at have gået gennem alle faserne kommer man til at lave det endelige produkt, som typisk for os er et website, på HTML og CSS. Man går ud fra sin Hi-Fi-prototype på XD som var lavede så kodningen ville blive så nem så muligt. Jeg kunne føle at det var meget nemmere at kode noget når man har en visuel illustration af det man skal kode og man kan nemmere lave ændringer.
                         </p>
                     </section>
                     
@@ -280,15 +280,15 @@
                 <section class="kilder-dt">
                     <h2 class="overskrift">Kilder</h2>
                     
-                    <ul class="kilde-liste">
+                    <ul class="kildeliste">
                         <li>
                             Innovation, 2020. Model Design Tænkning. [Online] 
-                            Available at: <a href="https://innovation.sites.ku.dk/model/design-thinking/">https://innovation.sites.ku.dk/model/design-thinking/</a>
+                            Available at: <a href="https://innovation.sites.ku.dk/model/design-thinking/" target="_blank">https://innovation.sites.ku.dk/model/design-thinking/</a>
                             [Senest hentet eller vist den 28 november 2020].
                         </li>
                         <li>
                             Mumaw, S., 2020. Creativity: Generate Ideas in Greater Quantity and Quality. [Online] 
-                            Available at: <a href="https://www.linkedin.com/learning/creativity-generate-ideas-in-greater-quantity-and-quality/problem-solving-part-2?u=37312532">https://www.linkedin.com/learning/creativity-generate-ideas-in-greater-quantity-and-quality/problem-solving-part-2?u=37312532</a>
+                            Available at: <a href="https://www.linkedin.com/learning/creativity-generate-ideas-in-greater-quantity-and-quality/problem-solving-part-2?u=37312532" target="_blank">https://www.linkedin.com/learning/creativity-generate-ideas-in-greater-quantity-and-quality/problem-solving-part-2?u=37312532</a>
                             [Senest hentet eller vist den 29 november 2020].
 
                         </li>
@@ -309,6 +309,7 @@
             
             <p id="copyright">	&#169; Drescher Ferdinand Rijna</p>
         </footer>
+        
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

@@ -7,13 +7,14 @@
                 <div class="collapse" id="collapseExample">
                       <div class="card card-body">
                         <a href="boxmodellen.php"><button type="button" class="btn btn-primary">Boxmodellen</button></a>
-                        <a href="background-property.php"><button type="button" class="btn btn-primary">CSS Background</button></a>
-                        <a href="cssgrid.php"><button type="button" class="btn btn-primary">CSS Grid</button></a>
-                        <a href="displayogposition.php"><button type="button" class="btn btn-primary">Display og Position</button></a>
-                        <a href="list-style.php"><button type="button" class="btn btn-primary">List-Style</button></a>
                         <a href="selectors.php"><button type="button" class="btn btn-primary">Selectors</button></a>
-                        <a href="animationogtransistions.php"><button type="button" class="btn btn-primary">Animation og Transistions</button></a>
+                        <a href="displayogposition.php"><button type="button" class="btn btn-primary">Display og Position</button></a>
+                        <a href="cssgrid.php"><button type="button" class="btn btn-primary">CSS Grid</button></a>
                         <a href="media-queries.php"><button type="button" class="btn btn-primary">&#64;Media</button></a>
+                        <a href="background-property.php"><button type="button" class="btn btn-primary">CSS Background</button></a>
+                        <a href="list-style.php"><button type="button" class="btn btn-primary">List-Style</button></a>
+                        <a href="borderogshadow.php"><button type="button" class="btn btn-primary">Border & Shadows</button></a>
+                        <a href="animationogtransistions.php"><button type="button" class="btn btn-primary">Animation og Transistions</button></a>
                     </div>
                 </div>
             </nav> <!-- undermenu mobil -->

@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -77,7 +79,7 @@
                     </section>
                 </section>
                 
-                <section>
+                <section id="kode-skikke">
                     <h2 class="overskrift">God kodeskikke</h2>
                     <p class="body-text">
                         I verden af kodning findes der god og dårlige kodeskikke (Østergaard, 2020). Det er vigtigt at når man koder at man holder fast på gode kodeskikke (ibid). Ikke kun for at andre programmør nemt kan læse, forstå og overskue din kode, men også for at man selv kan have gode overblik over sin kode når man går tilbage i sin kode for at for eksempel lave ændringer (ibid). God kodeskikke er:
@@ -85,30 +87,24 @@
 
                     <ul class="liste">
                         <li>
-                            En del af god kodeskik (Østergaard, 2020).
+                            Brug af tabulering (ibid).
                         </li>
                         <li>
-                            Det giver dig overblik (ibid).
+                            Kode med indrykninger (ibid).
+                        </li>
+                        <li>
+                            Kodning med hensigstmæssige kommentarer (ibid).
+                        </li>
+                        <li>
+                            Kode der giver god overblik (ibid).
                         </li>
                         <li>
                             Det gør din kode læselig for andre (ibid).
                         </li>
-                        <li>
-                            Brug tabulatoren (flere mellemrum efter hinanden er FORBUDT!) (ibid).
-                        </li>
-                        <li>
-                            Editoren hjælper dig - lad den gøre det (ibid).
-                        </li>
-                        <li>
-                            Kode der ikke er indrykket, kan ikke godkendes! (ibid).
-                        </li>
-                        <li>
-                            Bemærk: Tabuleringer, ekstra mellemrum og linieskift kaldes “whitespace” og ignoreres af browseren (ibid).
-                        </li>
                     </ul>
 
 
-                    <img src="kodning/kodeskikke/godskikke.jpg" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
+                    <img src="kodning/kodeskikke/godskik.png" alt="billed af brackets hvor der er HTML der følger god kodeskikke" id="god-skikke-img">
                 </section>
         
         
@@ -118,22 +114,22 @@
                     <ul class="kildeliste">
                         <li>
                             W3schools, 2020. HTML class Attribute. [Online] 
-                            Available at: https://www.w3schools.com/html/html_classes.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_classes.asp" target="_blank">https://www.w3schools.com/html/html_classes.asp</a>
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                         <li>
                             W3Schools, 2020. HTML Elements. [Online] 
-                            Available at: https://www.w3schools.com/html/html_elements.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">https://www.w3schools.com/html/html_elements.asp</a>
                             [Senest hentet eller vist den 8 december 2020].
                         </li>
                         <li>
                             W3schools, 2020. HTML id Attribute. [Online] 
-                            Available at: https://www.w3schools.com/html/html_id.asp
+                            Available at: <a href="https://www.w3schools.com/html/html_id.asp" target="_blank">https://www.w3schools.com/html/html_id.asp</a>
                             [Senest hentet eller vist den 11 december 2020].
                         </li>
                         <li>
                             Østergaard, N., 2020. HTML. [Online] 
-                            Available at: https://eadania.mrooms.net/mod/resource/view.php?id=154867&#38;redirect=1
+                            Available at: <a href="kodning/pdf/Intro%20til%20HTML.pdf" target="_blank">https://eadania.mrooms.net/</a>
                             [Senest hentet eller vist den 2 december 2020].
                         </li>
                     </ul>

@@ -77,7 +77,7 @@
                         
                         <section id="rgb-fordele">
                             <p class="body-text">
-                                RGB er det man altid skal bruge når man laver noget til skærm på grund af dens egenskaber (Rold, 2019):
+                                RGB bruges altid til skærm, grundet dens egenskaber (Rold, 2019):
                             </p>
                             <ul class="liste">
                                 <li>
@@ -119,7 +119,7 @@
                         </p>
                     </section>
                     <section id="monokrom">
-                        <h3 class="underoverskrift"></h3>
+                        <h3 class="underoverskrift">Monokrom</h3>
                         <ul class="liste">
                             <li>
                                 Er en farver/kulør som ændrer i sin lyshed og mætning (Guru, 2014).
@@ -133,7 +133,7 @@
                         </ul>
                     </section>
                     <section id="analog">
-                        <h3 class="underoverskrift"></h3>
+                        <h3 class="underoverskrift">Analog</h3>
                         <ul class="liste">
                             <li>
                                 En farve/kulør som bredere sig i et større spektrum af lyshed og mætning (Guru, 2014).
@@ -150,7 +150,7 @@
                         </ul>
                     </section>
                     <section id="komplementary">
-                        <h3 class="underoverskrift"></h3>
+                        <h3 class="underoverskrift">Komplementær</h3>
                         <ul class="liste">
                             <li>
                                 To farver som ligger overfor hinanden i farvecirklen (Guru, 2014).
@@ -170,7 +170,7 @@
                         </ul>
                     </section>
                     <section id="split-komplementary">
-                        <h3 class="underoverskrift"></h3>
+                        <h3 class="underoverskrift">Split-komplementær</h3>
                         <ul class="liste">
                             <li>
                                 Sammenlignlig med komplentær farve harmoni men har et bredere farvespektrum (Guru, 2014).
@@ -184,7 +184,7 @@
                         </ul>
                     </section>
                     <section id="triader">
-                        <h3 class="underoverskrift"></h3>
+                        <h3 class="underoverskrift">Triader</h3>
                         <ul class="liste">
                             <li>
                                 Tre farver som ligger med samme distance fra hinanden i farvehjulet (Guru, 2014).
@@ -201,7 +201,7 @@
                         </ul>
                     </section>
                     <section id="tetriader">
-                        <h3 class="underoverskrift"></h3>
+                        <h3 class="underoverskrift">Tetriader</h3>
                         <ul class="liste">
                             <li>
                                 Denne er også kaldt dobbelt komplentær fordi det er en kombination af 2 par af komplementær farver (Guru, 2014).
@@ -227,7 +227,7 @@
                         </p>
                     </section>
                     <section id="blue-psyk">
-                        <h4 class="sub-skrift">Blå</h4>
+                        <h3 class="underoverskrift">Blå</h3>
                         <ul class="liste">
                             <li>
                                 Udbredt yndlingsfarve (ibid).
@@ -247,7 +247,7 @@
                         </ul>
                     </section>
                     <section id="red-psyk">
-                        <h4 class="sub-skrift">Rød</h4>
+                        <h3 class="underoverskrift">Rød</h3>
                         <ul class="liste">
                             <li>
                                 Associeres hovedsageligt med Ekstreme og dramatiske følelser (ibid).
@@ -261,7 +261,7 @@
                         </ul>
                     </section>
                     <section id="gul-psyk">
-                        <h4 class="sub-skrift">Gul</h4>
+                        <h3 class="underoverskrift">Gul</h3>
                         <ul class="liste">
                             <li>
                                 Associeres med glæde, håb og optimisme (ibid).
@@ -275,7 +275,7 @@
                         </ul>
                     </section>
                     <section id="green-psyk">
-                        <h4 class="sub-skrift">Grøn</h4>
+                        <h3 class="underoverskrift">Grøn</h3>
                         <ul class="liste">
                             <li>
                                 Associeres med vækst, fornyelse og bæredygtighed. Grundet den dominans som den primær farve i naturen (ibid).
@@ -286,7 +286,7 @@
                         </ul>
                     </section>
                     <section id="lilla-psyk">
-                        <h4 class="sub-skrift">Lilla</h4>
+                        <h3 class="underoverskrift">Lilla</h3>
                         <ul class="liste">
                             <li>
                                 Associeres med Mystik, kreativitet og spiritualitet (ibid).
@@ -297,7 +297,7 @@
                         </ul>
                     </section>
                     <section id="orange-psyk">
-                        <h4 class="sub-skrift">Orange</h4>
+                        <h3 class="underoverskrift">Orange</h3>
                         <ul class="liste">
                             <li>
                                 Det en dynamisk farve som associeres med Energi, spænding og ungdom (ibid).
@@ -333,7 +333,7 @@
                     </figure>
                     
                     <figure id="green-mono-fig">
-                        <img src="design/farver/green-mono.jpg" id="green-mono">
+                        <img src="design/farver/greenmono2.jpg" id="green-mono">
                         <figcaption>
                         <p class="body-text">
                             Jeg blev mere bevidst om hvordan forretninger bruger farver på deres reklamer, som på denne Fakta reklame som har en monokrom farve harmoni fordi reklamen omhandler et emne. Og den bruger en grøn farve fordi det omhandler sundhed og grøntsager.
@@ -369,7 +369,7 @@
                     </figure>
                    
                     <figure id="tretiader-playtoy-fig">
-                        <img src="design/farver/legetoj-triader-starkefarver.jpg" id="tretiader-playtoy">
+                        <img src="design/farver/toys-farver.jpg" id="tretiader-playtoy">
                         <figcaption>
                         <p class="body-text">
                             Jeg blev bevidst om at det er rigtigt at triader farveharmonier er brugt til fiktive ting eller legetøj da jeg så det here legetøj og forskellige legepladser, som alle havde triader farveharmonier og med meget lyse farver som er meget iøjenfaldende.
@@ -389,6 +389,9 @@
                 </section>
                 
                 <section class="kilder">
+                    <h2 class="overskrift">
+                        Kilder
+                    </h2>
                     <ul class="kildeliste">
                         <li>
                             Guru, B., 2014. Youtube. [Online] 

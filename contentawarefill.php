@@ -64,9 +64,6 @@
                         <p class="body-text">
                             Nu har jeg et billed hvor man kun ser personen der laver tricks og man kan ikke se at der var en person som er blevet fjernet fra billedet.
                         </p>
-                        <p class="body-text">
-                            Jeg har aldrig brugt content aware fill før og syntes at det er utroligt at photoshop automatisk bare kan fjerne noget fra et billed og udfylde hullet for dig. Især til den grad af kvalitet og simplificering af funktionen, jeg troede det ville være meget mere kompliceret end det.
-                        </p>
                     </section>
                 </section>
                 
@@ -107,10 +104,6 @@
                         <p class="body-text">
                             Nu er de to personer tættere på personen som originalt var længest fremme og billedet ser stadig realistisk ud.
                         </p>
-                        
-                        <p class="body-text">
-                            Det samme med content aware fill gælder også her. Jeg har aldrig brugt content aware move før studiet og var overrasket over at man faktisk kunne bevæge elementer i et billed og stadig  have et realistisk billed. Især med en funktion som er så simpel at bruge.
-                        </p>
                     </section>
                 </section>
                 
@@ -148,10 +141,25 @@
                         <p class="body-text">
                             Nu har jeg billedet uden det ben og det ser stadig realistisk ud og ligner ikke det er blevet redigeret.
                         </p>
-                        <p class="body-text">
-                            Jeg har aldrig brugt patch tool før studiet og jeg er så overrasket over at photoshop har de her tre værktøjer, som gøre noget jeg ville tror er sindsygt kompliceret og næsten umuligt at gøre uden kompetencer. Men de har på en måde lavet det mest simple værktøj til at gøre det med som selv en nybegynder kunne finde ud af.
-                        </p>
                     </section>
+                </section>
+                
+                <section id="contentaware-releksion">
+                    <h2 class="overskrift">
+                        Sikke et værktøj
+                    </h2>
+                    
+                    <p class="body-text">
+                        Jeg har set mange billeder hvor jeg vidste at nogen havde photoshoppet noget eller nogen ud af et billed, men har aldrig taget tiden til at finde ud af hvordan.
+                    </p>
+                    
+                    <p class="body-text">
+                        Den dag vi skulle have om det troede jeg det ville være kompliceret og svært at tage noget ud af et billed og fylde det ud så billedet stadig ser realistisk ud.
+                    </p>
+                    
+                    <p class="body-text">
+                        Til min overraskelse var det meget mere simpelt end jeg havde forventet. Jeg er chokeret over hvordan adobe har lavet et så nemt og intuitivt værktøj til at lave et arbejde der virkes til at være så kompliceret. Jeg er glad for at jeg endelig fik taget tid til at lære hemmeligheden bag content aware fill.
+                    </p>
                 </section>
             </div>
         

@@ -23,9 +23,7 @@
         
         <div id="mitgrid-sporgeskema">
             
-            <div class="background-titel">
             <h1 class="titel">Spørgeskema</h1>
-            </div>
             
             <section class="hvad-er-sporgeskema">
                 <h2 class="overskrift">Hvad er et spørgeskema?</h2>
@@ -379,8 +377,10 @@
                         Jeg har været med til at lave et spørgeskema i en øvelse på studiet, hvor vi fik brugt disse principper for at bygge et godt spørgeskema. Det omhandler Covid-19 og hvordan det haft indflydelse på studiemiljøet på Campus.
                     </p>
                     
-                    <img src="usability/sporgeskema/sporgskema.jpg" class="sporgeskema-corona" alt="screenshot af vores spørgeskema vi lavet med hensyn til Corona på Dania.">
-                    
+                    <div class="background-image-usability">
+                        <img src="usability/sporgeskema/sporgskema.jpg" class="sporgeskema-corona" alt="screenshot af vores spørgeskema vi lavet med hensyn til Corona på Dania.">
+                    </div>
+                        
                     <h2 class="overskrift">Resultater</h2>
                     
                     <div class="background-image-usability">
@@ -398,7 +398,7 @@
                     
                     <h3 class="underoverskrift">Hvad fik jeg ud af øvelsen</h3>
                     <p class="body-text">
-                        Jeg fik meget ud af denne øvelse fordi jeg faktisk kunne sidde med teorien i hænderne og bruge det til at lave et spørgeskema. Ikke kun hjalp det mig til at huske på visse principper bedre, men jeg kunne meget nemmere se og forstå hvorfor de principper er vigtige og hvad de gøre ved at lave et spørgeskema og se på andres.
+                        Jeg fik meget ud af denne øvelse fordi jeg kunne sidde med teorien i hænderne og bruge det til at lave et spørgeskema. Ikke kun hjalp det mig til at huske på visse principper bedre, men jeg kunne meget nemmere se og forstå hvorfor de principper er vigtige og hvad de gøre ved at lave et spørgeskema og se på andres.
                     </p>
                     
                     <p class="body-text">
@@ -412,8 +412,12 @@
             <section class="kilder">
                 <h2 class="overskrift">Kilder</h2>
                 <ul class="kildeliste">
-                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Spørgeskema. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 50-64.</li>
-                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 22. september: <a class="pdf-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Corona på Dania Skive</a></li>
+                    <li>
+                        Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Spørgeskema. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 50-64.
+                    </li>
+                    <li>
+                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 22. september: <a class="pdf-link" href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank">Corona på Dania Skive</a>
+                    </li>
                 </ul>
             </section>
         </div>

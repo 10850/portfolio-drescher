@@ -213,6 +213,9 @@
                 </section>
                 
                 <section class="kilder">
+                    <h2 class="overskrift">
+                        Kilder
+                    </h2>
                     <ul class="kildeliste">
                         <li>
                             Rold, M., 2019. Typografi. I: Interfacedesign. s.l.:Samfundslitteratur, pp. 161-172.

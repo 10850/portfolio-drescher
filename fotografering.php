@@ -20,6 +20,7 @@
         <header>
             <?php include 'menu.inc' ?>
         </header>
+
         
         <div id="mitgrid-foto">
             <h1 class="titel">Fotografering</h1>
@@ -77,7 +78,7 @@
                 <section class="exposure-parameter-resultat">
                     <h3 class="underoverskrift">De tre parameters indflydelse på exposure</h3>
                     <p class="body-text">
-                        Efter at have taget disse billeder hvor jeg beholdt to parameter konstante og ændret på en, og gjorde det tre gange. Kunne jeg se at hver parameter ændret eksponering af billedet:
+                        Efter at have taget disse billeder hvor vi beholdt to parameter konstante og ændret på en, og gjorde det tre gange. Kunne vi se at hver parameter ændret eksponering af billedet:
                     </p>
                     
                     <ul class="liste">
@@ -127,14 +128,14 @@
                                         ISO på 320
                                     </p>
                                 </figcaption>
-                            </figure> <!-- BOOTRAP IMAGE CARDS HVOR JEG HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
+                            </figure> <!-- BOOTRAP IMAGE CARDS HVOR Vi HAR UDSKIFTET DIV'ERNE MED SEMANTISKE TAGS <figure> og <figurecaption> -->
                         </section>
                     </div>
                     
                     <section class="resultat-luk-iso">
                         <h3 class="underoverskrift">Resultat</h3>
                         <p class="body-text">
-                            Jeg tog billeder med en forskellige ISO-værdier og lukketider og fandt fremtil, at Når man justerer lukkeren, kan man bestemme hvor længe den er åben, og dermed hvor meget lys den kan lukke ind.
+                            Vi tog billeder med en forskellige ISO-værdier og lukketider og fandt fremtil, at Når man justerer lukkeren, kan man bestemme hvor længe den er åben, og dermed hvor meget lys den kan lukke ind.
                         </p>
 
                         <p class="body-text">
@@ -192,7 +193,7 @@
                 <section class="resultat-luk-blande">
                     <h3 class="underoverskrift">Resultat</h3>
                     <p class="body-text">
-                        Ved at tage billeder med forskellige blænde-værdier og lukketider fandt jeg fremtil at, når man justerer blænderen, justerer man på hvor meget lys der kan lukkes ind gennem objektivet, hvilket også justerer på dybdeskarphed. 
+                        Ved at tage billeder med forskellige blænde-værdier og lukketider fandt vi fremtil at, når man justerer blænderen, justerer man på hvor meget lys der kan lukkes ind gennem objektivet, hvilket også justerer på dybdeskarphed. 
                     </p>
                     <p class="body-text">
                         Derudover, når man justerer lukkeren, kan man bestemme hvor længe den er åben, og dermed hvor meget lys den kan lukke ind. 
@@ -262,13 +263,13 @@
                 <section class="lukketid-hop-resultat">
                     <h3 class="underoverskrift">Resultat</h3>
                     <p class="body-text">
-                        Jeg tog billeder med lukkertid på 1/30, 1/250, 1/1000, 1/125, 1/60 og 1/100. 
+                        Vi tog billeder med lukkertid på 1/30, 1/250, 1/1000, 1/125, 1/60 og 1/100. 
                     </p>
                     <p class="body-text">
-                        Jeg fandt fremtil at man begynder at fornemme bevægelsen, hvor jeg stadig er genkendelig, ved en lukkertid på omkring 1/100.
+                        Vi fandt fremtil at man begynder at fornemme bevægelsen, hvor vi stadig er genkendelig, ved en lukkertid på omkring 1/100.
                     </p>
                     <p class="body-text">
-                        Jeg også ud af at billedet af mig begynder at fremstå helt skarpt og frosset, ved omkring 1/250. 
+                        Vi også ud af at billedet af mig begynder at fremstå helt skarpt og frosset, ved omkring 1/250. 
                     </p>
                 </section>
                 
@@ -306,10 +307,10 @@
                 <section class="lukketid-holdt-resultat">
                     <h3 class="underoverskrift">Resultat</h3>
                     <p class="body-text">
-                        Jeg tog billeder med lukkertiden på 1/15, 1/60, 1/500. 
+                        Vi tog billeder med lukkertiden på 1/15, 1/60, 1/500. 
                     </p>
                     <p class="body-text">
-                        Jeg kunne fornemme og efter at have taget billedet at omkring 1/60 begynder det at blive muligt at holde kameraet stille. Hvor hvis det er mindre, så er det meget mere besværeligt fordi det tager langtid for lukkeren at lukke så kameraet kan tage billedet.
+                        Vi kunne fornemme og efter at have taget billedet at omkring 1/60 begynder det at blive muligt at holde kameraet stille. Hvor hvis det er mindre, så er det meget mere besværeligt fordi det tager langtid for lukkeren at lukke så kameraet kan tage billedet.
                     </p>
                 </section>    
             </section> <!-- LUKKERTID -->
@@ -357,10 +358,10 @@
                 <section class="blande-resultat">
                     <h3 class="underoverskrift">Resultat</h3>
                     <p class="body-text">
-                        Ved at lege lidt rundt med blænderen, fandt jeg frem til, at blænderen gøre baggrunden sløret jo mindre blændeværdien er, og omvendt. Så Jo lavere blændeværdi, desto lavere dybdeskarphed og omvendt.
+                        Ved at lege lidt rundt med blænderen, fandt vi frem til, at blænderen gøre baggrunden sløret jo mindre blændeværdien er, og omvendt. Så Jo lavere blændeværdi, desto lavere dybdeskarphed og omvendt.
                     </p>
                     <p class="body-text">
-                        Jeg fandt også ud af, at jo højere blændeværdien er, desto længere er lukkertiden.
+                        Vi fandt også ud af, at jo højere blændeværdien er, desto længere er lukkertiden.
                     </p>
                 </section>
             </section> <!-- BLÆNDE -->
@@ -399,7 +400,7 @@
                 <section class="lego-brandvidde-resultat">
                     <h3 class="underoverskrift">Resultat</h3>
                     <p class="body-text">
-                        Jeg legede lidt rundt med forskellige brændevidder og fandt fremtil, at når brændevidden er høj så kan man se rigtig meget af scenariet på billedet og alt var tydeligt og klart.
+                        Vi legede lidt rundt med forskellige brændevidder og fandt fremtil, at når brændevidden er høj så kan man se rigtig meget af scenariet på billedet og alt var tydeligt og klart.
                     </p>
                     <p class="body-text">
                         Hvorimod når brændevidden er lav så kan man ikke se så meget af scenariet på billedet og man kan kun se det forreste objekt tydeligt, derefter objektet i mellemgrund mindre tydeligt, og til sidst er det helt sløret i baggrunden.
@@ -413,7 +414,7 @@
             <section class="refleksion-foto">
                 <h2 class="overskrift">Første gang med et kamera i hånden</h2>
                 <p class="body-text">
-                    Før studiet have jeg aldrig arbejdet med et kamera før. Ja jeg har taget billeder med min telefon en masse, men aldrig med et kamera med lenser osv.
+                    Før studiet havde jeg aldrig arbejdet med et kamera før. Ja jeg har taget billeder med min telefon en masse, men aldrig med et kamera med lenser osv.
                 </p>
                 <p class="body-text">
                     Jeg gik fra at have ingen forstand på hvordan et kamera virker til at have en grundlæggende forståelse for hvordan de forskellige indstillingerne arbejder sammen og ændre på billedets eksponering, dybdeskarphed og perspektiv.
@@ -444,6 +445,7 @@
         </div> <!-- mitgrid til fotografering -->
         
         <?php include 'footer.inc' ?> <!-- footer -->
+        
         
         <!-- Bootstrap script -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

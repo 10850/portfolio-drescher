@@ -115,7 +115,7 @@
                 <h2 class="overskrift">Gangstertest på Youtube</h2>
                 
                 <p class="body-text">
-                    Jeg har lavet en gangstertest på youtube med 3 personer i en rapport om usability metoder. I denne test gik jeg ind på en tilfældig video og testede Youtube's underside for når man ser en video, hvor jeg stillede 6 spørgsmål med følgende resultater: 
+                    Vi har lavet en gangstertest på youtube med 3 personer i en rapport om usability metoder. I denne test gik vi ind på en tilfældig video og testede Youtube's underside for når man ser en video, hvor vi stillede 6 spørgsmål med følgende resultater: 
                 </p>
                 
                 <img src="usability/gangstertest/gangstertest-screenshot.jpg" alt="screenshot af youtube" class="youtube-screenshot">
@@ -237,8 +237,12 @@
             <section class="kilder">
                 <h2 class="overskrift">Kilder</h2>
                 <ul class="kildeliste">
-                    <li>Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Gangstertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 42-50.</li>
-                    <li>Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a></li>
+                    <li>
+                        Gregersen, O. &#38; Wisler-Poulsen, I., 2017. Gangstertest. I: Usability - Testmetoder til mere brugbare websites. s.l.:Wislers Forlag, pp. 42-50.
+                    </li>
+                    <li>
+                        Rijna, Drescher &#38; Lank, Nicolaj, 2020, 26. Oktober: <a class="pdf-fil-link" href="usability/Usability%20testmetoder.pdf" target="_blank">Usability testmetoder</a>
+                    </li>
                 </ul>
             </section>
         </div>

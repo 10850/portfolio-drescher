@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -70,7 +72,7 @@
                 <section id="list-style-image">
                     <h2 class="overskrift">Soft Bites List-style-image</h2>
                     <p class="body-text">
-                        I one page projektet brugte jeg List-style-image til at lave prikkerne i en liste om til hundepoter, ved at bruge list-style-image og linket det til en billed-fil af en hundepote.
+                        I one page projektet brugte vi List-style-image til at lave prikkerne i en liste om til hundepoter, ved at bruge list-style-image og linket det til en billed-fil af en hundepote.
                     </p>
                     
                     <figure>
@@ -81,7 +83,7 @@
                     <figure class="backgrounds-icons-kodning">
                         <h4 class="sub-skrift">List-style-image på Soft Bites</h4>
                         <img src="kodning/css/list/list-style-image.jpg" id="list-style-image-screen">
-                        <a href="http://10850.web.eadania.dk/softbites2/index.html">Siden med listen kan ses på Soft Bites one page</a>
+                        <a href="http://10850.web.eadania.dk/softbites2/index.html" target="_blank" class="pdf-link">Siden med listen kan ses på vores One Page for Soft Bites</a>
                     </figure>
                 </section>
         

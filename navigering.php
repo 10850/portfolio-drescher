@@ -131,7 +131,7 @@
                             <p class="body-text">
                                 På selv samme side er der mulighed for at filetere efter NYESTE, som beskriver præcist hvad der vil ske med brugen af denne funktion, at man ser det nyeste produkt først.
                             </p>
-                            <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Dette eksempel kommer fra min K3 opgave om informationsarkitektur og navigeringsdesign</a>
+                            <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank" class="pdf-link">Dette eksempel kommer fra min K3 opgave om informationsarkitektur og navigeringsdesign</a>
                         </section>
                         <section id="mapping-bad">
                             <h3 class="underoverskrift">
@@ -141,7 +141,7 @@
                             <p class="body-text">
                                 Der mulighed for at filtrere efter PRIS men man ved ikke om det er billigst eller dyrest der vil komme først og der er ingen mulighed for at bestemme det efter man har trykket. Så afsenderen forventer at de ved hvad kunderne vil have som her, for dem, er billigst først. 
                             </p>
-                            <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Dette eksempel kommer fra min K3 opgave om informationsarkitektur og navigeringsdesign</a>
+                            <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank" class="pdf-link">Dette eksempel kommer fra min K3 opgave om informationsarkitektur og navigeringsdesign</a>
                         </section>
                     </section>
                 </section>
@@ -154,8 +154,13 @@
                         Andersen, M. G., 2015. Informationsarkitektur. I: Kommunikation i multimediedesign. s.l.:forfatterne og Hans Reitzels Forlag, pp. 165-179.
                     </li>
                     <li>
+                        Rijna, D., 2020. Informationsarkitektur og navigeringsdesign review
+                        Available at: <a href="kommunikation/Informationsarkitektur/Informationsarkitektur-og-Navigeringsdesign-review.pdf" target="_blank">Informationsarkitektur og navigeringsdesign review</a>
+                    </li>
+                    <li>
                         Rold, M., 2019. Navigationsdesign. I: Interfacedesign - fra idé til digital prototype. s.l.:Forfatterne og Samfundslitteratur , pp. 215-230.
                     </li>
+                    
                 </ul>
             </section>
         </div>

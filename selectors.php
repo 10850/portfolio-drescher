@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -145,49 +147,41 @@
                         <table class="usability-table">
                             <tr>
                                 <th>Selector</th>
-                                <th>Eksempel</th>
                                 <th>Beskrivelse</th>
                             </tr>
 
                             <tr>
                                 <td>:active</td>
-                                <td>a:active (W3schools, 2020).</td>
                                 <td>Vælger det aktive link (W3schools, 2020).</td>
                             </tr>
 
                             <tr>
                                 <td>:first-child</td>
-                                <td>p:first-child (ibid).</td>
                                 <td>Vælge det første barn element i en parent (ibid).</td>
                             </tr>
 
                             <tr>
                                 <td>:focus</td>
-                                <td>input:focus (ibid).</td>
                                 <td>Vælger det element som der er fokus på (ibid).</td>
                             </tr>
 
                             <tr>
                                 <td>:hover</td>
-                                <td>a:hover (ibid).</td>
                                 <td>Vælger det element musen er over (ibid).</td>
                             </tr>
 
                             <tr>
                                 <td>:link</td>
-                                <td>a:link (ibid).</td>
                                 <td>Vælge links der ikke er besøgte (ibid).</td>
                             </tr>
 
                             <tr>
                                 <td>:nth-child(n)</td>
-                                <td>p:nth-child(2) (ibid).</td>
                                 <td>Vælger det barn man specificerer ved nummer (ibid).</td>
                             </tr>
                             
                             <tr>
                                 <td>:visited</td>
-                                <td>a:visited (ibid).</td>
                                 <td>Vælger besøgte links (ibid).</td>
                             </tr>
                         </table>
@@ -216,7 +210,7 @@
                         </li>
                         <li>
                             Østergaard, N., 14. september 2020. Intro til CSS. [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a>
+                            Available at: <a href="kodning/pdf/intro%20til%20css.pdf" target="_blank">https://eadania.mrooms.net/</a>
                             [Senest hentet eller vist den 7 december 2020].
                         </li>
                     </ul>

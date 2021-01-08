@@ -49,6 +49,9 @@ body {
 .index-php .navbar {
     background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
 }
+
+
+
 /* STYLING MOBILE FIRST */
 /* GLOBAL MENU */
 
@@ -122,11 +125,15 @@ body {
     z-index: 99;
 }
 
+.globalmenu .navbar-collapse {
+    padding-top: 20px;
+}
+
 
 .globalmenu .navbar-collapse {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
     background-repeat: no-repeat;
-    min-height: 100%;
+    min-height: 100vh;
     
 }
 
@@ -260,8 +267,6 @@ body {
 }
 
 
-
-
 /* UNDERMENU TIL MOBIL */
 .main-button {
     text-align: center;
@@ -320,6 +325,7 @@ body {
     margin-top: -10%;
     margin-left: 0.5em;
     padding-right: 1em;
+    padding-top: 35px;
 }
 
 #uxoguiboks {
@@ -562,11 +568,12 @@ body {
 
 
 /* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  START */
+
 .titel {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 38px;
+    font-size: 36px;
     color: black;
 }
 
@@ -580,7 +587,7 @@ body {
 
 .underoverskrift {
     font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 22px;
     color: black;
@@ -600,9 +607,11 @@ body {
     font-style: normal;
     font-size: 14px;
     color: black;
-    padding-top: 10px;
+    padding-top: 3px;
     padding-bottom: 10px;
+    line-height: 150%;
 }
+
 
 .liste {
     font-family: lora, serif;
@@ -610,14 +619,24 @@ body {
     font-style: normal;
     font-size: 14px;
     color: black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: -15px;
+    padding-top: 0px;
+    margin-bottom: 10px;
     margin-left: 1.2em;
+    line-height: 150%;
     
 }
     
 .liste li {
     padding-top: 15px;
+}
+
+.liste ul li:first-child {
+    padding-top: 0px;
+}
+
+.liste ol li:first-child {
+    padding-top: 0px;
 }
 
 .pdf-link {
@@ -635,6 +654,15 @@ body {
     font-style: normal;
     font-size: 14px;
     color: black;
+    line-height: 150%;
+}
+
+.kildeliste li {
+    padding-top: 10px;
+}
+
+.kildeliste li:nth-child(1) {
+    padding-top: 0;
 }
 
 .usability-table td {
@@ -645,6 +673,7 @@ body {
     color: black;
     background-color: #A6BCFF;
     vertical-align: middle;
+    line-height: 150%;
 }
 .usability-table th {
     font-family: montserrat, sans-serif;
@@ -667,6 +696,7 @@ usability-table {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 /* GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP                          GENRELT STYLING FOR ALLE SIDER BORTSET FOR INDEX.PHP  END */
 
 
@@ -735,32 +765,12 @@ usability-table {
 }
 
 
-.designthinking-php .kilder-dt li {
-    margin-top: 0.75em;
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin-left: 1em;
-}
-
 .designthinking-php .kilder-dt li a {
     word-break: break-all;
 }
 
 
-.designthinking-php #steps-dt-hverdag {
-    margin-top: -0.75em;
-}
 
-.designthinking-php #steps-dt-hverdag li:nth-child(5) {
-    margin-bottom: 0.75em;
-}
-
-
-.designthinking-php #brainstorm-steps {
-    margin-top: -0.75em;
-}
  
 
 /* footer styling (for alle sider) */
@@ -794,14 +804,56 @@ footer {
 }
 
 /* section margins */
-.designthinking-php .hvaderdt,
-.designthinking-php .empathize,
-.designthinking-php .define,
-.designthinking-php .ideate,
-.designthinking-php .prototype,
-.designthinking-php .implement,
+#banner-desktop-dt {
+    grid-area: banner;
+} 
+
+.designthinking-php .hvaderdt {
+    grid-area: hvaderdt;
+}
+.designthinking-php .empathize {
+    grid-area: empathize-full;
+}
+.designthinking-php .define {
+    grid-area: define-full;
+}
+.designthinking-php .ideate {
+    grid-area: ideate-full;
+}
+.designthinking-php .prototype {
+    grid-area: prototype-full;
+}
+.designthinking-php .implement {
+    grid-area: implement-full;
+}
+
+.designthinking-php .refleksion-dt {
+    grid-area: refleksion-dt;
+}
+
+#hackathon-prototype-mobil {
+    grid-area: hackathon-prototype-mobil;
+}
+
 .designthinking-php .kilder-dt {
-    margin-top: 1.5em;
+    grid-area: kilder-dt;
+}
+
+.designthinking-php #mitgrid-designthinking {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "banner"
+        "hvaderdt"
+        "empathize-full"
+        "define-full"
+        "ideate-full"
+        "prototype-full"
+        "implement-full"
+        "hackathon-prototype-mobil"
+        "refleksion-dt"
+        "kilder-dt";
 }
 
 
@@ -822,15 +874,11 @@ footer {
 .designthinking-php #refleksion-now,
 .designthinking-php #refleksion-end,
 .designthinking-php #kritik {
-    margin-top: 0.75em;
-}
-
-.designthinking-php .bodytext-dt{
-    margin-top: 0.3em;
+    margin-top: 15px;
 }
 
 
-
+.designthinking-php #hackathon-medal-mobil,
 .designthinking-php #hackathon-medal-faser,
 .designthinking-php #hackathon-medal-desktop{
     display: none;
@@ -880,7 +928,6 @@ video-php h1 {
     margin: 0.8em;
 }
 
-
 /* FONTS MOBIL */
 .video-php blockquote {
     font-family: lora, serif;
@@ -894,17 +941,6 @@ video-php h1 {
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
-}
-
-.video-php .video-kilde-liste {
-    font-family: lora, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-}
-
-.video-php .video-kilder h2 {
-    text-decoration-line: underline;
 }
 
 /* IMAGES */
@@ -979,58 +1015,13 @@ video-php h1 {
     word-break: break-all;
 }
 
-
-
 .video-php .post-production div {
     margin-top: 10px;
 }
 
-.video-php .post-production p,
-.video-php .post-production h4 {
-    margin-top: 10px;
-}
-
-
-.video-php .pre-production p,
-.video-php .pre-production ul, 
-.video-php .pre-production ul li {
-    margin-top: 10px;
-}
-
-.video-php .pre-production h3 {
-    margin-top: 10px;
-}
-
-.video-php .video-empathize h3 {
-    margin-top: 10px;
-}
-
-.video-php .production p{
-    margin-top: 10px;
-}
-
-.video-php .premiere-rush h3,
-.video-php .premiere-rush p {
-    margin-top: 10px;
-}
-
-.video-php .scootervideo p,
-.video-php .scootervideo video,
-.video-php .scootervideo blockquote {
-    margin-top: 10px;
-}
-
-.video-php .video-kilder ul,
-.video-php .video-kilder ul li {
-    margin-top: 10px;
-}
 
 #storyboard-list {
     margin-top: -2em;
-}
-
-.video-php .video-kilder ul {
-    margin-left: 2em;
 }
 
 /* VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP VIDEO-PHP.PHP END */
@@ -1412,13 +1403,6 @@ video-php h1 {
     max-width: 100%;
 }
 
-
-
-/* LISTER */
-.liste {
-    padding-top: 0;
-    margin-top: 0;
-}
 
 
 /* padding / margin */
@@ -1999,14 +1983,6 @@ video-php h1 {
     width: 100%;
 }
 
-.kodning-refleksion .background-refleksion-kodning {
-    background-image: url(kodning/back-refleksions-kodning.png);
-    background-repeat: repeat-x;
-    background-size: contain;
-    margin-left: -0.8em;
-    margin-right: -0.8em;
-}
-
 
 .kodning-refleksion #mitgrid-kodningrefleksion {
     margin: 0.8em;
@@ -2022,6 +1998,7 @@ video-php h1 {
 .seo-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .seo-php #seo-intro {
@@ -2030,10 +2007,12 @@ video-php h1 {
 
 .seo-php #metadata-intro {
     grid-area: metadata-intro;
+    margin-top: 25px;
 }
 
 .seo-php #hvad-er-semantisk {
     grid-area: hvad-er-semantisk;
+    margin-top: 35px;
 }
 
 .seo-php #semantisk-tags-list {
@@ -2050,10 +2029,12 @@ video-php h1 {
 
 .seo-php #fordele-semantisk {
     grid-area: fordele-semantisk;
+    margin-top: 25px;
 }
 
 .seo-php .kilder {
     grid-area: kilder;
+    margin-top: 25px;
     
 }
 
@@ -2063,7 +2044,6 @@ video-php h1 {
 
 .seo-php #mitgrid-seo {
     margin: 0.8em;
-    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
@@ -2087,6 +2067,12 @@ video-php h1 {
     text-align: center;
     grid-area: titel;
 }
+    
+.attributter-php #html-anatomi-img {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
 
 .attributter-php #anatomi-html {
     grid-area: anatomi-html;
@@ -2095,13 +2081,21 @@ video-php h1 {
 .attributter-php .kilder {
     grid-area: kilder;
 }
+    
+    .attributter-php #kode-skikke {
+        grid-area: kode-skikke;
+        margin-bottom: 25px;
+    }
 
 .attributter-php #mitgrid-attributter {
     margin: 0.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     grid-row-gap: 25px;
     grid-template-areas: 
         "titel"
         "anatomi-html"
+        "kode-skikke"
         "kilder";
 }
 
@@ -2221,6 +2215,7 @@ video-php h1 {
 .videoogimg-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .videoogimg-php #video-html {
@@ -2233,6 +2228,7 @@ video-php h1 {
 
 .videoogimg-php .kilder {
     grid-area: kilder;
+    margin-top: 25px;
 }
 
 .videoogimg-php #mitgrid-videoogimg {
@@ -2259,6 +2255,10 @@ video-php h1 {
 .php-php h1 {
     text-align: center;
     grid-area: titel;
+}
+
+#andremuligheder {
+    margin-top: 10px;
 }
 
 .php-php #hvad-er-serversider {
@@ -2319,6 +2319,23 @@ video-php h1 {
     grid-area: fordelogulemp-bootstrap;
 }
 
+.bootstrap-php figure {
+    text-align: center;
+}
+
+.bootstrap-php figure a {
+    font-size: 15px;
+}
+
+.bootstrap-php figure h4 {
+    font-size: 20px;
+}
+
+
+.bootstrap-php .link-margin {
+    font-weight: 700;
+}
+
 .bootstrap-php .kilder {
     grid-area: kilder;
 }
@@ -2335,6 +2352,26 @@ video-php h1 {
         "fordelogulemp-bootstrap"
         "kilder"
 }
+
+.bootstrap-php #bootstrap-nav-prakis h4 {
+        margin-top: 25px;
+    }
+    
+    .bootstrap-php #bootstrap-dropogpop-praksis h4 {
+        margin-top: 25px;
+    }
+    
+    .bootstrap-php #bootstrap-karousel-praksis h4 {
+        margin-top: 25px;
+    }
+    
+    .bootstrap-php #images-dropandpop {
+        padding-bottom: 15px;
+    }
+    
+    .bootstrap-php #images-carousel {
+        padding-bottom: 15px;
+    }
 
 /* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP END */
 
@@ -2417,20 +2454,27 @@ video-php h1 {
     grid-area: titel;
 }
 
+.border-shadow-php #shadowtext-table {
+    margin-top: 15px;
+}
+
 .border-shadow-php #borders-css {
     grid-area: borders-css;
 }
 
 .border-shadow-php #shadow-css {
     grid-area: shadow-css;
+    margin-top: 30px;
 }
 
 .border-shadow-php #border-shadow-text-prakis {
     grid-area: border-shadow-text-prakis;
+    margin-top: 30px;
 }
 
 .border-shadow-php .kilder {
     grid-area: kilder;
+    margin-top: 30px;
 }
 
 .border-shadow-php #mitgrid-border-shadow {
@@ -2456,6 +2500,22 @@ video-php h1 {
     text-align: center;
     grid-area: titel;
 }
+
+#radial-image-steps {
+        margin-top: 15px;
+    }
+    
+    #linear-image-steps {
+        margin-top: 15px;
+    }
+
+#radial-image-steps section {
+        margin-top: 8px;
+    }
+    
+    #linear-image-steps section {
+        margin-top: 8px;
+    }
 
 .background-property-php #background-intro {
     grid-area: background-intro;
@@ -2602,18 +2662,31 @@ video-php h1 {
 .animation-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .animation-php #transition-css {
     grid-area: transition-css;
+    margin-bottom: 30px;
 }
 
 .animation-php #animation-css {
     grid-area: animation-css;
+    margin-bottom: 30px;
 }
 
 .animation-php #keyframes-css {
     grid-area: keyframes-css;
+    margin-bottom: 30px;
+}
+
+.animation-php #eksempel-kode-animation {
+    margin-bottom: 15px;
+}
+
+.animation-php #animation-eksempel {
+    grid-area: animation-eksempel;
+    margin-bottom: 30px;
 }
 
 .animation-php .kilder {
@@ -2622,16 +2695,81 @@ video-php h1 {
 
 .animation-php #mitgrid-animation {
     margin: 0.8em;
-    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
         "transition-css"
         "animation-css"
         "keyframes-css"
+        "animation-eksempel"
         "kilder";
 }
 
+
+#uxmenu-animation {
+    text-align: center;
+    list-style: none;
+}
+
+#kodningforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#kommunikationforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#usabilityforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+#uxboks-animation {
+    background-color: crimson;
+    max-width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    animation: mymove 1s infinite;    
+}
+
+/* animation af ux/ui, ux og ui boksene */
+@keyframes mymove {
+  0%   { width: 0%;}
+  100% {  width: 100%;}
+}
+
+/* Hover effects til links på forside menu */
+#uxmenu-animation a:focus {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#uxmenu-animation a {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat, #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size:0% 100%;
+    font-size: 30px;
+    transition: 0.75s;
+}
+    
+#uxmenu-animation a:hover {
+    background-size:100% 100%;
+}
 /* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP END */
 
 
@@ -2672,6 +2810,15 @@ video-php h1 {
         "kilder"
 }
 
+#metode-to-grid {
+    margin-top: 40px;
+}
+
+#metode-et-intro {
+    margin-bottom: -8px;
+    margin-top: 30px;
+}
+
 /* CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP CSS-GRID.PHP END */
 
 
@@ -2702,6 +2849,7 @@ video-php h1 {
 
 .versionsstyring-php #version-onepage {
     grid-area: version-onepage;
+    margin-top: 25px;
 }
 
 .versionsstyring-php .kilder {
@@ -2796,6 +2944,7 @@ video-php h1 {
 
 .artboards-php #artboard-intro {
     grid-area: artboard-intro;
+    margin-bottom: -20px;
 }
 
 .artboards-php #artboard-start {
@@ -2834,11 +2983,16 @@ video-php h1 {
     grid-area: workspace-slut;
 }
 
+.artboards-php #workspace-change-intro {
+    grid-area: workspace-change-intro;
+}
+
 .artboards-php #workspace-change {
     grid-area: workspace-change;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-areas: 
+    grid-template-areas:
+        "workspace-change-intro"
         "workspace-start"
         "workspace-slut";
 }
@@ -2860,12 +3014,17 @@ video-php h1 {
 .artboards-php #mitgrid-artboards {
     margin: 0.8em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "artboard-tool"
         "workspace"
         "kilder";
+}
+
+
+.artboards-php #mitgrid-artboards img {
+    margin-bottom: 5px;
 }
 /* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP END */
 
@@ -2974,6 +3133,26 @@ video-php h1 {
         "kilder";
 }
 
+ #cap-options-img {
+        margin-bottom: 10px;
+    }
+    
+    #cap-start-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+    
+    #cap-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
+
+
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
 
 /* DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP DIRECTSELECTION.PHP START */
@@ -3002,6 +3181,14 @@ video-php h1 {
 
 .directselection-php .kilder {
     grid-area: kilder;
+}
+
+#direct-select-start-img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .directselection-php #mitgrid-directselection {
@@ -3043,18 +3230,40 @@ video-php h1 {
     grid-area: shape-slut2;
 }
 
+    .shapebuilder-php #shape-start-liste {
+        grid-area: shape-start-liste;
+    }
+
 .shapebuilder-php #shape-tool {
     grid-area: shape-tool;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "shape-intro"
         "shape-start"
+        "shape-start-liste"
         "shape-slut"
         "shape-start2"
         "shape-slut2";
 }
+    
+    .shapebuilder-php #shape-start2 h4,
+    .shapebuilder-php #shape-slut2 h4{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #shape-start-img {
+        margin-top: -65px;
+        margin-bottom: -65px;
+    }
+    
+    #shape-slut-img {
+        margin-top: -65px;
+        margin-bottom: -55px;
+    }
 
 .shapebuilder-php .kilder {
     grid-area: kilder;
@@ -3135,14 +3344,19 @@ video-php h1 {
 
 .smooth-php #smooth-start {
     grid-area: smooth-start;
+    margin-top: -25px;
+    margin-bottom: 50px;
 }
 
 .smooth-php #smooth-options {
     grid-area: smooth-options;
+    margin-top: -25px;
+    margin-bottom: 50px;
 }
 
 .smooth-php #smooth-secondlast {
     grid-area: smooth-secondlast;
+    margin-bottom: 50px;
 }
 
 .smooth-php #smooth-slut {
@@ -3165,6 +3379,8 @@ video-php h1 {
 .smooth-php .kilder {
     grid-area: kilder;
 }
+
+
 
 .smooth-php #mitgrid-smooth {
     margin: 0.8em;
@@ -3275,6 +3491,10 @@ video-php h1 {
 }
 
 
+.contentaware-php #contentaware-releksion {
+    grid-area: contentaware-releksion;
+}
+
 
 .contentaware-php .kilder {
     grid-area: kilder;
@@ -3291,6 +3511,7 @@ video-php h1 {
         "content-aware-fill"
         "content-aware-move"
         "content-aware-patch"
+        "contentaware-releksion"
         "kilder";
 }
 
@@ -3323,6 +3544,11 @@ video-php h1 {
         "spothealing-intro"
         "spothealing-start";
 }
+
+.spothealing-php #spothealing-start img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 .spothealing-php .kilder {
     grid-area: kilder;
@@ -3393,6 +3619,8 @@ video-php h1 {
         "smartobject"
         "kilder";
 }
+
+
 /* SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP SMARTOBJECT.PHP END*/
 
 
@@ -3664,7 +3892,7 @@ video-php h1 {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0.8em;
 }
 
 .typografi-php #typogrfi-intro {
@@ -3826,6 +4054,15 @@ video-php h1 {
         "gestaltlovene"
         "kilder";
 }
+
+    
+    #closure-img {
+        max-width: 75%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
 
 
@@ -3877,6 +4114,24 @@ video-php h1 {
         "wireframing-section"
         "kilder";
 }
+
+
+    
+    .wireframing-php #lofi-india img {
+        margin-bottom: 15px;
+    }
+
+    .wireframing-php #hifi-india img {
+        margin-bottom: 15px;
+    }
+    
+    .wireframing-php #lofi-india h2 {
+        text-align: center;
+    }
+
+    .wireframing-php #hifi-india h2 {
+        text-align: center;
+    }
 
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
 
@@ -3948,16 +4203,23 @@ video-php h1 {
 
 .adobexd-php #adobexd-mobil {
     grid-area: adobexd-mobil;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .adobexd-php #adobexd-desktop {
     grid-area: adobexd-desktop;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
+
 
 .adobexd-php #adobexd {
     grid-area: adobexd;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "adobexd-intro"
@@ -3979,6 +4241,11 @@ video-php h1 {
         "kilder";
 }
 
+
+.adobexd-php .liste {
+    list-style: none;
+    margin-left: 0;
+}
 /* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
 
 
@@ -4004,6 +4271,7 @@ video-php h1 {
 .licens-php h1,
 .bmc-php h1 {
     text-align: center;
+    margin-top: 0.8em;
 }
 
 .hvad-er-kommunikation-php .navbar,
@@ -4088,6 +4356,10 @@ video-php h1 {
         "typiske-emner"
         "konklusion"
         "kilder";
+}
+
+.hvad-er-kommunikation-php .sub-skrift {
+    margin-bottom: 20px;
 }
 
 /* HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP HVAD-ER-KOMMUNIKATION.PHP SLUT */
@@ -4440,6 +4712,10 @@ video-php h1 {
 /* LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP LATCH.PHP START */
 .latch-php #hvad-er-informationsarkitektur {
     grid-area: hvad-er-informationsarkitektur;
+}
+
+.latch-php .titel {
+    font-size: 30px;
 }
 
 .latch-php #latch-intro {
@@ -4800,6 +5076,11 @@ video-php h1 {
         "kilder";
 }
 
+.powerpoint-php #principper-liste .liste {
+    list-style: none;
+    margin-left: 0;
+}
+
 
 /* DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP DEATHBYPOWERPOINT.PHP END */
 
@@ -4807,9 +5088,6 @@ video-php h1 {
 
 
 /* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP START */
-
-
-/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
 .tekstproduktion-php #nyhedskritier {
     grid-area: nyhedskritier;
 }
@@ -4820,6 +5098,14 @@ video-php h1 {
 
 .tekstproduktion-php #nyhedstrekant {
     grid-area: nyhedstrekant;
+}
+
+#skive-princip h2 {
+    margin-bottom: 10px;
+}
+
+#webteksteksempel {
+    grid-area: webteksteksempel;
 }
 
 .tekstproduktion-php #nyhedsartikel {
@@ -4833,6 +5119,9 @@ video-php h1 {
         "proces-scanning";
 }
 
+#onepage-heyyou {
+    max-width: 100%;
+}
 
 .tekstproduktion-php #webtekst-intro {
     grid-area: webtekst-intro;
@@ -4874,7 +5163,8 @@ video-php h1 {
     grid-template-columns: 1fr;
     grid-template-areas: 
         "klarhed"
-        "syv-geniale";
+        "syv-geniale"
+        "webteksteksempel";
 }
 
 
@@ -4896,9 +5186,13 @@ video-php h1 {
         "webtekst"
         "hey-you-see-so"
         "skive-princip"
+        "webteksteksempel"
         "refleksion-tekstproduktion"
         "kilder";
 }
+
+/* TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP TEKSTPRODUKTION.PHP END */
+
 
 
 /* LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP LICENS.PHP START */
@@ -5016,6 +5310,13 @@ video-php h1 {
         "partnere"
         "omkostninger"
         "profit";
+}
+
+#bmc-9sten img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
 }
 
 
@@ -5149,6 +5450,206 @@ video-php h1 {
 
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
 
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+
+
+
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+.projekter-php .navbar {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.projekter-php footer {
+    background: linear-gradient(-180deg,#030303 10%,#1f1f1f 360%);
+}
+
+.projekter-php .timeline {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+.projekter-php .timeline__content-title {
+  font-weight: normal;
+  font-size: 66px;
+  margin: -10px 0 0 0;
+  transition: 0.4s;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+.projekter-php .timeline__content-desc {
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, .7);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 25px;
+}
+.projekter-php .timeline:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+  background: rgba(255, 255, 255, .07);
+}
+@media only screen and (max-width: 767px) {
+  .timeline:before {
+    left: 40px;
+  }
+}
+.projekter-php .timeline-item {
+  padding: 40px 0;
+  opacity: 0.3;
+  filter: blur(2px);
+  transition: 0.5s;
+  box-sizing: border-box;
+  width: calc(50% - 40px);
+  display: flex;
+  position: relative;
+  transform: translateY(-80px);
+}
+.projekter-php .timeline-item:before {
+  content: attr(data-text);
+  letter-spacing: 3px;
+  width: 100%;
+  position: absolute;
+  color: rgba(255, 255, 255, .5);
+  font-size: 13px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  border-left: 2px solid rgba(255, 255, 255, .5);
+  top: 70%;
+  margin-top: -5px;
+  padding-left: 15px;
+  opacity: 0;
+  right: calc(-100% - 56px);
+}
+.projekter-php .timeline-item:nth-child(even) {
+  align-self: flex-end;
+}
+.projekter-php .timeline-item:nth-child(even):before {
+  right: auto;
+  text-align: right;
+  left: calc(-100% - 56px);
+  padding-left: 0;
+  border-left: none;
+  border-right: 2px solid rgba(255, 255, 255, .5);
+  padding-right: 15px;
+}
+.projekter-php .timeline-item--active {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+.projekter-php .timeline-item--active:before {
+  top: 50%;
+  transition: 0.3s all 0.2s;
+  opacity: 1;
+}
+.projekter-php .timeline-item--active .timeline__content-title {
+  margin: -50px 0 20px 0;
+}
+@media only screen and (max-width: 767px) {
+ .projekter-php  .timeline-item {
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px 150px 80px;
+  }
+ .projekter-php  .timeline-item:before {
+    left: 10px !important;
+    padding: 0 !important;
+    top: 50px;
+    text-align: center !important;
+    width: 60px;
+    border: none !important;
+  }
+ .projekter-php .timeline-item:last-child {
+    padding-bottom: 40px;
+  }
+}
+.projekter-php .timeline__img {
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+}
+.projekter-php .timeline-container {
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  transition: 0.3s ease 0s;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.projekter-php .timeline-container:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ background: rgba(0,0,0,0.6);
+  content: "";
+}
+.projekter-php .timeline-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.projekter-php .timeline-header__title {
+  color: #fff;
+  font-size: 58px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+.projekter-php .timeline-header__subtitle {
+  color: rgba(255, 255, 255, .5);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
+.projekter-php .demo-footer {
+  padding: 60px 0;
+  text-align: center;
+}
+.projekter-php .demo-footer a {
+  color: #999;
+  display: inline-block;
+  font-family: Cardo;
+}
+
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
+
+
 
 
 
@@ -5220,16 +5721,8 @@ video-php h1 {
     #uxmenu li:nth-child(4){
         margin-bottom: 3px;
     }   
-/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
-    
-    
-    
-    
-    
-    
-    
-    
-    
+/* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/   
+
 }
 
 
@@ -5283,29 +5776,29 @@ video-php h1 {
     }
 
     #uxuimenu {
-        font-size: 17px;
+        font-size: 20px;
         margin-bottom: 20px;
     }
 
     #uxmenu {
-        font-size: 17px;
+        font-size: 20px;
         margin-bottom: 20px;
     }
 
     #uimenu {
-        font-size: 17px;
+        font-size: 20px;
     }
     
     #uxoguiboks h3 {
-        font-size: 21px;
+        font-size: 23px;
     }
 
     #uxboks h3 {
-        font-size: 21px;
+        font-size: 23px;
     }
 
     #uiboks h3 {
-        font-size: 21px;
+        font-size: 23px;
     }
     
     #uimenu li:nth-child(2),
@@ -5320,6 +5813,29 @@ video-php h1 {
         margin-bottom: 9px;
     }   
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML END*/
+    
+    
+    
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */ 
+    .designthinking-php .dt-img {
+        max-width: 65%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .designthinking-php #faserne-mobil {
+        width: 100%;
+    }
+    
+    
+    
+/* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */  
+
+    
+    
+    
     
 .kodeskik-php {
     min-height: 100%;
@@ -5351,9 +5867,80 @@ video-php h1 {
 }
 
 /* MIN-UDVIKLING-KODNING.PHP  MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP MIN-UDVIKLING-KODNING.PHP END */
+
+
+    
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP START */
+    .bmc-php #mitgrid-bmc {
+        margin: 2.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+    
+/* BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP BMC.PHP END */
+
+    
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+
+    
+        
     
         
 }
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* SMARTOBJECT.PHP START */
+    .smartobject-php #smartobject-start img {
+        margin-bottom: 10px;
+    }
+
+    .smartobject-php #smartobject-options img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .smartobject-php #smartobject-edit img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .smartobject-php #smartobject-slut img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -5491,7 +6078,7 @@ video-php h1 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 48px;
+    font-size: 46px;
     color: black;
 }
 
@@ -5499,13 +6086,13 @@ video-php h1 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 36px;
+    font-size: 32px;
     color: black;
 }
 
 .underoverskrift {
     font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 28px;
     color: black;
@@ -5513,7 +6100,7 @@ video-php h1 {
 
 .sub-skrift {
     font-family: montserrat, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 22px;
     color: black;
@@ -5525,7 +6112,7 @@ video-php h1 {
     font-style: normal;
     font-size: 15px;
     color: black;
-    padding-top: 10px;
+    padding-top: 3px;
     padding-bottom: 10px;
 }
     
@@ -5535,14 +6122,7 @@ video-php h1 {
     font-style: normal;
     font-size: 15px;
     color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 1.2em;
-    
-}
-    
-.liste li {
-    padding-top: 15px;
+    margin-left: 1em;
 }
 
 .pdf-link {
@@ -5596,9 +6176,50 @@ usability-table {
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
 .designthinking-php #mitgrid-designthinking {
-        margin: 3em;
+        margin: 3.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        grid-row-gap: 25px;
     }
 
+.designthinking-php #empthize-def,
+.designthinking-php #define-def,
+.designthinking-php #ideate-def,
+.designthinking-php #prototype-def,
+.designthinking-php #implement-def,
+.designthinking-php #empathize-studie,
+.designthinking-php #define-studie,
+.designthinking-php #ideate-ideer,
+.designthinking-php #ideate-brainstorm,
+.designthinking-php #prototype-optimering,
+.designthinking-php #prototype-lofi-hifi,
+.designthinking-php #implement-undtagelse,
+.designthinking-php #refleksion-start,
+.designthinking-php #refleksion-mid,
+.designthinking-php #refleksion-now,
+.designthinking-php #refleksion-end,
+.designthinking-php #kritik {
+    margin-top: 15px;
+}
+    
+    
+    .designthinking-php .dt-img {
+        max-width: 65%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .designthinking-php #faserne-mobil {
+        width: 100%;
+    }
+    
+    .designthinking-php #hackathon-prototype-mobil {
+        max-width: 65%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */
     
@@ -5613,12 +6234,6 @@ usability-table {
     font-size: 14px; 
 }
 
-.video-php h4 {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-}
 
 .video-php h1 {
     text-align: center;
@@ -5654,14 +6269,24 @@ usability-table {
 }
 
 .video-php #mitgrid-video {
-    margin: 1.2em;
-}   
+    margin: 3.5em;
+}  
+    
+    .video-php #scooteredit {
+        width: 360px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */    
     
   
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
     margin: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
     
 /* fonts */
@@ -6124,10 +6749,6 @@ usability-table {
     grid-area: titel;
 }
 
-.brugertest-php .hvad-er-brugertest {
-
-}
-
 .brugertest-php .forbered-bruger ul,
 .brugertest-php .forbered-bruger ol   {
     padding-top: 0;
@@ -6309,15 +6930,21 @@ usability-table {
 .attributter-php .kilder {
     grid-area: kilder;
 }
+    
+    .attributter-php #kode-skikke {
+        grid-area: kode-skikke;
+        margin-bottom: 25px;
+    }
 
 .attributter-php #mitgrid-attributter {
-    margin: 3.5em;
+    margin: 5em;
     margin-top: 1em;
     margin-bottom: 1em;
     grid-row-gap: 25px;
     grid-template-areas: 
         "titel"
         "anatomi-html"
+        "kode-skikke"
         "kilder";
 }
 
@@ -6637,6 +7264,14 @@ usability-table {
 .bootstrap-php .kilder {
     grid-area: kilder;
 }
+    
+.bootstrap-php figure a {
+    font-size: 20px;
+}
+
+.bootstrap-php figure h4 {
+    font-size: 30px;
+}
 
     #knapper-on-site {
         max-width: 70%;
@@ -6835,10 +7470,12 @@ usability-table {
 
 .border-shadow-php #shadow-css {
     grid-area: shadow-css;
+    margin-top: 30px;
 }
 
 .border-shadow-php #border-shadow-text-prakis {
     grid-area: border-shadow-text-prakis;
+    margin-top: 30px;
 }
 
 .border-shadow-php .kilder {
@@ -7122,23 +7759,43 @@ usability-table {
 
 
 
-
 /* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP START */
 .animation-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .animation-php #transition-css {
     grid-area: transition-css;
+    margin-bottom: 30px;
 }
 
 .animation-php #animation-css {
     grid-area: animation-css;
+    margin-bottom: 30px;
 }
 
 .animation-php #keyframes-css {
     grid-area: keyframes-css;
+    margin-bottom: 30px;
+}
+
+.animation-php #eksempel-kode-animation {
+    margin-bottom: 20px;
+}
+    
+.animation-php #kode-til-boks {
+    margin-bottom: 20px;
+}
+    
+.animation-php #kode-til-tekst {
+    margin-bottom: 20px;
+}
+
+.animation-php #animation-eksempel {
+    grid-area: animation-eksempel;
+    margin-bottom: 30px;
 }
 
 .animation-php .kilder {
@@ -7147,19 +7804,86 @@ usability-table {
 
 .animation-php #mitgrid-animation {
     margin: 3.5em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    grid-row-gap: 25px;
+    margin-bottom: 2em;
+    margin-top: 0.5em;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
         "transition-css"
         "animation-css"
         "keyframes-css"
+        "animation-eksempel"
         "kilder";
 }
 
+
+#uxmenu-animation {
+    text-align: center;
+    list-style: none;
+}
+
+#kodningforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#kommunikationforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#usabilityforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+#uxboks-animation {
+    background-color: crimson;
+    max-width: 500px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    animation: mymove 1s infinite;    
+}
+
+/* animation af ux/ui, ux og ui boksene */
+@keyframes mymove {
+  0%   { width: 0%;}
+  100% {  width: 100%;}
+}
+
+/* Hover effects til links på forside menu */
+#uxmenu-animation a:focus {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+#uxmenu-animation a {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat, #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size:0% 100%;
+    font-size: 40px;
+    transition: 0.75s;
+}
+    
+#uxmenu-animation a:hover {
+    background-size:100% 100%;
+}
 /* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP END */
+
 
 
 
@@ -7301,6 +8025,7 @@ usability-table {
 /* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
 .artboards-php h1 {
     text-align: center;
+    margin-top: 0.5em;
 }
 
 .artboards-php #artboard-intro {
@@ -7343,11 +8068,16 @@ usability-table {
     grid-area: workspace-slut;
 }
 
+.artboards-php #workspace-change-intro {
+    grid-area: workspace-change-intro;
+}
+
 .artboards-php #workspace-change {
     grid-area: workspace-change;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-areas: 
+    grid-template-areas:
+        "workspace-change-intro"
         "workspace-start"
         "workspace-slut";
 }
@@ -7368,10 +8098,10 @@ usability-table {
 
 .artboards-php #mitgrid-artboards {
     margin: 3.5em;
-    margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "artboard-tool"
@@ -7433,6 +8163,28 @@ usability-table {
         "blend-tool"
         "kilder";
 }
+    
+    #blend-start-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 75%;
+    }
+    
+#blend-options-img {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        margin-bottom: 10px;
+        max-width: 75%;
+    }
+    
+    #blend-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 75%;
+    }
 
 /* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
 
@@ -7486,6 +8238,26 @@ usability-table {
         "cap-america"
         "kilder";
 }
+    
+ #cap-options-img {
+        margin-bottom: 8px;
+    }
+    
+    #cap-start-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+    
+    #cap-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 70%;
+    }
+
 
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
 
@@ -7556,16 +8328,61 @@ usability-table {
     grid-area: shape-slut2;
 }
 
+    .shapebuilder-php #shape-start-liste {
+        grid-area: shape-start-liste;
+    }
+
 .shapebuilder-php #shape-tool {
     grid-area: shape-tool;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "shape-intro shape-intro"
-        "shape-start shape-slut"
+        "shape-start shape-start"
+        "shape-start-liste shape-start-liste"
+        "shape-slut shape-slut"
         "shape-start2 shape-slut2";
 }
+    
+    .shapebuilder-php #shape-start2 h4,
+    .shapebuilder-php #shape-slut2 h4{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #shape-start-img {
+        margin-top: -125px;
+        margin-bottom: -105px;
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #shape-slut-img {
+        margin-top: -105px;
+        margin-bottom: -55px;
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #shape-slut2-img {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #shape-start2-img {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 .shapebuilder-php .kilder {
     grid-area: kilder;
@@ -7607,11 +8424,17 @@ usability-table {
 .smokey-php #smokey-slut {
     grid-area: smokey-slut;
 }
+    
+    .smokey-php #smokey-slut h4 {
+        text-align: center;
+        margin-top: 25px;
+    }
 
 .smokey-php #smokey {
     grid-area: smokey;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smokey-intro smokey-intro"
@@ -7648,14 +8471,19 @@ usability-table {
 
 .smooth-php #smooth-start {
     grid-area: smooth-start;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-options {
     grid-area: smooth-options;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-secondlast {
     grid-area: smooth-secondlast;
+    margin-bottom: 0px;
 }
 
 .smooth-php #smooth-slut {
@@ -7666,6 +8494,7 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smooth-intro smooth-intro"
@@ -7680,13 +8509,12 @@ usability-table {
 .smooth-php #mitgrid-smooth {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
-        "smooth"
-        "kilder";
+        "smooth";
 }
 /* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP END */
 
@@ -7717,6 +8545,7 @@ usability-table {
     grid-area: content-aware-fill;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-fill-intro content-aware-fill-intro"
@@ -7746,6 +8575,7 @@ usability-table {
     grid-area: content-aware-move;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-move-intro content-aware-move-intro"
@@ -7776,6 +8606,7 @@ usability-table {
     grid-area: content-aware-patch;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-patch-intro content-aware-patch-intro"
@@ -7788,7 +8619,10 @@ usability-table {
 .contentaware-php .kilder {
     grid-area: kilder;
 }
-
+    
+.contentaware-php #contentaware-releksion {
+    grid-area: contentaware-releksion;
+}
 
 
 .contentaware-php #mitgrid-content-aware {
@@ -7802,8 +8636,33 @@ usability-table {
         "content-aware-fill"
         "content-aware-move"
         "content-aware-patch"
+        "contentaware-releksion"
         "kilder";
 }
+    
+#aware-fill-options-img {
+        display: flex;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    #aware-move-options-img {
+        display: flex;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #aware-patch-options-img {
+        display: flex;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
 
 
 
@@ -7833,6 +8692,15 @@ usability-table {
         "spothealing-intro"
         "spothealing-start";
 }
+    
+    .spothealing-php #spothealing-start img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 .spothealing-php .kilder {
     grid-area: kilder;
@@ -7841,7 +8709,7 @@ usability-table {
 .spothealing-php #mitgrid-spothealing {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -7877,11 +8745,37 @@ usability-table {
 .smartobject-php #smartobject-slut {
     grid-area: smartobject-slut;
 }
+    
+    
+    .smartobject-php #smartobject-start img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+.smartobject-php #smartobject-slut img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    
+    .smartobject-php #smartobject-edit img {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
 
+    
+    
 .smartobject-php #smartobject {
     grid-area: smartobject;
     display: grid;
-    grid-row: 15px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smartobject-intro smartobject-intro"
@@ -7897,7 +8791,7 @@ usability-table {
 .smartobject-php #mitgrid-smartobject {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -7934,6 +8828,7 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "outofframe-intro outofframe-intro"
@@ -7948,7 +8843,7 @@ usability-table {
 .outofframe-php #mitgrid-outofframe {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -7956,6 +8851,29 @@ usability-table {
         "outofframe"
         "kilder";
 }
+    
+#outofframe-start-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    #outofframe-options-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #outofframe-slut-img {
+        max-width: 50%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
@@ -8039,6 +8957,7 @@ usability-table {
     grid-area: farve-harmonier;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "harmonier-intro harmonier-intro"
@@ -8084,6 +9003,7 @@ usability-table {
     grid-area: farve-psyk;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "intro-psyk intro-psyk"
@@ -8130,6 +9050,7 @@ usability-table {
     grid-area: opdage-farver;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "opdage-intro opdage-intro"
@@ -8159,6 +9080,48 @@ usability-table {
         "opdage-farver"
         "kilder";
 }
+    
+#mono-bus {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #green-mono {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #mono-tilbud {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #blad-analog {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #complementary-skilt {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #tretiader-playtoy {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
 
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
 
@@ -8167,6 +9130,7 @@ usability-table {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
+    
 }
 
 .typografi-php #typogrfi-intro {
@@ -8188,7 +9152,7 @@ usability-table {
 .typografi-php #typografi {
     grid-area: typografi;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "typografi-intro"
@@ -8208,7 +9172,7 @@ usability-table {
 .typografi-php #font-anatomi {
     grid-area: font-anatomi;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "anatomi-intro"
@@ -8235,7 +9199,7 @@ usability-table {
 .typografi-php #readability {
     grid-area: readability;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "read-friendly"
@@ -8252,9 +9216,9 @@ usability-table {
 .typografi-php #mitgrid-typografi {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 50px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "typografi"
@@ -8331,6 +9295,55 @@ usability-table {
         "gestaltlovene"
         "kilder";
 }
+    
+#figure-ground-img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #similarity-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #proximity-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #common-region-img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #continuity-img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #closure-img {
+        max-width: 50%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #focal-point-img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
 
 
@@ -8359,6 +9372,7 @@ usability-table {
 .wireframing-php #wireframing-section {
     grid-area: wireframing-section;
     display: grid;
+    grid-column-gap: 15px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -8374,7 +9388,7 @@ usability-table {
 .wireframing-php #mitgrid-wireframing {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -8382,6 +9396,28 @@ usability-table {
         "wireframing-section"
         "kilder";
 }
+    
+
+    
+    .wireframing-php #lofi-india h2 {
+        text-align: center;
+    }
+
+    .wireframing-php #hifi-india h2 {
+        text-align: center;
+    }
+    
+    
+    .wireframing-php #lofi-india img {
+
+        margin-bottom: 15px;
+    }
+
+    .wireframing-php #hifi-india img {
+
+        margin-bottom: 15px;
+    }
+
 
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
 
@@ -8411,6 +9447,7 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "saturation-intro saturation-intro"
@@ -8425,15 +9462,27 @@ usability-table {
 .saturation-php #mitgrid-saturation {
     margin: 3.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 0px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "saturation-climate"
         "kilder";
 }
-
+    
+    #saturation-start-img {
+        margin-top: -50px;
+        margin-bottom: -70px;
+    }
+    #saturation-options-img {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    #saturation-slut-img {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
 /* SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP END */
 
 
@@ -8452,10 +9501,16 @@ usability-table {
 
 .adobexd-php #adobexd-mobil {
     grid-area: adobexd-mobil;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
 }
 
 .adobexd-php #adobexd-desktop {
     grid-area: adobexd-desktop;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
 }
 
 .adobexd-php #adobexd {
@@ -8907,6 +9962,9 @@ usability-table {
         "latch-types";
 }
 
+    .latch-php .titel {
+    font-size: 48px;
+}
 
 .latch-php #latch-eksempel-intro {
     grid-area: latch-eksempel-intro;
@@ -9331,7 +10389,8 @@ usability-table {
     grid-template-columns: 1fr;
     grid-template-areas: 
         "klarhed"
-        "syv-geniale";
+        "syv-geniale"
+        "webteksteksempel";
 }
 
 
@@ -9355,6 +10414,7 @@ usability-table {
         "webtekst"
         "hey-you-see-so"
         "skive-princip"
+        "webteksteksempel"
         "refleksion-tekstproduktion"
         "kilder";
 }
@@ -9624,9 +10684,42 @@ usability-table {
 
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
+
+    
+    
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+    
+
     
     
     
+    
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+
+
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
     
     
     
@@ -9878,23 +10971,23 @@ usability-table {
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 36px;
+    font-size: 35px;
     color: black;
 }
 
 .underoverskrift {
     font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
-    font-size: 28px;
+    font-size: 24px;
     color: black;
 }
 
 .sub-skrift {
     font-family: montserrat, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
-    font-size: 22px;
+    font-size: 18px;
     color: black;
 }
 
@@ -9904,8 +10997,8 @@ usability-table {
     font-style: normal;
     font-size: 15px;
     color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
 }
 
 .liste {
@@ -9914,14 +11007,7 @@ usability-table {
     font-style: normal;
     font-size: 15px;
     color: black;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 1.2em;
     
-}
-    
-.liste li {
-    padding-top: 15px;
 }
 
 .pdf-link {
@@ -9982,16 +11068,6 @@ usability-table {
     
    
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
-.designthinking-php #mitgrid-designthinking {
-        margin: 3.5em;
-    }
-
-    
-.designthinking-php .kilder-dt li {
-    font-size: 16px;
-    color: black;
-}
-
     
 /* IKONER */
     .designthinking-php #faserne-mobil,
@@ -10241,7 +11317,8 @@ usability-table {
     
     .designthinking-php #mitgrid-designthinking {
         display: grid;
-        grid-row-gap: 50px;
+        margin: 5em;
+        grid-row-gap: 30px;
         grid-template-columns: 1fr;
         grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
         grid-template-areas: 
@@ -10265,7 +11342,45 @@ usability-table {
         margin-top: 0em;
     }
     
- 
+
+.designthinking-php #empthize-def,
+.designthinking-php #define-def,
+.designthinking-php #ideate-def,
+.designthinking-php #prototype-def,
+.designthinking-php #implement-def,
+.designthinking-php #empathize-studie,
+.designthinking-php #define-studie,
+.designthinking-php #ideate-ideer,
+.designthinking-php #ideate-brainstorm,
+.designthinking-php #prototype-optimering,
+.designthinking-php #prototype-lofi-hifi,
+.designthinking-php #implement-undtagelse,
+.designthinking-php #refleksion-start,
+.designthinking-php #refleksion-mid,
+.designthinking-php #refleksion-now,
+.designthinking-php #refleksion-end,
+.designthinking-php #kritik {
+    margin-top: 15px;
+}
+    
+    
+.designthinking-php #mitgrid-designthinking .dt-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #banner-desktop-dt {
+        width: 100%;
+    }
+    
+    .designthinking-php #mitgrid-designthinking #faserne-mobil,
+    .designthinking-php #mitgrid-designthinking #hackathon-medal-mobil,
+    .designthinking-php #mitgrid-designthinking #hackathon-prototype-mobil {
+        display: none;
+    }
+
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */   
 
     
@@ -10336,6 +11451,7 @@ usability-table {
 
 .video-php .production {
     grid-area: production;
+    margin-top: 15px;
 }
 
 .video-php .scootervideo {
@@ -10353,8 +11469,11 @@ usability-table {
 
 .video-php #mitgrid-video {
     display: grid;
+    margin: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     grid-row-gap: 25px;
-    grid-column-gap: 10px;
+    grid-column-gap: 20px;
     grid-template-columns: 3fr 3fr;
     grid-template-rows: 0fr 0.1fr 0.1fr 0.86fr 0.1fr 0.1fr;
     grid-template-areas: 
@@ -10364,7 +11483,45 @@ usability-table {
         "pre-production premiere-rush"
         "production premiere-rush"
         "video-kilder video-kilder";
-}    
+} 
+    
+    
+    
+    
+    .video-php #background-image {
+        min-width: 100%;
+        height: auto;
+        margin-right: -5em;
+        margin-left: -5em;
+        overflow: hidden;
+        background-image: url(video/background-video-ikoner-final.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        
+    }
+    
+    
+    .video-php #videosection {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .video-php  #headphones {
+        height: 280px;
+    }
+    
+    .video-php #scooteredit {
+        height: 480px;
+        width: auto;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+    
     
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */   
@@ -10375,6 +11532,8 @@ usability-table {
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
     margin: 3.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
     
 /* fonts */
@@ -10598,6 +11757,14 @@ usability-table {
         margin-left: -3.5em;
         margin-right: -3.5em;
     }
+    
+    .sporgeskema-php .sporgeskema-corona {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 
 /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/ 
 
@@ -10791,6 +11958,30 @@ usability-table {
         "dokumentation"
         "kilder";
 }
+    
+    .kortsortering-php .usability-table {
+        max-width: 70%;
+    }
+    
+    .kortsortering-php .testmetoder-table {
+        text-align: center;
+    }
+    
+    .kortsortering-php .resultater-kort img {
+        max-width: 70%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #rundte1-img {
+        margin-top: 30px;
+    }
+    
+    #rundte2-img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
 /* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */   
     
@@ -10828,7 +12019,6 @@ usability-table {
     padding-bottom: 5px;
 }
 
-/* GRID */
 .brugertest-php h1 {
     grid-area: titel;
 }
@@ -10841,7 +12031,7 @@ usability-table {
 
 
 .brugertest-php #mitgrid-brugertest {
-    margin: 5em;    
+    margin: 7em;    
 }
 
 .brugertest-php .forbered-bruger section {
@@ -10864,6 +12054,28 @@ usability-table {
     margin-top: 15px;
     margin-bottom: 10px;
 }
+    
+    
+    #hi-budgt {
+        grid-area: hi-budgt;
+    }
+    
+    #lo-budget {
+        grid-area: lo-budget;
+    }
+    
+    #lo-budget img {
+        max-width: 50%;
+    }
+    
+    #brugertest-setups {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+        grid-template-areas: 
+            "hi-budgt lo-budget";
+    }
+
 /* BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP BRUGERTEST.PHP END */   
 
     
@@ -11012,6 +12224,11 @@ usability-table {
 .attributter-php .kilder {
     grid-area: kilder;
 }
+    
+    .attributter-php #kode-skikke {
+        grid-area: kode-skikke;
+        margin-bottom: 25px;
+    }
 
 .attributter-php #mitgrid-attributter {
     margin: 7em;
@@ -11021,11 +12238,11 @@ usability-table {
     grid-template-areas: 
         "titel"
         "anatomi-html"
+        "kode-skikke"
         "kilder";
 }
 
 /* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP END */
-
 
 
 
@@ -11337,6 +12554,26 @@ usability-table {
 
 
 /* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP START */
+    .bootstrap-php #bootstrap-nav-prakis h4 {
+        margin-top: 25px;
+    }
+    
+    .bootstrap-php #bootstrap-dropogpop-praksis h4 {
+        margin-top: 25px;
+    }
+    
+    .bootstrap-php #bootstrap-karousel-praksis h4 {
+        margin-top: 25px;
+    }
+    
+    .bootstrap-php #images-dropandpop {
+        padding-bottom: 15px;
+    }
+    
+    .bootstrap-php #images-carousel {
+        padding-bottom: 15px;
+    }
+    
 .bootstrap-php h1 {
     text-align: center;
     grid-area: titel;
@@ -11415,6 +12652,18 @@ usability-table {
         grid-template-areas: 
             "navkode navkode"
             "navbefore navafter";
+    }
+    
+    .bootstrap-php #mitgrid-bootstrap img {
+        max-width: 85%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #knapper-on-site,
+    #karousel-on-site {
+        max-width: 30%;
     }
 
 /* BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP BOOTSTRAP.PHP END */
@@ -11624,6 +12873,22 @@ usability-table {
     text-align: center;
     grid-area: titel;
 }
+    
+#radial-image-steps {
+        margin-top: 0px;
+    }
+    
+    #linear-image-steps {
+        margin-top: 0px;
+    }
+
+#radial-image-steps section {
+        margin-top: 0px;
+    }
+    
+    #linear-image-steps section {
+        margin-top: 0px;
+    }  
 
 .background-property-php #background-intro {
     grid-area: background-intro;
@@ -11657,16 +12922,22 @@ usability-table {
 }
     
 .background-property-php #whitman-kode {
-      grid-area: whitmankode;  
+      grid-area: whitmankode; 
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
     
 .background-property-php #whitman-start {
     grid-area: whitmanstart;
-    max-width: 99%;
+    max-width: 79%;
+    margin-left: auto;
 }
     
 .background-property-php #whitman-slut {
     grid-area: whitmanslut;
+    max-width: 80%;
+    margin-right: auto;
 }
     
 .background-property-php #radial-images {
@@ -11684,17 +12955,20 @@ usability-table {
         grid-area: sonnetkode;
         margin-right: auto;
         margin-left: auto;
+        max-width: 80%;
 }
     
 .background-property-php #sonnet-start {
         grid-area: sonnetstart;
-        max-width: 90%;
+        max-width: 73%;
         margin-left: auto;
+        margin-right: 2em;
 }
     
 .background-property-php #sonnet-slut {
         grid-area: sonnetslut;
         margin-right: auto;
+        max-width: 80%;
 }
     
 .background-property-php #linear-images {
@@ -11920,22 +13194,54 @@ usability-table {
 
 
 
+
 /* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP START */
 .animation-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .animation-php #transition-css {
     grid-area: transition-css;
+    margin-bottom: 30px;
 }
 
 .animation-php #animation-css {
     grid-area: animation-css;
+    margin-bottom: 30px;
 }
 
 .animation-php #keyframes-css {
     grid-area: keyframes-css;
+    margin-bottom: 30px;
+}
+
+.animation-php #eksempel-kode-animation {
+    margin-bottom: 20px;
+}
+    
+.animation-php #kode-til-boks {
+    margin-bottom: 20px;
+    grid-area: kode-til-boks;
+}
+    
+.animation-php #kode-til-tekst {
+    margin-bottom: 20px;
+    grid-area: kode-til-tekst; 
+}
+    
+.animation-php #eksempel-kode-animation {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "kode-til-tekst kode-til-boks";
+}
+
+.animation-php #animation-eksempel {
+    grid-area: animation-eksempel;
+    margin-bottom: 30px;
 }
 
 .animation-php .kilder {
@@ -11943,20 +13249,87 @@ usability-table {
 }
 
 .animation-php #mitgrid-animation {
-    margin: 7em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    grid-row-gap: 25px;
+    margin: 5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
         "transition-css"
         "animation-css"
         "keyframes-css"
+        "animation-eksempel"
         "kilder";
 }
 
+
+#uxmenu-animation {
+    text-align: center;
+    list-style: none;
+}
+
+#kodningforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#kommunikationforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#usabilityforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+#uxboks-animation {
+    background-color: crimson;
+    max-width: 500px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    animation: mymove 1s infinite;    
+}
+
+/* animation af ux/ui, ux og ui boksene */
+@keyframes mymove {
+  0%   { width: 0%;}
+  100% {  width: 100%;}
+}
+
+/* Hover effects til links på forside menu */
+#uxmenu-animation a:focus {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+#uxmenu-animation a {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat, #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size:0% 100%;
+    font-size: 40px;
+    transition: 0.75s;
+}
+    
+#uxmenu-animation a:hover {
+    background-size:100% 100%;
+}
 /* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP END */
+
 
 
 
@@ -12099,6 +13472,7 @@ usability-table {
 /* ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP ARTBOARDS.PHP START */
 .artboards-php h1 {
     text-align: center;
+    margin-top: 0.5em;
 }
 
 .artboards-php #artboard-intro {
@@ -12141,11 +13515,16 @@ usability-table {
     grid-area: workspace-slut;
 }
 
+.artboards-php #workspace-change-intro {
+    grid-area: workspace-change-intro;
+}
+
 .artboards-php #workspace-change {
     grid-area: workspace-change;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-areas: 
+    grid-template-areas:
+        "workspace-change-intro"
         "workspace-start"
         "workspace-slut";
 }
@@ -12166,10 +13545,10 @@ usability-table {
 
 .artboards-php #mitgrid-artboards {
     margin: 7em;
-    margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "artboard-tool"
@@ -12205,12 +13584,12 @@ usability-table {
     grid-area: blend-tool;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "blend-intro"
-        "blend-start"
-        "blend-options"
-        "blend-slut";
+        "blend-intro blend-intro"
+        "blend-options blend-options"
+        "blend-start blend-slut";
 }
 
 
@@ -12231,6 +13610,28 @@ usability-table {
         "blend-tool"
         "kilder";
 }
+    
+    #blend-start-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
+    
+#blend-options-img {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        margin-bottom: 10px;
+        max-width: 85%;
+    }
+    
+    #blend-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
 
 /* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
 
@@ -12284,6 +13685,25 @@ usability-table {
         "cap-america"
         "kilder";
 }
+    
+ #cap-options-img {
+        margin-bottom: 8px;
+    }
+    
+    #cap-start-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+    
+    #cap-slut-img {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 70%;
+    }
 
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
 
@@ -12353,21 +13773,45 @@ usability-table {
 .shapebuilder-php #shape-slut2 {
     grid-area: shape-slut2;
 }
+    
+    .shapebuilder-php #shape-start-liste {
+        grid-area: shape-start-liste;
+    }
 
 .shapebuilder-php #shape-tool {
     grid-area: shape-tool;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "shape-intro shape-intro"
         "shape-start shape-slut"
+        "shape-start-liste shape-start-liste"
         "shape-start2 shape-slut2";
 }
-
-.shapebuilder-php .kilder {
-    grid-area: kilder;
-}
+    
+    .shapebuilder-php #shape-start-liste ol {
+        
+        column-count: 2;
+        column-gap: 30px;
+    }
+    
+    .shapebuilder-php #shape-start2 h4,
+    .shapebuilder-php #shape-slut2 h4{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #shape-start-img {
+        margin-top: -85px;
+        margin-bottom: -85px;
+    }
+    
+    #shape-slut-img {
+        margin-top: -45px;
+        margin-bottom: -85px;
+    }
 
 .shapebuilder-php #mitgrid-shapebuilder {
     margin: 7em;
@@ -12410,6 +13854,7 @@ usability-table {
     grid-area: smokey;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smokey-intro smokey-intro"
@@ -12446,10 +13891,14 @@ usability-table {
 
 .smooth-php #smooth-start {
     grid-area: smooth-start;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-options {
     grid-area: smooth-options;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-secondlast {
@@ -12464,6 +13913,7 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smooth-intro smooth-intro"
@@ -12582,6 +14032,11 @@ usability-table {
 }
 
 
+    
+.contentaware-php #contentaware-releksion {
+    grid-area: contentaware-releksion;
+}
+
 
 .contentaware-php .kilder {
     grid-area: kilder;
@@ -12600,6 +14055,7 @@ usability-table {
         "content-aware-fill"
         "content-aware-move"
         "content-aware-patch"
+        "contentaware-releksion"
         "kilder";
 }
 
@@ -12631,6 +14087,15 @@ usability-table {
         "spothealing-intro"
         "spothealing-start";
 }
+    
+    .spothealing-php #spothealing-start img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 .spothealing-php .kilder {
     grid-area: kilder;
@@ -12639,7 +14104,7 @@ usability-table {
 .spothealing-php #mitgrid-spothealing {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -12675,11 +14140,34 @@ usability-table {
 .smartobject-php #smartobject-slut {
     grid-area: smartobject-slut;
 }
+    
+    .smartobject-php #smartobject-start img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+.smartobject-php #smartobject-slut img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    
+    .smartobject-php #smartobject-edit img {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
 
 .smartobject-php #smartobject {
     grid-area: smartobject;
     display: grid;
-    grid-row: 15px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smartobject-intro smartobject-intro"
@@ -12695,7 +14183,7 @@ usability-table {
 .smartobject-php #mitgrid-smartobject {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -12714,6 +14202,7 @@ usability-table {
 
 .outofframe-php #outofframe-intro {
     grid-area: outofframe-intro;
+    margin-right: 15vw;
 }
 
 .outofframe-php #outofframe-start {
@@ -12732,6 +14221,7 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "outofframe-intro outofframe-intro outofframe-intro"
@@ -12753,6 +14243,36 @@ usability-table {
         "outofframe"
         "kilder";
 }
+    
+#outofframe-start-img {
+        max-width: 90%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    margin-bottom: 15px;
+    }
+
+    #outofframe-options-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+     #outofframe-slut-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .outofframe-php {
+        background-image: url(design/tool-icons.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 70%;
+    }
+
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
@@ -12785,6 +14305,7 @@ usability-table {
 .farver-php #rgbvscmyk {
     grid-area: rgbvscmyk;
     display: grid;
+    grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "titel-rgbcmyk titel-rgbcmyk"
@@ -12836,6 +14357,7 @@ usability-table {
     grid-area: farve-harmonier;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "harmonier-intro harmonier-intro"
@@ -12881,6 +14403,7 @@ usability-table {
     grid-area: farve-psyk;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "intro-psyk intro-psyk"
@@ -12927,6 +14450,7 @@ usability-table {
     grid-area: opdage-farver;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "opdage-intro opdage-intro"
@@ -12956,6 +14480,54 @@ usability-table {
         "opdage-farver"
         "kilder";
 }
+    
+#mono-bus {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #green-mono {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #mono-tilbud {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #blad-analog {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #complementary-skilt {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #tretiader-playtoy {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+
+    
+/* billed størrelse */
+    
+
 
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
 
@@ -12964,6 +14536,7 @@ usability-table {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
+    
 }
 
 .typografi-php #typogrfi-intro {
@@ -12985,7 +14558,7 @@ usability-table {
 .typografi-php #typografi {
     grid-area: typografi;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "typografi-intro"
@@ -13005,7 +14578,7 @@ usability-table {
 .typografi-php #font-anatomi {
     grid-area: font-anatomi;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "anatomi-intro"
@@ -13032,7 +14605,7 @@ usability-table {
 .typografi-php #readability {
     grid-area: readability;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "read-friendly"
@@ -13049,9 +14622,9 @@ usability-table {
 .typografi-php #mitgrid-typografi {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 50px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "typografi"
@@ -13128,6 +14701,55 @@ usability-table {
         "gestaltlovene"
         "kilder";
 }
+    
+#figure-ground-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #similarity-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #proximity-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #common-region-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #continuity-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #closure-img {
+        max-width: 50%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #focal-point-img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
 
 
@@ -13157,6 +14779,7 @@ usability-table {
     grid-area: wireframing-section;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "wireframing-intro wireframing-intro"
@@ -13171,7 +14794,7 @@ usability-table {
 .wireframing-php #mitgrid-wireframing {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13179,6 +14802,30 @@ usability-table {
         "wireframing-section"
         "kilder";
 }
+    
+    .wireframing-php #lofi-india img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    .wireframing-php #hifi-india img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    .wireframing-php #lofi-india h2 {
+        text-align: center;
+    }
+
+    .wireframing-php #hifi-india h2 {
+        text-align: center;
+    }
 
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
 
@@ -13208,6 +14855,7 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "saturation-intro saturation-intro"
@@ -13222,7 +14870,7 @@ usability-table {
 .saturation-php #mitgrid-saturation {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -13249,20 +14897,38 @@ usability-table {
 
 .adobexd-php #adobexd-mobil {
     grid-area: adobexd-mobil;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .adobexd-php #adobexd-desktop {
     grid-area: adobexd-desktop;
+    margin-right: auto;
+    margin-left: auto;
 }
+    
+    .adobexd-php #adobexd p {
+        grid-area: tekst;
+    }
+    
+    .adobexd-php #adobexd-desktop {
+        max-width: 80%;
+    }
+    
+    .adobexd-php #adobexd-mobil {
+        max-width: 80%;
+    }
 
 .adobexd-php #adobexd {
     grid-area: adobexd;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-template-columns: 0.6fr 1.4fr;
     grid-template-areas: 
         "adobexd-intro adobexd-intro"
-        "adobexd-mobil adobexd-desktop";
+        "adobexd-mobil adobexd-desktop"
+        "tekst tekst";
 }
 
 .adobexd-php .kilder {
@@ -13359,6 +15025,7 @@ usability-table {
     grid-area: imk-modellen;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1.5fr 1fr;
     grid-template-areas: 
         "imk-intro imk-intro"
@@ -13382,6 +15049,7 @@ usability-table {
     grid-area: thorlacius-modellen;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1.5fr 1fr;
     grid-template-areas: 
         "thorlacius-intro thorlacius-intro"
@@ -13469,6 +15137,7 @@ usability-table {
     grid-area: sr-model;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "sr-intro sr-intro"
@@ -13493,6 +15162,7 @@ usability-table {
     grid-area: sor-model;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "sor-intro sor-intro"
@@ -13689,6 +15359,10 @@ usability-table {
 
 .latch-php #latch-types {
     grid-area: latch-types;
+}
+    
+    .latch-php .titel {
+    font-size: 52px;
 }
 
 .latch-php #latch-def {
@@ -14123,7 +15797,8 @@ usability-table {
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "klarhed syv-geniale";
+        "klarhed syv-geniale"
+        "webteksteksempel webteksteksempel";
 }
 
 
@@ -14147,6 +15822,7 @@ usability-table {
         "webtekst"
         "hey-you-see-so"
         "skive-princip"
+        "webteksteksempel"
         "refleksion-tekstproduktion"
         "kilder";
 }
@@ -14484,11 +16160,35 @@ usability-table {
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
     
+
     
     
     
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
     
     
+    
+
     
 
     
@@ -14635,7 +16335,7 @@ usability-table {
 
 .underoverskift {
     font-family: montserrat, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 32px;
     color: black;
@@ -14643,7 +16343,7 @@ usability-table {
 
 .sub-skrift {
     font-family: montserrat, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 24px;
     color: black;
@@ -14655,7 +16355,7 @@ usability-table {
     font-style: normal;
     font-size: 16px;
     color: black;
-    padding-top: 10px;
+    padding-top: 3px;
     padding-bottom: 10px;
 }
     
@@ -14664,15 +16364,7 @@ usability-table {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 1.2em;
-    
-}
-    
-.liste li {
-    padding-top: 15px;
+    color: black;   
 }
 
 .pdf-link {
@@ -14684,7 +16376,7 @@ usability-table {
 }
     
 .kildeliste {
-     margin-left: 1.2em;  
+     margin-left: 1em;  
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
@@ -14727,7 +16419,9 @@ usability-table {
     
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP START */
    .designthinking-php #mitgrid-designthinking {
-        margin: 7em;
+        margin: 10em;
+       margin-bottom: 2em;
+       margin-top: 3em;
     }
     
     
@@ -14740,6 +16434,11 @@ usability-table {
             "implement-ikon implement-def implment-praksis"
             "implement-ikon implement-undtagelse implment-praksis";
     }
+    
+    
+    .designthinking-php .refleksion-dt {
+        margin-top: -20vh;
+    }
 /* DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP DESIGNTHINKING.PHP END */ 
     
     
@@ -14747,10 +16446,12 @@ usability-table {
 
     
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP START */  .video-php #mitgrid-video {
-    margin: 2em;
+    margin: 7em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 25px;
-    grid-column-gap: 20px;
+    grid-column-gap: 30px;
     grid-template-columns: 3fr 3fr;
     grid-template-rows: 0fr 0.2fr 0.1fr 0.76fr 0.1fr 0.1fr;
     grid-template-areas: 
@@ -14765,11 +16466,6 @@ usability-table {
     .titel {
         text-align: center;
     }
-
-    .video-php iframe {
-        height: 720px;
-        max-width: 1280px;
-    }
     
 .video-php #videosection {
     max-width: 80%;
@@ -14781,8 +16477,8 @@ usability-table {
     .video-php #background-image {
         min-width: 100%;
         height: auto;
-        margin-right: -2em;
-        margin-left: -2em;
+        margin-right: -7em;
+        margin-left: -7em;
         overflow: hidden;
         background-image: url(video/background-video-ikoner-final.png);
         background-repeat: no-repeat;
@@ -14797,6 +16493,23 @@ usability-table {
 }
     
     
+    .video-php  #headphones {
+        height: 280px;
+    }
+    
+    .video-php #scooteredit {
+        height: 550px;
+        width: auto;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+    
+    .video-php .production {
+        margin-top: 110px;
+    }
+    
 /* VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP    VIDEOPRODUKTION.PHP END */        
 
     
@@ -14804,6 +16517,8 @@ usability-table {
 /* FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP FOTOGRAFERING.PHP START */    
 .foto-php #mitgrid-foto {
     margin: 7em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
     
 /* fonts */
@@ -14908,10 +16623,6 @@ usability-table {
     margin-right: auto;
     margin-left: auto;
 }
-
-.hvad-er-usability-php .testmetoder-table {
-        
-}
     
 .hvad-er-usability-php .kilder {
       margin-right: 50%;  
@@ -14969,8 +16680,6 @@ usability-table {
 }
 
 .gangster-pointsystem {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
@@ -15113,8 +16822,8 @@ usability-table {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: -8em;
-    margin-right: -8em;
+    margin-left: -7em;
+    margin-right: -7em;
     
 }
     
@@ -15179,6 +16888,13 @@ usability-table {
         background-position: center;
         margin-left: -7em;
         margin-right: -7em;
+    }
+    
+    .sporgeskema-php .sporgeskema-corona {
+        max-width: 65%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 /* SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP SPØRGERSKEMA.PHP END*/   
@@ -15422,6 +17138,37 @@ usability-table {
     margin-right: -7em;
     
     }
+    
+    .kortsortering-php .usability-table {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .kortsortering-php .testmetoder-table {
+        text-align: left;
+    }
+    
+    .kortsortering-php .testmetoder-table .pdf-link,
+    .kortsortering-php .testmetoder-table h2 {
+        text-align: center;
+    }
+    
+    .kortsortering-php .resultater-kort img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #rundte1-img {
+        margin-top: 30px;
+    }
+    
+    #rundte2-img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
 /* KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP KORTSORTERING.PHP END */ 
     
@@ -15632,6 +17379,11 @@ usability-table {
 .attributter-php .kilder {
     grid-area: kilder;
 }
+    
+    .attributter-php #kode-skikke {
+        grid-area: kode-skikke;
+        margin-bottom: 25px;
+    }
 
 .attributter-php #mitgrid-attributter {
     margin: 7em;
@@ -15641,11 +17393,11 @@ usability-table {
     grid-template-areas: 
         "titel"
         "anatomi-html"
+        "kode-skikke"
         "kilder";
 }
 
 /* ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP ATTRIBUTTER.PHP END */
-
 
 
 
@@ -16293,7 +18045,10 @@ usability-table {
             "shadowbox shadowtext";
 }
     
-
+    .border-shadow-php #shadowtext-table h3 {
+        grid-area: overksrift-anvendelse;
+    }
+    
     .border-shadow-php #shadowbox-kode {
         grid-area: shadowkode;
     }
@@ -16306,6 +18061,7 @@ usability-table {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
+            "overksrift-anvendelse overksrift-anvendelse"
             "shadowkode shadowscreen";
     }
     
@@ -16372,13 +18128,13 @@ usability-table {
     
 .background-property-php #whitman-start {
     grid-area: whitmanstart;
-    max-width: 99%;
+    max-width: 79%;
     margin-left: auto;
 }
     
 .background-property-php #whitman-slut {
     grid-area: whitmanslut;
-    max-width: 100%;
+    max-width: 80%;
     margin-right: auto;
 }
     
@@ -16395,20 +18151,20 @@ usability-table {
     
 .background-property-php #sonnet-kode {
         grid-area: sonnetkode;
-        max-width: 100%;
+        max-width: 80%;
         margin-right: auto;
         margin-left: auto;
 }
     
 .background-property-php #sonnet-start {
         grid-area: sonnetstart;
-        max-width: 89%;
+        max-width: 69%;
         margin-left: auto;
 }
     
 .background-property-php #sonnet-slut {
         grid-area: sonnetslut;
-        max-width: 100%;
+        max-width: 80%;
         margin-right: auto;
 }
     
@@ -16641,18 +18397,49 @@ usability-table {
 .animation-php h1 {
     text-align: center;
     grid-area: titel;
+    margin-bottom: 0.5em;
 }
 
 .animation-php #transition-css {
     grid-area: transition-css;
+    margin-bottom: 30px;
 }
 
 .animation-php #animation-css {
     grid-area: animation-css;
+    margin-bottom: 30px;
 }
 
 .animation-php #keyframes-css {
     grid-area: keyframes-css;
+    margin-bottom: 30px;
+}
+
+.animation-php #eksempel-kode-animation {
+    margin-bottom: 20px;
+}
+    
+.animation-php #kode-til-boks {
+    margin-bottom: 20px;
+    grid-area: kode-til-boks;
+}
+    
+.animation-php #kode-til-tekst {
+    margin-bottom: 20px;
+    grid-area: kode-til-tekst; 
+}
+    
+.animation-php #eksempel-kode-animation {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "kode-til-tekst kode-til-boks";
+}
+
+.animation-php #animation-eksempel {
+    grid-area: animation-eksempel;
+    margin-bottom: 30px;
 }
 
 .animation-php .kilder {
@@ -16660,19 +18447,85 @@ usability-table {
 }
 
 .animation-php #mitgrid-animation {
-    margin: 7em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    grid-row-gap: 25px;
+    margin: 7.5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "titel"
         "transition-css"
         "animation-css"
         "keyframes-css"
+        "animation-eksempel"
         "kilder";
 }
 
+
+#uxmenu-animation {
+    text-align: center;
+    list-style: none;
+}
+
+#kodningforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#kommunikationforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#usabilityforside-animation {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+#uxboks-animation {
+    background-color: crimson;
+    max-width: 500px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    animation: mymove 1s infinite;    
+}
+
+/* animation af ux/ui, ux og ui boksene */
+@keyframes mymove {
+  0%   { width: 0%;}
+  100% {  width: 100%;}
+}
+
+/* Hover effects til links på forside menu */
+#uxmenu-animation a:focus {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+#uxmenu-animation a {
+    background: linear-gradient(90deg, #0CD4F7, #0C4FF7) no-repeat, #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size:0% 100%;
+    font-size: 40px;
+    transition: 0.75s;
+}
+    
+#uxmenu-animation a:hover {
+    background-size:100% 100%;
+}
 /* ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP ANIMATION.PHP END */
 
 
@@ -16838,6 +18691,7 @@ usability-table {
     grid-area: artboard-tool;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "artboard-intro artboard-intro"
@@ -16856,12 +18710,18 @@ usability-table {
 .artboards-php #workspace-slut {
     grid-area: workspace-slut;
 }
+    
+    .artboards-php #workspace-change-intro {
+        grid-area: workspace-change-intro;
+    }
 
 .artboards-php #workspace-change {
     grid-area: workspace-change;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-areas: 
+        "workspace-change-intro workspace-change-intro"
         "workspace-start workspace-slut";
 }
 
@@ -16920,6 +18780,7 @@ usability-table {
     grid-area: blend-tool;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "blend-intro blend-intro"
@@ -16945,6 +18806,14 @@ usability-table {
         "blend-tool"
         "kilder";
 }
+    
+    #blend-options-img {
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        margin-bottom: 10px;
+    }
 
 /* BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP BLENDTOOL.PHP END */
 
@@ -16975,6 +18844,7 @@ usability-table {
     grid-area: cap-america;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "cap-intro cap-intro"
@@ -16997,6 +18867,22 @@ usability-table {
         "cap-america"
         "kilder";
 }
+    
+    #cap-options-img {
+        margin-bottom: 8px;
+    }
+    
+    #cap-start-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }
+    
+    #cap-slut-img {
+        display: flex;
+    }
 
 /* CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP CAPTAINAMERICA.PHP END */
 
@@ -17067,16 +18953,45 @@ usability-table {
     grid-area: shape-slut2;
 }
 
+    
+    .shapebuilder-php #shape-start-liste {
+        grid-area: shape-start-liste;
+    }
+
 .shapebuilder-php #shape-tool {
     grid-area: shape-tool;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "shape-intro shape-intro"
         "shape-start shape-slut"
+        "shape-start-liste shape-start-liste"
         "shape-start2 shape-slut2";
 }
+    
+    .shapebuilder-php #shape-start-liste ol {
+        
+        column-count: 2;
+        column-gap: 30px;
+    }
+    
+    .shapebuilder-php #shape-start2 h4,
+    .shapebuilder-php #shape-slut2 h4{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #shape-start-img {
+        margin-top: -105px;
+        margin-bottom: -105px;
+    }
+    
+    #shape-slut-img {
+        margin-top: -85px;
+        margin-bottom: -105px;
+    }
 
 .shapebuilder-php .kilder {
     grid-area: kilder;
@@ -17085,7 +19000,7 @@ usability-table {
 .shapebuilder-php #mitgrid-shapebuilder {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -17118,10 +19033,12 @@ usability-table {
 .smokey-php #smokey-slut {
     grid-area: smokey-slut;
 }
+    
 
 .smokey-php #smokey {
     grid-area: smokey;
     display: grid;
+    grid-column-gap: 25px;
     grid-row-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
@@ -17134,9 +19051,9 @@ usability-table {
 }
 
 .smokey-php #mitgrid-smokeythebear {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-areas: 
@@ -17158,10 +19075,14 @@ usability-table {
 
 .smooth-php #smooth-start {
     grid-area: smooth-start;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-options {
     grid-area: smooth-options;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
 
 .smooth-php #smooth-secondlast {
@@ -17176,6 +19097,7 @@ usability-table {
     grid-area: smooth;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "smooth-intro smooth-intro"
@@ -17183,20 +19105,15 @@ usability-table {
         "smooth-secondlast smooth-slut";
 }
 
-.smooth-php .kilder {
-    grid-area: kilder;
-}
-
 .smooth-php #mitgrid-smooth {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
-        "smooth"
-        "kilder";
+        "smooth";
 }
 /* SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHP SMOOTH.PHPSMOOTH.PHP SMOOTH.PHP SMOOTH.PHP END */
 
@@ -17227,6 +19144,7 @@ usability-table {
     grid-area: content-aware-fill;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-fill-intro content-aware-fill-intro"
@@ -17256,6 +19174,7 @@ usability-table {
     grid-area: content-aware-move;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-move-intro content-aware-move-intro"
@@ -17286,6 +19205,7 @@ usability-table {
     grid-area: content-aware-patch;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "content-aware-patch-intro content-aware-patch-intro"
@@ -17299,12 +19219,14 @@ usability-table {
     grid-area: kilder;
 }
 
-
+.contentaware-php #contentaware-releksion {
+    grid-area: contentaware-releksion;
+}
 
 .contentaware-php #mitgrid-content-aware {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -17312,9 +19234,33 @@ usability-table {
         "content-aware-fill"
         "content-aware-move"
         "content-aware-patch"
+        "contentaware-releksion"
         "kilder";
 }
+    
+    #aware-fill-options-img {
+        display: flex;
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
 
+    #aware-move-options-img {
+        display: flex;
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #aware-patch-options-img {
+        display: flex;
+        max-width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
 
 
 /* CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP CONTENTARWAREFILL.PHP END */
@@ -17349,9 +19295,9 @@ usability-table {
 }
 
 .spothealing-php #mitgrid-spothealing {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -17387,11 +19333,33 @@ usability-table {
 .smartobject-php #smartobject-slut {
     grid-area: smartobject-slut;
 }
+    
+    .smartobject-php #smartobject-start img {
+        max-width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    .smartobject-php #smartobject-slut img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    .smartobject-php #smartobject-edit img {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
 
 .smartobject-php #smartobject {
     grid-area: smartobject;
     display: grid;
-    grid-row: 15px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "smartobject-intro smartobject-intro smartobject-intro"
@@ -17404,9 +19372,9 @@ usability-table {
 }
 
 .smartobject-php #mitgrid-smartobject {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -17443,7 +19411,8 @@ usability-table {
     grid-area: outofframe;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr 1.2fr;
     grid-template-areas: 
         "outofframe-intro outofframe-intro outofframe-intro"
         "outofframe-start outofframe-options outofframe-slut";
@@ -17456,7 +19425,7 @@ usability-table {
 .outofframe-php #mitgrid-outofframe {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -17464,6 +19433,29 @@ usability-table {
         "outofframe"
         "kilder";
 }
+    
+    
+    #outofframe-start-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #outofframe-options-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .outofframe-php {
+        background-image: url(design/tool-icons.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 80%;
+    }
+
 
 /* OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP OUTOFFRAME.PHP END  */
 
@@ -17496,6 +19488,7 @@ usability-table {
 .farver-php #rgbvscmyk {
     grid-area: rgbvscmyk;
     display: grid;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "titel-rgbcmyk titel-rgbcmyk"
@@ -17546,7 +19539,8 @@ usability-table {
 .farver-php #farve-harmonier {
     grid-area: farve-harmonier;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "harmonier-intro harmonier-intro"
@@ -17591,7 +19585,8 @@ usability-table {
 .farver-php #farve-psyk {
     grid-area: farve-psyk;
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
+    grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "intro-psyk intro-psyk"
@@ -17667,6 +19662,48 @@ usability-table {
         "opdage-farver"
         "kilder";
 }
+    
+    #mono-bus {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #green-mono {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #mono-tilbud {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #blad-analog {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #complementary-skilt {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    
+    #tretiader-playtoy {
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
 
 /* FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP FARVER.PHP END */ 
 
@@ -17675,6 +19712,7 @@ usability-table {
 /* TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP TYPOGRAFI.PHP START */
 .typografi-php h1 {
     text-align: center;
+    
 }
 
 .typografi-php #typogrfi-intro {
@@ -17758,9 +19796,9 @@ usability-table {
 }
 
 .typografi-php #mitgrid-typografi {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -17839,6 +19877,63 @@ usability-table {
         "gestaltlovene"
         "kilder";
 }
+    
+    
+    #figure-ground-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #similarity-img {
+        max-width: 30%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #proximity-img {
+        max-width: 30%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #common-region-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #continuity-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #closure-img {
+        max-width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    #focal-point-img {
+        max-width: 80%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
 /* GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP GESTALTLOVENE.PHP END */
 
 
@@ -17868,6 +19963,7 @@ usability-table {
     grid-area: wireframing-section;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "wireframing-intro wireframing-intro"
@@ -17879,10 +19975,11 @@ usability-table {
     grid-area: kilder;
 }
 
+
 .wireframing-php #mitgrid-wireframing {
-    margin: 7em;
+    margin: 10em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -17890,6 +19987,30 @@ usability-table {
         "wireframing-section"
         "kilder";
 }
+    
+    .wireframing-php #lofi-india img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    .wireframing-php #hifi-india img {
+        max-width: 60%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+    
+    .wireframing-php #lofi-india h2 {
+        text-align: center;
+    }
+
+    .wireframing-php #hifi-india h2 {
+        text-align: center;
+    }
 
 /* WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP WIREFRAMING.PHP END */
 
@@ -17919,6 +20040,7 @@ usability-table {
     grid-area: saturation-climate;
     display: grid;
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "saturation-intro saturation-intro saturation-intro"
@@ -17932,7 +20054,7 @@ usability-table {
 .saturation-php #mitgrid-saturation {
     margin: 7em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: 1fr;
@@ -17940,7 +20062,7 @@ usability-table {
         "saturation-climate"
         "kilder";
 }
-
+    
 /* SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP  SATURATION.PHP END */
 
 
@@ -17959,20 +20081,38 @@ usability-table {
 
 .adobexd-php #adobexd-mobil {
     grid-area: adobexd-mobil;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .adobexd-php #adobexd-desktop {
     grid-area: adobexd-desktop;
+    margin-right: auto;
+    margin-left: auto;
 }
+    
+    .adobexd-php #adobexd p {
+        grid-area: tekst;
+    }
+    
+    .adobexd-php #adobexd-desktop {
+        max-width: 80%;
+    }
+    
+    .adobexd-php #adobexd-mobil {
+        max-width: 80%;
+    }
 
 .adobexd-php #adobexd {
     grid-area: adobexd;
     display: grid;
     grid-row-gap: 15px;
-    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-template-columns: 0.6fr 1.4fr;
     grid-template-areas: 
         "adobexd-intro adobexd-intro"
-        "adobexd-mobil adobexd-desktop";
+        "adobexd-mobil adobexd-desktop"
+        "tekst tekst";
 }
 
 .adobexd-php .kilder {
@@ -17994,8 +20134,17 @@ usability-table {
 /* DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER DESIGNSIDER END */
     
 
-/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER END */
- 
+/* KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER KOMMUNIKATIONSSIDER start */
+ .powerpoint-php   #mitgrid-powerpoint {
+        margin: 10em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }    
+
+    #powerpoint-eksempel-img {
+        margin-top: -3.5em;
+        margin-bottom: -1.5em;
+    }
     
     
     
@@ -18155,6 +20304,40 @@ usability-table {
 /* OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN OMSIDEN SLUT */
     
     
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+.kilder-php .navbar,
+.kilder-php footer {
+    background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
+}
+
+.kilder-php h1 {
+    text-align: center;
+}
+
+.kilder-php #mitgrid-kilder {
+    margin: 12em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.kilder-php section {
+    margin-top: 25px;
+}
+/* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */ 
+    
+
+    
+
+    
+    
+    
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+
+
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
     
     
     

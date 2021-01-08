@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -53,10 +55,10 @@
                     <section id="metaogbase" class="mt">
                         <h3 class="underoverskrift">Hvad er head?</h3>
                         <p class="body-text">
-                            Meta tagget definere alt metadata om HTML-dokumentet (Nyrup &#38; Andreasen, 2020). 
+                            Meta tagget definere alt metadata vedrørende HTML-dokumentet (Nyrup &#38; Andreasen, 2020). 
                         </p>
                         <p class="body-text">
-                            Meta tags går altid inde i head-elementet og bruges typisk til at specificere karaktersæt, sidebeskrivelse, nøgleord, dokumentforfatter og visningsindstillinger (ibid). Det er supervigtigt at inkludere alt for god SEO-rangering (ibid).
+                            Meta tags går altid ind i head-elementet og bruges typisk til at specificere karaktersæt, sidebeskrivelse, nøgleord, dokumentforfatter og visningsindstillinger (ibid). Det er supervigtigt at inkludere alt for god SEO-rangering (ibid).
                         </p>
                         
                         <div class="background-icons-kodning">
@@ -78,7 +80,7 @@
                         <h2 class="overskrift">Hvad er semantiske tags</h2>
                         
                         <p class="body-text">
-                            Semantiske tags er karakteriseret som tags der fortæller noget om indholdet (Nyrup &#38; Andreasen, 2020). De er blevet mere og mere vigtigt gennem tiden, hvor man tidligere bare brugte ikke semantiske tags til at bygge sine sider (ibid). Det er på grund af den stor vækst i vigtigheden af SEO (ibid). Eksempler på semantiske tags er:
+                            Semantiske tags er karakteriseret som tags der fortæller noget om indholdet (Nyrup &#38; Andreasen, 2020). De er blevet mere og mere vigtige gennem tiden, hvor man tidligere bare brugte ikke semantiske tags til at bygge sine sider (ibid). Det er på grund af den stor vækst i vigtigheden af SEO (ibid). Eksempler på semantiske tags er:
                         </p>
                     </section>
                     
@@ -151,7 +153,7 @@
                 </section> <!-- Flere semantiske tags -->
                 
                 
-                <img src="kodning/kodeskikke/godskikke.jpg" id="semantisk-html-struktur" class="background-icons-kodning"> 
+                <img src="kodning/kodeskikke/godskik.png" id="semantisk-html-struktur" class="background-icons-kodning"> 
                 
                 
                 
@@ -163,7 +165,7 @@
                     </p>
                     
                     <h4 class="sub-skrift">
-                        &#60;div&#62; står for list item og fortæller at indholdet er et element i en given liste (ibid). 
+                        &#60;div&#62; 
                     </h4>
                     
                     <p class="body-text">
@@ -171,7 +173,7 @@
                     </p>
                     
                     <h4 class="sub-skrift">
-                        &#60;span&#62; står for list item og fortæller at indholdet er et element i en given liste (ibid). 
+                        &#60;span&#62; 
                     </h4>
                     
                     <p class="body-text">
@@ -219,7 +221,7 @@
                         </li>
                         <li>
                             Østergaard, N., 10. september 2020. HTML. [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                            Available at: <a href="kodning/pdf/Intro%20til%20HTML.pdf" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 2 december 2020].
                         </li>
                     </ul>

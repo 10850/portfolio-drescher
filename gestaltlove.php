@@ -100,15 +100,49 @@
                         <p class="body-text">
                             Focal point er loven som siger, at det som visuelt stikker sig ud og er, unikt vil gribe seerens opmærksomhed først (Usertesting, 2019).
                         </p>
+                        <img src="design/gestaltlovene/focal-point.jpg" id="focal-point-img" alt="screenshot af forsiden af portfoliet">
+                        <p class="body-text">
+                            I mit portfolio har jeg brugt focal point på min forside menu med hjernen i midten. Det er ved at jeg har lavet en sort baggrund med hvid tekst, som er mere minimalistisk og ikke springer ud i øjene på en (Phillips, 2014). Men så har jeg lavet hjernen med masser af lyse farver som skaber stor kontrast og lyse/stærke farver som springer ud i øjnene på en (Phillips, 2014).
+                        </p>
+                        
+                        <p class="body-text">
+                            Det som ikke kan ses på billedet, men kan ses hvis man går ind på forsiden, som også skaber kontrast og kalder for opmærksomhed er, at de røde bokse bevæger sig når man går på siden, som fanger ens opmærksomhed (Phillips, 2014).
+                        </p>
+                        
+                        <p class="body-text">
+                            Alt det jeg har forklaret, som brug af focal point er de 4 ting som altid fanger menneskers opmærksomhed (Phillips, 2014):
+                        </p>
+                        <ul class="liste">
+                            <li>
+                                Kontrast (Phillips, 2014).
+                            </li>
+                            <li>
+                                Størrelse (ibid).
+                            </li>
+                            <li>
+                                Bevægelse (ibid).
+                            </li>
+                            <li>
+                                Lyse farver på en mørk baggrund (ibid).
+                            </li>
+                        </ul>
                     </section>
                 </section>
                 
                 <section class="kilder">
+                    <h2 class="overskrift">
+                        Kilder
+                    </h2>
                     <ul class="kildeliste">
                         <li>
                             Usertesting, 2019. Usertesting. 
                             [Online] Available at: <a href="https://www.usertesting.com/blog/gestalt-principles" target="_blank">https://www.usertesting.com/blog/gestalt-principles</a>
                             [Senest hentet eller vist den 20 december 2020].
+                        </li>
+                        <li>
+                            Phillips, J. D., 2014. How to avoid death By PowerPoint | David JP Phillips | TEDxStockholmSalon. [Online] 
+                            Available at: <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks" target="_blank">https://www.youtube.com/watch?v=Iwpi1Lm6dFo&#38;ab_channel=TEDxTalks</a>
+                            [Senest hentet eller vist den 5 december 2020].
                         </li>
                     </ul>
                 </section>

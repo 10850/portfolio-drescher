@@ -57,36 +57,35 @@
                         <img src="design/photoshop/saturation/summercircle.png" alt="screenshot af photoshop" id="saturation-options-img">
                         <ol class="liste">
                             <li>
-                                Derefter selecter jeg laget og bruger color range til at vælge alt det grønne, som jeg gerne vil gøre hvidt. Her bruger jeg en fuziness på 22.
+                                Derefter selecter jeg laget og bruger color range til at vælge alt det grønne, som jeg gerne vil gøre hvidt (PiXimperfect, 2020). Her bruger jeg en fuziness på 22.
                             </li>
                             <li>
-                                Jeg giver min selection fra color range en solid color af hvid, og går under blending options til at ændre på "Blend if" for mit "underlying layer", så den hvide farve ikke dækker for meget på de mørke områder.
+                                Jeg giver min selection fra color range en solid color af hvid, og går under blending options til at ændre på "Blend if" for mit "underlying layer", så den hvide farve ikke dækker for meget på de mørke områder (ibid).
                             </li>
                             <li>
-                                Nu laver jeg et Hue/Saturation adjustment layer til at gøre resten af billedet mere hvidt og vinter agtigt. Det gør jeg ved at mindske saturationen og forstørre lightness.
+                                Nu laver jeg et Hue/Saturation adjustment layer til at gøre resten af billedet mere hvidt og vinter agtigt (ibid). Det gør jeg ved at mindske saturationen og forstørre lightness (ibid).
                             </li>
                             <li>
-                                Igen bruger jeg så blending options og ændre på "Blen if" for mit "underlying layer" så de mørke område ikke blive for hvide og lyse.
+                                Igen bruger jeg så blending options og ændre på "Blen if" for mit "underlying layer" så de mørke område ikke blive for hvide og lyse (ibid).
                             </li>
                         </ol>
                     </section>
                     
                     <section id="saturation-slut">
                         <img src="design/photoshop/saturation/winter.png" alt="screenshot af photoshop" id="saturation-slut-img">
-                        <p class="body-text">Og nu er det sommer landskabet blevet til et vinter landskab.</p>
+                        <p class="body-text">Nu er sommer landskabet blevet til et vinter landskab.</p>
                     </section>
                 </section>
                 
                 <section class="kilder">
+                    <h2 class="overskrift">
+                        Kilder
+                    </h2>
                     <ul class="kildeliste">
                         <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
+                            PiXimperfect, 2020. Make It Snow in Summer with Photoshop!. [Online] 
+                            Available at: <a href="https://www.youtube.com/watch?v=lZm_l31p_cI&#38;t=518s&#38;ab_channel=PiXimperfect" target="_blank">https://www.youtube.com/watch?v=lZm_l31p_cI&#38;t=518s&#38;ab_channel=PiXimperfect</a> 
+                            [Senest hentet eller vist den 13 december 2020].
                         </li>
                     </ul>
                 </section>

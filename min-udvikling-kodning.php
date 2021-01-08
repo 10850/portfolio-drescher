@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -35,7 +37,7 @@
                     </p>
                 </section>
                 
-                <div class="background-refleksion-kodning"></div>
+                
                 
                 <section>
                     <h3 class="underoverskrift">Overraskende sjovt</h3>
@@ -44,7 +46,7 @@
                     </p>
                 </section>
                 
-                <div class="background-refleksion-kodning"></div>
+                
                 
                 <section>
                     <h3 class="underoverskrift">Fra nybegynder til bedre</h3>
@@ -53,7 +55,7 @@
                     </p>
                 </section>
                 
-                <div class="background-refleksion-kodning"></div>
+                
                 
                 <section>
                     <h3 class="underoverskrift">Studiemiljøets indflydelse</h3>
@@ -62,7 +64,7 @@
                     </p>
                 </section>
                 
-                <div class="background-refleksion-kodning"></div>
+                
                 
                 <section>
                     <h3 class="underoverskrift">K3 arbejde</h3>
@@ -71,7 +73,7 @@
                     </p>
                 </section>
                 
-                <div class="background-refleksion-kodning"></div>
+                
                 
                 <section>
                     <h3 class="underoverskrift">Bootstrap kom ind i spillet</h3>
@@ -80,7 +82,7 @@
                     </p>
                 </section>
                 
-                <div class="background-refleksion-kodning"></div>
+                
                 
                 <section>
                     <h3 class="underoverskrift">Endelige tanker</h3>

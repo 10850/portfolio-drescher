@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -179,6 +181,29 @@
                             </tr>
                         </table>
                     </section>
+                </section>
+                
+                <section id="animation-eksempel">
+                    
+                    <h2 class="overskrift">
+                        Brug af animation og transistion
+                    </h2>
+                    
+                    <p class="body-text">
+                        Dette er koden jeg brugte til at lave min forside menu med en @keyframe transition på boksen hvor der står UX. Samt en transistion til hover og focus effekten på linksene.
+                    </p>
+                    
+                    <section id="eksempel-kode-animation">
+                        <img src="kodning/css/animation/animation-eksempel-kode-boks.jpg" id="kode-til-boks">
+                        
+                        <img src="kodning/css/animation/animation-eksempel-kode-tekst.jpg" id="kode-til-tekst">
+                    </section>
+                    <ul id="uxmenu-animation">
+                        <li><div id="uxboks-animation"><h3>UX</h3></div> <!-- Boksen som siger UX så jeg kan lave en rød boks --></li>
+                        <li><a id="kodningforside-animation" href="#">HOVER ME</a></li>
+                        <li><a id="kommunikationforside-animation" href="#">HOVER ME</a></li>
+                        <li><a id="usabilityforside-animation" href="#">HOVER ME</a></li>
+                    </ul> <!-- Links som skal stå under UX og på venstre side af billedet -->
                 </section>
                 
                 <section class="kilder">

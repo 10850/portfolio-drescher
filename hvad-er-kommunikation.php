@@ -72,7 +72,7 @@
                 
                 <ol class="liste">
                     <li>
-                        <h3 class="underoverskrift" >Man kan ikke ikke-kommunikere</h3>
+                        <h3 class="underoverskrift" > Man kan ikke ikke-kommunikere</h3>
                         <p class="body-text">
                             Denne grundantagelse siger at al adfærd er kommunikation, hvad du siger, hvad du gøre, hvad du ikke siger, hvad du ikke gøre osv. (Andersen &#38; Jørnø, 2013). Når du er sammen med andre mennesker, vil du altid have en adfærd, som de andre kan opfatte (ibid). For eksempel vil fremmede mennesker, der venter på bussen ved et stoppested, registrere og tolke hinanden, selvom de ikke taler sammen (ibid). Kommunikation foregår konstant (ibid).
                         </p>
@@ -119,7 +119,7 @@
                         <h4 class="sub-skrift">
                             Symmetrisk kommunikation: 
                         </h4>
-                        <ul class="liste">
+                        <ul class="liste" id="syme">
                             <li>
                                 Det kan være formelt, hvor man taler med en kollega med samme stillingsniveau (ibid).
                             </li>
@@ -131,7 +131,7 @@
                         <h4 class="sub-skrift">
                             Asymmetrisk kommunikation: 
                         </h4>
-                        <ul class="liste">
+                        <ul class="liste" id="liste-asym">
                             <li>
                                 Det kan være man taler med sin chef på jobbet så har chefen mere magt og måden du vil kommunikere og han vil kommunikere vil være forskellig (ibid).
                             </li>
@@ -162,7 +162,7 @@
                     </li>
                     <li>
                         Schmith Wøldike Kluw, M., 2020. Grundlæggende kommunikation. [Online] 
-                        Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                        Available at: <a href="kommunikation/Hvad-er-kommunikation/Kommunikation-MMD-1-semester.pdf" target="_blank">https://eadania.mrooms.net/</a> 
                         [Senest hentet eller vist den 13 december 2020].
                     </li>
                 </ul>

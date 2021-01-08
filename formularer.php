@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -31,7 +33,7 @@
                 <section id="form-intro">
                     <h2 class="overskrift">HTML form tag</h2>
                     <p class="body-text">
-                        HTML formularer bruges til at indsamle forskellige brugerinformationer, som oftest sendes til en server, hvor de bearbejdes (Knudsen &#38; Sørensen, 2020). Tagget 	&#60;form&#62;&#60;/form&#62; bruges til at oprette en HTML formularer og fungere som en beholder til alle elementtyperne der er til rådighed (ibid).
+                        HTML formularer bruges til at indsamle data, som oftest sendes til en server, hvor det bearbejdes (Knudsen &#38; Sørensen, 2020). Tagget &#60;form&#62;&#60;/form&#62; bruges til at oprette en HTML formularer og er beholderen til alle elementtyperne for forskellige typer af formularer (ibid).
                     </p>
                 </section> <!-- form tag intro -->
                 
@@ -164,7 +166,7 @@
                             [Senest hentet eller vist den 7 december 2020].
                         </li>
                         <li>
-                            Rijna, Drescher:<a href="http://10850.apache.eadania.dk/scootershopv2/index.php" target="_blank">Gisito Scooters</a>; Fra 23. Oktober 2020
+                            Rijna, Drescher: <a href="http://10850.apache.eadania.dk/scootershopv2/index.php" target="_blank">Gisito Scooters</a>; Fra 23. Oktober 2020
                         </li>
                     </ul>
                 </section>

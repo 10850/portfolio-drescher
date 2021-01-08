@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -40,19 +42,19 @@
                         <h2 class="overskrift">Hvorfor Grid</h2>
                         <ul class="liste">
                             <li>
-                                Der har aldrig været en god måde at placere elementer i CSS, som samtidigt virker responsivt (Østergaard, 2020).
+                                CSS Grid er det første system som effektivt kan placere elementer i CSS, som samtidigt forbliver responsivt (Østergaard, 2020).
                             </li>
                             <li>
-                                HTML- og andre CSS-funktioner var brugt til mere end de var lavet til (ibid). En form for hacking (ibid).
+                                HTML- og andre CSS-funktioner var brugt til mere end de var lavet til (ibid).
                             </li>
                             <li>
-                                Det er for vanskeligt at bruge funktionerne til mere end de er tænkt til (ibid).
+                                Det er en vanskelig proces at bruge HTML og CSS til mere end de er egnet til (ibid).
                             </li>
                             <li>
-                                Float og clear som er den gamle måde at gøre det på er forældet og ses som at være ”trial and error” (ibid).
+                                Float og clear som er den gamle måde at gøre det på er forældet og ses som at værende ”trial and error” (ibid).
                             </li>
                             <li>
-                                CSS flexbox er kun til 1-dimension, altså en retning (ibid).
+                                CSS Flexbox er godt og responsivt. Men er kun 1-dimensionel (ibid).
                             </li>
                             <li>
                                 Man kan lave mere end et grid på samme side og man kan lave grids inde i en grid (embeddet grids) (Østergaard, 2020).
@@ -78,23 +80,60 @@
                     <section id="metode-et-grid">
                         <section id="metode-et-intro">
                             <h3 class="underoverskrift">Grid-template</h3>
+                            <p class="body-text" >
+                             Dette eksempel kommer fra en øvelse jeg lavet på studiet med <a href="http://10850.web.eadania.dk/grid-template-area/ovelse4.html" target="_blank" >Grid Template Areas, Øvelse 4</a>
+                            </p>
                         </section>
                         
                         <section id="grid-areas">
                             <p class="body-text">
-                                Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
+                                1. Man vælger sine elementer i CSS som man ville placere i sit grid ved at give dem et grid-area (Østergaard, 2020):
                             </p>
                             <div class="background-icons-kodning">
+                                <a href="http://10850.web.eadania.dk/grid-template-area/ovelse4.html" target="_blank" class="pdf-link">Grid Template Area Øvelse 4</a>
                                 <img src="kodning/css/grid/gridareas.png" id="gridareas-img">
+                                
                             </div>
+                            
+                            <p class="body-text">
+                                Dette siger at:
+                            </p>
+                            
+                            <ul class="liste">
+                                <li>
+                                    felt1 hedder a
+                                </li>
+                                <li>
+                                    felt4 hedder b
+                                </li>
+                                <li>
+                                    felt3 hedder c
+                                </li>
+                                <li>
+                                    felt5 hedder d
+                                </li>
+                                <li>
+                                    felt2 hedder e
+                                </li>
+                                <li>
+                                    felt6 hedder f
+                                </li>
+                                <li>
+                                    felt5 hedder g
+                                </li>
+                                <li>
+                                    felt8 hedder h
+                                </li>
+                            </ul>
                         </section>
                         
                         
                         <section id="grid-template">
                             <p class="body-text">
-                                Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
+                                2. Så tager man det stor forældre element eller container som indeholder alle dine grid-areas (ibid). Hvor man laver en grid-template (ibid):
                             </p>
                             <div class="background-icons-kodning">
+                                <a href="http://10850.web.eadania.dk/grid-template-area/ovelse4.html" target="_blank" class="pdf-link">Grid Template Area Øvelse 4</a>
                                 <img src="kodning/css/grid/gridtemplate.png" id="gridtemplate-areas">
                             </div>
                             <p class="body-text">
@@ -130,6 +169,7 @@
                         </section>
                         
                         <img src="kodning/css/grid/css-grid-screen.jpg" id="grid-screen-img">
+                        <a href="http://10850.web.eadania.dk/grid-template-area/ovelse4.html" target="_blank" class="pdf-link">Grid Template Area Øvelse 4</a>
                     </section>
                     
                     <section id="metode-to-grid">
@@ -191,12 +231,12 @@
                     <ul class="kildeliste">
                         <li>
                             Østergaard, N., 15. september 2020. LAYOUTSTRATEGIER FOR WEBDESIGN. [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                            Available at: <a href="kodning/css/grid/responsive_i_praksis.pdf" target="_blank">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                         <li>
                             Østergaard, N., 15. september 2020. Webudvikling vil ikke være det samme efter.... [Online] 
-                            Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a> 
+                            Available at: <a href="kodning/css/grid/Grids2.pdf">https://eadania.mrooms.net/</a> 
                             [Senest hentet eller vist den 9 december 2020].
                         </li>
                     </ul>

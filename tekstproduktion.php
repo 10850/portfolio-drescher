@@ -28,7 +28,7 @@
             
             <section id="nyhedsartikel">
                 <section id="nyhedskritier">
-                    <h2 class="overksrift">
+                    <h2 class="overskrift">
                         Nyhedskriterier 
                     </h2>
                     <p class="body-text">
@@ -55,7 +55,7 @@
                 </section>
                 
                 <section id="nyhedstrekant">
-                    <h2 class="overksrift">
+                    <h2 class="overskrift">
                         Nyhedstrekanten 
                     </h2>
                     <p class="body-text">
@@ -102,7 +102,7 @@
                 </section>
                 
                 <section id="proces-scanning">
-                    <h2 class="overksrift">
+                    <h2 class="overskrift">
                         Process til forståelse
                     </h2>
                     <p class="body-text">
@@ -142,7 +142,7 @@
             
             <section id="webtekst">
                 <section id="webtekst-intro">
-                    <h2 class="overksrift">
+                    <h2 class="overskrift">
                         Webtekster
                     </h2>
                     <p class="body-text">
@@ -151,7 +151,7 @@
                 </section>
                 
                 <section id="karateristika-bruger">
-                    <h2 class="overksrift">
+                    <h2 class="overskrift">
                         11 ting som karakteriserer brugeren
                     </h2>
                     
@@ -198,13 +198,14 @@
             </section>
             
             <section id="hey-you-see-so">
-                <h2 class="overksrift">
-                    Hey you see so
-                </h2>
-                
-                <p class="body-text">
-                    Hey you see so er en strategisk måde at for en kunde til at gøre det du vil have dem til CTA (Busch &#38; Engelby, 2015).
-                </p>
+                <section id="hey-you-see-so-intro">
+                    <h2 class="overskrift">
+                        Hey you see so
+                    </h2>
+
+                    <p class="body-text">
+                        Hey you see so er en strategisk måde at for en kunde til at gøre det du vil have dem til CTA (Busch &#38; Engelby, 2015).
+                    </p>
                 
                     <h4 class="sub-skrift">
                         Hey
@@ -235,11 +236,22 @@
                     <p class="body-text">
                         Perspektiv og konklusion. Det fører (dig?), til at… (ibid).
                     </p>
+                </section>
+                
+                <section id="heyyouseeso-onepage">
+                    <h3 class="underoverskrift">
+                        Hey you see so på one page
+                    </h3>
+                    <p class="body-text">
+                        På mig, Lissi og Nuunus One page brugte vi Hey You See So til at få kunden til at kunne identificere sig selv med produktets værditilbud. <a href="http://10850.web.eadania.dk/softbites2/index.html" target="_blank" class="pdf-link">Vores One page kan besøges her</a>
+                    </p>
+                    <img src="kommunikation/Tekstproduktion/heyyouseeso-oneopage.jpg" id="onepage-heyyou">
+                </section>
             </section>
             
             <section id="skive-princip">
                 <section id="klarhed">
-                    <h2 class="overksrift">
+                    <h2 class="overskrift">
                         Klarhed - gode råd til et godt stykke webtekst 
                     </h2>
                     
@@ -260,7 +272,7 @@
                 </section>
                 
                 <section id="syv-geniale">
-                    <h2 class="overksrift">
+                    <h2 class="overskrift">
                         7 geniale genveje 
                     </h2>
                     <ol class="liste">
@@ -287,11 +299,66 @@
                         </li>
                     </ol>
                 </section>
+                
+                <section id="webteksteksempel">
+                    <h3 class="underoverskrift">
+                        Anvendelse af skriveprinciperne 
+                    </h3>
+                    <p class="body-text">
+                        Jeg har lavet en opgave på campus, hvor jeg omskriver en webtekst/nyhedsartikel. I min opgave bruger jeg de 7 geniale genveje <a href="kommunikation/Tekstproduktion/2%20tekster.pdf" target="_blank" class="pdf-link">og resten kan ses i en pdf-fil.</a>
+                    </p>
+                    
+                    <section id="webtekst-edit">
+                        <p class="body-text">
+                            Dette er et stykke fra min opgave hvor jeg bruger punktformlister til at gøre informationen mere overskuelig, hurtigt skanbar og nem at forstå:
+                        </p>
+                        <h4 class="sub-skrift">
+                            Større fokus på samfundets udfordringer
+                        </h4>
+                        
+                        <p class="body-text">
+                            Regeringen og Venstre har særligt ønsket flere penge til <i>strategisk forskning</i>, som er målrettet forskning i de <i>udfordringer</i>, <b>samfundet</b> står overfor.
+                        </p>
+                        
+                        <p class="body-text">
+                           <b>De vil derfor putter penge ind til:</b> 
+                        </p>
+                        
+                        <ul class="liste">
+                            <li>
+                                <b>1,89 mia. kroner</b> til <i>Innovationsfonden</i>, samme som sidste år.
+                            </li>
+                            <li>
+                                <b>24,2 mia. kroner</b> til <i>Forskningsreserven</i>
+
+                            </li>
+                            <li>
+                                <b>750 mio. kroner</b> fra regeringens <i>krigskasse</i> indgår i <i>kampen mod Corona</i>
+                            </li>
+                            <li>
+                                <b>900 mio. kroner</b> fra <i>Innovationsfonden </i>til <i>forskning</i> og <i>innovation indenfor Corona</i>
+                            </li>
+                            <li>
+                                <b>390 mio. kroner</b> til <i>biovidenskab</i> eller <i>life science</i>
+
+                            </li>
+                            <li>
+                                <b>110 mio. kroner</b> af den samlede pulje går til et <i>program</i>, der ifølge partierne skal fremme en mere <i>ligelig fordeling af mænd og kvinder</i> i forskning.
+
+                            </li>
+                        </ul>
+                        
+                        <p class="body-text">
+                            Den samlede aftale er på <b>3,1 milliard kroner.</b>
+                        </p>
+                        <a href="https://www.bt.dk/politik/politisk-aftale-om-at-fange-co2-og-skabe-groennere-braendstof" target="_blank" class="pdf-link">Hvis du gerne vil gå ind og læse artiklen fra B.T. til at samligne</a>
+                    </section>
+                </section>
             </section>
             
             <section id="refleksion-tekstproduktion">
                 <h2 class="overskrift">
-                    En ny måde at skrive på
+                    Ny måde at skrive på
                 </h2>
                 
                 <p class="body-text">
@@ -314,8 +381,12 @@
                     </li>
                     <li>
                         Schmith, W. K. M., 2020. Tekstproduktion. [Online] 
-                        Available at: <a href="https://eadania.mrooms.net/" target="_blank">https://eadania.mrooms.net/</a>
+                        Available at: <a href="kommunikation/Tekstproduktion/tekstproduktion.pdf" target="_blank">https://eadania.mrooms.net/</a>
                         [Senest hentet eller vist den 15 december 2020].
+                    </li>
+                    <li>
+                        Rijna, D., 2020. 2 Tekster
+                        Available at: <a href="kommunikation/Tekstproduktion/2%20tekster.pdf" target="_blank">2 Tekster</a>
                     </li>
                 </ul>
             </section>

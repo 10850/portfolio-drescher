@@ -62,9 +62,9 @@
                             </li>
                         </ol>
                         
-                        <p class="body-text">
+                        <h4 class="sub-skrift">
                             Nu skal der farve på.
-                        </p>
+                        </h4>
                     </section>
                     
                     <section id="cap-options">
@@ -89,9 +89,6 @@
                     </section>
                     
                     <section id="cap-slut">
-                        <p class="body-text">
-                            Nu har vi en fed illustration af Captain America's skjold.
-                        </p>
                         <img src="design/illustrator/captaina/Captain-america-circle-tool-star-tool-gradient.png" alt="screenshot af illustrator" id="cap-slut-img">
                     </section>
                 </section>

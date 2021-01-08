@@ -18,9 +18,7 @@
                                   Kodning
                                 </a>
                                 <div class="dropdown-menu" id="kodning-dropdown" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="attributter.php">HTML</a>
-                                    <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="server.php">Serverer</a>
+                                  <a class="dropdown-item" href="fundamental-html.php">HTML</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="boxmodellen.php">CSS</a>
                                     <div class="dropdown-divider"></div>
@@ -29,6 +27,8 @@
                                   <a class="dropdown-item" href="php.php">PHP</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="bootstrap.php">Bootstrap</a>
+                                    <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item" href="min-udvikling-kodning.php">Min udvikling i kodning</a>
                                     <div class="dropdown-divider"></div>
                                 </div>
                             </li>
@@ -45,6 +45,8 @@
                                   <a class="dropdown-item" href="kvalitativ.php">Empiri</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="opskrifttilgodtale.php">Præsentationsteknik</a>
+                                    <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="tekstproduktion.php">Tekstproduktion</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="lacth.php">Informationsarkitektur</a>
                                     <div class="dropdown-divider"></div>
@@ -71,8 +73,6 @@
                                   <a class="dropdown-item" href="kortsortering.php">Kortsortering</a>
                                     <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="brugertest.php">Brugertest</a>
-                                    <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="tilgangelighed.php">Tilgængelighedstest</a>
                                     <div class="dropdown-divider"></div>
                                 </div>
                             </li>
@@ -142,24 +142,24 @@
                                         <div class="dropdown-menu" id="background-kodning" aria-labelledby="navbarDropdown">
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>HTML</h3></li>
-                                            <li><a class="dropdown-item" href="attributter.php">Attributter</a></li>
-                                            <li><a class="dropdown-item" href="kodeskikke.php">Kodeskikke</a></li>
+                                            <li><a class="dropdown-item" href="fundamental-html.php">Grundlæggende HTML</a></li>
                                             <li><a class="dropdown-item" href="seo.php">SEO</a></li>
                                             <li><a class="dropdown-item" href="adressering.php">Adressering</a></li>
                                             <li><a class="dropdown-item" href="videoogbilleder.php">Video og Billeder</a></li>
                                             <li><a class="dropdown-item" href="formularer.php">Formularer, felttyper og formatering</a></li>
                                           </ul> 
+                                          
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>CSS</h3></li>
                                             <li><a class="dropdown-item" href="boxmodellen.php">Boxmodellen</a></li>
                                             <li><a class="dropdown-item" href="selectors.php">Selectors</a></li>
-                                            <li><a class="dropdown-item" href="background-property.php">Background</a></li>
-                                            <li><a class="dropdown-item" href="borderogshadow.php">Border & Shadows</a></li>
-                                            <li><a class="dropdown-item" href="list-style.php">List-style</a></li>
-                                            <li><a class="dropdown-item" href="media-queries.php">@media</a></li>
-                                            <li><a class="dropdown-item" href="animationogtransistions.php">Animation & Transitions</a></li>
-                                            <li><a class="dropdown-item" href="displayogposition.php">Display & Position</a></li>
+                                            <li><a class="dropdown-item" href="displayogposition.php">Display &#38; Position</a></li>
                                             <li><a class="dropdown-item" href="cssgrid.php">CSS Grid</a></li>
+                                            <li><a class="dropdown-item" href="media-queries.php">@media</a></li>
+                                            <li><a class="dropdown-item" href="background-property.php">Background</a></li>
+                                            <li><a class="dropdown-item" href="list-style.php">List-style</a></li>
+                                            <li><a class="dropdown-item" href="borderogshadow.php">Border &#38; Shadows</a></li>
+                                            <li><a class="dropdown-item" href="animationogtransistions.php">Animation &#38; Transitions</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Versionsstyring</h3></li>
@@ -177,6 +177,7 @@
                                             <li class="mega-menu-list-title"><h3>Min udvikling i kodning</h3></li>
                                             <li><a class="dropdown-item" href="min-udvikling-kodning.php">Min udvikling i kodning</a></li>
                                           </ul>
+                                            
                                         </div>
                                     </li> <!-- mega dropdown -->
                                  </div> <!-- container til styling for mega dropdown -->
@@ -206,6 +207,10 @@
                                             <li><a class="dropdown-item" href="deathbypowerpoint.php">Death by Powerpoint</a></li>
                                           </ul>
                                           <ul class="mega-dropdown-desktop">
+                                            <li class="mega-menu-list-title"><h3>Tekstproduktion</h3></li>
+                                            <li><a class="dropdown-item" href="tekstproduktion.php">Tekstproduktion</a></li>
+                                          </ul>
+                                          <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Informationsarkitektur</h3></li>
                                             <li><a class="dropdown-item" href="lacth.php">LATCH</a></li>
                                             <li><a class="dropdown-item" href="webstruktur.php">Webstruktur</a></li>
@@ -233,7 +238,6 @@
                                           <a class="dropdown-item" href="ekspertvudering.php">Ekspertvudering</a>
                                           <a class="dropdown-item" href="kortsortering.php">Kortsortering</a>
                                           <a class="dropdown-item" href="brugertest.php">Brugertest</a>
-                                          <a class="dropdown-item" href="tilgangelighed.php">Tilgængelighedstest</a>
                                     </div>
                                   </li> <!-- standard dropdown class="dropdown-standard" -->
                                 <div class="dropdown-menu-mega">
@@ -245,8 +249,8 @@
                                           <ul class="mega-dropdown-desktop">
                                             <li class="mega-menu-list-title"><h3>Illustrator</h3></li>
                                             <li><a class="dropdown-item" href="artboards.php">Artboards</a></li>
-                                            <li><a class="dropdown-item" href="blendtool.php">Blend tool</a></li>
                                             <li><a class="dropdown-item" href="captainamerica.php">Captain America</a></li>
+                                            <li><a class="dropdown-item" href="blendtool.php">Blend tool</a></li>
                                             <li><a class="dropdown-item" href="directselection.php">Direct Selection Tool</a></li>
                                             <li><a class="dropdown-item" href="shapebuildertool.php">Shape Builder Tool</a></li>
                                           </ul> 
@@ -254,9 +258,9 @@
                                             <li class="mega-menu-list-title"><h3>Photoshop</h3></li>
                                             <li><a class="dropdown-item" href="smokeythebear.php">Smokey the Bear</a></li>
                                             <li><a class="dropdown-item" href="smooth.php">Warped</a></li>
+                                            <li><a class="dropdown-item" href="smartobject.php">Smart Object</a></li>
                                             <li><a class="dropdown-item" href="contentawarefill.php">Content Aware Fill</a></li>
                                             <li><a class="dropdown-item" href="spothealingtool.php">Spot Healing Tool</a></li>
-                                            <li><a class="dropdown-item" href="smartobject.php">Smart Object</a></li>
                                             <li><a class="dropdown-item" href="outofframe.php">Out of Frame</a></li>
                                             <li><a class="dropdown-item" href="saturation.php">Saturation</a></li>
                                           </ul>

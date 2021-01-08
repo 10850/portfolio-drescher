@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -94,7 +96,7 @@
                         </li>
                     </ul>
                     
-                    <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html">Vil du gerne have en mere detaljeret guide til hvordan man laver versionsstyring på Github?</a>
+                    <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html" target="_blank" class="pdf-link">Vil du gerne have en mere detaljeret guide til hvordan man laver versionsstyring på Github?</a>
                 </section>
                 
                 <section id="version-onepage">

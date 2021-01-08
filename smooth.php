@@ -45,10 +45,9 @@
                         </ul>
                     </section>
                     
+                    
+                    
                     <section id="smooth-start">
-                        <p class="body-text">
-                            Jeg lavet denne øvelse på studiet med at lave noget dynamisk text design ved brug af Text tool arc, Layer mask og Gradients.
-                        </p>
                         <img src="design/photoshop/warped/warped-alternate-start.jpg" alt="screenshot af photoshop" id="smooth-start-img">
                         <ol class="liste">
                             <li>
@@ -85,28 +84,17 @@
                                 Nu laver jeg et rectangle med rectangle tool og give den en pink farve og giver den en lavere opaicity.
                             </li>
                             <li>
-                                Til sidst laver jeg en layermask og 
+                                Til sidst laver jeg en clipping mask med teksten i så regtanglet kun dækker bogstaverne.
                             </li>
                         </ol>
                     </section>
                     
                     <section id="smooth-slut">
                         <img src="design/photoshop/warped/warped-alternate.jpg" alt="screenshot af photoshop" id="smooth-slut-img">
+                        <p class="body-text">
+                            Jeg lavet denne øvelse på studiet med at lave noget dynamisk text design ved brug af Text tool arc, Layer mask og Gradients.
+                        </p>
                     </section>
-                </section>
-                
-                <section class="kilder">
-                    <ul class="kildeliste">
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                        <li>
-                        
-                        </li>
-                    </ul>
                 </section>
             </div>
         

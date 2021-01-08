@@ -7,6 +7,8 @@
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
     <title>Drescher Rijna - Læringsportfolio</title>
+    <!-- Logo ikon oppe i fanen -->
+    <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
     <link rel="stylesheet" href="https://use.typekit.net/rgm6her.css">
     <!-- Karma fra google fonts -->
@@ -61,13 +63,13 @@
         
                 <section id="softbites-media">
                     <section id="softbites-break-mobil" class="background-icons-kodning">
-                        <img src="kodning/css/mediaqueries/breakpointtilgridskode2.png" id="media1-kode">
+                        <img src="kodning/css/mediaqueries/breakpointtilgridskode1.png" id="media1-kode">
                         <img src="kodning/css/mediaqueries/breakpointtilgrids2.png" id="media1-screen">
                     </section>
                     
                     
                     <section id="softbites-break-desktop">
-                        <img src="kodning/css/mediaqueries/breakpointtilgridskode1.png" id="media2-kode">
+                        <img src="kodning/css/mediaqueries/breakpointtilgridskode2.png" id="media2-kode">
                         <img src="kodning/css/mediaqueries/breakpointtilgrids.png" id="media2-screen">
                     </section>
                 </section>

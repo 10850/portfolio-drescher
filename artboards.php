@@ -97,9 +97,12 @@
                     </section>
                     
                     <section id="workspace-change">
-                        <section id="workspace-start">
+                        <section id="workspace-change-intro">
                             <h2 class="overskrift">Customized workspace</h2>
                             <p class="body-text">På illustrator kan du ændre på de forskellige panellers position i programmet og lave dit eget personlige workspace.</p>
+                        </section>
+                        
+                        <section id="workspace-start">
                             <img src="design/illustrator/artboardsogworkspace/workspace-start.png" alt="screenshot af illustrator" id="workspace-start-img">
                             <ol class="liste">
                                 <li>
