@@ -270,6 +270,7 @@ body {
 /* UNDERMENU TIL MOBIL */
 .main-button {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .main-button .btn {
@@ -290,6 +291,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    justify-content: space-around;
 }
 
 .options-list li {
@@ -5475,177 +5477,304 @@ video-php h1 {
 
 
 /* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
-.projekter-php .navbar {
+.projekter-php .navbar,
+.projekter-php footer {
     background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%);
 }
 
-.projekter-php footer {
-    background: linear-gradient(-180deg,#030303 10%,#1f1f1f 360%);
+.projekter-php .overskrift {
+    text-align: center;
 }
 
-.projekter-php .timeline {
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  flex-direction: column;
-  max-width: 700px;
-  position: relative;
-}
-.projekter-php .timeline__content-title {
-  font-weight: normal;
-  font-size: 66px;
-  margin: -10px 0 0 0;
-  transition: 0.4s;
-  padding: 0 10px;
-  box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
-  color: #fff;
-}
-.projekter-php .timeline__content-desc {
-  margin: 0;
-  font-size: 15px;
-  box-sizing: border-box;
-  color: rgba(255, 255, 255, .7);
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: normal;
-  line-height: 25px;
-}
-.projekter-php .timeline:before {
-  position: absolute;
-  left: 50%;
-  width: 2px;
-  height: 100%;
-  margin-left: -1px;
-  content: "";
-  background: rgba(255, 255, 255, .07);
-}
-@media only screen and (max-width: 767px) {
-  .timeline:before {
-    left: 40px;
-  }
-}
-.projekter-php .timeline-item {
-  padding: 40px 0;
-  opacity: 0.3;
-  filter: blur(2px);
-  transition: 0.5s;
-  box-sizing: border-box;
-  width: calc(50% - 40px);
-  display: flex;
-  position: relative;
-  transform: translateY(-80px);
-}
-.projekter-php .timeline-item:before {
-  content: attr(data-text);
-  letter-spacing: 3px;
-  width: 100%;
-  position: absolute;
-  color: rgba(255, 255, 255, .5);
-  font-size: 13px;
-  font-family: 'Pathway Gothic One', sans-serif;
-  border-left: 2px solid rgba(255, 255, 255, .5);
-  top: 70%;
-  margin-top: -5px;
-  padding-left: 15px;
-  opacity: 0;
-  right: calc(-100% - 56px);
-}
-.projekter-php .timeline-item:nth-child(even) {
-  align-self: flex-end;
-}
-.projekter-php .timeline-item:nth-child(even):before {
-  right: auto;
-  text-align: right;
-  left: calc(-100% - 56px);
-  padding-left: 0;
-  border-left: none;
-  border-right: 2px solid rgba(255, 255, 255, .5);
-  padding-right: 15px;
-}
-.projekter-php .timeline-item--active {
-  opacity: 1;
-  transform: translateY(0);
-  filter: blur(0px);
-}
-.projekter-php .timeline-item--active:before {
-  top: 50%;
-  transition: 0.3s all 0.2s;
-  opacity: 1;
-}
-.projekter-php .timeline-item--active .timeline__content-title {
-  margin: -50px 0 20px 0;
-}
-@media only screen and (max-width: 767px) {
- .projekter-php  .timeline-item {
-    align-self: baseline !important;
+
+#projekt-hackathon {
+    grid-area: projekt-hackathon;
     width: 100%;
-    padding: 0 30px 150px 80px;
-  }
- .projekter-php  .timeline-item:before {
-    left: 10px !important;
-    padding: 0 !important;
-    top: 50px;
-    text-align: center !important;
-    width: 60px;
-    border: none !important;
-  }
- .projekter-php .timeline-item:last-child {
-    padding-bottom: 40px;
-  }
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/hackathon-prototype.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
 }
-.projekter-php .timeline__img {
-  max-width: 100%;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+
+#projekt-iconset {
+    grid-area: projekt-iconset; 
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/iconset-03.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
 }
-.projekter-php .timeline-container {
-  width: 100%;
-  position: relative;
-  padding: 80px 0;
-  transition: 0.3s ease 0s;
-  background-attachment: fixed;
-  background-size: cover;
+
+#projekt-scootershopicons {
+    grid-area: projekt-scootershopicons;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/scootericons.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
 }
-.projekter-php .timeline-container:before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
- background: rgba(0,0,0,0.6);
-  content: "";
+
+#projekt-scootershop {
+    grid-area: projekt-scootershop; 
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/gisito-scooters.jpg);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center;
 }
-.projekter-php .timeline-header {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 80px;
-  position: relative;
+
+#projekt-workshop {
+    grid-area: projekt-workshop;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/whitmanstep5billed.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
 }
-.projekter-php .timeline-header__title {
-  color: #fff;
-  font-size: 58px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: normal;
-  margin: 0;
+
+#projekt-designthinking {
+    grid-area: projekt-designthinking;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/amdheltene.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.projekter-php .timeline-header__subtitle {
-  color: rgba(255, 255, 255, .5);
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 16px;
-  letter-spacing: 5px;
-  margin: 10px 0 0 0;
-  font-weight: normal;
+
+#projekt-usability {
+    grid-area: projekt-usability;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/usability-rapport.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.projekter-php .demo-footer {
-  padding: 60px 0;
-  text-align: center;
+
+#projekt-scootershopv2 {
+    grid-area: projekt-scootershopv2;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/gisitoscooterv2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.projekter-php .demo-footer a {
-  color: #999;
-  display: inline-block;
-  font-family: Cardo;
+
+#projekt-scooterlogo {
+    grid-area: projekt-scooterlogo;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/gisito-scooters-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#projekt-outofframe {
+    grid-area: projekt-outofframe;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/wandtool-contract-inverse-bevelemboss-layermask-after.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+}
+
+#projekt-onepage {
+    grid-area: projekt-onepage;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/softbites-onepage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#mitgrid-projekt {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "projekt-hackathon"
+        "projekt-iconset"
+        "projekt-scootershopicons"
+        "projekt-scootershop"
+        "projekt-workshop"
+        "projekt-designthinking"
+        "projekt-usability"
+        "projekt-scootershopv2"
+        "projekt-scooterlogo"
+        "projekt-outofframe"
+        "projekt-onepage";
+}
+
+#projekt-hackathon section,
+#projekt-iconset section,
+#projekt-scootershopicons section,
+#projekt-scootershop section,
+#projekt-workshop section,
+#projekt-designthinking section,
+#projekt-usability section,
+#projekt-scootershopv2 section,
+#projekt-scooterlogo section,
+#projekt-outofframe section,
+#projekt-onepage section {
+    margin-top: -1em;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.85);
+    display: none;
+}
+
+.description {
+    margin: 1em;
+    grid-row-gap: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.description .body-text,
+.description .overskrift,
+.description .dato {
+    color: white;
 }
 
 
+#projekt-hackathon .description {
+    top: 125px;
+}
+
+#projekt-iconset .description {
+    top: 125px;
+}
+
+#projekt-scootershopicons .description {
+    top: 125px;
+}
+
+#projekt-scootershop .description {
+    top: 125px;
+}
+
+#projekt-workshop .description {
+    top: 125px;
+    
+}
+
+#projekt-designthinking .description {
+    top: 85px;
+}
+
+#projekt-usability .description {
+    top: 125px;
+}
+
+#projekt-scootershopv2 .description {
+    top: 125px;
+}
+
+#projekt-scooterlogo .description {
+    top: 125px;
+}
+
+#projekt-outofframe .description {
+    top: 115px;
+}
+
+#projekt-onepage .description {
+    top: 105px;
+}
+
+
+.projekter-php .description .dato {
+    display: flex;
+    margin-left: auto;
+}
+
+.projekter-php #mitgrid-projekt .link-projekt {
+    position: relative;
+    align-self: center;
+}
+
+
+#projekt-hackathon:hover section,
+#projekt-iconset:hover section,
+#projekt-scootershopicons:hover section,
+#projekt-scootershop:hover section,
+#projekt-workshop:hover section,
+#projekt-designthinking:hover section,
+#projekt-usability:hover section,
+#projekt-scootershopv2:hover section,
+#projekt-scooterlogo:hover section,
+#projekt-outofframe:hover section,
+#projekt-onepage:hover section  {
+    display: block;
+}
+
+#projekt-hackathon:focus section,
+#projekt-iconset:focus section,
+#projekt-scootershopicons:focus section,
+#projekt-scootershop:focus section,
+#projekt-workshop:focus section,
+#projekt-designthinking:focus section,
+#projekt-usability:focus section,
+#projekt-scootershopv2:focus section,
+#projekt-scooterlogo:focus section,
+#projekt-outofframe:focus section,
+#projekt-onepage:focus section  {
+    display: block;
+}
+
+#projekt-hackathon:hover,
+#projekt-iconset:hover,
+#projekt-scootershopicons:hover,
+#projekt-scootershop:hover,
+#projekt-workshop:hover,
+#projekt-designthinking:hover,
+#projekt-usability:hover,
+#projekt-scootershopv2:hover,
+#projekt-scooterlogo:hover,
+#projekt-outofframe:hover,
+#projekt-onepage:hover  {
+    background-size: 150%;
+    transition: 0.25s;
+}
+
+#projekt-hackathon:focus,
+#projekt-iconset:focus,
+#projekt-scootershopicons:focus,
+#projekt-scootershop:focus,
+#projekt-workshop:focus,
+#projekt-designthinking:focus,
+#projekt-usability:focus,
+#projekt-scootershopv2:focus,
+#projekt-scooterlogo:focus,
+#projekt-outofframe:focus,
+#projekt-onepage:focus  {
+    background-size: 150%;
+    background-position: center;
+    transition: 0.25s;
+}
 
 /* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
 
@@ -6522,6 +6651,8 @@ usability-table {
 
 .sporgeskema-php #mitgrid-sporgeskema {
     margin: 3.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 25px;
     grid-template-columns: 1fr;
@@ -10715,9 +10846,67 @@ usability-table {
     
     
 /* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+#mitgrid-projekt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "projekt-hackathon projekt-iconset"
+        "projekt-scootershopicons projekt-scootershop"
+        "projekt-workshop projekt-designthinking"
+        "projekt-usability projekt-scootershopv2"  
+        "projekt-scooterlogo projekt-outofframe"
+        "projekt-onepage projekt-onepage";
+}
 
+#projekt-onepage {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+    
+#projekt-hackathon .description {
+    top: 125px;
+}
 
+#projekt-iconset .description {
+    top: 125px;
+}
 
+#projekt-scootershopicons .description {
+    top: 125px;
+}
+
+#projekt-scootershop .description {
+    top: 125px;
+}
+
+#projekt-workshop .description {
+    top: 105px;
+    
+}
+
+#projekt-designthinking .description {
+    top: 85px;
+}
+
+#projekt-usability .description {
+    top: 110px;
+}
+
+#projekt-scootershopv2 .description {
+    top: 125px;
+}
+
+#projekt-scooterlogo .description {
+    top: 125px;
+}
+
+#projekt-outofframe .description {
+    top: 115px;
+}
+
+#projekt-onepage .description {
+    top: 85px;
+}
 
 /* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
     
@@ -11714,6 +11903,8 @@ usability-table {
 
 .sporgeskema-php #mitgrid-sporgeskema {
     margin: 3.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 25px;
     grid-template-columns: 1fr;
@@ -16185,7 +16376,73 @@ usability-table {
     margin-top: 25px;
 }
 /* KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE KILDELISTE */
+
     
+    
+    
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+#mitgrid-projekt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "projekt-hackathon projekt-iconset projekt-scootershopicons"
+        "projekt-scootershop projekt-workshop projekt-designthinking"
+        "projekt-usability projekt-scootershopv2 projekt-scooterlogo"  
+        "projekt-outofframe projekt-onepage projekt-onepage";
+}
+
+#projekt-onepage {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+    
+#projekt-hackathon .description {
+    top: 125px;
+}
+
+#projekt-iconset .description {
+    top: 125px;
+}
+
+#projekt-scootershopicons .description {
+    top: 105px;
+}
+
+#projekt-scootershop .description {
+    top: 110px;
+}
+
+#projekt-workshop .description {
+    top: 85px;
+    
+}
+
+#projekt-designthinking .description {
+    top: 50px;
+}
+
+#projekt-usability .description {
+    top: 110px;
+}
+
+#projekt-scootershopv2 .description {
+    top: 90px;
+}
+
+#projekt-scooterlogo .description {
+    top: 100px;
+}
+
+#projekt-outofframe .description {
+    top: 115px;
+}
+
+#projekt-onepage .description {
+    top: 80px;
+}
+
+
+/* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
     
     
 
@@ -16846,6 +17103,8 @@ usability-table {
 
 .sporgeskema-php #mitgrid-sporgeskema {
     margin: 7em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: grid;
     grid-row-gap: 25px;
     grid-template-columns: 1fr;
@@ -20333,10 +20592,64 @@ usability-table {
     
     
 /* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP START */
+#mitgrid-projekt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "projekt-hackathon projekt-iconset projekt-scootershopicons projekt-scootershop"
+        "projekt-workshop projekt-designthinking projekt-usability projekt-scootershopv2"
+        "projekt-scooterlogo projekt-outofframe projekt-onepage projekt-onepage" ;
+}
 
+#projekt-onepage {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
 
+#projekt-hackathon .description {
+    top: 100px;
+}
 
+#projekt-iconset .description {
+    top: 100px;
+}
 
+#projekt-scootershopicons .description {
+    top: 50px;
+}
+
+#projekt-scootershop .description {
+    top: 30px;
+}
+
+#projekt-workshop .description {
+    top: 60px;
+    
+}
+
+#projekt-designthinking .description {
+    top: 30px;
+}
+
+#projekt-usability .description {
+    top: 40px;
+}
+
+#projekt-scootershopv2 .description {
+    top: 50px;
+}
+
+#projekt-scooterlogo .description {
+    top: 100px;
+}
+
+#projekt-outofframe .description {
+    top: 85px;
+}
+
+#projekt-onepage .description {
+    top: 30px;
+}
 /* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
     
     
