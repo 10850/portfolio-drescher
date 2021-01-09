@@ -6,7 +6,7 @@
     <meta name="description" content="Drescher Rijna's Læringsportfolio for 1.semester 2020, som mulitmediedesigner. Siden fortæller om alt jeg har lært gennem studiet og viser mine fremskridt og projekter...">
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Refleksion, Projekter, Studieprojekt, Eksamensprojekt, Empathize, Define, Ideate, Protoype, Test, Implement, Implementering">
     <meta name="author" content="Drescher Rijna">
-    <title>Design Thinking</title>
+    <title>Design Thinking - Læringsportfolio</title>
     <!-- Logo ikon oppe i fanen -->
     <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->

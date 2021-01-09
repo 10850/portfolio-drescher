@@ -6,7 +6,7 @@
     <meta name="description" content="Drescher Rijna's Læringsportfolio for 1.semester 2020, som mulitmediedesigner. Siden fortæller om alt jeg har lært gennem studiet og viser mine fremskridt og projekter...">
     <meta name="keywords" content="Multimedidesigner, 1. semester, læringsportfolio, Drescher Rijna, Design Thinking, Kodning, Kommunikation, Usability, Design, Videoproduktion, Fotografering, Refleksion, Projekter, Studieprojekt, Eksamensprojekt">
     <meta name="author" content="Drescher Rijna">
-    <title>Drescher Rijna - Læringsportfolio</title>
+    <title>Versionsstyring - Læringsportfolio</title>
     <!-- Logo ikon oppe i fanen -->
     <link href="closure-logo-black.png" rel="icon" type="image">
     <!-- Montserrat & Quimby Mayoral og Lora fra adobe fonts-->
@@ -44,35 +44,26 @@
                 <section id="hvad-er-git">
                     <h2 class="overskrift">Hvad er git?</h2>
                     <p class="body-text">
-                        Git er en standard (protokol) for et versionsstyringssystem Git er et versionsstyringssystem (ibid).
+                        Git er et versionstyringssystem som, er en standard (protokol) for et versionsstyringssystem.
                     </p>
                     <p class="body-text">
                         Det er oprindeligt skrevet at Linus Thorvalds for, at holde styr på udviklingen af Linux efterhånden, som der kom flere med (ibid).
-                    </p>
-                    <p class="body-text">
-                        Du kan selv opsætte en Git-server (ibid).
                     </p>
                 </section>
                 
                 <section id="hvad-er-github">
                     <h2 class="overskrift">Hvad er github?</h2>
                     <p class="body-text">
-                        Det er en webplatform, der tillader dig at oprette Git-repositories(skyer). Hvor du kan lægge dine filer og mapper og lave versionstyring meget mere effektivt da det er en VCS. Og du behøver derfor ikke at installere en server selv (ibid).
+                        Det er en webplatform, der tillader dig at oprette repositories (Rijna &#38; Knudsen, 2020). Hvor du kan lægge dine filer og mapper og lave versionstyring meget mere effektivt. Og det er et VCS, som betyder at du ikke behøver at installere en server selv (ibid).
                     </p>
                     <p class="body-text">
                         Det har forskellige features bygget ind som giver bedre mulighed for samarbejde og projektstyring mv. (ibid).
                     </p>
                     <p class="body-text">
-                        Det er oprindligt set tænkt som et kodedelings-site, men er lidser langsomt blevet til et socialt medie. Det har givet virksomheder behov for at sætte det højt op på prioriteringslisten når det kommer til ansættelser (ibid). Faktisk til sådan en grad at man via samarbejde på Github i forskellige projekter kan lave et legit portfolio der kan give en et job og anerkendelse  (ibid).
-                    </p>
-                    <p class="body-text">
-                        Kan bruges via kommandolinje eller desktopprogram (ibid).
+                        Det er oprindligt set tænkt som et kodedelings-site, men er lidser langsomt blevet til et socialt medie (ibid). Det har givet virksomheder behov for at sætte det højt op på prioriteringslisten når det kommer til ansættelser (ibid). Faktisk til sådan en grad at man via samarbejde på Github i forskellige projekter kan lave et legit portfolio der kan give en et job og anerkendelse  (ibid).
                     </p>
                     <p class="body-text">
                         Det giver mulighed til at finde inspiration og løsninger til egne projekter (ibid).
-                    </p>
-                    <p class="body-text">
-                        Det er et open-source system som betyder at Github er dem som holder styr på serverne (ibid). Derfor er der mulighed for at lave private repositories for eksempelvis virksomheder som vil have fuldkontrol over serveren (ibid).
                     </p>
                 </section>
                 

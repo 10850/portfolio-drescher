@@ -9904,6 +9904,7 @@ usability-table {
 
 .samfundsvidenskablig-php #kortlers-model-img {
     grid-area: kortlers-model-img;
+    
 }
 
 .samfundsvidenskablig-php #kotlers-elementer {
@@ -15206,6 +15207,9 @@ usability-table {
 
 .humanistisk-php #imk-modellen-img {
     grid-area: imk-modellen-img;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .humanistisk-php #imk-elementer {
@@ -15373,6 +15377,9 @@ usability-table {
 
 .samfundsvidenskablig-php #kortlers-model-img {
     grid-area: kortlers-model-img;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .samfundsvidenskablig-php #kotlers-elementer {
@@ -16533,7 +16540,7 @@ usability-table {
     
     #underoverskrift {
         font-size: 16px;
-        margin-top: -0.5em;
+        margin-top: 0em;
     }
     
     /* Forside menu styling */
