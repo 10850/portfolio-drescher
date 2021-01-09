@@ -5984,6 +5984,10 @@ video-php h1 {
     display: none;
 }
     
+
+    samfundsvidenskablig-php h1 {
+        word-break: break-all;
+    }   
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/
     /* forside menu */
     .forsidemenu {

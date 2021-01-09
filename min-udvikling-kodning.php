@@ -23,8 +23,6 @@
         <header class="kodning-header">
             <?php include 'menu.inc' ?>
         </header>
-        
-             <?php include 'undermenu-css.inc' ?>
             
             <div id="mitgrid-kodningrefleksion">
                 
