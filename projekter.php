@@ -78,6 +78,46 @@
                     </div>
                 </section>
             </section>
+            
+            <section id="projekt-github">
+                <section>
+                    <div class="description">
+                        <h2 class="overskrift">
+                            Github Guide
+                        </h2>
+
+                        <p class="body-text">
+                            Jeg har sammen med Andreas lavede en hjemmeside om versionstyring med Github. I denne side vil man se forklaringer af begrebet versionstyring, se guides for versionstyring på github og se fordelene ved Github som værktøj.
+                        </p>
+
+                        <a href="http://10850.web.eadania.dk/versionsstyring/githubdesktopguide.html" target="_blank" class="link-projekt"><button type="button" class="btn btn-success">Besøg websitet</button></a>
+
+                        <h5 class="dato">
+                            21. september 2020
+                        </h5>
+                    </div>
+                </section>
+            </section>
+            
+            <section id="projekt-sporgerskema">
+                <section>
+                    <div class="description">
+                        <h2 class="overskrift">
+                            Spørgeskema: Corona på Dania
+                        </h2>
+
+                        <p class="body-text">
+                            Jeg var med til, som en øvelse, at lave et spørgeskema vedrørende Corona på Dania Skive sammen med Hanne, Terkel og Alberte. Hvor vi brugte principperne for en god spørgeskemaundersøgelse.
+                        </p>
+
+                        <a href="https://docs.google.com/forms/d/1MES4PFeE3aFA2y_lLbiDNMxuD9OC5EcEiZ57Cjwn1Lk/prefill" target="_blank" class="link-projekt"><button type="button" class="btn btn-success">Gå ind på spørgeskemaet</button></a>
+
+                        <h5 class="dato">
+                            22. september 2020
+                        </h5>
+                    </div>
+                </section>
+            </section>
         
             <section id="projekt-scootershop">
                 <section>
@@ -156,6 +196,26 @@
 
                         <h5 class="dato">
                             15. oktober 2020
+                        </h5>
+                    </div>
+                </section>
+            </section>
+            
+            <section id="projekt-quickndirty">
+                <section>
+                    <div class="description">
+                        <h2 class="overskrift">
+                            Quick n' Dirty Video
+                        </h2>
+
+                        <p class="body-text">
+                            Jeg har været med til at lave en quick n' dirty video med Amalie, Hanne, Chrisitine, Jonas og Nicolaj, hvor vi lavede en promoverende video for lydtætte høretelefoner.
+                        </p>
+
+                        <a href="https://youtu.be/EZBNnUBNN8A" target="_blank" class="link-projekt"><button type="button" class="btn btn-success">Besøg websitet</button></a>
+
+                        <h5 class="dato">
+                            21. Oktober 2020
                         </h5>
                     </div>
                 </section>

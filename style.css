@@ -50,6 +50,130 @@ body {
     background: linear-gradient(180deg,#030303 10%,#1f1f1f 360%);
 }
 
+/* DARK MODES */
+/* UX/UI */
+.darkmode-uxui {
+    background-color: #030303;
+    
+}
+
+.darkmode-uxui p,
+.darkmode-uxui li,
+.darkmode-uxui h1,
+.darkmode-uxui h2,
+.darkmode-uxui h3,
+.darkmode-uxui h4 {
+    color: white;
+}
+
+.darkmode-uxui a {
+    color: dodgerblue;
+}
+
+.darklight-switch {
+    margin-left: 10px;
+}
+
+/* UX */
+.darkmode-ux {
+    background-color: #173B95;
+    
+}
+
+.darkmode-ux p,
+.darkmode-ux li,
+.darkmode-ux h1,
+.darkmode-ux h2,
+.darkmode-ux h3,
+.darkmode-ux h4 {
+    color: white;
+}
+
+.darkmode-ux a {
+    color: #0CD4F7;
+}
+
+.darklight-switch {
+    margin-left: 10px;
+}
+
+
+
+/* UI */
+/* DESIGN */
+.darkmode-design {
+    background-color: #441865;
+    
+}
+
+.darkmode-design p,
+.darkmode-design li,
+.darkmode-design h1,
+.darkmode-design h2,
+.darkmode-design h3,
+.darkmode-design h4 {
+    color: white;
+}
+
+.darkmode-design a {
+    color: #BD67FF;
+}
+
+.darklight-switch {
+    margin-left: 10px;
+}
+
+/* VIDEO */
+.darkmode-video {
+    background-color: #85140C;
+    
+}
+
+.darkmode-video p,
+.darkmode-video li,
+.darkmode-video h1,
+.darkmode-video h2,
+.darkmode-video h3,
+.darkmode-video h4,
+.darkmode-video blockquote {
+    color: white;
+}
+
+.darkmode-video a {
+    color: #FF5246;
+}
+
+.darklight-switch {
+    margin-left: 10px;
+}
+
+/* FOTO */
+.darkmode-foto {
+    background-color: #A45109;
+    
+}
+
+.darkmode-foto p,
+.darkmode-foto li,
+.darkmode-foto h1,
+.darkmode-foto h2,
+.darkmode-foto h3,
+.darkmode-foto h4 {
+    color: white;
+}
+
+.darkmode-foto a {
+    color: #ED980C;
+}
+
+.darklight-switch {
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+
 
 
 /* STYLING MOBILE FIRST */
@@ -5609,6 +5733,39 @@ video-php h1 {
     background-position: center;
 }
 
+#projekt-github {
+    grid-area: projekt-github;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/github-projekt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#projekt-sporgerskema {
+    grid-area: projekt-sporgerskema;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/sporgeskema-projekt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#projekt-quickndirty {
+    grid-area: projekt-quickndirty;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    background-image: url(projekter/video-projekt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
 #mitgrid-projekt {
     display: grid;
     grid-template-columns: 1fr;
@@ -5616,16 +5773,23 @@ video-php h1 {
         "projekt-hackathon"
         "projekt-iconset"
         "projekt-scootershopicons"
+        "projekt-github"
+        "projekt-sporgerskema"
         "projekt-scootershop"
         "projekt-workshop"
         "projekt-designthinking"
         "projekt-usability"
-        "projekt-scootershopv2"
         "projekt-scooterlogo"
+        "projekt-quickndirty"
+        "projekt-scootershopv2"
         "projekt-outofframe"
         "projekt-onepage";
 }
 
+
+#projekt-quickndirty section,
+#projekt-github section,
+#projekt-sporgerskema section,
 #projekt-hackathon section,
 #projekt-iconset section,
 #projekt-scootershopicons section,
@@ -5705,6 +5869,18 @@ video-php h1 {
     top: 105px;
 }
 
+#projekt-quickndirty .description {
+    top: 125px;
+}
+#projekt-github .description {
+    top: 125px;
+}
+#projekt-sporgerskema .description {
+    top: 125px;
+}
+
+
+
 
 .projekter-php .description .dato {
     display: flex;
@@ -5717,6 +5893,9 @@ video-php h1 {
 }
 
 
+#projekt-quickndirty:hover section,
+#projekt-github:hover section,
+#projekt-sporgerskema:hover section,
 #projekt-hackathon:hover section,
 #projekt-iconset:hover section,
 #projekt-scootershopicons:hover section,
@@ -5731,6 +5910,10 @@ video-php h1 {
     display: block;
 }
 
+
+#projekt-quickndirty:focus section,
+#projekt-github:focus section,
+#projekt-sporgerskema:focus section,
 #projekt-hackathon:focus section,
 #projekt-iconset:focus section,
 #projekt-scootershopicons:focus section,
@@ -5745,6 +5928,10 @@ video-php h1 {
     display: block;
 }
 
+
+#projekt-quickndirty:hover,
+#projekt-github:hover,
+#projekt-sporgerskema:hover,
 #projekt-hackathon:hover,
 #projekt-iconset:hover,
 #projekt-scootershopicons:hover,
@@ -5760,6 +5947,11 @@ video-php h1 {
     transition: 0.25s;
 }
 
+
+#projekt-quickndirty:focus section,
+#projekt-github:focus section,
+#projekt-sporgerskema:focus section,
+#projekt-hackathon:focus section,
 #projekt-hackathon:focus,
 #projekt-iconset:focus,
 #projekt-scootershopicons:focus,
@@ -5788,6 +5980,10 @@ video-php h1 {
 /* MOBILE eller mindre */
 @media only screen and (max-width: 600px) {
 
+.darklight-switch {
+    display: none;
+}
+    
 /* INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTMLINDEX.HTML INDEX.HTML START*/
     /* forside menu */
     .forsidemenu {
@@ -10852,17 +11048,15 @@ usability-table {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "projekt-hackathon projekt-iconset"
-        "projekt-scootershopicons projekt-scootershop"
+        "projekt-scootershopicons projekt-github"
+        "projekt-sporgerskema projekt-scootershop"
         "projekt-workshop projekt-designthinking"
-        "projekt-usability projekt-scootershopv2"  
-        "projekt-scooterlogo projekt-outofframe"
-        "projekt-onepage projekt-onepage";
+        "projekt-quickndirty projekt-scooterlogo "  
+        "projekt-scootershopv2 projekt-usability "
+        "projekt-outofframe projekt-onepage";
 }
 
-#projekt-onepage {
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
+
     
 #projekt-hackathon .description {
     top: 125px;
@@ -10907,6 +11101,16 @@ usability-table {
 
 #projekt-onepage .description {
     top: 85px;
+}
+    
+#projekt-quickndirty .description {
+    top: 125px;
+}
+#projekt-github .description {
+    top: 125px;
+}
+#projekt-sporgerskema .description {
+    top: 125px;
 }
 
 /* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
@@ -16393,8 +16597,9 @@ usability-table {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "projekt-hackathon projekt-iconset projekt-scootershopicons"
-        "projekt-scootershop projekt-workshop projekt-designthinking"
-        "projekt-usability projekt-scootershopv2 projekt-scooterlogo"  
+        "projekt-github projekt-sporgerskema projekt-scootershop"
+        "projekt-workshop projekt-designthinking projekt-scooterlogo"  
+        "projekt-quickndirty  projekt-scootershopv2 projekt-usability"
         "projekt-outofframe projekt-onepage projekt-onepage";
 }
 
@@ -16445,6 +16650,10 @@ usability-table {
 }
 
 #projekt-onepage .description {
+    top: 80px;
+}
+    
+#projekt-sporgerskema .description {
     top: 80px;
 }
 
@@ -20603,14 +20812,15 @@ usability-table {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-        "projekt-hackathon projekt-iconset projekt-scootershopicons projekt-scootershop"
-        "projekt-workshop projekt-designthinking projekt-usability projekt-scootershopv2"
-        "projekt-scooterlogo projekt-outofframe projekt-onepage projekt-onepage" ;
+        "projekt-hackathon projekt-iconset projekt-scootershopicons projekt-github"
+        "projekt-sporgerskema projekt-scootershop projekt-workshop projekt-designthinking"
+        "projekt-scooterlogo projekt-quickndirty  projekt-scootershopv2 projekt-usability"  
+        "projekt-outofframe projekt-onepage projekt-onepage projekt-onepage";
 }
 
 #projekt-onepage {
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
 #projekt-hackathon .description {
@@ -20656,6 +20866,18 @@ usability-table {
 
 #projekt-onepage .description {
     top: 30px;
+}
+    
+#projekt-sporgerskema .description {
+    top: 50px;
+}
+    
+#projekt-github .description {
+    top: 85px;
+}
+    
+#projekt-quickndirty .description {
+    top: 85px;
 }
 /* PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP PROJEKTER.PHP SLUT */
     
