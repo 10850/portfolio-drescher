@@ -340,7 +340,7 @@
                             Jeg har lært mere om hvordan man koder mere effektivt når man er under en deadline. Selvom det blev lidt rodet til sidst hjalp det forhenværende arbejde mig med at kunne finde rundt i rodet.
                         </p>
                         <p class="body-text">
-                            Jeg lærte også mere om photoshop, illstrator, XD og design generelt, og har en bedre forståelelse for hvad godt design er og hvordan dårligt design kan ødelægge et site selv når det er de små detaljer.
+                            Jeg lærte også mere om photoshop, illustrator, XD og design generelt, og har en bedre forståelelse for hvad godt design er og hvordan dårligt design kan ødelægge et site selv når det er de små detaljer.
                         </p>
                         <p class="body-text">
                             Derudover fik jeg også mere indblik på hvordan at arbejde sammen med andre, selv hvis det bare er noget feedback man er ude efter, kan være et kraftfuldt værktøj. For jeg har mange gange gennem projektet spurgt folk fra klassen og endda mine brødre om deres mening til min side og taget det til mig jeg kunne med de resourcer jeg havde.

@@ -127,7 +127,7 @@
 
                             <tr>
                                 <td>
-                                    Hvor ofte besøger du www.website.dk?
+                                    Hvor ofte besøger du www.website.dk? (Gregersen &amp; Wisler-Poulsen, 2017).
                                 </td>
                             </tr>
                         
@@ -137,7 +137,7 @@
 
                             <tr>
                                 <td>
-                                    Sæt kun et kryds. Og skriv evt. en kommentar!
+                                    Sæt kun et kryds. Og skriv evt. en kommentar! (ibid)
                                 </td>
                             </tr>
                         
@@ -148,22 +148,22 @@
                             <tr>
                                 <td>
                                     <p>
-                                        1 gang eller mere pr. uge
+                                        1 gang eller mere pr. uge (ibid)
                                     </p>
                                     <p>
-                                        1-3 gange pr. måneden
+                                        1-3 gange pr. måneden (ibid)
                                     </p>
                                     <p>
-                                        Mindre end 1 gang pr. mdr.
+                                        Mindre end 1 gang pr. mdr. (ibid)
                                     </p>
                                     <p>
-                                        Aldrig
+                                        Aldrig (ibid)
                                     </p>
                                     <p>
-                                        Ved ikke
+                                        Ved ikke (ibid)
                                     </p>
                                     <p>
-                                        Kommentar
+                                        Kommentar (ibid)
                                     </p>
                                 </td>
                             </tr>
@@ -174,7 +174,7 @@
 
                             <tr>
                                 <td>
-                                    Undersøge hvor ofte websitets nyheder bør opdateres
+                                    Undersøge hvor ofte websitets nyheder bør opdateres (ibid)
                                 </td>
                             </tr>
                     </table>

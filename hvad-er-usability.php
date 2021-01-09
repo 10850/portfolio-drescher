@@ -114,55 +114,55 @@
                     
                     <tr>
                         <td>
-                            Navigation og struktur (informationsarkitektur)
+                            Navigation og struktur (informationsarkitektur) (Gregersen &amp; Wisler-Poulsen, 2017).
                         </td>
                         <td>
-                            <p>Gangstertest (navigation)</p> 
-                            <p>Kortsortering (Informationsstruktur)</p> 
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            Funktionalitet (interaktionsdesign)
-                        </td>
-                        <td>
-                            <p>Spørgeskema</p>
-                            <p>Ekspertvurdering</p>
-                            <p>Burgertest</p>
+                            <p>Gangstertest (navigation) (ibid)</p> 
+                            <p>Kortsortering (Informationsstruktur) (ibid)</p> 
                         </td>
                     </tr>
                     
                     <tr>
                         <td>
-                            Layout og opbygning
+                            Funktionalitet (interaktionsdesign) (ibid)
                         </td>
                         <td>
-                            <p>Gangstertest</p>
-                            <p>Ekspertvurdering</p>
-                            <p>Brugertest</p>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            Tilgængelighed
-                        </td>
-                        <td>
-                            <p>Ekspertvurdering</p>
-                            <p>Brugertest</p>
-                            <p>Tilgængelighedstest</p>
+                            <p>Spørgeskema (ibid)</p>
+                            <p>Ekspertvurdering (ibid)</p>
+                            <p>Burgertest (ibid)</p>
                         </td>
                     </tr>
                     
                     <tr>
                         <td>
-                            Forståelighed
+                            Layout og opbygning (ibid)
                         </td>
                         <td>
-                            <p>Spørgeskema </p>
-                            <p>Kortsortering</p>
-                            <p>Brugertest</p>
+                            <p>Gangstertest (ibid)</p>
+                            <p>Ekspertvurdering (ibid)</p>
+                            <p>Brugertest (ibid)</p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            Tilgængelighed (ibid)
+                        </td>
+                        <td>
+                            <p>Ekspertvurdering (ibid)</p>
+                            <p>Brugertest (ibid)</p>
+                            <p>Tilgængelighedstest (ibid)</p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            Forståelighed (ibid)
+                        </td>
+                        <td>
+                            <p>Spørgeskema (ibid) </p>
+                            <p>Kortsortering (ibid)</p>
+                            <p>Brugertest (ibid)</p>
                         </td>
                     </tr>
                 </table>
